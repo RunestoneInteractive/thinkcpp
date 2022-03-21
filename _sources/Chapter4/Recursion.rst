@@ -125,7 +125,8 @@ comes out to roughly n.
    :language: cpp
    :caption: Guessing Game.
 
-   You can have a little bit of fun with recursion.  Try this guessing game below!
+   You can have a little bit of fun with recursion.  Try this guessing game below! 
+   (If this doesn't work in the browser, try compiling and running it in your favorite IDE.)
    ~~~~
    #include <iostream>
    #include <cstdlib>
