@@ -169,7 +169,7 @@ implementation below would fix the error in the code.
        else if (x > 0) {
            return x;
        }
-       return x;                      // WRONG!!
+       return x;       // Corrected! 
    }
 
    int main () {
