@@ -14,7 +14,7 @@ condition:
 
    This program will terminate with a return statement if the argument
    provided is not positive.  Try running the code as is.  If you get
-   an error message, try changing the value of x.
+   an error message, try changing the value of y.
    ~~~~
    #include <iostream>
    #include <cmath>
@@ -45,7 +45,7 @@ executed.
 I used a floating-point value on the right side of the condition because
 there is a floating-point variable on the left.
 
-Remember that any time you want to use one a function from the math
+Remember that any time you want to use a function from the math
 library, you have to include the header file ``<cmath>``.
 
 Putting ``return 0;`` in your code ends your program. Let's look back at a program from section 4.3. How would your answer change?
