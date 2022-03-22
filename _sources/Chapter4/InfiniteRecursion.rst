@@ -88,7 +88,7 @@ line is being created infinitely.
        void isNegative(int n) {
          if (n >= 0) {
            cout << "Not Negative!";
-           nLines(n - 1);
+           isNegative(n - 1);
          }
          cout << "Negative!";
        }
@@ -144,7 +144,7 @@ line is being created infinitely.
        void isNegative(int n) {
          if (n >= 0) {
            cout << "Not Negative!";
-           nLines(n + 1);
+           isNegative(n + 1);
          }
          cout << "Negative!";
        }
