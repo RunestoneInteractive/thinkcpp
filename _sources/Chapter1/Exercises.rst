@@ -280,7 +280,7 @@ assess what you have learned in this chapter.
     #include <|blank|>
     using namespace |blank|
     int |blank| {
-         cout << "Hello, World."<< endl|blank|
+         cout << "Hello, World."<< endl |blank|
          return |blank|;
    }
     
