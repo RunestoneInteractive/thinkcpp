@@ -112,7 +112,7 @@ Answer the following **Activecode** questions to assess what you have learned in
          =====
          cout << "Your solution had volume = " << volume << endl;
          =====
-         cout << "The correct solution has volume = 104.667";
+         cout << "The correct solution has volume = 523.333";
          =====
          }
 
