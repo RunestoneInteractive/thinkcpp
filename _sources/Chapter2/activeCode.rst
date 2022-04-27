@@ -20,7 +20,6 @@ Answer the following **Activecode** questions to assess what you have learned in
              char true = 'T';
              char false = 'F';
 
-             // DO NOT MODIFY ANYTHING BELOW THIS LINE.
              cout << true << " is short for true. ";
              cout << false << " is short for false." << endl;
          }

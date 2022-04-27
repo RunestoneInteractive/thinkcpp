@@ -25,7 +25,7 @@ Answer the following **Activecode** questions to assess what you have learned in
 
             // DO NOT MODIFY ANYTHING BELOW THIS LINE.
             cout << "I drive a " << year << " " << make << " ";
-            cout << model << endl.
+            cout << model << endl;
          }
 
    .. tab:: Parsonsprob
@@ -81,7 +81,7 @@ Answer the following **Activecode** questions to assess what you have learned in
             volume = 
 
             // DO NOT MODIFY ANYTHING BELOW THIS LINE.
-            cout << "Your solution had volume = " << volume << endl;  cout << "The correct solution has volume = 104.667";
+            cout << "Your solution had volume = " << volume << endl;  cout << "The correct solution has volume = 523.333";
          }
 
    .. tab:: Parsonsprob
@@ -112,7 +112,7 @@ Answer the following **Activecode** questions to assess what you have learned in
          =====
          cout << "Your solution had volume = " << volume << endl;
          =====
-         cout << "The correct solution has volume = 104.667";
+         cout << "The correct solution has volume = 523.333";
          =====
          }
 
@@ -129,7 +129,7 @@ Answer the following **Activecode** questions to assess what you have learned in
          int main () {
             
             // DO NOT MODIFY ANYTHING BELOW THIS LINE.
-            cout << "Your solution had apples = " << apples << "and oranges = " << oranges << "." << endl; cout << "The correct solution has apples = apples, and oranges = oranges.";
+            cout << "Your solution had apples = " << apples << ", and oranges = " << oranges << "." << endl; cout << "The correct solution has apples = apples, and oranges = oranges.";
          }
 
    .. tab:: Parsonsprob
