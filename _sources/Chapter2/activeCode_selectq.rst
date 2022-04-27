@@ -25,7 +25,7 @@ Answer the following **Activecode** questions to assess what you have learned in
 
             // DO NOT MODIFY ANYTHING BELOW THIS LINE.
             cout << "I drive a " << year << " " << make << " ";
-            cout << model << endl.
+            cout << model << endl;
          }
 
    .. tab:: Parsonsprob
