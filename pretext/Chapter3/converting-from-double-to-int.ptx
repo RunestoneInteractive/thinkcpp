@@ -36,7 +36,7 @@ int x = int(pi);</program>
           <p>temp</p>
         </statement>
         <feedback>
-          <p>This is the name of a variable. Only the value of a variable will print with cout.</p>
+          This is the name of a variable. Only the value of a variable will print with cout.
         </feedback>
       </choice>
       <choice>
@@ -44,7 +44,7 @@ int x = int(pi);</program>
           <p>8</p>
         </statement>
         <feedback>
-          <p>Remember that converting to an integer always rounds down.</p>
+          Remember that converting to an integer always rounds down.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -52,7 +52,7 @@ int x = int(pi);</program>
           <p>7</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -60,7 +60,7 @@ int x = int(pi);</program>
           <p>8.0</p>
         </statement>
         <feedback>
-          <p>This is not an integer data type, and it's not the right number.</p>
+          This is not an integer data type, and it's not the right number.
         </feedback>
       </choice>
       <choice>
@@ -68,7 +68,7 @@ int x = int(pi);</program>
           <p>7.0</p>
         </statement>
         <feedback>
-          <p>This is not an integer data type.</p>
+          This is not an integer data type.
         </feedback>
       </choice>
     </choices>
@@ -101,9 +101,9 @@ int final = int((exam1 + exam2 + exam3) / 3);
           <p><term>Method 1:</term><c>final</c> is a <c>double</c>, meaning my final grade will have more
             digits past the decimal, and will be higher than the <c>int</c> in Method 2.</p>
         </statement>
-        <feedback id="double_to_int_2_opt_a">
-          <p>Although <c>final</c> is a <c>double</c>, it doesn't have any digits past the decimal due to the
-            integer division.</p>
+        <feedback>
+          Although <c>final</c> is a <c>double</c>, it doesn't have any digits past the decimal due to the
+            integer division.
         </feedback>
       </choice>
       <choice>
@@ -112,18 +112,18 @@ int final = int((exam1 + exam2 + exam3) / 3);
             scores will be rounded to the nearest <c>int</c>, which in my case, will round all of them
             up.</p>
         </statement>
-        <feedback id="double_to_int_2_opt_b">
-          <p>Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
-            close to the next integer.</p>
+        <feedback>
+          Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
+            close to the next integer.
         </feedback>
       </choice>
       <choice>
         <statement id="double_to_int_2_opt_c">
           <p><term>Method 2:</term><c>final</c> is an <c>int</c>, so it gets rounded up.</p>
         </statement>
-        <feedback id="double_to_int_2_opt_c">
-          <p>Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
-            close to the next integer.</p>
+        <feedback>
+          Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
+            close to the next integer.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -131,8 +131,8 @@ int final = int((exam1 + exam2 + exam3) / 3);
           <p><term>Method 2:</term> the rounding happens at the very end, so my grade will be
             higher!</p>
         </statement>
-        <feedback id="double_to_int_2_opt_d">
-          <p>Always save your rounding until the end!</p>
+        <feedback>
+          Always save your rounding until the end!
         </feedback>
       </choice>
     </choices>

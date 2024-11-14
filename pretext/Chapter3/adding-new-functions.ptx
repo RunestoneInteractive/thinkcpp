@@ -128,32 +128,32 @@ endl</c>?</p>
         <statement id="new_functions_mc_1_opt_a">
           <p>You can name a function anything you want.</p>
         </statement>
-        <feedback id="new_functions_mc_1_opt_a">
-          <p>You can't name a function the same name as a reserved keyword.</p>
+        <feedback>
+          You can't name a function the same name as a reserved keyword.
         </feedback>
       </choice>
       <choice>
         <statement id="new_functions_mc_1_opt_b">
           <p>You can have a function with several parameters or a function with none.</p>
         </statement>
-        <feedback id="new_functions_mc_1_opt_b">
-          <p>This is true! However, you must always use parentheses.</p>
+        <feedback>
+          This is true! However, you must always use parentheses.
         </feedback>
       </choice>
       <choice>
         <statement id="new_functions_mc_1_opt_c">
           <p>You can call a function inside of another function.</p>
         </statement>
-        <feedback id="new_functions_mc_1_opt_c">
-          <p>This is true! It is common and useful.</p>
+        <feedback>
+          This is true! It is common and useful.
         </feedback>
       </choice>
       <choice>
         <statement id="new_functions_mc_1_opt_d">
           <p>You can write multiple statements on one line of a function.</p>
         </statement>
-        <feedback id="new_functions_mc_1_opt_d">
-          <p>This is true! As long as each statement ends with a semicolon.</p>
+        <feedback>
+          This is true! As long as each statement ends with a semicolon.
         </feedback>
       </choice>
     </choices>
@@ -163,7 +163,7 @@ endl</c>?</p>
       <p>Click on all function HEADERS.</p>
     </statement>
     <feedback>
-      <p>Remember, the operator '=' is used for assignment.</p>
+      Remember, the operator '=' is used for assignment.
     </feedback>
     <areas>
       <cline><area correct="yes">void printX() {</area></cline>
@@ -193,7 +193,7 @@ endl</c>?</p>
       <p>Click on all function CALLS.</p>
     </statement>
     <feedback>
-      <p>Remember, the operator '=' is used for assignment.</p>
+      Remember, the operator '=' is used for assignment.
     </feedback>
     <areas>
       <cline><area correct="no">void printX() {</area></cline>

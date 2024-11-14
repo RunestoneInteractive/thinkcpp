@@ -96,7 +96,7 @@ int main() {
           <p>a</p>
         </statement>
         <feedback>
-          <p>The string, not the variable, a will be printed.</p>
+          The string, not the variable, a will be printed.
         </feedback>
       </choice>
       <choice>
@@ -104,7 +104,7 @@ int main() {
           <p>b</p>
         </statement>
         <feedback>
-          <p>b will not be printed.</p>
+          b will not be printed.
         </feedback>
       </choice>
       <choice>
@@ -112,7 +112,7 @@ int main() {
           <p>z</p>
         </statement>
         <feedback>
-          <p>The cout statement prints a, not the value of the variable a.</p>
+          The cout statement prints a, not the value of the variable a.
         </feedback>
       </choice>
       <choice>
@@ -120,7 +120,7 @@ int main() {
           <p>8</p>
         </statement>
         <feedback>
-          <p>z is the value of a and 8 will not be printed</p>
+          z is the value of a and 8 will not be printed
         </feedback>
       </choice>
       <choice>
@@ -128,7 +128,7 @@ int main() {
           <p>Nothing! There will be a compile error!</p>
         </statement>
         <feedback>
-          <p>There is no type mismatch, so there will not be a compile error.</p>
+          There is no type mismatch, so there will not be a compile error.
         </feedback>
       </choice>
     </choices>
@@ -150,7 +150,7 @@ int main() {
           <p>a</p>
         </statement>
         <feedback>
-          <p>The string a will not be printed.</p>
+          The string a will not be printed.
         </feedback>
       </choice>
       <choice>
@@ -158,7 +158,7 @@ int main() {
           <p>b</p>
         </statement>
         <feedback>
-          <p>The string b will not be printed.</p>
+          The string b will not be printed.
         </feedback>
       </choice>
       <choice>
@@ -166,7 +166,7 @@ int main() {
           <p>z</p>
         </statement>
         <feedback>
-          <p>z is the value of a and 3 will not be printed.</p>
+          z is the value of a and 3 will not be printed.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -174,7 +174,7 @@ int main() {
           <p>8</p>
         </statement>
         <feedback>
-          <p>8 is the value of b will be printed!</p>
+          8 is the value of b will be printed!
         </feedback>
       </choice>
       <choice>
@@ -182,7 +182,7 @@ int main() {
           <p>Nothing! There will be a compile error!</p>
         </statement>
         <feedback>
-          <p>There is no type mismatch, so there will not be a compile error.</p>
+          There is no type mismatch, so there will not be a compile error.
         </feedback>
       </choice>
     </choices>
@@ -204,7 +204,7 @@ int main() {
           <p>x</p>
         </statement>
         <feedback>
-          <p>Take a look at the code again.</p>
+          Take a look at the code again.
         </feedback>
       </choice>
       <choice>
@@ -212,7 +212,7 @@ int main() {
           <p>y</p>
         </statement>
         <feedback>
-          <p>Take a look at the code again.</p>
+          Take a look at the code again.
         </feedback>
       </choice>
       <choice>
@@ -220,7 +220,7 @@ int main() {
           <p>3</p>
         </statement>
         <feedback>
-          <p>Take a look at the code again.</p>
+          Take a look at the code again.
         </feedback>
       </choice>
       <choice>
@@ -228,7 +228,7 @@ int main() {
           <p>e</p>
         </statement>
         <feedback>
-          <p>Take a look at the code again.</p>
+          Take a look at the code again.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -236,7 +236,7 @@ int main() {
           <p>Nothing! There will be a compile error!</p>
         </statement>
         <feedback>
-          <p>There is a type mismatch, so there will be a compile error!</p>
+          There is a type mismatch, so there will be a compile error!
         </feedback>
       </choice>
     </choices>
@@ -246,7 +246,7 @@ int main() {
       <p>Match the variable initialization to its correct type. Do so by dragging items on the left to the matching box on the right.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

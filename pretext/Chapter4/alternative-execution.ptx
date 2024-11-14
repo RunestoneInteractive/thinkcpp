@@ -92,7 +92,7 @@ int main() {
           <p>It is cold!</p>
         </statement>
         <feedback>
-          <p>That statement would print if degrees was less than 50.</p>
+          That statement would print if degrees was less than 50.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -100,7 +100,7 @@ int main() {
           <p>It is warm!</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -108,7 +108,7 @@ int main() {
           <p>Nothing prints.</p>
         </statement>
         <feedback>
-          <p>One of the statements is satisfied, so something does print.</p>
+          One of the statements is satisfied, so something does print.
         </feedback>
       </choice>
       <choice>
@@ -116,7 +116,7 @@ int main() {
           <p>Error message.</p>
         </statement>
         <feedback>
-          <p>There is nothing in the code below that would generate an error.</p>
+          There is nothing in the code below that would generate an error.
         </feedback>
       </choice>
     </choices>

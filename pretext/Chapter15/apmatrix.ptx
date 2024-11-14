@@ -52,7 +52,7 @@ m3[1][2] = 10.0 * m2[0][0];</program>
           <p>int</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -60,7 +60,7 @@ m3[1][2] = 10.0 * m2[0][0];</program>
           <p>string</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -68,7 +68,7 @@ m3[1][2] = 10.0 * m2[0][0];</program>
           <p>vector&lt;int&gt;</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -76,7 +76,7 @@ m3[1][2] = 10.0 * m2[0][0];</program>
           <p>vector&lt;vector&lt;int&gt;&gt;</p>
         </statement>
         <feedback>
-          <p>Correct! This is a technically type of matrix!</p>
+          Correct! This is a technically type of matrix!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -84,42 +84,40 @@ m3[1][2] = 10.0 * m2[0][0];</program>
           <p>matrix</p>
         </statement>
         <feedback>
-          <p>Correct! Matrices can be made of matrices.</p>
+          Correct! Matrices can be made of matrices.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question15_8_2">
     <statement>
-      <p>Suppose we have matrix <c>mat</c>. Then <c>mat[9][17]</c> would be accessing column <var/> and row <var/>
+      <p>Suppose we have matrix <c>mat</c>. Then <c>mat[9][17]</c> would be accessing column <fillin mode="number" case="insensitive" answer="18"/> and row <fillin mode="number" case="insensitive" answer="10"/>
         of our matrix.
       </p>
     </statement>
-    <setup>
-      <var>
-        <condition number="18">
+    <evaluation>
+      <evaluate>
+          <test>
+            <numcmp use-answer="yes"/>
+          </test>
+          <test>
+            <strcmp>.*</strcmp>
+            <feedback>
+              Incorrect! Remember to use zero indexing!
+            </feedback>
+          </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>.*</strcmp>
           <feedback>
-            <p>Correct!</p>
+            Incorrect! Remember to use zero indexing!
           </feedback>
-        </condition>
-        <condition string="^\s*x\s*$">
-          <feedback>
-            <p>Incorrect! Remember to use zero indexing!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var>
-        <condition number="10">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Remember to use zero indexing!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

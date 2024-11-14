@@ -55,8 +55,8 @@ vector&lt;int&gt; count (4, 0);
             <c><![CDATA[vector<string> words ("", 5);]]></c>
           </p>
         </statement>
-        <feedback id="vectors_1_opt_a">
-          <p>Incorrect! Vector parameters are in the wrong order.</p>
+        <feedback>
+          Incorrect! Vector parameters are in the wrong order.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -65,8 +65,8 @@ vector&lt;int&gt; count (4, 0);
             <c><![CDATA[vector<string> words (5);]]></c>
           </p>
         </statement>
-        <feedback id="vectors_1_opt_b">
-          <p>Correct! Vector elements are default constructed to empty strings.</p>
+        <feedback>
+          Correct! Vector elements are default constructed to empty strings.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -75,8 +75,8 @@ vector&lt;int&gt; count (4, 0);
             <c><![CDATA[vector<string> words (5, "");]]></c>
           </p>
         </statement>
-        <feedback id="vectors_1_opt_c">
-          <p>Correct! We made a vector of strings with 5 elements, initialized to empty strings.</p>
+        <feedback>
+          Correct! We made a vector of strings with 5 elements, initialized to empty strings.
         </feedback>
       </choice>
       <choice>
@@ -85,8 +85,8 @@ vector&lt;int&gt; count (4, 0);
             <c><![CDATA[vector<char> words (5, '');]]></c>
           </p>
         </statement>
-        <feedback id="vectors_1_opt_d">
-          <p>Incorrect! words should be a vector of strings.</p>
+        <feedback>
+          Incorrect! words should be a vector of strings.
         </feedback>
       </choice>
     </choices>
@@ -102,7 +102,7 @@ vector&lt;int&gt; count (4, 0);
           <p>1</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is an integer, not a string.</p>
+          Incorrect! This is an integer, not a string.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -110,7 +110,7 @@ vector&lt;int&gt; count (4, 0);
           <p>"a"</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -118,7 +118,7 @@ vector&lt;int&gt; count (4, 0);
           <p>'a'</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is a character, not a string.</p>
+          Incorrect! This is a character, not a string.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -126,7 +126,7 @@ vector&lt;int&gt; count (4, 0);
           <p>"word"</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -134,7 +134,7 @@ vector&lt;int&gt; count (4, 0);
           <p>"1"</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>
@@ -150,7 +150,7 @@ vector&lt;int&gt; count (4, 0);
           <p>initializer</p>
         </statement>
         <feedback>
-          <p>Incorrect! Go back and read to find the answer!</p>
+          Incorrect! Go back and read to find the answer!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -158,7 +158,7 @@ vector&lt;int&gt; count (4, 0);
           <p>constructor</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -166,7 +166,7 @@ vector&lt;int&gt; count (4, 0);
           <p>creator</p>
         </statement>
         <feedback>
-          <p>Incorrect! Go back and read to find the answer!</p>
+          Incorrect! Go back and read to find the answer!
         </feedback>
       </choice>
       <choice>
@@ -174,7 +174,7 @@ vector&lt;int&gt; count (4, 0);
           <p>instance function</p>
         </statement>
         <feedback>
-          <p>Incorrect! Go back and read to find the answer!</p>
+          Incorrect! Go back and read to find the answer!
         </feedback>
       </choice>
     </choices>
@@ -191,24 +191,24 @@ vector&lt;int&gt; numbers(6);
         <statement id="vectors_4_opt_a">
           <p>undefined (we don't know the values)</p>
         </statement>
-        <feedback id="vectors_4_opt_a">
-          <p>Integers are default constructed to a known value.</p>
+        <feedback>
+          Integers are default constructed to a known value.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="vectors_4_opt_b">
           <p>0</p>
         </statement>
-        <feedback id="vectors_4_opt_b">
-          <p>Integers are default constructed to a zero value.</p>
+        <feedback>
+          Integers are default constructed to a zero value.
         </feedback>
       </choice>
       <choice>
         <statement id="vectors_4_opt_c">
           <p>6</p>
         </statement>
-        <feedback id="vectors_4_opt_c">
-          <p>6 is the size we want the vector to be.</p>
+        <feedback>
+          6 is the size we want the vector to be.
         </feedback>
       </choice>
     </choices>

@@ -119,7 +119,7 @@ Deck::Deck() {
           <p>True - we used the buildDeck function with a few modifications to do this.</p>
         </statement>
         <feedback>
-          <p>How do we create the deck?</p>
+          How do we create the deck?
         </feedback>
       </choice>
       <choice correct="yes">
@@ -127,7 +127,7 @@ Deck::Deck() {
           <p>True - we wrote a Deck constructor to do this.</p>
         </statement>
         <feedback>
-          <p>The for loops in the Deck constructor initialize each card to its proper value.</p>
+          The for loops in the Deck constructor initialize each card to its proper value.
         </feedback>
       </choice>
       <choice>
@@ -135,7 +135,7 @@ Deck::Deck() {
           <p>False - we used the buildDeck function with a few modifications to do this.</p>
         </statement>
         <feedback>
-          <p>Look at the active code. How do we create the deck?</p>
+          Look at the active code. How do we create the deck?
         </feedback>
       </choice>
       <choice>
@@ -143,7 +143,7 @@ Deck::Deck() {
           <p>False - we wrote a Deck constructor to do this.</p>
         </statement>
         <feedback>
-          <p>Look at the active code.</p>
+          Look at the active code.
         </feedback>
       </choice>
     </choices>

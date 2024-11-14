@@ -83,41 +83,33 @@ void Time::increment(double secs) {
       <p>Suppose we have previously declared <c>Time currentTime = {9, 14, 30.0}</c>. What should be printed by <c>time.print()</c> after
         calling <c>time.increment(645.0)</c>? Type your response in the form <term>hh:mm:ss</term>. 
       </p>
-      <p><var/></p>
+      <p><fillin mode="string" case="insensitive" answer="0?9:25:15"/></p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(9:25:15)|(09:25:15)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try plugging the given input into the active code above!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="another_example_2">
     <statement>
-      <p>When we call a member function, we <var/> the function on the data structure. </p>
+      <p>When we call a member function, we <fillin mode="string" case="insensitive" answer="invoke"/> the function on the object. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*invoke\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>.*</strcmp>
           <feedback>
-            <p>Correct!</p>
+            Incorrect! You may have to look back a few pages to find the answer.
           </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try reading the past few pages again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="another_example_3"
             numbered="yes"

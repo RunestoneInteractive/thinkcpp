@@ -211,7 +211,7 @@ int main() {
           <p>3.1i + 1.9i</p>
         </statement>
         <feedback>
-          <p>Incorrect! Try using the active code above.</p>
+          Incorrect! Try using the active code above.
         </feedback>
       </choice>
       <choice>
@@ -219,7 +219,7 @@ int main() {
           <p>1.9i + 3.1</p>
         </statement>
         <feedback>
-          <p>Incorrect! Try using the active code above.</p>
+          Incorrect! Try using the active code above.
         </feedback>
       </choice>
       <choice>
@@ -227,7 +227,7 @@ int main() {
           <p>3.0 + 1.9i</p>
         </statement>
         <feedback>
-          <p>Incorrect! Try using the active code above.</p>
+          Incorrect! Try using the active code above.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -235,7 +235,7 @@ int main() {
           <p>3.1 + 1.9i</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>

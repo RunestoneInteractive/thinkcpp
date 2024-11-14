@@ -71,7 +71,7 @@ double Time::convertToSeconds() const {
           <p>Before the parameter list.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Try again!</p>
+          Incorrect! Try again!
         </feedback>
       </choice>
       <choice>
@@ -79,7 +79,7 @@ double Time::convertToSeconds() const {
           <p>Inside the parameter list.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This would be correct if we were talking about a free-standing function.</p>
+          Incorrect! This would be correct if we were talking about a free-standing function.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -87,7 +87,7 @@ double Time::convertToSeconds() const {
           <p>After the parameter list.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -95,8 +95,8 @@ double Time::convertToSeconds() const {
           <p>Implicit parameters are always const and don't need to be declared.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Parameters are only const if they are not modified inside the function,
-            implicit parameters are no exception.</p>
+          Incorrect! Parameters are only const if they are not modified inside the function,
+            implicit parameters are no exception.
         </feedback>
       </choice>
     </choices>

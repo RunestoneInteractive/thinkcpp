@@ -41,23 +41,16 @@ Deck deck(52);
   <exercise label="decks_1">
     <statement>
       <p>A euchre deck consists of 9's, 10's, Jacks, Queens, Kings, and Aces. If we wanted to create
-        a deck that is the size of the euchre deck, we would type: <c>Deck euchre_deck</c> <var/> <c>;</c>
+        a deck that is the size of the euchre deck, we would type: <c>Deck euchre_deck</c> <fillin mode="number" case="insensitive" answer="24"/> <c>;</c>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*\(24\)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="decks_2">
     <statement>
@@ -71,7 +64,7 @@ Deck deck(52);
             standard deck of cards.</p>
         </statement>
         <feedback>
-          <p>Unless you the programmer tell it to, the computer won't do it.</p>
+          Unless you the programmer tell it to, the computer won't do it.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -79,7 +72,7 @@ Deck deck(52);
           <p>There will be 52 cards.</p>
         </statement>
         <feedback>
-          <p>We initialized cards with a value of 52.</p>
+          We initialized cards with a value of 52.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -87,7 +80,7 @@ Deck deck(52);
           <p>The ranks and suits will be initialized to their default values.</p>
         </statement>
         <feedback>
-          <p>In our case is, the default values are zero.</p>
+          In our case is, the default values are zero.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -95,7 +88,7 @@ Deck deck(52);
           <p>The only instance variable in the deck is cards.</p>
         </statement>
         <feedback>
-          <p>cards is a vector of Cards!</p>
+          cards is a vector of Cards!
         </feedback>
       </choice>
       <choice>
@@ -103,7 +96,7 @@ Deck deck(52);
           <p>You can't access individual cards in the deck.</p>
         </statement>
         <feedback>
-          <p>You can access any card by indexing, for example: deck.cards[n].</p>
+          You can access any card by indexing, for example: deck.cards[n].
         </feedback>
       </choice>
     </choices>
@@ -118,7 +111,7 @@ Deck deck(52);
           <p>True - because this is the default mapping of enumerated types.</p>
         </statement>
         <feedback>
-          <p>The default mapping begins with 0.</p>
+          The default mapping begins with 0.
         </feedback>
       </choice>
       <choice>
@@ -126,7 +119,7 @@ Deck deck(52);
           <p>True - because our definition of rank overrides the default mapping.</p>
         </statement>
         <feedback>
-          <p>Our definition doesn't use the default mapping, which begins with 0.</p>
+          Our definition doesn't use the default mapping, which begins with 0.
         </feedback>
       </choice>
       <choice>
@@ -134,7 +127,7 @@ Deck deck(52);
           <p>False - because this is the default mapping of enumerated types.</p>
         </statement>
         <feedback>
-          <p>The default mapping begins with 0.</p>
+          The default mapping begins with 0.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -142,8 +135,8 @@ Deck deck(52);
           <p>False - because our definition of rank overrides the default mapping.</p>
         </statement>
         <feedback>
-          <p>If we wanted to, we could have set the rank of ace to 7, and the rest of the cards
-            would still be ranked in order.</p>
+          If we wanted to, we could have set the rank of ace to 7, and the rest of the cards
+            would still be ranked in order.
         </feedback>
       </choice>
     </choices>

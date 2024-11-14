@@ -71,7 +71,7 @@ int main() {
           <p>Three!</p>
         </statement>
         <feedback>
-          <p>Make note of the use of "if" instead of "else if" or "else".</p>
+          Make note of the use of "if" instead of "else if" or "else".
         </feedback>
       </choice>
       <choice>
@@ -79,7 +79,7 @@ int main() {
           <p>One!</p>
         </statement>
         <feedback>
-          <p>Make note of the use of "if" instead of "else if" or "else".</p>
+          Make note of the use of "if" instead of "else if" or "else".
         </feedback>
       </choice>
       <choice>
@@ -87,7 +87,7 @@ int main() {
           <p>One! Two!</p>
         </statement>
         <feedback>
-          <p>Make note of the use of "if" instead of "else if" or "else".</p>
+          Make note of the use of "if" instead of "else if" or "else".
         </feedback>
       </choice>
       <choice correct="yes">
@@ -95,8 +95,8 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback>
-          <p>When we have "if" statments, but no "else if" or "else", every condition will be
-            checked.</p>
+          When we have "if" statments, but no "else if" or "else", every condition will be
+            checked.
         </feedback>
       </choice>
     </choices>
@@ -127,8 +127,8 @@ int main() {
           <p>Three!</p>
         </statement>
         <feedback>
-          <p>Remember that only one action will be completed in a chain of "ifs", "else ifs", and
-            "ifs"</p>
+          Remember that only one action will be completed in a chain of "ifs", "else ifs", and
+            "ifs"
         </feedback>
       </choice>
       <choice correct="yes">
@@ -136,7 +136,7 @@ int main() {
           <p>One!</p>
         </statement>
         <feedback>
-          <p>The chain of "ifs", "else ifs", and "elses" results in only one action being completed.</p>
+          The chain of "ifs", "else ifs", and "elses" results in only one action being completed.
         </feedback>
       </choice>
       <choice>
@@ -144,8 +144,8 @@ int main() {
           <p>One! Two!</p>
         </statement>
         <feedback>
-          <p>Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
-            being completed.</p>
+          Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
+            being completed.
         </feedback>
       </choice>
       <choice>
@@ -153,8 +153,8 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback>
-          <p>Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
-            being completed.</p>
+          Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
+            being completed.
         </feedback>
       </choice>
     </choices>
@@ -185,7 +185,7 @@ int main() {
           <p>Two!</p>
         </statement>
         <feedback>
-          <p>Make note of the use of "if" instead of "else if" or "else".</p>
+          Make note of the use of "if" instead of "else if" or "else".
         </feedback>
       </choice>
       <choice correct="yes">
@@ -193,8 +193,8 @@ int main() {
           <p>Two! Three!</p>
         </statement>
         <feedback>
-          <p>When we have "if" statments, but no "else if" or "else", every condition will be
-            checked.</p>
+          When we have "if" statments, but no "else if" or "else", every condition will be
+            checked.
         </feedback>
       </choice>
       <choice>
@@ -202,8 +202,8 @@ int main() {
           <p>One! Two!</p>
         </statement>
         <feedback>
-          <p>The first statement will not be executed because x &gt; 8 is not true. Also, make note
-            of the use of "if" instead of "else if" or "else".</p>
+          The first statement will not be executed because x &gt; 8 is not true. Also, make note
+            of the use of "if" instead of "else if" or "else".
         </feedback>
       </choice>
       <choice>
@@ -211,7 +211,7 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback>
-          <p>The first statement will not be executed because x &gt; 8 is not true.</p>
+          The first statement will not be executed because x &gt; 8 is not true.
         </feedback>
       </choice>
     </choices>
@@ -242,7 +242,7 @@ int main() {
           <p>Two!</p>
         </statement>
         <feedback>
-          <p>Only one action will is completed in a chain of "ifs", "else ifs", and "ifs";</p>
+          Only one action will is completed in a chain of "ifs", "else ifs", and "ifs";
         </feedback>
       </choice>
       <choice>
@@ -250,8 +250,8 @@ int main() {
           <p>Two! Three!</p>
         </statement>
         <feedback>
-          <p>Remember that only one action will be completed in a chain of "ifs", "else ifs", and
-            "ifs".</p>
+          Remember that only one action will be completed in a chain of "ifs", "else ifs", and
+            "ifs".
         </feedback>
       </choice>
       <choice>
@@ -259,8 +259,8 @@ int main() {
           <p>One! Two!</p>
         </statement>
         <feedback>
-          <p>The first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
-            "elses" will result in only one action being completed.</p>
+          The first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
+            "elses" will result in only one action being completed.
         </feedback>
       </choice>
       <choice>
@@ -268,8 +268,8 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback>
-          <p>hge first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
-            "elses" will result in only one action being completed.</p>
+          hge first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
+            "elses" will result in only one action being completed.
         </feedback>
       </choice>
     </choices>

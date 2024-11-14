@@ -75,7 +75,7 @@ int main()
         Finish each sentence.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -98,57 +98,42 @@ int main()
   </exercise>
   <exercise label="question15_3_2">
     <statement>
-      <p>The <c>ifstream</c> member function called <var/> makes sure the file was opened successfully, and
-        member function <var/> detects the end of the file. 
-      </p>
+      <p>The <c>ifstream</c> member function called <fillin mode="string"
+                case="insensitive"
+                answer="good"/>
+        makes sure the file was opened successfully, and member function <fillin mode="string"
+                case="insensitive"
+                answer="eof"/>
+        detects the end of the file. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(?:g|G)(?:o|O)(?:o|O)(?:d|D)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*x\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*(?:e|E)(?:o|O)(?:f|F)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="question15_3_3">
     <statement>
       <p>The __________ statement allows us to exit the loop as soon as we detect the end of the
-        file. <var/>
+        file. <fillin mode="string"
+                case="insensitive"
+                answer="break"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(?:b|B)(?:r|R)(?:e|E)(?:a|A)(?:k|K)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="question15_3_4"
             numbered="yes"

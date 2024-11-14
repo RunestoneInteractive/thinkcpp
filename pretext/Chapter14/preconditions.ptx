@@ -206,7 +206,7 @@ void Complex::setCartesian(double r, double i) {
           <p>Assume assumptions are always true.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Assumptions can turn out to be true or false.</p>
+          Incorrect! Assumptions can turn out to be true or false.
         </feedback>
       </choice>
       <choice>
@@ -214,8 +214,8 @@ void Complex::setCartesian(double r, double i) {
           <p>Only check the preconditions.</p>
         </statement>
         <feedback>
-          <p>Incorrect! In order to maintain invariance, we must ensure that postconditions are met
-            as well.</p>
+          Incorrect! In order to maintain invariance, we must ensure that postconditions are met
+            as well.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -223,7 +223,7 @@ void Complex::setCartesian(double r, double i) {
           <p>Document assumptions explicitly as part of the program.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -231,29 +231,22 @@ void Complex::setCartesian(double r, double i) {
           <p>Write code that checks assumptions, like using assert statements.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question14_9_2">
     <statement>
-      <p>What function causes the program to quit immediately? <var/>
+      <p>What function causes the program to quit immediately? <fillin mode="string" case="insensitive" answer="exit"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*exit\s*">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again.</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

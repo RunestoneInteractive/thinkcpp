@@ -63,7 +63,7 @@ int main() {
           <p>sandwich, coffee, pastry</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -71,7 +71,7 @@ int main() {
           <p>dollar, cents</p>
         </statement>
         <feedback>
-          <p>Try again. We are looking for variable names not instances of a structure.</p>
+          Try again. We are looking for variable names not instances of a structure.
         </feedback>
       </choice>
       <choice>
@@ -79,7 +79,7 @@ int main() {
           <p>Price, struct</p>
         </statement>
         <feedback>
-          <p>Try again. ``struct`` and ``Price`` are not variables.</p>
+          Try again. ``struct`` and ``Price`` are not variables.
         </feedback>
       </choice>
     </choices>
@@ -107,7 +107,7 @@ int main() {
           <p>sandwich, coffee, pastry</p>
         </statement>
         <feedback>
-          <p>These are variables of type Price.</p>
+          These are variables of type Price.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -115,7 +115,7 @@ int main() {
           <p>dollar, cents</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -123,7 +123,7 @@ int main() {
           <p>Price, struct</p>
         </statement>
         <feedback>
-          <p>Try again. ``struct`` and ``Price`` are not variables.</p>
+          Try again. ``struct`` and ``Price`` are not variables.
         </feedback>
       </choice>
     </choices>
@@ -151,7 +151,7 @@ int main() {
           <p>sandwich, coffee, pastry</p>
         </statement>
         <feedback>
-          <p>These are variables of type Price.</p>
+          These are variables of type Price.
         </feedback>
       </choice>
       <choice>
@@ -159,7 +159,7 @@ int main() {
           <p>dollar, cents</p>
         </statement>
         <feedback>
-          <p>These are instance variables of the Price structure.</p>
+          These are instance variables of the Price structure.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -167,7 +167,7 @@ int main() {
           <p>Price</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>

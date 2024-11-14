@@ -57,8 +57,8 @@ int main() {
           <p>Yes, we cannot output the value of j outside of the loop.</p>
         </statement>
         <feedback>
-          <p>The scope of i is restricted to the loop, so we cannot change the value of i outside of
-            the loop.</p>
+          The scope of i is restricted to the loop, so we cannot change the value of i outside of
+            the loop.
         </feedback>
       </choice>
       <choice>
@@ -66,7 +66,7 @@ int main() {
           <p>Yes, we cannot output anything before the loop.</p>
         </statement>
         <feedback>
-          <p>This is allowed.</p>
+          This is allowed.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -74,8 +74,8 @@ int main() {
           <p>Yes, we cannot reassign j to 20 outside of the loop.</p>
         </statement>
         <feedback>
-          <p>The scope of i is restricted to the loop, so we cannot output the value of i outside of
-            the loop.</p>
+          The scope of i is restricted to the loop, so we cannot output the value of i outside of
+            the loop.
         </feedback>
       </choice>
       <choice>
@@ -83,7 +83,7 @@ int main() {
           <p>Yes, we cannot let i start at 1 in the loop.</p>
         </statement>
         <feedback>
-          <p>We are allowed to initialize i to any value.</p>
+          We are allowed to initialize i to any value.
         </feedback>
       </choice>
       <choice>
@@ -91,7 +91,7 @@ int main() {
           <p>No, there are no issues with the code below.</p>
         </statement>
         <feedback>
-          <p>There are issues with the code. Can you find them?</p>
+          There are issues with the code. Can you find them?
         </feedback>
       </choice>
     </choices>
@@ -134,8 +134,8 @@ int main() {
           <p>Yes</p>
         </statement>
         <feedback>
-          <p>They are two different variables in two different scopes, but they do have the same
-            name.</p>
+          They are two different variables in two different scopes, but they do have the same
+            name.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -143,7 +143,7 @@ int main() {
           <p>No</p>
         </statement>
         <feedback>
-          <p>Correct! They are not the same variable.</p>
+          Correct! They are not the same variable.
         </feedback>
       </choice>
     </choices>
@@ -184,17 +184,17 @@ int main() {
         <statement id="local_variables_3_opt_a">
           <p>Yes</p>
         </statement>
-        <feedback id="local_variables_3_opt_a">
-          <p>The scope of <c>j</c> does not include <c>printMultiples</c> function.</p>
+        <feedback>
+          The scope of <c>j</c> does not include <c>printMultiples</c> function.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="local_variables_3_opt_b">
           <p>No</p>
         </statement>
-        <feedback id="local_variables_3_opt_b">
-          <p>Correct! <c>j</c> is not accessable as the value is merely passes from one function to
-            another. We cannot have a statement such as j++; in <c>printMultiples</c> as it is out of the scope of <c>printMultTable</c></p>
+        <feedback>
+          Correct! <c>j</c> is not accessable as the value is merely passes from one function to
+            another. We cannot have a statement such as j++; in <c>printMultiples</c> as it is out of the scope of <c>printMultTable</c>
         </feedback>
       </choice>
     </choices>
