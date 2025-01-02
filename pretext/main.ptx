@@ -3,6 +3,7 @@
          xml:lang="en-US">
 
   <docinfo>
+    <document-id edition="ptx">thinkcpp</document-id>
     <numbering>
       <figures level="2"/>
       <exercises level="2"/>
