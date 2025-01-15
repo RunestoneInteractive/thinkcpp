@@ -52,7 +52,7 @@ int main() {
           division!</p>
       </statement>
       <feedback>
-        <p>Try again!</p>
+        Try again!
       </feedback>
       <matches>
         <match order="1">
@@ -75,22 +75,15 @@ int main() {
     </exercise>
     <exercise label="order_of_operations_2">
       <statement>
-        <p>Any time you want to override the rules of precedence, you can use <var/>.</p>
+        <p>Any time you want to override the rules of precedence, you can use <fillin mode="string" case="insensitive" answer="parentheses"/>.</p>
       </statement>
-      <setup>
-        <var case="insensitive">
-          <condition string="^\s*parentheses\s*$">
-            <feedback>
-              <p>Correct!</p>
-            </feedback>
-          </condition>
-          <condition string="^\s*.*\s*$">
-            <feedback>
-              <p>Try again!</p>
-            </feedback>
-          </condition>
-        </var>
-      </setup>
+      <evaluation>
+        <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+          </test>
+        </evaluate>
+      </evaluation>
     </exercise>
     <!-- <exercisegroup> -->
       <!-- <title>Order of operations sequence</title>
@@ -105,7 +98,7 @@ int main() {
             gets evaluated first, click on "1", "+", and "1".</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
         <areas>
           <cline><area correct="no">1</area> <area correct="no"> + </area> <area correct="no"> 2</area> <area correct="no"> *</area> ( <area correct="yes">10</area> <area correct="yes">-</area> <area correct="yes">2</area> ) <area correct="no">/</area> <area correct="no">4</area></cline>
@@ -117,7 +110,7 @@ int main() {
             gets evaluated first, click on "1", "+", and "1".</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
         <areas>
           <cline><area correct="no">1</area> <area correct="no"> + </area> <area correct="yes">2</area> <area correct="yes"> * </area> <area correct="yes">8</area> <area correct="no"> / </area> <area correct="no">4</area></cline>
@@ -129,7 +122,7 @@ int main() {
             gets evaluated first, click on "1", "+", and "1".</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
         <areas>
           <cline><area correct="no">1</area> <area correct="no"> + </area> <area correct="yes">16</area> <area correct="yes"> / </area> <area correct="yes">4</area></cline>

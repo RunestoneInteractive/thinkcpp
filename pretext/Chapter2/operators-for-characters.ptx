@@ -75,23 +75,16 @@ int main() {
     exceptions.</p>
   <exercise label="char_operations_1">
     <statement>
-      <p>What is the value of letter if <c>letter = 'c' + 3</c>? <var/>
+      <p>What is the value of letter if <c>letter = 'c' + 3</c>? <fillin mode="string" case="insensitive" answer="(f)|('f')"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(f)|('f')\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="char_operations_2"
            numbered="yes"

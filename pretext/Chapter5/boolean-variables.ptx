@@ -24,7 +24,7 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
       <p>Match the conditional statement to the correct boolean, given x = 2.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -42,7 +42,7 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
       <p>Match the statement to the word that describes it best.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -82,7 +82,7 @@ if (plusFlag) {
           <p>n was even when I checked it x was positive when I checked it</p>
         </statement>
         <feedback>
-          <p>Great!</p>
+          Great!
         </feedback>
       </choice>
       <choice>
@@ -90,8 +90,8 @@ if (plusFlag) {
           <p>x was positive when I checked it n was even when I checked it</p>
         </statement>
         <feedback>
-          <p>Make sure you follow the correct order of execution. Also, a space is not automatically
-            added.</p>
+          Make sure you follow the correct order of execution. Also, a space is not automatically
+            added.
         </feedback>
       </choice>
       <choice>
@@ -99,7 +99,7 @@ if (plusFlag) {
           <p>x was positive when I checked it</p>
         </statement>
         <feedback>
-          <p>Take another look at the result from the modulus operator.</p>
+          Take another look at the result from the modulus operator.
         </feedback>
       </choice>
       <choice>
@@ -107,7 +107,7 @@ if (plusFlag) {
           <p>n was even when I checked itx was positive when I checked it</p>
         </statement>
         <feedback>
-          <p>Both flags are made, But A space is after it.</p>
+          Both flags are made, But A space is after it.
         </feedback>
       </choice>
       <choice>
@@ -115,7 +115,7 @@ if (plusFlag) {
           <p>x was positive when I checked itn was even when I checked it</p>
         </statement>
         <feedback>
-          <p>Make sure you follow the correct order of execution.</p>
+          Make sure you follow the correct order of execution.
         </feedback>
       </choice>
     </choices>
@@ -155,8 +155,8 @@ if (low_battery) {
         <statement id="bool_var_4_opt_a">
           <p>nothing will print</p>
         </statement>
-        <feedback id="bool_var_4_opt_a">
-          <p>The value of <c>low_battery</c> is true so we enter the first <c>if</c> block.</p>
+        <feedback>
+          The value of <c>low_battery</c> is true so we enter the first <c>if</c> block.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -165,8 +165,8 @@ if (low_battery) {
             <q>Charging your phone</q>
           </p>
         </statement>
-        <feedback id="bool_var_4_opt_b">
-          <p>correct! <c>low_battery</c> stays true and we set <c>power_outage</c> to false.</p>
+        <feedback>
+          correct! <c>low_battery</c> stays true and we set <c>power_outage</c> to false.
         </feedback>
       </choice>
       <choice>
@@ -175,8 +175,8 @@ if (low_battery) {
             <q>Battery is charged</q>
           </p>
         </statement>
-        <feedback id="bool_var_4_opt_c">
-          <p><c>low_battery</c> is true so we don't reach this <c>else</c>.</p>
+        <feedback>
+          <c>low_battery</c> is true so we don't reach this <c>else</c>.
         </feedback>
       </choice>
       <choice>
@@ -185,8 +185,8 @@ if (low_battery) {
             <q>There is no power</q>
           </p>
         </statement>
-        <feedback id="bool_var_4_opt_d">
-          <p>We change the value of <c>power_outage</c> to false before hand.</p>
+        <feedback>
+          We change the value of <c>power_outage</c> to false before hand.
         </feedback>
       </choice>
     </choices>

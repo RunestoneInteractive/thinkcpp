@@ -81,7 +81,7 @@ int main() {
           <p>Change the value of x to be anything less than 6.</p>
         </statement>
         <feedback>
-          <p>While "Bigger" would now print, the other two statements would not!</p>
+          While "Bigger" would now print, the other two statements would not!
         </feedback>
       </choice>
       <choice>
@@ -89,7 +89,7 @@ int main() {
           <p>Change the value of x to 13.</p>
         </statement>
         <feedback>
-          <p>Now, none of the statements would print!</p>
+          Now, none of the statements would print!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -97,7 +97,7 @@ int main() {
           <p>Change the sign of the last conditional statement to x &gt; 6.</p>
         </statement>
         <feedback>
-          <p>Now, all of the statements would print.</p>
+          Now, all of the statements would print.
         </feedback>
       </choice>
       <choice>
@@ -105,7 +105,7 @@ int main() {
           <p>Change the value of the return from 0 to "Bigger!"</p>
         </statement>
         <feedback>
-          <p>main returns an int, so trying to make it return a string will cause an error.</p>
+          main returns an int, so trying to make it return a string will cause an error.
         </feedback>
       </choice>
     </choices>
@@ -115,7 +115,7 @@ int main() {
       <p>Match the operator to values of x and y that would return true.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -137,7 +137,7 @@ int main() {
       <p>Match the operator to values of x and y that would return true.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

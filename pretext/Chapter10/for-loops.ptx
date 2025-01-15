@@ -102,28 +102,22 @@ int main() {
 
   <exercise label="for_loops_1">
     <statement>
-      <p>How many times would the following loop execute? <c><![CDATA[for (int i = 1; i < 4; i++)]]></c> <var/>
+      <p>How many times would the following loop execute? <c><![CDATA[for (int i = 1; i < 4; i++)]]></c> <fillin mode="number" answer="3"/>
       </p>
     </statement>
-    <setup>
-      <var>
-        <condition number="3">
+    <evaluation>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes"/>
+        </test>
+        <test>
+          <numcmp value="4"/>
           <feedback>
-            <p>Correct!</p>
+            Incorrect! The loop does not execute when i = 4.
           </feedback>
-        </condition>
-        <condition number="4">
-          <feedback>
-            <p>Incorrect! The loop does not execute when i = 4.</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="for_loops_2">
     <statement>
@@ -135,7 +129,7 @@ int main() {
           <p>in the BODIES of both loops</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
       <choice>
@@ -143,7 +137,7 @@ int main() {
           <p>in the BODY of a for loop, and in the statement of a while loop</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -151,7 +145,7 @@ int main() {
           <p>in the statement of a for loop, and in the BODY of a while loop</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -159,7 +153,7 @@ int main() {
           <p>in the statements of both loops</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
     </choices>

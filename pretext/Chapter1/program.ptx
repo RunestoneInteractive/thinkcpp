@@ -41,31 +41,24 @@
     performed with one of these simple functions.</p>
   <exercise label="program_1">
     <statement>
-      <p>A(n) <var/> is a series of instructions that are used to perform
+      <p>A(n) <fillin mode="string" case="insensitive" answer="program"/> is a series of instructions that are used to perform
         a computation. 
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*program\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="program_2">
     <statement>
       <p>Match each term to an example of it.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

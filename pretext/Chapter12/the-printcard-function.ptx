@@ -136,7 +136,7 @@ void Card::print() const {
           <p>rank.ranks</p>
         </statement>
         <feedback>
-          <p>Incorrect! Remember, ranks is a vector!</p>
+          Incorrect! Remember, ranks is a vector!
         </feedback>
       </choice>
       <choice>
@@ -144,7 +144,7 @@ void Card::print() const {
           <p>ranks.rank</p>
         </statement>
         <feedback>
-          <p>Incorrect! Remember, ranks is a vector!</p>
+          Incorrect! Remember, ranks is a vector!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -152,7 +152,7 @@ void Card::print() const {
           <p>ranks[rank]</p>
         </statement>
         <feedback>
-          <p>Correct! This is an example of how we use mapping!</p>
+          Correct! This is an example of how we use mapping!
         </feedback>
       </choice>
       <choice>
@@ -160,7 +160,7 @@ void Card::print() const {
           <p>rank[ranks]</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is using the vector "ranks" as an index to a single "rank".</p>
+          Incorrect! This is using the vector "ranks" as an index to a single "rank".
         </feedback>
       </choice>
     </choices>
@@ -172,23 +172,16 @@ void Card::print() const {
         <program>Card card (3, 1);
 card.print();</program>
       <p>
-        <var/>
+        <fillin mode="string" case="insensitive" answer="Ace of Spades"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*Ace of Spades\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="printCard_function_3">
     <statement>
@@ -200,8 +193,8 @@ card.print();</program>
           <p>Yes, because the mappings should be easy for the programmer to remember.</p>
         </statement>
         <feedback>
-          <p>Correct! The programmer should uses mappings that are easy to remember (even if this
-            means we don't use the zeroeth element of the ranks vector).</p>
+          Correct! The programmer should uses mappings that are easy to remember (even if this
+            means we don't use the zeroeth element of the ranks vector).
         </feedback>
       </choice>
       <choice>
@@ -209,7 +202,7 @@ card.print();</program>
           <p>Yes, because the mappings should be easy for the user to remember.</p>
         </statement>
         <feedback>
-          <p>Incorrect! The user doesn't need to know how things are mapped.</p>
+          Incorrect! The user doesn't need to know how things are mapped.
         </feedback>
       </choice>
       <choice>
@@ -218,7 +211,7 @@ card.print();</program>
             understand what is going on behind the scenes.</p>
         </statement>
         <feedback>
-          <p>Incorrect! The programmer should always know what is going on with their code.</p>
+          Incorrect! The programmer should always know what is going on with their code.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -227,7 +220,7 @@ card.print();</program>
             understand what is going on behind the scenes.</p>
         </statement>
         <feedback>
-          <p>Correct! The user doesn't need to know how the programmer coded things.</p>
+          Correct! The user doesn't need to know how the programmer coded things.
         </feedback>
       </choice>
     </choices>

@@ -9,21 +9,14 @@
     sequence of random numbers and check whether this property holds true.</p>
   <exercise label="statistics_1">
     <statement>
-      <p>Random numbers are distributed <var/>. </p>
+      <p>Random numbers are (hopefully) distributed <fillin mode="string" case="insensitive" answer="UNIFORMLY"/>. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*UNIFORMLY\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

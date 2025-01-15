@@ -40,22 +40,15 @@ Time time(seconds);
   <exercise label="constructors_1">
     <statement>
       <p>The member function that initializes objects automatically when they are created is called
-        a(n) <var/>. </p>
+        a(n) <fillin mode="string" case="insensitive" answer="CONSTRUCTOR"/>. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*CONSTRUCTOR\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="constructors_2">
     <statement>
@@ -67,7 +60,7 @@ Time time(seconds);
           <p>They initialize the instance variables of an object.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This statement is true!</p>
+          Incorrect! This statement is true!
         </feedback>
       </choice>
       <choice>
@@ -75,7 +68,7 @@ Time time(seconds);
           <p>They have the same name as the class.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This statement is true!</p>
+          Incorrect! This statement is true!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -83,7 +76,7 @@ Time time(seconds);
           <p>They return an instance of an object.</p>
         </statement>
         <feedback>
-          <p>Correct! Constructors do not have a return type.</p>
+          Correct! Constructors do not have a return type.
         </feedback>
       </choice>
       <choice>
@@ -91,7 +84,7 @@ Time time(seconds);
           <p>We refer to the objects they initialize implicitly, or using keyword this.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This statment is true!</p>
+          Incorrect! This statment is true!
         </feedback>
       </choice>
       <choice>
@@ -99,7 +92,7 @@ Time time(seconds);
           <p>They have the same name as the class, no return type and unchanged parameters.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This statement is true!</p>
+          Incorrect! This statement is true!
         </feedback>
       </choice>
     </choices>
@@ -107,22 +100,15 @@ Time time(seconds);
   <exercise label="constructors_3">
     <statement>
       <p>Write code to initialize the variable <c>lunch</c> that has type <c>Time</c> and a value of 1800
-        seconds. <var/>
+        seconds. <fillin mode="string" case="insensitive" answer="Time\s+lunch\s*\(\s*1800\s*\)\s*;?"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(\s*Time\s+lunch\s*\(\s*1800\s*\)\s*;?)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

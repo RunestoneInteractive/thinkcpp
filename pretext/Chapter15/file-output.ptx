@@ -75,7 +75,7 @@ int main() {
             both conditions once.</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
       <choice>
@@ -84,7 +84,7 @@ int main() {
             both conditions separately until the body of the loop is reached.</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -94,29 +94,22 @@ int main() {
             "if" statement.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question15_4_3">
     <statement>
-      <p>Finish the statement: <var/> <c>outfile("output-file");</c>.
+      <p>Finish the statement: <fillin mode="string" case="insensitive" answer="ofstream"/> <c>outfile("output-file");</c>.
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*ofstream\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -138,7 +138,7 @@ int main() {
           <p>combining the parameters</p>
         </statement>
         <feedback>
-          <p>Unless the function requires you to do so, then this is unnecessary.</p>
+          Unless the function requires you to do so, then this is unnecessary.
         </feedback>
       </choice>
       <choice>
@@ -146,8 +146,8 @@ int main() {
           <p>printing out the parameters</p>
         </statement>
         <feedback>
-          <p>If you don't know the values of the parameters, this could be useful, but there is a
-            better answer.</p>
+          If you don't know the values of the parameters, this could be useful, but there is a
+            better answer.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -155,8 +155,8 @@ int main() {
           <p>returning something</p>
         </statement>
         <feedback>
-          <p>This is called placekeeping. You don't have to return the correct answer, but you do
-            need to return the correct data type.</p>
+          This is called placekeeping. You don't have to return the correct answer, but you do
+            need to return the correct data type.
         </feedback>
       </choice>
       <choice>
@@ -164,7 +164,7 @@ int main() {
           <p>debugging</p>
         </statement>
         <feedback>
-          <p>You don't need to debug until after you've written the function.</p>
+          You don't need to debug until after you've written the function.
         </feedback>
       </choice>
     </choices>
@@ -180,7 +180,7 @@ int main() {
           <p>Use temporary variables to hold intermediate values so you can output and check them.</p>
         </statement>
         <feedback>
-          <p>Temporary variables are very useful in understanding what is happening at each step.</p>
+          Temporary variables are very useful in understanding what is happening at each step.
         </feedback>
       </choice>
       <choice>
@@ -189,7 +189,7 @@ int main() {
             exactly where the error is if you have one.</p>
         </statement>
         <feedback>
-          <p>This is the definition of incremental development.</p>
+          This is the definition of incremental development.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -198,8 +198,8 @@ int main() {
             understand all of the errors at once.</p>
         </statement>
         <feedback>
-          <p>Incremental development uses step by step debugging in order to avoid the difficulty
-            this would present.</p>
+          Incremental development uses step by step debugging in order to avoid the difficulty
+            this would present.
         </feedback>
       </choice>
       <choice>
@@ -208,7 +208,7 @@ int main() {
             compound expressions, or remove them entirely.</p>
         </statement>
         <feedback>
-          <p>This is good practice, as long as it doesn't make the program difficult to read.</p>
+          This is good practice, as long as it doesn't make the program difficult to read.
         </feedback>
       </choice>
     </choices>
@@ -234,7 +234,7 @@ double distance(double x1, double y1, double x2, double y2) {
           <p>scaffolding - allows the function to compile and return something</p>
         </statement>
         <feedback>
-          <p>This is not the correct definition of scaffolding.</p>
+          This is not the correct definition of scaffolding.
         </feedback>
       </choice>
       <choice>
@@ -242,7 +242,7 @@ double distance(double x1, double y1, double x2, double y2) {
           <p>placekeeping - allows the function to compile and return something</p>
         </statement>
         <feedback>
-          <p>This is the correct definition of placekeeping but is not the correct answer.</p>
+          This is the correct definition of placekeeping but is not the correct answer.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -250,7 +250,7 @@ double distance(double x1, double y1, double x2, double y2) {
           <p>scaffolding - used to test values of temporary variables, later removed</p>
         </statement>
         <feedback>
-          <p>Printing out the values allows you to observe whether the function is working or not.</p>
+          Printing out the values allows you to observe whether the function is working or not.
         </feedback>
       </choice>
       <choice>
@@ -258,7 +258,7 @@ double distance(double x1, double y1, double x2, double y2) {
           <p>placekeeping - used to test values of temporary variables, later removed</p>
         </statement>
         <feedback>
-          <p>This is not the correct definition of placekeeping.</p>
+          This is not the correct definition of placekeeping.
         </feedback>
       </choice>
     </choices>

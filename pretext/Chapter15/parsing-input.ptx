@@ -81,7 +81,7 @@ int index = line.find('\"');
           <p>to scan an entire program for errors</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is included in the debugging process.</p>
+          Incorrect! This is included in the debugging process.
         </feedback>
       </choice>
       <choice>
@@ -89,7 +89,7 @@ int index = line.find('\"');
           <p>to run a program start to finish and record the run time</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is included in the debugging process.</p>
+          Incorrect! This is included in the debugging process.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -97,8 +97,8 @@ int index = line.find('\"');
           <p>to analyze the structure of a statement in a formal language</p>
         </statement>
         <feedback>
-          <p>Correct! The compiler has to parse the program before it can translate it into machine
-            language!</p>
+          Correct! The compiler has to parse the program before it can translate it into machine
+            language!
         </feedback>
       </choice>
       <choice>
@@ -106,60 +106,39 @@ int index = line.find('\"');
           <p>to search an entire program for a statement</p>
         </statement>
         <feedback>
-          <p>Incorrect! You can use control (command) + F to find a particular statement.</p>
+          Incorrect! You can use control (command) + F to find a particular statement.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question15_5_2">
     <statement>
-      <p>The <var/> character indicates that we want to match the next character literally. </p>
+      <p>The <fillin mode="string" case="insensitive" answer="(\\)|(backslash)"/> character indicates that we want to match the next character literally. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(\\)|(backslash)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Go back and read to find the answer!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="question15_5_3">
     <statement>
-      <p>The <c>substr()</c> takes <var/> and <var/> as its two arguments. </p>
+      <p>The <c>substr()</c> takes <fillin mode="string" case="insensitive" answer="index"/> and <fillin mode="string" case="insensitive" answer="len(gth)?"/> as its two arguments.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="index">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Go back and read to find the answer!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="len(gth)?">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Go back and read to find the answer!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="question15_5_4"
             numbered="yes"

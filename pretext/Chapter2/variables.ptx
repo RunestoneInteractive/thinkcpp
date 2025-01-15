@@ -36,53 +36,41 @@ int hour, minute;</program>
     both integers (<c>int</c> type).</p>
   <exercise label="variables_3">
     <statement>
-      <p>A(n) <var/> is a name given to a location in memory used to keep track of a value. </p>
+      <p>A(n) <fillin mode="string" case="insensitive" answer="variable"/> is a name given to a location in memory used to keep track of a value. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*variable\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="variables_1">
     <statement>
       <p>Take a look at the code block below:
       </p>
+      <p>
       <program>
 char tom;
 </program>
-      <p>It's an example of a(n) <var/> statement.</p>
+</p>
+      <p>It's an example of a(n) <fillin answer="declaration" mode="string" case="insensitive"/> statement.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*declaration\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="variables2.0">
     <statement>
       <p>Click on all instances of integer VARIABLES.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <areas>
       <cline><area correct="no">int main() {</area></cline>
@@ -104,7 +92,7 @@ char tom;
       <p>Click on all instances of character VARIABLES.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <areas>
       <cline>int main() {</cline>
@@ -124,8 +112,8 @@ char tom;
       <p>Match the variable to the kind of value it can store. Do so by dragging items on the left to the boxes on the right.</p>
     </statement>
     <feedback>
-      <p>Ideally, you want your variables to be named according to what they represent. Not the case
-        here! Try again!</p>
+      Ideally, you want your variables to be named according to what they represent. Not the case
+        here! Try again!
     </feedback>
     <matches>
       <match order="1">

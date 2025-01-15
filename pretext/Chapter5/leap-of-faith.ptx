@@ -36,7 +36,7 @@
             able to find the factorial of the first 2.</p>
         </statement>
         <feedback>
-          <p>There is no leap of faith here. In fact, it's quite flip-flopped.</p>
+          There is no leap of faith here. In fact, it's quite flip-flopped.
         </feedback>
       </choice>
       <choice>
@@ -44,7 +44,7 @@
           <p>You assume that the log function works, without examining the implementation.</p>
         </statement>
         <feedback>
-          <p>This is a leap of faith, but it is not recursive.</p>
+          This is a leap of faith, but it is not recursive.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -53,7 +53,7 @@
             also take the sum of the first 8.</p>
         </statement>
         <feedback>
-          <p>Recursive leaps of faith always assume that the recursive call will work.</p>
+          Recursive leaps of faith always assume that the recursive call will work.
         </feedback>
       </choice>
       <choice>
@@ -61,7 +61,7 @@
           <p>You write a function and assume that it will work.</p>
         </statement>
         <feedback>
-          <p>This is a leap of faith, but it is not recursive.</p>
+          This is a leap of faith, but it is not recursive.
         </feedback>
       </choice>
     </choices>

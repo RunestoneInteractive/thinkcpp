@@ -23,29 +23,22 @@ cout &lt;&lt; '}' &lt;&lt; endl;
     clear soon.</p>
   <exercise label="values_1">
     <statement>
-      <p>A <var/> value is a single letter, number, or punctuation enclosed in single quotes. </p>
+      <p>A <fillin mode="string" case="insensitive" answer="(char)|(character)"/> value is a single letter, number, or punctuation enclosed in single quotes. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(char)|(character)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="values2.0">
     <statement>
       <p>Click on all integer VALUES.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <areas>
       <cline><area correct="no">int main() {</area></cline>
@@ -66,7 +59,7 @@ cout &lt;&lt; '}' &lt;&lt; endl;
       <p>Click on all string VALUES.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <areas>
       <cline>int main() {</cline>
@@ -85,7 +78,7 @@ cout &lt;&lt; '}' &lt;&lt; endl;
       <p>Match the value to its data type by dragging items on the left to the boxes on the right.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

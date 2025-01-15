@@ -138,45 +138,38 @@ Card threeOfClubs(0, 3);
     rank 3.</p>
   <exercise label="card_objects_1">
     <statement>
-      <p>The instance variables for a playing card are <var/> and <var/>. (Put them in alphabetical
+      <p>The instance variables for a playing card are <fillin mode="string"
+                case="insensitive"
+                answer="rank"/>
+        and <fillin mode="string"
+                case="insensitive"
+                answer="suit"/>. (Put them in alphabetical
         order.)</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*rank\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>suit</strcmp>
           <feedback>
-            <p>Correct!</p>
+            Wrong spot - use that in the other blank
           </feedback>
-        </condition>
-        <condition string="^\s*suit\s*$">
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>rank</strcmp>
           <feedback>
-            <p>Wrong spot</p>
+            Wrong spot - use that in the other blank
           </feedback>
-        </condition>
-        <condition string="^\s*x\s*$">
-          <feedback>
-            <p>Incorrect! Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*suit\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*rank\s*$">
-          <feedback>
-            <p>Wrong spot</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="card_objects_2">
     <statement>
@@ -188,7 +181,7 @@ Card threeOfClubs(0, 3);
           <p>To translate each rank / suit into a secret code.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is called encryption.</p>
+          Incorrect! This is called encryption.
         </feedback>
       </choice>
       <choice>
@@ -196,7 +189,7 @@ Card threeOfClubs(0, 3);
           <p>To create strings to represent each rank / suit.</p>
         </statement>
         <feedback>
-          <p>Incorrect! We create strings before we encode.</p>
+          Incorrect! We create strings before we encode.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -204,7 +197,7 @@ Card threeOfClubs(0, 3);
           <p>To define a mapping between each rank / suit and a sequence of numbers.</p>
         </statement>
         <feedback>
-          <p>Correct! This makes it easier to compare cards.</p>
+          Correct! This makes it easier to compare cards.
         </feedback>
       </choice>
       <choice>
@@ -212,29 +205,24 @@ Card threeOfClubs(0, 3);
           <p>To write code describing real objects, like cards, with their respective ranks / suits.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is how we describe object-oriented programming.</p>
+          Incorrect! This is how we describe object-oriented programming.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="card_objects_3">
     <statement>
-      <p>The symbol <m>\mapsto</m> means <var/> . </p>
+      <p>The symbol <m>\mapsto</m> means <fillin mode="string"
+                case="insensitive"
+                answer="maps(\s+ to)?"/> . </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*maps(\s+to)?\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="card_objects_4">
     <statement>
@@ -246,7 +234,7 @@ Card threeOfClubs(0, 3);
           <p>To have better organization in your code.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Mapping helps more with order than with organization.</p>
+          Incorrect! Mapping helps more with order than with organization.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -254,7 +242,7 @@ Card threeOfClubs(0, 3);
           <p>To make it possible to compare objects that have non-numerical values.</p>
         </statement>
         <feedback>
-          <p>Correct! By mapping non-numerical values to integers, we can compare them!</p>
+          Correct! By mapping non-numerical values to integers, we can compare them!
         </feedback>
       </choice>
       <choice>
@@ -262,7 +250,7 @@ Card threeOfClubs(0, 3);
           <p>To represent complex objects visually.</p>
         </statement>
         <feedback>
-          <p>Incorrect! There is nothing visual about mapping.</p>
+          Incorrect! There is nothing visual about mapping.
         </feedback>
       </choice>
       <choice>
@@ -270,7 +258,7 @@ Card threeOfClubs(0, 3);
           <p>To add complexity to your code.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Mapping actually simplifies your code.</p>
+          Incorrect! Mapping actually simplifies your code.
         </feedback>
       </choice>
     </choices>

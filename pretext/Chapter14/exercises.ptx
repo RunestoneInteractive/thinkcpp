@@ -10,34 +10,34 @@
         <statement id="mce_14_1_opt_a">
           <p>To wrap up a sequence of code in a function.</p>
         </statement>
-        <feedback id="mce_14_1_opt_a">
-          <p>This is one use of functional encapsulation, not data encapsulation.</p>
+        <feedback>
+          This is one use of functional encapsulation, not data encapsulation.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_1_opt_b">
           <p>To hide implementation details from users or programmers that don't need to know them.</p>
         </statement>
-        <feedback id="mce_14_1_opt_b">
-          <p>Data encapsulation is the separation of the implementation of data from the interface
-            of a structure.</p>
+        <feedback>
+          Data encapsulation is the separation of the implementation of data from the interface
+            of a structure.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_1_opt_c">
           <p>To keep all data in a container like a vector.</p>
         </statement>
-        <feedback id="mce_14_1_opt_c">
-          <p>This is not related to encapsulation.</p>
+        <feedback>
+          This is not related to encapsulation.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_1_opt_d">
           <p>To make all data public and accessible to everyone.</p>
         </statement>
-        <feedback id="mce_14_1_opt_d">
-          <p>Data encapsulation is based on the idea that each structure should prevent
-            unrestricted access to internal representation.</p>
+        <feedback>
+          Data encapsulation is based on the idea that each structure should prevent
+            unrestricted access to internal representation.
         </feedback>
       </choice>
     </choices>
@@ -68,8 +68,8 @@ public:
             <c>Student()</c>
           </p>
         </statement>
-        <feedback id="mce_14_2_opt_a">
-          <p>This is the <c>Student</c> constructor.</p>
+        <feedback>
+          This is the <c>Student</c> constructor.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -78,9 +78,9 @@ public:
             <c>getID()</c>
           </p>
         </statement>
-        <feedback id="mce_14_2_opt_b">
-          <p>This is a <q>getter</q> function, which is an accessor function since it accesses and
-            returns a private member variable.</p>
+        <feedback>
+          This is a <q>getter</q> function, which is an accessor function since it accesses and
+            returns a private member variable.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -89,9 +89,9 @@ public:
             <c>setID()</c>
           </p>
         </statement>
-        <feedback id="mce_14_2_opt_c">
-          <p>This is a <q>setter</q> function, which is an accessor function since it accesses and
-            modifies a private member variable.</p>
+        <feedback>
+          This is a <q>setter</q> function, which is an accessor function since it accesses and
+            modifies a private member variable.
         </feedback>
       </choice>
       <choice>
@@ -100,8 +100,8 @@ public:
             <c>printInfo()</c>
           </p>
         </statement>
-        <feedback id="mce_14_2_opt_d">
-          <p>This function does not access a private member variable.</p>
+        <feedback>
+          This function does not access a private member variable.
         </feedback>
       </choice>
     </choices>
@@ -115,33 +115,33 @@ public:
         <statement id="mce_14_3_opt_a">
           <p>By default, <c>struct</c> member variables are private.</p>
         </statement>
-        <feedback id="mce_14_3_opt_a">
-          <p>By default, <c>struct</c> member variables are public. This is the main difference between a <c>class</c>
-            and a <c>struct</c>.</p>
+        <feedback>
+          By default, <c>struct</c> member variables are public. This is the main difference between a <c>class</c>
+            and a <c>struct</c>.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_3_opt_b">
           <p>By default, <c>class</c> member variables are private.</p>
         </statement>
-        <feedback id="mce_14_3_opt_b">
-          <p>This is different from a <c>struct</c>, whose member variables default to be public.</p>
+        <feedback>
+          This is different from a <c>struct</c>, whose member variables default to be public.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_3_opt_c">
           <p>Private member variables can be accessed within the class.</p>
         </statement>
-        <feedback id="mce_14_3_opt_c">
-          <p>Private member variables are private to things outside of the class.</p>
+        <feedback>
+          Private member variables are private to things outside of the class.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_3_opt_d">
           <p>Public member variables can be accessed within the class.</p>
         </statement>
-        <feedback id="mce_14_3_opt_d">
-          <p>Public member variables can be accessed anywhere, including within the class.</p>
+        <feedback>
+          Public member variables can be accessed anywhere, including within the class.
         </feedback>
       </choice>
     </choices>
@@ -172,9 +172,9 @@ class rightTriangle {
             <c>return sqrt(pow(getBase, 2) + pow(getHeight, 2));</c>
           </p>
         </statement>
-        <feedback id="mce_14_4_opt_a">
-          <p>We use the Pythagorean Theorem and <c>getBase</c> and <c>getHeight</c> to calculate and return the
-            hypotenuse.</p>
+        <feedback>
+          We use the Pythagorean Theorem and <c>getBase</c> and <c>getHeight</c> to calculate and return the
+            hypotenuse.
         </feedback>
       </choice>
       <choice>
@@ -183,8 +183,8 @@ class rightTriangle {
             <c>return pow(getBase, 2) + pow(getHeight, 2);</c>
           </p>
         </statement>
-        <feedback id="mce_14_4_opt_b">
-          <p>Use the Pythagorean Theorem!</p>
+        <feedback>
+          Use the Pythagorean Theorem!
         </feedback>
       </choice>
       <choice>
@@ -193,8 +193,8 @@ class rightTriangle {
             <c>return sqrt(pow(base, 2) + pow(height, 2));</c>
           </p>
         </statement>
-        <feedback id="mce_14_4_opt_c">
-          <p>Although this would work, we want to use accessor functions.</p>
+        <feedback>
+          Although this would work, we want to use accessor functions.
         </feedback>
       </choice>
       <choice>
@@ -203,8 +203,8 @@ class rightTriangle {
             <c><![CDATA[cout << sqrt(pow(getBase, 2) + pow(getHeight, 2));]]></c>
           </p>
         </statement>
-        <feedback id="mce_14_4_opt_d">
-          <p>Take a look at the return type of <c>calculateHypotenuse</c>.</p>
+        <feedback>
+          Take a look at the return type of <c>calculateHypotenuse</c>.
         </feedback>
       </choice>
     </choices>
@@ -243,35 +243,35 @@ int main() {
         <statement id="mce_14_5_opt_a">
           <p>The <c>Plane</c> class is missing the keyword <c>private:</c>.</p>
         </statement>
-        <feedback id="mce_14_5_opt_a">
-          <p>By default, <c>class</c> member variables are private, so we don't need to explicitly write <c>private:</c>
-            .</p>
+        <feedback>
+          By default, <c>class</c> member variables are private, so we don't need to explicitly write <c>private:</c>
+            .
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_5_opt_b">
           <p><c>printInfo</c> cannot access <c>Plane</c>'s private member variables.</p>
         </statement>
-        <feedback id="mce_14_5_opt_b">
-          <p>The private member variables of <c>Plane</c> are only inaccessible to those outside of the
-            class.</p>
+        <feedback>
+          The private member variables of <c>Plane</c> are only inaccessible to those outside of the
+            class.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_5_opt_c">
           <p>We cannot assign the private member variables of <c>p</c> in <c>main</c>.</p>
         </statement>
-        <feedback id="mce_14_5_opt_c">
-          <p>We are trying to access the private member variables of a <c>Plane</c> object outside of the <c>Plane</c>
-            class.</p>
+        <feedback>
+          We are trying to access the private member variables of a <c>Plane</c> object outside of the <c>Plane</c>
+            class.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_5_opt_d">
           <p>We cannot call <c>printInfo</c> in <c>main</c>.</p>
         </statement>
-        <feedback id="mce_14_5_opt_d">
-          <p><c>printInfo</c> is a public member function, so we are allowed to call it in <c>main</c>.</p>
+        <feedback>
+          <c>printInfo</c> is a public member function, so we are allowed to call it in <c>main</c>.
         </feedback>
       </choice>
     </choices>
@@ -317,32 +317,32 @@ int main() {
         <statement id="mce_14_6_opt_a">
           <p>It is 125 degrees Fahrenheit</p>
         </statement>
-        <feedback id="mce_14_6_opt_a">
-          <p>Since we called <c>setCelsius</c> last, <c>is_celsius</c> is <c>true</c> and <c>is_fahrenheit</c> is false.</p>
+        <feedback>
+          Since we called <c>setCelsius</c> last, <c>is_celsius</c> is <c>true</c> and <c>is_fahrenheit</c> is false.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_6_opt_b">
           <p>It is 30 degrees Fahrenheit</p>
         </statement>
-        <feedback id="mce_14_6_opt_b">
-          <p>Since we called <c>setCelsius</c> last, <c>is_celsius</c> is <c>true</c> and <c>is_fahrenheit</c> is false.</p>
+        <feedback>
+          Since we called <c>setCelsius</c> last, <c>is_celsius</c> is <c>true</c> and <c>is_fahrenheit</c> is false.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_6_opt_c">
           <p>It is 125 degrees Celsius</p>
         </statement>
-        <feedback id="mce_14_6_opt_c">
-          <p>What was the value that we set <c>celsius</c> equal to?</p>
+        <feedback>
+          What was the value that we set <c>celsius</c> equal to?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_6_opt_d">
           <p>It is 30 degrees Celsius</p>
         </statement>
-        <feedback id="mce_14_6_opt_d">
-          <p>Since we called <c>setCelsius</c> last, we print out 30 degrees Celsius.</p>
+        <feedback>
+          Since we called <c>setCelsius</c> last, we print out 30 degrees Celsius.
         </feedback>
       </choice>
     </choices>
@@ -357,17 +357,17 @@ int main() {
           <p>Data encapsulation helps enforce invariants by preventing unrestricted access to
             private member variables.</p>
         </statement>
-        <feedback id="mce_14_7_opt_a">
-          <p>By limiting access to private member variables, data encapsulation can control what
-            values these variables can take on.</p>
+        <feedback>
+          By limiting access to private member variables, data encapsulation can control what
+            values these variables can take on.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_7_opt_b">
           <p>If an invariant is true at the start of a function, it can be false at the end.</p>
         </statement>
-        <feedback id="mce_14_7_opt_b">
-          <p>If an invariant is true at the start of a function, it must also be true at the end.</p>
+        <feedback>
+          If an invariant is true at the start of a function, it must also be true at the end.
         </feedback>
       </choice>
       <choice>
@@ -375,16 +375,16 @@ int main() {
           <p>An invariant cannot be false in the middle of a function, even if it is true at the
             start and the end.</p>
         </statement>
-        <feedback id="mce_14_7_opt_c">
-          <p>An invariant can be false in the middle of a function, and it is sometimes unavoidable.</p>
+        <feedback>
+          An invariant can be false in the middle of a function, and it is sometimes unavoidable.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_7_opt_d">
           <p>Maintaining invariants can reduce the number of bugs in a program.</p>
         </statement>
-        <feedback id="mce_14_7_opt_d">
-          <p>By maintaining invariants, you can guarantee that all values are what they should be.</p>
+        <feedback>
+          By maintaining invariants, you can guarantee that all values are what they should be.
         </feedback>
       </choice>
     </choices>
@@ -419,32 +419,32 @@ public:
         <statement id="mce_14_8_opt_a">
           <p><c>day</c> must be between 1 and 31.</p>
         </statement>
-        <feedback id="mce_14_8_opt_a">
-          <p>There is a maximum of 31 possible days in a month.</p>
+        <feedback>
+          There is a maximum of 31 possible days in a month.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_8_opt_b">
           <p><c>month</c> must be between 1 and 12.</p>
         </statement>
-        <feedback id="mce_14_8_opt_b">
-          <p>There are 12 months in a year.</p>
+        <feedback>
+          There are 12 months in a year.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_8_opt_c">
           <p><c>is_birthday</c> must be <c>true</c> or <c>false</c>.</p>
         </statement>
-        <feedback id="mce_14_8_opt_c">
-          <p>This isn't an invariant since <c>is_birthday</c> being a <c>bool</c> isn't really a condition.</p>
+        <feedback>
+          This isn't an invariant since <c>is_birthday</c> being a <c>bool</c> isn't really a condition.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_8_opt_d">
           <p><c>year</c> must be greater than 2000.</p>
         </statement>
-        <feedback id="mce_14_8_opt_d">
-          <p><c>year</c> can be less than 2000, so this isn't a correct invariant to maintain.</p>
+        <feedback>
+          <c>year</c> can be less than 2000, so this isn't a correct invariant to maintain.
         </feedback>
       </choice>
     </choices>
@@ -465,32 +465,32 @@ int calculateRectangleArea(int length, int width) {
         <statement id="mce_14_9_opt_a">
           <p>Precondition: <c>length</c> and <c>width</c> must both be positive.</p>
         </statement>
-        <feedback id="mce_14_9_opt_a">
-          <p>A rectangle can't have negative dimensions, or dimensions of 0.</p>
+        <feedback>
+          A rectangle can't have negative dimensions, or dimensions of 0.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_9_opt_b">
           <p>Precondition: <c>length</c> must be greater than <c>width</c>.</p>
         </statement>
-        <feedback id="mce_14_9_opt_b">
-          <p>A rectangle can be wider than it is long.</p>
+        <feedback>
+          A rectangle can be wider than it is long.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_9_opt_c">
           <p>Postcondition: <c>calculateRectangleArea</c> must return a positive number.</p>
         </statement>
-        <feedback id="mce_14_9_opt_c">
-          <p>Since <c>length</c> and <c>width</c> must both be positive, their product muast also be positive.</p>
+        <feedback>
+          Since <c>length</c> and <c>width</c> must both be positive, their product muast also be positive.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_9_opt_d">
           <p>Postcondition: <c>calculateRectangleArea</c> must return a nonnegative number.</p>
         </statement>
-        <feedback id="mce_14_9_opt_d">
-          <p><c>calculateRectangleArea</c> cannot return 0, which is a nonnegative number but not a valid area.</p>
+        <feedback>
+          <c>calculateRectangleArea</c> cannot return 0, which is a nonnegative number but not a valid area.
         </feedback>
       </choice>
     </choices>
@@ -504,33 +504,33 @@ int calculateRectangleArea(int length, int width) {
         <statement id="mce_14_10_opt_a">
           <p>Functions that return the type <c>private</c>.</p>
         </statement>
-        <feedback id="mce_14_10_opt_a">
-          <p>There is no return type of <c>private</c>.</p>
+        <feedback>
+          There is no return type of <c>private</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_10_opt_b">
           <p>Functions that are used to retrieve and modify private member variables.</p>
         </statement>
-        <feedback id="mce_14_10_opt_b">
-          <p>These are called accessor functions, not private functions.</p>
+        <feedback>
+          These are called accessor functions, not private functions.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_14_10_opt_c">
           <p>Functions written outside of a class that accesses a class's private member variables.</p>
         </statement>
-        <feedback id="mce_14_10_opt_c">
-          <p>No function outside of a class can access that class's private member variables.</p>
+        <feedback>
+          No function outside of a class can access that class's private member variables.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_14_10_opt_d">
           <p>Functions that are declared private which cannot be invoked by client programs.</p>
         </statement>
-        <feedback id="mce_14_10_opt_d">
-          <p>We would make functions private if we wanted to restrict their usage outside of the
-            class.</p>
+        <feedback>
+          We would make functions private if we wanted to restrict their usage outside of the
+            class.
         </feedback>
       </choice>
     </choices>

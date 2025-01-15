@@ -165,7 +165,7 @@ void Card::print() const {
           <p>bool</p>
         </statement>
         <feedback>
-          <p>Incorrect! We cannot say true is greater than false, or vice versa.</p>
+          Incorrect! We cannot say true is greater than false, or vice versa.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -173,7 +173,7 @@ void Card::print() const {
           <p>string</p>
         </statement>
         <feedback>
-          <p>Correct! Strings are ordered lexiographically.</p>
+          Correct! Strings are ordered lexiographically.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -181,7 +181,7 @@ void Card::print() const {
           <p>int</p>
         </statement>
         <feedback>
-          <p>Correct! It is quite obvious how integers are ordered.</p>
+          Correct! It is quite obvious how integers are ordered.
         </feedback>
       </choice>
       <choice>
@@ -189,7 +189,7 @@ void Card::print() const {
           <p>Animal</p>
         </statement>
         <feedback>
-          <p>Incorrect! We cannot say that one animal is greater than another.</p>
+          Incorrect! We cannot say that one animal is greater than another.
         </feedback>
       </choice>
       <choice>
@@ -197,7 +197,7 @@ void Card::print() const {
           <p>Card</p>
         </statement>
         <feedback>
-          <p>Incorrect! Cards are partially ordered.</p>
+          Incorrect! Cards are partially ordered.
         </feedback>
       </choice>
     </choices>
@@ -217,23 +217,16 @@ else {
    cout &lt;&lt; "is greater than" &lt;&lt; endl;
    card1.print();
 }</program>
-      <p>If the above code is run, the terminal will print: <q>Queen of Hearts <var/> Queen of
+      <p>If the above code is run, the terminal will print: <q>Queen of Hearts <fillin mode="string" case="insensitive" answer="is greater than"/> Queen of
         Diamonds</q></p>
       <p>Type your answer exactly as it would appear in the terminal.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*is greater than\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -95,8 +95,8 @@ double y = temp.y;
             <c>double y = corner.box.y;</c>
           </p>
         </statement>
-        <feedback id="rectangles_1_opt_a">
-          <p>Try again.</p>
+        <feedback>
+          Try again.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -105,8 +105,8 @@ double y = temp.y;
             <c>double y = box.corner.y;</c>
           </p>
         </statement>
-        <feedback id="rectangles_1_opt_b">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -115,8 +115,8 @@ double y = temp.y;
             <c>double y = corner.y;</c>
           </p>
         </statement>
-        <feedback id="rectangles_1_opt_c">
-          <p>Try again.</p>
+        <feedback>
+          Try again.
         </feedback>
       </choice>
       <choice>
@@ -125,8 +125,8 @@ double y = temp.y;
             <c>double y = box.y;</c>
           </p>
         </statement>
-        <feedback id="rectangles_1_opt_d">
-          <p>Try again.</p>
+        <feedback>
+          Try again.
         </feedback>
       </choice>
     </choices>
@@ -138,7 +138,7 @@ double y = temp.y;
         active code above.</p>
     </statement>
     <feedback>
-      <p>Re-read the text above and try again.</p>
+      Re-read the text above and try again.
     </feedback>
     <areas>
       <cline>        <area correct="no">def main() {</area></cline>

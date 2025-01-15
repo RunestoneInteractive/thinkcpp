@@ -110,21 +110,25 @@
 cout &lt;&lt; findBisect (deck[23], deck, 0, 51);
 </program>
   <p>And got the following output:</p>
-  <console><output>0, 51
+  <console>
+    <output>0, 51
 0, 24
 13, 24
 19, 24
 22, 24
-I found the card at index = 23</output></console>
+I found the card at index = 23</output>
+  </console>
   <p>Then I made up a card that is not in the deck(the 15 of Diamonds), and
     tried to find it. I got the following:</p>
-  <console><output>0, 51
+  <console>
+    <output>0, 51
 0, 24
 13, 24
 13, 17
 13, 14
 13, 12
-I found the card at index = -1</output></console>
+I found the card at index = -1</output>
+  </console>
   <p>These tests don't prove that this program is correct. In fact, no amount
     of testing can prove that a program is correct. On the other hand, by
     looking at a few cases and examining the code, you might be able to
@@ -132,8 +136,8 @@ I found the card at index = -1</output></console>
   <listing label="12_9">
     <caption>
       The code below searches finds the same card from the same deck we used on the previous
-        page.
-        This time, it uses bisection search to locate the card.
+      page.
+      This time, it uses bisection search to locate the card.
     </caption>
     <program xml:id="c12_9_editor"
              interactive="activecode"
@@ -278,7 +282,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>linear search</p>
         </statement>
         <feedback>
-          <p>Correct! No search is faster than linear search when elements are not sorted.</p>
+          Correct! No search is faster than linear search when elements are not sorted.
         </feedback>
       </choice>
       <choice>
@@ -286,7 +290,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>bisection search</p>
         </statement>
         <feedback>
-          <p>Incorrect! Bisection sort does not work on unsorted elements.</p>
+          Incorrect! Bisection sort does not work on unsorted elements.
         </feedback>
       </choice>
       <choice>
@@ -294,7 +298,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>both methods will work, but linear search is more efficient</p>
         </statement>
         <feedback>
-          <p>Incorrect! Bisection sort does not work on unsorted elements.</p>
+          Incorrect! Bisection sort does not work on unsorted elements.
         </feedback>
       </choice>
       <choice>
@@ -302,7 +306,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>both methods will work, but bisection search is more efficient</p>
         </statement>
         <feedback>
-          <p>Incorrect! Bisection sort does not work on unsorted elements.</p>
+          Incorrect! Bisection sort does not work on unsorted elements.
         </feedback>
       </choice>
     </choices>
@@ -318,7 +322,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>linear search</p>
         </statement>
         <feedback>
-          <p>Incorrect! You could use linear search, but it is not the only option.</p>
+          Incorrect! You could use linear search, but it is not the only option.
         </feedback>
       </choice>
       <choice>
@@ -326,7 +330,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>bisection search</p>
         </statement>
         <feedback>
-          <p>Incorrect! You could use bisection search, but it is not the only option.</p>
+          Incorrect! You could use bisection search, but it is not the only option.
         </feedback>
       </choice>
       <choice>
@@ -334,7 +338,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>both methods will work, but linear search is more efficient</p>
         </statement>
         <feedback>
-          <p>Incorrect! Both methods will work, but linear search is not the most efficient method.</p>
+          Incorrect! Both methods will work, but linear search is not the most efficient method.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -342,7 +346,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>both methods will work, but bisection search is more efficient</p>
         </statement>
         <feedback>
-          <p>Correct! When elements are sorted, bisection search is much quicker.</p>
+          Correct! When elements are sorted, bisection search is much quicker.
         </feedback>
       </choice>
     </choices>
@@ -358,8 +362,8 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>having more than one recursive call</p>
         </statement>
         <feedback>
-          <p>Incorrect! You are allowed to make multiple recursive calls inside of a function! You
-            might do this if there is more than one condition.</p>
+          Incorrect! You are allowed to make multiple recursive calls inside of a function! You
+          might do this if there is more than one condition.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -367,7 +371,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>not including a base case</p>
         </statement>
         <feedback>
-          <p>Correct! You always need a base case!</p>
+          Correct! You always need a base case!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -375,8 +379,8 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>writing recursive calls such that the base case is never reached</p>
         </statement>
         <feedback>
-          <p>Correct! If you never reach the base case, the program will never stop making recursive
-            calls.</p>
+          Correct! If you never reach the base case, the program will never stop making recursive
+          calls.
         </feedback>
       </choice>
       <choice>
@@ -384,7 +388,7 @@ bool Card::isGreater(const Card&amp; c2) const {
           <p>having more than one base case</p>
         </statement>
         <feedback>
-          <p>Incorrect! You are allowed to have multiple base cases. This is often necessary!</p>
+          Incorrect! You are allowed to have multiple base cases. This is often necessary!
         </feedback>
       </choice>
     </choices>
@@ -392,23 +396,22 @@ bool Card::isGreater(const Card&amp; c2) const {
   <exercise label="bisection_search_4">
     <statement>
       <p>How many recursive calls are used to locate the King of Hearts? (Hearts = suit 2, King =
-        rank 13). <var/>
+        rank 13). <fillin mode="number"
+                case="insensitive"
+                answer="2"/>
       </p>
     </statement>
-    <setup>
-      <var>
-        <condition number="2">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*x\s*$">
-          <feedback>
-            <p>Incorrect! Change the input of <c>card</c> in the <c>int main()</c> of the active code above, then
-              take a look at the output.</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>.*</strcmp>
+          <feedback> Incorrect! Change the input of <c>card</c> in the <c>int main()</c> of the active code above,
+            then take a look at the output. </feedback>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

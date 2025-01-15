@@ -79,23 +79,16 @@ int main() {
     convention.</p>
   <exercise label="call_by_reference_1">
     <statement>
-      <p>Which symbol is used to cause the compiler to pass a function's parameter by reference? <var/>
+      <p>Which symbol is used to cause the compiler to pass a function's parameter by reference? <fillin mode="string" case="insensitive" answer="&amp;"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*&amp;\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="call_by_reference_2">
     <statement>
@@ -106,8 +99,8 @@ int main() {
         <statement id="call_by_reference_2_opt_a">
           <p>Passing structures by reference is more versatile</p>
         </statement>
-        <feedback id="call_by_reference_2_opt_a">
-          <p>Try again! Passing by reference is more versatile.</p>
+        <feedback>
+          Try again! Passing by reference is more versatile.
         </feedback>
       </choice>
       <choice>
@@ -115,16 +108,16 @@ int main() {
           <p>Passing structures by reference is faster, because the system does not have to copy the
             whole structure</p>
         </statement>
-        <feedback id="call_by_reference_2_opt_b">
-          <p>Try again! Passing by reference does not involve making copies.</p>
+        <feedback>
+          Try again! Passing by reference does not involve making copies.
         </feedback>
       </choice>
       <choice>
         <statement id="call_by_reference_2_opt_c">
           <p>In C++ programs, almost all structures are passed by reference almost all the time</p>
         </statement>
-        <feedback id="call_by_reference_2_opt_c">
-          <p>Try again!</p>
+        <feedback>
+          Try again!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -132,8 +125,8 @@ int main() {
           <p>Passing structures by reference is less safe, since it is harder to keep track of what
             gets modified where</p>
         </statement>
-        <feedback id="call_by_reference_2_opt_d">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
     </choices>
@@ -165,8 +158,8 @@ int main() {
             <c>2 4</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_3_opt_a">
-          <p>Take a look at exactly what is being outputted.</p>
+        <feedback>
+          Take a look at exactly what is being outputted.
         </feedback>
       </choice>
       <choice>
@@ -175,8 +168,8 @@ int main() {
             <c>2 4 2</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_3_opt_b">
-          <p>Remember the rules of pass by reference.</p>
+        <feedback>
+          Remember the rules of pass by reference.
         </feedback>
       </choice>
       <choice>
@@ -185,8 +178,8 @@ int main() {
             <c>4 4 2</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_3_opt_c">
-          <p>Take a look at exactly what is being outputted.</p>
+        <feedback>
+          Take a look at exactly what is being outputted.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -195,8 +188,8 @@ int main() {
             <c>2 4 4</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_3_opt_d">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
     </choices>
@@ -231,8 +224,8 @@ int main() {
             <c>(6, 8), 3</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_4_opt_a">
-          <p>The <c>&amp;</c> indicates pass by reference.</p>
+        <feedback>
+          The <c>&amp;</c> indicates pass by reference.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -241,8 +234,8 @@ int main() {
             <c>(6, 8), 6</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_4_opt_b">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -251,8 +244,8 @@ int main() {
             <c>(6.0, 8.0) 3.0</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_4_opt_c">
-          <p>The <c>&amp;</c> indicates pass by reference. Take a look at the data type.</p>
+        <feedback>
+          The <c>&amp;</c> indicates pass by reference. Take a look at the data type.
         </feedback>
       </choice>
       <choice>
@@ -261,8 +254,8 @@ int main() {
             <c>686</c>
           </p>
         </statement>
-        <feedback id="call_by_reference_4_opt_d">
-          <p>Take a look at exactly what is being printed.</p>
+        <feedback>
+          Take a look at exactly what is being printed.
         </feedback>
       </choice>
     </choices>

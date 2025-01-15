@@ -218,7 +218,7 @@ int main() {
           <p>True</p>
         </statement>
         <feedback>
-          <p>Correct! Client programs wouldn't have access to these values in the first place.</p>
+          Correct! Client programs wouldn't have access to these values in the first place.
         </feedback>
       </choice>
       <choice>
@@ -226,7 +226,7 @@ int main() {
           <p>False</p>
         </statement>
         <feedback>
-          <p>Incorrect! Keeping instance variables private prevents client programs from accessing them.</p>
+          Incorrect! Keeping instance variables private prevents client programs from accessing them.
         </feedback>
       </choice>
     </choices>

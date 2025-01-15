@@ -135,7 +135,7 @@ using namespace std;</program>
           <p>the file that contains structure/function definitions</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -143,7 +143,7 @@ using namespace std;</program>
           <p>the file that contains structure/function implementation</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is called the implementation file.</p>
+          Incorrect! This is called the implementation file.
         </feedback>
       </choice>
       <choice>
@@ -151,7 +151,7 @@ using namespace std;</program>
           <p>the file that contains int main()</p>
         </statement>
         <feedback>
-          <p>Incorrect! Header files are compiled separately and later linked to int main().</p>
+          Incorrect! Header files are compiled separately and later linked to int main().
         </feedback>
       </choice>
       <choice>
@@ -159,7 +159,7 @@ using namespace std;</program>
           <p>the first file that you write for any given project</p>
         </statement>
         <feedback>
-          <p>Incorrect! You are not required to write your programs in any specific order.</p>
+          Incorrect! You are not required to write your programs in any specific order.
         </feedback>
       </choice>
     </choices>
@@ -176,8 +176,8 @@ using namespace std;</program>
             <c>#include &lt;header.h&gt;</c>
           </p>
         </statement>
-        <feedback id="header_files_2_opt_a">
-          <p>Incorrect! This is how we include standard library headers.</p>
+        <feedback>
+          Incorrect! This is how we include standard library headers.
         </feedback>
       </choice>
       <choice>
@@ -186,8 +186,8 @@ using namespace std;</program>
             <c><![CDATA[#include <"header.h">]]></c>
           </p>
         </statement>
-        <feedback id="header_files_2_opt_b">
-          <p>Incorrect! You should get rid of those brackets!</p>
+        <feedback>
+          Incorrect! You should get rid of those brackets!
         </feedback>
       </choice>
       <choice>
@@ -196,8 +196,8 @@ using namespace std;</program>
             <c>#include header.h</c>
           </p>
         </statement>
-        <feedback id="header_files_2_opt_c">
-          <p>Incorrect! You're missing quotes!</p>
+        <feedback>
+          Incorrect! You're missing quotes!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -206,8 +206,8 @@ using namespace std;</program>
             <c>#include "header.h"</c>
           </p>
         </statement>
-        <feedback id="header_files_2_opt_d">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
     </choices>
@@ -222,7 +222,7 @@ using namespace std;</program>
           <p>Files can be compiled separately and linked to a single program later.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is actually true!</p>
+          Incorrect! This is actually true!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -230,8 +230,8 @@ using namespace std;</program>
           <p>Separate compilation can be time-consuming, since you're working with more files.</p>
         </statement>
         <feedback>
-          <p>Correct! Separate compilation actually saves time, since you only need to compile a few
-            files at a time!</p>
+          Correct! Separate compilation actually saves time, since you only need to compile a few
+            files at a time!
         </feedback>
       </choice>
       <choice>
@@ -239,7 +239,7 @@ using namespace std;</program>
           <p>It minimizes interactions between components.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is actually true!</p>
+          Incorrect! This is actually true!
         </feedback>
       </choice>
       <choice>
@@ -247,7 +247,7 @@ using namespace std;</program>
           <p>It's easier to include your implementation in other program, besides your main.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is actually true!</p>
+          Incorrect! This is actually true!
         </feedback>
       </choice>
     </choices>

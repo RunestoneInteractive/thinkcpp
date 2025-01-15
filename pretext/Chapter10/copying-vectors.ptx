@@ -67,8 +67,8 @@ void print_vec(vector&lt;int&gt; vec) {
             <c><![CDATA[vector<double> nums = decimals;]]></c>
           </p>
         </statement>
-        <feedback id="copying_vectors_1_opt_a">
-          <p>This is one way to make a copy.</p>
+        <feedback>
+          This is one way to make a copy.
         </feedback>
       </choice>
       <choice>
@@ -77,8 +77,8 @@ void print_vec(vector&lt;int&gt; vec) {
             <c><![CDATA[vector<double> decimals = nums;]]></c>
           </p>
         </statement>
-        <feedback id="copying_vectors_1_opt_b">
-          <p>This makes a copy of nums called decimals.</p>
+        <feedback>
+          This makes a copy of nums called decimals.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -87,8 +87,8 @@ void print_vec(vector&lt;int&gt; vec) {
             <c><![CDATA[vector<double> nums (decimals);]]></c>
           </p>
         </statement>
-        <feedback id="copying_vectors_1_opt_c">
-          <p>This is one way to make a copy.</p>
+        <feedback>
+          This is one way to make a copy.
         </feedback>
       </choice>
       <choice>
@@ -97,8 +97,8 @@ void print_vec(vector&lt;int&gt; vec) {
             <c><![CDATA[vector<double> decimals (nums);]]></c>
           </p>
         </statement>
-        <feedback id="copying_vectors_1_opt_d">
-          <p>This makes a copy of nums called decimals.</p>
+        <feedback>
+          This makes a copy of nums called decimals.
         </feedback>
       </choice>
     </choices>
@@ -106,22 +106,17 @@ void print_vec(vector&lt;int&gt; vec) {
   <exercise label="copying_vectors_2">
     <statement>
       <p>What is the name of the function that takes a vector as an argument, and creates a new
-        vector of the same size and with the same elements? <var/>
+        vector of the same size and with the same elements? <fillin mode="string"
+                case="insensitive"
+                answer="constructor"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*copy\s+constructor\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>incorrect! You can find the answer by re-reading the text above. It is a two word answer.</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -85,7 +85,7 @@ void print_vec(vector&lt;int&gt; vec) {
           <p>5</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is the size of the vector before we ran the command.</p>
+          Incorrect! This is the size of the vector before we ran the command.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -93,7 +93,7 @@ void print_vec(vector&lt;int&gt; vec) {
           <p>6</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -101,7 +101,7 @@ void print_vec(vector&lt;int&gt; vec) {
           <p>7</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
       <choice>
@@ -109,7 +109,7 @@ void print_vec(vector&lt;int&gt; vec) {
           <p>8</p>
         </statement>
         <feedback>
-          <p>Incorrect! We are adding the element 3 to the end of the vector, not 3 elements!</p>
+          Incorrect! We are adding the element 3 to the end of the vector, not 3 elements!
         </feedback>
       </choice>
     </choices>
@@ -202,8 +202,8 @@ cout << endl;
           <p>4 3 2 1 0</p>
         </statement>
         <feedback>
-          <p>we change the numbers in the first half of the vector before we copy them to the second
-            half</p>
+          we change the numbers in the first half of the vector before we copy them to the second
+            half
         </feedback>
       </choice>
       <choice correct="yes">
@@ -211,8 +211,8 @@ cout << endl;
           <p>4 3 2 3 4</p>
         </statement>
         <feedback>
-          <p>when <code>i</code> is 3 we copy from <code>end = 1</code> copying the values we
-            already changed.</p>
+          when <code>i</code> is 3 we copy from <code>end = 1</code> copying the values we
+            already changed.
         </feedback>
       </choice>
       <choice>
@@ -220,7 +220,7 @@ cout << endl;
           <p>0 1 2 3 4</p>
         </statement>
         <feedback>
-          <p>we change values in the second loop.</p>
+          we change values in the second loop.
         </feedback>
       </choice>
     </choices>

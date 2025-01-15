@@ -133,37 +133,29 @@ int find(const Card&amp; card, const vector&lt;Card&gt;&amp; deck) {
   <exercise label="searching_1">
     <statement>
       <p>Say we have standard deck of cards. According to our <c>find()</c> function, the for loop will
-        execute a minimum of <var/> times, and a maximum of <var/> times while searching for a
+        execute a minimum of <fillin mode="number" case="insensitive" answer="1"/> times, and a maximum of <fillin mode="number" case="insensitive" answer="52"/> times while searching for a
         particular card.
       </p>
     </statement>
-    <setup>
-      <var>
-        <condition number="1">
+    <evaluation>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>.*</strcmp>
           <feedback>
-            <p>Correct!</p>
+            Incorrect! What if the card we were searching for wasn't in the deck? In this case,
+              we'd have looped through all of the cards!
           </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! What if the card we were searching for was the first one in the deck?</p>
-          </feedback>
-        </condition>
-      </var>
-      <var>
-        <condition number="52">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! What if the card we were searching for wasn't in the deck? In this case,
-              we'd have looped through all of the cards!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="searching_2">
     <statement>
@@ -175,21 +167,23 @@ int find(const Card&amp; card, const vector&lt;Card&gt;&amp; deck) {
     Card card (3, 6);
     find(card, EuchreDeck);
 }</program>
-      <p><var/></p>
+      <p><fillin mode="string" case="insensitive" answer="-1"/></p>
     </statement>
-    <setup>
-      <var>
-        <condition number="-1">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
           <feedback>
-            <p>Correct! The find method should return -1 if the card is not part of the deck.</p>
+            Correct! The find method should return -1 if the card is not part of the deck.
           </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
+        </test>
+        <test>
+          <strcmp>.*</strcmp>
           <feedback>
-            <p>Incorrect! Hint: take a look at the suit and rank of card.</p>
+            Incorrect! Hint: take a look at the suit and rank of card.
           </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

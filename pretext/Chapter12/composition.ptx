@@ -23,7 +23,7 @@
           <p>You can have vectors that contain other vectors and objects that contain other objects.</p>
         </statement>
         <feedback>
-          <p>This is called composition!</p>
+          This is called composition!
         </feedback>
       </choice>
       <choice>
@@ -32,7 +32,7 @@
             contain other objects.</p>
         </statement>
         <feedback>
-          <p>In this chapter you will see how you can have objects that contain other objects.</p>
+          In this chapter you will see how you can have objects that contain other objects.
         </feedback>
       </choice>
       <choice>
@@ -41,7 +41,7 @@
             contain other objects.</p>
         </statement>
         <feedback>
-          <p>In this chapter you will see how you can have vectors that contain other vectors.</p>
+          In this chapter you will see how you can have vectors that contain other vectors.
         </feedback>
       </choice>
       <choice>
@@ -50,28 +50,24 @@
             objects.</p>
         </statement>
         <feedback>
-          <p>Vectors and objects can have nested compositons!</p>
+          Vectors and objects can have nested compositons!
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="composition_2">
     <statement>
-      <p>There are many different arrangements to combine language features. This is called <var/>.</p>
+      <p>There are many different arrangements to combine language features. This is called <fillin mode="string"
+                case="insensitive"
+                answer="COMPOSITION"/>
+        .</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*COMPOSITION\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

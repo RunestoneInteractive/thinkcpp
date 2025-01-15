@@ -65,7 +65,7 @@ int main() {
       <p>Click on the name of each variable that had been initialized with the value of 0.</p>
     </statement>
     <feedback>
-      <p>Remember that the index of a string begins at 0, not 1.</p>
+      Remember that the index of a string begins at 0, not 1.
     </feedback>
     <areas>
 <cline><area correct="no">def main() {:</area></cline>
@@ -167,7 +167,7 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is 29</p>
         </statement>
         <feedback>
-          <p><code>find</code> returns the index of the FIRST occurence of "sea".</p>
+          <code>find</code> returns the index of the FIRST occurence of "sea".
         </feedback>
       </choice>
       <choice correct="yes">
@@ -175,8 +175,8 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is 5</p>
         </statement>
         <feedback>
-          <p>Correct! <code>index</code> only has to look for a sequence arranged as "sea" in the
-            string.</p>
+          Correct! <code>index</code> only has to look for a sequence arranged as "sea" in the
+            string.
         </feedback>
       </choice>
       <choice>
@@ -184,7 +184,7 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is -1</p>
         </statement>
         <feedback>
-          <p>sea is present in the <code>sentence</code>.</p>
+          sea is present in the <code>sentence</code>.
         </feedback>
       </choice>
     </choices>

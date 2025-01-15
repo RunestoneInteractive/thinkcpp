@@ -100,7 +100,7 @@ int main() {
           <p>n = 2</p>
         </statement>
         <feedback>
-          <p>A single equal sign is the assignment operator, not comparison.</p>
+          A single equal sign is the assignment operator, not comparison.
         </feedback>
       </choice>
       <choice>
@@ -108,7 +108,7 @@ int main() {
           <p>n != 0</p>
         </statement>
         <feedback>
-          <p>This would be valid because it means the loop would run while n is not equal to 0.</p>
+          This would be valid because it means the loop would run while n is not equal to 0.
         </feedback>
       </choice>
       <choice>
@@ -116,7 +116,7 @@ int main() {
           <p>n % 2 == 1</p>
         </statement>
         <feedback>
-          <p>This would be valid because it mean the loop would run until n was an even number.</p>
+          This would be valid because it mean the loop would run until n was an even number.
         </feedback>
       </choice>
     </choices>
@@ -144,8 +144,8 @@ cout << answer;
             positive.</p>
         </statement>
         <feedback>
-          <p>The loop will run as long as n is positive. In this case, we can see that n will never
-            become non-positive as the while statement condition will never be met.</p>
+          The loop will run as long as n is positive. In this case, we can see that n will never
+            become non-positive as the while statement condition will never be met.
         </feedback>
       </choice>
       <choice>
@@ -154,8 +154,8 @@ cout << answer;
             positive.</p>
         </statement>
         <feedback>
-          <p>While it is true that answer will always be positive, answer is not considered in the
-            loop condition.</p>
+          While it is true that answer will always be positive, answer is not considered in the
+            loop condition.
         </feedback>
       </choice>
       <choice>
@@ -163,8 +163,8 @@ cout << answer;
           <p>You cannot compare n to 0 in while loop. You must compare it to another variable.</p>
         </statement>
         <feedback>
-          <p>It is perfectly valid to compare n to 0. Though indirectly, this is what causes the
-            infinite loop.</p>
+          It is perfectly valid to compare n to 0. Though indirectly, this is what causes the
+            infinite loop.
         </feedback>
       </choice>
       <choice>
@@ -172,8 +172,8 @@ cout << answer;
           <p>In the while loop body, we must set n to False, and this code does not do that.</p>
         </statement>
         <feedback>
-          <p>The loop condition must become False for the loop to terminate, but n by itself is not
-            the condition in this case.</p>
+          The loop condition must become False for the loop to terminate, but n by itself is not
+            the condition in this case.
         </feedback>
       </choice>
     </choices>
@@ -194,32 +194,32 @@ cout << answer;
         <statement id="while_statement_3_opt_a">
           <p><c><![CDATA[n % 2 = 0 && n <= 20]]></c> and <c>n = n + 1</c></p>
         </statement>
-        <feedback id="while_statement_3_opt_a">
-          <p>A single equal sign is the assignment operator, not comparison.</p>
+        <feedback>
+          A single equal sign is the assignment operator, not comparison.
         </feedback>
       </choice>
       <choice>
         <statement id="while_statement_3_opt_b">
           <p><c><![CDATA[n % 2 != 0 && n <= 20]]></c> and <c>n = n + 1</c></p>
         </statement>
-        <feedback id="while_statement_3_opt_b">
-          <p>The code is meant to print the <term>even</term> numbers from 0-20</p>
+        <feedback>
+          The code is meant to print the <term>even</term> numbers from 0-20
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="while_statement_3_opt_c">
           <p><c><![CDATA[n % 2 == 0 && n <= 20]]></c> and <c>n = n + 1</c></p>
         </statement>
-        <feedback id="while_statement_3_opt_c">
-          <p>The condition checks whether a number is even and increments the variable <c>n</c></p>
+        <feedback>
+          The condition checks whether a number is even and increments the variable <c>n</c>
         </feedback>
       </choice>
       <choice>
         <statement id="while_statement_3_opt_d">
           <p><c><![CDATA[n == "even" && n <= 20]]></c> and <c>n = n + 2</c></p>
         </statement>
-        <feedback id="while_statement_3_opt_d">
-          <p><c>n</c> is an <c>int</c> and here you are comparing it to a <c>string</c>.</p>
+        <feedback>
+          <c>n</c> is an <c>int</c> and here you are comparing it to a <c>string</c>.
         </feedback>
       </choice>
     </choices>
@@ -248,8 +248,8 @@ cout << x;
           <p>4 7</p>
         </statement>
         <feedback>
-          <p>Setting a variable so the loop condition would be false in the middle of the loop body
-            does not keep the variable from actually being set.</p>
+          Setting a variable so the loop condition would be false in the middle of the loop body
+            does not keep the variable from actually being set.
         </feedback>
       </choice>
       <choice>
@@ -257,8 +257,8 @@ cout << x;
           <p>5 7</p>
         </statement>
         <feedback>
-          <p>Setting a variable so the loop condition would be false in the middle of the loop body
-            does not stop execution of statements in the rest of the loop body.</p>
+          Setting a variable so the loop condition would be false in the middle of the loop body
+            does not stop execution of statements in the rest of the loop body.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -266,9 +266,9 @@ cout << x;
           <p>7 15</p>
         </statement>
         <feedback>
-          <p>After n becomes 5 and the test would be False, but the test does not actually come
+          After n becomes 5 and the test would be False, but the test does not actually come
             until after the end of the loop - only then stopping execution of the repetition of the
-            loop.</p>
+            loop.
         </feedback>
       </choice>
     </choices>

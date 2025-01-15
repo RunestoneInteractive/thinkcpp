@@ -52,7 +52,7 @@ double price(double a, int b, string c);</program>
           <p>double price(int a, int b);</p>
         </statement>
         <feedback>
-          <p>This function has the same parameters as the first function below.</p>
+          This function has the same parameters as the first function below.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -60,8 +60,8 @@ double price(double a, int b, string c);</program>
           <p>double price(int a, string b, string c);</p>
         </statement>
         <feedback>
-          <p>While this function has the same number of parameters as the second function, it takes
-            different types of parameters.</p>
+          While this function has the same number of parameters as the second function, it takes
+            different types of parameters.
         </feedback>
       </choice>
       <choice>
@@ -69,7 +69,7 @@ double price(double a, int b, string c);</program>
           <p>double price(double x, int y, string z);</p>
         </statement>
         <feedback>
-          <p>This function has the same parameters as the second function below.</p>
+          This function has the same parameters as the second function below.
         </feedback>
       </choice>
       <choice>
@@ -77,7 +77,7 @@ double price(double a, int b, string c);</program>
           <p>all of the above</p>
         </statement>
         <feedback>
-          <p>Take another look at the numbers and types of parameters.</p>
+          Take another look at the numbers and types of parameters.
         </feedback>
       </choice>
     </choices>
@@ -94,7 +94,7 @@ double price(double a, int b, string c);</program>
           <p>recursion</p>
         </statement>
         <feedback>
-          <p>Recursion is when a function calls itself.</p>
+          Recursion is when a function calls itself.
         </feedback>
       </choice>
       <choice>
@@ -102,7 +102,7 @@ double price(double a, int b, string c);</program>
           <p>debugging</p>
         </statement>
         <feedback>
-          <p>Debugging is what we do after implementing a function.</p>
+          Debugging is what we do after implementing a function.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -110,8 +110,8 @@ double price(double a, int b, string c);</program>
           <p>overloading</p>
         </statement>
         <feedback>
-          <p>Overloading is when we have two functions with the same name that take different
-            parameters.</p>
+          Overloading is when we have two functions with the same name that take different
+            parameters.
         </feedback>
       </choice>
       <choice>
@@ -119,8 +119,8 @@ double price(double a, int b, string c);</program>
           <p>overriding</p>
         </statement>
         <feedback>
-          <p>Overriding is when an inherited class uses a different method than the base class...
-            more on this later!</p>
+          Overriding is when an inherited class uses a different method than the base class...
+            more on this later!
         </feedback>
       </choice>
     </choices>
@@ -138,7 +138,7 @@ bool bakeCake(string cakeMix, int eggs, double water, bool holiday);</program>
           <p>Yes. Some of the parameters have the same names, so overloading is NOT legal.</p>
         </statement>
         <feedback>
-          <p>Variable names don't matter in overloading.</p>
+          Variable names don't matter in overloading.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -146,7 +146,7 @@ bool bakeCake(string cakeMix, int eggs, double water, bool holiday);</program>
           <p>Yes. The parameters are the same types in the same order, so overloading is NOT legal.</p>
         </statement>
         <feedback>
-          <p>If the parameters are the same types in the same order, overloading is NOT legal.</p>
+          If the parameters are the same types in the same order, overloading is NOT legal.
         </feedback>
       </choice>
       <choice>
@@ -154,7 +154,7 @@ bool bakeCake(string cakeMix, int eggs, double water, bool holiday);</program>
           <p>No. Some of the parameters have different names, so overloading is legal.</p>
         </statement>
         <feedback>
-          <p>Variable names don't matter in overloading.</p>
+          Variable names don't matter in overloading.
         </feedback>
       </choice>
       <choice>
@@ -162,7 +162,7 @@ bool bakeCake(string cakeMix, int eggs, double water, bool holiday);</program>
           <p>No. The parameters are the same types in the same order, so overloading is legal.</p>
         </statement>
         <feedback>
-          <p>If the parameters are the same types in the same order, overloading is NOT legal.</p>
+          If the parameters are the same types in the same order, overloading is NOT legal.
         </feedback>
       </choice>
     </choices>
@@ -180,8 +180,8 @@ double stockPrice(string currency, int older_price, double interest_rate );</pro
             permitted.</p>
         </statement>
         <feedback>
-          <p>Return types are not considered in overloads. Any return type is permitted in all
-            circumstances.</p>
+          Return types are not considered in overloads. Any return type is permitted in all
+            circumstances.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -189,7 +189,7 @@ double stockPrice(string currency, int older_price, double interest_rate );</pro
           <p>Yes. The parameters are the same types in the same order, so overloading is NOT legal.</p>
         </statement>
         <feedback>
-          <p>If the parameters are the same types in the same order, overloading is NOT legal.</p>
+          If the parameters are the same types in the same order, overloading is NOT legal.
         </feedback>
       </choice>
       <choice>
@@ -197,7 +197,7 @@ double stockPrice(string currency, int older_price, double interest_rate );</pro
           <p>No. One of the parameters has a different name, so overloading is legal.</p>
         </statement>
         <feedback>
-          <p>Variable names don't matter in overloading.</p>
+          Variable names don't matter in overloading.
         </feedback>
       </choice>
       <choice>
@@ -206,7 +206,7 @@ double stockPrice(string currency, int older_price, double interest_rate );</pro
             legal.</p>
         </statement>
         <feedback>
-          <p>Return type is not considered in resolving function overloads.</p>
+          Return type is not considered in resolving function overloads.
         </feedback>
       </choice>
     </choices>

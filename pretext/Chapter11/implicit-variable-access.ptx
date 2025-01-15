@@ -23,8 +23,8 @@
           <p>after being granted permission</p>
         </statement>
         <feedback>
-          <p>Incorrect! You don't need "permission" to access member variables inside a member
-            function.</p>
+          Incorrect! You don't need "permission" to access member variables inside a member
+            function.
         </feedback>
       </choice>
       <choice>
@@ -32,8 +32,8 @@
           <p>only inside of that specific member function</p>
         </statement>
         <feedback>
-          <p>Incorrect! You can access member variables implicitly inside any and all member
-            functions.</p>
+          Incorrect! You can access member variables implicitly inside any and all member
+            functions.
         </feedback>
       </choice>
       <choice>
@@ -41,7 +41,7 @@
           <p>using dot notation</p>
         </statement>
         <feedback>
-          <p>Incorrect! You don't need to use dot notation to access variables implicitly.</p>
+          Incorrect! You don't need to use dot notation to access variables implicitly.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -49,8 +49,8 @@
           <p>directly, without dot notation</p>
         </statement>
         <feedback>
-          <p>Correct! Implicit variable access allows us to access variables directly-- without
-            using dot notation.</p>
+          Correct! Implicit variable access allows us to access variables directly-- without
+            using dot notation.
         </feedback>
       </choice>
     </choices>
@@ -65,7 +65,7 @@
           <p>Every time you are working with data structures!</p>
         </statement>
         <feedback>
-          <p>Incorrect! The scope resolution operator is not always necessary!</p>
+          Incorrect! The scope resolution operator is not always necessary!
         </feedback>
       </choice>
       <choice>
@@ -73,8 +73,8 @@
           <p>When you implement member functions inside of the structure definition.</p>
         </statement>
         <feedback>
-          <p>Incorrect! When you write member functions inside of the structure definition, you do
-            not need to specify the scope.</p>
+          Incorrect! When you write member functions inside of the structure definition, you do
+            not need to specify the scope.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -82,8 +82,8 @@
           <p>When you implement member functions outside of the structure definition.</p>
         </statement>
         <feedback>
-          <p>Correct! When you write member functions outside of the structure definition, you need
-            to specify the scope, hence the :: operator!</p>
+          Correct! When you write member functions outside of the structure definition, you need
+            to specify the scope, hence the :: operator!
         </feedback>
       </choice>
       <choice>
@@ -91,7 +91,7 @@
           <p>Never! It is bad practice!</p>
         </statement>
         <feedback>
-          <p>Incorrect! The scope resolution operator is good practice when used correctly!</p>
+          Incorrect! The scope resolution operator is good practice when used correctly!
         </feedback>
       </choice>
     </choices>

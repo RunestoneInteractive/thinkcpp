@@ -37,7 +37,7 @@ while (i &lt; 4) {
   <listing label="accessing_elements_AC_1">
     <caption>
       Take a look at this active code. We can modify the vectors by accessing
-        its elements.
+      its elements.
     </caption>
     <program xml:id="accessing_elements_AC_1_editor"
              interactive="activecode"
@@ -79,10 +79,8 @@ int main() {
             <c>vec[3] = vec[3]++;</c>
           </p>
         </statement>
-        <feedback id="accessing_elements_1_opt_a">
-          <p>Incorrect! This is actually incrementing the 4th element of <term>vec</term>, since
-            vectors are zero indexed.</p>
-        </feedback>
+        <feedback> Incorrect! This is actually incrementing the 4th element of <term>vec</term>,
+          since vectors are zero indexed. </feedback>
       </choice>
       <choice>
         <statement id="accessing_elements_1_opt_b">
@@ -90,8 +88,8 @@ int main() {
             <c>vec(3) = vec(3) + 1;</c>
           </p>
         </statement>
-        <feedback id="accessing_elements_1_opt_b">
-          <p>Incorrect! This is not proper syntax.</p>
+        <feedback>
+          Incorrect! This is not proper syntax.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -100,9 +98,8 @@ int main() {
             <c>vec[2]++;</c>
           </p>
         </statement>
-        <feedback id="accessing_elements_1_opt_c">
-          <p><c>vec[2]</c> is the third element and we increment it by using the <c>++</c> operator.</p>
-        </feedback>
+        <feedback>
+          <c>vec[2]</c> is the third element and we increment it by using the <c>++</c> operator. </feedback>
       </choice>
       <choice>
         <statement id="accessing_elements_1_opt_d">
@@ -110,8 +107,8 @@ int main() {
             <c>vec(2) = vec(2)++;</c>
           </p>
         </statement>
-        <feedback id="accessing_elements_1_opt_d">
-          <p>This is not proper syntax.</p>
+        <feedback>
+          This is not proper syntax.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -120,36 +117,30 @@ int main() {
             <c>vec[2] = vec[2] + 1</c>
           </p>
         </statement>
-        <feedback id="accessing_elements_1_opt_e">
-          <p><c>vec[2]</c> is the third element and we increment it by adding 1.</p>
-        </feedback>
+        <feedback>
+          <c>vec[2]</c> is the third element and we increment it by adding 1. </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="accessing_elements_2">
     <statement>
-      <p>What is the highest index reached by <c>while(i &lt; 7)</c>? <var/>
+      <p>What is the highest index reached by <c>while(i &lt; 7)</c>? <fillin mode="number"
+                answer="6"/>
       </p>
     </statement>
-    <setup>
-      <var>
-        <condition number="6">
+    <evaluation>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes" correct="yes"/>
+        </test>
+        <test>
+          <numcmp value="7"/>
           <feedback>
-            <p>Correct!</p>
+            The loop runs 7 times, but vectors are zero indexed, so the loop never reaches the
+            7th index!
           </feedback>
-        </condition>
-        <condition number="7">
-          <feedback>
-            <p>The loop runs 7 times, but vectors are zero indexed, so the loop never reaches the
-              7th index!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -10,32 +10,32 @@
         <statement id="mce_12_1_opt_a">
           <p>You can have a vector that stores a vector of objects.</p>
         </statement>
-        <feedback id="mce_12_1_opt_a">
-          <p>C++ allows for a variety of different compositions.</p>
+        <feedback>
+          C++ allows for a variety of different compositions.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_1_opt_b">
           <p>In order to check to see if two <c>Card</c>s are equal, we can use the <c>==</c> operator.</p>
         </statement>
-        <feedback id="mce_12_1_opt_b">
-          <p>We have to write a function that compares two <c>Card</c>s.</p>
+        <feedback>
+          We have to write a function that compares two <c>Card</c>s.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_1_opt_c">
           <p>There is no faster way to search through an unsorted vector than using a linear search.</p>
         </statement>
-        <feedback id="mce_12_1_opt_c">
-          <p>If the <c>vector</c> were sorted, then there are faster search methods.</p>
+        <feedback>
+          If the <c>vector</c> were sorted, then there are faster search methods.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_1_opt_d">
           <p>There is no such thing as an empty object.</p>
         </statement>
-        <feedback id="mce_12_1_opt_d">
-          <p>All variables are given default values unless otherwise specified by the user.</p>
+        <feedback>
+          All variables are given default values unless otherwise specified by the user.
         </feedback>
       </choice>
     </choices>
@@ -51,8 +51,8 @@
             <c>vector&lt;int&gt; vec;</c>
           </p>
         </statement>
-        <feedback id="mce_12_2_opt_a">
-          <p>This declares a <c>vector</c> of <c>int</c>s.</p>
+        <feedback>
+          This declares a <c>vector</c> of <c>int</c>s.
         </feedback>
       </choice>
       <choice>
@@ -61,8 +61,8 @@
             <c><![CDATA[vector<int> vec<int>;]]></c>
           </p>
         </statement>
-        <feedback id="mce_12_2_opt_b">
-          <p>This is not the proper way to declare <c>vec</c>.</p>
+        <feedback>
+          This is not the proper way to declare <c>vec</c>.
         </feedback>
       </choice>
       <choice>
@@ -71,8 +71,8 @@
             <c><![CDATA[vector<vector<int> vec;]]></c>
           </p>
         </statement>
-        <feedback id="mce_12_2_opt_c">
-          <p>Close! Look closely at the answer choices again.</p>
+        <feedback>
+          Close! Look closely at the answer choices again.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -81,8 +81,8 @@
             <c><![CDATA[vector<vector<int> > vec;]]></c>
           </p>
         </statement>
-        <feedback id="mce_12_2_opt_d">
-          <p>This is the proper way to declare a <c>vector</c> of <c>vector</c>s of <c>int</c>s.</p>
+        <feedback>
+          This is the proper way to declare a <c>vector</c> of <c>vector</c>s of <c>int</c>s.
         </feedback>
       </choice>
     </choices>
@@ -117,32 +117,32 @@ int main() {
         <statement id="mce_12_3_opt_a">
           <p>Ace of Clubs</p>
         </statement>
-        <feedback id="mce_12_3_opt_a">
-          <p>How did we define our mapping earlier in the chapter?</p>
+        <feedback>
+          How did we define our mapping earlier in the chapter?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_3_opt_b">
           <p>8 of Hearts</p>
         </statement>
-        <feedback id="mce_12_3_opt_b">
-          <p><c>card</c> has a <c>suit</c> value of 2 corresponding to Hearts, and a <c>rank</c> value of 8.</p>
+        <feedback>
+          <c>card</c> has a <c>suit</c> value of 2 corresponding to Hearts, and a <c>rank</c> value of 8.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_3_opt_c">
           <p>King of Hearts</p>
         </statement>
-        <feedback id="mce_12_3_opt_c">
-          <p>How did we define our mapping earlier in the chapter?</p>
+        <feedback>
+          How did we define our mapping earlier in the chapter?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_3_opt_d">
           <p><c>card</c> does not have a value.</p>
         </statement>
-        <feedback id="mce_12_3_opt_d">
-          <p>We initialized <c>card</c> with a <c>suit</c> value of 2 and a <c>rank</c> value of 8.</p>
+        <feedback>
+          We initialized <c>card</c> with a <c>suit</c> value of 2 and a <c>rank</c> value of 8.
         </feedback>
       </choice>
     </choices>
@@ -171,32 +171,32 @@ int main() {
         <statement id="mce_12_4_opt_a">
           <p><c>card</c> is not a valid <c>Card</c>.</p>
         </statement>
-        <feedback id="mce_12_4_opt_a">
-          <p>A <c>suit</c> of 1 and a <c>rank</c> of 3 maps to the 3 of Diamonds.</p>
+        <feedback>
+          A <c>suit</c> of 1 and a <c>rank</c> of 3 maps to the 3 of Diamonds.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_4_opt_b">
           <p>There shouldn't be a semicolon after the <c>struct</c> definition.</p>
         </statement>
-        <feedback id="mce_12_4_opt_b">
-          <p>A <c>struct</c> definition always ends with a semicolon.</p>
+        <feedback>
+          A <c>struct</c> definition always ends with a semicolon.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_4_opt_c">
           <p><c>print</c> is a member function.</p>
         </statement>
-        <feedback id="mce_12_4_opt_c">
-          <p>Since <c>print</c> is a member function, we need to use the dot operator.</p>
+        <feedback>
+          Since <c>print</c> is a member function, we need to use the dot operator.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_4_opt_d">
           <p>There is nothing wrong with the code.</p>
         </statement>
-        <feedback id="mce_12_4_opt_d">
-          <p>There is an error with the code. Can you find it?</p>
+        <feedback>
+          There is an error with the code. Can you find it?
         </feedback>
       </choice>
     </choices>
@@ -227,32 +227,32 @@ int main() {
         <statement id="mce_12_5_opt_a">
           <p>True</p>
         </statement>
-        <feedback id="mce_12_5_opt_a">
-          <p>The output of a <c>bool</c> is either a 0 or 1.</p>
+        <feedback>
+          The output of a <c>bool</c> is either a 0 or 1.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_5_opt_b">
           <p>False</p>
         </statement>
-        <feedback id="mce_12_5_opt_b">
-          <p>The output of a <c>bool</c> is either a 0 or 1.</p>
+        <feedback>
+          The output of a <c>bool</c> is either a 0 or 1.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_5_opt_c">
           <p>0</p>
         </statement>
-        <feedback id="mce_12_5_opt_c">
-          <p>Is <c>card1</c> greater than <c>card2</c>?</p>
+        <feedback>
+          Is <c>card1</c> greater than <c>card2</c>?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_5_opt_d">
           <p>1</p>
         </statement>
-        <feedback id="mce_12_5_opt_d">
-          <p>The Queen of Hearts is greater than the 2 of Hearts.</p>
+        <feedback>
+          The Queen of Hearts is greater than the 2 of Hearts.
         </feedback>
       </choice>
     </choices>
@@ -293,32 +293,32 @@ int main() {
         <statement id="mce_12_6_opt_a">
           <p>51</p>
         </statement>
-        <feedback id="mce_12_6_opt_a">
-          <p>The <c>card</c> is the King of Spades, which is located at the end of the deck.</p>
+        <feedback>
+          The <c>card</c> is the King of Spades, which is located at the end of the deck.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_6_opt_b">
           <p>52</p>
         </statement>
-        <feedback id="mce_12_6_opt_b">
-          <p>Since the <c>vector</c> is size 52, it cannot have an index of 52.</p>
+        <feedback>
+          Since the <c>vector</c> is size 52, it cannot have an index of 52.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_6_opt_c">
           <p>12</p>
         </statement>
-        <feedback id="mce_12_6_opt_c">
-          <p>What is the value of <c>card</c>?</p>
+        <feedback>
+          What is the value of <c>card</c>?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_6_opt_d">
           <p>-1</p>
         </statement>
-        <feedback id="mce_12_6_opt_d">
-          <p>What is the value of <c>card</c>?</p>
+        <feedback>
+          What is the value of <c>card</c>?
         </feedback>
       </choice>
     </choices>
@@ -360,32 +360,32 @@ int main() {
         <statement id="mce_12_7_opt_a">
           <p>It contains 12 <c>Card</c>s.</p>
         </statement>
-        <feedback id="mce_12_7_opt_a">
-          <p><c>createDeck</c> returns a <c>vector</c> of size 12, corresponding to 12 <c>Card</c>s.</p>
+        <feedback>
+          <c>createDeck</c> returns a <c>vector</c> of size 12, corresponding to 12 <c>Card</c>s.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_7_opt_b">
           <p>The highest <c>rank</c> is 4.</p>
         </statement>
-        <feedback id="mce_12_7_opt_b">
-          <p>The <c>rank</c> goes up to but does not include 4.</p>
+        <feedback>
+          The <c>rank</c> goes up to but does not include 4.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_7_opt_c">
           <p>There are no spades in the deck.</p>
         </statement>
-        <feedback id="mce_12_7_opt_c">
-          <p>The <c>suit</c> goes up to and include the <c>suit</c> value 3 which corresponds to spades.</p>
+        <feedback>
+          The <c>suit</c> goes up to and include the <c>suit</c> value 3 which corresponds to spades.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_7_opt_d">
           <p>The <c>deck</c> has 3 cards in each suit.</p>
         </statement>
-        <feedback id="mce_12_7_opt_d">
-          <p>Each suit has an Ace, 2, and 3.</p>
+        <feedback>
+          Each suit has an Ace, 2, and 3.
         </feedback>
       </choice>
     </choices>
@@ -422,33 +422,33 @@ int main() {
         <statement id="mce_12_8_opt_a">
           <p>0</p>
         </statement>
-        <feedback id="mce_12_8_opt_a">
-          <p>The King of Diamonds is right in the middle of the deck, so it doesn't need to call
-            itself.</p>
+        <feedback>
+          The King of Diamonds is right in the middle of the deck, so it doesn't need to call
+            itself.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_8_opt_b">
           <p>1</p>
         </statement>
-        <feedback id="mce_12_8_opt_b">
-          <p>Where is the King of Diamonds located relative to the sorted deck?</p>
+        <feedback>
+          Where is the King of Diamonds located relative to the sorted deck?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_8_opt_c">
           <p>3</p>
         </statement>
-        <feedback id="mce_12_8_opt_c">
-          <p>Where is the King of Diamonds located relative to the sorted deck?</p>
+        <feedback>
+          Where is the King of Diamonds located relative to the sorted deck?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_8_opt_d">
           <p>4</p>
         </statement>
-        <feedback id="mce_12_8_opt_d">
-          <p>Where is the King of Diamonds located relative to the sorted deck?</p>
+        <feedback>
+          Where is the King of Diamonds located relative to the sorted deck?
         </feedback>
       </choice>
     </choices>
@@ -491,32 +491,32 @@ int main() {
         <statement id="mce_12_9_opt_a">
           <p><c>push_back()</c>, <c>suit</c>, <c>i</c></p>
         </statement>
-        <feedback id="mce_12_9_opt_a">
-          <p>What value should <c>i</c> go up to?</p>
+        <feedback>
+          What value should <c>i</c> go up to?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_9_opt_b">
           <p><c>size()</c>, <c>rank</c>, <c>i</c></p>
         </statement>
-        <feedback id="mce_12_9_opt_b">
-          <p>These are the correct variables and functions.</p>
+        <feedback>
+          These are the correct variables and functions.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_9_opt_c">
           <p><c>size</c>, <c>rank</c>, <c>deck[i]</c></p>
         </statement>
-        <feedback id="mce_12_9_opt_c">
-          <p>We want to print the index, not the card.</p>
+        <feedback>
+          We want to print the index, not the card.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_9_opt_d">
           <p><c>front()</c>, <c>suit</c>, <c>deck</c></p>
         </statement>
-        <feedback id="mce_12_9_opt_d">
-          <p>What value should <c>i</c> go up to?</p>
+        <feedback>
+          What value should <c>i</c> go up to?
         </feedback>
       </choice>
     </choices>
@@ -531,33 +531,33 @@ int main() {
         <statement id="mce_12_10_opt_a">
           <p>Generalization</p>
         </statement>
-        <feedback id="mce_12_10_opt_a">
-          <p>Generalization means to take something specific and make it more general.</p>
+        <feedback>
+          Generalization means to take something specific and make it more general.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_10_opt_b">
           <p>Encapsulation</p>
         </statement>
-        <feedback id="mce_12_10_opt_b">
-          <p>Encapsulation means taking a piece of code and wrapping it up in a function.</p>
+        <feedback>
+          Encapsulation means taking a piece of code and wrapping it up in a function.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_12_10_opt_c">
           <p>Abstraction</p>
         </statement>
-        <feedback id="mce_12_10_opt_c">
-          <p>Using this process, we can remove unnecessary details to focus on the more important
-            aspects.</p>
+        <feedback>
+          Using this process, we can remove unnecessary details to focus on the more important
+            aspects.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_12_10_opt_d">
           <p>Implementation</p>
         </statement>
-        <feedback id="mce_12_10_opt_d">
-          <p>Implementation is the process of taking an idea and making it real.</p>
+        <feedback>
+          Implementation is the process of taking an idea and making it real.
         </feedback>
       </choice>
     </choices>

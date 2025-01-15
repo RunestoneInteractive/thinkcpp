@@ -43,7 +43,7 @@ int main() {
           <p>Use x % 2, and if the result is 0, it is odd.</p>
         </statement>
         <feedback>
-          <p>If you divide a number by two and it has no remainder, that means it is an even number!</p>
+          If you divide a number by two and it has no remainder, that means it is an even number!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -51,8 +51,8 @@ int main() {
           <p>Use x % 2, and if the result is 1, it is odd.</p>
         </statement>
         <feedback>
-          <p>If you divide a number by two and it has a remainder of one, that means it is an odd
-            number!</p>
+          If you divide a number by two and it has a remainder of one, that means it is an odd
+            number!
         </feedback>
       </choice>
       <choice>
@@ -60,7 +60,7 @@ int main() {
           <p>Use x / 2, and if the result is 0, it is odd.</p>
         </statement>
         <feedback>
-          <p>Dividing a number by two won't give us the information we want.</p>
+          Dividing a number by two won't give us the information we want.
         </feedback>
       </choice>
       <choice>
@@ -68,7 +68,7 @@ int main() {
           <p>Use x / 2, and if the result is 1, it is odd.</p>
         </statement>
         <feedback>
-          <p>Dividing a number by two won't give us the information we want.</p>
+          Dividing a number by two won't give us the information we want.
         </feedback>
       </choice>
     </choices>
@@ -78,7 +78,7 @@ int main() {
       <p>Match the modulo expression to its result.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

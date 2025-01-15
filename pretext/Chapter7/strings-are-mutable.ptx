@@ -40,7 +40,7 @@ cout << fav_food << endl;
           <p>icd cream</p>
         </statement>
         <feedback>
-          <p>Remember that indexing begins at 0, not 1.</p>
+          Remember that indexing begins at 0, not 1.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -48,7 +48,7 @@ cout << fav_food << endl;
           <p>icedcream</p>
         </statement>
         <feedback>
-          <p>Index 3 was a space and now it is "d".</p>
+          Index 3 was a space and now it is "d".
         </feedback>
       </choice>
       <choice>
@@ -56,7 +56,7 @@ cout << fav_food << endl;
           <p>ice cream</p>
         </statement>
         <feedback>
-          <p>The character at index 3 should be changed to "d".</p>
+          The character at index 3 should be changed to "d".
         </feedback>
       </choice>
       <choice>
@@ -64,7 +64,7 @@ cout << fav_food << endl;
           <p>iced</p>
         </statement>
         <feedback>
-          <p>The character at index 3 should be changed to "d", and the rest stays the same.</p>
+          The character at index 3 should be changed to "d", and the rest stays the same.
         </feedback>
       </choice>
     </choices>
@@ -84,7 +84,7 @@ string message = "You're a lizard Harry";
           <p>message[9] = "w";</p>
         </statement>
         <feedback>
-          <p>Since "l" is at index 9, replacing it with "w" fixes the message.</p>
+          Since "l" is at index 9, replacing it with "w" fixes the message.
         </feedback>
       </choice>
       <choice>
@@ -92,7 +92,7 @@ string message = "You're a lizard Harry";
           <p>message[10] = "w";</p>
         </statement>
         <feedback>
-          <p>Remember indexing starts at 0.</p>
+          Remember indexing starts at 0.
         </feedback>
       </choice>
       <choice>
@@ -100,8 +100,8 @@ string message = "You're a lizard Harry";
           <p>"w" = message[9];</p>
         </statement>
         <feedback>
-          <p>In order to change a letter in a string, the ``[]`` operator must be on the left of the
-            assignment.</p>
+          In order to change a letter in a string, the ``[]`` operator must be on the left of the
+            assignment.
         </feedback>
       </choice>
       <choice>
@@ -109,7 +109,7 @@ string message = "You're a lizard Harry";
           <p>message[8] = "w";</p>
         </statement>
         <feedback>
-          <p>Remember indexing starts at 0.</p>
+          Remember indexing starts at 0.
         </feedback>
       </choice>
     </choices>

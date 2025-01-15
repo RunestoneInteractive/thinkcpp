@@ -141,7 +141,7 @@ void Card::print() const {
           <p>There are 16 cards in the deck.</p>
         </statement>
         <feedback>
-          <p>Correct! You can verify this by checking how many times the for loops execute.</p>
+          Correct! You can verify this by checking how many times the for loops execute.
         </feedback>
       </choice>
       <choice>
@@ -149,8 +149,8 @@ void Card::print() const {
           <p>The deck is single-suited.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Look at the conditions of the outer for loop, you'll find that there are two
-            suits in this deck.</p>
+          Incorrect! Look at the conditions of the outer for loop, you'll find that there are two
+            suits in this deck.
         </feedback>
       </choice>
       <choice>
@@ -158,8 +158,8 @@ void Card::print() const {
           <p>There are no face cards in the deck.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Look at the conditions of the inner for loop, you'll find that this deck
-            contains face cards.</p>
+          Incorrect! Look at the conditions of the inner for loop, you'll find that this deck
+            contains face cards.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -167,7 +167,7 @@ void Card::print() const {
           <p>The deck does not contain any Hearts.</p>
         </statement>
         <feedback>
-          <p>Correct! The two suits in this deck are Clubs and Diamonds.</p>
+          Correct! The two suits in this deck are Clubs and Diamonds.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -175,7 +175,7 @@ void Card::print() const {
           <p>There are two Jacks in the deck.</p>
         </statement>
         <feedback>
-          <p>Correct! The deck contains the Jack of Clubs and the Jack of Diamonds.</p>
+          Correct! The deck contains the Jack of Clubs and the Jack of Diamonds.
         </feedback>
       </choice>
     </choices>
@@ -188,21 +188,14 @@ void Card::print() const {
       <program>
 deck[11].print();
 </program>
-      <p><var/></p>
+      <p><fillin mode="string" case="insensitive" answer="7 of Diamonds"/></p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*7 of Diamonds\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect, try modifying the activecode and writing a print statement!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

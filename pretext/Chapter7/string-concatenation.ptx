@@ -97,7 +97,7 @@ cout << s + t << endl;
           <p>C++ rocks</p>
         </statement>
         <feedback>
-          <p>Concatenation does not automatically add a space.</p>
+          Concatenation does not automatically add a space.
         </feedback>
       </choice>
       <choice>
@@ -105,7 +105,7 @@ cout << s + t << endl;
           <p>C++</p>
         </statement>
         <feedback>
-          <p>The expression s+t is evaluated first, then the resulting string is printed.</p>
+          The expression s+t is evaluated first, then the resulting string is printed.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -113,7 +113,7 @@ cout << s + t << endl;
           <p>C++rocks</p>
         </statement>
         <feedback>
-          <p>Yes, the two strings are glued end to end.</p>
+          Yes, the two strings are glued end to end.
         </feedback>
       </choice>
       <choice>
@@ -121,8 +121,8 @@ cout << s + t << endl;
           <p>Error, you cannot add two strings together.</p>
         </statement>
         <feedback>
-          <p>The + operator has different meanings depending on the operands, in this case, two
-            strings.</p>
+          The + operator has different meanings depending on the operands, in this case, two
+            strings.
         </feedback>
       </choice>
     </choices>

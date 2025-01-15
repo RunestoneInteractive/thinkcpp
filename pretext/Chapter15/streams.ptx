@@ -14,49 +14,35 @@
     outgoing stream.</p>
   <exercise label="question15_2_1">
     <statement>
-      <p>You create an <var/> object to write data to a file, and a <var/> object to read data from
-        a file. In order to define objects to input from a file or send output to a file, you must
-        include the <c>&lt;</c> <var/> <c>&gt;</c> header file.
-      </p>
+      <p>You create an <fillin mode="string"
+                case="insensitive"
+                answer="ostream"/> object to write
+        data to a file, and a <fillin mode="string"
+                case="insensitive"
+                answer="istream"/> object to
+        read data from a file. In order to define objects to input from a file or send output to a
+        file, you must include the <c>&lt;</c> <fillin mode="string"
+                case="insensitive"
+                answer="fstream"/> <c>&gt;</c>
+        header file. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*ostream\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*x\s*$">
-          <feedback>
-            <p>Incorrect! Try re-reading!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*istream\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try re-reading!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*fstream\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try re-reading!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="question15_2_2">
     <statement>
@@ -68,7 +54,7 @@
           <p>an abstract object that works exclusively with cin and cout statements</p>
         </statement>
         <feedback>
-          <p>Incorrect! Stream objects do work with cin and cout, but that is not all that they do!</p>
+          Incorrect! Stream objects do work with cin and cout, but that is not all that they do!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -76,7 +62,7 @@
           <p>an abstract object on which input and ouput operations are performed</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -84,7 +70,7 @@
           <p>an abstract object that works only with file data</p>
         </statement>
         <feedback>
-          <p>Incorrect! Stream objects do work with file data, but they do other things too.</p>
+          Incorrect! Stream objects do work with file data, but they do other things too.
         </feedback>
       </choice>
       <choice>
@@ -92,8 +78,8 @@
           <p>an abstract object that controls the flow of statements</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is not at all what stream objects do, you should try re-reading to get
-            a better understanding!</p>
+          Incorrect! This is not at all what stream objects do, you should try re-reading to get
+          a better understanding!
         </feedback>
       </choice>
     </choices>
@@ -103,7 +89,7 @@
       <p>Match the stream to its type.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

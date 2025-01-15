@@ -29,8 +29,8 @@ int main() {
             <c>gatsby</c>
           </p>
         </statement>
-        <feedback id="mce_9_1_opt_a">
-          <p><c>gatsby</c> is a <c>Book</c>.</p>
+        <feedback>
+          <c>gatsby</c> is a <c>Book</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -39,8 +39,8 @@ int main() {
             <c>frankenstein</c>
           </p>
         </statement>
-        <feedback id="mce_9_1_opt_b">
-          <p><c>frankenstein</c> is a <c>Book</c>.</p>
+        <feedback>
+          <c>frankenstein</c> is a <c>Book</c>.
         </feedback>
       </choice>
       <choice>
@@ -49,8 +49,8 @@ int main() {
             <c>flies</c>
           </p>
         </statement>
-        <feedback id="mce_9_1_opt_c">
-          <p><c>flies</c> is a <c>string</c>.</p>
+        <feedback>
+          <c>flies</c> is a <c>string</c>.
         </feedback>
       </choice>
       <choice>
@@ -59,8 +59,8 @@ int main() {
             <c>year</c>
           </p>
         </statement>
-        <feedback id="mce_9_1_opt_d">
-          <p><c>year</c> is an <c>int</c>.</p>
+        <feedback>
+          <c>year</c> is an <c>int</c>.
         </feedback>
       </choice>
     </choices>
@@ -93,8 +93,8 @@ int main() {
             <c>gatsby</c>
           </p>
         </statement>
-        <feedback id="mce_9_2_opt_a">
-          <p><c>gatsby</c> is a <c>Book</c>, not an instance variable of <c>Book</c>.</p>
+        <feedback>
+          <c>gatsby</c> is a <c>Book</c>, not an instance variable of <c>Book</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -103,8 +103,8 @@ int main() {
             <c>title</c>
           </p>
         </statement>
-        <feedback id="mce_9_2_opt_b">
-          <p><c>title</c> is an instance variable of <c>Book</c>.</p>
+        <feedback>
+          <c>title</c> is an instance variable of <c>Book</c>.
         </feedback>
       </choice>
       <choice>
@@ -113,8 +113,8 @@ int main() {
             <c>year</c>
           </p>
         </statement>
-        <feedback id="mce_9_2_opt_c">
-          <p><c>year</c> is an <c>int</c> declared in <c>main</c>, not an instance variable of <c>Book</c>.</p>
+        <feedback>
+          <c>year</c> is an <c>int</c> declared in <c>main</c>, not an instance variable of <c>Book</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -123,8 +123,8 @@ int main() {
             <c>price</c>
           </p>
         </statement>
-        <feedback id="mce_9_2_opt_d">
-          <p><c>price</c> is an instance variable of <c>Book</c>.</p>
+        <feedback>
+          <c>price</c> is an instance variable of <c>Book</c>.
         </feedback>
       </choice>
     </choices>
@@ -159,33 +159,33 @@ int main() {
         <statement id="mce_9_3_opt_a">
           <p>To Kill a Mockingbird by Harper Lee (1960), $9.25</p>
         </statement>
-        <feedback id="mce_9_3_opt_a">
-          <p>Take a closer look at <c>main</c>. Was the price of the book modified?</p>
+        <feedback>
+          Take a closer look at <c>main</c>. Was the price of the book modified?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_3_opt_b">
           <p><q>To Kill a Mockingbird</q> by Harper Lee (1960), $9.25</p>
         </statement>
-        <feedback id="mce_9_3_opt_b">
-          <p>Take a closer look at <c>main</c>. Was the price of the book modified?</p>
+        <feedback>
+          Take a closer look at <c>main</c>. Was the price of the book modified?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_9_3_opt_c">
           <p><q>To Kill a Mockingbird</q> by Harper Lee (1960), $7.19</p>
         </statement>
-        <feedback id="mce_9_3_opt_c">
-          <p>The price was changed from $9.25 to $7.19</p>
+        <feedback>
+          The price was changed from $9.25 to $7.19
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_3_opt_d">
           <p>To Kill a Mockingbirdby Harper Lee (1960), $7.19</p>
         </statement>
-        <feedback id="mce_9_3_opt_d">
-          <p>The <c>\</c> are escape characters. Used in this context, they allow us to print
-            quotation marks.</p>
+        <feedback>
+          The <c>\</c> are escape characters. Used in this context, they allow us to print
+            quotation marks.
         </feedback>
       </choice>
     </choices>
@@ -218,32 +218,32 @@ int main() {
         <statement id="mce_9_4_opt_a">
           <p>Pure function</p>
         </statement>
-        <feedback id="mce_9_4_opt_a">
-          <p><c>printBook</c> takes a <c>Book</c> as an object but it doesn't modify it.</p>
+        <feedback>
+          <c>printBook</c> takes a <c>Book</c> as an object but it doesn't modify it.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_4_opt_b">
           <p>Modifier function</p>
         </statement>
-        <feedback id="mce_9_4_opt_b">
-          <p>Does <c>printBook</c> modify the <c>Book</c> object?</p>
+        <feedback>
+          Does <c>printBook</c> modify the <c>Book</c> object?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_4_opt_c">
           <p>Fill-in function</p>
         </statement>
-        <feedback id="mce_9_4_opt_c">
-          <p><c>printBook</c> takes one parameter, and its parameter is not an empty <c>Book</c> object.</p>
+        <feedback>
+          <c>printBook</c> takes one parameter, and its parameter is not an empty <c>Book</c> object.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_4_opt_d">
           <p>Fruitful function</p>
         </statement>
-        <feedback id="mce_9_4_opt_d">
-          <p><c>printBook</c> does not return anything.</p>
+        <feedback>
+          <c>printBook</c> does not return anything.
         </feedback>
       </choice>
     </choices>
@@ -281,34 +281,34 @@ int main() {
         <statement id="mce_9_5_opt_a">
           <p>The <c>struct</c> definition is missing a semicolon at the end.</p>
         </statement>
-        <feedback id="mce_9_5_opt_a">
-          <p>It's a common mistake to forget the semicolon at the end of <c>struct</c> definitions.</p>
+        <feedback>
+          It's a common mistake to forget the semicolon at the end of <c>struct</c> definitions.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_5_opt_b">
           <p>We are not allowed to pass in a <c>Book</c> object by reference in <c>printBook</c>.</p>
         </statement>
-        <feedback id="mce_9_5_opt_b">
-          <p>We are allowed to do this. It's usually a good idea to pass structures by reference
-            since it won't make copies of the structures, thus saving memory space.</p>
+        <feedback>
+          We are allowed to do this. It's usually a good idea to pass structures by reference
+            since it won't make copies of the structures, thus saving memory space.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_9_5_opt_c">
           <p>The keyword <c>const</c> needs to be removed in the function definition for <c>applyDiscount</c>.</p>
         </statement>
-        <feedback id="mce_9_5_opt_c">
-          <p>Since the <c>applyDiscount</c> function modifies the <c>Book</c> passed into it, we don't it to be <c>const</c>
-            .</p>
+        <feedback>
+          Since the <c>applyDiscount</c> function modifies the <c>Book</c> passed into it, we don't it to be <c>const</c>
+            .
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_5_opt_d">
           <p>There are no errors with the code.</p>
         </statement>
-        <feedback id="mce_9_5_opt_d">
-          <p>There are a couple errors. Can you find them?</p>
+        <feedback>
+          There are a couple errors. Can you find them?
         </feedback>
       </choice>
     </choices>
@@ -346,32 +346,32 @@ int main() {
         <statement id="mce_9_6_opt_a">
           <p>Pure function</p>
         </statement>
-        <feedback id="mce_9_6_opt_a">
-          <p>Does <c>applyDiscount</c> modify the <c>Book</c> object?</p>
+        <feedback>
+          Does <c>applyDiscount</c> modify the <c>Book</c> object?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_9_6_opt_b">
           <p>Modifier function</p>
         </statement>
-        <feedback id="mce_9_6_opt_b">
-          <p><c>applyDiscount</c> modifies the <c>Book</c> object by updating the price.</p>
+        <feedback>
+          <c>applyDiscount</c> modifies the <c>Book</c> object by updating the price.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_6_opt_c">
           <p>Fill-in function</p>
         </statement>
-        <feedback id="mce_9_6_opt_c">
-          <p><c>applyDiscount</c> does not take an empty <c>Book</c> object as a parameter.</p>
+        <feedback>
+          <c>applyDiscount</c> does not take an empty <c>Book</c> object as a parameter.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_6_opt_d">
           <p>Fruitful function</p>
         </statement>
-        <feedback id="mce_9_6_opt_d">
-          <p><c>applyDiscount</c> does not return anything.</p>
+        <feedback>
+          <c>applyDiscount</c> does not return anything.
         </feedback>
       </choice>
     </choices>
@@ -411,33 +411,33 @@ int main() {
         <statement id="mce_9_7_opt_a">
           <p>(4.5, 4.25, 5.65)</p>
         </statement>
-        <feedback id="mce_9_7_opt_a">
-          <p>Look at the function declaration of <c>midpoint</c> carefully.</p>
+        <feedback>
+          Look at the function declaration of <c>midpoint</c> carefully.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_7_opt_b">
           <p>(3.0, 5.0, 2.0)</p>
         </statement>
-        <feedback id="mce_9_7_opt_b">
-          <p>Look at the function declaration of <c>midpoint</c> carefully.</p>
+        <feedback>
+          Look at the function declaration of <c>midpoint</c> carefully.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_7_opt_c">
           <p>(9.0, 8.5, 11.3)</p>
         </statement>
-        <feedback id="mce_9_7_opt_c">
-          <p>Look at the function declaration of <c>midpoint</c> carefully.</p>
+        <feedback>
+          Look at the function declaration of <c>midpoint</c> carefully.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_9_7_opt_d">
           <p>(0, 0, 0)</p>
         </statement>
-        <feedback id="mce_9_7_opt_d">
-          <p>The last parameter in <c>midpoint</c> is not passed by reference, so a copy is made and changes
-            are made to the copy, not the original.</p>
+        <feedback>
+          The last parameter in <c>midpoint</c> is not passed by reference, so a copy is made and changes
+            are made to the copy, not the original.
         </feedback>
       </choice>
     </choices>
@@ -477,33 +477,33 @@ int main() {
         <statement id="mce_9_8_opt_a">
           <p>Pure function</p>
         </statement>
-        <feedback id="mce_9_8_opt_a">
-          <p>Does <c>midpoint</c> modify a <c>Point3D</c> object?</p>
+        <feedback>
+          Does <c>midpoint</c> modify a <c>Point3D</c> object?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_9_8_opt_b">
           <p>Modifier function</p>
         </statement>
-        <feedback id="mce_9_8_opt_b">
-          <p><c>midpoint</c> modifies the last <c>Point3D</c> object.</p>
+        <feedback>
+          <c>midpoint</c> modifies the last <c>Point3D</c> object.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_9_8_opt_c">
           <p>Fill-in function</p>
         </statement>
-        <feedback id="mce_9_8_opt_c">
-          <p><c>midpoint</c> takes an <q>empty</q> third <c>Point3D</c> and fills it with the average of the other
-            two <c>Point3D</c> objects.</p>
+        <feedback>
+          <c>midpoint</c> takes an <q>empty</q> third <c>Point3D</c> and fills it with the average of the other
+            two <c>Point3D</c> objects.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_8_opt_d">
           <p>Fruitful function</p>
         </statement>
-        <feedback id="mce_9_8_opt_d">
-          <p><c>midpoint</c> does not return anything.</p>
+        <feedback>
+          <c>midpoint</c> does not return anything.
         </feedback>
       </choice>
     </choices>
@@ -547,32 +547,32 @@ int main() {
         <statement id="mce_9_9_opt_a">
           <p>(11.3, 4.5, 2.9)</p>
         </statement>
-        <feedback id="mce_9_9_opt_a">
-          <p>Take a closer look at the implementation of <c>reflectXYPlane</c>.</p>
+        <feedback>
+          Take a closer look at the implementation of <c>reflectXYPlane</c>.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_9_9_opt_b">
           <p>(11.3, 4.5, -2.9)</p>
         </statement>
-        <feedback id="mce_9_9_opt_b">
-          <p>The point is reflected across the XY plane, so the z value is inverted.</p>
+        <feedback>
+          The point is reflected across the XY plane, so the z value is inverted.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_9_opt_c">
           <p>(-11.3, -4.5, 2.9)</p>
         </statement>
-        <feedback id="mce_9_9_opt_c">
-          <p>Take a closer look at the implementation of <c>reflectXYPlane</c>.</p>
+        <feedback>
+          Take a closer look at the implementation of <c>reflectXYPlane</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_9_opt_d">
           <p>(5.65, 2.25, 1.45)</p>
         </statement>
-        <feedback id="mce_9_9_opt_d">
-          <p>Take a closer look at the implementation of <c>reflectXYPlane</c>.</p>
+        <feedback>
+          Take a closer look at the implementation of <c>reflectXYPlane</c>.
         </feedback>
       </choice>
     </choices>
@@ -619,32 +619,32 @@ int main() {
         <statement id="mce_9_10_opt_a">
           <p>(5.45, 4, 1.65)</p>
         </statement>
-        <feedback id="mce_9_10_opt_a">
-          <p>Take a closer look at the implementation of <c>reflectXYPlane</c>.</p>
+        <feedback>
+          Take a closer look at the implementation of <c>reflectXYPlane</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_10_opt_b">
           <p>(5.45, 4, 8.35)</p>
         </statement>
-        <feedback id="mce_9_10_opt_b">
-          <p>Check the arguments passed into <c>midpoint</c>.</p>
+        <feedback>
+          Check the arguments passed into <c>midpoint</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_10_opt_c">
           <p>(7.0, 3.5, -6.7)</p>
         </statement>
-        <feedback id="mce_9_10_opt_c">
-          <p>Take a closer look at which point is being printed.</p>
+        <feedback>
+          Take a closer look at which point is being printed.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_9_10_opt_d">
           <p>(4.5, 2.25, 3.35)</p>
         </statement>
-        <feedback id="mce_9_10_opt_d">
-          <p>Check the arguments passed into <c>midpoint</c>.</p>
+        <feedback>
+          Check the arguments passed into <c>midpoint</c>.
         </feedback>
       </choice>
     </choices>

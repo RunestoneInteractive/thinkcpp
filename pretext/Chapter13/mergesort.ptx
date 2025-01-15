@@ -102,7 +102,7 @@
           <p><m>n</m>, <m>n \log n</m>, more efficient</p>
         </statement>
         <feedback>
-          <p>Simple sort traverses the vector n times, and each traversal takes additional time.</p>
+          Simple sort traverses the vector n times, and each traversal takes additional time.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -110,8 +110,8 @@
           <p><m>n^2</m>, <m>n \log n</m>, more efficient</p>
         </statement>
         <feedback>
-          <p>Simple sort takes time proporitonal to <m>n^2</m>, mergesort takes time proportional to <m>n
-            \log n</m> (which is more efficient).</p>
+          Simple sort takes time proporitonal to <m>n^2</m>, mergesort takes time proportional to <m>n
+            \log n</m> (which is more efficient).
         </feedback>
       </choice>
       <choice>
@@ -119,8 +119,8 @@
           <p><m>n \log n</m>, <m>n</m>, less efficient</p>
         </statement>
         <feedback>
-          <p>You might be confused about which algorithm is which. Also, what is the efficiency of
-            simple sort?</p>
+          You might be confused about which algorithm is which. Also, what is the efficiency of
+            simple sort?
         </feedback>
       </choice>
       <choice>
@@ -128,7 +128,7 @@
           <p><m>n \log n</m>, <m>n^2</m>, less efficient</p>
         </statement>
         <feedback>
-          <p>You might be confused about which algorithm is which.</p>
+          You might be confused about which algorithm is which.
         </feedback>
       </choice>
       <choice>
@@ -136,7 +136,7 @@
           <p><m>n^2,</m> <m>n \log n</m>, less efficient</p>
         </statement>
         <feedback>
-          <p>Which algorithm is more efficient? (Which function grows more slowly?)</p>
+          Which algorithm is more efficient? (Which function grows more slowly?)
         </feedback>
       </choice>
     </choices>

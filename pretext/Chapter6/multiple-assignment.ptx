@@ -87,7 +87,7 @@ a = 3;         // a and b are no longer equal</program>
       <p>Match the expression to the statement that best describes it.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -132,7 +132,7 @@ int main() {
           <p>10!1!</p>
         </statement>
         <feedback>
-          <p>There are no spaces between the numbers.</p>
+          There are no spaces between the numbers.
         </feedback>
       </choice>
       <choice>
@@ -140,7 +140,7 @@ int main() {
           <p>10 ! 1 !</p>
         </statement>
         <feedback>
-          <p>Remember, in C++ spaces must be printed.</p>
+          Remember, in C++ spaces must be printed.
         </feedback>
       </choice>
       <choice>
@@ -148,7 +148,7 @@ int main() {
           <p>10 ! 10 !</p>
         </statement>
         <feedback>
-          <p>Carefully look at the values being assigned.</p>
+          Carefully look at the values being assigned.
         </feedback>
       </choice>
       <choice>
@@ -156,7 +156,7 @@ int main() {
           <p>1!1!</p>
         </statement>
         <feedback>
-          <p>Carefully look at the values being assigned.</p>
+          Carefully look at the values being assigned.
         </feedback>
       </choice>
     </choices>
@@ -186,7 +186,7 @@ int main() {
           <p>True</p>
         </statement>
         <feedback>
-          <p>Remember that printing a boolean results in either 0 or 1.</p>
+          Remember that printing a boolean results in either 0 or 1.
         </feedback>
       </choice>
       <choice>
@@ -194,7 +194,7 @@ int main() {
           <p>False</p>
         </statement>
         <feedback>
-          <p>Remember that printing a boolean results in either 0 or 1.</p>
+          Remember that printing a boolean results in either 0 or 1.
         </feedback>
       </choice>
       <choice>
@@ -202,7 +202,7 @@ int main() {
           <p>0</p>
         </statement>
         <feedback>
-          <p>Is x equal to y?</p>
+          Is x equal to y?
         </feedback>
       </choice>
       <choice correct="yes">
@@ -210,7 +210,7 @@ int main() {
           <p>1</p>
         </statement>
         <feedback>
-          <p>x is equal to y, so the output is 1.</p>
+          x is equal to y, so the output is 1.
         </feedback>
       </choice>
     </choices>

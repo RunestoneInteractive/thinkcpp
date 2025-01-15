@@ -66,33 +66,33 @@ int main() {
         <statement id="own_version_find_1_opt_a">
           <p>13, <c>string::npos</c>, 8</p>
         </statement>
-        <feedback id="own_version_find_1_opt_a">
-          <p>Notice how the built-in <c>find</c> function works differently from ours.</p>
+        <feedback>
+          Notice how the built-in <c>find</c> function works differently from ours.
         </feedback>
       </choice>
       <choice>
         <statement id="own_version_find_1_opt_b">
           <p>13, 0, 7</p>
         </statement>
-        <feedback id="own_version_find_1_opt_b">
-          <p>Remember that when a character isn't found, the function returns <c>string::npos</c>.</p>
+        <feedback>
+          Remember that when a character isn't found, the function returns <c>string::npos</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="own_version_find_1_opt_c">
           <p>13, <c>string::npos</c>, 0</p>
         </statement>
-        <feedback id="own_version_find_1_opt_c">
-          <p>Keep in mind that the find function is case sensitive, so &#x2018;A' is different from
-            &#x2018;a'.</p>
+        <feedback>
+          Keep in mind that the find function is case sensitive, so &#x2018;A' is different from
+            &#x2018;a'.
         </feedback>
       </choice>
       <choice>
         <statement id="own_version_find_1_opt_d">
           <p>14, <c>string::npos</c>, 9</p>
         </statement>
-        <feedback id="own_version_find_1_opt_d">
-          <p>Remember that indexing begins at 0 for C++.</p>
+        <feedback>
+          Remember that indexing begins at 0 for C++.
         </feedback>
       </choice>
     </choices>

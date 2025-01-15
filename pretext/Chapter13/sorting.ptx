@@ -22,39 +22,30 @@
   <p>In this case we can use <c>swapCards</c> again, so we only need one new one, called <c>findLowestCard</c>, that takes
     an index where it should start looking in the vector of cards.</p>
   <p>This process, using pseudocode to figure out what helper functions are needed, is sometimes
-    called <term>top-down design</term>, in contrast to the bottom-up design I discussed in <xref ref="chapter10_counting"/>.</p>
+    called <term>top-down design</term>, in contrast to the bottom-up design I discussed in <xref ref="chapter10_counting"/>
+    .</p>
   <p>Once again, I am going to leave the implementation up to the reader.</p>
   <exercise label="sorting_deck_1">
     <statement>
-      <p>If I'm writing a long, complex function with many steps, a(n) <var/> <var/> would help me
-        condense the function's code and make it easier to understand. </p>
+      <p>If I'm writing a long, complex function with many steps, a(n) <fillin mode="string"
+                case="insensitive"
+                answer="helper"/> <fillin mode="string"
+                case="insensitive"
+                answer="function"/>
+        would help me condense the function's code and make it easier to understand. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*helper\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*function\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="sorting_deck_2">
     <statement>

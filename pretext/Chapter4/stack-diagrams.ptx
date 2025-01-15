@@ -35,7 +35,7 @@
           <p>3</p>
         </statement>
         <feedback>
-          <p>If nLines could reach its base case, it cannot be done in 3 function calls.</p>
+          If nLines could reach its base case, it cannot be done in 3 function calls.
         </feedback>
       </choice>
       <choice>
@@ -43,7 +43,7 @@
           <p>4</p>
         </statement>
         <feedback>
-          <p>If nLines could reach its base case, it cannot be done in 4 function calls.</p>
+          If nLines could reach its base case, it cannot be done in 4 function calls.
         </feedback>
       </choice>
       <choice>
@@ -51,8 +51,8 @@
           <p>5</p>
         </statement>
         <feedback>
-          <p>If nLines could reach its base case, it could be done in 5 function calls, but does it
-            ever reach the base case?</p>
+          If nLines could reach its base case, it could be done in 5 function calls, but does it
+            ever reach the base case?
         </feedback>
       </choice>
       <choice correct="yes">
@@ -60,8 +60,8 @@
           <p>infinite</p>
         </statement>
         <feedback>
-          <p>The nLines function never reaches its base case, so the stack diagram would be
-            infinitely long.</p>
+          The nLines function never reaches its base case, so the stack diagram would be
+            infinitely long.
         </feedback>
       </choice>
     </choices>

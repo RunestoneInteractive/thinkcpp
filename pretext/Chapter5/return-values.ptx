@@ -158,7 +158,7 @@ int main() {
           <p>double</p>
         </statement>
         <feedback>
-          <p>There are no doubles used in this function.</p>
+          There are no doubles used in this function.
         </feedback>
       </choice>
       <choice>
@@ -166,7 +166,7 @@ int main() {
           <p>int</p>
         </statement>
         <feedback>
-          <p>The parameter does not have to be the same type as the return type.</p>
+          The parameter does not have to be the same type as the return type.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -174,7 +174,7 @@ int main() {
           <p>string</p>
         </statement>
         <feedback>
-          <p>The variable "outside" is being returned, which is of string type.</p>
+          The variable "outside" is being returned, which is of string type.
         </feedback>
       </choice>
       <choice>
@@ -182,7 +182,7 @@ int main() {
           <p>char</p>
         </statement>
         <feedback>
-          <p>The return type is actually a string of chars.</p>
+          The return type is actually a string of chars.
         </feedback>
       </choice>
     </choices>
@@ -211,7 +211,7 @@ int main() {
           <p>4</p>
         </statement>
         <feedback>
-          <p>The function returns y before reaching the line where y is doubled.</p>
+          The function returns y before reaching the line where y is doubled.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -219,8 +219,8 @@ int main() {
           <p>2</p>
         </statement>
         <feedback>
-          <p>Because the return statement in the timesTwo function returns prior to the modification
-            of y, 2 is returned and then printed.</p>
+          Because the return statement in the timesTwo function returns prior to the modification
+            of y, 2 is returned and then printed.
         </feedback>
       </choice>
       <choice>
@@ -228,7 +228,7 @@ int main() {
           <p>16</p>
         </statement>
         <feedback>
-          <p>The function returns y before reaching the line where y is doubled.</p>
+          The function returns y before reaching the line where y is doubled.
         </feedback>
       </choice>
       <choice>
@@ -236,7 +236,7 @@ int main() {
           <p>The function does not return.</p>
         </statement>
         <feedback>
-          <p>The function has an integer return type, so it WILL return an int.</p>
+          The function has an integer return type, so it WILL return an int.
         </feedback>
       </choice>
     </choices>
@@ -272,7 +272,7 @@ int main() {
           <p>You get a child discount yay!</p>
         </statement>
         <feedback>
-          <p>The function returns goes to the else block as age is not less than 5.</p>
+          The function returns goes to the else block as age is not less than 5.
         </feedback>
       </choice>
       <choice>
@@ -280,7 +280,7 @@ int main() {
           <p>Sorry you have to pay full price.</p>
         </statement>
         <feedback>
-          <p>The function returns 9.50 before reaching the output statment.</p>
+          The function returns 9.50 before reaching the output statment.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -288,7 +288,7 @@ int main() {
           <p>nothing gets printed</p>
         </statement>
         <feedback>
-          <p>The return statement is encountered before the cout statement.</p>
+          The return statement is encountered before the cout statement.
         </feedback>
       </choice>
       <choice>
@@ -296,29 +296,25 @@ int main() {
           <p>9.50</p>
         </statement>
         <feedback>
-          <p>Although 9.50 is returned there is no printing of this value.</p>
+          Although 9.50 is returned there is no printing of this value.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="return_vals_3">
     <statement>
-      <p>A variable that exists only inside a function, is called a <var/> variable. </p>
+      <p>A variable that exists only inside a function, is called a <fillin mode="string" case="insensitive" answer="temporary"/> variable. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*temporary\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
           <feedback>
-            <p>Temporary variables are useful for calculating and returning values inside functions
-              since they are short-lived.</p>
+            Temporary variables are useful for calculating and returning values inside functions
+              since they are short-lived.
           </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -103,7 +103,7 @@
           <p>C++</p>
         </statement>
         <feedback>
-          <p>All programming languages are formal languages!</p>
+          All programming languages are formal languages!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -111,7 +111,7 @@
           <p>scientific notation</p>
         </statement>
         <feedback>
-          <p>Scientific notation is designed to denote large numbers.</p>
+          Scientific notation is designed to denote large numbers.
         </feedback>
       </choice>
       <choice>
@@ -119,7 +119,7 @@
           <p>Mandarin</p>
         </statement>
         <feedback>
-          <p>Mandarin is a natural language.</p>
+          Mandarin is a natural language.
         </feedback>
       </choice>
       <choice>
@@ -127,7 +127,7 @@
           <p>English</p>
         </statement>
         <feedback>
-          <p>English is a natural language.</p>
+          English is a natural language.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -135,37 +135,30 @@
           <p>chemical formulas</p>
         </statement>
         <feedback>
-          <p>Chemical formulas represent what elements a compound is made of! For example CO2 is is
-            carbon dioxide!</p>
+          Chemical formulas represent what elements a compound is made of! For example CO2 is is
+            carbon dioxide!
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="formal_natural_2">
     <statement>
-      <p>Analyzing the structure of a sentence or a program is called <var/>.</p>
+      <p>Analyzing the structure of a sentence or a program is called <fillin mode="string" case="insensitive" answer="parsing"/>.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*parsing\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="formal_natural_3">
     <statement>
       <p>Match each term to an example of it by dragging the term into the appropriate box.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -187,7 +180,7 @@
       <p>Match each term to an example of it by dragging the term into the appropriate box.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -214,8 +207,8 @@
           <p>ambiguous</p>
         </statement>
         <feedback>
-          <p>Formal languages are designed to be unambiguous, so that each statement has only one
-            meaning.</p>
+          Formal languages are designed to be unambiguous, so that each statement has only one
+            meaning.
         </feedback>
       </choice>
       <choice>
@@ -223,7 +216,7 @@
           <p>redundant</p>
         </statement>
         <feedback>
-          <p>Formal language is straight to the point.</p>
+          Formal language is straight to the point.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -231,7 +224,7 @@
           <p>literal</p>
         </statement>
         <feedback>
-          <p>Formal languages mean exactly what they say.</p>
+          Formal languages mean exactly what they say.
         </feedback>
       </choice>
       <choice>
@@ -239,7 +232,7 @@
           <p>verbose</p>
         </statement>
         <feedback>
-          <p>Formal language is straight to the point.</p>
+          Formal language is straight to the point.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -247,7 +240,7 @@
           <p>concise</p>
         </statement>
         <feedback>
-          <p>Formal language is straight to the point.</p>
+          Formal language is straight to the point.
         </feedback>
       </choice>
     </choices>

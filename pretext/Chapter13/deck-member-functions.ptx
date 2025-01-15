@@ -161,7 +161,7 @@ struct Deck {
           <p>Use the keyword this.</p>
         </statement>
         <feedback>
-          <p>We use this to refer to the Card that the function is invoked on.</p>
+          We use this to refer to the Card that the function is invoked on.
         </feedback>
       </choice>
       <choice>
@@ -169,7 +169,7 @@ struct Deck {
           <p>Define Deck before Card.</p>
         </statement>
         <feedback>
-          <p>We don't have to define Deck before Card.</p>
+          We don't have to define Deck before Card.
         </feedback>
       </choice>
       <choice>
@@ -177,7 +177,7 @@ struct Deck {
           <p>Pass a Card parameter in the Card member function find.</p>
         </statement>
         <feedback>
-          <p>What do we pass as a parameter in find?</p>
+          What do we pass as a parameter in find?
         </feedback>
       </choice>
       <choice correct="yes">
@@ -185,7 +185,7 @@ struct Deck {
           <p>Declare Deck before Card and then define Deck afterwards.</p>
         </statement>
         <feedback>
-          <p>This is how we implemented our code!</p>
+          This is how we implemented our code!
         </feedback>
       </choice>
     </choices>

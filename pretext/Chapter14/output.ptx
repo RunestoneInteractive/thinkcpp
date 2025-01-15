@@ -140,7 +140,7 @@ int main() {
           <p>5 e^ 0.927295i</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -148,7 +148,7 @@ int main() {
           <p>3 + 4i</p>
         </statement>
         <feedback>
-          <p>Incorrect! Try using the active code above.</p>
+          Incorrect! Try using the active code above.
         </feedback>
       </choice>
       <choice>
@@ -156,7 +156,7 @@ int main() {
           <p>2 + 3i</p>
         </statement>
         <feedback>
-          <p>Incorrect! Try using the active code above.</p>
+          Incorrect! Try using the active code above.
         </feedback>
       </choice>
       <choice>
@@ -164,7 +164,7 @@ int main() {
           <p>5 e^ 1</p>
         </statement>
         <feedback>
-          <p>Incorrect! Try using the active code above.</p>
+          Incorrect! Try using the active code above.
         </feedback>
       </choice>
     </choices>

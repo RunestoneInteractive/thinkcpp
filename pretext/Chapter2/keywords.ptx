@@ -25,22 +25,15 @@
   <exercise label="keywords_1">
     <statement>
       <p>Words that are reserved in C++ because they are used by the compiler to parse the structure
-        of your program are called <var/>.</p>
+        of your program are called <fillin mode="string" case="insensitive" answer="keywords?"/>.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*keywords\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+          </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="keywords_2">
     <statement>
@@ -53,7 +46,7 @@
           <p>integer</p>
         </statement>
         <feedback>
-          <p>integer is not a keyword, but int is.</p>
+          integer is not a keyword, but int is.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -61,7 +54,7 @@
           <p>cout</p>
         </statement>
         <feedback>
-          <p>cout cannot be used as a variable name!</p>
+          cout cannot be used as a variable name!
         </feedback>
       </choice>
       <choice>
@@ -69,7 +62,7 @@
           <p>variable</p>
         </statement>
         <feedback>
-          <p>variable is fair game to use to name a variable.</p>
+          variable is fair game to use to name a variable.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -77,7 +70,7 @@
           <p>string</p>
         </statement>
         <feedback>
-          <p>string cannot be used as a variable name.</p>
+          string cannot be used as a variable name.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -85,7 +78,7 @@
           <p>char</p>
         </statement>
         <feedback>
-          <p>char is a keyword and cannot be used as a variable name.</p>
+          char is a keyword and cannot be used as a variable name.
         </feedback>
       </choice>
     </choices>
@@ -95,7 +88,7 @@
       <p>Click on all keywords.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <areas>
       <cline><area correct="yes">int</area> main() {</cline>

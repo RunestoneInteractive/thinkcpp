@@ -58,25 +58,25 @@ int main() {
         <statement id="random_seeds_1_opt_a">
           <p>Calling the <c>random()</c> function with no arguments.</p>
         </statement>
-        <feedback id="random_seeds_1_opt_a">
-          <p>This always generates the same set of values, using the default seed in C++.</p>
+        <feedback>
+          This always generates the same set of values, using the default seed in C++.
         </feedback>
       </choice>
       <choice>
         <statement id="random_seeds_1_opt_b">
           <p>Calling <c>srand()</c> on a integer seed.</p>
         </statement>
-        <feedback id="random_seeds_1_opt_b">
-          <p>This always generates the same set of values, using the specified seed.</p>
+        <feedback>
+          This always generates the same set of values, using the specified seed.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="random_seeds_1_opt_c">
           <p>Running the <c>gettimeofday()</c> function, and calling srand() on the result.</p>
         </statement>
-        <feedback id="random_seeds_1_opt_c">
-          <p><c>gettimeofday()</c> will generate something reasonably random, which you can then use as a random
-            seed.</p>
+        <feedback>
+          <c>gettimeofday()</c> will generate something reasonably random, which you can then use as a random
+            seed.
         </feedback>
       </choice>
     </choices>

@@ -95,23 +95,19 @@ void Time::print() {
   </listing>
   <exercise label="print_1">
     <statement>
-      <p>What keyword do we use to refer to the current object? <var/>
+      <p>What keyword do we use to refer to the current object? <fillin mode="string" case="insensitive" answer="this"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*this\s*$">
-          <feedback>
-            <p>Correct! But be careful: this is actually a pointer to the current object!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+            <feedback>
+              Correct! But be careful: this is actually a pointer to the current object!
+            </feedback>
+          </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="print_2">
     <statement>
@@ -125,8 +121,8 @@ void Time::print() {
           <p>Change the name of the function to Dog::bark</p>
         </statement>
         <feedback>
-          <p>Incorrect! You don't need to rename the function unless you define it outside of the
-            structure definition.</p>
+          Incorrect! You don't need to rename the function unless you define it outside of the
+            structure definition.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -134,8 +130,8 @@ void Time::print() {
           <p>Remove the Dog parameter</p>
         </statement>
         <feedback>
-          <p>Correct! We no longer need to pass a Dog as an argument, since we are going to be
-            invoking the function on a Dog object.</p>
+          Correct! We no longer need to pass a Dog as an argument, since we are going to be
+            invoking the function on a Dog object.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -143,7 +139,7 @@ void Time::print() {
           <p>Operate on the current Dog object by using *this</p>
         </statement>
         <feedback>
-          <p>Correct! To get the current object, we need to dereference the this pointer using *.</p>
+          Correct! To get the current object, we need to dereference the this pointer using *.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -151,7 +147,7 @@ void Time::print() {
           <p>Declare the function inside of the Dog structure definition</p>
         </statement>
         <feedback>
-          <p>Correct! Member functions are declared inside of structure definitions.</p>
+          Correct! Member functions are declared inside of structure definitions.
         </feedback>
       </choice>
     </choices>

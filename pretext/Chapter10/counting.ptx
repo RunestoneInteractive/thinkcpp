@@ -102,8 +102,8 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
             incorporated into larger functions</p>
         </statement>
         <feedback>
-          <p>Correct! Bottom-up design starts with a lot of small functions and assembles them into
-            a few larger ones that accomplish a task.</p>
+          Correct! Bottom-up design starts with a lot of small functions and assembles them into
+            a few larger ones that accomplish a task.
         </feedback>
       </choice>
       <choice>
@@ -112,7 +112,7 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
             simple functions for later</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is describing top-down design.</p>
+          Incorrect! This is describing top-down design.
         </feedback>
       </choice>
       <choice>
@@ -121,7 +121,7 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
             components until it cannot be simplified further</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is describing top-down design.</p>
+          Incorrect! This is describing top-down design.
         </feedback>
       </choice>
       <choice>
@@ -130,8 +130,8 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
             task</p>
         </statement>
         <feedback>
-          <p>Incorrect! Bottom-up design uses many simple functions rather than a few complex ones,
-            so it is not minimizing the number of functions being used.</p>
+          Incorrect! Bottom-up design uses many simple functions rather than a few complex ones,
+            so it is not minimizing the number of functions being used.
         </feedback>
       </choice>
     </choices>

@@ -90,7 +90,7 @@ int main() {
           <p>string x = "Hello";</p>
         </statement>
         <feedback>
-          <p>This is the correct way to initialize a string.</p>
+          This is the correct way to initialize a string.
         </feedback>
       </choice>
       <choice>
@@ -98,7 +98,7 @@ int main() {
           <p>x = "Hello";</p>
         </statement>
         <feedback>
-          <p>This is an assignment.</p>
+          This is an assignment.
         </feedback>
       </choice>
       <choice>
@@ -106,7 +106,7 @@ int main() {
           <p>string x;</p>
         </statement>
         <feedback>
-          <p>This is a declaration.</p>
+          This is a declaration.
         </feedback>
       </choice>
     </choices>

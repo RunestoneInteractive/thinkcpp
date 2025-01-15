@@ -79,7 +79,7 @@ bool Time::after(const Time&amp; time2) const {
           <p>There is only one Time parameter.</p>
         </statement>
         <feedback>
-          <p>Incorrect! There are actually two Time parameters, one of them is implicit.</p>
+          Incorrect! There are actually two Time parameters, one of them is implicit.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -87,7 +87,7 @@ bool Time::after(const Time&amp; time2) const {
           <p>The function operates on two Time objects.</p>
         </statement>
         <feedback>
-          <p>Correct! There are two Time objects - the implicit one and time2.</p>
+          Correct! There are two Time objects - the implicit one and time2.
         </feedback>
       </choice>
       <choice>
@@ -95,7 +95,7 @@ bool Time::after(const Time&amp; time2) const {
           <p>The function is invoked on time2.</p>
         </statement>
         <feedback>
-          <p>Incorrect! The function is invoked on the implicit Time object.</p>
+          Incorrect! The function is invoked on the implicit Time object.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -103,7 +103,7 @@ bool Time::after(const Time&amp; time2) const {
           <p>"hour" and "minute" refer to the hour and minute of the implicit Time object.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>
@@ -119,7 +119,7 @@ bool Time::after(const Time&amp; time2) const {
           <p>One</p>
         </statement>
         <feedback>
-          <p>Incorrect! There is One implicit structure.</p>
+          Incorrect! There is One implicit structure.
         </feedback>
       </choice>
       <choice>
@@ -127,7 +127,7 @@ bool Time::after(const Time&amp; time2) const {
           <p>Two</p>
         </statement>
         <feedback>
-          <p>Incorrect! Keep in mind there are 4 structures and 1 is implicit.</p>
+          Incorrect! Keep in mind there are 4 structures and 1 is implicit.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -135,8 +135,8 @@ bool Time::after(const Time&amp; time2) const {
           <p>Three</p>
         </statement>
         <feedback>
-          <p>Correct! There is One implicit structure, and three structures that need to be accessed
-            with dot notation.</p>
+          Correct! There is One implicit structure, and three structures that need to be accessed
+            with dot notation.
         </feedback>
       </choice>
       <choice>
@@ -144,7 +144,7 @@ bool Time::after(const Time&amp; time2) const {
           <p>Four</p>
         </statement>
         <feedback>
-          <p>Incorrect! We shouldn't need to use dot notation for all of them!</p>
+          Incorrect! We shouldn't need to use dot notation for all of them!
         </feedback>
       </choice>
     </choices>

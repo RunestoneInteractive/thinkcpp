@@ -42,7 +42,7 @@
           <p>cstdlib</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -50,7 +50,7 @@
           <p>iostream</p>
         </statement>
         <feedback>
-          <p>This is the library for streaming cin and cout.</p>
+          This is the library for streaming cin and cout.
         </feedback>
       </choice>
       <choice>
@@ -58,7 +58,7 @@
           <p>strings</p>
         </statement>
         <feedback>
-          <p>This is the library for strings.</p>
+          This is the library for strings.
         </feedback>
       </choice>
       <choice>
@@ -66,7 +66,7 @@
           <p>cmath</p>
         </statement>
         <feedback>
-          <p>This is the library for math functions.</p>
+          This is the library for math functions.
         </feedback>
       </choice>
     </choices>

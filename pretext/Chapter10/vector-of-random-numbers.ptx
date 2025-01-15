@@ -29,7 +29,9 @@ int upperBound = 10;
 vector&lt;int&gt; vector = randomVector(numValues, upperBound);
 printVector(vector);</program>
   <p>On my machine the output is</p>
-  <console><output>3 6 7 5 3 5 6 2 9 1 2 7 0 9 3 6 0 6 2 6</output></console>
+  <console>
+    <output>3 6 7 5 3 5 6 2 9 1 2 7 0 9 3 6 0 6 2 6</output>
+  </console>
   <p>which is pretty random-looking. Your results might be different.</p>
   <listing label="vector_of_rand_nums_AC_1">
     <caption>
@@ -84,23 +86,22 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
   <exercise label="vector_of_rand_nums_1">
     <statement>
       <p>How should we declare the parameter, <term>vector</term>, if we don't intend to make any
-        changes to it? <var/>
+        changes to it? <fillin mode="string"
+                case="insensitive"
+                answer="CONST"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*CONST\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect, Try again! Hint: what word do we put before vector&lt;TYPE&gt;</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>.*</strcmp>
+          <feedback>Incorrect, Try again! Hint: what word do we put before <c>vector &amp;lt;TYPE &amp;gt;</c></feedback>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="vector_of_rand_nums_2">
     <statement>
@@ -113,7 +114,7 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
           <p>more uniform</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -121,8 +122,8 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
           <p>less uniform</p>
         </statement>
         <feedback>
-          <p>Incorrect! As we store more random numbers in a vector, we see that the frequencies of
-            each number are approximately equal.</p>
+          Incorrect! As we store more random numbers in a vector, we see that the frequencies of
+          each number are approximately equal.
         </feedback>
       </choice>
       <choice>
@@ -130,8 +131,8 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
           <p>more normal</p>
         </statement>
         <feedback>
-          <p>Incorrect! The distribution of random numbers is not related to the normal
-            distribution.</p>
+          Incorrect! The distribution of random numbers is not related to the normal
+          distribution.
         </feedback>
       </choice>
       <choice>
@@ -139,8 +140,8 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
           <p>less normal</p>
         </statement>
         <feedback>
-          <p>Incorrect! The distribution of random numbers is not related to the normal
-            distribution.</p>
+          Incorrect! The distribution of random numbers is not related to the normal
+          distribution.
         </feedback>
       </choice>
     </choices>
@@ -164,7 +165,7 @@ void dostuff(const vector<int> & vec) {
           <p>yes we would get a compile error</p>
         </statement>
         <feedback>
-          <p>Correct! we can't make changes to a vector we take in by constant reference</p>
+          Correct! we can't make changes to a vector we take in by constant reference
         </feedback>
       </choice>
       <choice>
@@ -172,7 +173,7 @@ void dostuff(const vector<int> & vec) {
           <p>no we would not because values remain same.</p>
         </statement>
         <feedback>
-          <p>Even if we keep the values same we are editing a constant which is not allowed.</p>
+          Even if we keep the values same we are editing a constant which is not allowed.
         </feedback>
       </choice>
     </choices>

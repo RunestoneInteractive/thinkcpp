@@ -108,41 +108,27 @@ bool Time::after(const Time&amp; time2) const {
   <exercise label="one_last_example_1">
     <statement>
       <p>Inside a member function, the compiler assumes that we want to invoke the function
-on the <var/> object.  </p>
+on the <fillin mode="string" case="insensitive" answer="current"/> object.  </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*current\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! It may help you to read the section again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="one_last_example_2">
     <statement>
       <p>We have previously initialized t1 and t2 using constructors <c>Time t1(8, 30, 45.0)</c>
-and <c>Time t2(1, 50, 13.0)</c>. What should be returned by <c>t1.add(t2)</c>? <var/>  </p>
+and <c>Time t2(1, 50, 13.0)</c>. What should be returned by <c>t1.add(t2)</c>? <fillin mode="string" case="insensitive" answer="10:20:58"/> (Answer in XX:XX:XX format)</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(10:20:58)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! It will help you to modify the code above!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -38,47 +38,21 @@ int main() {
 }</program>
   <exercise label="unbounded_recursion_1">
     <statement>
-      <p>If a recursive function never reaches its <var/> case, then the function will continue
-        executing indefinitely. This is called <var/> recursion. </p>
+      <p>If a recursive function never reaches its <fillin mode="string" case="insensitive" answer="base"/> case, then the function will continue
+        executing indefinitely. This is called <fillin mode="string" case="insensitive" answer="infinite"/> recursion. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*base\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*x\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*infinite\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*recursion\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="unbounded_recursion_2">
     <statement>
@@ -105,7 +79,7 @@ int main() {
           <p>The function will print "Not Negative!"</p>
         </statement>
         <feedback>
-          <p>The function will never print "Not Negative!" since we start with a negative number!</p>
+          The function will never print "Not Negative!" since we start with a negative number!
         </feedback>
       </choice>
       <choice>
@@ -114,7 +88,7 @@ int main() {
             and will stop executing.</p>
         </statement>
         <feedback>
-          <p>The function will never print "Not Negative!" since we start with a negative number!</p>
+          The function will never print "Not Negative!" since we start with a negative number!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -122,7 +96,7 @@ int main() {
           <p>The function will print "Negative!"</p>
         </statement>
         <feedback>
-          <p>We start with a negative number, so the function will reach the base case.</p>
+          We start with a negative number, so the function will reach the base case.
         </feedback>
       </choice>
       <choice>
@@ -130,7 +104,7 @@ int main() {
           <p>The function will never stop executing, there will be infinite recursion.</p>
         </statement>
         <feedback>
-          <p>We start with a negative number, so the function will reach the base case.</p>
+          We start with a negative number, so the function will reach the base case.
         </feedback>
       </choice>
     </choices>
@@ -160,7 +134,7 @@ int main() {
           <p>The function will print "Not Negative!"</p>
         </statement>
         <feedback>
-          <p>The function will print "Not Negative!", but it won't stop there!</p>
+          The function will print "Not Negative!", but it won't stop there!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -169,7 +143,7 @@ int main() {
             and will stop executing.</p>
         </statement>
         <feedback>
-          <p>The function will print "Not Negative!" until it reaches a negative number.</p>
+          The function will print "Not Negative!" until it reaches a negative number.
         </feedback>
       </choice>
       <choice>
@@ -177,7 +151,7 @@ int main() {
           <p>The function will print "Negative!"</p>
         </statement>
         <feedback>
-          <p>The function will eventually print "Not Negative!", but that's not all!</p>
+          The function will eventually print "Not Negative!", but that's not all!
         </feedback>
       </choice>
       <choice>
@@ -185,7 +159,7 @@ int main() {
           <p>The function will never stop executing, there will be infinite recursion.</p>
         </statement>
         <feedback>
-          <p>Since we decrement each time, the base case will be reached.</p>
+          Since we decrement each time, the base case will be reached.
         </feedback>
       </choice>
     </choices>
@@ -215,7 +189,7 @@ int main() {
           <p>The function will print "Not Negative!"</p>
         </statement>
         <feedback>
-          <p>The function will print "Not Negative!" but it won't stop there!</p>
+          The function will print "Not Negative!" but it won't stop there!
         </feedback>
       </choice>
       <choice>
@@ -224,7 +198,7 @@ int main() {
             and will stop executing.</p>
         </statement>
         <feedback>
-          <p>The function will print "Not Negative!" more than once. But will it print "Negative"?</p>
+          The function will print "Not Negative!" more than once. But will it print "Negative"?
         </feedback>
       </choice>
       <choice>
@@ -232,7 +206,7 @@ int main() {
           <p>The function will print "Negative!"</p>
         </statement>
         <feedback>
-          <p>We start with a positive number, so the function simply won't print "Not Negative!"</p>
+          We start with a positive number, so the function simply won't print "Not Negative!"
         </feedback>
       </choice>
       <choice correct="yes">
@@ -240,8 +214,8 @@ int main() {
           <p>The function will never stop executing, there will be infinite recursion.</p>
         </statement>
         <feedback>
-          <p>Our input is incremented with every recursive call, so if we start with a positive
-            number, we will never reach the base case.</p>
+          Our input is incremented with every recursive call, so if we start with a positive
+            number, we will never reach the base case.
         </feedback>
       </choice>
     </choices>

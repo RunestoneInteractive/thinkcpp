@@ -15,44 +15,30 @@
   <exercise label="compound_values_1">
     <statement>
       <p>Strings are made up of smaller pieces (the characters). This makes strings an example of a
-        _____ type. <var/>
+        _____ type. <fillin mode="string" case="insensitive" answer="compound"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*compound\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="compound_values_2">
     <statement>
       <p>One of the mechanisms for creating your own compound values is structures. What is the
-        other? <var/>
+        other? <fillin mode="string" case="insensitive" answer="class(es)?"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*class(es)?\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="compound_values_3">
     <statement>
@@ -64,7 +50,7 @@
           <p>integer</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -72,7 +58,7 @@
           <p>string</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -80,7 +66,7 @@
           <p>floating-point number</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
       <choice>
@@ -88,7 +74,7 @@
           <p>boolean value</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
     </choices>

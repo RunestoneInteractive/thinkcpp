@@ -78,7 +78,7 @@ int main() {
           <p>takes the absolute value of a number</p>
         </statement>
         <feedback>
-          <p>Incorrect! Go back and read for the answer.</p>
+          Incorrect! Go back and read for the answer.
         </feedback>
       </choice>
       <choice>
@@ -86,7 +86,7 @@ int main() {
           <p>converts a double to an int</p>
         </statement>
         <feedback>
-          <p>Incorrect! Go back and read for the answer.</p>
+          Incorrect! Go back and read for the answer.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -94,8 +94,8 @@ int main() {
           <p>converts a string to an int</p>
         </statement>
         <feedback>
-          <p>Correct! This is very helpful when we read numbers from a file (where they are
-            strings).</p>
+          Correct! This is very helpful when we read numbers from a file (where they are
+            strings).
         </feedback>
       </choice>
       <choice>
@@ -103,7 +103,7 @@ int main() {
           <p>converts an int to a string</p>
         </statement>
         <feedback>
-          <p>Incorrect! Go back and read for the answer.</p>
+          Incorrect! Go back and read for the answer.
         </feedback>
       </choice>
     </choices>
@@ -118,7 +118,7 @@ int main() {
           <p>2020</p>
         </statement>
         <feedback>
-          <p>Correct! This one is quite simple.</p>
+          Correct! This one is quite simple.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -126,7 +126,7 @@ int main() {
           <p>ab,jkl2!!moo0?huh2mth0haha.</p>
         </statement>
         <feedback>
-          <p>Correct! This long, confusing string will clean up nicely!</p>
+          Correct! This long, confusing string will clean up nicely!
         </feedback>
       </choice>
       <choice>
@@ -134,7 +134,7 @@ int main() {
           <p>2,00!!!!!!!!2</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -142,7 +142,7 @@ int main() {
           <p>2OOO020OOOOO</p>
         </statement>
         <feedback>
-          <p>Correct! You have to look closely to see that some of these are 0's!</p>
+          Correct! You have to look closely to see that some of these are 0's!
         </feedback>
       </choice>
       <choice>
@@ -150,7 +150,7 @@ int main() {
           <p>we2love0parsing2numbersO!</p>
         </statement>
         <feedback>
-          <p>Incorrect! Although we do love parsing numbers, this is incorrect.</p>
+          Incorrect! Although we do love parsing numbers, this is incorrect.
         </feedback>
       </choice>
     </choices>

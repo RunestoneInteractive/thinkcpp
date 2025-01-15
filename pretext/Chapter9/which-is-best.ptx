@@ -22,7 +22,7 @@
             functions.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -31,7 +31,7 @@
             modifiers.</p>
         </statement>
         <feedback>
-          <p>Try again.</p>
+          Try again.
         </feedback>
       </choice>
       <choice>
@@ -40,42 +40,28 @@
             modifiers.</p>
         </statement>
         <feedback>
-          <p>Try again.</p>
+          Try again.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="which_is_best_2">
     <statement>
-      <p>Anything that can be done with modifiers and <var/> functions can also be done with <var/>
+      <p>Anything that can be done with modifiers and <fillin mode="string" case="insensitive" answer="fill-in"/> functions can also be done with <fillin mode="string" case="insensitive" answer="pure"/>
         functions.
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*fill-in\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*pure\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -70,7 +70,7 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback>
-          <p>Take a look at the first conditional statement more closely.</p>
+          Take a look at the first conditional statement more closely.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -78,7 +78,7 @@ int main() {
           <p>Two! Three!</p>
         </statement>
         <feedback>
-          <p>8 is not greater than 8, so it doesn't meet the first condition.</p>
+          8 is not greater than 8, so it doesn't meet the first condition.
         </feedback>
       </choice>
       <choice>
@@ -86,8 +86,8 @@ int main() {
           <p>Three!</p>
         </statement>
         <feedback>
-          <p>All of the following are "if" statements, with no return. There are no "else"
-            statements.</p>
+          All of the following are "if" statements, with no return. There are no "else"
+            statements.
         </feedback>
       </choice>
       <choice>
@@ -95,8 +95,8 @@ int main() {
           <p>Two!</p>
         </statement>
         <feedback>
-          <p>All of the following are "if" statements, with no return. There are no "else"
-            statements.</p>
+          All of the following are "if" statements, with no return. There are no "else"
+            statements.
         </feedback>
       </choice>
       <choice>
@@ -104,7 +104,7 @@ int main() {
           <p>One!</p>
         </statement>
         <feedback>
-          <p>Take a look at the first conditional statement more closely.</p>
+          Take a look at the first conditional statement more closely.
         </feedback>
       </choice>
     </choices>
@@ -138,7 +138,7 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback>
-          <p>Try again! 8 is not greater than 8, so the first condition will not be met.</p>
+          Try again! 8 is not greater than 8, so the first condition will not be met.
         </feedback>
       </choice>
       <choice>
@@ -146,7 +146,7 @@ int main() {
           <p>Two! Three!</p>
         </statement>
         <feedback>
-          <p>Try again! Remember what "return 0" is for!</p>
+          Try again! Remember what "return 0" is for!
         </feedback>
       </choice>
       <choice>
@@ -154,7 +154,7 @@ int main() {
           <p>Three!</p>
         </statement>
         <feedback>
-          <p>Try again! 8 is greater than 6!</p>
+          Try again! 8 is greater than 6!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -162,7 +162,7 @@ int main() {
           <p>Two!</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -170,7 +170,7 @@ int main() {
           <p>One!</p>
         </statement>
         <feedback>
-          <p>Take a look at the first conditional statement more closely.</p>
+          Take a look at the first conditional statement more closely.
         </feedback>
       </choice>
     </choices>

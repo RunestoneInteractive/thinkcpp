@@ -53,7 +53,7 @@ while (x < 0) {
           <p>5 4 3 2 1</p>
         </statement>
         <feedback>
-          <p>Notice that x is negative.</p>
+          Notice that x is negative.
         </feedback>
       </choice>
       <choice>
@@ -61,7 +61,7 @@ while (x < 0) {
           <p>-5 -4 -3 -2 -1</p>
         </statement>
         <feedback>
-          <p>Notice that the value of x is incremented before it is printed.</p>
+          Notice that the value of x is incremented before it is printed.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -69,7 +69,7 @@ while (x < 0) {
           <p>-4 -3 -2 -1 0</p>
         </statement>
         <feedback>
-          <p>The value of x is incremented before it is printed so the first value printed is -4.</p>
+          The value of x is incremented before it is printed so the first value printed is -4.
         </feedback>
       </choice>
     </choices>
@@ -194,32 +194,32 @@ return 0;
         <statement id="looping_counting_4_opt_a">
           <p>The code dosen't reach <c>return 0</c> because we index out of bounds in <c>word_2</c>.</p>
         </statement>
-        <feedback id="looping_counting_4_opt_a">
-          <p>We set <c>end_1</c> to be the smaller of the two lengths so we don't index out of bounds.</p>
+        <feedback>
+          We set <c>end_1</c> to be the smaller of the two lengths so we don't index out of bounds.
         </feedback>
       </choice>
       <choice>
         <statement id="looping_counting_4_opt_b">
           <p>2</p>
         </statement>
-        <feedback id="looping_counting_4_opt_b">
-          <p>Not all the letters after index 4 differ in the two words.</p>
+        <feedback>
+          Not all the letters after index 4 differ in the two words.
         </feedback>
       </choice>
       <choice>
         <statement id="looping_counting_4_opt_c">
           <p>3</p>
         </statement>
-        <feedback id="looping_counting_4_opt_c">
-          <p>We decrement the value of counter when we don't have matching letters.</p>
+        <feedback>
+          We decrement the value of counter when we don't have matching letters.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="looping_counting_4_opt_d">
           <p>4</p>
         </statement>
-        <feedback id="looping_counting_4_opt_d">
-          <p>Correct! we have 6 matching letters and 2 differing letters upto the length of <c>word_2</c>.</p>
+        <feedback>
+          Correct! we have 6 matching letters and 2 differing letters upto the length of <c>word_2</c>.
         </feedback>
       </choice>
     </choices>

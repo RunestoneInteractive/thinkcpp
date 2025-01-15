@@ -24,9 +24,9 @@ int main() {
             <c>3.0</c>
           </p>
         </statement>
-        <feedback id="functions_mc1_opt_a">
-          <p>Its correct to think that your GPA will be rounded down, but what else happens when you
-            convert from <c>int</c> to <c>double</c>?</p>
+        <feedback>
+          Its correct to think that your GPA will be rounded down, but what else happens when you
+            convert from <c>int</c> to <c>double</c>?
         </feedback>
       </choice>
       <choice correct="yes">
@@ -35,10 +35,10 @@ int main() {
             <c>3</c>
           </p>
         </statement>
-        <feedback id="functions_mc1_opt_b">
-          <p>Converting to an <c>int</c> always rounds down to the nearest integer, so I do not
+        <feedback>
+          Converting to an <c>int</c> always rounds down to the nearest integer, so I do not
             recommend using type conversions to build your resume&#x2026; especially if you're close
-            to <c>4.0</c>.</p>
+            to <c>4.0</c>.
         </feedback>
       </choice>
       <choice>
@@ -47,9 +47,9 @@ int main() {
             <c>4.0</c>
           </p>
         </statement>
-        <feedback id="functions_mc1_opt_c">
-          <p>Converting to an int <em>will</em> round your GPA, but not in the direction that you
-            were hoping for&#x2026; what else happens when you convert from <c>int</c> to <c>double</c>?</p>
+        <feedback>
+          Converting to an int <em>will</em> round your GPA, but not in the direction that you
+            were hoping for&#x2026; what else happens when you convert from <c>int</c> to <c>double</c>?
         </feedback>
       </choice>
       <choice>
@@ -58,17 +58,17 @@ int main() {
             <c>4</c>
           </p>
         </statement>
-        <feedback id="functions_mc1_opt_d">
-          <p>Converting to an int <em>will</em> round yor GPA, but not in the direction that you
-            were hoping for.</p>
+        <feedback>
+          Converting to an int <em>will</em> round yor GPA, but not in the direction that you
+            were hoping for.
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc1_opt_e">
           <p>Error!</p>
         </statement>
-        <feedback id="functions_mc1_opt_e">
-          <p>No errors here! Type conversions are perfectly legal in C++!</p>
+        <feedback>
+          No errors here! Type conversions are perfectly legal in C++!
         </feedback>
       </choice>
     </choices>
@@ -88,44 +88,44 @@ int main() {
         <statement id="functions_mc2_opt_a">
           <p>3.14159265358979323846</p>
         </statement>
-        <feedback id="functions_mc2_opt_a">
-          <p>If <c>x</c> were a double, C++ would automatically round the value of pi to <term>15</term>
-            decimal places.</p>
+        <feedback>
+          If <c>x</c> were a double, C++ would automatically round the value of pi to <term>15</term>
+            decimal places.
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc2_opt_b">
           <p>3.142</p>
         </statement>
-        <feedback id="functions_mc2_opt_b">
-          <p>If <c>x</c> were a double, C++ would automatically round the value of pi to <term>15</term>
-            decimal places.</p>
+        <feedback>
+          If <c>x</c> were a double, C++ would automatically round the value of pi to <term>15</term>
+            decimal places.
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc2_opt_c">
           <p>3.0</p>
         </statement>
-        <feedback id="functions_mc2_opt_c">
-          <p>Automatic type conversion will round the value of pi down to the nearest integer, but
-            what else happens when we convert a <c>double</c> to an <c>int</c>?</p>
+        <feedback>
+          Automatic type conversion will round the value of pi down to the nearest integer, but
+            what else happens when we convert a <c>double</c> to an <c>int</c>?
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc2_opt_d">
           <p>3</p>
         </statement>
-        <feedback id="functions_mc2_opt_d">
-          <p>The value of x <em>should</em> be 3, since automatic type conversion will round the
-            value of pi down to the nearest integer. Are you sure this program compiles?</p>
+        <feedback>
+          The value of x <em>should</em> be 3, since automatic type conversion will round the
+            value of pi down to the nearest integer. Are you sure this program compiles?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="functions_mc2_opt_e">
           <p>Error!</p>
         </statement>
-        <feedback id="functions_mc2_opt_e">
-          <p>Whenever we use math functions, we must include the <c>&lt;cmath&gt;</c> header file.</p>
+        <feedback>
+          Whenever we use math functions, we must include the <c>&lt;cmath&gt;</c> header file.
         </feedback>
       </choice>
     </choices>
@@ -153,9 +153,9 @@ int main() {
             <c>a</c>
           </p>
         </statement>
-        <feedback id="functions_mc3_opt_a">
-          <p>C++ performs automatic type conversion to round 1.5 down to the
-            nearest integer.</p>
+        <feedback>
+          C++ performs automatic type conversion to round 1.5 down to the
+            nearest integer.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -164,8 +164,8 @@ int main() {
             <c>b</c>
           </p>
         </statement>
-        <feedback id="functions_mc3_opt_b">
-          <p>Since <c>a = 1</c>, we know that <c>b = 2.5</c>, which is a non-zero decimal.</p>
+        <feedback>
+          Since <c>a = 1</c>, we know that <c>b = 2.5</c>, which is a non-zero decimal.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -174,8 +174,8 @@ int main() {
             <c>c</c>
           </p>
         </statement>
-        <feedback id="functions_mc3_opt_c">
-          <p><c>c</c> is a <c>double</c> and has a non-zero decimal.</p>
+        <feedback>
+          <c>c</c> is a <c>double</c> and has a non-zero decimal.
         </feedback>
       </choice>
       <choice>
@@ -184,9 +184,9 @@ int main() {
             <c>d</c>
           </p>
         </statement>
-        <feedback id="functions_mc3_opt_d">
-          <p>C++ performs integer division to round <c>1/5</c> down to the nearest integer. The value
-            will be stored as <c>0</c>, not <c>0.2</c>.</p>
+        <feedback>
+          C++ performs integer division to round <c>1/5</c> down to the nearest integer. The value
+            will be stored as <c>0</c>, not <c>0.2</c>.
         </feedback>
       </choice>
       <choice>
@@ -195,9 +195,9 @@ int main() {
             <c>e</c>
           </p>
         </statement>
-        <feedback id="functions_mc3_opt_e">
-          <p><c>c</c> squared may have a non-zero decimal, but automatic type conversion will round
-            it down to the nearest integer before storing the value in <c>e</c>.</p>
+        <feedback>
+          <c>c</c> squared may have a non-zero decimal, but automatic type conversion will round
+            it down to the nearest integer before storing the value in <c>e</c>.
         </feedback>
       </choice>
       <choice>
@@ -206,8 +206,8 @@ int main() {
             <c>f</c>
           </p>
         </statement>
-        <feedback id="functions_mc3_opt_f">
-          <p><c>int(c)</c> rounds <c>c</c> down to the nearest integer before storing the value in <c>f</c>.</p>
+        <feedback>
+          <c>int(c)</c> rounds <c>c</c> down to the nearest integer before storing the value in <c>f</c>.
         </feedback>
       </choice>
     </choices>
@@ -224,8 +224,8 @@ int main() {
             <c>printHelloWorld() {</c>
           </p>
         </statement>
-        <feedback id="functions_mc4_opt_a">
-          <p>This function header is missing a type.</p>
+        <feedback>
+          This function header is missing a type.
         </feedback>
       </choice>
       <choice>
@@ -234,8 +234,8 @@ int main() {
             <c>string palindrome(word) {</c>
           </p>
         </statement>
-        <feedback id="functions_mc4_opt_b">
-          <p>The function's parameter is missing a type.</p>
+        <feedback>
+          The function's parameter is missing a type.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -244,9 +244,9 @@ int main() {
             <c>int mult(int a, int b) {</c>
           </p>
         </statement>
-        <feedback id="functions_mc4_opt_c">
-          <p>Correct! The function header has a type, empty parentheses, and
-            a squiggly bracket.</p>
+        <feedback>
+          Correct! The function header has a type, empty parentheses, and
+            a squiggly bracket.
         </feedback>
       </choice>
       <choice>
@@ -255,8 +255,8 @@ int main() {
             <c>char shiftThree(char letter)</c>
           </p>
         </statement>
-        <feedback id="functions_mc4_opt_d">
-          <p>This function header is missing a squiggly bracket <c>{</c>.</p>
+        <feedback>
+          This function header is missing a squiggly bracket <c>{</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -265,9 +265,9 @@ int main() {
             <c>void giveCompliment() {</c>
           </p>
         </statement>
-        <feedback id="functions_mc4_opt_e">
-          <p>Correct! The function header has a type, empty parentheses, and
-            a squiggly bracket.</p>
+        <feedback>
+          Correct! The function header has a type, empty parentheses, and
+            a squiggly bracket.
         </feedback>
       </choice>
       <choice>
@@ -276,8 +276,8 @@ int main() {
             <c>string friend(string name) {</c>
           </p>
         </statement>
-        <feedback id="functions_mc4_opt_f">
-          <p><c>friend</c> is a reserved keyword in C++.</p>
+        <feedback>
+          <c>friend</c> is a reserved keyword in C++.
         </feedback>
       </choice>
     </choices>
@@ -307,8 +307,8 @@ int main() {
             <c>"You are awesome!"</c>
           </p>
         </statement>
-        <feedback id="functions_mc5_opt_a">
-          <p>The <c>giveCompliment</c> function is not called in <c>main</c>.</p>
+        <feedback>
+          The <c>giveCompliment</c> function is not called in <c>main</c>.
         </feedback>
       </choice>
       <choice>
@@ -317,24 +317,24 @@ int main() {
             <c>"You suck!"</c>
           </p>
         </statement>
-        <feedback id="functions_mc5_opt_b">
-          <p>The <c>giveInsult</c> function doesn't <c>cout</c> anything.</p>
+        <feedback>
+          The <c>giveInsult</c> function doesn't <c>cout</c> anything.
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc5_opt_c">
           <p>Nothing is printed.</p>
         </statement>
-        <feedback id="functions_mc5_opt_c">
-          <p><c>insult</c> data type is not defined.</p>
+        <feedback>
+          <c>insult</c> data type is not defined.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="functions_mc5_opt_d">
           <p>Error!</p>
         </statement>
-        <feedback id="functions_mc5_opt_d">
-          <p>Correct! <c>insult</c> data type is not defined.</p>
+        <feedback>
+          Correct! <c>insult</c> data type is not defined.
         </feedback>
       </choice>
     </choices>
@@ -364,10 +364,10 @@ int main() {
             <c>"Monica is best friends with Rachel"</c>
           </p>
         </statement>
-        <feedback id="functions_mc6_opt_a">
-          <p>Correct! Although the function definition has <c><![CDATA[a << " is best
+        <feedback>
+          Correct! Although the function definition has <c><![CDATA[a << " is best
 friends with " << b]]></c>, we call the function with
-            variable <c>b</c> as argument <c>a</c> and variable <c>a</c> as argument <c>b</c>.</p>
+            variable <c>b</c> as argument <c>a</c> and variable <c>a</c> as argument <c>b</c>.
         </feedback>
       </choice>
       <choice>
@@ -376,8 +376,8 @@ friends with " << b]]></c>, we call the function with
             <c>"Rachel is best friends with Monica"</c>
           </p>
         </statement>
-        <feedback id="functions_mc6_opt_b">
-          <p>You seem to be confusing your arguments and parameters!</p>
+        <feedback>
+          You seem to be confusing your arguments and parameters!
         </feedback>
       </choice>
       <choice>
@@ -386,8 +386,8 @@ friends with " << b]]></c>, we call the function with
             <c>a is best friends with b</c>
           </p>
         </statement>
-        <feedback id="functions_mc6_opt_c">
-          <p>The function <c>couts</c> the <em>values</em> of the variables, not their names!</p>
+        <feedback>
+          The function <c>couts</c> the <em>values</em> of the variables, not their names!
         </feedback>
       </choice>
       <choice>
@@ -396,16 +396,16 @@ friends with " << b]]></c>, we call the function with
             <c>b is best friends with a</c>
           </p>
         </statement>
-        <feedback id="functions_mc6_opt_d">
-          <p>The function <c>couts</c> the <em>values</em> of the variables, not their names!</p>
+        <feedback>
+          The function <c>couts</c> the <em>values</em> of the variables, not their names!
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc6_opt_e">
           <p>Error!</p>
         </statement>
-        <feedback id="functions_mc6_opt_e">
-          <p>There are no errors with this program!</p>
+        <feedback>
+          There are no errors with this program!
         </feedback>
       </choice>
     </choices>
@@ -441,10 +441,10 @@ int main() {
             <c>hello, Hannah!!!</c>
           </p>
         </statement>
-        <feedback id="functions_mc7_opt_a">
-          <p>Correct! The string <q>Hannah</q> is assigned to the variable <c>louise</c>, then the value
+        <feedback>
+          Correct! The string <q>Hannah</q> is assigned to the variable <c>louise</c>, then the value
             of <c>louise</c> is assigned to the variable <c>anna</c>. When <c>goodbye(anna)</c> runs, <c>anna</c> has the value <q>
-            Hannah</q>.</p>
+            Hannah</q>.
         </feedback>
       </choice>
       <choice>
@@ -453,8 +453,8 @@ int main() {
             <c>hello, anna!!!</c>
           </p>
         </statement>
-        <feedback id="functions_mc7_opt_b">
-          <p>The function <c>couts</c> the <em>value</em> of the variable <c>anna</c> not the variable name!</p>
+        <feedback>
+          The function <c>couts</c> the <em>value</em> of the variable <c>anna</c> not the variable name!
         </feedback>
       </choice>
       <choice>
@@ -463,8 +463,8 @@ int main() {
             <c>hello, Anna!!!</c>
           </p>
         </statement>
-        <feedback id="functions_mc7_opt_c">
-          <p>Is <c>"Anna"</c> still the value of <c>anna</c>?</p>
+        <feedback>
+          Is <c>"Anna"</c> still the value of <c>anna</c>?
         </feedback>
       </choice>
       <choice>
@@ -473,8 +473,8 @@ int main() {
             <c>hello, Louise!</c>
           </p>
         </statement>
-        <feedback id="functions_mc7_opt_d">
-          <p>The <c>goodbye</c> function adds extra exclamation points.</p>
+        <feedback>
+          The <c>goodbye</c> function adds extra exclamation points.
         </feedback>
       </choice>
       <choice>
@@ -483,16 +483,16 @@ int main() {
             <c>hello, Louise!!!</c>
           </p>
         </statement>
-        <feedback id="functions_mc7_opt_e">
-          <p>We assigned the value of <c>louise</c> to <c>anna</c>. Is <c>"Louise"</c> the value of <c>louise</c>?</p>
+        <feedback>
+          We assigned the value of <c>louise</c> to <c>anna</c>. Is <c>"Louise"</c> the value of <c>louise</c>?
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc7_opt_f">
           <p>Error!</p>
         </statement>
-        <feedback id="functions_mc7_opt_f">
-          <p>There are no errors with this program!</p>
+        <feedback>
+          There are no errors with this program!
         </feedback>
       </choice>
     </choices>
@@ -522,8 +522,8 @@ int main() {
             <c>orderFood(a, c);</c>
           </p>
         </statement>
-        <feedback id="functions_mc8_opt_a">
-          <p>Correct! <c>a</c> is a string and <c>c</c> is an int.</p>
+        <feedback>
+          Correct! <c>a</c> is a string and <c>c</c> is an int.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -532,8 +532,8 @@ int main() {
             <c>orderFood(b, d);</c>
           </p>
         </statement>
-        <feedback id="functions_mc8_opt_b">
-          <p>Correct! Automatic type conversion will convert d to an <c>int</c>.</p>
+        <feedback>
+          Correct! Automatic type conversion will convert d to an <c>int</c>.
         </feedback>
       </choice>
       <choice>
@@ -542,8 +542,8 @@ int main() {
             <c>orderFood(e, c);</c>
           </p>
         </statement>
-        <feedback id="functions_mc8_opt_c">
-          <p><c>e</c> has a character value, and this function takes a <em>string</em>.</p>
+        <feedback>
+          <c>e</c> has a character value, and this function takes a <em>string</em>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -552,8 +552,8 @@ int main() {
             <c>orderfood(a, d);</c>
           </p>
         </statement>
-        <feedback id="functions_mc8_opt_d">
-          <p>Correct! Automatic type conversion will convert d to an <c>int</c>.</p>
+        <feedback>
+          Correct! Automatic type conversion will convert d to an <c>int</c>.
         </feedback>
       </choice>
       <choice>
@@ -562,8 +562,8 @@ int main() {
             <c>orderFood(c, a);</c>
           </p>
         </statement>
-        <feedback id="functions_mc8_opt_e">
-          <p>You have to input your arguments in the correct order.</p>
+        <feedback>
+          You have to input your arguments in the correct order.
         </feedback>
       </choice>
     </choices>
@@ -590,9 +590,9 @@ int main() {
             <c>a</c>
           </p>
         </statement>
-        <feedback id="functions_mc9_opt_a">
-          <p><c>'a'</c> is no longer the value of <c>a</c>, and the function would print it more than
-            once. Hint: think about the <em>type</em> of <c>a</c>.</p>
+        <feedback>
+          <c>'a'</c> is no longer the value of <c>a</c>, and the function would print it more than
+            once. Hint: think about the <em>type</em> of <c>a</c>.
         </feedback>
       </choice>
       <choice>
@@ -601,9 +601,9 @@ int main() {
             <c>f</c>
           </p>
         </statement>
-        <feedback id="functions_mc9_opt_b">
-          <p><c>'f'</c> is the value of a, but the function would print it more than once. Hint: think
-            about the <em>type</em> of <c>a</c>.</p>
+        <feedback>
+          <c>'f'</c> is the value of a, but the function would print it more than once. Hint: think
+            about the <em>type</em> of <c>a</c>.
         </feedback>
       </choice>
       <choice>
@@ -612,9 +612,9 @@ int main() {
             <c>aa</c>
           </p>
         </statement>
-        <feedback id="functions_mc9_opt_c">
-          <p><c>'a'</c> is no longer the value of <c>a</c>. Hint: think about the <em>type</em> of <c>a</c>
-            .</p>
+        <feedback>
+          <c>'a'</c> is no longer the value of <c>a</c>. Hint: think about the <em>type</em> of <c>a</c>
+            .
         </feedback>
       </choice>
       <choice>
@@ -623,16 +623,16 @@ int main() {
             <c>ff</c>
           </p>
         </statement>
-        <feedback id="functions_mc9_opt_d">
-          <p>Hint: think about the <em>type</em> of <c>a</c>.</p>
+        <feedback>
+          Hint: think about the <em>type</em> of <c>a</c>.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="functions_mc9_opt_e">
           <p>Error!</p>
         </statement>
-        <feedback id="functions_mc9_opt_e">
-          <p><c>printWord</c> takes a string, not a character, as an argument.</p>
+        <feedback>
+          <c>printWord</c> takes a string, not a character, as an argument.
         </feedback>
       </choice>
     </choices>
@@ -650,43 +650,43 @@ int main() {
         <statement id="functions_mc10_opt_a">
           <p>1 parameter, 3 local variables</p>
         </statement>
-        <feedback id="functions_mc10_opt_a">
-          <p>Remember, the parameters are declared in the function definition, and the local
-            variables are declared <em>inside</em> of the function.</p>
+        <feedback>
+          Remember, the parameters are declared in the function definition, and the local
+            variables are declared <em>inside</em> of the function.
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc10_opt_b">
           <p>2 parameters, 4 local variables</p>
         </statement>
-        <feedback id="functions_mc10_opt_b">
-          <p>You can declare multiple variables at once! Also, remember that local variables are
-            declared <em>inside</em> of the function.</p>
+        <feedback>
+          You can declare multiple variables at once! Also, remember that local variables are
+            declared <em>inside</em> of the function.
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc10_opt_c">
           <p>2 parameters, 1 local variables</p>
         </statement>
-        <feedback id="functions_mc10_opt_c">
-          <p>You can declare multiple variables at once!</p>
+        <feedback>
+          You can declare multiple variables at once!
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="functions_mc10_opt_d">
           <p>3 parameters, 1 local variable</p>
         </statement>
-        <feedback id="functions_mc10_opt_d">
-          <p><c>a</c>, <c>b</c>, and <c>c</c> are parameters declared in the function definition. <c>d</c>
-            is a local variable declared inside of the function.</p>
+        <feedback>
+          <c>a</c>, <c>b</c>, and <c>c</c> are parameters declared in the function definition. <c>d</c>
+            is a local variable declared inside of the function.
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc10_opt_e">
           <p>3 parameters, 4 local variables</p>
         </statement>
-        <feedback id="functions_mc10_opt_e">
-          <p>Remember that local variables are declared <em>inside</em> of the function.</p>
+        <feedback>
+          Remember that local variables are declared <em>inside</em> of the function.
         </feedback>
       </choice>
     </choices>
@@ -727,32 +727,32 @@ int main() {
         <statement id="functions_mc11_opt_a">
           <p>6 calls</p>
         </statement>
-        <feedback id="functions_mc11_opt_a">
-          <p>Take into account that <c>weekend</c> only calls <c>party</c> if a conditional is true!</p>
+        <feedback>
+          Take into account that <c>weekend</c> only calls <c>party</c> if a conditional is true!
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc11_opt_b">
           <p>2 calls</p>
         </statement>
-        <feedback id="functions_mc11_opt_b">
-          <p><c>weekend</c> can also call the function <c>party</c></p>
+        <feedback>
+          <c>weekend</c> can also call the function <c>party</c>
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="functions_mc11_opt_c">
           <p>4 calls</p>
         </statement>
-        <feedback id="functions_mc11_opt_c">
-          <p>Correct! two calls by <c>main</c> and two calls by <c>weekend</c></p>
+        <feedback>
+          Correct! two calls by <c>main</c> and two calls by <c>weekend</c>
         </feedback>
       </choice>
       <choice>
         <statement id="functions_mc11_opt_d">
           <p>3 calls</p>
         </statement>
-        <feedback id="functions_mc11_opt_d">
-          <p>One invocation of <c>weekend</c> calls <c>party</c> twice.</p>
+        <feedback>
+          One invocation of <c>weekend</c> calls <c>party</c> twice.
         </feedback>
       </choice>
     </choices>

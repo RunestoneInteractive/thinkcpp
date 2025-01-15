@@ -31,7 +31,7 @@
   </note>
   <exercise label="fuwresults_1">
     <statement>
-      <p>What will be <term>printed</term> when the following code runs? <var/>
+      <p>What will be <term>printed</term> when the following code runs? <fillin mode="string" case="insensitive" answer="8"/>
       </p>
       <program line-numbers="yes">
         <code><![CDATA[
@@ -50,20 +50,16 @@ int main() {
 ]]></code>
       </program>
     </statement>
-    <setup>
-      <var>
-        <condition number="8">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
           <feedback>
-            <p>Yes! 2*4=8 so that will be printed but not returned</p>
+            Yes! 2*4=8 so that will be printed but not returned
           </feedback>
-        </condition>
-        <condition string=".*" >
-          <feedback>
-            <p>Try again</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="fuwresults_2">
     <statement>
@@ -90,16 +86,16 @@ int main() {
         <statement id="fuwresults_2_opt_a">
           <p>Yes</p>
         </statement>
-        <feedback id="fuwresults_2_opt_a">
-          <p>Can you print the result of a void function?</p>
+        <feedback>
+          Can you print the result of a void function?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="fuwresults_2_opt_b">
           <p>No</p>
         </statement>
-        <feedback id="fuwresults_2_opt_b">
-          <p>Correct! You can't print the result of a void function</p>
+        <feedback>
+          Correct! You can't print the result of a void function
         </feedback>
       </choice>
     </choices>
