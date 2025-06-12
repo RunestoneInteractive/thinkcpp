@@ -17,16 +17,16 @@ bool isPalindrome(string input) {
     // Write your implementation here.
 }
 ]]></code>
-      <tests>
-      #define CATCH_CONFIG_MAIN
-      #include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
-      TEST_CASE("factorial function") {
-          REQUIRE(isPalindrome ("racecar") == 1);
-          REQUIRE(isPalindrome ("no lemon, no melon") == 1);
-          REQUIRE(isPalindrome ("kangaroo") == 0);
-      }
-      </tests>
+TEST_CASE("factorial function") {
+    CHECK(isPalindrome("racecar"));
+    CHECK(isPalindrome("no lemon, no melon"));
+    CHECK_FALSE(isPalindrome("kangaroo"));
+}
+]]></tests>
     </program>
     <solution>
       <p>Below is one way to implement the program. We use the <c>isalpha</c> function to ignore the non
@@ -390,16 +390,16 @@ string reverseWord(string input) {
     // Write your implementation here.
 }
 ]]></code>
-      <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("reverseWord function") {
-    REQUIRE(reverseWord("hello") == "olleh");
-    REQUIRE(reverseWord("world") == "dlrow");
-    REQUIRE(reverseWord("racecar") == "racecar");
+    CHECK_EQ(reverseWord("hello"), "olleh"); 
+    CHECK_EQ(reverseWord("world"), "dlrow"); 
+    CHECK_EQ(reverseWord("racecar"), "racecar"); 
 }
-</tests>
+]]></tests>
     </program>
     <hint>
       <activity label="cp_7_AC_6q_pp"
@@ -513,15 +513,16 @@ int countVowels(string input) {
     // Write your implementation here.
 }
 ]]></code>
-      <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("countVowels function") {
-    REQUIRE(countVowels("onomatopoeia") == 8);
-    REQUIRE(countVowels("cysts") == 0);
-    REQUIRE(countVowels("vowels") == 2);
-}</tests>
+    CHECK_EQ(countVowels("onomatopoeia"), 8); 
+    CHECK_EQ(countVowels("cysts"), 0); 
+    CHECK_EQ(countVowels("vowels"), 2); 
+}
+]]></tests>
     </program>
     <hint>
       <activity label="cp_7_AC_8q_pp"
@@ -585,16 +586,16 @@ TEST_CASE("countVowels function") {
               // Write your implementation here.
           }
 ]]></code>
-      <tests>
-        #define CATCH_CONFIG_MAIN
-        #include &lt;catch.hpp&gt;
-        
-        TEST_CASE("longestWord function") {
-            REQUIRE(longestWord("what is the longest word in this string") == "longest");
-            REQUIRE(longestWord("these words are very close in size") == "these");
-            REQUIRE(longestWord("vowels") == "vowels");
-        }
-      </tests>
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
+
+TEST_CASE("longestWord function") {
+    CHECK_EQ(longestWord("what is the longest word in this string"), "longest");
+    CHECK_EQ(longestWord("these words are very close in size"), "these");
+    CHECK_EQ(longestWord("vowels"), "vowels");
+}
+]]></tests>
     </program>
     <solution>
       <p>Below is one way to implement the <c>longestWord</c> function. We use a <c>while</c> loop to go through all
@@ -656,22 +657,22 @@ string camelToSnake(string input) {
     // Write your implementation here.
 }
     ]]></code>
-      <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("snakeToCamel function") {
-    REQUIRE(snakeToCamel ("turn_this_into_camel_case") == "turnThisIntoCamelCase");
-    REQUIRE(snakeToCamel ("hello_world") == "helloWorld");
-    REQUIRE(snakeToCamel ("code") == "code");
+    CHECK_EQ(snakeToCamel("turn_this_into_camel_case"), "turnThisIntoCamelCase"); 
+    CHECK_EQ(snakeToCamel("hello_world"), "helloWorld"); 
+    CHECK_EQ(snakeToCamel("code"), "code"); 
 }
 
 TEST_CASE("camelToSnake function") {
-    REQUIRE(camelToSnake ("turnThisIntoSnakeCase") == "turn_this_into_snake_case");
-    REQUIRE(camelToSnake ("helloWorld") == "hello_world");
-    REQUIRE(camelToSnake ("code") == "code");
+    CHECK_EQ(camelToSnake("turnThisIntoSnakeCase"), "turn_this_into_snake_case"); 
+    CHECK_EQ(camelToSnake("helloWorld"), "hello_world"); 
+    CHECK_EQ(camelToSnake("code"), "code"); 
 }
-</tests>
+]]></tests>
     </program>
     <hint>
       <activity label="cp_7_AC_10q_pp"
