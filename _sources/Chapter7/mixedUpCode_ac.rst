@@ -336,13 +336,13 @@ assess what you have learned in this chapter.
 
 
             ==== 
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("censorE function") {
-                REQUIRE(censorE("after") == "aft*r");
-                REQUIRE(censorE("hello world") == "h*llo world");
-                REQUIRE(censorE("censor") == "c*nsor");
+                CHECK_EQ(censorE("after"), "aft*r");
+                CHECK_EQ(censorE("hello world"), "h*llo world");
+                CHECK_EQ(censorE("censor"), "c*nsor");
             }
 
     .. tab:: Answer
@@ -369,15 +369,14 @@ assess what you have learned in this chapter.
             }
 
             ==== 
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("censorE function") {
-                REQUIRE(censorE("after") == "aft*r");
-                REQUIRE(censorE("hello world") == "h*llo world");
-                REQUIRE(censorE("censor") == "c*nsor");
+                CHECK_EQ(censorE("after"), "aft*r");
+                CHECK_EQ(censorE("hello world"), "h*llo world");
+                CHECK_EQ(censorE("censor"), "c*nsor");
             }
-
 
 .. tabbed:: mucp_7_9_ac
 
@@ -401,13 +400,13 @@ assess what you have learned in this chapter.
 
 
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("censorLetter function") {
-                REQUIRE(censorLetter("Bye world", 'o') == "Bye w*rld");
-                REQUIRE(censorLetter("Hello world", 'l') == "He**o wor*d");
-                REQUIRE(censorLetter("Goodbye world", 'd') == "Goo*bye worl*");
+                CHECK_EQ(censorLetter("Bye world", 'o'), "Bye w*rld");
+                CHECK_EQ(censorLetter("Hello world", 'l'), "He**o wor*d");
+                CHECK_EQ(censorLetter("Goodbye world", 'd'), "Goo*bye worl*");
             }
 
     .. tab:: Answer
@@ -434,13 +433,13 @@ assess what you have learned in this chapter.
             }
 
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("censorLetter function") {
-                REQUIRE(censorLetter("Bye world", 'o') == "Bye w*rld");
-                REQUIRE(censorLetter("Hello world", 'l') == "He**o wor*d");
-                REQUIRE(censorLetter("Goodbye world", 'd') == "Goo*bye worl*");
+                CHECK_EQ(censorLetter("Bye world", 'o'), "Bye w*rld");
+                CHECK_EQ(censorLetter("Hello world", 'l'), "He**o wor*d");
+                CHECK_EQ(censorLetter("Goodbye world", 'd'), "Goo*bye worl*");
             }
 
 
@@ -466,13 +465,13 @@ assess what you have learned in this chapter.
 
 
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("alphaCombine function") {
-                REQUIRE(alphaCombine("zebra","mega") == "megazebra");
-                REQUIRE(alphaCombine("alpha","combine") == "alphacombine");
-                REQUIRE(alphaCombine("combine","alpha") == "alphacombine");
+                CHECK_EQ(alphaCombine("zebra","mega"), "megazebra");
+                CHECK_EQ(alphaCombine("alpha","combine"), "alphacombine");
+                CHECK_EQ(alphaCombine("combine","alpha"), "alphacombine");
             }
 
     .. tab:: Answer
@@ -497,15 +496,14 @@ assess what you have learned in this chapter.
             }
 
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("alphaCombine function") {
-                REQUIRE(alphaCombine("zebra","mega") == "megazebra");
-                REQUIRE(alphaCombine("alpha","combine") == "alphacombine");
-                REQUIRE(alphaCombine("combine","alpha") == "alphacombine");
+                CHECK_EQ(alphaCombine("zebra","mega"), "megazebra");
+                CHECK_EQ(alphaCombine("alpha","combine"), "alphacombine");
+                CHECK_EQ(alphaCombine("combine","alpha"), "alphacombine");
             }
-
 
 .. tabbed:: mucp_7_11_ac
 
@@ -531,12 +529,12 @@ assess what you have learned in this chapter.
 
 
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("ispalindrome function") {
-                REQUIRE(ispalindrome("madam") == true);
-                REQUIRE(ispalindrome("join") == false);
+                CHECK(ispalindrome("madam"));
+                CHECK_FALSE(ispalindrome("join"));
             }
 
     .. tab:: Answer
@@ -567,10 +565,10 @@ assess what you have learned in this chapter.
             }
 
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("ispalindrome function") {
-                REQUIRE(ispalindrome("madam") == true);
-                REQUIRE(ispalindrome("join") == false);
+                CHECK(ispalindrome("madam"));
+                CHECK_FALSE(ispalindrome("join"));
             }
