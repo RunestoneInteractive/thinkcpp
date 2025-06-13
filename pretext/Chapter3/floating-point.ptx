@@ -138,43 +138,43 @@ cout &lt;&lt; e_double;</program>
         <statement>
           <p>e</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the name of a variable. Only the value of a variable will print with cout.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Converting to an int always rounds down.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           When we converted e to an int, e was rounded down to 2. When we converted e_nt to
             e_double, the decimal places from e were lost, and the value of e_double is 2.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3.0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Converting to an int always rounds down.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2.71828</p>
         </statement>
-        <feedback>
+        <feedback><p>
           When we converted e to an int, e was rounded down to 2. When we converted e_nt to
             e_double, the decimal places from e were lost.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -183,9 +183,9 @@ cout &lt;&lt; e_double;</program>
     The thing to remeber is if either the divisor or the dividend is a double
     then the program will carry out floating point division.</p>
   <listing label="floating_point_a1">
-    <caption>
+    <title>
       Run the code to see what type of division occurs each time.
-    </caption>
+    </title>
     <program label="floating_point_a1_editor"
              interactive="activecode"
              line-numbers="yes">

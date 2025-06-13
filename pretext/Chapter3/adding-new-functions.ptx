@@ -46,11 +46,11 @@ Second line.</program>
 }</program>
   <p>Or we could write a new function, named <c>threeLine</c>, that prints three new lines:</p>
   <listing label="new_functions_AC_1">
-    <caption>
+    <title>
       Here we define the threeLine function, which calls the newLine function three times. The
         result is a function that prints three lines after it is called (each of those empty lines
         begins with a <q>*</q>).
-    </caption>
+    </title>
     <program xml:id="new_functions_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -128,33 +128,33 @@ endl</c>?</p>
         <statement id="new_functions_mc_1_opt_a">
           <p>You can name a function anything you want.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You can't name a function the same name as a reserved keyword.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement id="new_functions_mc_1_opt_b">
           <p>You can have a function with several parameters or a function with none.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true! However, you must always use parentheses.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement id="new_functions_mc_1_opt_c">
           <p>You can call a function inside of another function.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true! It is common and useful.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement id="new_functions_mc_1_opt_d">
           <p>You can write multiple statements on one line of a function.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true! As long as each statement ends with a semicolon.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -162,9 +162,9 @@ endl</c>?</p>
     <statement>
       <p>Click on all function HEADERS.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Remember, the operator '=' is used for assignment.
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="yes">void printX() {</area></cline>
       <cline>    <area correct="no">cout &lt;&lt; "X";</area></cline>
@@ -192,9 +192,9 @@ endl</c>?</p>
     <statement>
       <p>Click on all function CALLS.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Remember, the operator '=' is used for assignment.
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="no">void printX() {</area></cline>
       <cline>    <area correct="no">cout &lt;&lt; "X";</area></cline>

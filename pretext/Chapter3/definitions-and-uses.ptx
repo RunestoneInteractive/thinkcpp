@@ -54,10 +54,10 @@ int main() {
             <c>void printName()</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This function header is missing a <c>{</c>, which is needed to begin defining the
             function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement id="defns_uses_2_opt_b">
@@ -65,9 +65,9 @@ int main() {
             <c>totalCostAfterTax() {</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This function header is missing a return type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="defns_uses_2_opt_c">
@@ -75,9 +75,7 @@ int main() {
             <c>void todaysWeather() {</c>
           </p>
         </statement>
-        <feedback>
-          Correct!
-        </feedback>
+        <feedback><p>Correct!</p></feedback>
       </choice>
       <choice>
         <statement id="defns_uses_2_opt_d">
@@ -85,10 +83,10 @@ int main() {
             <c>void finalGrade {</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This function header is missing parentheses. Even if a function does not take in any
             parameters, empty parentheses should be used.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

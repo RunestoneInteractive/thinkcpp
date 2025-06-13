@@ -16,10 +16,10 @@
     mathematical operations you can think of. The math functions are invoked
     using a syntax that is similar to mathematical notation:</p>
   <listing label="math_functions_AC_1">
-    <caption>
+    <title>
       This program performs calculations using some of the built-in functions
         from the cmath library.
-    </caption>
+    </title>
     <program xml:id="math_functions_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -53,12 +53,12 @@ int main() {
     function. The arccosine (or inverse cosine) of -1 is <m>\pi</m>, because the cosine of <m>
     \pi</m> is -1.</p>
   <listing label="math_functions_AC_2">
-    <caption>
+    <title>
       This program also uses built-in functions from the cmath library,
         specifically the functions that deal with angles. As you can see,
         we have a line of code that converts the default radians value to
         degrees.
-    </caption>
+    </title>
     <program xml:id="math_functions_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -103,17 +103,15 @@ using namespace std;
   <program>
 #include &lt;cmath&gt;
 </program>
-  <note><term>cmath</term> is one of a number of header files that start with &#x2018;c' to signify that
+  <note><p><term>cmath</term> is one of a number of header files that start with &#x2018;c' to signify that
     they are derived from similar header files in the <term>C</term> language. In <term>C</term> the math
     library is named <c>math.h</c>. In <term>C++</term> you should always use the version of the library
-    that starts with 'c' as opposed to the one that ends with '.h'.</note>
+    that starts with 'c' as opposed to the one that ends with '.h'.</p></note>
   <exercise label="dnd1">
     <statement>
       <p>Match the statement to its description.</p>
     </statement>
-    <feedback>
-      This is feedback.
-    </feedback>
+    <feedback><p>This is feedback.</p></feedback>
     <matches>
       <match order="1">
         <premise>cmath</premise>
@@ -162,9 +160,7 @@ using namespace std;
             <c>cos</c>
           </p>
         </statement>
-        <feedback>
-          This function computes the cosine of an angle.
-        </feedback>
+        <feedback><p>This function computes the cosine of an angle.</p></feedback>
       </choice>
       <choice>
         <statement id="math_functions_3_opt_b">
@@ -172,9 +168,7 @@ using namespace std;
             <c>arctan</c>
           </p>
         </statement>
-        <feedback>
-          The arc tangent function is actually called <c>atan</c>.
-        </feedback>
+        <feedback><p>The arc tangent function is actually called <c>atan</c>.</p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="math_functions_3_opt_c">
@@ -182,9 +176,7 @@ using namespace std;
             <c>log10</c>
           </p>
         </statement>
-        <feedback>
-          This function computes the common logarithm.
-        </feedback>
+        <feedback><p>This function computes the common logarithm.</p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="math_functions_3_opt_d">
@@ -192,9 +184,7 @@ using namespace std;
             <c>pow</c>
           </p>
         </statement>
-        <feedback>
-          This function raises an expression to a power.
-        </feedback>
+        <feedback><p>This function raises an expression to a power.</p></feedback>
       </choice>
       <choice>
         <statement id="math_functions_3_opt_e">
@@ -202,9 +192,7 @@ using namespace std;
             <c>ln</c>
           </p>
         </statement>
-        <feedback>
-          The natural log function is actually called <c>log</c>.
-        </feedback>
+        <feedback><p>The natural log function is actually called <c>log</c>.</p></feedback>
       </choice>
     </choices>
   </exercise>
