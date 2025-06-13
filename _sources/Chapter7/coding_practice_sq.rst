@@ -176,14 +176,15 @@ Coding Practice
                 // Write your implementation here.
             }
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("reverseWord function") {
-                REQUIRE(reverseWord ("hello") == "olleh"); 
-                REQUIRE(reverseWord ("world") == "dlrow"); 
-                REQUIRE(reverseWord ("racecar") == "racecar"); 
+                CHECK_EQ(reverseWord("hello"), "olleh"); 
+                CHECK_EQ(reverseWord("world"), "dlrow"); 
+                CHECK_EQ(reverseWord("racecar"), "racecar"); 
             }
+
 
     .. tab:: Parsonsprob
 
@@ -234,14 +235,15 @@ Coding Practice
                 // Write your implementation here.
             }
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("countVowels function") {
-                REQUIRE(countVowels ("onomatopoeia") == 8); 
-                REQUIRE(countVowels ("cysts") == 0); 
-                REQUIRE(countVowels ("vowels") == 2); 
+                CHECK_EQ(countVowels("onomatopoeia"), 8); 
+                CHECK_EQ(countVowels("cysts"), 0); 
+                CHECK_EQ(countVowels("vowels"), 2); 
             }
+
 
     .. tab:: Parsonsprob
 
@@ -304,19 +306,19 @@ Coding Practice
                 // Write your implementation here.
             }
             ====
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+            #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+            #include "doctest.h"
 
             TEST_CASE("snakeToCamel function") {
-                REQUIRE(snakeToCamel ("turn_this_into_camel_case") == "turnThisIntoCamelCase"); 
-                REQUIRE(snakeToCamel ("hello_world") == "helloWorld"); 
-                REQUIRE(snakeToCamel ("code") == "code"); 
+                CHECK_EQ(snakeToCamel("turn_this_into_camel_case"), "turnThisIntoCamelCase"); 
+                CHECK_EQ(snakeToCamel("hello_world"), "helloWorld"); 
+                CHECK_EQ(snakeToCamel("code"), "code"); 
             }
 
             TEST_CASE("camelToSnake function") {
-                REQUIRE(camelToSnake ("turnThisIntoSnakeCase") == "turn_this_into_snake_case"); 
-                REQUIRE(camelToSnake ("helloWorld") == "hello_world"); 
-                REQUIRE(camelToSnake ("code") == "code"); 
+                CHECK_EQ(camelToSnake("turnThisIntoSnakeCase"), "turn_this_into_snake_case"); 
+                CHECK_EQ(camelToSnake("helloWorld"), "hello_world"); 
+                CHECK_EQ(camelToSnake("code"), "code"); 
             }
 
     .. tab:: Parsonsprob

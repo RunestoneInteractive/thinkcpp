@@ -448,16 +448,16 @@ using namespace std;
 
 
         ]]></code>
-      <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("censorE function") {
-    REQUIRE(censorE("after") == "aft*r");
-    REQUIRE(censorE("hello world") == "h*llo world");
-    REQUIRE(censorE("censor") == "c*nsor");
+    CHECK_EQ(censorE("after"), "aft*r");
+    CHECK_EQ(censorE("hello world"), "h*llo world");
+    CHECK_EQ(censorE("censor"), "c*nsor");
 }
-</tests>
+]]></tests>
     </program>
     <solution>
 
@@ -482,16 +482,18 @@ string censorE(string input) {
     return input;
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+        ]]></code>
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("censorE function") {
-    REQUIRE(censorE("after") == "aft*r");
-    REQUIRE(censorE("hello world") == "h*llo world");
-    REQUIRE(censorE("censor") == "c*nsor");
+    CHECK_EQ(censorE("after"), "aft*r");
+    CHECK_EQ(censorE("hello world"), "h*llo world");
+    CHECK_EQ(censorE("censor"), "c*nsor");
 }
-</tests></program>
+]]></tests>
+</program>
 
             
 
@@ -511,15 +513,17 @@ string censorE(string input) {
     return input;
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+]]></code>
+<tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("censorE function") {
-    REQUIRE(censorE("after") == "aft*r");
-    REQUIRE(censorE("hello world") == "h*llo world");
-    REQUIRE(censorE("censor") == "c*nsor");
+    CHECK_EQ(censorE("after"), "aft*r");
+    CHECK_EQ(censorE("hello world"), "h*llo world");
+    CHECK_EQ(censorE("censor"), "c*nsor");
 }
+]]>
 </tests></program></exercise>
             </solution>
   </exercise>
@@ -541,16 +545,16 @@ using namespace std;
 
 
         ]]></code>
-      <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("censorLetter function") {
-    REQUIRE(censorLetter("Bye world", 'o') == "Bye w*rld");
-    REQUIRE(censorLetter("Hello world", 'l') == "He**o wor*d");
-    REQUIRE(censorLetter("Goodbye world", 'd') == "Goo*bye worl*");
+    CHECK_EQ(censorLetter("Bye world", 'o'), "Bye w*rld");
+    CHECK_EQ(censorLetter("Hello world", 'l'), "He**o wor*d");
+    CHECK_EQ(censorLetter("Goodbye world", 'd'), "Goo*bye worl*");
 }
-</tests>
+]]></tests>                
     </program>
     <solution>
 
@@ -575,16 +579,16 @@ string censorLetter(string input, char letter) {
     return input;
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+        ]]></code><tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("censorLetter function") {
-    REQUIRE(censorLetter("Bye world", 'o') == "Bye w*rld");
-    REQUIRE(censorLetter("Hello world", 'l') == "He**o wor*d");
-    REQUIRE(censorLetter("Goodbye world", 'd') == "Goo*bye worl*");
+    CHECK_EQ(censorLetter("Bye world", 'o'), "Bye w*rld");
+    CHECK_EQ(censorLetter("Hello world", 'l'), "He**o wor*d");
+    CHECK_EQ(censorLetter("Goodbye world", 'd'), "Goo*bye worl*");
 }
-</tests></program>
+]]></tests></program>
 
             
 
@@ -604,16 +608,16 @@ string censorLetter(string input, char letter) {
     return input;
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+        ]]></code><tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("censorLetter function") {
-    REQUIRE(censorLetter("Bye world", 'o') == "Bye w*rld");
-    REQUIRE(censorLetter("Hello world", 'l') == "He**o wor*d");
-    REQUIRE(censorLetter("Goodbye world", 'd') == "Goo*bye worl*");
+    CHECK_EQ(censorLetter("Bye world", 'o'), "Bye w*rld");
+    CHECK_EQ(censorLetter("Hello world", 'l'), "He**o wor*d");
+    CHECK_EQ(censorLetter("Goodbye world", 'd'), "Goo*bye worl*");
 }
-</tests></program></exercise>
+]]></tests></program></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -634,16 +638,16 @@ using namespace std;
 
 
         ]]></code>
-      <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("alphaCombine function") {
-    REQUIRE(alphaCombine("zebra","mega") == "megazebra");
-    REQUIRE(alphaCombine("alpha","combine") == "alphacombine");
-    REQUIRE(alphaCombine("combine","alpha") == "alphacombine");
+    CHECK_EQ(alphaCombine("zebra","mega"), "megazebra");
+    CHECK_EQ(alphaCombine("alpha","combine"), "alphacombine");
+    CHECK_EQ(alphaCombine("combine","alpha"), "alphacombine");
 }
-</tests>
+]]></tests>
     </program>
     <solution>
 
@@ -666,16 +670,16 @@ string alphaCombine(string first, string second) {
     }
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+        ]]></code><tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("alphaCombine function") {
-    REQUIRE(alphaCombine("zebra","mega") == "megazebra");
-    REQUIRE(alphaCombine("alpha","combine") == "alphacombine");
-    REQUIRE(alphaCombine("combine","alpha") == "alphacombine");
+    CHECK_EQ(alphaCombine("zebra","mega"), "megazebra");
+    CHECK_EQ(alphaCombine("alpha","combine"), "alphacombine");
+    CHECK_EQ(alphaCombine("combine","alpha"), "alphacombine");
 }
-</tests></program>
+]]></tests></program>
 
             
 
@@ -693,16 +697,16 @@ string alphaCombine(string first, string second) {
     }
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+        ]]></code><tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("alphaCombine function") {
-    REQUIRE(alphaCombine("zebra","mega") == "megazebra");
-    REQUIRE(alphaCombine("alpha","combine") == "alphacombine");
-    REQUIRE(alphaCombine("combine","alpha") == "alphacombine");
+    CHECK_EQ(alphaCombine("zebra","mega"), "megazebra");
+    CHECK_EQ(alphaCombine("alpha","combine"), "alphacombine");
+    CHECK_EQ(alphaCombine("combine","alpha"), "alphacombine");
 }
-</tests></program></exercise>
+]]></tests></program></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -725,15 +729,15 @@ using namespace std;
 
 
         ]]></code>
-      <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+      <tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("ispalindrome function") {
-    REQUIRE(ispalindrome("madam") == true);
-    REQUIRE(ispalindrome("join") == false);
+    CHECK(ispalindrome("madam"));
+    CHECK_FALSE(ispalindrome("join"));
 }
-</tests>
+]]></tests>
     </program>
     <solution>
 
@@ -760,15 +764,15 @@ bool ispalindrome(string input) {
     return true;
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+        ]]></code><tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("ispalindrome function") {
-    REQUIRE(ispalindrome("madam") == true);
-    REQUIRE(ispalindrome("join") == false);
+    CHECK(ispalindrome("madam"));
+    CHECK_FALSE(ispalindrome("join"));
 }
-</tests></program>
+]]></tests></program>
 
             
 
@@ -790,15 +794,15 @@ bool ispalindrome(string input) {
     return true;
 }
 
-        ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+        ]]></code><tests><![CDATA[
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("ispalindrome function") {
-    REQUIRE(ispalindrome("madam") == true);
-    REQUIRE(ispalindrome("join") == false);
+    CHECK(ispalindrome("madam"));
+    CHECK_FALSE(ispalindrome("join"));
 }
-</tests></program></exercise>
+]]></tests></program></exercise>
             </solution>
   </exercise>
 </section>
