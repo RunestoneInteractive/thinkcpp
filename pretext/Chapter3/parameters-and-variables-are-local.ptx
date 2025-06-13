@@ -68,7 +68,7 @@ int main() {
           <p>1 local variable, 1 parameter</p>
         </statement>
         <feedback>
-          <p>A parameter would be located within the parentheses next to the function's name.</p>
+          A parameter would be located within the parentheses next to the function's name.
         </feedback>
       </choice>
       <choice>
@@ -76,7 +76,7 @@ int main() {
           <p>0 local variables, 1 parameter</p>
         </statement>
         <feedback>
-          <p>A parameter would be located within the parentheses next to the function's name.</p>
+          A parameter would be located within the parentheses next to the function's name.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -84,7 +84,7 @@ int main() {
           <p>2 local variables, 0 parameters</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -92,7 +92,7 @@ int main() {
           <p>2 local variables, 1 parameter</p>
         </statement>
         <feedback>
-          <p>A parameter would be located within the parentheses next to the function's name.</p>
+          A parameter would be located within the parentheses next to the function's name.
         </feedback>
       </choice>
     </choices>
@@ -118,7 +118,7 @@ int main() {
           <p>1 local variable, 1 parameter</p>
         </statement>
         <feedback>
-          <p>A local variable exists when a variable is declared within a function.</p>
+          A local variable exists when a variable is declared within a function.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -126,7 +126,7 @@ int main() {
           <p>0 local variables, 1 parameter</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -134,7 +134,7 @@ int main() {
           <p>2 local variables, 0 parameters</p>
         </statement>
         <feedback>
-          <p>A local variable exists when a variable is declared within a function.</p>
+          A local variable exists when a variable is declared within a function.
         </feedback>
       </choice>
       <choice>
@@ -142,31 +142,27 @@ int main() {
           <p>2 local variables, 1 parameter</p>
         </statement>
         <feedback>
-          <p>A local variable exists when a variable is declared within a function.</p>
+          A local variable exists when a variable is declared within a function.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="locals_3">
     <statement>
-      <p>Whenever we make a function call, we create a(n) <var/> of that function, which contains
+      <p>Whenever we make a function call, we create a(n) <fillin mode="string" case="insensitive" answer="instance"/> of that function, which contains
         the parameters and local variables for that function. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*instance\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
           <feedback>
-            <p>You could create many instances of one function, each with their own parameters and
-              local variables if you wanted!</p>
+            You could create many instances of one function, each with their own parameters and
+              local variables if you wanted!
           </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="locals_4">
     <statement>
@@ -194,7 +190,7 @@ int main() {
           <p>1 call</p>
         </statement>
         <feedback>
-          <p>hi( ) is called from multiple functions.</p>
+          hi( ) is called from multiple functions.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -202,7 +198,7 @@ int main() {
           <p>4 calls</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -210,7 +206,7 @@ int main() {
           <p>2 calls</p>
         </statement>
         <feedback>
-          <p>hi( ) is called from multiple functions.</p>
+          hi( ) is called from multiple functions.
         </feedback>
       </choice>
       <choice>
@@ -218,7 +214,7 @@ int main() {
           <p>3 calls</p>
         </statement>
         <feedback>
-          <p>Two calls from one function are indeed two seperate calls.</p>
+          Two calls from one function are indeed two seperate calls.
         </feedback>
       </choice>
     </choices>

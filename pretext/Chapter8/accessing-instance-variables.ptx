@@ -53,41 +53,41 @@ int main() {
         <statement id="accessing_instance_variables_1_opt_a">
           <p><c>string</c> is the instance variable, <c>cube</c> is the object</p>
         </statement>
-        <feedback id="accessing_instance_variables_1_opt_a">
-          <p><c>string</c> is a data type.</p>
+        <feedback>
+          <c>string</c> is a data type.
         </feedback>
       </choice>
       <choice>
         <statement id="accessing_instance_variables_1_opt_b">
           <p><c>x</c> is the instance variable, <c>thing</c> is the object</p>
         </statement>
-        <feedback id="accessing_instance_variables_1_opt_b">
-          <p><c>x</c> is the local variable.</p>
+        <feedback>
+          <c>x</c> is the local variable.
         </feedback>
       </choice>
       <choice>
         <statement id="accessing_instance_variables_1_opt_c">
           <p><c>thing</c> is the instance variable, <c>cube</c> is the object</p>
         </statement>
-        <feedback id="accessing_instance_variables_1_opt_c">
-          <p>Consider the placement of <c>thing</c> &#x2013; it is before the <c>.</c></p>
+        <feedback>
+          Consider the placement of <c>thing</c> &#x2013; it is before the <c>.</c>
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="accessing_instance_variables_1_opt_d">
           <p><c>cube</c> is the instance variable, <c>thing</c> is the object</p>
         </statement>
-        <feedback id="accessing_instance_variables_1_opt_d">
-          <p>Yes, we access the instance variable <c>cube</c> of the object <c>thing</c> using the dot
-            operator.</p>
+        <feedback>
+          Yes, we access the instance variable <c>cube</c> of the object <c>thing</c> using the dot
+            operator.
         </feedback>
       </choice>
       <choice>
         <statement id="accessing_instance_variables_1_opt_e">
           <p><c>cube</c> is the instance variable, <c>string</c> is the object</p>
         </statement>
-        <feedback id="accessing_instance_variables_1_opt_e">
-          <p><c>string</c> is a data type.</p>
+        <feedback>
+          <c>string</c> is a data type.
         </feedback>
       </choice>
     </choices>
@@ -119,8 +119,8 @@ int main() {
             <c>2.0 7.0 53</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_2_opt_a">
-          <p>Spaces need to be printed out like any other output.</p>
+        <feedback>
+          Spaces need to be printed out like any other output.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -129,8 +129,8 @@ int main() {
             <c>2753</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_2_opt_b">
-          <p>There are no spaces in the correct output.</p>
+        <feedback>
+          There are no spaces in the correct output.
         </feedback>
       </choice>
       <choice>
@@ -139,9 +139,9 @@ int main() {
             <c>7253</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_2_opt_c">
-          <p>The order in which the variables are printed out do not need to match the order in
-            which they are declared.</p>
+        <feedback>
+          The order in which the variables are printed out do not need to match the order in
+            which they are declared.
         </feedback>
       </choice>
       <choice>
@@ -150,9 +150,9 @@ int main() {
             <c>7.02.053</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_2_opt_d">
-          <p>The order in which the variables are printed out do not need to match the order in
-            which they are declared.</p>
+        <feedback>
+          The order in which the variables are printed out do not need to match the order in
+            which they are declared.
         </feedback>
       </choice>
     </choices>
@@ -169,8 +169,8 @@ int main() {
             <c>int y = circle.x();</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_3_opt_a">
-          <p>No parentheses are needed.</p>
+        <feedback>
+          No parentheses are needed.
         </feedback>
       </choice>
       <choice>
@@ -179,8 +179,8 @@ int main() {
             <c>int circle = x.y;</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_3_opt_b">
-          <p>You should be assigning to the local variable <c>x</c>.</p>
+        <feedback>
+          You should be assigning to the local variable <c>x</c>.
         </feedback>
       </choice>
       <choice>
@@ -189,8 +189,8 @@ int main() {
             <c>int y = circle.x;</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_3_opt_c">
-          <p>You should be assigning to the local variable <c>x</c>.</p>
+        <feedback>
+          You should be assigning to the local variable <c>x</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -199,8 +199,8 @@ int main() {
             <c>int x = circle.y;</c>
           </p>
         </statement>
-        <feedback id="accessing_instance_variables_3_opt_d">
-          <p>This is the correct way to assign the value of <c>y</c> to <c>x</c>.</p>
+        <feedback>
+          This is the correct way to assign the value of <c>y</c> to <c>x</c>.
         </feedback>
       </choice>
     </choices>

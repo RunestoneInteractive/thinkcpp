@@ -22,47 +22,26 @@
     reaches a return or break statement).</p>
   <exercise label="bool_vals_1">
     <statement>
-      <p>The boolean type has two values <var/> and <var/>. The <var/> operator is used to check if
+      <p>The boolean type has two values <fillin mode="string" case="insensitive" answer="(true)|(false)"/> and <fillin mode="string" case="insensitive" answer="(true)|(false)"/>. The <fillin mode="string" case="insensitive" answer="=="/> operator is used to check if
         two boolean values are equal. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(true)|(false)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*(true)|(false)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*==\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="bool_vals_2"
             indentation="hide">

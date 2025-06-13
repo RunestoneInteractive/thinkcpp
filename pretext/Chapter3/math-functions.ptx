@@ -112,7 +112,7 @@ using namespace std;
       <p>Match the statement to its description.</p>
     </statement>
     <feedback>
-      <p>This is feedback.</p>
+      This is feedback.
     </feedback>
     <matches>
       <match order="1">
@@ -131,28 +131,25 @@ using namespace std;
   </exercise>
   <exercise label="math_functions_2">
     <statement>
-      <p>What are the units used by sinusoidal functions (sin, asin, e.t.c.) in C++? <var/>
+      <p>What are the units used by sinusoidal functions (sin, asin, e.t.c.) in C++? <fillin mode="string" case="insensitive" answer="radians?"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*radians?\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
           <feedback>
-            <p>If you need to convert to degrees, just multiply by 360 and divide by 2pi.</p>
+            If you need to convert to degrees, just multiply by 360 and divide by 2pi.
           </feedback>
-        </condition>
-        <condition string="^\s*degrees?\s*$">
+        </test>
+        <test>
+          <strcmp>degrees?</strcmp>
           <feedback>
-            <p>This is a unit sometimes used for sinusoidal functions, but not the one used by C++.</p>
+            This is a unit sometimes used for sinusoidal functions, but not the one used by C++.
           </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="math_functions_3">
     <statement>
@@ -165,8 +162,8 @@ using namespace std;
             <c>cos</c>
           </p>
         </statement>
-        <feedback id="math_functions_3_opt_a">
-          <p>This function computes the cosine of an angle.</p>
+        <feedback>
+          This function computes the cosine of an angle.
         </feedback>
       </choice>
       <choice>
@@ -175,8 +172,8 @@ using namespace std;
             <c>arctan</c>
           </p>
         </statement>
-        <feedback id="math_functions_3_opt_b">
-          <p>The arc tangent function is actually called <c>atan</c>.</p>
+        <feedback>
+          The arc tangent function is actually called <c>atan</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -185,8 +182,8 @@ using namespace std;
             <c>log10</c>
           </p>
         </statement>
-        <feedback id="math_functions_3_opt_c">
-          <p>This function computes the common logarithm.</p>
+        <feedback>
+          This function computes the common logarithm.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -195,8 +192,8 @@ using namespace std;
             <c>pow</c>
           </p>
         </statement>
-        <feedback id="math_functions_3_opt_d">
-          <p>This function raises an expression to a power.</p>
+        <feedback>
+          This function raises an expression to a power.
         </feedback>
       </choice>
       <choice>
@@ -205,8 +202,8 @@ using namespace std;
             <c>ln</c>
           </p>
         </statement>
-        <feedback id="math_functions_3_opt_e">
-          <p>The natural log function is actually called <c>log</c>.</p>
+        <feedback>
+          The natural log function is actually called <c>log</c>.
         </feedback>
       </choice>
     </choices>

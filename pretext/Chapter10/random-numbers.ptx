@@ -128,28 +128,22 @@ int main() {
   </activity>
   <exercise label="random_numbers_1">
     <statement>
-      <p>Pseudorandom numbers are said to be <var/>, because different numbers are generated every
+      <p>Pseudorandom numbers are said to be <fillin mode="string" case="insensitive" answer="NONDETERMINISTIC"/>, because different numbers are generated every
         time the program is executed.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*NONDETERMINISTIC\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+        <test>
+          <strcmp>DETERMINISTIC</strcmp>
           <feedback>
-            <p>Correct!</p>
+            Incorrect! Deterministic programs do the same thing every time they are executed.
           </feedback>
-        </condition>
-        <condition string="^\s*DETERMINISTIC\s*$">
-          <feedback>
-            <p>Incorrect! Deterministic programs do the same thing every time they are executed.</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="random_numbers_2">
     <statement>
@@ -161,7 +155,7 @@ int main() {
           <p>cstdlib</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -169,7 +163,7 @@ int main() {
           <p>random</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
       <choice>
@@ -177,7 +171,7 @@ int main() {
           <p>cmath</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
       <choice>
@@ -185,7 +179,7 @@ int main() {
           <p>iostream</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
     </choices>
@@ -202,8 +196,8 @@ int main() {
             <c>int y = x / 12</c>
           </p>
         </statement>
-        <feedback id="random_numbers_3_opt_a">
-          <p>This returns some random number between 0 and x / 12, which is out of range.</p>
+        <feedback>
+          This returns some random number between 0 and x / 12, which is out of range.
         </feedback>
       </choice>
       <choice>
@@ -212,8 +206,8 @@ int main() {
             <c>int y = x % 12</c>
           </p>
         </statement>
-        <feedback id="random_numbers_3_opt_b">
-          <p>This returns a random number between 0 and 11.</p>
+        <feedback>
+          This returns a random number between 0 and 11.
         </feedback>
       </choice>
       <choice>
@@ -222,8 +216,8 @@ int main() {
             <c>int y = x / 13</c>
           </p>
         </statement>
-        <feedback id="random_numbers_3_opt_c">
-          <p>This returns some random number between 0 and x / 13, which is out of range.</p>
+        <feedback>
+          This returns some random number between 0 and x / 13, which is out of range.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -232,8 +226,8 @@ int main() {
             <c>int y = x % 13</c>
           </p>
         </statement>
-        <feedback id="random_numbers_3_opt_d">
-          <p>There are 13 numbers from 0 to 12 (the remainders of a division by 13).</p>
+        <feedback>
+          There are 13 numbers from 0 to 12 (the remainders of a division by 13).
         </feedback>
       </choice>
     </choices>

@@ -60,7 +60,7 @@ int main() {
           <p>blank.x = 3.0;</p>
         </statement>
         <feedback>
-          <p>This declaration would not work for the specific code block below.</p>
+          This declaration would not work for the specific code block below.
         </feedback>
       </choice>
       <choice>
@@ -68,7 +68,7 @@ int main() {
           <p>Point.x = 3.0;</p>
         </statement>
         <feedback>
-          <p>The specific name of the structure should be used, not its type.</p>
+          The specific name of the structure should be used, not its type.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -76,7 +76,7 @@ int main() {
           <p>nice.x = 3.0;</p>
         </statement>
         <feedback>
-          <p>Yes, we can access and modify the instance variables using the dot operator.</p>
+          Yes, we can access and modify the instance variables using the dot operator.
         </feedback>
       </choice>
       <choice>
@@ -84,7 +84,7 @@ int main() {
           <p>nice.x( ) = 3.0;</p>
         </statement>
         <feedback>
-          <p>You are not calling a function therefore brackets for an argument list aren't required.</p>
+          You are not calling a function therefore brackets for an argument list aren't required.
         </feedback>
       </choice>
     </choices>
@@ -120,7 +120,7 @@ int main() {
           <p>outside of any function definition, usually at the beginning of the program</p>
         </statement>
         <feedback>
-          <p>Read over the other answer choices as well.</p>
+          Read over the other answer choices as well.
         </feedback>
       </choice>
       <choice>
@@ -128,8 +128,8 @@ int main() {
           <p>after the main function</p>
         </statement>
         <feedback>
-          <p>The struct cannot be defined after the main function or else it can't be used in the
-            program.</p>
+          The struct cannot be defined after the main function or else it can't be used in the
+            program.
         </feedback>
       </choice>
       <choice>
@@ -137,7 +137,7 @@ int main() {
           <p>after the include statements</p>
         </statement>
         <feedback>
-          <p>Read over the other answer choices as well.</p>
+          Read over the other answer choices as well.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -145,8 +145,8 @@ int main() {
           <p>both a and c</p>
         </statement>
         <feedback>
-          <p>Yes, structs are usually defined after the include statements and before the main
-            function.</p>
+          Yes, structs are usually defined after the include statements and before the main
+            function.
         </feedback>
       </choice>
     </choices>

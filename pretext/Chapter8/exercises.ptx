@@ -37,8 +37,8 @@ int main() {
             <c>x</c>
           </p>
         </statement>
-        <feedback id="mce_8_1_opt_a">
-          <p><c>x</c> is a <c>Student</c> which is a <c>struct</c>.</p>
+        <feedback>
+          <c>x</c> is a <c>Student</c> which is a <c>struct</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -47,8 +47,8 @@ int main() {
             <c>y</c>
           </p>
         </statement>
-        <feedback id="mce_8_1_opt_b">
-          <p><c>y</c> is a <c>Student</c> which is a <c>struct</c>.</p>
+        <feedback>
+          <c>y</c> is a <c>Student</c> which is a <c>struct</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -57,8 +57,8 @@ int main() {
             <c>z</c>
           </p>
         </statement>
-        <feedback id="mce_8_1_opt_c">
-          <p><c>z</c> is a <c>Professor</c> which is a <c>struct</c>.</p>
+        <feedback>
+          <c>z</c> is a <c>Professor</c> which is a <c>struct</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -67,8 +67,8 @@ int main() {
             <c>college</c>
           </p>
         </statement>
-        <feedback id="mce_8_1_opt_d">
-          <p><c>college</c> is a <c>string</c> which is made up of characters.</p>
+        <feedback>
+          <c>college</c> is a <c>string</c> which is made up of characters.
         </feedback>
       </choice>
       <choice>
@@ -77,8 +77,8 @@ int main() {
             <c>studentPop</c>
           </p>
         </statement>
-        <feedback id="mce_8_1_opt_e">
-          <p>An <c>int</c> is not a compound value.</p>
+        <feedback>
+          An <c>int</c> is not a compound value.
         </feedback>
       </choice>
       <choice>
@@ -87,8 +87,8 @@ int main() {
             <c>avgGPA</c>
           </p>
         </statement>
-        <feedback id="mce_8_1_opt_f">
-          <p>A <c>double</c> is not a compound value.</p>
+        <feedback>
+          A <c>double</c> is not a compound value.
         </feedback>
       </choice>
     </choices>
@@ -112,32 +112,32 @@ struct Chicken {
         <statement id="mce_8_2_opt_a">
           <p>The word <q>struct</q> needs to be capitalized.</p>
         </statement>
-        <feedback id="mce_8_2_opt_a">
-          <p><q>struct</q> shouldn't be capitalized in a <c>struct</c> definition.</p>
+        <feedback>
+          <q>struct</q> shouldn't be capitalized in a <c>struct</c> definition.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_8_2_opt_b">
           <p>There needs to be a semicolon after the end curly brace.</p>
         </statement>
-        <feedback id="mce_8_2_opt_b">
-          <p>It is a common error to forgot the semicolon at the end of <c>struct</c> definitions.</p>
+        <feedback>
+          It is a common error to forgot the semicolon at the end of <c>struct</c> definitions.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_2_opt_c">
           <p>A <c>struct</c> cannot have two instance variables of both <c>string</c> and <c>int</c></p>
         </statement>
-        <feedback id="mce_8_2_opt_c">
-          <p>Instance variables of different types in a single struct is fine.</p>
+        <feedback>
+          Instance variables of different types in a single struct is fine.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_2_opt_d">
           <p>There is nothing wrong with the <c>struct</c> definition.</p>
         </statement>
-        <feedback id="mce_8_2_opt_d">
-          <p>There is an error with the definition. Can you find it?</p>
+        <feedback>
+          There is an error with the definition. Can you find it?
         </feedback>
       </choice>
     </choices>
@@ -167,8 +167,8 @@ int main() {
             <c>Dog.numLegs = 4;</c>
           </p>
         </statement>
-        <feedback id="mce_8_3_opt_a">
-          <p>The <c>Dog</c> object is <c>doug</c>. We can use the dot notation on an object.</p>
+        <feedback>
+          The <c>Dog</c> object is <c>doug</c>. We can use the dot notation on an object.
         </feedback>
       </choice>
       <choice>
@@ -177,8 +177,8 @@ int main() {
             <c>doug.legs = 4;</c>
           </p>
         </statement>
-        <feedback id="mce_8_3_opt_b">
-          <p>Check the name of the instance variable in the <c>struct</c> definition.</p>
+        <feedback>
+          Check the name of the instance variable in the <c>struct</c> definition.
         </feedback>
       </choice>
       <choice>
@@ -187,8 +187,8 @@ int main() {
             <c>doug[legs] = 4;</c>
           </p>
         </statement>
-        <feedback id="mce_8_3_opt_c">
-          <p>We can assign values to the instance variables of a <c>struct</c> using dot notation.</p>
+        <feedback>
+          We can assign values to the instance variables of a <c>struct</c> using dot notation.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -197,8 +197,8 @@ int main() {
             <c>doug.numLegs = 4;</c>
           </p>
         </statement>
-        <feedback id="mce_8_3_opt_d">
-          <p>Using dot notation on <c>doug</c>, we can set the value of <c>numLegs</c> to 4.</p>
+        <feedback>
+          Using dot notation on <c>doug</c>, we can set the value of <c>numLegs</c> to 4.
         </feedback>
       </choice>
     </choices>
@@ -234,8 +234,8 @@ int main() {
             <c>4, 64, 128, 2</c>
           </p>
         </statement>
-        <feedback id="mce_8_4_opt_a">
-          <p>Check the ordering of the output statements.</p>
+        <feedback>
+          Check the ordering of the output statements.
         </feedback>
       </choice>
       <choice>
@@ -244,8 +244,8 @@ int main() {
             <c>4, 128, 64</c>
           </p>
         </statement>
-        <feedback id="mce_8_4_opt_b">
-          <p>Take a closer look at the output statements.</p>
+        <feedback>
+          Take a closer look at the output statements.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -254,8 +254,8 @@ int main() {
             <c>4, 128, 64, 2</c>
           </p>
         </statement>
-        <feedback id="mce_8_4_opt_c">
-          <p>The code outputs all instance variables and the density in the proper order.</p>
+        <feedback>
+          The code outputs all instance variables and the density in the proper order.
         </feedback>
       </choice>
       <choice>
@@ -264,8 +264,8 @@ int main() {
             <c>edgeLength, volume, mass, density</c>
           </p>
         </statement>
-        <feedback id="mce_8_4_opt_d">
-          <p>Dot notation accesses the values of the instance variables, not the names.</p>
+        <feedback>
+          Dot notation accesses the values of the instance variables, not the names.
         </feedback>
       </choice>
     </choices>
@@ -300,32 +300,32 @@ int main() {
         <statement id="mce_8_5_opt_a">
           <p>0</p>
         </statement>
-        <feedback id="mce_8_5_opt_a">
-          <p>Because of integer division, <c>density</c> is 0 and thus the output is 0.</p>
+        <feedback>
+          Because of integer division, <c>density</c> is 0 and thus the output is 0.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_5_opt_b">
           <p>2</p>
         </statement>
-        <feedback id="mce_8_5_opt_b">
-          <p>Density is mass divided by volume.</p>
+        <feedback>
+          Density is mass divided by volume.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_5_opt_c">
           <p>0.5</p>
         </statement>
-        <feedback id="mce_8_5_opt_c">
-          <p>Take a closer look at what kind of division we are doing.</p>
+        <feedback>
+          Take a closer look at what kind of division we are doing.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_5_opt_d">
           <p>1</p>
         </statement>
-        <feedback id="mce_8_5_opt_d">
-          <p>Integer division truncates the extra digits.</p>
+        <feedback>
+          Integer division truncates the extra digits.
         </feedback>
       </choice>
     </choices>
@@ -360,34 +360,34 @@ int main() {
         <statement id="mce_8_6_opt_a">
           <p>true</p>
         </statement>
-        <feedback id="mce_8_6_opt_a">
-          <p>C++ outputs boolean values as either a 0 or 1.</p>
+        <feedback>
+          C++ outputs boolean values as either a 0 or 1.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_6_opt_b">
           <p>false</p>
         </statement>
-        <feedback id="mce_8_6_opt_b">
-          <p>C++ outputs boolean values as either a 0 or 1.</p>
+        <feedback>
+          C++ outputs boolean values as either a 0 or 1.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_6_opt_c">
           <p>1</p>
         </statement>
-        <feedback id="mce_8_6_opt_c">
-          <p>Take a closer look at the function definition of <c>pourCoffee</c>.</p>
+        <feedback>
+          Take a closer look at the function definition of <c>pourCoffee</c>.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_8_6_opt_d">
           <p>0</p>
         </statement>
-        <feedback id="mce_8_6_opt_d">
-          <p>Since we pass a <c>Student</c> object by value to <c>pourCoffee</c>, the function makes a copy of the
+        <feedback>
+          Since we pass a <c>Student</c> object by value to <c>pourCoffee</c>, the function makes a copy of the
             object and does not modify the original. If you wanted the original value to change,
-            pass it by reference!</p>
+            pass it by reference!
         </feedback>
       </choice>
     </choices>
@@ -426,32 +426,32 @@ int main() {
         <statement id="mce_8_7_opt_a">
           <p>100</p>
         </statement>
-        <feedback id="mce_8_7_opt_a">
-          <p>The <c>Robot</c> object is passed by reference to <c>chargeRobot</c>, which caps the <c>batteryLevelPercentage</c> at 100.</p>
+        <feedback>
+          The <c>Robot</c> object is passed by reference to <c>chargeRobot</c>, which caps the <c>batteryLevelPercentage</c> at 100.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_7_opt_b">
           <p>110</p>
         </statement>
-        <feedback id="mce_8_7_opt_b">
-          <p>Take a closer look at the <c>chargeRobot</c> function.</p>
+        <feedback>
+          Take a closer look at the <c>chargeRobot</c> function.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_7_opt_c">
           <p>60</p>
         </statement>
-        <feedback id="mce_8_7_opt_c">
-          <p>Is the <c>Robot</c> object passed by value or by reference to <c>chargeRobot</c>?</p>
+        <feedback>
+          Is the <c>Robot</c> object passed by value or by reference to <c>chargeRobot</c>?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_7_opt_d">
           <p>1</p>
         </statement>
-        <feedback id="mce_8_7_opt_d">
-          <p>That is the final value of <c>r.isFullyCharged</c>.</p>
+        <feedback>
+          That is the final value of <c>r.isFullyCharged</c>.
         </feedback>
       </choice>
     </choices>
@@ -492,34 +492,34 @@ int main() {
         <statement id="mce_8_8_opt_a">
           <p>4, 7</p>
         </statement>
-        <feedback id="mce_8_8_opt_a">
-          <p>Take a closer look at <c>func</c> and its parameters. Are they passed by value, passed by
-            reference, or both?</p>
+        <feedback>
+          Take a closer look at <c>func</c> and its parameters. Are they passed by value, passed by
+            reference, or both?
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_8_8_opt_b">
           <p>4, 10</p>
         </statement>
-        <feedback id="mce_8_8_opt_b">
-          <p>Since <c>bar</c> doesn't pass either parameter by reference, neither <c>bar</c> nor <c>foo</c>
-            affect the values of <c>x</c> and <c>y</c>.</p>
+        <feedback>
+          Since <c>bar</c> doesn't pass either parameter by reference, neither <c>bar</c> nor <c>foo</c>
+            affect the values of <c>x</c> and <c>y</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_8_opt_c">
           <p>7, 7</p>
         </statement>
-        <feedback id="mce_8_8_opt_c">
-          <p>Check the order of the arguments passed into <c>func</c>.</p>
+        <feedback>
+          Check the order of the arguments passed into <c>func</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_8_opt_d">
           <p>35, 8</p>
         </statement>
-        <feedback id="mce_8_8_opt_d">
-          <p>Take a closer look at the three functions. Are they all passed by reference?</p>
+        <feedback>
+          Take a closer look at the three functions. Are they all passed by reference?
         </feedback>
       </choice>
     </choices>
@@ -543,32 +543,32 @@ int main() {
         <statement id="mce_8_9_opt_a">
           <p>R2-D2</p>
         </statement>
-        <feedback id="mce_8_9_opt_a">
-          <p>Take another look at the <c>cout</c> statement.</p>
+        <feedback>
+          Take another look at the <c>cout</c> statement.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_9_opt_b">
           <p>Hello name!</p>
         </statement>
-        <feedback id="mce_8_9_opt_b">
-          <p><c>name</c> is not in quotes so the value stored in <c>name</c> will be printed.</p>
+        <feedback>
+          <c>name</c> is not in quotes so the value stored in <c>name</c> will be printed.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_8_9_opt_c">
           <p>Hello, R2-D2!</p>
         </statement>
-        <feedback id="mce_8_9_opt_c">
-          <p><q>R2-D2</q> is stored in <c>name</c> and is then outputted in the <c>cout</c> statement.</p>
+        <feedback>
+          <q>R2-D2</q> is stored in <c>name</c> and is then outputted in the <c>cout</c> statement.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_9_opt_d">
           <p>name</p>
         </statement>
-        <feedback id="mce_8_9_opt_d">
-          <p><c>cin</c> reads input from the user.</p>
+        <feedback>
+          <c>cin</c> reads input from the user.
         </feedback>
       </choice>
     </choices>
@@ -592,33 +592,33 @@ int main() {
         <statement id="mce_8_10_opt_a">
           <p>Hello, CPO!</p>
         </statement>
-        <feedback id="mce_8_10_opt_a">
-          <p><c>cin</c> reads the first <c>char</c> in from user input.</p>
+        <feedback>
+          <c>cin</c> reads the first <c>char</c> in from user input.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_8_10_opt_b">
           <p>Hello, C!</p>
         </statement>
-        <feedback id="mce_8_10_opt_b">
-          <p>Since &#x2018;C' is the first <c>char</c> in the input, this is the correct output. The
-            program will ignore everything that comes after the first <c>char</c>.</p>
+        <feedback>
+          Since &#x2018;C' is the first <c>char</c> in the input, this is the correct output. The
+            program will ignore everything that comes after the first <c>char</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_10_opt_c">
           <p>Hello, C-3PO!</p>
         </statement>
-        <feedback id="mce_8_10_opt_c">
-          <p>Check the data type of <c>name</c>.</p>
+        <feedback>
+          Check the data type of <c>name</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_8_10_opt_d">
           <p>Error, we cannot read a character from user input.</p>
         </statement>
-        <feedback id="mce_8_10_opt_d">
-          <p>We can read characters from user input.</p>
+        <feedback>
+          We can read characters from user input.
         </feedback>
       </choice>
     </choices>
@@ -644,8 +644,8 @@ int main() {
             <c>quote is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback id="mce_8_11_opt_a">
-          <p><c>quote</c> is not in quotes so the value stored in <c>quote</c> will be printed.</p>
+        <feedback>
+          <c>quote</c> is not in quotes so the value stored in <c>quote</c> will be printed.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -654,8 +654,8 @@ int main() {
             <c>Darth Vader is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback id="mce_8_11_opt_b">
-          <p>getline reads the entire line until the user hits Return or Enter.</p>
+        <feedback>
+          getline reads the entire line until the user hits Return or Enter.
         </feedback>
       </choice>
       <choice>
@@ -664,8 +664,8 @@ int main() {
             <c>Darth is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback id="mce_8_11_opt_c">
-          <p>Check the manner in which the user input is acquired.</p>
+        <feedback>
+          Check the manner in which the user input is acquired.
         </feedback>
       </choice>
       <choice>
@@ -674,8 +674,8 @@ int main() {
             <c>D is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback id="mce_8_11_opt_d">
-          <p>Try Again! Pay attention to the way in which user input is recieved.</p>
+        <feedback>
+          Try Again! Pay attention to the way in which user input is recieved.
         </feedback>
       </choice>
     </choices>

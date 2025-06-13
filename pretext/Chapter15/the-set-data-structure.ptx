@@ -217,7 +217,7 @@ int Set::add(const string&amp; s) {
           <p>the set grows to accomodate any new elements we add</p>
         </statement>
         <feedback>
-          <p>Correct! This is the "arbitrary size" property.</p>
+          Correct! This is the "arbitrary size" property.
         </feedback>
       </choice>
       <choice>
@@ -225,7 +225,7 @@ int Set::add(const string&amp; s) {
           <p>the set is sorted in an order (ie alphabetically, numerically, e.t.c.)</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is not a requirement of a set.</p>
+          Incorrect! This is not a requirement of a set.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -233,7 +233,7 @@ int Set::add(const string&amp; s) {
           <p>elements of the set have indices, which can be used to identify them</p>
         </statement>
         <feedback>
-          <p>Correct! This is the "ordering" property.</p>
+          Correct! This is the "ordering" property.
         </feedback>
       </choice>
       <choice>
@@ -241,8 +241,8 @@ int Set::add(const string&amp; s) {
           <p>there is a limit on how large a set can be</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is not a requirement of a set... in fact, sets are always expanding
-            with each added element!</p>
+          Incorrect! This is not a requirement of a set... in fact, sets are always expanding
+            with each added element!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -250,7 +250,7 @@ int Set::add(const string&amp; s) {
           <p>there are no repeat elements in the set</p>
         </statement>
         <feedback>
-          <p>Correct! This is the uniqueness property!</p>
+          Correct! This is the uniqueness property!
         </feedback>
       </choice>
     </choices>
@@ -265,7 +265,7 @@ int Set::add(const string&amp; s) {
           <p>numElements is a read-only variable.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -273,8 +273,8 @@ int Set::add(const string&amp; s) {
           <p>The user might pick a value for numElements that is out of range.</p>
         </statement>
         <feedback>
-          <p>Incorrect! While this could happen, it just wouldn't make sense for the uer to interact
-            with numElements at all!</p>
+          Incorrect! While this could happen, it just wouldn't make sense for the uer to interact
+            with numElements at all!
         </feedback>
       </choice>
       <choice>
@@ -282,7 +282,7 @@ int Set::add(const string&amp; s) {
           <p>numElements cannot be modified.</p>
         </statement>
         <feedback>
-          <p>Incorrect! numElements is modified, just not by the user.</p>
+          Incorrect! numElements is modified, just not by the user.
         </feedback>
       </choice>
       <choice>
@@ -290,29 +290,22 @@ int Set::add(const string&amp; s) {
           <p>We should provide a set function, we just haven't implemented it yet!</p>
         </statement>
         <feedback>
-          <p>Incorrect! There is no need for the user to have access to a set function.</p>
+          Incorrect! There is no need for the user to have access to a set function.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question15_7_3">
     <statement>
-      <p>If the number of elements is 76, then the index of the next element is <var/>.</p>
+      <p>If the number of elements is 76, then the index of the next element is <fillin mode="number" case="insensitive" answer="76"/>.</p>
     </statement>
-    <setup>
-      <var>
-        <condition number="76">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Go back and read to find the answer!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <numcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="question15_7_4">
     <statement>
@@ -330,21 +323,14 @@ cities.add("Mackinac");
 cities.add("Mackinaw");
 string element = cities.getElement(4);  cout &lt;&lt; element;</program>
       <p>Type the output exactly as it would appear in the terminal.</p>
-      <var/>
+      <fillin mode="string" case="insensitive" answer="Mackinac"/>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*Mackinac\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*x\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -122,7 +122,7 @@ int main() {
           <p>A named sequence/group of statements that perform a particular task.</p>
         </statement>
         <feedback>
-          <p>Yes, a function is a named sequence of statements.</p>
+          Yes, a function is a named sequence of statements.
         </feedback>
       </choice>
       <choice>
@@ -130,8 +130,8 @@ int main() {
           <p>Any sequence of statements.</p>
         </statement>
         <feedback>
-          <p>While functions contain sequences of statements, not all sequences of statements are
-            considered functions.</p>
+          While functions contain sequences of statements, not all sequences of statements are
+            considered functions.
         </feedback>
       </choice>
       <choice>
@@ -139,10 +139,10 @@ int main() {
           <p>A mathematical expression that calculates a value.</p>
         </statement>
         <feedback>
-          <p>While some functions do calculate values, the python idea of a function is slightly
+          While some functions do calculate values, the python idea of a function is slightly
             different from the mathematical idea of a function in that not all functions calculate
             values. Consider, for example, the turtle functions in this section. They made the
-            turtle draw a specific shape, rather than calculating a value.</p>
+            turtle draw a specific shape, rather than calculating a value.
         </feedback>
       </choice>
       <choice>
@@ -150,8 +150,8 @@ int main() {
           <p>A statement of the form x = 5 + 4.</p>
         </statement>
         <feedback>
-          <p>This statement is called an assignment statement. It assigns the value on the right
-            (9), to the name on the left (x).</p>
+          This statement is called an assignment statement. It assigns the value on the right
+            (9), to the name on the left (x).
         </feedback>
       </choice>
     </choices>
@@ -210,7 +210,7 @@ int main() {
           <p>Once you write and debug a function, you can reuse it.</p>
         </statement>
         <feedback>
-          <p>The reusability of functions is very useful.</p>
+          The reusability of functions is very useful.
         </feedback>
       </choice>
       <choice>
@@ -218,7 +218,7 @@ int main() {
           <p>Makes your program easier to read and debug.</p>
         </statement>
         <feedback>
-          <p>By abstracting blocks of code, functions make your code easier to read and understand.</p>
+          By abstracting blocks of code, functions make your code easier to read and understand.
         </feedback>
       </choice>
       <choice>
@@ -226,7 +226,7 @@ int main() {
           <p>Functions facilitate both recursion and iteration.</p>
         </statement>
         <feedback>
-          <p>Recursive functions and iterative functions are useful.</p>
+          Recursive functions and iterative functions are useful.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -234,7 +234,7 @@ int main() {
           <p>None of the above.</p>
         </statement>
         <feedback>
-          <p>All of the choices above are reasons for why functions are useful.</p>
+          All of the choices above are reasons for why functions are useful.
         </feedback>
       </choice>
     </choices>

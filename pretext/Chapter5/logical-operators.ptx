@@ -27,7 +27,7 @@
           <p><![CDATA[if (x > 0 && x < 10) {...]]></p>
         </statement>
         <feedback>
-          <p>This is exactly what the nested conditionals are saying.</p>
+          This is exactly what the nested conditionals are saying.
         </feedback>
       </choice>
       <choice>
@@ -35,7 +35,7 @@
           <p><![CDATA[if (x > 0 || x < 10) {...]]></p>
         </statement>
         <feedback>
-          <p>|| represents "or", but we need both sides of the conditional to be true.</p>
+          || represents "or", but we need both sides of the conditional to be true.
         </feedback>
       </choice>
       <choice>
@@ -43,7 +43,7 @@
           <p><![CDATA[if (x > 0 ! x < 10) {...]]></p>
         </statement>
         <feedback>
-          <p>The ! operator cannot be used to compare two sides of a conditional.</p>
+          The ! operator cannot be used to compare two sides of a conditional.
         </feedback>
       </choice>
       <choice>
@@ -51,7 +51,7 @@
           <p><![CDATA[if ( !(x < 0) && !(x > 10) ) {...]]></p>
         </statement>
         <feedback>
-          <p>If x = 0 or if x = 10, this expression will return true when it shouldn't.</p>
+          If x = 0 or if x = 10, this expression will return true when it shouldn't.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -59,7 +59,7 @@
           <p><![CDATA[if ( !(x <= 0) && !(x >= 10) ) {...]]></p>
         </statement>
         <feedback>
-          <p>If it IS NOT what we don't want, then it IS what we want!</p>
+          If it IS NOT what we don't want, then it IS what we want!
         </feedback>
       </choice>
     </choices>
@@ -70,7 +70,7 @@
         use, given n = 7.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -101,28 +101,20 @@
   </exercise>
   <exercise label="logical_op_3">
     <statement>
-      <dl>
-        <li>
-          <title>Add a single logical operator to make the expression check if x is greater than or
-            equal to 50</title>
-          <p><var/> ( x &lt; 50 ) </p>
-        </li>
-      </dl>
+      <p>Add a single logical operator to make the expression check if x is greater than or
+        equal to 50</p>
+      <p><fillin mode="string" case="insensitive" answer="[!]"/> <c>( x &lt; 50 )</c></p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*[!]\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
           <feedback>
-            <p>If the expression checks for the opposite of what you want then just <c>!</c> the
-              result</p>
+            If the expression checks for the opposite of what you want then just <c>!</c> the
+              result
           </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

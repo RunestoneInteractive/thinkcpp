@@ -32,8 +32,8 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>Because we only need the half of the dataset contained by the triangle.</p>
         </statement>
         <feedback>
-          <p>Incorrect! All of the data above the 0 diagonal is a mirror image of the triangle! So,
-            the triangle contains the whole dataset.</p>
+          Incorrect! All of the data above the 0 diagonal is a mirror image of the triangle! So,
+            the triangle contains the whole dataset.
         </feedback>
       </choice>
       <choice>
@@ -41,8 +41,8 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>Because triangles are the most effective shape to use when presenting data to others.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Triangles do look cool, but they aren't necessarily the most effective shape
-            to use when presenting data.</p>
+          Incorrect! Triangles do look cool, but they aren't necessarily the most effective shape
+            to use when presenting data.
         </feedback>
       </choice>
       <choice>
@@ -50,7 +50,7 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>Because matrices are triangles.</p>
         </statement>
         <feedback>
-          <p>Incorrect! This triangle is PART OF an apmatrix.</p>
+          Incorrect! This triangle is PART OF an apmatrix.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -58,8 +58,8 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>Because the triangle contains the entire dataset.</p>
         </statement>
         <feedback>
-          <p>Correct! The triangle contains all data points with no repeat data. If we included all
-            datapoints, the would just be repeats of the points we already have.</p>
+          Correct! The triangle contains all data points with no repeat data. If we included all
+            datapoints, the would just be repeats of the points we already have.
         </feedback>
       </choice>
     </choices>
@@ -74,7 +74,7 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>a geometric shape</p>
         </statement>
         <feedback>
-          <p>Incorrect! A matrix is not a geometric shape, although they ARE rectangles.</p>
+          Incorrect! A matrix is not a geometric shape, although they ARE rectangles.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -82,7 +82,7 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>a two-dimensional vector</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -90,7 +90,7 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>a material in which something develops</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is a definition for matrix, but not in the programming sense.</p>
+          Incorrect! This is a definition for matrix, but not in the programming sense.
         </feedback>
       </choice>
       <choice>
@@ -98,7 +98,7 @@ Seattle 2650    2000    3000    2150    1350    2300    3100    1450    0
           <p>a mold used to shape things</p>
         </statement>
         <feedback>
-          <p>Incorrect! This is a definition for matrix, but not in the programming sense.</p>
+          Incorrect! This is a definition for matrix, but not in the programming sense.
         </feedback>
       </choice>
     </choices>

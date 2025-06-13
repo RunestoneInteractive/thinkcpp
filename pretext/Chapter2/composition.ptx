@@ -93,7 +93,7 @@ int main() {
           <p>Change line 5 to pets = dogs + cats;</p>
         </statement>
         <feedback>
-          <p>Assignment statements operate such that the evaluated expression on the right is assigned to the variable on the left.</p>
+          Assignment statements operate such that the evaluated expression on the right is assigned to the variable on the left.
         </feedback>
       </choice>
       <choice>
@@ -101,7 +101,7 @@ int main() {
           <p>Change line 5 to int pets = dogs + cats;</p>
         </statement>
         <feedback>
-          <p>pets has already been declared as an int.</p>
+          pets has already been declared as an int.
         </feedback>
       </choice>
       <choice>
@@ -109,7 +109,7 @@ int main() {
           <p>Change line 5 to pets == dogs + cats;</p>
         </statement>
         <feedback>
-          <p>The == operator checks if the left side EQUALS the right side.  It is not the correct operator here.</p>
+          The == operator checks if the left side EQUALS the right side.  It is not the correct operator here.
         </feedback>
       </choice>
       <choice>
@@ -117,7 +117,7 @@ int main() {
           <p>Change line 5 to int pets == dogs + cats;</p>
         </statement>
         <feedback>
-          <p>pets has already been declared as an int.  Also, the == operator is not the proper choice here.</p>
+          pets has already been declared as an int.  Also, the == operator is not the proper choice here.
         </feedback>
       </choice>
       <choice>
@@ -125,48 +125,34 @@ int main() {
           <p>No change, the code runs fine as is.</p>
         </statement>
         <feedback>
-          <p>Assignment statements assign the value on the right to the variable on the left.</p>
+          Assignment statements assign the value on the right to the variable on the left.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="compos_2">
     <statement>
-      <p>The left-hand side of an assignment statement has to be a <var/> name, not an expression.  </p>
+      <p>The left-hand side of an assignment statement has to be a <fillin mode="string" case="insensitive" answer="variable"/> name, not an expression.  </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*variable\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="compos_3">
     <statement>
-      <p>In programming, another word for <term>combine</term> is <var/>.  </p>
+      <p>In programming, another word for <term>combine</term> is <fillin mode="string" case="insensitive" answer="(compose)|(composition)"/>.  </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(compose)|(composition)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="compos_4">
     <statement>

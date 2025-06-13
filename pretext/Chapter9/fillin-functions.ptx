@@ -99,7 +99,7 @@ void addTimeFill(const Time&amp; t1, const Time&amp; t2, Time&amp; sum) {
           <p>Time&amp; t1</p>
         </statement>
         <feedback>
-          <p>Try again.</p>
+          Try again.
         </feedback>
       </choice>
       <choice>
@@ -107,7 +107,7 @@ void addTimeFill(const Time&amp; t1, const Time&amp; t2, Time&amp; sum) {
           <p>Time&amp; t2</p>
         </statement>
         <feedback>
-          <p>Try again.</p>
+          Try again.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -115,7 +115,7 @@ void addTimeFill(const Time&amp; t1, const Time&amp; t2, Time&amp; sum) {
           <p>Time&amp; sum</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>

@@ -139,7 +139,7 @@ void Card::print() const {
           <p>True</p>
         </statement>
         <feedback>
-          <p>Incorrect! Data encapsulation should hide implementation details.</p>
+          Incorrect! Data encapsulation should hide implementation details.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -147,30 +147,23 @@ void Card::print() const {
           <p>False</p>
         </statement>
         <feedback>
-          <p>Correct! Data encapsulation prevents unrestricted access to internal representations.</p>
+          Correct! Data encapsulation prevents unrestricted access to internal representations.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question14_1_2">
     <statement>
-      <p>What type of data member cannot be directly accessed outside of the structure? <var/>
+      <p>What type of data member cannot be directly accessed outside of the structure? <fillin mode="string" case="insensitive" answer="private.*"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(Pp)rivate||((Pp)rivate\s+(Dd)ata\s+(Mm)ember)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again.</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="question14_1_3">
     <statement>
@@ -182,7 +175,7 @@ void Card::print() const {
           <p>getSuit</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -190,7 +183,7 @@ void Card::print() const {
           <p>setRank</p>
         </statement>
         <feedback>
-          <p>Correct! "Setter" functions are also known as "mutator" functions.</p>
+          Correct! "Setter" functions are also known as "mutator" functions.
         </feedback>
       </choice>
       <choice>
@@ -198,7 +191,7 @@ void Card::print() const {
           <p>print</p>
         </statement>
         <feedback>
-          <p>Incorrect!</p>
+          Incorrect!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -206,7 +199,7 @@ void Card::print() const {
           <p>getRank</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
     </choices>

@@ -118,8 +118,8 @@ int main() {
           <p><c>getline</c> only takes the first word of input while <c>cin</c> reads the entire line until
             the user hits Return or Enter.</p>
         </statement>
-        <feedback id="getting_user_input_1_opt_a">
-          <p>Try again!</p>
+        <feedback>
+          Try again!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -127,8 +127,8 @@ int main() {
           <p><c>cin</c> only takes the first word of input while <c>getline</c> reads the entire line until
             the user hits Return or Enter.</p>
         </statement>
-        <feedback id="getting_user_input_1_opt_b">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -136,8 +136,8 @@ int main() {
           <p><c>cin</c> only takes the first two words of input while <c>getline</c> reads the entire line
             until there is a space.</p>
         </statement>
-        <feedback id="getting_user_input_1_opt_c">
-          <p>Try again!</p>
+        <feedback>
+          Try again!
         </feedback>
       </choice>
     </choices>
@@ -163,8 +163,8 @@ int main() {
             <c>John</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_2_opt_a">
-          <p>Try again! Pay attention to the data type of name.</p>
+        <feedback>
+          Try again! Pay attention to the data type of name.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -173,8 +173,8 @@ int main() {
             <c>J</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_2_opt_b">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -183,8 +183,8 @@ int main() {
             <c>John Doe</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_2_opt_c">
-          <p>Try again! Pay attention to the manner of getting user input.</p>
+        <feedback>
+          Try again! Pay attention to the manner of getting user input.
         </feedback>
       </choice>
     </choices>
@@ -210,8 +210,8 @@ int main() {
             <c>John</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_3_opt_a">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -220,8 +220,8 @@ int main() {
             <c>J</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_3_opt_b">
-          <p>Try again! Pay attention to the data type of name.</p>
+        <feedback>
+          Try again! Pay attention to the data type of name.
         </feedback>
       </choice>
       <choice>
@@ -230,8 +230,8 @@ int main() {
             <c>John Doe</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_3_opt_c">
-          <p>Try again! Pay attention to the manner of getting user input.</p>
+        <feedback>
+          Try again! Pay attention to the manner of getting user input.
         </feedback>
       </choice>
     </choices>
@@ -257,8 +257,8 @@ int main() {
             <c>John</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_4_opt_a">
-          <p>Try again! Pay attention to the manner of getting user input.</p>
+        <feedback>
+          Try again! Pay attention to the manner of getting user input.
         </feedback>
       </choice>
       <choice>
@@ -267,8 +267,8 @@ int main() {
             <c>J</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_4_opt_b">
-          <p>Try again! Pay attention to the manner of getting user input.</p>
+        <feedback>
+          Try again! Pay attention to the manner of getting user input.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -277,8 +277,8 @@ int main() {
             <c>John Doe</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_4_opt_c">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
     </choices>
@@ -308,8 +308,8 @@ int main() {
             <c>John Doe lives at 530 S State St.</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_5_opt_a">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -318,8 +318,8 @@ int main() {
             <c>J D lives at 530 S State St.</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_5_opt_b">
-          <p>Try again! Pay attention to the manner of getting user input.</p>
+        <feedback>
+          Try again! Pay attention to the manner of getting user input.
         </feedback>
       </choice>
       <choice>
@@ -328,8 +328,8 @@ int main() {
             <c>John Doe lives at 530</c>
           </p>
         </statement>
-        <feedback id="getting_user_input_5_opt_c">
-          <p>Try again! Pay attention to the manner of getting user input.</p>
+        <feedback>
+          Try again! Pay attention to the manner of getting user input.
         </feedback>
       </choice>
     </choices>

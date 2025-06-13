@@ -54,7 +54,7 @@ for (int i = 0; i &lt; upperBound; i++) {
           <p>inside of the for loop.</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -62,7 +62,7 @@ for (int i = 0; i &lt; upperBound; i++) {
           <p>outside of the for loop, but inside of the function it's used in.</p>
         </statement>
         <feedback>
-          <p>Incorrect! The variable goes out of scope as soon as the for loop terminates!</p>
+          Incorrect! The variable goes out of scope as soon as the for loop terminates!
         </feedback>
       </choice>
       <choice>
@@ -70,7 +70,7 @@ for (int i = 0; i &lt; upperBound; i++) {
           <p>outside of the function, and everywhere else in the program.</p>
         </statement>
         <feedback>
-          <p>Incorrect! The variable goes out of scope as soon as the for loop terminates!</p>
+          Incorrect! The variable goes out of scope as soon as the for loop terminates!
         </feedback>
       </choice>
     </choices>
@@ -86,7 +86,7 @@ for (int i = 0; i &lt; upperBound; i++) {
           <p>the difference between actual and expected number of appearances increases</p>
         </statement>
         <feedback>
-          <p>Correct! The numbers go from being off by less than 5 to more than 100.</p>
+          Correct! The numbers go from being off by less than 5 to more than 100.
         </feedback>
       </choice>
       <choice>
@@ -94,7 +94,7 @@ for (int i = 0; i &lt; upperBound; i++) {
           <p>the difference between actual and expected number of appearances decreases</p>
         </statement>
         <feedback>
-          <p>Incorrect! Take a look at the numbers again!</p>
+          Incorrect! Take a look at the numbers again!
         </feedback>
       </choice>
       <choice>
@@ -103,7 +103,7 @@ for (int i = 0; i &lt; upperBound; i++) {
             increases</p>
         </statement>
         <feedback>
-          <p>Incorrect! Take a look at the numbers again!</p>
+          Incorrect! Take a look at the numbers again!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -112,8 +112,8 @@ for (int i = 0; i &lt; upperBound; i++) {
             decreases</p>
         </statement>
         <feedback>
-          <p>Incorrect! As we continue to increase the size of numValues, the percent by which the
-            number of appearances differes from the expected value approaches 0.</p>
+          Incorrect! As we continue to increase the size of numValues, the percent by which the
+            number of appearances differes from the expected value approaches 0.
         </feedback>
       </choice>
     </choices>

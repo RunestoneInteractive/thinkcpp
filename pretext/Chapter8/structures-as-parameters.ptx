@@ -98,8 +98,8 @@ int main() {
             <c>(-2, -7)</c>
           </p>
         </statement>
-        <feedback id="structures_parameters_1_opt_a">
-          <p>Take a close look at the printOppositeCoordinate function.</p>
+        <feedback>
+          Take a close look at the printOppositeCoordinate function.
         </feedback>
       </choice>
       <choice>
@@ -108,8 +108,8 @@ int main() {
             <c>(2.0, 7.0)</c>
           </p>
         </statement>
-        <feedback id="structures_parameters_1_opt_b">
-          <p>Take a close look at the printOppositeCoordinate function.</p>
+        <feedback>
+          Take a close look at the printOppositeCoordinate function.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -118,8 +118,8 @@ int main() {
             <c>(-7, -2)</c>
           </p>
         </statement>
-        <feedback id="structures_parameters_1_opt_c">
-          <p>Yes, this is the correct output.</p>
+        <feedback>
+          Yes, this is the correct output.
         </feedback>
       </choice>
       <choice>
@@ -128,8 +128,8 @@ int main() {
             <c>(-7.0, -2.0)</c>
           </p>
         </statement>
-        <feedback id="structures_parameters_1_opt_d">
-          <p>Take a close look at the Coordinate struct.</p>
+        <feedback>
+          Take a close look at the Coordinate struct.
         </feedback>
       </choice>
     </choices>

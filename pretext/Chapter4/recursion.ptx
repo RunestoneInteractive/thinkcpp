@@ -162,7 +162,7 @@ int main() {
           <p>!</p>
         </statement>
         <feedback>
-          <p>The function keeps executing while n is greater than 0.</p>
+          The function keeps executing while n is greater than 0.
         </feedback>
       </choice>
       <choice>
@@ -170,7 +170,7 @@ int main() {
           <p>!!</p>
         </statement>
         <feedback>
-          <p>The function keeps executing while n is greater than 0.</p>
+          The function keeps executing while n is greater than 0.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -178,9 +178,9 @@ int main() {
           <p>!!!</p>
         </statement>
         <feedback>
-          <p>Correct! First, the program enters the if statement within exclamationPoint because n
+          Correct! First, the program enters the if statement within exclamationPoint because n
             is greater than 0. Then the function prints a "!" and calls itself again, but with n-1,
-            which is 2. This repeats until n is 0, which is when the program exits the function.</p>
+            which is 2. This repeats until n is 0, which is when the program exits the function.
         </feedback>
       </choice>
       <choice>
@@ -188,8 +188,8 @@ int main() {
           <p>!!!!</p>
         </statement>
         <feedback>
-          <p>The function keeps executing while n is greater than 0. Therefore, when n is 0, it will
-            not print a "!"</p>
+          The function keeps executing while n is greater than 0. Therefore, when n is 0, it will
+            not print a "!"
         </feedback>
       </choice>
     </choices>
@@ -217,7 +217,7 @@ int main() {
           <p>!!</p>
         </statement>
         <feedback>
-          <p>If we start at zero, will the function ever call itself?</p>
+          If we start at zero, will the function ever call itself?
         </feedback>
       </choice>
       <choice>
@@ -225,7 +225,7 @@ int main() {
           <p>!</p>
         </statement>
         <feedback>
-          <p>If we start at zero, will the function ever call itself?</p>
+          If we start at zero, will the function ever call itself?
         </feedback>
       </choice>
       <choice>
@@ -233,8 +233,8 @@ int main() {
           <p>0</p>
         </statement>
         <feedback>
-          <p>The only output statement in this program prints a "!", therefore "0" would never
-            print.</p>
+          The only output statement in this program prints a "!", therefore "0" would never
+            print.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -242,29 +242,31 @@ int main() {
           <p>Nothing prints.</p>
         </statement>
         <feedback>
-          <p>Correct! The program never enters the "if" statement within the function because n is
-            never greater than 0.</p>
+          Correct! The program never enters the "if" statement within the function because n is
+            never greater than 0.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="recursion_3">
     <statement>
-      <p>A function that calls itself is said to be <var/>.</p>
+      <p>A function that calls itself is said to be <fillin mode="string" case="insensitive" answer="recursive"/>.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*recursive\s*$">
-          <feedback>
-            <p>And the process by which a function calls itself is called recursion.</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+            <feedback>
+              And the process by which a function calls itself is called recursion.
+            </feedback>
+          </test>
+          <test>
+            <strcmp>recusion</strcmp>
+            <feedback>
+              That is the process by which a function calls itself. What is used to describe the function itself?
+            </feedback>
+          </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

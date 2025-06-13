@@ -77,22 +77,15 @@ int minute = "59";         // WRONG!
 </program>
   <exercise label="assignment_1">
     <statement>
-      <p>A(n) <var/> statement gives a value to a variable. </p>
+      <p>A(n) <fillin mode="string" case="insensitive" answer="assignment"/> statement gives a value to a variable. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*assignment\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="assignment_2">
     <statement>
@@ -114,7 +107,7 @@ int main() {
           <p>Change the type of variable q from int to string.</p>
         </statement>
         <feedback>
-          <p>Yes, but take a look at variable p.</p>
+          Yes, but take a look at variable p.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -122,8 +115,8 @@ int main() {
           <p>Change the type of both variables (p and q) from int to string.</p>
         </statement>
         <feedback>
-          <p>Both variables are a character surrounded by double quotes, so they should be type
-            string.</p>
+          Both variables are a character surrounded by double quotes, so they should be type
+            string.
         </feedback>
       </choice>
       <choice>
@@ -131,7 +124,7 @@ int main() {
           <p>Change the type of variable p from int to char.</p>
         </statement>
         <feedback>
-          <p>Yes, but take a look at variable q.</p>
+          Yes, but take a look at variable q.
         </feedback>
       </choice>
       <choice>
@@ -139,7 +132,7 @@ int main() {
           <p>Nothing needs to change! The code will work just fine!</p>
         </statement>
         <feedback>
-          <p>No! There will be a compile error.</p>
+          No! There will be a compile error.
         </feedback>
       </choice>
     </choices>
