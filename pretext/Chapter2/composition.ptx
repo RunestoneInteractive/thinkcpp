@@ -9,9 +9,9 @@
             we know how to multiply integers and we know how to output values; it
             turns out we can do both at the same time:</p>
   <listing label="composition_AC_1">
-    <caption>
+    <title>
       This program performs multiplication and prints the result.
-    </caption>
+    </title>
     <program xml:id="composition_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -28,9 +28,9 @@ int main() {
             any expression, involving numbers, characters, and variables, can be
             used inside an output statement. We've already seen one example:</p>
   <listing label="composition_AC_2">
-    <caption>
+    <title>
       This program performs a calculation involving variables and prints the result at the same time.
-    </caption>
+    </title>
     <program xml:id="composition_AC_2_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -47,9 +47,9 @@ int main() {
   <p>You can also put arbitrary expressions on the right-hand side of an
             assignment statement:</p>
   <listing label="composition_AC_3">
-    <caption>
+    <title>
       This program performs a calculation involving variables and assigns the result to a variable.
-    </caption>
+    </title>
     <program xml:id="composition_AC_3_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>

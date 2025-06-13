@@ -26,10 +26,14 @@ minute = 59;         // set minute to 59
     diagram</term> because is shows what state each of the variables is in (you can think of it as
     the variable's <q>state of mind</q>). This diagram shows the effect of the three assignment
     statements:</p>
-  <figure align="center">
-    <image source="Chapter2/Images/2.4statediagram.png"
-           width="50%"
-           alt="Three boxes. One labeled firstLetter containing 'a'. One labeled hour containing 11. One labeled minute containing 59."/>
+  <figure>
+      <caption>State diagram for variables</caption>
+      <image source="Chapter2/Images/2.4statediagram.png" width="50%">
+          <description><p>
+              Three boxes. One labeled firstLetter containing 'a'. One labeled
+              hour containing 11. One labeled minute containing 59.
+          </p></description>
+      </image>
   </figure>
   <p>I sometimes use different shapes to indicate different variable types.
     These shapes should help remind you that one of the rules in C++ is that

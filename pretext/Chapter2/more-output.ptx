@@ -5,9 +5,9 @@
     example, to output more than one line:</p>
 
   <listing label="more_output_AC_1">
-    <caption>
+    <title>
       This program prints two different statements on two different lines using <c>endl</c>.
-    </caption>
+    </title>
     <program label="more_output_AC_1_editor"
              interactive="activecode"
              line-numbers="yes"
@@ -36,9 +36,9 @@ int main() {
   <p>Often it is useful to display the output from multiple output statements all on one line. You
     can do this by leaving out the first <c>endl</c>:</p>
   <listing label="more_output_AC_2">
-    <caption>
+    <title>
       This program prints two different statements on the same line.
-    </caption>
+    </title>
     <program xml:id="more_output_AC_2_editor"
              interactive="activecode"
              line-numbers="yes"
@@ -61,11 +61,11 @@ world!</c>. Notice in <c>main</c> that there is a
   <p>Spaces that appear outside of quotation marks generally do not affect
     the behavior of the program. For example, I could have written:</p>
   <listing label="more_output_AC_3">
-    <caption>
+    <title>
       This program accomplishes the same thing as the one above. The
         difference is that there are no spaces separating the different
         components of each line.
-    </caption>
+    </title>
     <program xml:id="more_output_AC_3_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -84,11 +84,11 @@ int main() {
     breaks at the ends of lines (newlines) do not affect the program's
     behavior either, so I could have written:</p>
   <listing label="more_output_AC_4">
-    <caption>
+    <title>
       This program accomplishes the same thing as the two above, but
         it only uses one line. However, this format is pretty messy and relatively
         hard to follow.
-    </caption>
+    </title>
     <program xml:id="more_output_AC_4_editor"
              interactive="activecode"
              line-numbers="yes">

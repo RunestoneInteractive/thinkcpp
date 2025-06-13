@@ -14,10 +14,10 @@ The current time is 11:59
     Run the code. After observing the output, try modifying the assignment statements to make a
     different time!</p>
   <listing label="output_vars_AC_1">
-    <caption>
+    <title>
       This program outputs the current time, according to the values you
         provide for hour and minute.
-    </caption>
+    </title>
     <program xml:id="output_vars_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -51,10 +51,10 @@ int main() {
   <p>As we have seen before, you can include more than one value in a single
     output statement, which can make the previous program more concise:</p>
   <listing label="output_vars_AC_2">
-    <caption>
+    <title>
       This program does the same thing as the previous, but the print
         statements have been condensed to one line. This is better style.
-    </caption>
+    </title>
     <program xml:id="output_vars_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
