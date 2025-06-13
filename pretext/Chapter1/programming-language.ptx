@@ -20,9 +20,17 @@
   <p>There are two ways to translate a program; interpreting or compiling. An <term>interpreter</term>
     is a program that reads a high-level program and does what it says. In effect, it translates the
     program line-by-line, alternately reading lines and carrying out commands.</p>
-  <figure align="center">
-    <image source="Chapter1/Images/chapter1image1.png"
-           alt="A flow chart that demonstrates source code passing to an interpreter and the result of running that code being displayed."/>
+    <figure>
+        <caption>Using an Interpreter</caption>
+        <image source="Chapter1/Images/chapter1image1.png">
+            <description>
+                <p>
+                    A flow chart that demonstrates source code passing to
+                    an interpreter and the result of running that code being
+                    displayed.
+                </p>
+            </description>
+        </image>
   </figure>
   <p>A <term>compiler</term> is a program that reads a high-level program and translates it all at
     once, before executing any of the commands. Often you compile the program as a separate step,
@@ -37,9 +45,16 @@
     leave the text editor and run the compiler. The compiler would read your
     source code, translate it, and create a new file named program.o to
     contain the object code, or program.exe to contain the executable.</p>
-  <figure align="center">
-    <image source="Chapter1/Images/chapter1image2.png"
-           alt="A flow chart that demonstrates source code passing to a compiler and emerging as compiled object, or machine, code. That code can then be executed to see the result of running the code."/>
+    <figure>
+        <caption>Compilation process</caption>
+        <image source="Chapter1/Images/chapter1image2.png">
+            <description><p>
+                A flow chart that demonstrates source code passing to a
+                compiler and emerging as compiled object, or machine, code.
+                That code can then be executed to see the result of running
+                the code.
+            </p></description>
+        </image>
   </figure>
   <p>The next step is to run the program, which requires some kind of
     executor. The role of the executor is to load the program (copy it from
