@@ -7,7 +7,6 @@
     <statement>
       <p>Fix the errors in the code below so that it prints the area of a circle with radius
         5. Use cmath functions to get an accurate value for pi.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="functions_a1q_editor">
@@ -32,7 +31,7 @@ int main() {
     cout << "    The correct solution has area = 176.715";
 }
         ]]></code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to fix the program. C++ doesn't use the ^ operator for exponents. We
         can get the square of r by multiplying it by itself. We call the function with an
@@ -51,7 +50,6 @@ void printArea(double r) {
   <exercise label="functions_a2">
     <statement>
       <p>Fix the code below so that it prints <q>2 elephants</q>.</p>
-    </statement>
     <program xml:id="functions_a2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -68,7 +66,8 @@ int main() {
     printAnimals(2, "elephants");
 }
         ]]></code>
-        </program>
+        </program></statement>
+
     <hint>
       <p>Fix the code below so that it prints <q>2 elephants</q>. Use the lines to construct the
         code, then go back to complete the Activecode.</p>
@@ -117,7 +116,6 @@ int main() {
   <exercise label="functions_a3">
     <statement>
       <p>Fix the code below so that it prints <c>12 / 8 = 1.5.</c></p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="functions_a3q_editor">
@@ -138,7 +136,8 @@ int main() {
     divide (b, a);
 }
         ]]></code>
-    </program>
+    </program></statement>
+
     <solution>
       <p>Below is one way to fix the program. It's crucial that you input your arguments in
         the correct order so as to avoid a semantic error. Also, it's important that you
@@ -168,7 +167,6 @@ int main() {
       <p>Finish the code below so that it calculates the common log of <c>a</c> minus the <em>
           natural</em> log of <c>a</c> and prints the difference. You will need to use cmath
         functions.</p>
-    </statement>
     <program xml:id="functions_a4_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -194,6 +192,7 @@ int main() {
 }
     ]]></code>
     </program>
+    </statement>
     <hint>
       <p>Finish the code below so that it calculates the common log of <c>a</c> minus the <em>
           natural</em> log of <c>a</c> and prints the difference. You will need to use cmath
@@ -238,7 +237,6 @@ int main() {
     <statement>
       <p>Finish the code below so that it prints <q>First Line</q>, a border, and <q>Second
           Line.</q> on three separate lines.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="functions_a5q_editor">
@@ -256,6 +254,7 @@ int main() {
 }
         ]]></code>
     </program>
+    </statement>
     <solution>
 
 
@@ -285,7 +284,6 @@ int main() {
       <p>Write a function called <c>intDivision</c> that takes two doubles as parameters and prints the
         quotient of the <term>integer division</term> of the first number divided by the second. Be
         sure to include any necessary headers.</p>
-    </statement>
     <program xml:id="functions_a6_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -302,7 +300,8 @@ int main() {
 cout << "Testing with a = 2.4, b = 6.8..." << endl; cout << "    Your solution has a quotient of "; intDivision(2.4, 6.8); cout << endl; cout << "    The correct solution has a quotient of 0" << endl; cout << "Testing with a = -8.6, b = 4.2..." << endl; cout << "    Your solution has a quotient of "; intDivision(-8.6, 4.2); cout << endl; cout << "    The correct solution has a quotient of -2";
 }
     ]]></code>
-    </program>
+    </program>    </statement>
+
     <hint>
       <p>Write a function called <c>intDivision</c> that takes two doubles as parameters and prints the
         quotient of the <term>integer division</term> of the first number divided by the second. Use
@@ -352,7 +351,6 @@ cout << "Testing with a = 2.4, b = 6.8..." << endl; cout << "    Your solution h
       <p>Write a function called gpaBoost that prints your GPA rounded up to the nearest
         point. If your GPA is already at the nearest point, there is no rounding. Be sure to
         include any necessary headers.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="functions_a7q_editor">
@@ -375,6 +373,7 @@ int main() {
 }
         ]]></code>
     </program>
+    </statement>
     <solution>
 
 
@@ -402,7 +401,6 @@ void gpaBoost(double GPA) {
       <p>Write a function called <c>volumePrism</c> that takes three <c>double</c> sidelengths as parameters, and
         calculates and prints the volume of a the rectangular prism. Be sure to include any
         necessary headers.</p>
-    </statement>
     <program xml:id="functions_a8_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -425,6 +423,7 @@ int main() {
 }
     ]]></code>
     </program>
+    </statement>
     <hint>
       <p>Write a function called <c>volumePrism</c> that takes three <c>double</c> sidelengths as parameters, and
         calculates and prints the volume of a the rectangular prism. Use the lines to construct the
@@ -468,7 +467,6 @@ int main() {
     <statement>
       <p>Write a function called <c>tanD</c> that prints the tangent of an angle given as a <c>double</c> in
         degrees. Use 3.14 for pi. Be sure to include any necessary headers.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="functions_a9q_editor">
@@ -491,6 +489,7 @@ int main() {
 }
         ]]></code>
     </program>
+    </statement>
     <solution>
       <p>Below is one way to complete the program. You need to make sure to convert your angle
         to radians before doing any calculations with sinusoidal functions.</p>
@@ -514,7 +513,6 @@ void tanDegrees(double degrees) {
       <p>Write a function called <c>volumeSphere</c> that takes a <c>double</c> radius as a parameter, and calculates
         and prints the volume of a sphere with that radius. Use 3.14 for <c>pi</c>. Be sure to include
         any necessary headers.</p>
-    </statement>
     <program xml:id="functions_a10_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -537,6 +535,7 @@ int main() {
 }
     ]]></code>
     </program>
+    </statement>
     <hint>
       <p>Write a function called <c>volumeSphere</c> that takes a <c>double</c> radius as a parameter, and calculates
         and prints the volume of a sphere with that radius. Use 3.14 for <c>pi</c>. Use the lines to

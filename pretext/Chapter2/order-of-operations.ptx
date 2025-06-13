@@ -25,10 +25,10 @@
     </ul>
   </p>
   <listing label="order_of_operations_AC_1">
-    <caption>
+    <title>
       Observe the output of the code to see how the placement of parentheses can change the
         result of a calculation.
-    </caption>
+    </title>
     <program xml:id="order_of_operations_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

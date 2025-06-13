@@ -5,11 +5,11 @@
     there is no such thing as <c>phil</c>. If you try to use it, the compiler will complain. Similarly,
     inside <c>printTwice</c> there is no such thing as argument.</p>
   <listing xml:id="locals_AC_1" label="locals_AC_1">
-    <caption>
+    <title>
       The following code will show the output of the printTwice function.
         Notice that it is the argument &#x2018;b' that is outputted, not the
         variable &#x2018;phil'.
-    </caption>
+    </title>
     <program xml:id="locals_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -34,10 +34,14 @@ int main() {
       diagram</term>. Like state diagrams, stack diagrams show the value of each variable, but the
     variables are contained in larger boxes that indicate which function they belong to.</p>
   <p>For example, the state diagram for <c>printTwice</c> looks like this:</p>
-  <figure align="center">
-    <image source="Chapter3/Images/3.9stackdiagram.png"
-           width="50%"
-           alt="Two boxes. One labeled main that contains a variable named 'argument' which is 'b'. The other labeled printTwice that contains a variable named 'phil' which is 'b'."/>
+  <figure>
+      <image source="Chapter3/Images/3.9stackdiagram.png">
+          <description><p>
+              Two boxes. One labeled main that contains a variable named 'argument'
+              which is 'b'. The other labeled printTwice that contains a variable named
+              'phil' which is 'b'.
+          </p></description>
+      </image>
   </figure>
   <p>Whenever a function is called, it creates a new <term>instance</term> of that function. Each
     instance of a function contains the parameters and local variables for that function. In the

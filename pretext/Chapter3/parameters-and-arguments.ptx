@@ -52,10 +52,10 @@
     For now you should learn the general rule, and we will deal with
     exceptions later.</p>
   <listing label="params_args_AC_1">
-    <caption>
+    <title>
       The following code will show the output of the printTwice function.
         Try modifying the value of argument to change the output.
-    </caption>
+    </title>
     <program xml:id="params_args_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -79,7 +79,6 @@ int main() {
     <statement>
       <p>What will be printed to the terminal? If nothing will print, or if the compiler will
         throw an error, type <q>error</q>.</p>
-      <p>
         <program>
           #include &lt;iostream&gt;
           using namespace std;
@@ -94,7 +93,6 @@ int main() {
             return 0;
           }
         </program>
-      </p>
       <p>
         <fillin mode="string" case="insensitive" answer="error"/>
       </p>

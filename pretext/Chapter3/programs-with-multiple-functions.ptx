@@ -25,7 +25,6 @@
     <statement>
       <p>This program calls the multiplyTwo and addTwo functions in the
         main. Follow the order of execution using the Codelens.</p>
-    </statement>
     <program label="multiple_functions_AC_1_editor"
              interactive="codelens"
              line-numbers="yes">
@@ -57,6 +56,7 @@ int main() {
 }
         ]]></code>
     </program>
+    </statement>
   </activity>
   <p>What's the moral of this sordid tale? When you read a program, don't read from top to bottom.
     Instead, <term>follow the flow of execution</term>.</p>

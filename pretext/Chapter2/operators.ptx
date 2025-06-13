@@ -19,11 +19,11 @@
     might be surprised by division. For example, compile the following program around
     observe the output.</p>
   <listing label="operators_AC_1">
-    <caption>
+    <title>
       This program is supposed to print the fraction of the hour that has
         passed since midnight. You'll notice that the result isn't quite what
         you expect. Read on to find out why!
-    </caption>
+    </title>
     <program xml:id="operators_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

@@ -3,9 +3,9 @@
   <title>Mixed-Up Code Exercises</title>
   <p>Answer the following <term>Mixed-Up Code</term> questions to assess what you have learned in this chapter.</p>
   <listing label="VARS_p1" numbered="yes" adaptive="yes" indentation="show">
-    <caption>
+    <title>
       Construct a block of code that prints: <q>Lions &amp;</q> one the first line, <q>Tigers &amp; Bears!</q> on the second line, and <q>Oh my!</q> on the FOURTH line.
-    </caption>
+    </title>
     <blocks>
       <block order="3">
         <cline>int main() {</cline>
@@ -46,9 +46,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p2" numbered="yes" adaptive="yes" indentation="show">
-    <caption>
+    <title>
       Construct a block of code that swaps the value of integers x and y, which have values 3 and 6, respectively.
-    </caption>
+    </title>
     <blocks>
       <block order="4">
         <cline>int main() {</cline>
@@ -82,9 +82,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p3" numbered="yes" adaptive="yes" indentation="show">
-    <caption>
+    <title>
       Dan Humphrey is a 3.98 student at Constance High School.  His crush's first initial is S.  Construct a program that assigns the variables name, GPA, and crush, in that order.
-    </caption>
+    </title>
     <blocks>
       <block order="2">
         <cline>int main() {</cline>
@@ -121,9 +121,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p4" numbered="yes" adaptive="yes" indentation="hide">
-    <caption>
+    <title>
       You decide to make homemade Mac &#x2018;n' Cheese for you and your roomates.  Whoever wrote the recipe wanted to make things hard for you by stating that it calls for 1% of a gallon of milk.  Construct a block of code that converts this to tablespoons.
-    </caption>
+    </title>
     <blocks>
       <block order="7">
         <cline>int main() {</cline>
@@ -160,9 +160,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p5" numbered="yes" adaptive="yes" indentation="hide">
-    <caption>
+    <title>
       Construct a block of code that takes the volume of the rectangular prism defined by length, width, and height and prints the result to the terminal.
-    </caption>
+    </title>
     <blocks>
       <block order="5">
         <cline>int main() {</cline>
@@ -200,9 +200,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p6" numbered="yes" adaptive="yes" indentation="hide">
-    <caption>
+    <title>
       Construct a block of code that changes the value of the variable a from the character &#x2018;a' to the character &#x2018;z'.
-    </caption>
+    </title>
     <blocks>
       <block order="7">
         <cline>int main() {</cline>
@@ -232,9 +232,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p7" numbered="yes" adaptive="yes" indentation="hide">
-    <caption>
+    <title>
       Construct a block of code that outputs the volume of a cylinder with a radius of 3 and a height of 4.  There are many ways to do this using the choices below, but only the correct answer that uses the LEAST lines of code will be accepted.
-    </caption>
+    </title>
     <blocks>
       <block order="1">
         <cline>int main() {</cline>
@@ -269,9 +269,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p8" numbered="yes" adaptive="yes" indentation="hide">
-    <caption>
+    <title>
       Construct a block of code that prints <q>My favorite class is MATH</q> on the same line.
-    </caption>
+    </title>
     <blocks>
       <block order="6">
         <cline>int main() {</cline>
@@ -303,9 +303,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p9" numbered="yes" adaptive="yes" indentation="hide">
-    <caption>
+    <title>
       It's Black Friday and the Nintendo Switch you'be been saving up for is marked down to 60% of its original price!  Construct a block of code that calculates how much money you'd be saving if the system originally costed $359.99?
-    </caption>
+    </title>
     <blocks>
       <block order="4">
         <cline>int main() {</cline>
@@ -343,9 +343,9 @@
     </blocks>
   </listing>
   <listing label="VARS_p10" numbered="yes" adaptive="yes" indentation="hide">
-    <caption>
+    <title>
       Your family just bought a dog and everyone has been fighting over what to name it.  It went from Champ to Copper to Higgins, and after a few days of being Higgins, everyone agreed on Buddy.  Construct a block of code that illustrates this concept.
-    </caption>
+    </title>
     <blocks>
       <block order="9">
         <cline>int main() {</cline>
