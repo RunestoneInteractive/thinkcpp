@@ -49,33 +49,33 @@
         <statement>
           <p>integer</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>floating-point number</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>boolean value</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

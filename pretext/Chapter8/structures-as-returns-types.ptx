@@ -15,9 +15,9 @@
 Point center = findCenter (box);
 printPoint (center);</program>
   <listing label="structures_return_types_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>findCenter</c> function. Run the code to see what the output is!
-    </caption>
+    </title>
     <program xml:id="structures_return_types_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -97,36 +97,32 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="structures_return_types_1_opt_a">
+        <statement>
           <p><c>addTwo</c>, <c>printPoint</c>, <c>findCenter</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Look at the return type, found before the function name in its definition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="structures_return_types_1_opt_b">
+        <statement>
           <p><c>printPoint</c>, <c>findCenter</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Look at the return type, found before the function name in its definition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="structures_return_types_1_opt_c">
+        <statement>
           <p><c>addTwo</c>, <c>findCenter</c></p>
         </statement>
-        <feedback>
-          Correct!
-        </feedback>
+        <feedback><p>Correct!</p></feedback>
       </choice>
       <choice>
-        <statement id="structures_return_types_1_opt_d">
+        <statement>
           <p><c>Point</c>, <c>Rectangle</c></p>
         </statement>
-        <feedback>
-          These are structures, not functions.
-        </feedback>
+        <feedback><p>These are structures, not functions.</p></feedback>
       </choice>
     </choices>
   </exercise>

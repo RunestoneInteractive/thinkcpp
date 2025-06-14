@@ -31,10 +31,13 @@ blank.y = 4.0;</program>
     similar to the syntax for invoking a function on an object, as in <c>fruit.length()</c>. Of course, one
     difference is that function names are always followed by an argument list, even if it is empty.</p>
   <p>The result of these assignments is shown in the following state diagram:</p>
-  <figure align="center">
-    <image source="Chapter8/Images/8.2stackdiagram.png"
-           width="50%"
-           alt="'blank' names a box with two halves. One is 'x: 3' the other is 'y: 4'."/>
+  <figure>
+      <caption>Structure of an object</caption>
+      <image source="Chapter8/Images/8.2stackdiagram.png" width="50%">
+          <description><p>
+              'blank' names a box with two halves. One is 'x: 3' the other is 'y: 4'."
+          </p></description>
+      </image>
   </figure>
   <p>As usual, the name of the variable <c>blank</c> appears outside the box and its value appears inside
     the box. In this case, that value is a compound object with two named instance variables.</p>
@@ -59,38 +62,38 @@ int main() {
         <statement>
           <p>blank.x = 3.0;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This declaration would not work for the specific code block below.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Point.x = 3.0;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The specific name of the structure should be used, not its type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>nice.x = 3.0;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, we can access and modify the instance variables using the dot operator.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>nice.x( ) = 3.0;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You are not calling a function therefore brackets for an argument list aren't required.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="point_objects_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -119,35 +122,35 @@ int main() {
         <statement>
           <p>outside of any function definition, usually at the beginning of the program</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Read over the other answer choices as well.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>after the main function</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The struct cannot be defined after the main function or else it can't be used in the
             program.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>after the include statements</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Read over the other answer choices as well.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>both a and c</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, structs are usually defined after the include statements and before the main
             function.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

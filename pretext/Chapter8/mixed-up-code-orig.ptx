@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter8_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_8_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_8_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the code for the struct definition of Song.
             The Song structure will have the instance variables string title,
@@ -44,7 +44,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_8_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>In main, create a Song object called fly which holds
             the data for Frank Sinatra's <q>Fly Me to the Moon</q> from his 1964 album <q>It Might as Well Be Swing</q>.
@@ -88,7 +88,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_8_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the code for the printSong function. printSong
             takes a Song as a parameter and prints out the instance variables
@@ -127,7 +127,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_8_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the struct definition of Unicorn.
             The Unicorn structure will have the instance variables name,
@@ -168,7 +168,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_8_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the convertToHumanAge function. convertToHumanAge
             takes a Unicorn as a parameter and returns the equivalent human age.
@@ -225,7 +225,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_8_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the unicornPower function. unicornPower
             takes a Unicorn as a parameter and
@@ -263,7 +263,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_8_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the struct definitions of Address and Employee.
             The Address structure will have the instance variables houseNumber,
@@ -320,7 +320,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_8_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the printAddress function. printAddress takes
             an Employee as a parameter and should print out the information of the employee in the
@@ -356,7 +356,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_8_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_8_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Sometimes employees will move around and thus we'll need to update their addresses.
             Let's write the code for the updateAddress function. updateAddress takes an

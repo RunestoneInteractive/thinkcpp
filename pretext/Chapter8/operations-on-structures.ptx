@@ -30,10 +30,10 @@ cout &lt;&lt; p2.x &lt;&lt; ", " &lt;&lt;  p2.y &lt;&lt; endl;</program>
     <statement>
       <p>Click on all incorrect statements.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Remember, this syntax can be used only in an initialization, not in an assignment
         statement.
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="no">int main() {</area></cline>
       <cline>    <area correct="no">Point blank = { 3.0, 4.0 };</area></cline>
@@ -48,7 +48,7 @@ cout &lt;&lt; p2.x &lt;&lt; ", " &lt;&lt;  p2.y &lt;&lt; endl;</program>
     </areas>
   </exercise>
   <exercise label="operations_structures_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -99,41 +99,41 @@ cout &lt;&lt; p2.x &lt;&lt; ", " &lt;&lt;  p2.y &lt;&lt; endl;</program>
         <statement>
           <p>%</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The modulo operator does not work on structures.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>=</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The assignment operator does work on structures.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>&gt;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The greater than operator does not work on structures.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>==</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The equality operator does not work on structures.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>+</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The addition operator does not work on structures.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

@@ -5,7 +5,6 @@
     <statement>
       <p>Write the function <c>rectangleInfo</c> which prompts the user for the width and height of a rectangle.
         Then <c>rectangleInfo</c> prints out the area and perimeter of the rectangle.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_1q">
         <code>
@@ -21,10 +20,11 @@ int main() {
 }
         </code>
         <stdin>4 6</stdin>
-    </program>
-    <solution><p>Below is one way to implement the program. We prompt the user for input using <c>cin</c>
-      before printing the area and perimeter.</p> Below is one way to implement the program. We
-      prompt the user for input using cin before printing the area and perimeter. <program xml:id="cp_8_AC_1a">
+    </program></statement>
+    <solution>
+        <p>Below is one way to implement the program. We prompt the user for input using <c>cin</c>
+        before printing the area and perimeter.</p>
+        <program xml:id="cp_8_AC_1a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -51,7 +51,6 @@ int main() {
         function outputs &#8220;Hello <c>fullName</c>!&#8221;. Check the hint below for help with the
         construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_2q_editor">
         <code>
@@ -66,7 +65,7 @@ int main() {
     greetUser ();
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_8_AC_2q_pp">
         <statement>
@@ -114,7 +113,6 @@ int main() {
         , <c>int batteryLevelPercentage</c>, and <c>string task</c> in that order. Then write the <c>printRobotData</c> function, which takes a <c>Robot</c>
         as a parameter and prints out the robot&#8217;s data in the following format: <c>name</c> (<c>model</c> <c>serialNumber</c>)
         has <c>batteryLevelPercentage</c> percent battery and is currently executing the task &#8220;<c>task</c>&#8221;.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_3q">
         <code>
@@ -133,12 +131,11 @@ int main() {
     cout &lt;&lt; "Rob (XLV 9800) has 45 percent battery and is currently executing the task \"washing dishes\"";
 }
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. First we declare the instance variables
       in the <c>struct</c> definition. Next, we use dot notation to access the instance variables and
-      output them using <c>cout</c>.</p> Below is one way to implement the program. First we declare the
-      instance variables in the struct definition. Next, we use dot notation to access the instance
-      variables and output them using cout. <program xml:id="cp_8_AC_3a">
+      output them using <c>cout</c>.</p>
+      <program xml:id="cp_8_AC_3a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -176,7 +173,6 @@ int main() {
         which takes a <c>Robot</c> as a parameter and charges the robot to 100 percent. Then output the
         statement &#8220;Robot <c>name</c> is fully charged!&#8221;. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_4q_editor">
         <code>
@@ -213,7 +209,7 @@ void printRobotData (Robot r) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_8_AC_4q_pp">
         <statement>
@@ -254,7 +250,6 @@ void printRobotData (Robot r) {
       <p>In case a robot malfunctions, let&#8217;s write the function <c>resetRobot</c>. <c>resetRobot</c> takes a <c>Robot</c>
         as a parameter and resets its name to &#8220;EnterAName&#8221;, recharges the battery to 100
         percent, and resets the task to &#8220;Idle&#8221;.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_5q">
         <code>
@@ -291,13 +286,11 @@ void printRobotData (Robot r) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We can create another <c>Robot</c> with the
       settings after being reset. Then we set <c>r</c> equal to the new <c>Robot</c> we created. Notice we
-      use dot notation to ensure that the <c>model</c> and <c>serialNumber</c> are the same.</p> Below is one way to
-      implement the program. We can create another Robot with the settings after being reset. Then
-      we set r equal to the new Robot we created. Notice we use dot notation to ensure that the
-      model and serialNumber are the same. <program xml:id="cp_8_AC_5a">
+      use dot notation to ensure that the <c>model</c> and <c>serialNumber</c> are the same.</p>
+      <program xml:id="cp_8_AC_5a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -346,7 +339,6 @@ void printRobotData (Robot r) {
         outputs the Pokemon&#8217;s info in the following format: <c>pokeName</c> (Lv. <c>level</c>, <c>healthPercentage</c>%
         HP). Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_6q_editor">
         <code>
@@ -365,7 +357,7 @@ int main() {
     cout &lt;&lt; "Magikarp (Lv. 12, 100% HP)";
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_8_AC_6q_pp">
         <statement>
@@ -421,7 +413,6 @@ int main() {
         and six <c>Pokemon</c> objects named <c>first</c>, <c>second</c>, etc., in that order. Then, write the
         function <c>printTrainerInfo</c>, which takes a <c>Trainer</c> as a parameter and outputs the trainer&#8217;s info.
         For example, the code below should print:</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_7q">
         <code>
@@ -458,12 +449,11 @@ void printPokeInfo(Pokemon p) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. First we declare the instance variables
       in the <c>struct</c> definition. Next, we call <c>printPokeInfo</c> on each <c>Pokemon</c> in <c>Trainer</c> and output the
-      trainer&#8217;s info in the correct format.</p> Below is one way to implement the program.
-      First we declare the instance variables in the struct definition. Next, we call printPokeInfo
-      on each Pokemon in Trainer and output the trainer&#8217;s info in the correct format. <program xml:id="cp_8_AC_7a">
+      trainer&#8217;s info in the correct format.</p>
+      <program xml:id="cp_8_AC_7a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -522,7 +512,6 @@ void printPokeInfo(Pokemon p) {
         which takes a <c>Trainer</c> as a parameter and heals the Trainer&#8217;s Pokemon to 100 percent
         health. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_8q_editor">
         <code>
@@ -578,7 +567,7 @@ void printTrainerInfo(Trainer t) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_8_AC_8q_pp">
         <statement>
@@ -629,7 +618,6 @@ void printTrainerInfo(Trainer t) {
         input). If user inputs &#8216;y&#8217;, call <c>healPokemon</c> and output the correct dialogue. If
         user inputs &#8216;n&#8217;, don&#8217;t call <c>healPokemon</c> and output the correct dialogue. If
         user inputs an invalid character, output the error message.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_9q">
         <code>
@@ -695,11 +683,10 @@ void healPokemon(Trainer&amp; t) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We use conditionals to perform
-        the correct output and operation depending on the user&#8217;s input.</p> Below is one way
-      to implement the program. We use conditionals to perform the correct output and operation
-      depending on the user&#8217;s input. <program xml:id="cp_8_AC_9a">
+        the correct output and operation depending on the user&#8217;s input.</p>
+        <program xml:id="cp_8_AC_9a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -808,7 +795,6 @@ Please enter your weight in pounds: 170
 Please select a planet: 23
 Error, not a valid planet.</pre>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_8_AC_10q_editor">
         <code>
@@ -821,7 +807,7 @@ int main() {
     // Write your implementation here.
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_8_AC_10q_pp">
         <statement>
@@ -835,7 +821,6 @@ int main() {
             0.38, Jupiter - 2.34, Saturn - 1.06, Uranus - 0.92, and Neptune - 1.19. Use the lines to
             construct the code, then go back to complete the Activecode. Below are some
             examples.</p>
-          <p>
             <pre>Please enter your weight in pounds: 145.6
   Please select a planet: 3
   Your weight on Earth is 145.6 pounds.
@@ -851,7 +836,6 @@ int main() {
   Please enter your weight in pounds: 170
   Please select a planet: 23
   Error, not a valid planet.</pre>
-          </p>
         </statement>
         <blocks>
           <block order="9">

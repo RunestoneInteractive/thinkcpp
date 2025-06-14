@@ -20,10 +20,10 @@ cout &lt;&lt; i &lt;&lt; j &lt;&lt; endl;</program>
             <c>swap</c> would not work. It would modify <c>x</c> and <c>y</c> and have no
             effect on <c>i</c> and <c>j</c>.</p>
   <listing label="pass_others_reference_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>swap</c> function. Run the active code
             for the output!
-    </caption>
+    </title>
     <program xml:id="pass_others_reference_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -78,32 +78,32 @@ int multiply(int a, int b) {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="pass_others_reference_1_opt_a">
+        <statement>
           <p><c>x</c>, <c>y</c>, <c>z</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="pass_others_reference_1_opt_b">
+        <statement>
           <p><c>x</c>, <c>y</c>, <c>z</c>, <c>q</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Pay attention to the placement of the <c>&amp;</c>
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="pass_others_reference_1_opt_c">
+        <statement>
           <p><c>a</c>, <c>b</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Pay attention to the placement of the <c>&amp;</c>
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
-  <exercise label="pass_others_reference_2" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="pass_others_reference_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Create a function called <c>addNum</c> that takes two parameters, an integer <c>x</c> and an integer <c>y</c>. The function should add <c>y</c> to <c>x</c>, then print <c>x</c>. The variable <c>x</c> should be modified, while the variable <c>y</c> should not.</p>
     </statement>

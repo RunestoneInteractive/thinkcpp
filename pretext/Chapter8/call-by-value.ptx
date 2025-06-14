@@ -5,10 +5,13 @@
     the same variable. Instead, there are two variables (one in the caller and one in the callee)
     that have the same value, at least initially. For example, when we call <c>printPoint</c>, the stack
     diagram looks like this:</p>
-  <figure align="center">
-    <image source="Chapter8/Images/8.6stackdiagram.png"
-           width="50%"
-           alt="Two boxes, one for 'main' and one for 'printPoint'. 'main' has a variable blank and 'printPoint' has a variable 'p'. Both variables have 'x:3, y:4'"/>
+    <figure>
+        <caption>Stack Diagram for structure</caption>
+        <image source="Chapter8/Images/8.6stackdiagram.png" width="50%">
+            <description><p>
+                "Two boxes, one for 'main' and one for 'printPoint'. 'main' has a variable blank and 'printPoint' has a variable 'p'. Both variables have 'x:3, y:4'"
+            </p></description>
+        </image>
   </figure>
   <p>If <c>printPoint</c> happened to change one of the instance variables of <c>p</c>, it would have no effect
     on <c>blank</c>. Of course, there is no reason for <c>printPoint</c> to modify its parameter, so this isolation
@@ -16,10 +19,10 @@
   <p>This kind of parameter-passing is called <q>pass by value</q> because it is the value of the
     structure (or other type) that gets passed to the function.</p>
   <listing label="call_by_value_AC_1">
-    <caption>
+    <title>
       Take a look at this active code. Notice from the output of the code below how the function <c>addTwo</c>
         changes the instance variables, but not on <c>blank</c> itself.
-    </caption>
+    </title>
     <program xml:id="call_by_value_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -65,44 +68,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="call_by_value_1_opt_a">
+        <statement>
           <p>
             <c>2 4</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at exactly what is being outputted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="call_by_value_1_opt_b">
+        <statement>
           <p>
             <c>2 4 2</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_value_1_opt_c">
+        <statement>
           <p>
             <c>4 4 2</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at exactly what is being outputted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_value_1_opt_d">
+        <statement>
           <p>
             <c>2 4 4</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember the rules of pass by value.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -131,44 +134,44 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="call_by_value_2_opt_a">
+        <statement>
           <p>
             <c>(6, 8), 3</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_value_2_opt_b">
+        <statement>
           <p>
             <c>(6, 8), 6</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember the rules of pass by value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_value_2_opt_c">
+        <statement>
           <p>
             <c>(68),3</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at exactly what is being outputted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_value_2_opt_d">
+        <statement>
           <p>
             <c>68, 6</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at exactly what is being outputted.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

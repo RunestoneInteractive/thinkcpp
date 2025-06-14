@@ -23,10 +23,15 @@
 Rectangle box = { corner, 100.0, 200.0 };</program>
   <p>This code creates a new <c>Rectangle</c> structure and initializes the instance variables. The figure
     shows the effect of this assignment.</p>
-  <figure align="center">
-    <image source="Chapter8/Images/8.8stackdiagram.png"
-           width="50%"
-           alt="'box' names a box that contains three variables: 'width' which is 100, 'height' which is 200, and 'corner' which names a package that has 'x: 0' and 'y: 0'."/>
+  <figure>
+      <caption>Stack Diagram</caption>
+      <image source="Chapter8/Images/8.8stackdiagram.png" width="50%">
+          <description><p>
+              'box' names a box that contains three variables: 'width' which is 100,
+              'height' which is 200, and 'corner' which names a package that has
+              'x: 0' and 'y: 0'."
+          </p></description>
+      </image>
   </figure>
   <p>We can access the <c>width</c> and <c>height</c> in the usual way:</p>
   <program>box.width += 50.0;
@@ -49,10 +54,10 @@ Rectangle box = { { 0.0, 0.0 }, 100.0, 200.0 };
     the first of the three values that go into the new <c>Rectangle</c>. This statement is an example of <term>nested
     structure</term>.</p>
   <listing label="rectangles_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>Rectangle</c> structure. Feel free to modify the code and experiment
         around!
-    </caption>
+    </title>
     <program xml:id="rectangles_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -90,43 +95,37 @@ double y = temp.y;
     </statement>
     <choices>
       <choice>
-        <statement id="rectangles_1_opt_a">
+        <statement>
           <p>
             <c>double y = corner.box.y;</c>
           </p>
         </statement>
-        <feedback>
-          Try again.
-        </feedback>
+        <feedback><p>Try again.</p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="rectangles_1_opt_b">
+        <statement>
           <p>
             <c>double y = box.corner.y;</c>
           </p>
         </statement>
-        <feedback>
-          Correct!
+        <feedback><p>Correct!</p>
         </feedback>
       </choice>
       <choice>
-        <statement id="rectangles_1_opt_c">
+        <statement>
           <p>
             <c>double y = corner.y;</c>
           </p>
         </statement>
-        <feedback>
-          Try again.
-        </feedback>
+        <feedback><p>Try again.</p></feedback>
       </choice>
       <choice>
-        <statement id="rectangles_1_opt_d">
+        <statement>
           <p>
             <c>double y = box.y;</c>
           </p>
         </statement>
-        <feedback>
-          Try again.
+        <feedback><p>Try again.</p>
         </feedback>
       </choice>
     </choices>
@@ -137,9 +136,7 @@ double y = temp.y;
         and Rectangle structures are declared above the main function in the same way as in the
         active code above.</p>
     </statement>
-    <feedback>
-      Re-read the text above and try again.
-    </feedback>
+    <feedback><p>Re-read the text above and try again.</p></feedback>
     <areas>
       <cline>        <area correct="no">def main() {</area></cline>
       <cline>        <area correct="no">Point corner = ( 0.0, 0.0 );</area></cline>

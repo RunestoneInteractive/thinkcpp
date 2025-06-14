@@ -16,10 +16,10 @@ int x = blank.x;
   <program>cout &lt;&lt; blank.x &lt;&lt; ", " &lt;&lt; blank.y &lt;&lt; endl;
 double distance = sqrt(blank.x * blank.x + blank.y * blank.y);</program>
   <listing label="accessing_instance_variables_AC_1">
-    <caption>
+    <title>
       In this active code, we access the instance variables of <c>Point</c> object <c>black</c> using
         dot notation and output their values. Next, we output the distance from the origin.
-    </caption>
+    </title>
     <program xml:id="accessing_instance_variables_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -50,45 +50,45 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="accessing_instance_variables_1_opt_a">
+        <statement>
           <p><c>string</c> is the instance variable, <c>cube</c> is the object</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>string</c> is a data type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_instance_variables_1_opt_b">
+        <statement>
           <p><c>x</c> is the instance variable, <c>thing</c> is the object</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>x</c> is the local variable.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_instance_variables_1_opt_c">
+        <statement>
           <p><c>thing</c> is the instance variable, <c>cube</c> is the object</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Consider the placement of <c>thing</c> &#x2013; it is before the <c>.</c>
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="accessing_instance_variables_1_opt_d">
+        <statement>
           <p><c>cube</c> is the instance variable, <c>thing</c> is the object</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, we access the instance variable <c>cube</c> of the object <c>thing</c> using the dot
             operator.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_instance_variables_1_opt_e">
+        <statement>
           <p><c>cube</c> is the instance variable, <c>string</c> is the object</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>string</c> is a data type.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -114,46 +114,46 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="accessing_instance_variables_2_opt_a">
+        <statement>
           <p>
             <c>2.0 7.0 53</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Spaces need to be printed out like any other output.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="accessing_instance_variables_2_opt_b">
+        <statement>
           <p>
             <c>2753</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are no spaces in the correct output.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_instance_variables_2_opt_c">
+        <statement>
           <p>
             <c>7253</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The order in which the variables are printed out do not need to match the order in
             which they are declared.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_instance_variables_2_opt_d">
+        <statement>
           <p>
             <c>7.02.053</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The order in which the variables are printed out do not need to match the order in
             which they are declared.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -164,44 +164,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="accessing_instance_variables_3_opt_a">
+        <statement>
           <p>
             <c>int y = circle.x();</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           No parentheses are needed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_instance_variables_3_opt_b">
+        <statement>
           <p>
             <c>int circle = x.y;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           You should be assigning to the local variable <c>x</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_instance_variables_3_opt_c">
+        <statement>
           <p>
             <c>int y = circle.x;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           You should be assigning to the local variable <c>x</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="accessing_instance_variables_3_opt_d">
+        <statement>
           <p>
             <c>int x = circle.y;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the correct way to assign the value of <c>y</c> to <c>x</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

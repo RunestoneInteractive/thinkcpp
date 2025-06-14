@@ -24,10 +24,10 @@
 reflect (blank);
 printPoint (blank);</program>
   <listing label="call_by_reference_AC_1">
-    <caption>
+    <title>
       Take a look at this active code. <c>reflect</c> passes the parameter <c>p</c> by reference. Notice
         that the output of this code matches what we expect it to be.
-    </caption>
+    </title>
     <program xml:id="call_by_reference_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -61,10 +61,13 @@ int main() {
   <program>(3, 4)
 (4, 3)</program>
   <p>Here's how we would draw a stack diagram for this program:</p>
-  <figure align="center">
-    <image source="Chapter8/Images/8.7stackdiagram.png"
-           width="50%"
-           alt="Two boxes, one for 'main' and one for 'reflect'. 'main' has a variable blank with 'x:3, y:4' crossed out and replaced with 'x:4, y:3'. 'reflect' has a variable 'p' that just points at 'blank' in 'main'."/>
+  <figure>
+      <caption></caption>
+      <image source="Chapter8/Images/8.7stackdiagram.png" width="50%">
+          <description><p>
+              Two boxes, one for 'main' and one for 'reflect'. 'main' has a variable blank with 'x:3, y:4' crossed out and replaced with 'x:4, y:3'. 'reflect' has a variable 'p' that just points at 'blank' in 'main'.
+          </p></description>
+      </image>
   </figure>
   <p>The parameter <c>p</c> is a reference to the structure named <c>blank</c>. The usual representation
     for a reference is a dot with an arrow that points to whatever the reference refers to.</p>
@@ -96,38 +99,38 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="call_by_reference_2_opt_a">
+        <statement>
           <p>Passing structures by reference is more versatile</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again! Passing by reference is more versatile.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_reference_2_opt_b">
+        <statement>
           <p>Passing structures by reference is faster, because the system does not have to copy the
             whole structure</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again! Passing by reference does not involve making copies.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_reference_2_opt_c">
+        <statement>
           <p>In C++ programs, almost all structures are passed by reference almost all the time</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="call_by_reference_2_opt_d">
+        <statement>
           <p>Passing structures by reference is less safe, since it is harder to keep track of what
             gets modified where</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -153,44 +156,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="call_by_reference_3_opt_a">
+        <statement>
           <p>
             <c>2 4</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at exactly what is being outputted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_reference_3_opt_b">
+        <statement>
           <p>
             <c>2 4 2</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember the rules of pass by reference.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_reference_3_opt_c">
+        <statement>
           <p>
             <c>4 4 2</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at exactly what is being outputted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="call_by_reference_3_opt_d">
+        <statement>
           <p>
             <c>2 4 4</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -219,44 +222,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="call_by_reference_4_opt_a">
+        <statement>
           <p>
             <c>(6, 8), 3</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>&amp;</c> indicates pass by reference.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="call_by_reference_4_opt_b">
+        <statement>
           <p>
             <c>(6, 8), 6</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_reference_4_opt_c">
+        <statement>
           <p>
             <c>(6.0, 8.0) 3.0</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>&amp;</c> indicates pass by reference. Take a look at the data type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="call_by_reference_4_opt_d">
+        <statement>
           <p>
             <c>686</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at exactly what is being printed.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

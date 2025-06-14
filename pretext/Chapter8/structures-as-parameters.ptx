@@ -8,9 +8,9 @@
   <p><c>printPoint</c> takes a point as an argument and outputs it in the standard format. If you call <c>printPoint (blank)</c>,
     it will output <c>(3, 4)</c>.</p>
   <listing label="structures_parameters_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>printPoint</c> function. Run the code to see the output!
-    </caption>
+    </title>
     <program xml:id="structures_parameters_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -41,10 +41,10 @@ int main() {
   return sqrt (dx*dx + dy*dy);
 }</program>
   <listing label="structures_parameters_AC_2">
-    <caption>
+    <title>
       This active code uses the updated version of the <c>distance</c> function. Feel free to modify the
         code!
-    </caption>
+    </title>
     <program xml:id="structures_parameters_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -93,49 +93,45 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="structures_parameters_1_opt_a">
+        <statement>
           <p>
             <c>(-2, -7)</c>
           </p>
         </statement>
-        <feedback>
-          Take a close look at the printOppositeCoordinate function.
-        </feedback>
+        <feedback><p>Take a close look at the printOppositeCoordinate function.</p></feedback>
       </choice>
       <choice>
-        <statement id="structures_parameters_1_opt_b">
+        <statement>
           <p>
             <c>(2.0, 7.0)</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a close look at the printOppositeCoordinate function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="structures_parameters_1_opt_c">
+        <statement>
           <p>
             <c>(-7, -2)</c>
           </p>
         </statement>
-        <feedback>
-          Yes, this is the correct output.
-        </feedback>
+        <feedback><p>Yes, this is the correct output.</p></feedback>
       </choice>
       <choice>
-        <statement id="structures_parameters_1_opt_d">
+        <statement>
           <p>
             <c>(-7.0, -2.0)</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a close look at the Coordinate struct.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="structures_parameters_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

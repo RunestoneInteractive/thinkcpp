@@ -32,9 +32,9 @@
     <statement>
       <p>Match the definition to the term.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>structure</premise>

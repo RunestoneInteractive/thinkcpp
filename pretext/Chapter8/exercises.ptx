@@ -32,64 +32,64 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_8_1_opt_a">
+        <statement>
           <p>
             <c>x</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>x</c> is a <c>Student</c> which is a <c>struct</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_1_opt_b">
+        <statement>
           <p>
             <c>y</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>y</c> is a <c>Student</c> which is a <c>struct</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_1_opt_c">
+        <statement>
           <p>
             <c>z</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>z</c> is a <c>Professor</c> which is a <c>struct</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_1_opt_d">
+        <statement>
           <p>
             <c>college</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>college</c> is a <c>string</c> which is made up of characters.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_1_opt_e">
+        <statement>
           <p>
             <c>studentPop</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           An <c>int</c> is not a compound value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_1_opt_f">
+        <statement>
           <p>
             <c>avgGPA</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           A <c>double</c> is not a compound value.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -109,36 +109,36 @@ struct Chicken {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_2_opt_a">
+        <statement>
           <p>The word <q>struct</q> needs to be capitalized.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <q>struct</q> shouldn't be capitalized in a <c>struct</c> definition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_2_opt_b">
+        <statement>
           <p>There needs to be a semicolon after the end curly brace.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           It is a common error to forgot the semicolon at the end of <c>struct</c> definitions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_2_opt_c">
+        <statement>
           <p>A <c>struct</c> cannot have two instance variables of both <c>string</c> and <c>int</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Instance variables of different types in a single struct is fine.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_2_opt_d">
+        <statement>
           <p>There is nothing wrong with the <c>struct</c> definition.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is an error with the definition. Can you find it?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -162,44 +162,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_3_opt_a">
+        <statement>
           <p>
             <c>Dog.numLegs = 4;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>Dog</c> object is <c>doug</c>. We can use the dot notation on an object.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_3_opt_b">
+        <statement>
           <p>
             <c>doug.legs = 4;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check the name of the instance variable in the <c>struct</c> definition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_3_opt_c">
+        <statement>
           <p>
             <c>doug[legs] = 4;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           We can assign values to the instance variables of a <c>struct</c> using dot notation.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_3_opt_d">
+        <statement>
           <p>
             <c>doug.numLegs = 4;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Using dot notation on <c>doug</c>, we can set the value of <c>numLegs</c> to 4.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -229,44 +229,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_4_opt_a">
+        <statement>
           <p>
             <c>4, 64, 128, 2</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check the ordering of the output statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_4_opt_b">
+        <statement>
           <p>
             <c>4, 128, 64</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the output statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_4_opt_c">
+        <statement>
           <p>
             <c>4, 128, 64, 2</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The code outputs all instance variables and the density in the proper order.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_4_opt_d">
+        <statement>
           <p>
             <c>edgeLength, volume, mass, density</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Dot notation accesses the values of the instance variables, not the names.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -297,36 +297,36 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_8_5_opt_a">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Because of integer division, <c>density</c> is 0 and thus the output is 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_5_opt_b">
+        <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Density is mass divided by volume.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_5_opt_c">
+        <statement>
           <p>0.5</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at what kind of division we are doing.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_5_opt_d">
+        <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Integer division truncates the extra digits.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -357,38 +357,38 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_6_opt_a">
+        <statement>
           <p>true</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ outputs boolean values as either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_6_opt_b">
+        <statement>
           <p>false</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ outputs boolean values as either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_6_opt_c">
+        <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the function definition of <c>pourCoffee</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_6_opt_d">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since we pass a <c>Student</c> object by value to <c>pourCoffee</c>, the function makes a copy of the
             object and does not modify the original. If you wanted the original value to change,
             pass it by reference!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -423,36 +423,36 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_8_7_opt_a">
+        <statement>
           <p>100</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>Robot</c> object is passed by reference to <c>chargeRobot</c>, which caps the <c>batteryLevelPercentage</c> at 100.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_7_opt_b">
+        <statement>
           <p>110</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the <c>chargeRobot</c> function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_7_opt_c">
+        <statement>
           <p>60</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is the <c>Robot</c> object passed by value or by reference to <c>chargeRobot</c>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_7_opt_d">
+        <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           That is the final value of <c>r.isFullyCharged</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -489,38 +489,38 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_8_opt_a">
+        <statement>
           <p>4, 7</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at <c>func</c> and its parameters. Are they passed by value, passed by
             reference, or both?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_8_opt_b">
+        <statement>
           <p>4, 10</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since <c>bar</c> doesn't pass either parameter by reference, neither <c>bar</c> nor <c>foo</c>
             affect the values of <c>x</c> and <c>y</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_8_opt_c">
+        <statement>
           <p>7, 7</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check the order of the arguments passed into <c>func</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_8_opt_d">
+        <statement>
           <p>35, 8</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the three functions. Are they all passed by reference?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -540,36 +540,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_9_opt_a">
+        <statement>
           <p>R2-D2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take another look at the <c>cout</c> statement.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_9_opt_b">
+        <statement>
           <p>Hello name!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>name</c> is not in quotes so the value stored in <c>name</c> will be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_9_opt_c">
+        <statement>
           <p>Hello, R2-D2!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <q>R2-D2</q> is stored in <c>name</c> and is then outputted in the <c>cout</c> statement.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_9_opt_d">
+        <statement>
           <p>name</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>cin</c> reads input from the user.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -589,37 +589,37 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_10_opt_a">
+        <statement>
           <p>Hello, CPO!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>cin</c> reads the first <c>char</c> in from user input.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_10_opt_b">
+        <statement>
           <p>Hello, C!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since &#x2018;C' is the first <c>char</c> in the input, this is the correct output. The
             program will ignore everything that comes after the first <c>char</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_10_opt_c">
+        <statement>
           <p>Hello, C-3PO!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check the data type of <c>name</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_10_opt_d">
+        <statement>
           <p>Error, we cannot read a character from user input.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We can read characters from user input.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -639,44 +639,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_8_11_opt_a">
+        <statement>
           <p>
             <c>quote is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>quote</c> is not in quotes so the value stored in <c>quote</c> will be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_8_11_opt_b">
+        <statement>
           <p>
             <c>Darth Vader is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           getline reads the entire line until the user hits Return or Enter.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_11_opt_c">
+        <statement>
           <p>
             <c>Darth is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check the manner in which the user input is acquired.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_8_11_opt_d">
+        <statement>
           <p>
             <c>D is the epitome of Star Wars!</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try Again! Pay attention to the way in which user input is recieved.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
