@@ -65,7 +65,7 @@ int main() {
       <p>Click on the name of each variable that had been initialized with the value of 0.</p>
     </statement>
     <feedback>
-      <p>Remember that the index of a string begins at 0, not 1.</p>
+      Remember that the index of a string begins at 0, not 1.
     </feedback>
     <areas>
 <cline><area correct="no">def main() {:</area></cline>

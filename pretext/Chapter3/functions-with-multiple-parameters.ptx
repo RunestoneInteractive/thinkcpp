@@ -24,10 +24,10 @@ printTime(int hour, int minute);   // WRONG!</program>
   </warning>
   <p>The correct syntax is printTime(hour, minute).</p>
   <listing label="multiple_params_AC_1">
-    <caption>
+    <title>
       This program shows how the dollar_amount and cent_amount arguments
         are passed into the printPrice function.
-    </caption>
+    </title>
     <program xml:id="multiple_params_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -60,9 +60,10 @@ int main() {
             <c>totalcost(double cost, tax, discount)</c>
           </p>
         </statement>
-        <feedback id="multiple_params_1_opt_a">
-          <p><c>totalcost</c> needs a return type, and each parameter needs a data type.</p>
-        </feedback>
+        <feedback><p>
+            <c>totalcost</c> needs a return type,
+            and each parameter needs a data type.
+        </p></feedback>
       </choice>
       <choice>
         <statement id="multiple_params_1_opt_b">
@@ -70,9 +71,9 @@ int main() {
             <c>totalCost(double cost, double tax) {</c>
           </p>
         </statement>
-        <feedback id="multiple_params_1_opt_b">
-          <p><c>totalcost</c> needs a return type.</p>
-        </feedback>
+        <feedback><p>
+          <c>totalcost</c> needs a return type.
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="multiple_params_1_opt_c">
@@ -80,9 +81,7 @@ int main() {
             <c>void totalCost(double cost, double tax, double discount) {</c>
           </p>
         </statement>
-        <feedback id="multiple_params_1_opt_c">
-          <p>Correct!</p>
-        </feedback>
+        <feedback><p>Correct!</p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -106,9 +105,9 @@ int main() {
             <c>multiplyTwo(int x, string phil);</c>
           </p>
         </statement>
-        <feedback id="multiple_params_2_opt_a">
-          <p>Data types are not needed when calling a function.</p>
-        </feedback>
+        <feedback><p>
+            Data types are not needed when calling a function.
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="multiple_params_2_opt_b">
@@ -116,9 +115,7 @@ int main() {
             <c>multiplyTwo (x, phil);</c>
           </p>
         </statement>
-        <feedback id="multiple_params_2_opt_b">
-          <p>Correct!</p>
-        </feedback>
+        <feedback><p>Correct!</p></feedback>
       </choice>
       <choice>
         <statement id="multiple_params_2_opt_c">
@@ -126,9 +123,7 @@ int main() {
             <c>void multiplyTwo(int num, string name) {</c>
           </p>
         </statement>
-        <feedback id="multiple_params_2_opt_c">
-          <p>This is the function definition.</p>
-        </feedback>
+        <feedback><p>This is the function definition.</p></feedback>
       </choice>
       <choice>
         <statement id="multiple_params_2_opt_d">
@@ -136,9 +131,9 @@ int main() {
             <c>void multiplyTwo(int x, string phil);</c>
           </p>
         </statement>
-        <feedback id="multiple_params_2_opt_d">
-          <p>Data types are not needed when calling a function.</p>
-        </feedback>
+        <feedback><p>
+          Data types are not needed when calling a function.
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

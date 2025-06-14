@@ -88,43 +88,29 @@
       programming practices.</p>
     <exercise label="debugging_1">
       <statement>
-        <p>Another word for an error is a(n) <var/>. The process of
-          finding and fixing errors is called <var/>.
+        <p>Another word for an error is a(n) <fillin mode="string" case="insensitive" answer="bug"/>. The process of
+          finding and fixing errors is called <fillin mode="string" case="insensitive" answer="debugging"/>.
         </p>
       </statement>
-      <setup>
-        <var case="insensitive">
-          <condition string="^\s*bug\s*$">
-            <feedback>
-              <p>Correct!</p>
-            </feedback>
-          </condition>
-          <condition string="^\s*.*\s*$">
-            <feedback>
-              <p>Try again!</p>
-            </feedback>
-          </condition>
-        </var>
-        <var case="insensitive">
-          <condition string="^\s*debugging\s*$">
-            <feedback>
-              <p>Correct!</p>
-            </feedback>
-          </condition>
-          <condition string="^\s*.*\s*$">
-            <feedback>
-              <p>Try again!</p>
-            </feedback>
-          </condition>
-        </var>
-      </setup>
+      <evaluation>
+        <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+          </test>
+        </evaluate>
+        <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+          </test>
+        </evaluate>
+      </evaluation>
     </exercise>
     <exercise label="debugging_2">
       <statement>
         <p>Match each term to its definition!</p>
       </statement>
       <feedback>
-        <p>Try again!</p>
+        Try again!
       </feedback>
       <matches>
         <match order="1">
@@ -144,23 +130,16 @@
     </exercise>
     <exercise label="debugging_4">
       <statement>
-        <p>The structure of your program and the rules it must follow are called the <var/>.
+        <p>The structure of your program and the rules it must follow are called the <fillin mode="string" case="insensitive" answer="syntax"/>.
         </p>
       </statement>
-      <setup>
-        <var case="insensitive">
-          <condition string="^\s*syntax\s*$">
-            <feedback>
-              <p>Correct!</p>
-            </feedback>
-          </condition>
-          <condition string="^\s*.*\s*$">
-            <feedback>
-              <p>Try again!</p>
-            </feedback>
-          </condition>
-        </var>
-      </setup>
+      <evaluation>
+        <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+          </test>
+        </evaluate>
+      </evaluation>
     </exercise>
   </subsection>
 </section>

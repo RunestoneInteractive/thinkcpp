@@ -32,22 +32,15 @@ int main() {
     messages you get.</p>
   <exercise label="defns_uses_1">
     <statement>
-      <p>The function definition must be written <var/> the first use of the function. </p>
+      <p>The function definition must be written <fillin mode="string" case="insensitive" answer="(before)|(above)"/> the first use of the function. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(before)|(above)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="defns_uses_2">
     <statement>
@@ -61,10 +54,10 @@ int main() {
             <c>void printName()</c>
           </p>
         </statement>
-        <feedback id="defns_uses_2_opt_a">
-          <p>This function header is missing a <c>{</c>, which is needed to begin defining the
-            function.</p>
-        </feedback>
+        <feedback><p>
+          This function header is missing a <c>{</c>, which is needed to begin defining the
+            function.
+        </p></feedback>
       </choice>
       <choice>
         <statement id="defns_uses_2_opt_b">
@@ -72,9 +65,9 @@ int main() {
             <c>totalCostAfterTax() {</c>
           </p>
         </statement>
-        <feedback id="defns_uses_2_opt_b">
-          <p>This function header is missing a return type.</p>
-        </feedback>
+        <feedback><p>
+          This function header is missing a return type.
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="defns_uses_2_opt_c">
@@ -82,9 +75,7 @@ int main() {
             <c>void todaysWeather() {</c>
           </p>
         </statement>
-        <feedback id="defns_uses_2_opt_c">
-          <p>Correct!</p>
-        </feedback>
+        <feedback><p>Correct!</p></feedback>
       </choice>
       <choice>
         <statement id="defns_uses_2_opt_d">
@@ -92,10 +83,10 @@ int main() {
             <c>void finalGrade {</c>
           </p>
         </statement>
-        <feedback id="defns_uses_2_opt_d">
-          <p>This function header is missing parentheses. Even if a function does not take in any
-            parameters, empty parentheses should be used.</p>
-        </feedback>
+        <feedback><p>
+          This function header is missing parentheses. Even if a function does not take in any
+            parameters, empty parentheses should be used.
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

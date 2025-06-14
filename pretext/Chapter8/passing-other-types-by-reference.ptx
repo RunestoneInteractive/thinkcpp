@@ -81,24 +81,24 @@ int multiply(int a, int b) {
         <statement id="pass_others_reference_1_opt_a">
           <p><c>x</c>, <c>y</c>, <c>z</c></p>
         </statement>
-        <feedback id="pass_others_reference_1_opt_a">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
         <statement id="pass_others_reference_1_opt_b">
           <p><c>x</c>, <c>y</c>, <c>z</c>, <c>q</c></p>
         </statement>
-        <feedback id="pass_others_reference_1_opt_b">
-          <p>Pay attention to the placement of the <c>&amp;</c></p>
+        <feedback>
+          Pay attention to the placement of the <c>&amp;</c>
         </feedback>
       </choice>
       <choice>
         <statement id="pass_others_reference_1_opt_c">
           <p><c>a</c>, <c>b</c></p>
         </statement>
-        <feedback id="pass_others_reference_1_opt_c">
-          <p>Pay attention to the placement of the <c>&amp;</c></p>
+        <feedback>
+          Pay attention to the placement of the <c>&amp;</c>
         </feedback>
       </choice>
     </choices>

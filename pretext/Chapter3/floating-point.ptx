@@ -67,29 +67,21 @@ double y = 1.0 / 3.0;
     performing floating-point operations.</p>
   <exercise label="floating_point_1">
     <statement>
-      <p>A(n) <var/> statment consists of a declaration statement and an assignment statement, which
+      <p>A(n) <fillin mode="string" case="insensitive" answer="initialization"/> statment consists of a declaration statement and an assignment statement, which
         are combined. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*initialization\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="floating_point_2">
     <statement>
       <p>It's your birthday and your cake can serve 12. You want to slice it evenly so that you and
-        each of your 4 friends receive an equal amount. One of your friends is on a diet and, and
-        wants to know the serving size of her slice. You write the following code in C++ to answer
+        each of your 4 friends receive an equal amount. One of your friends wants to know the serving size of his slice. You write the following code in C++ to answer
         her question:</p>
         
         <program>
@@ -98,35 +90,36 @@ double y = 1.0 / 3.0;
           
           double servingSize = servings / people;</program>
 
-        <p>Based on the value of <c>servingSize</c>, you tell your friend that each slice is <var/> servings.
-          This is <var/> (more, less, the same) than/as the actual serving size of her slice.</p>
+        <p>The program claims <c>servingSize</c> is <fillin mode="string" case="insensitive" answer="2"/> servings.
+          This is <fillin mode="string" case="insensitive" answer="less"/> (more, less, the same) than/as the correct answer.</p>
     </statement>
-    <setup>
-      <var>
-        <condition number="2">
-          <feedback>
-            <p>Correct! C++ performs integer division.</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>servingSize and people are integer variables!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var>
-        <condition string="^\s*less\s*$">
-          <feedback>
-            <p>Correct! You just unintentionally messed up your friend's diet.</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Is this answer more or less than you would get if you did decimal division?</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+            <feedback>
+              Correct! C++ performs integer division.
+            </feedback>
+          </test>
+          <test>
+            <strcmp>.*</strcmp>
+            <feedback>
+              Hint: servingSize and people are integer variables!
+            </feedback>
+          </test>
+      </evaluate>
+      <evaluate>
+          <test>
+            <strcmp use-answer="yes"/>
+          </test>
+          <test>
+            <strcmp>.*</strcmp>
+            <feedback>
+              Is the answer the program computes more or less than you would get if you did decimal division?
+            </feedback>
+          </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="floating_point_3">
     <statement>
@@ -145,43 +138,43 @@ cout &lt;&lt; e_double;</program>
         <statement>
           <p>e</p>
         </statement>
-        <feedback>
-          <p>This is the name of a variable. Only the value of a variable will print with cout.</p>
-        </feedback>
+        <feedback><p>
+          This is the name of a variable. Only the value of a variable will print with cout.
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3</p>
         </statement>
-        <feedback>
-          <p>Converting to an int always rounds down.</p>
-        </feedback>
+        <feedback><p>
+          Converting to an int always rounds down.
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>2</p>
         </statement>
-        <feedback>
-          <p>When we converted e to an int, e was rounded down to 2. When we converted e_nt to
-            e_double, the decimal places from e were lost, and the value of e_double is 2.</p>
-        </feedback>
+        <feedback><p>
+          When we converted e to an int, e was rounded down to 2. When we converted e_nt to
+            e_double, the decimal places from e were lost, and the value of e_double is 2.
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3.0</p>
         </statement>
-        <feedback>
-          <p>Converting to an int always rounds down.</p>
-        </feedback>
+        <feedback><p>
+          Converting to an int always rounds down.
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2.71828</p>
         </statement>
-        <feedback>
-          <p>When we converted e to an int, e was rounded down to 2. When we converted e_nt to
-            e_double, the decimal places from e were lost.</p>
-        </feedback>
+        <feedback><p>
+          When we converted e to an int, e was rounded down to 2. When we converted e_nt to
+            e_double, the decimal places from e were lost.
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -190,9 +183,9 @@ cout &lt;&lt; e_double;</program>
     The thing to remeber is if either the divisor or the dividend is a double
     then the program will carry out floating point division.</p>
   <listing label="floating_point_a1">
-    <caption>
+    <title>
       Run the code to see what type of division occurs each time.
-    </caption>
+    </title>
     <program label="floating_point_a1_editor"
              interactive="activecode"
              line-numbers="yes">

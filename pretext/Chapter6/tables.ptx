@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="chapter6_tables">
   <title>Tables</title>
   <p>One of the things loops are good for is generating tabular data. For
@@ -191,43 +191,29 @@ int main() {
   </exercise>
   <exercise label="tables_2">
     <statement>
-      <p>What is the equivalent of endl, and typically used at the end of a string? <var/>
+      <p>What is the equivalent of endl, and typically used at the end of a string? <fillin mode="string" case="insensitive" answer="(newline.*)|(.*\\n.*)"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(?:(?:\\n)|(?:(?:n|N)ewline\s(?:c|C)haracter))\s*$">
-          <feedback>
-            <p>Is the correct answer!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="tables_3">
     <statement>
-      <p>How would you write a tab character? <var/>
+      <p>How would you write a tab character? <fillin mode="string" case="insensitive" answer=".*\\t.*"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(?:\\t)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes" strip="no"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="tables_4">
     <statement>
@@ -250,41 +236,34 @@ int main() {
         <statement id="tables_4_opt_a">
           <p>Change <c>pow(x,2)</c> to <c>pow(3,x)</c> and change <c>x = x + 1</c> to <c>x = x + 2</c>.</p>
         </statement>
-        <feedback id="tables_4_opt_a">
-          <field_list>
-            <field>
-              <field_name>feedback_a</field_name>
-              <field_body>
-                <p>Check the order of the <c>pow</c> function!</p>
-              </field_body>
-            </field>
-          </field_list>
+        <feedback>
+          Check the order of the <c>pow</c> function!
         </feedback>
       </choice>
       <choice>
         <statement id="tables_4_opt_b">
           <p>Change <c>pow(x,2)</c> to <c>pow(x,3)</c>.</p>
         </statement>
-        <feedback id="tables_4_opt_b">
-          <p>This will print out the first ten perfect cubes.</p>
+        <feedback>
+          This will print out the first ten perfect cubes.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="tables_4_opt_c">
           <p>Change <c>pow(x,2)</c> to <c>pow(x,3)</c> and change <c>x = x + 1</c> to <c>x = x + 2</c>.</p>
         </statement>
-        <feedback id="tables_4_opt_c">
-          <p>Changing both the <c>pow</c> function and the increment in this way gives us the right
-            answer.</p>
+        <feedback>
+          Changing both the <c>pow</c> function and the increment in this way gives us the right
+            answer.
         </feedback>
       </choice>
       <choice>
         <statement id="tables_4_opt_d">
           <p>Change <c>x &lt; 11</c> to <c>x &lt; 6</c> and change <c>pow(x,2)</c> to <c>pow(x,3)</c>.</p>
         </statement>
-        <feedback id="tables_4_opt_d">
-          <p>This will print out the first five perfect cubes, but not the first five odd perfect
-            cubes.</p>
+        <feedback>
+          This will print out the first five perfect cubes, but not the first five odd perfect
+            cubes.
         </feedback>
       </choice>
     </choices>

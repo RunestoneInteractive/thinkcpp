@@ -21,46 +21,46 @@
         <statement id="VARS_mc1_opt_a">
           <p>6</p>
         </statement>
-        <feedback id="VARS_mc1_opt_a">
-          <p>There <em>are</em> 6 <c>cout</c> statements, but that doesn't mean there are 6 lines of
-            output!</p>
+        <feedback>
+          There <em>are</em> 6 <c>cout</c> statements, but that doesn't mean there are 6 lines of
+            output!
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc1_opt_b">
           <p>5</p>
         </statement>
-        <feedback id="VARS_mc1_opt_b">
-          <p>There <em>are</em> 5 lines of <c>cout</c> statments, but that doesn't mean there are 5
-            lines of output!</p>
+        <feedback>
+          There <em>are</em> 5 lines of <c>cout</c> statments, but that doesn't mean there are 5
+            lines of output!
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc1_opt_c">
           <p>3</p>
         </statement>
-        <feedback id="VARS_mc1_opt_c">
-          <p>Even though there are 6 <c>cout</c> staments written on 5 lines, there are only 3 lines of
-            output in the terminal.</p>
+        <feedback>
+          Even though there are 6 <c>cout</c> staments written on 5 lines, there are only 3 lines of
+            output in the terminal.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc1_opt_d">
           <p>2</p>
         </statement>
-        <feedback id="VARS_mc1_opt_d">
-          <p>There <em>are</em> 2 <c>endl</c> statements. But what happens when you have more output
-            after the <c>endl</c>?</p>
+        <feedback>
+          There <em>are</em> 2 <c>endl</c> statements. But what happens when you have more output
+            after the <c>endl</c>?
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc1_opt_e">
           <p>0! There is an error!</p>
         </statement>
-        <feedback id="VARS_mc1_opt_e">
-          <p>Everything is syntacticly legal! You can have <c>cout</c> statements on <em>multiple lines
+        <feedback>
+          Everything is syntacticly legal! You can have <c>cout</c> statements on <em>multiple lines
             of code</em> that have <em>one</em> line of output&#x2026; or you can have multiple <c>cout</c>
-            statements on <em>one</em> line of code that have <em>multiple</em> lines of output!</p>
+            statements on <em>one</em> line of code that have <em>multiple</em> lines of output!
         </feedback>
       </choice>
     </choices>
@@ -77,32 +77,32 @@ x = "3";
         <statement id="VARS_mc2_opt_a">
           <p>integer</p>
         </statement>
-        <feedback id="VARS_mc2_opt_a">
-          <p><c>1</c> is an integer.</p>
+        <feedback>
+          <c>1</c> is an integer.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc2_opt_b">
           <p>double</p>
         </statement>
-        <feedback id="VARS_mc2_opt_b">
-          <p><c>1.0</c> is a double.</p>
+        <feedback>
+          <c>1.0</c> is a double.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc2_opt_c">
           <p>character</p>
         </statement>
-        <feedback id="VARS_mc2_opt_c">
-          <p><c>'1'</c> is a character.</p>
+        <feedback>
+          <c>'1'</c> is a character.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc2_opt_d">
           <p>string</p>
         </statement>
-        <feedback id="VARS_mc2_opt_d">
-          <p>Anything in double quotes is a string.</p>
+        <feedback>
+          Anything in double quotes is a string.
         </feedback>
       </choice>
     </choices>
@@ -119,32 +119,32 @@ x = 2 + (13 - 5) * 2 + 6 /3;
         <statement id="VARS_mc3_opt_a">
           <p>7</p>
         </statement>
-        <feedback id="VARS_mc3_opt_a">
-          <p><c>13 - 5</c> is computed first because it is in parentheses.</p>
+        <feedback>
+          <c>13 - 5</c> is computed first because it is in parentheses.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc3_opt_b">
           <p>20</p>
         </statement>
-        <feedback id="VARS_mc3_opt_b">
-          <p>C++ follows the order of operations.</p>
+        <feedback>
+          C++ follows the order of operations.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc3_opt_c">
           <p>23.333</p>
         </statement>
-        <feedback id="VARS_mc3_opt_c">
-          <p><c>2 + 6</c> is not grouped together like <c>13 - 5</c>.</p>
+        <feedback>
+          <c>2 + 6</c> is not grouped together like <c>13 - 5</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc3_opt_d">
           <p>34</p>
         </statement>
-        <feedback id="VARS_mc3_opt_d">
-          <p><c>2 + 6 / 3</c> is not computed first.</p>
+        <feedback>
+          <c>2 + 6 / 3</c> is not computed first.
         </feedback>
       </choice>
     </choices>
@@ -169,8 +169,8 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>6</c>
           </p>
         </statement>
-        <feedback id="VARS_mc4_opt_a">
-          <p>The variables <c>y</c> and <c>z</c> have been re-assigned.</p>
+        <feedback>
+          The variables <c>y</c> and <c>z</c> have been re-assigned.
         </feedback>
       </choice>
       <choice>
@@ -179,8 +179,8 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>10</c>
           </p>
         </statement>
-        <feedback id="VARS_mc4_opt_b">
-          <p>This would be correct if we had written <c>cout &lt;&lt; x + z</c>.</p>
+        <feedback>
+          This would be correct if we had written <c>cout &lt;&lt; x + z</c>.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -189,9 +189,9 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>16</c>
           </p>
         </statement>
-        <feedback id="VARS_mc4_opt_c">
-          <p>Walking through each line of code and keeping track of variables, like you just did, is
-            called <term>tracing</term>.</p>
+        <feedback>
+          Walking through each line of code and keeping track of variables, like you just did, is
+            called <term>tracing</term>.
         </feedback>
       </choice>
       <choice>
@@ -200,9 +200,9 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>yz</c>
           </p>
         </statement>
-        <feedback id="VARS_mc4_opt_d">
-          <p>If y and z were characters <c>'y'</c> and <c>'z'</c>, it would be legal to add them together.
-            But the result <c>243</c> might surprise you!</p>
+        <feedback>
+          If y and z were characters <c>'y'</c> and <c>'z'</c>, it would be legal to add them together.
+            But the result <c>243</c> might surprise you!
         </feedback>
       </choice>
     </choices>
@@ -224,40 +224,40 @@ x = 2 + (13 - 5) * 2 + 6 /3;
         <statement id="VARS_mc5_opt_a">
           <p>declaring <c>c</c> as an int.</p>
         </statement>
-        <feedback id="VARS_mc5_opt_a">
-          <p>This will still result in an error.</p>
+        <feedback>
+          This will still result in an error.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc5_opt_b">
           <p>declaring <c>c</c> as a string.</p>
         </statement>
-        <feedback id="VARS_mc5_opt_b">
-          <p>This clears up the type mismatch on line 4.</p>
+        <feedback>
+          This clears up the type mismatch on line 4.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc5_opt_c">
           <p>declaring <c>d</c> as a char.</p>
         </statement>
-        <feedback id="VARS_mc5_opt_c">
-          <p>Although the code will still run, it won't give correct output.</p>
+        <feedback>
+          Although the code will still run, it won't give correct output.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc5_opt_d">
           <p>Line 4 is replaced with <c>c = 3</c></p>
         </statement>
-        <feedback id="VARS_mc5_opt_d">
-          <p>Although the code will still run, it won't give correct output.</p>
+        <feedback>
+          Although the code will still run, it won't give correct output.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc5_opt_e">
           <p>Line 4 is replaced with <c>c = '3'</c></p>
         </statement>
-        <feedback id="VARS_mc5_opt_e">
-          <p>This clears up the type mismatch on line 4.</p>
+        <feedback>
+          This clears up the type mismatch on line 4.
         </feedback>
       </choice>
     </choices>
@@ -283,9 +283,9 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>My favorite fruit is pineapple</c>
           </p>
         </statement>
-        <feedback id="VARS_mc6_opt_a">
-          <p><c>pineapple</c> is the name of the variable, but it's not necessarily the value of that
-            variable.</p>
+        <feedback>
+          <c>pineapple</c> is the name of the variable, but it's not necessarily the value of that
+            variable.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -294,8 +294,8 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>My favorite fruit is bananas</c>
           </p>
         </statement>
-        <feedback id="VARS_mc6_opt_b">
-          <p><c>pineapple = apples</c>, and <c>apples = "bananas"</c>.</p>
+        <feedback>
+          <c>pineapple = apples</c>, and <c>apples = "bananas"</c>.
         </feedback>
       </choice>
       <choice>
@@ -304,8 +304,8 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>My favorite fruit is apples</c>
           </p>
         </statement>
-        <feedback id="VARS_mc6_opt_c">
-          <p><c>pineapple = apples</c>, but what does <c>apples</c> equal?</p>
+        <feedback>
+          <c>pineapple = apples</c>, but what does <c>apples</c> equal?
         </feedback>
       </choice>
       <choice>
@@ -314,17 +314,17 @@ x = 2 + (13 - 5) * 2 + 6 /3;
             <c>My favorite fruit is mango</c>
           </p>
         </statement>
-        <feedback id="VARS_mc6_opt_d">
-          <p><c>"mango"</c> is the value of the variable <c>pineapple</c> at the end of <c>main</c>, but not at the line
-            of the <c>cout</c>.</p>
+        <feedback>
+          <c>"mango"</c> is the value of the variable <c>pineapple</c> at the end of <c>main</c>, but not at the line
+            of the <c>cout</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc6_opt_e">
           <p>Compile error.</p>
         </statement>
-        <feedback id="VARS_mc6_opt_e">
-          <p>There are no syntax errors that will cause an issue compiling.</p>
+        <feedback>
+          There are no syntax errors that will cause an issue compiling.
         </feedback>
       </choice>
     </choices>
@@ -345,43 +345,43 @@ x = 2 + (13 - 5) * 2 + 6 /3;
         <statement id="VARS_mc7_opt_a">
           <p>line 2, a variable cannot have the same name as its value</p>
         </statement>
-        <feedback id="VARS_mc7_opt_a">
-          <p>A variable can have any value&#x2026; as long as the types are the same.</p>
+        <feedback>
+          A variable can have any value&#x2026; as long as the types are the same.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc7_opt_b">
           <p>line 3, you cannot have a variable named friend</p>
         </statement>
-        <feedback id="VARS_mc7_opt_b">
-          <p><c>friend</c> is a reserved keyword in C++ and can't be used as a variable name. What a
-            shame, since Tom and Jerry are the best of friends!</p>
+        <feedback>
+          <c>friend</c> is a reserved keyword in C++ and can't be used as a variable name. What a
+            shame, since Tom and Jerry are the best of friends!
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc7_opt_c">
           <p>line 5, you cannot have two statements on the same line</p>
         </statement>
-        <feedback id="VARS_mc7_opt_c">
-          <p>You can have as many statements as you want on one line, as long as you terminate each
-            one with a semicolon.</p>
+        <feedback>
+          You can have as many statements as you want on one line, as long as you terminate each
+            one with a semicolon.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc7_opt_d">
           <p>No error, <c>Tom is friends with Jerry</c></p>
         </statement>
-        <feedback id="VARS_mc7_opt_d">
-          <p>If the code runs, C++ doesn't automatically add spaces between consecutive strings.</p>
+        <feedback>
+          If the code runs, C++ doesn't automatically add spaces between consecutive strings.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc7_opt_e">
           <p>No error, <c>Tomis friends withJerry</c></p>
         </statement>
-        <feedback id="VARS_mc7_opt_e">
-          <p>If the error was corrected, this would be the output. Unfortunately, there is an error
-            that prevents this line from executing.</p>
+        <feedback>
+          If the error was corrected, this would be the output. Unfortunately, there is an error
+            that prevents this line from executing.
         </feedback>
       </choice>
     </choices>
@@ -403,44 +403,44 @@ x = 2 + (13 - 5) * 2 + 6 /3;
         <statement id="VARS_mc8_opt_a">
           <p>Regina</p>
         </statement>
-        <feedback id="VARS_mc8_opt_a">
-          <p>Using the order of operations we have Regina scoring 30 / 100.</p>
+        <feedback>
+          Using the order of operations we have Regina scoring 30 / 100.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc8_opt_b">
           <p>Gretchen</p>
         </statement>
-        <feedback id="VARS_mc8_opt_b">
-          <p>Using the order of operations we have Gretchen scoring 48 / 100.</p>
+        <feedback>
+          Using the order of operations we have Gretchen scoring 48 / 100.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc8_opt_c">
           <p>Karen</p>
         </statement>
-        <feedback id="VARS_mc8_opt_c">
-          <p><c>6 * 3 = 18</c>, and <c>18 + 2 / 100 = 18</c> due to integer division. Believe it or not, due to the order of
+        <feedback>
+          <c>6 * 3 = 18</c>, and <c>18 + 2 / 100 = 18</c> due to integer division. Believe it or not, due to the order of
             operations and integer division, Karen ended up with the highest <q>score</q> at the end
-            of the program's execution.</p>
+            of the program's execution.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc8_opt_d">
           <p>Cady</p>
         </statement>
-        <feedback id="VARS_mc8_opt_d">
-          <p>Using the order of operations we have Mathlete Cady scoring 90 / 100. this would be the
-            highest score&#x2026; if it weren't for integer division.</p>
+        <feedback>
+          Using the order of operations we have Mathlete Cady scoring 90 / 100. this would be the
+            highest score&#x2026; if it weren't for integer division.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc8_opt_e">
           <p>They all got 0's.</p>
         </statement>
-        <feedback id="VARS_mc8_opt_e">
-          <p>Integer division rounds the quotient down to the nearest integer. Take a closer look at
-            what is being divided on each line, because not everyone recieved a zero!</p>
+        <feedback>
+          Integer division rounds the quotient down to the nearest integer. Take a closer look at
+            what is being divided on each line, because not everyone recieved a zero!
         </feedback>
       </choice>
     </choices>
@@ -461,41 +461,41 @@ x = 2 + (13 - 5) * 2 + 6 /3;
         <statement id="VARS_mc9_opt_a">
           <p>line 2, a variable cannot have the same name as its value</p>
         </statement>
-        <feedback id="VARS_mc9_opt_a">
-          <p>A variable can have any value&#x2026; as long as the types are the same.</p>
+        <feedback>
+          A variable can have any value&#x2026; as long as the types are the same.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc9_opt_b">
           <p>line 4, you cannot add an integer to a character</p>
         </statement>
-        <feedback id="VARS_mc9_opt_b">
-          <p>Actually, C++ supports character operations! This is legal.</p>
+        <feedback>
+          Actually, C++ supports character operations! This is legal.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc9_opt_c">
           <p>No error, <c>rx</c></p>
         </statement>
-        <feedback id="VARS_mc9_opt_c">
-          <p><c>x</c> is an integer, so what we really have is <c>r = r + 3</c>.</p>
+        <feedback>
+          <c>x</c> is an integer, so what we really have is <c>r = r + 3</c>.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc9_opt_d">
           <p>No error, <c>r</c></p>
         </statement>
-        <feedback id="VARS_mc9_opt_d">
-          <p><c>'r'</c> isn't necessarily the value of <c>r</c>. Take a look at line 4.</p>
+        <feedback>
+          <c>'r'</c> isn't necessarily the value of <c>r</c>. Take a look at line 4.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="VARS_mc9_opt_e">
           <p>No error, <c>u</c></p>
         </statement>
-        <feedback id="VARS_mc9_opt_e">
-          <p>&#x2018;u' is three letters after &#x2018;r', so on line 4, the value of <c>u</c>
-            becomes the value of <c>r</c>.</p>
+        <feedback>
+          &#x2018;u' is three letters after &#x2018;r', so on line 4, the value of <c>u</c>
+            becomes the value of <c>r</c>.
         </feedback>
       </choice>
     </choices>
@@ -513,41 +513,41 @@ x = 2 + (13 - 5) * 2 + 6 /3;
         <statement id="VARS_mc10_opt_a">
           <p>semantic error</p>
         </statement>
-        <feedback id="VARS_mc10_opt_a">
-          <p>With integer division, <c>1 / 3</c> becomes 0. Multiplying 0 by the rest of the expression
-            will always return 0, which is not what you want your program to do!</p>
+        <feedback>
+          With integer division, <c>1 / 3</c> becomes 0. Multiplying 0 by the rest of the expression
+            will always return 0, which is not what you want your program to do!
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc10_opt_b">
           <p>syntax error</p>
         </statement>
-        <feedback id="VARS_mc10_opt_b">
-          <p>There is nothing wrong with the structure of your program.</p>
+        <feedback>
+          There is nothing wrong with the structure of your program.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc10_opt_c">
           <p>run-time error</p>
         </statement>
-        <feedback id="VARS_mc10_opt_c">
-          <p>There are no errors that will surface at run-time.</p>
+        <feedback>
+          There are no errors that will surface at run-time.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc10_opt_d">
           <p>You can't calculate and return on the same line!</p>
         </statement>
-        <feedback id="VARS_mc10_opt_d">
-          <p>You actually can, this is called composition.</p>
+        <feedback>
+          You actually can, this is called composition.
         </feedback>
       </choice>
       <choice>
         <statement id="VARS_mc10_opt_e">
           <p>Nothing! There is not an error.</p>
         </statement>
-        <feedback id="VARS_mc10_opt_e">
-          <p>This formula will return a volume, but is it correct?</p>
+        <feedback>
+          This formula will return a volume, but is it correct?
         </feedback>
       </choice>
     </choices>

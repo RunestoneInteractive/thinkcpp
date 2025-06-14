@@ -100,32 +100,32 @@ int main() {
         <statement id="structures_return_types_1_opt_a">
           <p><c>addTwo</c>, <c>printPoint</c>, <c>findCenter</c></p>
         </statement>
-        <feedback id="structures_return_types_1_opt_a">
-          <p>Look at the return type, found before the function name in its definition.</p>
+        <feedback>
+          Look at the return type, found before the function name in its definition.
         </feedback>
       </choice>
       <choice>
         <statement id="structures_return_types_1_opt_b">
           <p><c>printPoint</c>, <c>findCenter</c></p>
         </statement>
-        <feedback id="structures_return_types_1_opt_b">
-          <p>Look at the return type, found before the function name in its definition.</p>
+        <feedback>
+          Look at the return type, found before the function name in its definition.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="structures_return_types_1_opt_c">
           <p><c>addTwo</c>, <c>findCenter</c></p>
         </statement>
-        <feedback id="structures_return_types_1_opt_c">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
         <statement id="structures_return_types_1_opt_d">
           <p><c>Point</c>, <c>Rectangle</c></p>
         </statement>
-        <feedback id="structures_return_types_1_opt_d">
-          <p>These are structures, not functions.</p>
+        <feedback>
+          These are structures, not functions.
         </feedback>
       </choice>
     </choices>

@@ -141,7 +141,7 @@ rank = Rank(rank+1);</program>
           <p>Perform arithmetic.</p>
         </statement>
         <feedback>
-          <p>We are not allowed to do arithmetic with enumerated types.</p>
+          We are not allowed to do arithmetic with enumerated types.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -149,7 +149,7 @@ rank = Rank(rank+1);</program>
           <p>Include a mapping as part of the program.</p>
         </statement>
         <feedback>
-          <p>This is the purpose of an enumerated type.</p>
+          This is the purpose of an enumerated type.
         </feedback>
       </choice>
       <choice>
@@ -157,7 +157,7 @@ rank = Rank(rank+1);</program>
           <p>Use the same set of values in multiple mappings.</p>
         </statement>
         <feedback>
-          <p>Variables in one enumeration type cannot be used in another enumeration type.</p>
+          Variables in one enumeration type cannot be used in another enumeration type.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -165,7 +165,7 @@ rank = Rank(rank+1);</program>
           <p>Define the set of values that make up a mapping.</p>
         </statement>
         <feedback>
-          <p>This is the purpose of an enumerated type.</p>
+          This is the purpose of an enumerated type.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -173,8 +173,8 @@ rank = Rank(rank+1);</program>
           <p>Use them as indices for a vector.</p>
         </statement>
         <feedback>
-          <p>Since the values in enumerated types are represented as integers, we can use them as
-            vector indices.</p>
+          Since the values in enumerated types are represented as integers, we can use them as
+            vector indices.
         </feedback>
       </choice>
     </choices>
@@ -213,7 +213,7 @@ int main() {
           <p>Who ordered a triple scoop of Cookies 'n' Cream in a sugar cone?</p>
         </statement>
         <feedback>
-          <p>Remember that we performed an override for one of the enumerated types!</p>
+          Remember that we performed an override for one of the enumerated types!
         </feedback>
       </choice>
       <choice>
@@ -221,7 +221,7 @@ int main() {
           <p>Who ordered a double scoop of Strawberry in a cake cone?</p>
         </statement>
         <feedback>
-          <p>Remember that the default enumeration starts at 0.</p>
+          Remember that the default enumeration starts at 0.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -229,8 +229,8 @@ int main() {
           <p>Who ordered a double scoop of Cookies 'n' Cream in a sugar cone?</p>
         </statement>
         <feedback>
-          <p>2 corresponds to "double", 3 corresponds to "Cookies 'n' Cream", and 2 corresponds to
-            "sugar cone".</p>
+          2 corresponds to "double", 3 corresponds to "Cookies 'n' Cream", and 2 corresponds to
+            "sugar cone".
         </feedback>
       </choice>
       <choice>
@@ -238,8 +238,8 @@ int main() {
           <p>Who ordered a triple scoop of Strawberry in a cake cone?</p>
         </statement>
         <feedback>
-          <p>Remember that we performed an override for one of the enumerated types! The default
-            enumeration starts at 0.</p>
+          Remember that we performed an override for one of the enumerated types! The default
+            enumeration starts at 0.
         </feedback>
       </choice>
       <choice>
@@ -247,29 +247,22 @@ int main() {
           <p>Who ordered a triple scoop of Mint Chocolate Chip in a Waffle Cone?</p>
         </statement>
         <feedback>
-          <p>Take another look at how we defined our enumerated types.</p>
+          Take another look at how we defined our enumerated types.
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="enum_type_3">
     <statement>
-      <p>Based on the <c>Rank</c> enumerated type, what integer value does <c>QUEEN</c> have? <var/>
+      <p>Based on the <c>Rank</c> enumerated type, what integer value does <c>QUEEN</c> have? <fillin mode="string" case="insensitive" answer="12|twelve"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*12|twelve\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Incorrect! Try again.</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

@@ -12,10 +12,10 @@ double x = cos(angle + pi / 2);
   <p>You can also take the result of one function and pass it as an argument
     to another:</p>
   <listing label="function_comp_AC_1">
-    <caption>
+    <title>
       This program finds the log base e of 10 and raises e to that power. The
         result of this computation is assigned to x.
-    </caption>
+    </title>
     <program xml:id="function_comp_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -42,10 +42,10 @@ int main() {
             <c>double x = log6(12);</c>
           </p>
         </statement>
-        <feedback id="function_comp_1_opt_a">
-          <p><c>log6</c> is not a built in cmath function, but you could write an implementation for it
-            if you wanted!</p>
-        </feedback>
+        <feedback><p>
+          <c>log6</c> is not a built in cmath function, but you could write an implementation for it
+            if you wanted!
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="function_comp_1_opt_b">
@@ -53,9 +53,9 @@ int main() {
             <c>double val = abs(tan(1.57));</c>
           </p>
         </statement>
-        <feedback id="function_comp_1_opt_b">
-          <p>This correctly uses cmath functions!</p>
-        </feedback>
+        <feedback><p>
+          This correctly uses cmath functions!
+        </p></feedback>
       </choice>
       <choice>
         <statement id="function_comp_1_opt_c">
@@ -63,9 +63,9 @@ int main() {
             <c>double num = exp(cosine(0.86667));</c>
           </p>
         </statement>
-        <feedback id="function_comp_1_opt_c">
-          <p><c>cosine</c> is not a built in cmath function, but <c>cos</c> is!</p>
-        </feedback>
+        <feedback><p>
+          <c>cosine</c> is not a built in cmath function, but <c>cos</c> is!
+        </p></feedback>
       </choice>
       <choice>
         <statement id="function_comp_1_opt_d">
@@ -73,9 +73,9 @@ int main() {
             <c>double y = exp(cos(1.047)) + exp(tan(2.094))</c>
           </p>
         </statement>
-        <feedback id="function_comp_1_opt_d">
-          <p>This would be correct if it ended in a semi-colon.</p>
-        </feedback>
+        <feedback><p>
+          This would be correct if it ended in a semi-colon.
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -91,9 +91,9 @@ int main() {
             <c>y = cos(330);</c>
           </p>
         </statement>
-        <feedback id="function_comp_2_opt_a">
-          <p>You must always convert to radians before using sinusoidal functions.</p>
-        </feedback>
+        <feedback><p>
+          You must always convert to radians before using sinusoidal functions.
+        </p></feedback>
       </choice>
       <choice>
         <statement id="function_comp_2_opt_b">
@@ -101,9 +101,9 @@ int main() {
             <c>y = cos(330 * 2 * pi / 360);</c>
           </p>
         </statement>
-        <feedback id="function_comp_2_opt_b">
-          <p><c>cos</c> will return the x-component.</p>
-        </feedback>
+        <feedback><p>
+          <c>cos</c> will return the x-component.
+        </p></feedback>
       </choice>
       <choice>
         <statement id="function_comp_2_opt_c">
@@ -111,9 +111,9 @@ int main() {
             <c>y = sin(330);</c>
           </p>
         </statement>
-        <feedback id="function_comp_2_opt_c">
-          <p>You must always convert to radians before using sinusoidal functions.</p>
-        </feedback>
+        <feedback><p>
+          You must always convert to radians before using sinusoidal functions.
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="function_comp_2_opt_d">
@@ -121,9 +121,9 @@ int main() {
             <c>y = sin(330 * 2 * pi / 360);</c>
           </p>
         </statement>
-        <feedback id="function_comp_2_opt_d">
-          <p><c>sin</c> returns the y-component, <c>cos</c> returns the x-component.</p>
-        </feedback>
+        <feedback><p>
+          <c>sin</c> returns the y-component, <c>cos</c> returns the x-component.
+        </p></feedback>
       </choice>
       <choice>
         <statement id="function_comp_2_opt_e">
@@ -131,9 +131,9 @@ int main() {
             <c>y = tan(330 * 2 * pi / 360);</c>
           </p>
         </statement>
-        <feedback id="function_comp_2_opt_e">
-          <p><c>tan</c> is not the proper function to use here.</p>
-        </feedback>
+        <feedback><p>
+          <c>tan</c> is not the proper function to use here.
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

@@ -62,8 +62,8 @@ int main() {
             <c><![CDATA[cout << "Price is " << "p.dollar" << " dollars and" << "p.cents" << "cents." << endl;]]></c>
           </p>
         </statement>
-        <feedback id="printTime_1_opt_a">
-          <p>Try again. We want to print the values rather than statements.</p>
+        <feedback>
+          Try again. We want to print the values rather than statements.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -72,8 +72,8 @@ int main() {
             <c><![CDATA[cout << "Price is " << p.dollar << " dollars and " << p.cents << " cents." << endl;]]></c>
           </p>
         </statement>
-        <feedback id="printTime_1_opt_b">
-          <p>Correct!</p>
+        <feedback>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -82,8 +82,8 @@ int main() {
             <c><![CDATA[cout << "Price is " << p.dollar << " dollars and " << p.cents << " cents." << endl]]></c>
           </p>
         </statement>
-        <feedback id="printTime_1_opt_c">
-          <p>This would not compile. There is an important character that ends nearly all statements in C++.</p>
+        <feedback>
+          This would not compile. There is an important character that ends nearly all statements in C++.
         </feedback>
       </choice>
     </choices>

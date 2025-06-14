@@ -28,7 +28,7 @@ for (int i = 0; i &lt; numValues; i++) {
             zero.</p>
         </statement>
         <feedback>
-          <p>Incorrect! Variables are not automatically initialized.</p>
+          Incorrect! Variables are not automatically initialized.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -36,8 +36,8 @@ for (int i = 0; i &lt; numValues; i++) {
           <p>Your code might run, but it probably won't produce the output you desire.</p>
         </statement>
         <feedback>
-          <p>Correct! C++ might assign unused memory to the uninitialized variable, which will allow
-            the code to run, but counts may be off.</p>
+          Correct! C++ might assign unused memory to the uninitialized variable, which will allow
+            the code to run, but counts may be off.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -45,7 +45,7 @@ for (int i = 0; i &lt; numValues; i++) {
           <p>You might get an error for using an uninitialized variable.</p>
         </statement>
         <feedback>
-          <p>Correct! Depening on your compiler, you might be lucky enough to get an error message.</p>
+          Correct! Depening on your compiler, you might be lucky enough to get an error message.
         </feedback>
       </choice>
       <choice>
@@ -53,7 +53,7 @@ for (int i = 0; i &lt; numValues; i++) {
           <p>Your program will crash.</p>
         </statement>
         <feedback>
-          <p>Incorrect! You might get a compile error, but your program will not crash.</p>
+          Incorrect! You might get a compile error, but your program will not crash.
         </feedback>
       </choice>
     </choices>

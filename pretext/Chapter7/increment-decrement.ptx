@@ -88,7 +88,7 @@ index = index++;             // WRONG!!
       <p>Click on the incorrect or not suggested increment statements.</p>
     </statement>
     <feedback>
-      <p>Re-read the text above and try again.</p>
+      Re-read the text above and try again.
     </feedback>
     <areas>
       <cline><area correct="no">count = count + 1;</area></cline>
@@ -117,7 +117,7 @@ while (x < 0) {
           <p>5 4 3 2 1</p>
         </statement>
         <feedback>
-          <p>Notice that x is negative.</p>
+          Notice that x is negative.
         </feedback>
       </choice>
       <choice>
@@ -125,7 +125,7 @@ while (x < 0) {
           <p>-5 -4 -3 -2 -1</p>
         </statement>
         <feedback>
-          <p>Notice that the value of x is incremented before it is printed.</p>
+          Notice that the value of x is incremented before it is printed.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -133,7 +133,7 @@ while (x < 0) {
           <p>-4 -3 -2 -1 0</p>
         </statement>
         <feedback>
-          <p>The value of x is incremented before it is printed so the first value printed is -4.</p>
+          The value of x is incremented before it is printed so the first value printed is -4.
         </feedback>
       </choice>
     </choices>

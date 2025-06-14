@@ -65,7 +65,7 @@ int main() {
           <p>counter</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
       <choice>
@@ -73,7 +73,7 @@ int main() {
           <p>loop variable</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -81,7 +81,7 @@ int main() {
           <p>Both a and b</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -89,7 +89,7 @@ int main() {
           <p>None of the above</p>
         </statement>
         <feedback>
-          <p>Try again!</p>
+          Try again!
         </feedback>
       </choice>
     </choices>
@@ -121,7 +121,7 @@ int main() {
           <p><![CDATA[Change the first output statement to say cout << 3 * x << endl;]]></p>
         </statement>
         <feedback>
-          <p>The addition of the endl will print the multiples of three on separate lines.</p>
+          The addition of the endl will print the multiples of three on separate lines.
         </feedback>
       </choice>
       <choice>
@@ -129,9 +129,9 @@ int main() {
           <p><![CDATA[Change the first output statement to say cout << 3 * x << \n;]]></p>
         </statement>
         <feedback>
-          <p>A newline character must be used in conjunction with a string. In this case, we are
+          A newline character must be used in conjunction with a string. In this case, we are
             outputting an integer. To use a newline character in this scenario you must use quotes
-            around it. (ex. "\n")</p>
+            around it. (ex. "\n")
         </feedback>
       </choice>
       <choice>
@@ -139,8 +139,8 @@ int main() {
           <p><![CDATA[Change the second output statement to say cout << endl << endl;]]></p>
         </statement>
         <feedback>
-          <p>This would simply print out two new lines after all of the multiples have already
-            printed on one line.</p>
+          This would simply print out two new lines after all of the multiples have already
+            printed on one line.
         </feedback>
       </choice>
       <choice>
@@ -148,7 +148,7 @@ int main() {
           <p>This code already prints each multiple on its own line.</p>
         </statement>
         <feedback>
-          <p>This code prints all multiples out on one line.</p>
+          This code prints all multiples out on one line.
         </feedback>
       </choice>
     </choices>

@@ -24,36 +24,36 @@ int main() {
         <statement id="mce_6_1_opt_a">
           <p>0</p>
         </statement>
-        <feedback id="mce_6_1_opt_a">
-          <p><c>x</c> is initialized to 0, but it's value is reassigned in the while loop. Can you
-            figure out what the final value assigned to <c>x</c> is?</p>
+        <feedback>
+          <c>x</c> is initialized to 0, but it's value is reassigned in the while loop. Can you
+            figure out what the final value assigned to <c>x</c> is?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_1_opt_b">
           <p>1</p>
         </statement>
-        <feedback id="mce_6_1_opt_b">
-          <p>When <c>i</c> is 1, <c>x</c> is assigned the value of <c>i</c>, so <c>x</c> is 1. However,
-            the while loop continuously increments i, so the final value of <c>x</c> is not 1.</p>
+        <feedback>
+          When <c>i</c> is 1, <c>x</c> is assigned the value of <c>i</c>, so <c>x</c> is 1. However,
+            the while loop continuously increments i, so the final value of <c>x</c> is not 1.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_6_1_opt_c">
           <p>9</p>
         </statement>
-        <feedback id="mce_6_1_opt_c">
-          <p><c>x</c> is assigned the value of 9 during the last iteration of the while loop, and
-            thus 9 is the output of the program.</p>
+        <feedback>
+          <c>x</c> is assigned the value of 9 during the last iteration of the while loop, and
+            thus 9 is the output of the program.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_1_opt_d">
           <p>10</p>
         </statement>
-        <feedback id="mce_6_1_opt_d">
-          <p><c>i</c> is incremented to a value of 10, but since <c>i &lt; 10</c> is false, the contents of
-            the while loop is not executed, so <c>x</c> is never assigned the value of 10.</p>
+        <feedback>
+          <c>i</c> is incremented to a value of 10, but since <c>i &lt; 10</c> is false, the contents of
+            the while loop is not executed, so <c>x</c> is never assigned the value of 10.
         </feedback>
       </choice>
     </choices>
@@ -81,34 +81,34 @@ int main() {
         <statement id="mce_6_2_opt_a">
           <p>0</p>
         </statement>
-        <feedback id="mce_6_2_opt_a">
-          <p><c>i</c> is initialized with a value of 1 and is incremented, so it will never have a
-            value of 0.</p>
+        <feedback>
+          <c>i</c> is initialized with a value of 1 and is incremented, so it will never have a
+            value of 0.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_2_opt_b">
           <p>1</p>
         </statement>
-        <feedback id="mce_6_2_opt_b">
-          <p><c>i</c> is initialized with a value of 1 but it is incremented during the while loop.</p>
+        <feedback>
+          <c>i</c> is initialized with a value of 1 but it is incremented during the while loop.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_2_opt_c">
           <p>9</p>
         </statement>
-        <feedback id="mce_6_2_opt_c">
-          <p>This is the final value of <c>x</c> when the code is finished running.</p>
+        <feedback>
+          This is the final value of <c>x</c> when the code is finished running.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_6_2_opt_d">
           <p>10</p>
         </statement>
-        <feedback id="mce_6_2_opt_d">
-          <p>In order for the while loop to terminate, the condition <c>i &lt; 10</c> must be false, and this
-            is achieved when <c>i</c> is incremented to 10.</p>
+        <feedback>
+          In order for the while loop to terminate, the condition <c>i &lt; 10</c> must be false, and this
+            is achieved when <c>i</c> is incremented to 10.
         </feedback>
       </choice>
     </choices>
@@ -135,32 +135,32 @@ int main() {
         <statement id="mce_6_3_opt_a">
           <p>1</p>
         </statement>
-        <feedback id="mce_6_3_opt_a">
-          <p>Take a closer look at the while loop and conditional.</p>
+        <feedback>
+          Take a closer look at the while loop and conditional.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_3_opt_b">
           <p>3</p>
         </statement>
-        <feedback id="mce_6_3_opt_b">
-          <p>Take a closer look at the while loop and conditional.</p>
+        <feedback>
+          Take a closer look at the while loop and conditional.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_3_opt_c">
           <p>5</p>
         </statement>
-        <feedback id="mce_6_3_opt_c">
-          <p>Take a closer look at the while loop and conditional.</p>
+        <feedback>
+          Take a closer look at the while loop and conditional.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_6_3_opt_d">
           <p>The loop will run infinitely.</p>
         </statement>
-        <feedback id="mce_6_3_opt_d">
-          <p>The value of <c>i</c> will always be greater than 2, resulting in an infinite loop.</p>
+        <feedback>
+          The value of <c>i</c> will always be greater than 2, resulting in an infinite loop.
         </feedback>
       </choice>
     </choices>
@@ -194,34 +194,34 @@ int main() {
         <statement id="mce_6_4_opt_a">
           <p>People really like Joe's Pizza.</p>
         </statement>
-        <feedback id="mce_6_4_opt_a">
-          <p>Take a closer look at the while loop condition.</p>
+        <feedback>
+          Take a closer look at the while loop condition.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_6_4_opt_b">
           <p>People really really really like Joe's Pizza.</p>
         </statement>
-        <feedback id="mce_6_4_opt_b">
-          <p>The code will print out three <q>really</q>s, two from evaluating the while loop
+        <feedback>
+          The code will print out three <q>really</q>s, two from evaluating the while loop
             condition and one from evaluating the if condition before printing out <q>like Joe's
-            Pizza</q></p>
+            Pizza</q>
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_4_opt_c">
           <p>People really really really really really like Joe's Pizza.</p>
         </statement>
-        <feedback id="mce_6_4_opt_c">
-          <p>Take a closer look at the while loop condition.</p>
+        <feedback>
+          Take a closer look at the while loop condition.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_4_opt_d">
           <p>The loop will run infinetly.</p>
         </statement>
-        <feedback id="mce_6_4_opt_d">
-          <p>Take a closer look at the while loop condition and reassignment of <c>i</c></p>
+        <feedback>
+          Take a closer look at the while loop condition and reassignment of <c>i</c>
         </feedback>
       </choice>
     </choices>
@@ -250,33 +250,33 @@ int main() {
         <statement id="mce_6_5_opt_a">
           <p>na na na na na na na na Batman!</p>
         </statement>
-        <feedback id="mce_6_5_opt_a">
-          <p>The code prints out eight <q>na</q>s before printing out <q>Batman!</q></p>
+        <feedback>
+          The code prints out eight <q>na</q>s before printing out <q>Batman!</q>
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_5_opt_b">
           <p>na na na na na na na Batman!</p>
         </statement>
-        <feedback id="mce_6_5_opt_b">
-          <p>Look over the code carefully. There are output statements before the while loop.</p>
+        <feedback>
+          Look over the code carefully. There are output statements before the while loop.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_5_opt_c">
           <p>Da na na na na na na na na Batman!</p>
         </statement>
-        <feedback id="mce_6_5_opt_c">
-          <p>Will <q>Da</q> ever be printed?</p>
+        <feedback>
+          Will <q>Da</q> ever be printed?
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_5_opt_d">
           <p>It will result in an infinite loop.</p>
         </statement>
-        <feedback id="mce_6_5_opt_d">
-          <p>Since we repeatedly decrement <c>n</c> inside the while loop, it will eventually be
-            equal to 3 and the while loop will terminate.</p>
+        <feedback>
+          Since we repeatedly decrement <c>n</c> inside the while loop, it will eventually be
+            equal to 3 and the while loop will terminate.
         </feedback>
       </choice>
     </choices>
@@ -304,33 +304,33 @@ int main() {
         <statement id="mce_6_6_opt_a">
           <p>Batman!</p>
         </statement>
-        <feedback id="mce_6_6_opt_a">
-          <p>Take a closer look at the while loop.</p>
+        <feedback>
+          Take a closer look at the while loop.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_6_opt_b">
           <p>Da Batman!</p>
         </statement>
-        <feedback id="mce_6_6_opt_b">
-          <p>Take a closer look at the while loop.</p>
+        <feedback>
+          Take a closer look at the while loop.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_6_opt_c">
           <p>Da na na na na na na na na Batman!</p>
         </statement>
-        <feedback id="mce_6_6_opt_c">
-          <p>Take a closer look at the while loop.</p>
+        <feedback>
+          Take a closer look at the while loop.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_6_6_opt_d">
           <p>It will result in an infinite loop.</p>
         </statement>
-        <feedback id="mce_6_6_opt_d">
-          <p>Since we never change the value of <c>n</c>, 10 will never equal 3 so the code will run
-            forever.</p>
+        <feedback>
+          Since we never change the value of <c>n</c>, 10 will never equal 3 so the code will run
+            forever.
         </feedback>
       </choice>
     </choices>
@@ -356,33 +356,33 @@ int main() {
         <statement id="mce_6_7_opt_a">
           <p>The first six perfect fifths.</p>
         </statement>
-        <feedback id="mce_6_7_opt_a">
-          <p>Take a closer look at the while loop and what <c>x</c> was initialized to.</p>
+        <feedback>
+          Take a closer look at the while loop and what <c>x</c> was initialized to.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_7_opt_b">
           <p>The first six perfect squares.</p>
         </statement>
-        <feedback id="mce_6_7_opt_b">
-          <p>Take a closer look at the while loop and what <c>x</c> was initialized to.</p>
+        <feedback>
+          Take a closer look at the while loop and what <c>x</c> was initialized to.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_6_7_opt_c">
           <p>The first five perfect squares.</p>
         </statement>
-        <feedback id="mce_6_7_opt_c">
-          <p>Dividing <c>x</c> to the power of 5 by <c>x</c> to the power of 3 effectively results in
-            perfect squares.</p>
+        <feedback>
+          Dividing <c>x</c> to the power of 5 by <c>x</c> to the power of 3 effectively results in
+            perfect squares.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_7_opt_d">
           <p>The first five perfect cubes.</p>
         </statement>
-        <feedback id="mce_6_7_opt_d">
-          <p>Take a closer look at the mathematical expression inside the while loop.</p>
+        <feedback>
+          Take a closer look at the mathematical expression inside the while loop.
         </feedback>
       </choice>
     </choices>
@@ -411,8 +411,8 @@ int main() {
         <statement id="mce_6_8_opt_a">
           <p>We're using the same variable, but just reassigning the value from 0 to 1.</p>
         </statement>
-        <feedback id="mce_6_8_opt_a">
-          <p>We are actually using two different variables that happen to have the same name.</p>
+        <feedback>
+          We are actually using two different variables that happen to have the same name.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -420,9 +420,9 @@ int main() {
           <p>Although the name of both variables is <c>x</c>, they represent different locations in
             memory, and thus are different variables.</p>
         </statement>
-        <feedback id="mce_6_8_opt_b">
-          <p>One <c>x</c> is a local variable of <c>superSecretFunction</c> while the other is a local variable of <c>main</c>
-            .</p>
+        <feedback>
+          One <c>x</c> is a local variable of <c>superSecretFunction</c> while the other is a local variable of <c>main</c>
+            .
         </feedback>
       </choice>
       <choice>
@@ -430,17 +430,17 @@ int main() {
           <p>We can assign them different values but not the same value. Thus, if both were
             initialized to 0, then we'd get an error.</p>
         </statement>
-        <feedback id="mce_6_8_opt_c">
-          <p>Since they are not in the same storage location, they can store any value, including
-            the same value.</p>
+        <feedback>
+          Since they are not in the same storage location, they can store any value, including
+            the same value.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_8_opt_d">
           <p>We're not allowed to do this. The code will result in an error.</p>
         </statement>
-        <feedback id="mce_6_8_opt_d">
-          <p>The code does not produce an error.</p>
+        <feedback>
+          The code does not produce an error.
         </feedback>
       </choice>
     </choices>
@@ -471,33 +471,33 @@ int main() {
         <statement id="mce_6_9_opt_a">
           <p>51510</p>
         </statement>
-        <feedback id="mce_6_9_opt_a">
-          <p><c>n</c> is repeatedly incremented by 3 until it is divisible by 5, and this happens
-            when <c>n</c> is 5, 15, and 10 for the inputs of 2, 3, and 4 respectively.</p>
+        <feedback>
+          <c>n</c> is repeatedly incremented by 3 until it is divisible by 5, and this happens
+            when <c>n</c> is 5, 15, and 10 for the inputs of 2, 3, and 4 respectively.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_9_opt_b">
           <p>234</p>
         </statement>
-        <feedback id="mce_6_9_opt_b">
-          <p>Although the function returns <c>n</c>, <c>n</c> might not be its original value.</p>
+        <feedback>
+          Although the function returns <c>n</c>, <c>n</c> might not be its original value.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_9_opt_c">
           <p>5 15 10</p>
         </statement>
-        <feedback id="mce_6_9_opt_c">
-          <p>Take a closer look at the output statements.</p>
+        <feedback>
+          Take a closer look at the output statements.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_9_opt_d">
           <p>567</p>
         </statement>
-        <feedback id="mce_6_9_opt_d">
-          <p>Take a closer look at the <c>while</c> loop in the function.</p>
+        <feedback>
+          Take a closer look at the <c>while</c> loop in the function.
         </feedback>
       </choice>
     </choices>
@@ -531,17 +531,17 @@ int main() {
         <statement id="mce_6_10_opt_a">
           <p><c>repeatBot</c> can only take one word as an argument.</p>
         </statement>
-        <feedback id="mce_6_10_opt_a">
-          <p>A <c>string</c> is any number of characters or words surrounded by double quotes, not just
-            one word.</p>
+        <feedback>
+          A <c>string</c> is any number of characters or words surrounded by double quotes, not just
+            one word.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_10_opt_b">
           <p><c>n</c> is declared to be 0 and 0 is always less than 5.</p>
         </statement>
-        <feedback id="mce_6_10_opt_b">
-          <p>The code doesn't loop infinitely because of the value <c>n</c> was declared to be.</p>
+        <feedback>
+          The code doesn't loop infinitely because of the value <c>n</c> was declared to be.
         </feedback>
       </choice>
       <choice>
@@ -549,9 +549,9 @@ int main() {
           <p>Every time the <c>while</c> loop runs, <c>n</c> is reset to 0, so it will always be less than
             5.</p>
         </statement>
-        <feedback id="mce_6_10_opt_c">
-          <p>The initialization of <c>n</c> occurs outside the <c>while</c> loop, so the value of <c>n</c>
-            does not get reset to 0.</p>
+        <feedback>
+          The initialization of <c>n</c> occurs outside the <c>while</c> loop, so the value of <c>n</c>
+            does not get reset to 0.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -559,9 +559,9 @@ int main() {
           <p><c>n</c> is declared to be 0 and we continuously decrement <c>n</c> so it will always be
             less than 5.</p>
         </statement>
-        <feedback id="mce_6_10_opt_d">
-          <p>Since <c>n</c> starts at 0 and gets smaller, the conditional for the <c>while</c> loop will
-            always be true, and thus the code runs forever.</p>
+        <feedback>
+          Since <c>n</c> starts at 0 and gets smaller, the conditional for the <c>while</c> loop will
+            always be true, and thus the code runs forever.
         </feedback>
       </choice>
     </choices>
@@ -593,33 +593,33 @@ int main() {
         <statement id="mce_6_11_opt_a">
           <p><c>n &gt; 5</c> is not a valid conditional, so the <c>while</c> loop doesn't execute.</p>
         </statement>
-        <feedback id="mce_6_11_opt_a">
-          <p><c>n &gt; 5</c> is a boolean statement and thus is a valid conditional.</p>
+        <feedback>
+          <c>n &gt; 5</c> is a boolean statement and thus is a valid conditional.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_11_opt_b">
           <p>The value of <c>n</c> never gets modified in the <c>while</c> loop.</p>
         </statement>
-        <feedback id="mce_6_11_opt_b">
-          <p><c>n</c> is incremented in the <c>while</c> loop after the <c>cout</c> statement.</p>
+        <feedback>
+          <c>n</c> is incremented in the <c>while</c> loop after the <c>cout</c> statement.
         </feedback>
       </choice>
       <choice>
         <statement id="mce_6_11_opt_c">
           <p>In the <c>cout</c> statement, only spaces are printed.</p>
         </statement>
-        <feedback id="mce_6_11_opt_c">
-          <p><c>input</c> is also printed.</p>
+        <feedback>
+          <c>input</c> is also printed.
         </feedback>
       </choice>
       <choice correct="yes">
         <statement id="mce_6_11_opt_d">
           <p>The conditional for the <c>while</c> loop is not met.</p>
         </statement>
-        <feedback id="mce_6_11_opt_d">
-          <p>Since <c>n</c> is declared to be 0, 0 is not greater than 5, so the <c>while</c> loop does
-            not execute.</p>
+        <feedback>
+          Since <c>n</c> is declared to be 0, 0 is not greater than 5, so the <c>while</c> loop does
+            not execute.
         </feedback>
       </choice>
     </choices>

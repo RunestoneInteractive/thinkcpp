@@ -25,7 +25,6 @@
     <statement>
       <p>This program calls the multiplyTwo and addTwo functions in the
         main. Follow the order of execution using the Codelens.</p>
-    </statement>
     <program label="multiple_functions_AC_1_editor"
              interactive="codelens"
              line-numbers="yes">
@@ -57,6 +56,7 @@ int main() {
 }
         ]]></code>
     </program>
+    </statement>
   </activity>
   <p>What's the moral of this sordid tale? When you read a program, don't read from top to bottom.
     Instead, <term>follow the flow of execution</term>.</p>
@@ -65,7 +65,7 @@ int main() {
       <p>Match the function to the order it is executed in the program above.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">
@@ -123,9 +123,9 @@ int main() {
             <c>newLine, threeLine, main</c>
           </p>
         </statement>
-        <feedback id="multiple_fun_2_opt_a">
-          <p>Remember to follow the order of execution, which is not necessarily the order the
-            program is written.</p>
+        <feedback>
+          Remember to follow the order of execution, which is not necessarily the order the
+            program is written.
         </feedback>
       </choice>
       <choice>
@@ -134,9 +134,9 @@ int main() {
             <c>newLine, threeLine, newLine, newLine, newLine, main</c>
           </p>
         </statement>
-        <feedback id="multiple_fun_2_opt_b">
-          <p>Remember to follow the order of execution, which is not necessarily the order the
-            program is written.</p>
+        <feedback>
+          Remember to follow the order of execution, which is not necessarily the order the
+            program is written.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -145,8 +145,8 @@ int main() {
             <c>main, threeLine, newLine, newLine, newLine</c>
           </p>
         </statement>
-        <feedback id="multiple_fun_2_opt_c">
-          <p>Execution begins in the main, then functions are executed as they are called.</p>
+        <feedback>
+          Execution begins in the main, then functions are executed as they are called.
         </feedback>
       </choice>
       <choice>
@@ -155,8 +155,8 @@ int main() {
             <c>main, threeLine</c>
           </p>
         </statement>
-        <feedback id="multiple_fun_2_opt_d">
-          <p>Note that <c>newLine</c> is called inside of <c>threeLine</c>.</p>
+        <feedback>
+          Note that <c>newLine</c> is called inside of <c>threeLine</c>.
         </feedback>
       </choice>
     </choices>
@@ -201,8 +201,8 @@ int main() {
             <q>welcome, yo, hello, goodbye,</q>
           </p>
         </statement>
-        <feedback id="multiple_fun_3_opt_a">
-          <p>take into account <c>hello</c> also calls <c>yo</c> .</p>
+        <feedback>
+          take into account <c>hello</c> also calls <c>yo</c> .
         </feedback>
       </choice>
       <choice>
@@ -211,8 +211,8 @@ int main() {
             <q>welcome, goodbye,</q>
           </p>
         </statement>
-        <feedback id="multiple_fun_3_opt_b">
-          <p><c>goodbye</c> calls other functions that print output as well.</p>
+        <feedback>
+          <c>goodbye</c> calls other functions that print output as well.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -221,9 +221,9 @@ int main() {
             <q>welcome, yo, hello, yo, yo, goodbye,</q>
           </p>
         </statement>
-        <feedback id="multiple_fun_3_opt_c">
-          <p>The order of calls and composition of <c>yo</c> in <c>hello</c> and both of those in <c>goodbye</c>
-            produce this output.</p>
+        <feedback>
+          The order of calls and composition of <c>yo</c> in <c>hello</c> and both of those in <c>goodbye</c>
+            produce this output.
         </feedback>
       </choice>
       <choice>
@@ -232,8 +232,8 @@ int main() {
             <q>yo, hello, yo, yo, goodbye,</q>
           </p>
         </statement>
-        <feedback id="multiple_fun_3_opt_d">
-          <p>Note that the <c>main</c> also prints something directly.</p>
+        <feedback>
+          Note that the <c>main</c> also prints something directly.
         </feedback>
       </choice>
     </choices>

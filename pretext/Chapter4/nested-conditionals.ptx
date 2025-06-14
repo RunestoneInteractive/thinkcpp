@@ -78,7 +78,7 @@ int main() {
           <p>Hey!</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -86,7 +86,7 @@ int main() {
           <p>Hi!</p>
         </statement>
         <feedback>
-          <p>Remember that the program would only enter the "else" if x was not equal to 0.</p>
+          Remember that the program would only enter the "else" if x was not equal to 0.
         </feedback>
       </choice>
       <choice>
@@ -94,7 +94,7 @@ int main() {
           <p>Hello!</p>
         </statement>
         <feedback>
-          <p>Remember that the program would only enter the "else" if x was not equal to 0.</p>
+          Remember that the program would only enter the "else" if x was not equal to 0.
         </feedback>
       </choice>
       <choice>
@@ -102,8 +102,8 @@ int main() {
           <p>Nothing will print.</p>
         </statement>
         <feedback>
-          <p>Only one of the condtionals will execute, but something will print, regardless of which
-            one it is.</p>
+          Only one of the condtionals will execute, but something will print, regardless of which
+            one it is.
         </feedback>
       </choice>
     </choices>
@@ -136,7 +136,7 @@ int main() {
           <p>Hey!</p>
         </statement>
         <feedback>
-          <p>Remember that the program would only enter the first "if" if x was equal to 0.</p>
+          Remember that the program would only enter the first "if" if x was equal to 0.
         </feedback>
       </choice>
       <choice>
@@ -144,7 +144,7 @@ int main() {
           <p>Hi!</p>
         </statement>
         <feedback>
-          <p>Remember that the program would only enter the nested "if" if x was greater than 0.</p>
+          Remember that the program would only enter the nested "if" if x was greater than 0.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -152,7 +152,7 @@ int main() {
           <p>Hello!</p>
         </statement>
         <feedback>
-          <p>Correct!</p>
+          Correct!
         </feedback>
       </choice>
       <choice>
@@ -160,8 +160,8 @@ int main() {
           <p>Nothing will print.</p>
         </statement>
         <feedback>
-          <p>Only one of the condtionals will execute, but something will print, regardless of which
-            one it is.</p>
+          Only one of the condtionals will execute, but something will print, regardless of which
+            one it is.
         </feedback>
       </choice>
     </choices>
@@ -196,7 +196,7 @@ int main() {
           <p>Back Left!</p>
         </statement>
         <feedback>
-          <p>Remember that the &gt; opearator is not inclusive.</p>
+          Remember that the &gt; opearator is not inclusive.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -204,8 +204,8 @@ int main() {
           <p>Back Right!</p>
         </statement>
         <feedback>
-          <p>z &gt; m is true, and m &gt; m is false, so a student with these initials would be
-            seated in the back right.</p>
+          z &gt; m is true, and m &gt; m is false, so a student with these initials would be
+            seated in the back right.
         </feedback>
       </choice>
       <choice>
@@ -213,7 +213,7 @@ int main() {
           <p>Front Left!</p>
         </statement>
         <feedback>
-          <p>z &gt; m is true because z comes after m. Also, the &gt; opearator is not inclusive.</p>
+          z &gt; m is true because z comes after m. Also, the &gt; opearator is not inclusive.
         </feedback>
       </choice>
       <choice>
@@ -221,7 +221,7 @@ int main() {
           <p>Front Right!</p>
         </statement>
         <feedback>
-          <p>z &gt; m is true because z comes after m.</p>
+          z &gt; m is true because z comes after m.
         </feedback>
       </choice>
       <choice>
@@ -229,7 +229,7 @@ int main() {
           <p>Error!</p>
         </statement>
         <feedback>
-          <p>Character comparisons are legal, and useful in this case!</p>
+          Character comparisons are legal, and useful in this case!
         </feedback>
       </choice>
     </choices>

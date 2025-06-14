@@ -5,9 +5,9 @@
     example, to output more than one line:</p>
 
   <listing label="more_output_AC_1">
-    <caption>
+    <title>
       This program prints two different statements on two different lines using <c>endl</c>.
-    </caption>
+    </title>
     <program label="more_output_AC_1_editor"
              interactive="activecode"
              line-numbers="yes"
@@ -36,9 +36,9 @@ int main() {
   <p>Often it is useful to display the output from multiple output statements all on one line. You
     can do this by leaving out the first <c>endl</c>:</p>
   <listing label="more_output_AC_2">
-    <caption>
+    <title>
       This program prints two different statements on the same line.
-    </caption>
+    </title>
     <program xml:id="more_output_AC_2_editor"
              interactive="activecode"
              line-numbers="yes"
@@ -61,11 +61,11 @@ world!</c>. Notice in <c>main</c> that there is a
   <p>Spaces that appear outside of quotation marks generally do not affect
     the behavior of the program. For example, I could have written:</p>
   <listing label="more_output_AC_3">
-    <caption>
+    <title>
       This program accomplishes the same thing as the one above. The
         difference is that there are no spaces separating the different
         components of each line.
-    </caption>
+    </title>
     <program xml:id="more_output_AC_3_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -84,11 +84,11 @@ int main() {
     breaks at the ends of lines (newlines) do not affect the program's
     behavior either, so I could have written:</p>
   <listing label="more_output_AC_4">
-    <caption>
+    <title>
       This program accomplishes the same thing as the two above, but
         it only uses one line. However, this format is pretty messy and relatively
         hard to follow.
-    </caption>
+    </title>
     <program xml:id="more_output_AC_4_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -106,22 +106,15 @@ int main() {cout<<"Goodbye, ";cout<<"cruel world!"<<endl;}
     the program and locate syntax errors.</p>
   <exercise label="more_output_1">
     <statement>
-      <p>A phrase that appears in quotation marks is called a(n)<var/>.</p>
+      <p>A phrase that appears in quotation marks is called a(n)<fillin mode="string" case="insensitive" answer="string"/>.</p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*string\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="more_output_2">
     <statement>
@@ -145,7 +138,7 @@ int main() {
           <p>1</p>
         </statement>
         <feedback>
-          <p>There is an "endl" statement, implying that a new line is created.</p>
+          There is an "endl" statement, implying that a new line is created.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -153,8 +146,8 @@ int main() {
           <p>2</p>
         </statement>
         <feedback>
-          <p>"endl" creates one new line. The first line will say 7, while the second will print
-            777.</p>
+          "endl" creates one new line. The first line will say 7, while the second will print
+            777.
         </feedback>
       </choice>
       <choice>
@@ -162,7 +155,7 @@ int main() {
           <p>3</p>
         </statement>
         <feedback>
-          <p>In C++, you must make sure to say "endl" every time you'd like to create a new line.</p>
+          In C++, you must make sure to say "endl" every time you'd like to create a new line.
         </feedback>
       </choice>
       <choice>
@@ -170,7 +163,7 @@ int main() {
           <p>4</p>
         </statement>
         <feedback>
-          <p>In C++, you must make sure to say "endl" every time you'd like to create a new line.</p>
+          In C++, you must make sure to say "endl" every time you'd like to create a new line.
         </feedback>
       </choice>
     </choices>

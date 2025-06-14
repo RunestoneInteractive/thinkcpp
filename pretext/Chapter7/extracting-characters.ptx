@@ -77,7 +77,7 @@ int main() {
           <p>1</p>
         </statement>
         <feedback>
-          <p>Don't forget that computer scientists do not start counting at 1!</p>
+          Don't forget that computer scientists do not start counting at 1!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -85,7 +85,7 @@ int main() {
           <p>0</p>
         </statement>
         <feedback>
-          <p>Yes, this would access the letter "b".</p>
+          Yes, this would access the letter "b".
         </feedback>
       </choice>
       <choice>
@@ -93,7 +93,7 @@ int main() {
           <p>2</p>
         </statement>
         <feedback>
-          <p>This would access the letter "k".</p>
+          This would access the letter "k".
         </feedback>
       </choice>
     </choices>
@@ -129,7 +129,7 @@ int main() {
           <p>jello</p>
         </statement>
         <feedback>
-          <p>Carefully check which string(s) we are indexing into.</p>
+          Carefully check which string(s) we are indexing into.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -137,7 +137,7 @@ int main() {
           <p>lello</p>
         </statement>
         <feedback>
-          <p>Correct! We copy the 'l' from position 3 of "hello" to position 0.</p>
+          Correct! We copy the 'l' from position 3 of "hello" to position 0.
         </feedback>
       </choice>
       <choice>
@@ -145,7 +145,7 @@ int main() {
           <p>heljo</p>
         </statement>
         <feedback>
-          <p>Consider which string(s) we are indexing into.</p>
+          Consider which string(s) we are indexing into.
         </feedback>
       </choice>
     </choices>
@@ -155,7 +155,7 @@ int main() {
       <p>Click on each spot where a character in a string is accessed.</p>
     </statement>
     <feedback>
-      <p>Remember, square brackets [] are used to access a character in a string.</p>
+      Remember, square brackets [] are used to access a character in a string.
     </feedback>
     <areas>
       <cline><area correct="no">def main() {</area></cline>

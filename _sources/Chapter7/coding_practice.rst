@@ -22,13 +22,13 @@ Coding Practice
                // Write your implementation here.
            }
            ====
-           #define CATCH_CONFIG_MAIN
-           #include <catch.hpp>
+           #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+           #include "doctest.h"
 
            TEST_CASE("factorial function") {
-               REQUIRE(isPalindrome ("racecar") == 1); 
-               REQUIRE(isPalindrome ("no lemon, no melon") == 1); 
-               REQUIRE(isPalindrome ("kangaroo") == 0); 
+               CHECK(isPalindrome("racecar"));
+               CHECK(isPalindrome("no lemon, no melon"));
+               CHECK_FALSE(isPalindrome("kangaroo"));
            }
 
 
@@ -67,13 +67,13 @@ Coding Practice
                return true;
            }
            ====
-           #define CATCH_CONFIG_MAIN
-           #include <catch.hpp>
+           #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+           #include "doctest.h"
 
            TEST_CASE("factorial function") {
-               REQUIRE(isPalindrome ("racecar") == 1); 
-               REQUIRE(isPalindrome ("no lemon, no melon") == 1); 
-               REQUIRE(isPalindrome ("kangaroo") == 0); 
+               CHECK(isPalindrome("racecar"));
+               CHECK(isPalindrome("no lemon, no melon"));
+               CHECK_FALSE(isPalindrome("kangaroo"));
            }
 
 .. selectquestion:: cp_7_AC_2q_sq
@@ -318,13 +318,13 @@ Coding Practice
                // Write your implementation here.
            }
            ====
-           #define CATCH_CONFIG_MAIN
-           #include <catch.hpp>
+           #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+           #include "doctest.h"
 
            TEST_CASE("longestWord function") {
-               REQUIRE(longestWord ("what is the longest word in this string") == "longest"); 
-               REQUIRE(longestWord ("these words are very close in size") == "these"); 
-               REQUIRE(longestWord ("vowels") == "vowels"); 
+               CHECK_EQ(longestWord("what is the longest word in this string"), "longest");
+               CHECK_EQ(longestWord("these words are very close in size"), "these");
+               CHECK_EQ(longestWord("vowels"), "vowels");
            }
 
 
@@ -364,13 +364,13 @@ Coding Practice
                return longest;
            }
            ====
-           #define CATCH_CONFIG_MAIN
-           #include <catch.hpp>
+           #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+           #include "doctest.h"
 
            TEST_CASE("longestWord function") {
-               REQUIRE(longestWord ("what is the longest word in this string") == "longest"); 
-               REQUIRE(longestWord ("these words are very close in size") == "these"); 
-               REQUIRE(longestWord ("vowels") == "vowels"); 
+               CHECK_EQ(longestWord("what is the longest word in this string"), "longest");
+               CHECK_EQ(longestWord("these words are very close in size"), "these");
+               CHECK_EQ(longestWord("vowels"), "vowels");
            }
 
 .. selectquestion:: cp_7_AC_10q_sq

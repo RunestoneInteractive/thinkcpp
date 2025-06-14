@@ -2,35 +2,40 @@
 <section xml:id="chapter1_what-is-a-programming-language">
   <title>What is a Programming Language?</title>
   <p>The programming language you will be learning is C++. It is a <term>high-level
-    language</term>.</p>
-  <p>As you might infer from the name <q>high-level language,</q> there
-    are also <term>low-level languages</term>, sometimes referred to as machine language or assembly
-    language. Loosely-speaking, computers can only execute programs written in low-level languages.
-    Thus, programs written in a high-level language have to be translated before they can run. This
+      language</term>.</p>
+  <p>As you might infer from the name <q>high-level language,</q> there are also <term>low-level
+    languages</term>, sometimes referred to as machine language or assembly language.
+    Loosely-speaking, computers can only execute programs written in low-level languages. Thus,
+    programs written in a high-level language have to be translated before they can run. This
     translation takes some time, which is a small disadvantage of high-level languages.</p>
-  <p>But the advantages are enormous. First, it is <em>much</em> easier
-    to program in a high-level language; by <q>easier</q> I mean that the program takes less time to
-    write, it's shorter and easier to read, and it's more likely to be correct. Secondly, high-level
-    languages are <term>portable</term>, meaning that they can run on different kinds of computers
-    with few or no modifications. Low-level programs can only run on one kind of computer, and have
-    to be rewritten to run on another.</p>
+  <p>But the advantages are enormous. First, it is <em>much</em> easier to program in a high-level
+    language; by <q>easier</q> I mean that the program takes less time to write, it's shorter and
+    easier to read, and it's more likely to be correct. Secondly, high-level languages are <term>
+    portable</term>, meaning that they can run on different kinds of computers with few or no
+    modifications. Low-level programs can only run on one kind of computer, and have to be rewritten
+    to run on another.</p>
   <p>Due to these advantages, almost all programs are written in high-level
     languages. Low-level languages are only used for a few special
     applications.</p>
-  <p>There are two ways to translate a program; interpreting or
-    compiling. An <term>interpreter</term> is a program that reads a high-level program and does
-    what it says. In effect, it translates the program line-by-line, alternately reading lines and
-    carrying out commands.</p>
-  <figure align="center">
-    <image source="Chapter1/Images/chapter1image1.png"
-           alt="A flow chart that demonstrates source code passing to an interpreter and the result of running that code being displayed."
-           />
+  <p>There are two ways to translate a program; interpreting or compiling. An <term>interpreter</term>
+    is a program that reads a high-level program and does what it says. In effect, it translates the
+    program line-by-line, alternately reading lines and carrying out commands.</p>
+    <figure>
+        <caption>Using an Interpreter</caption>
+        <image source="Chapter1/Images/chapter1image1.png">
+            <description>
+                <p>
+                    A flow chart that demonstrates source code passing to
+                    an interpreter and the result of running that code being
+                    displayed.
+                </p>
+            </description>
+        </image>
   </figure>
-  <p>A <term>compiler</term> is a program that reads a high-level program
-    and translates it all at once, before executing any of the commands. Often you compile the
-    program as a separate step, and then execute the compiled code later. In this case, the
-    high-level program is called the <term>source
-      code</term>, and the translated program is called the <term>object code</term> or the <term>
+  <p>A <term>compiler</term> is a program that reads a high-level program and translates it all at
+    once, before executing any of the commands. Often you compile the program as a separate step,
+    and then execute the compiled code later. In this case, the high-level program is called the <term>source
+    code</term>, and the translated program is called the <term>object code</term> or the <term>
     executable</term>.</p>
   <p>As an example, suppose you write a program in C++. You might use a text editor to write the
     program (a text editor is a simple word processor). When the program is finished, you might save
@@ -40,10 +45,16 @@
     leave the text editor and run the compiler. The compiler would read your
     source code, translate it, and create a new file named program.o to
     contain the object code, or program.exe to contain the executable.</p>
-  <figure align="center">
-    <image source="Chapter1/Images/chapter1image2.png"
-           alt="A flow chart that demonstrates source code passing to a compiler and emerging as compiled object, or machine, code. That code can then be executed to see the result of running the code."
-           />
+    <figure>
+        <caption>Compilation process</caption>
+        <image source="Chapter1/Images/chapter1image2.png">
+            <description><p>
+                A flow chart that demonstrates source code passing to a
+                compiler and emerging as compiled object, or machine, code.
+                That code can then be executed to see the result of running
+                the code.
+            </p></description>
+        </image>
   </figure>
   <p>The next step is to run the program, which requires some kind of
     executor. The role of the executor is to load the program (copy it from
@@ -57,38 +68,26 @@
     figure out what it is.</p>
   <exercise label="program_lang_1">
     <statement>
-      <p>A(n) <var/> translates a high-level program line by line, executing commands as they come.
-        A(n) <var/> translates a high-level program all at once, before executing any of the
-        commands! </p>
-      <p>A(n) <var/> translates a high-level program all at once, before executing any of the
-        commands! </p>
+      <p>A(n) <fillin mode="string"
+                case="insensitive"
+                answer="interpreter"/> translates a
+        high-level program line by line, executing commands as they come. A(n) <fillin mode="string"
+                case="insensitive"
+                answer="compiler"/>
+        translates a high-level program all at once, before executing any of the commands! </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*interpreter\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*compiler\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="program_lang_2">
     <statement>
@@ -100,8 +99,8 @@
           <p>Almost all programs are written in high-level languages.</p>
         </statement>
         <feedback>
-          <p>High-level languages are efficient and easy to understand, an obvious choice for
-            writing a program!</p>
+          High-level languages are efficient and easy to understand, an obvious choice for
+          writing a program!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -109,8 +108,8 @@
           <p>Programs written in a high-level language must be translated before they can be run.</p>
         </statement>
         <feedback>
-          <p>All programs in high-level language must be translated to a low-level language before
-            the computer can execute them!</p>
+          All programs in high-level language must be translated to a low-level language before
+          the computer can execute them!
         </feedback>
       </choice>
       <choice>
@@ -118,7 +117,7 @@
           <p>It's easier to program in a low-level language than a high-level language.</p>
         </statement>
         <feedback>
-          <p>Actually, its much the other way around!</p>
+          Actually, its much the other way around!
         </feedback>
       </choice>
       <choice>
@@ -126,7 +125,7 @@
           <p>Computers can only execute programs written in high-level languages.</p>
         </statement>
         <feedback>
-          <p>Computers actually can't understand high-level languages as they are written.</p>
+          Computers actually can't understand high-level languages as they are written.
         </feedback>
       </choice>
       <choice>
@@ -135,8 +134,8 @@
             program if you wanted to use a different machine).</p>
         </statement>
         <feedback>
-          <p>High-level programs are portable, meaning they can run on different kinds of computers
-            with little to no modification.</p>
+          High-level programs are portable, meaning they can run on different kinds of computers
+          with little to no modification.
         </feedback>
       </choice>
     </choices>
@@ -151,7 +150,7 @@
           <p>To translate the program line by line.</p>
         </statement>
         <feedback>
-          <p>This is the role of an interpreter!</p>
+          This is the role of an interpreter!
         </feedback>
       </choice>
       <choice correct="yes">
@@ -159,7 +158,7 @@
           <p>To copy the program from disk to memory and make the computer run the program.</p>
         </statement>
         <feedback>
-          <p>The role of an executor is to carry out, or execute, the program!</p>
+          The role of an executor is to carry out, or execute, the program!
         </feedback>
       </choice>
       <choice>
@@ -167,7 +166,7 @@
           <p>To translate the program all at once.</p>
         </statement>
         <feedback>
-          <p>This is the role of a compiler!</p>
+          This is the role of a compiler!
         </feedback>
       </choice>
       <choice>
@@ -175,7 +174,7 @@
           <p>To give an error message if something is preventing the code from being translated.</p>
         </statement>
         <feedback>
-          <p>This happens automatically when we try to compile/interpret our program.</p>
+          This happens automatically when we try to compile/interpret our program.
         </feedback>
       </choice>
     </choices>
@@ -185,7 +184,7 @@
       <p>Match each term to an example of it by dragging the term into the appropriate box.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

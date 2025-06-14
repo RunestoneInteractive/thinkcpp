@@ -80,8 +80,8 @@ int main() {
           <p>the types and quantities of variables that make up the function</p>
         </statement>
         <feedback>
-          <p>This would tell us what variables the function is composed of, but this is not what
-            function composition means.</p>
+          This would tell us what variables the function is composed of, but this is not what
+            function composition means.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -89,7 +89,7 @@ int main() {
           <p>the process of combining one or more functions into more complicated ones</p>
         </statement>
         <feedback>
-          <p>This is what we did inside of the fred function.</p>
+          This is what we did inside of the fred function.
         </feedback>
       </choice>
       <choice>
@@ -97,7 +97,7 @@ int main() {
           <p>the process of creating a function using incremental development</p>
         </statement>
         <feedback>
-          <p>Incremental development is useful in function composition, but does not define it.</p>
+          Incremental development is useful in function composition, but does not define it.
         </feedback>
       </choice>
       <choice>
@@ -105,7 +105,7 @@ int main() {
           <p>all of the above</p>
         </statement>
         <feedback>
-          <p>There is only one correct answer here!</p>
+          There is only one correct answer here!
         </feedback>
       </choice>
     </choices>
@@ -124,8 +124,8 @@ int main() {
           <p>print_hello_name</p>
         </statement>
         <feedback>
-          <p>This function name isn't much of a change from our original, and would be a good
-            choice, but what about the other options?</p>
+          This function name isn't much of a change from our original, and would be a good
+            choice, but what about the other options?
         </feedback>
       </choice>
       <choice>
@@ -133,8 +133,8 @@ int main() {
           <p>fluffy_cat</p>
         </statement>
         <feedback>
-          <p>Although unconventional, there is nothing wrong about this name, but what about
-            eat_pizza?</p>
+          Although unconventional, there is nothing wrong about this name, but what about
+            eat_pizza?
         </feedback>
       </choice>
       <choice>
@@ -142,8 +142,8 @@ int main() {
           <p>eat_pizza</p>
         </statement>
         <feedback>
-          <p>Although unconventional, there is nothing wrong about this name, but what about
-            fluffy_cat?</p>
+          Although unconventional, there is nothing wrong about this name, but what about
+            fluffy_cat?
         </feedback>
       </choice>
       <choice correct="yes">
@@ -151,8 +151,8 @@ int main() {
           <p>all of the above</p>
         </statement>
         <feedback>
-          <p>All of these function names are technically legal, but in general, it's good practice
-            to name your functions something that describes what they do.</p>
+          All of these function names are technically legal, but in general, it's good practice
+            to name your functions something that describes what they do.
         </feedback>
       </choice>
       <choice>
@@ -160,8 +160,8 @@ int main() {
           <p>none of the above</p>
         </statement>
         <feedback>
-          <p>There's nothing wrong with any of these function names, although some of them are
-            weird.</p>
+          There's nothing wrong with any of these function names, although some of them are
+            weird.
         </feedback>
       </choice>
     </choices>

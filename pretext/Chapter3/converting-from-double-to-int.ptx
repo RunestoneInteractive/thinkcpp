@@ -35,41 +35,41 @@ int x = int(pi);</program>
         <statement>
           <p>temp</p>
         </statement>
-        <feedback>
-          <p>This is the name of a variable. Only the value of a variable will print with cout.</p>
-        </feedback>
+        <feedback><p>
+          This is the name of a variable. Only the value of a variable will print with cout.
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>8</p>
         </statement>
-        <feedback>
-          <p>Remember that converting to an integer always rounds down.</p>
-        </feedback>
+        <feedback><p>
+          Remember that converting to an integer always rounds down.
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>7</p>
         </statement>
-        <feedback>
-          <p>Correct!</p>
-        </feedback>
+        <feedback><p>
+          Correct!
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>8.0</p>
         </statement>
-        <feedback>
-          <p>This is not an integer data type, and it's not the right number.</p>
-        </feedback>
+        <feedback><p>
+          This is not an integer data type, and it's not the right number.
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>7.0</p>
         </statement>
-        <feedback>
-          <p>This is not an integer data type.</p>
-        </feedback>
+        <feedback><p>
+          This is not an integer data type.
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -101,10 +101,10 @@ int final = int((exam1 + exam2 + exam3) / 3);
           <p><term>Method 1:</term><c>final</c> is a <c>double</c>, meaning my final grade will have more
             digits past the decimal, and will be higher than the <c>int</c> in Method 2.</p>
         </statement>
-        <feedback id="double_to_int_2_opt_a">
-          <p>Although <c>final</c> is a <c>double</c>, it doesn't have any digits past the decimal due to the
-            integer division.</p>
-        </feedback>
+        <feedback><p>
+          Although <c>final</c> is a <c>double</c>, it doesn't have any digits past the decimal due to the
+            integer division.
+        </p></feedback>
       </choice>
       <choice>
         <statement id="double_to_int_2_opt_b">
@@ -112,28 +112,28 @@ int final = int((exam1 + exam2 + exam3) / 3);
             scores will be rounded to the nearest <c>int</c>, which in my case, will round all of them
             up.</p>
         </statement>
-        <feedback id="double_to_int_2_opt_b">
-          <p>Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
-            close to the next integer.</p>
-        </feedback>
+        <feedback><p>
+          Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
+            close to the next integer.
+        </p></feedback>
       </choice>
       <choice>
         <statement id="double_to_int_2_opt_c">
           <p><term>Method 2:</term><c>final</c> is an <c>int</c>, so it gets rounded up.</p>
         </statement>
-        <feedback id="double_to_int_2_opt_c">
-          <p>Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
-            close to the next integer.</p>
-        </feedback>
+        <feedback><p>
+          Converting to an <c>int</c> always rounds <em>down</em>, even if your <c>double</c> is very
+            close to the next integer.
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement id="double_to_int_2_opt_d">
           <p><term>Method 2:</term> the rounding happens at the very end, so my grade will be
             higher!</p>
         </statement>
-        <feedback id="double_to_int_2_opt_d">
-          <p>Always save your rounding until the end!</p>
-        </feedback>
+        <feedback><p>
+          Always save your rounding until the end!
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

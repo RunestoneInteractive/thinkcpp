@@ -4,9 +4,7 @@
   <p>Interestingly, the same mathematical operations that work on integers
     also work on characters. For example, observe the output of the following program.</p>
   <listing label="char_operations_AC_1">
-    <caption>
-      This program performs character addition.
-    </caption>
+    <title>This program performs character addition.</title>
     <program xml:id="char_operations_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -33,10 +31,10 @@ int main() {
     completely true. In some cases, C++ converts automatically between
     types. For example, the following is legal.</p>
   <listing label="char_operations_AC_2">
-    <caption>
+    <title>
       This program performs automatic type converstion. It converts <c>'a'</c>
         to its ASCII value.
-    </caption>
+    </title>
     <program xml:id="char_operations_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -75,23 +73,16 @@ int main() {
     exceptions.</p>
   <exercise label="char_operations_1">
     <statement>
-      <p>What is the value of letter if <c>letter = 'c' + 3</c>? <var/>
+      <p>What is the value of letter if <c>letter = 'c' + 3</c>? <fillin mode="string" case="insensitive" answer="(f)|('f')"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(f)|('f')\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="char_operations_2"
            numbered="yes"

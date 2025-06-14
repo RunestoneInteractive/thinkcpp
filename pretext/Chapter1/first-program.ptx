@@ -8,7 +8,7 @@
     program structure below.</p>
   <listing label="first_program_AC_list"
            xml:id="first_program_AC_list">
-    <caption> This program prints <q>Hello, World.</q> to the output. </caption>
+    <title> This program prints <q>Hello, World.</q> to the output. </title>
     <program interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[
@@ -83,23 +83,16 @@ hello.cpp:1: oistream.h: No such file or directory
     you see it again in the future you will know what it means.</p>
   <exercise label="first_program_1">
     <statement>
-      <p>How do you indicate a comment in C++? <var/>
+      <p>How do you indicate a single line comment in C++? <fillin mode="string" case="insensitive" answer="//"/>
       </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*[//][//]\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="first_program_2">
     <statement>
@@ -111,7 +104,7 @@ hello.cpp:1: oistream.h: No such file or directory
           <p>The main marks the spot in the program where execution begins.</p>
         </statement>
         <feedback>
-          <p>The main indicates where the program begins executing!</p>
+          The main indicates where the program begins executing!
         </feedback>
       </choice>
       <choice>
@@ -120,8 +113,8 @@ hello.cpp:1: oistream.h: No such file or directory
             system memory.</p>
         </statement>
         <feedback>
-          <p>There is no limit to the number of statements you can put in the main, but it is good
-            practice to keep it as short as possible.</p>
+          There is no limit to the number of statements you can put in the main, but it is good
+            practice to keep it as short as possible.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -129,8 +122,8 @@ hello.cpp:1: oistream.h: No such file or directory
           <p>Inside the main, program execution happens in order from top to bottom.</p>
         </statement>
         <feedback>
-          <p>When the program runs, it starts by executing the first statement in main, and it
-            continues until the last.</p>
+          When the program runs, it starts by executing the first statement in main, and it
+            continues until the last.
         </feedback>
       </choice>
       <choice>
@@ -138,8 +131,8 @@ hello.cpp:1: oistream.h: No such file or directory
           <p>The main program is enclosed by parentheses.</p>
         </statement>
         <feedback>
-          <p>The main program and all functions in C++ are enclosed by squiggly brackets ( { and }
-            ).</p>
+          The main program and all functions in C++ are enclosed by squiggly brackets ( { and }
+            ).
         </feedback>
       </choice>
       <choice correct="yes">
@@ -147,41 +140,27 @@ hello.cpp:1: oistream.h: No such file or directory
           <p>The end of each statement is marked with a semicolon ( ; ).</p>
         </statement>
         <feedback>
-          <p>Forgetting a semicolon will cause a compile error!</p>
+          Forgetting a semicolon will cause a compile error!
         </feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="first_program_3">
     <statement>
-      <p><var/> is an object that allows you to send output to the terminal. It requires you to use
-        the <var/> operator. </p>
+      <p><fillin mode="string" case="insensitive" answer="cout"/> is an object that allows you to send output to the terminal. It requires you to use
+        the <fillin mode="string" case="insensitive" answer="&lt;&lt;"/> operator. </p>
     </statement>
-    <setup>
-      <var case="insensitive">
-        <condition string="^\s*(cout)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-      <var case="insensitive">
-        <condition string="^\s*(\&lt;\&lt;)\s*$">
-          <feedback>
-            <p>Correct!</p>
-          </feedback>
-        </condition>
-        <condition string="^\s*.*\s*$">
-          <feedback>
-            <p>Try again!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
 </section>

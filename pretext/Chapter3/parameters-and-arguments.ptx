@@ -52,10 +52,10 @@
     For now you should learn the general rule, and we will deal with
     exceptions later.</p>
   <listing label="params_args_AC_1">
-    <caption>
+    <title>
       The following code will show the output of the printTwice function.
         Try modifying the value of argument to change the output.
-    </caption>
+    </title>
     <program xml:id="params_args_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -79,7 +79,6 @@ int main() {
     <statement>
       <p>What will be printed to the terminal? If nothing will print, or if the compiler will
         throw an error, type <q>error</q>.</p>
-      <p>
         <program>
           #include &lt;iostream&gt;
           using namespace std;
@@ -94,20 +93,17 @@ int main() {
             return 0;
           }
         </program>
-      </p>
       <p>
-        <var/>
+        <fillin mode="string" case="insensitive" answer="error"/>
       </p>
     </statement>
-    <setup>
-      <var>
-        <condition string="^\s*error\s*$">
-          <feedback>
-            <p>Correct! The type provided does not match the expected parameter type!</p>
-          </feedback>
-        </condition>
-      </var>
-    </setup>
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="params_args_2">
     <statement>
@@ -129,25 +125,26 @@ int main() {
         }
       </program>
       <p>
-        <var/>
+        <fillin mode="string" case="insensitive" answer="bb"/>
       </p>
     </statement>
-    <setup>
-      <var>
-        <condition string="^\s*bb\s*$">
+    <evaluation>
+      <evaluate>
+        <test>
+          <strcmp use-answer="yes"/>
           <feedback>
-            <p>The printTwice function will print the character argument provided two times.</p>
+            The printTwice function will print the character argument provided two times.
           </feedback>
-        </condition>
-      </var>
-    </setup>
+        </test>
+      </evaluate>
+    </evaluation>
   </exercise>
   <exercise label="params_args_4">
     <statement>
       <p>Match the function declaration to an example of its function call.</p>
     </statement>
     <feedback>
-      <p>Try again!</p>
+      Try again!
     </feedback>
     <matches>
       <match order="1">

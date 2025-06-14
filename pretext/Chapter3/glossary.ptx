@@ -40,9 +40,7 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
-      <p>Try again!</p>
-    </feedback>
+    <feedback><p>Try again!</p></feedback>
     <matches>
       <match order="1">
         <premise>floating-point</premise>
@@ -63,9 +61,7 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
-      <p>Try again!</p>
-    </feedback>
+    <feedback><p>Try again!</p></feedback>
     <matches>
       <match order="1">
         <premise>function</premise>

@@ -113,7 +113,7 @@ int main() {
           <p>Replacing integers with parameters.</p>
         </statement>
         <feedback>
-          <p>This may be a possible way to generalize, but not the purpose.</p>
+          This may be a possible way to generalize, but not the purpose.
         </feedback>
       </choice>
       <choice>
@@ -121,7 +121,7 @@ int main() {
           <p>Using a parameter that exists in several different functions.</p>
         </statement>
         <feedback>
-          <p>This is not the purpose of generalization.</p>
+          This is not the purpose of generalization.
         </feedback>
       </choice>
       <choice correct="yes">
@@ -129,7 +129,7 @@ int main() {
           <p>Taking a very specific task and making it more applicable to other situations.</p>
         </statement>
         <feedback>
-          <p>This makes your code more versatile.</p>
+          This makes your code more versatile.
         </feedback>
       </choice>
       <choice>
@@ -137,7 +137,7 @@ int main() {
           <p>Creating two functions with the same purpose but different names.</p>
         </statement>
         <feedback>
-          <p>This is not the purpose of generalization.</p>
+          This is not the purpose of generalization.
         </feedback>
       </choice>
     </choices>
