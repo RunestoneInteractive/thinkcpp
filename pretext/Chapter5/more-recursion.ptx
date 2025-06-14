@@ -17,18 +17,18 @@
     recursive definition is similar to a circular definition, in the sense
     that the definition contains a reference to the thing being defined. A
     truly circular definition is typically not very useful:</p>
-  <dl>
+  <p><dl>
     <li>
       <title>frabjuous:</title>
       <p>an adjective used to describe something that is frabjuous.</p>
     </li>
-  </dl>
+  </dl></p>
   <p>If you saw that definition in the dictionary, you might be annoyed. On the other hand, if you
     looked up the definition of the mathematical function <term>factorial</term>, you might get
-    something like:</p>
+    something like:
   <me>\begin{aligned}
     0! \amp = 1 \\
-    n! \amp = n \cdot (n-1)!\end{aligned}</me>
+    n! \amp = n \cdot (n-1)!\end{aligned}</me></p>
   <note>
     <p>Factorial is usually denoted with the symbol <m>!</m>, which is not to be confused with the
       C++ logical operator ! which means NOT.</p>
@@ -57,7 +57,6 @@
       <p>This program uses recursion to calculate the factorial of
         the passed argument. Watch it run step by step and pay attention to the value returned from
         each call to factorial</p>
-    </statement>
     <program xml:id="more_recursion_AC_1_editor"
              interactive="codelens"
              line-numbers="yes">
@@ -80,7 +79,7 @@ int main() {
     cout << factorial(3) << endl;
 }
         ]]></code>
-    </program>
+    </program></statement>
   </activity>
   <p>If we look at the flow of execution for this program, it is similar to
     nLines from the previous chapter. If we call factorial with the value 3:</p>
@@ -106,13 +105,14 @@ int main() {
     6, is returned to main, or whoever called factorial(3).</p>
   <p>Here is what the stack diagram looks like for this sequence of function
     calls:</p>
-  <figure align="center">
-    <image source="Chapter5/Images/5.10stackdiagram.png"
-           width="50%"
-           alt="A stack of five boxes showing the values of variables and the return value of a call to factorial(3)."/>
-    <caption>
-      The return values are shown being passed back up the stack.
-    </caption>
+  <figure>
+      <caption>The return values are shown being passed back up the stack.</caption>
+      <image source="Chapter5/Images/5.10stackdiagram.png" width="50%">
+          <description><p>
+              A stack of five boxes showing the values of variables and the
+              return value of a call to factorial(3).
+          </p></description>
+      </image>
   </figure>
   <p>Notice that in the last instance of factorial, the local variables
     recurse and result do not exist because when n=0 the branch that creates

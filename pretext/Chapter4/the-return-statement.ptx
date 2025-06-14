@@ -4,11 +4,11 @@
   <p>The <c>return</c> statement allows you to terminate the execution of a function before you reach the
     end. One reason to use it is if you detect an error condition:</p>
   <listing label="return_AC_1">
-    <caption>
+    <title>
       This program will terminate with a return statement if the argument
         provided is not positive. Try running the code as is. If you get
         an error message, try changing the value of x.
-    </caption>
+    </title>
     <program xml:id="return_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

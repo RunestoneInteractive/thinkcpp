@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <exercises xml:id="chapter4_multiple-choice-exercises">
-  <title>Multiple Choice Exercises</title>
-  <p>Answer the following <term>Multiple Choice</term> questions to assess what you have learned in
-    this chapter.</p>
+    <title>Multiple Choice Exercises</title>
+    <introduction><p>
+        Answer the following <term>Multiple Choice</term> questions to assess what you have learned in
+        this chapter.
+    </p></introduction>
   <exercise label="cond_rec_mc1">
     <statement>
       <p>Say you run the following code. What is the value of <c>mod</c>?</p>

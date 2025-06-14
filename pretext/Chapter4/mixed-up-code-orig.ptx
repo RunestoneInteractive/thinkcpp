@@ -3,7 +3,7 @@
   <title>Mixed-Up Code Exercises</title>
   <p>Answer the following <term>Mixed-Up Code</term> questions to
             assess what you have learned in this chapter.</p>
-  <exercise label="cond_recc_p1" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p1" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that prints the remainder of 18 when
             divided by 13.</p>
@@ -32,7 +32,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p2" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that prints whether a number
             is true.</p>
@@ -65,7 +65,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p3" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that prints the difference of a and b if the result
             would result in a positive number.  Otherwise, prints -1.</p>
@@ -103,7 +103,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function, <c>matic</c>, that takes as inputs 2 integers, x and y, and prints <q>automatic</q> if x is
             an odd number, <q>systematic</q> if x is greater than y, AND
@@ -153,7 +153,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that prints <q>Pick me!</q> if x is
             equal to y, <q>Choose me!</q> if x is less than y, OR <q>Love me!</q>
@@ -198,7 +198,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that prints your letter grade according to this scheme.
             [0, 70) = F, [70, 80) = C, [80, 90) = B, and [90, 100] = A.</p>
@@ -254,7 +254,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>According to a logic game, a knight is someone who cannot tell a lie,
             and a knave is someone who cannot tell the truth.  Construct a function
@@ -297,7 +297,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>If a cat is in a good mood, it purrs; when it's in a bad mood, it
             meows.  If a doog is in a good mood, it barks; when it's in a bad
@@ -338,7 +338,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a recursive function that tells the user to enter a positive
             number.  It should then output that number to the terminal.  If the user
@@ -372,7 +372,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="cond_recc_p10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="cond_recc_p10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>In the table of ASCII characters, the lowercase alphabet consists
             of characters 97-122.  The uppercase alphabet consists of characters

@@ -17,9 +17,9 @@
     start writing exactly how to divide the program into functions. This
     approach lets you design as you go along.</p>
   <listing label="more_encapsulation_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>printMultTable</c> function. Run the active code to see what happens!
-    </caption>
+    </title>
     <program xml:id="more_encapsulation_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

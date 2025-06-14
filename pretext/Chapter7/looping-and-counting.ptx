@@ -2,10 +2,10 @@
 <section xml:id="chapter7_looping-and-counting-loopcount">
   <title>Looping and counting</title>
   <listing label="looping_and_counting_AC_1">
-    <caption>
+    <title>
       This active code counts the number of times the letter <c>'a'</c> appears in a string <c>fruit</c>
         .
-    </caption>
+    </title>
     <program xml:id="looping_and_counting_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -75,7 +75,7 @@ while (x < 0) {
     </choices>
   </exercise>
   <exercise label="looping_counting_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -125,7 +125,7 @@ while (x < 0) {
     </blocks>
   </exercise>
   <exercise label="looping_counting_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

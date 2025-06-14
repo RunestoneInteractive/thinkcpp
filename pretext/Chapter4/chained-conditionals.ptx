@@ -4,11 +4,11 @@
   <p>Sometimes you want to check for a number of related conditions and choose one of several
     actions. One way to do this is by <term>chaining</term> a series of ifs and elses:</p>
   <listing label="chained_conditionals_AC_1">
-    <caption>
+    <title>
       The following program classifies a number (x) as positive,
         negative, or zero. Feel free to change the value of x to
         make sure it works.
-    </caption>
+    </title>
     <program xml:id="chained_conditionals_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

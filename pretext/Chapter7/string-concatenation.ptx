@@ -4,10 +4,10 @@
   <p>Interestingly, the <c>+</c> operator can be used on strings; it performs string <term>
     concatenation</term>. To concatenate means to join the two operands end to end.</p>
   <listing label="string_concatenation_AC_1">
-    <caption>
+    <title>
       In this active code, we use the <c>+</c> operator to concatenate <c>fruit</c> with <c>bakedGood</c>
         to create <c>dessert</c>.
-    </caption>
+    </title>
     <program xml:id="string_concatenation_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -42,9 +42,9 @@ string dessert = "banana" + " nut bread";
       for Ducklings</em>, the names of the ducklings are Jack, Kack, Lack, Mack, Nack, Ouack, Pack
     and Quack. Here is a loop that outputs these names in order:</p>
   <listing label="string_concatenation_AC_2">
-    <caption>
+    <title>
       This active code outputs the ducklings names in alphabetical order.
-    </caption>
+    </title>
     <program xml:id="string_concatenation_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -128,7 +128,7 @@ cout << s + t << endl;
     </choices>
   </exercise>
   <exercise label="string_concatenation_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -162,7 +162,7 @@ cout << s + t << endl;
     </blocks>
   </exercise>
   <exercise label="string_concatenation_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

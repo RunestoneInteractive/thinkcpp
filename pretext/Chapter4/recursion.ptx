@@ -27,7 +27,6 @@
     <statement>
       <p>Watch how the countdown function works when we start with a value
         of 3.</p>
-    </statement>
     <program xml:id="recursion_AC_1_editor"
              interactive="codelens" language="cpp"
              line-numbers="yes">
@@ -51,7 +50,7 @@ int main() {
     return 0;
 }
         ]]></code>
-    </program>
+    </program></statement>
   </activity>
   <p>What happens if we call <c>countdown</c> function like this:</p>
   <blockquote>
@@ -100,9 +99,9 @@ void threeLine() {
     newline, and then calls itself to output <c>n-1</c> additional newlines. Thus, the total number of
     newlines is <c>1 + (n - 1)</c>, which usually comes out to roughly n.</p>
   <listing label="recursion_AC_2">
-    <caption>
+    <title>
       You can have a little bit of fun with recursion. Try this guessing game below!
-    </caption>
+    </title>
     <program xml:id="recursion_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">

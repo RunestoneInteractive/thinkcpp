@@ -35,9 +35,9 @@ while (i &lt;= 6) {
   <p>First of all, notice how similar this loop is to the one inside <c>printMultiples</c>. All I did was replace
     the print statement with a function call.</p>
   <listing label="encapsulation_generalization_AC_1">
-    <caption>
+    <title>
       Try running this active code, which uses <c>printMultiples</c>.
-    </caption>
+    </title>
     <program xml:id="encapsulation_generalization_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -74,9 +74,9 @@ int main() {
   <p>which is a (slightly sloppy) multiplication table. If the sloppiness
     bothers you, you can also use tab characters, like below.</p>
   <listing label="encapsulation_generalization_AC_2">
-    <caption>
+    <title>
       This active code uses tab characters to make the table neater.
-    </caption>
+    </title>
     <program xml:id="encapsulation_generalization_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -143,7 +143,7 @@ int main() {
     </choices>
   </exercise>
   <exercise label="encapsulation_generalization_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -176,7 +176,7 @@ int main() {
     </blocks>
   </exercise>
   <exercise label="encapsulation_generalization_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

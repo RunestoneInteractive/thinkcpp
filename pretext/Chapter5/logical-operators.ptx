@@ -101,13 +101,13 @@
   </exercise>
   <exercise label="logical_op_3">
     <statement>
-      <dl>
+      <p><dl>
         <li>
           <title>Add a single logical operator to make the expression check if x is greater than or
             equal to 50</title>
           <p><var/> ( x &lt; 50 ) </p>
         </li>
-      </dl>
+      </dl></p>
     </statement>
     <setup>
       <var case="insensitive">

@@ -5,10 +5,10 @@
     when the first operand is divided by the second. In C++, the modulus operator is a percent sign, <c>%</c>.
     The syntax is exactly the same as for other operators:</p>
   <listing label="mod_operator_AC_1">
-    <caption>
+    <title>
       This program shows the difference between the division operator
         and the modulus operator.
-    </caption>
+    </title>
     <program xml:id="mod_operator_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

@@ -4,11 +4,11 @@
   <p>In addition to chaining, you can also nest one conditional within
     another. We could have written the previous example as:</p>
   <listing label="nested_conditionals_AC_1">
-    <caption>
+    <title>
       This program classifies a number (x) as positive, negative, or zero,
         just like the program on the previous page. However, this time, we are
         using nested conditionals.
-    </caption>
+    </title>
     <program xml:id="nested_conditionals_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

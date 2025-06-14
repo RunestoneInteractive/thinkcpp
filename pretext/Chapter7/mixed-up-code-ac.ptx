@@ -8,7 +8,6 @@
       <p>Write a program that prints the 4th character of word,
                     and finds and replaces all instances of &#x2018;i' with &#x2018;e'.
                     Finally, print out the string.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_1_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -16,14 +15,9 @@
 using namespace std;
 // YOUR CODE HERE
         ]]></code>
-    </program>
+    </program></statement>
     <solution>
-
-
-    
-                Below is one way to write the program using the word &#x2018;irritating' as the string.
-
-    
+        <p>Below is one way to write the program using the word &#x2018;irritating' as the string.</p>
     <program xml:id="mucp_7_1_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
@@ -38,10 +32,10 @@ int main() {
     cout << word << endl;
 }
         ]]></code></program>
-
             
 
-<exercise label="mucp_7_1_ac_a"><statement><p>Below is one way to write the program using the word &#x2018;irritating' as the string.</p></statement><program xml:id="mucp_7_1_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="mucp_7_1_ac_a"><statement><p>Below is one way to write the program using the word &#x2018;irritating' as the string.</p>
+    <program xml:id="mucp_7_1_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -54,7 +48,7 @@ int main() {
     }
     cout << word << endl;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -62,7 +56,6 @@ int main() {
       <p>An anagram is a play on words by rearranging the letters of the original words
                     to form new words. For example, the letters in <q>listen</q> can be rearranged to
                     make <q>silent</q>. Write a program that rearranges <q>night</q> into <q>thing</q> and prints the anagram.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_2_ac_q_editor">
       <code><![CDATA[
 #inlcude <iostream>
@@ -70,15 +63,10 @@ int main() {
 using namespace std;
 // YOUR CODE HERE
         ]]></code>
-    </program>
+    </program></statement>
     <solution>
-
-
-    
-                Below is one way to write the program.
-
-    
-    <program xml:id="mucp_7_2_ac_a_editor" line-numbers="yes"><code><![CDATA[
+        <p>Below is one way to write the program.</p>
+        <program xml:id="mucp_7_2_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -97,7 +85,8 @@ int main() {
 
             
 
-<exercise label="mucp_7_2_ac_a"><statement><p>Below is one way to write the program.</p></statement><program xml:id="mucp_7_2_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+        <exercise label="mucp_7_2_ac_a"><statement><p>Below is one way to write the program.</p>
+        <program xml:id="mucp_7_2_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -112,7 +101,7 @@ int main() {
     anagram[4] = original[original.find('g')];
     cout << anagram;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -122,7 +111,6 @@ int main() {
                     than second, longerString prints <q>first is longer than second</q>,
                     and vice versa. If they have the same number of letters, longerString
                     prints <q>first and second are the same length</q>.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_3_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -137,14 +125,9 @@ int main() {
     longerString("string", "second");
 }
         ]]></code>
-    </program>
+    </program></statement>
     <solution>
-
-
-    
-                Below is one way to write the function longerString.
-
-    
+        <p>Below is one way to write the function longerString.</p>
     <program xml:id="mucp_7_3_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
@@ -170,7 +153,8 @@ int main() {
 
             
 
-<exercise label="mucp_7_3_ac_a"><statement><p>Below is one way to write the function <c>longerString</c>.</p></statement><program xml:id="mucp_7_3_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="mucp_7_3_ac_a"><statement><p>Below is one way to write the function <c>longerString</c>.</p>
+    <program xml:id="mucp_7_3_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -191,7 +175,7 @@ int main() {
     longerString("longer", "string");
     longerString("string", "second");
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -200,7 +184,6 @@ int main() {
                     should be a void function that takes the string input as a parameter,
                     increases the value of each character by 1 (i.e. <q>bad</q> turns into <q>cbe</q>),
                     and prints the encrypted string.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_4_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -214,14 +197,8 @@ int main() {
     cipherText("bad");
 }
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function cipherText.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the function cipherText.</p>
     <program xml:id="mucp_7_4_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
@@ -243,7 +220,8 @@ int main() {
 
             
 
-<exercise label="mucp_7_4_ac_a"><statement><p>Below is one way to write the function <c>cipherText</c>.</p></statement><program xml:id="mucp_7_4_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="mucp_7_4_ac_a"><statement><p>Below is one way to write the function <c>cipherText</c>.</p>
+    <program xml:id="mucp_7_4_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -260,7 +238,7 @@ void cipherText(string input) {
 int main() {
     cipherText("bad");
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -268,7 +246,6 @@ int main() {
       <p>Write a program that prints out the number of occurences of the character &#x2018;t'
                     in the string tongue_twister, with declaration in the order of <c>tongue_twister</c>, <c>count</c>, and <c>i</c>.
                     Declare the string tongue_twister as &#x2018;twelve twins twirled twelve twigs.'</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_5_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -276,12 +253,8 @@ int main() {
 using namespace std;
 // YOUR CODE HERE
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the program.
+    </program></statement>
+    <solution><p>Below is one way to write the program.</p>
 
     
     <program xml:id="mucp_7_5_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -305,7 +278,8 @@ int main() {
 
             
 
-<exercise label="mucp_7_5_ac_a"><statement><p>Below is one way to write the program.</p></statement><program xml:id="mucp_7_5_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="mucp_7_5_ac_a"><statement><p>Below is one way to write the program.</p>
+    <program xml:id="mucp_7_5_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -322,14 +296,13 @@ int main() {
     }
     cout << count;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
     <statement>
       <p>Write a program that prints out the index of the second instance of the
                     character &#x2018;i'. Use <c>string quote = "Your time is limited, so don't waste it living someone else's life.</c></p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_6_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -337,14 +310,8 @@ int main() {
 using namespace std;
 // YOUR CODE HERE
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the program.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the program.</p>
     <program xml:id="mucp_7_6_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
@@ -360,7 +327,8 @@ int main() {
 
             
 
-<exercise label="mucp_7_6_ac_a"><statement><p>Below is one way to write the program.</p></statement><program xml:id="mucp_7_6_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="mucp_7_6_ac_a"><statement><p>Below is one way to write the program.</p>
+    <program xml:id="mucp_7_6_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -371,7 +339,7 @@ int main() {
     int index = find(quote, 'i', first + 1);
     cout << index;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -379,7 +347,6 @@ int main() {
       <p>Deep in the forest live the 7 dwarves named Sorty, Torty, Vorty,
                     Worty, Xorty, Yorty, and Zorty. Write a program that prints
                     out each of their names.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_7_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -387,12 +354,8 @@ int main() {
 using namespace std;
 // YOUR CODE HERE
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the program.
+    </program></statement>
+    <solution><p>Below is one way to write the program.</p>
 
     
     <program xml:id="mucp_7_7_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -414,7 +377,8 @@ int main() {
 
             
 
-<exercise label="mucp_7_7_ac_a"><statement><p>Below is one way to write the program.</p></statement><program xml:id="mucp_7_7_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="mucp_7_7_ac_a"><statement><p>Below is one way to write the program.</p>
+    <program xml:id="mucp_7_7_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -429,7 +393,7 @@ int main() {
         letter++;
     }
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -438,7 +402,6 @@ int main() {
                     As a result, they hired you to write a function called <c>censorE</c> that replaces all occurences
                     of the letter <q>e</q> in a string with an asterisk and returns the censored string. For example,
                     if the input is <q>hello world</q>, the function returns <q>h*llo world</q>.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_8_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -458,14 +421,8 @@ TEST_CASE("censorE function") {
     REQUIRE(censorE("censor") == "c*nsor");
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the censorE function.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the censorE function.</p>
     <program xml:id="mucp_7_8_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
@@ -495,7 +452,8 @@ TEST_CASE("censorE function") {
 
             
 
-<exercise label="mucp_7_8_ac_a"><statement><p>Below is one way to write the censorE function.</p></statement><program xml:id="mucp_7_8_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_7_8_ac_a"><statement><p>Below is one way to write the censorE function.</p>
+<program xml:id="mucp_7_8_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -520,7 +478,7 @@ TEST_CASE("censorE function") {
     REQUIRE(censorE("hello world") == "h*llo world");
     REQUIRE(censorE("censor") == "c*nsor");
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -531,7 +489,6 @@ TEST_CASE("censorE function") {
                     Using generalization, write the function <c>censorLetter</c> which takes input and a char to censor
                     as parameters and returns a censored string. For example, censorLetter(<q>Bye world</q>, &#x2018;o') returns the
                     string <q>Bye w*rld</q>.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_9_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -551,14 +508,8 @@ TEST_CASE("censorLetter function") {
     REQUIRE(censorLetter("Goodbye world", 'd') == "Goo*bye worl*");
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the censorLetter function.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the censorLetter function.</p>
     <program xml:id="mucp_7_9_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
@@ -588,7 +539,8 @@ TEST_CASE("censorLetter function") {
 
             
 
-<exercise label="mucp_7_9_ac_a"><statement><p>Below is one way to write the censorLetter function.</p></statement><program xml:id="mucp_7_9_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_7_9_ac_a"><statement><p>Below is one way to write the censorLetter function.</p>
+<program xml:id="mucp_7_9_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -613,7 +565,7 @@ TEST_CASE("censorLetter function") {
     REQUIRE(censorLetter("Hello world", 'l') == "He**o wor*d");
     REQUIRE(censorLetter("Goodbye world", 'd') == "Goo*bye worl*");
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -624,7 +576,6 @@ TEST_CASE("censorLetter function") {
                     alphabetical order. For example,
                     alphabetizer (<q>zebra, mega</q>) returns the string
                     <q>megazebra</q> since <q>mega</q> comes before <q>zebra</q> in the alphabet.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_10_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -644,12 +595,8 @@ TEST_CASE("alphaCombine function") {
     REQUIRE(alphaCombine("combine","alpha") == "alphacombine");
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the alphaCombine function.
+    </program></statement>
+    <solution><p>Below is one way to write the alphaCombine function.</p>
 
     
     <program xml:id="mucp_7_10_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -679,7 +626,8 @@ TEST_CASE("alphaCombine function") {
 
             
 
-<exercise label="mucp_7_10_ac_a"><statement><p>Below is one way to write the alphaCombine function.</p></statement><program xml:id="mucp_7_10_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_7_10_ac_a"><statement><p>Below is one way to write the alphaCombine function.</p>
+<program xml:id="mucp_7_10_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -702,7 +650,7 @@ TEST_CASE("alphaCombine function") {
     REQUIRE(alphaCombine("alpha","combine") == "alphacombine");
     REQUIRE(alphaCombine("combine","alpha") == "alphacombine");
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -715,7 +663,6 @@ TEST_CASE("alphaCombine function") {
                     That is a string that reads the same backwards is palindrome.
                     palindromes:  <q>hih</q>, <q>i</q>, <q>bob</q>, <q>tenet</q>, <q>soos</q>, <q>madam</q> .
                     not palindromes: <q>join</q>, <q>hat</q>, <q>frat</q>, <q>supper</q>, <q>rhythm</q>.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_7_11_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -734,14 +681,8 @@ TEST_CASE("ispalindrome function") {
     REQUIRE(ispalindrome("join") == false);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the ispalindrome function.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the ispalindrome function.</p>
     <program xml:id="mucp_7_11_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
@@ -772,7 +713,8 @@ TEST_CASE("ispalindrome function") {
 
             
 
-<exercise label="mucp_7_11_ac_a"><statement><p>Below is one way to write the ispalindrome function.</p></statement><program xml:id="mucp_7_11_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_7_11_ac_a"><statement><p>Below is one way to write the ispalindrome function.</p>
+<program xml:id="mucp_7_11_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <string>
 using namespace std;
@@ -798,7 +740,7 @@ TEST_CASE("ispalindrome function") {
     REQUIRE(ispalindrome("madam") == true);
     REQUIRE(ispalindrome("join") == false);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
 </section>

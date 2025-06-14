@@ -5,11 +5,11 @@
     steps, and to make the code easier to debug, but I could have saved a
     few lines:</p>
   <listing label="recursion_ex_AC_1">
-    <caption>
+    <title>
       This program uses recursion to calculate the factorial of
         the passed argument. It is the condensed version of the
         example on the previous page.
-    </caption>
+    </title>
     <program xml:id="recursion_ex_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -37,17 +37,17 @@ int main() {
     When you have it working, you can tighten it up, if you are feeling
     inspired.</p>
   <p>After factorial, the classic example of a recursively-defined
-    mathematical function is fibonacci, which has the following definition:</p>
+    mathematical function is fibonacci, which has the following definition:
   <me>\begin{aligned}
  fibonacci(0) \amp = 1 \\
  fibonacci(1) \amp = 1 \\
- fibonacci(n) \amp = fibonacci(n-1) + fibonacci(n-2);\end{aligned}</me>
+ fibonacci(n) \amp = fibonacci(n-1) + fibonacci(n-2);\end{aligned}</me></p>
   <p>Translated into C++, this is:</p>
   <listing label="recursion_ex_AC_2">
-    <caption>
+    <title>
       This program uses recursion to calculate the nth number in the
         fibonacci sequence.
-    </caption>
+    </title>
     <program xml:id="recursion_ex_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">

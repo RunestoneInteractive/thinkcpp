@@ -157,7 +157,7 @@ int main() {
     </choices>
   </exercise>
   <exercise label="functions_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

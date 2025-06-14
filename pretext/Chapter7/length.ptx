@@ -4,9 +4,9 @@
   <p>To find the length of a string (number of characters), we can use the <c>length</c> function. The
     syntax for calling this function is a little different from what we've seen before.</p>
   <listing label="length_AC_1">
-    <caption>
+    <title>
       This active code outputs the length of string <c>fruit</c>.
-    </caption>
+    </title>
     <program xml:id="length_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -44,10 +44,10 @@ char last = fruit[length];       // WRONG!!</program>
       is usually the result of forgetting to subtract 1 from <c>length</c>.</p>
   </warning>
   <listing label="length_AC_2">
-    <caption>
+    <title>
       This active code outputs the last character in string <c>fruit</c> using the <c>length</c>
         function.
-    </caption>
+    </title>
     <program xml:id="length_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -140,7 +140,7 @@ cout << (s[s.length()-5]) << endl;
     </choices>
   </exercise>
   <exercise label="length_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

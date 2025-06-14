@@ -3,11 +3,11 @@
   <title><c>string</c> variables</title>
   <p>You can create a variable with type <c>string</c> in the usual ways.</p>
   <listing label="string_variables_AC_1">
-    <caption>
+    <title>
       In this active code, the first line creates a <c>string</c> without giving it a value. The
         second line assigns it the string value <c>"Hello,"</c>. The third line is a combined declaration
         and assignment, also called an initialization.
-    </caption>
+    </title>
     <program xml:id="string_variables_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -36,9 +36,9 @@ cout &lt;&lt; first &lt;&lt; second &lt;&lt; endl;
     In some environments, <c>iostream</c> will include <c>string</c> for you. But it is best to explicitly
     include <c>string</c> if your code relies on it.</p></note>
   <listing label="string_variables_AC_2">
-    <caption>
+    <title>
       Run this active code!
-    </caption>
+    </title>
     <program xml:id="string_variables_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -57,7 +57,7 @@ int main() {
     </program>
   </listing>
   <exercise label="string_variables_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

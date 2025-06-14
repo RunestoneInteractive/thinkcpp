@@ -76,7 +76,7 @@ else {
     </matches>
   </exercise>
   <exercise label="bool_fun_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
