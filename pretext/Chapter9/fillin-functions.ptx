@@ -25,10 +25,10 @@
     to cause subtle errors. For the vast majority of programming, it is
     worth a spending a little run time to avoid a lot of debugging time.</p>
   <listing label="fillin_functions_AC_1">
-    <caption>
+    <title>
       This active code uses the fill-in version of the <c>addTime</c> function. Feel free to modify the
         code!
-    </caption>
+    </title>
     <program xml:id="fillin_functions_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -98,25 +98,25 @@ void addTimeFill(const Time&amp; t1, const Time&amp; t2, Time&amp; sum) {
         <statement>
           <p>Time&amp; t1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Time&amp; t2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Time&amp; sum</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

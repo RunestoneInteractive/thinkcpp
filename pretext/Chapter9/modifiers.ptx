@@ -25,10 +25,10 @@
             have to keep doing it until <c>second</c> is below 60. We can do that by
             replacing the <c>if</c> statements with <c>while</c> statements:</p>
   <listing label="modifiers_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>increment</c> function. Run the active code to
             see what the output is!
-    </caption>
+    </title>
     <program xml:id="modifiers_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -69,7 +69,6 @@ int main() {
             solution that does not require iteration? Try writing a more efficient version
             of <c>increment</c> in the commented section of this active code. If you get stuck,
             you can reveal the extra problem at the end for help.</p>
-    </statement>
     <program xml:id="modifiers_AC_2_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -100,10 +99,10 @@ int main() {
     printTime(t2);
 }
         ]]></code>
-    </program>
+    </program></statement>
   </exercise>
-  <exercises line="109" runestone_options="{'showtitle': 'data-showtitle=&quot;Reveal Problem&quot;', 'hidetitle': 'data-hidetitle=&quot;Hide Problem&quot;', 'subchapter': 'modifiers', 'chapter': 'Chapter9', 'basecourse': 'thinkcpp', 'optional': '', 'optclass': '', 'divid': '9_6_1', 'instructoronly': '', 'is_dynamic': 'True'}" source="/mnt/f/Programming/Runestone2PreTeXt/book/_sources/Chapter9/modifiers.rst">
-    <exercise label="modifiers_1" numbered="yes" adaptive="yes" indentation="hide">
+  <exercises>
+    <exercise label="modifiers_1" number="yes" adaptive="yes" indentation="hide">
       <statement>
         <p>Let's write the code for the <c>increment</c> function. <c>increment</c>
                 adds a number of seconds to a <c>Time</c> object and updates the values

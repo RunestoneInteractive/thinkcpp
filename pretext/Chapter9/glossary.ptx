@@ -46,14 +46,14 @@
     <statement>
       <p>Match the definition to the term.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>instance</premise>
-        <response>An example from a category. My cat is an instance of the category <q>feline
-          things.</q> Every object is an instance of some type.</response>
+        <response><p>An example from a category. My cat is an instance of the category <q>feline
+          things.</q> Every object is an instance of some type.</p></response>
       </match>
       <match order="2">
         <premise>instance variable</premise>
@@ -75,9 +75,9 @@
     <statement>
       <p>Match the definition to the term.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>functional programming style</premise>
@@ -90,8 +90,8 @@
       </match>
       <match order="3">
         <premise>fill-in function</premise>
-        <response>A function that takes an <q>empty</q> object as a parameter and fills it its
-          instance variables instead of generating a return value.</response>
+        <response><p>A function that takes an <q>empty</q> object as a parameter and fills it its
+          instance variables instead of generating a return value.</p></response>
       </match>
       <match order="4">
         <premise>algorithm</premise>

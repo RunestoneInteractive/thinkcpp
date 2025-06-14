@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter9_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_9_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_9_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the code for the struct definition of Movie.
             The Movie structure will have the instance variables title,
@@ -44,7 +44,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_9_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the code for the printMovie function.
             printMovie should print the information about a movie
@@ -86,7 +86,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_9_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the code for the movieAge function.
             movieAge should take a Movie and currentYear as a parameter and
@@ -114,7 +114,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_9_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the struct definition of Date.
             The Date structure will have three integer instance variables: day,
@@ -160,7 +160,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_9_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the printDate function.
             printDate should print the date in the following format:
@@ -193,7 +193,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_9_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the nextMonth function.
             nextMonth should change the date to one month later.
@@ -248,7 +248,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_9_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the struct definition of Length.
             Length should have the instance variables inches, feet, and yard.
@@ -293,7 +293,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_9_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the printLength function.
             printLength should print the date in the following format:
@@ -326,7 +326,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_9_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the allInches function.
             printLength should modify a Length object to convert all
@@ -363,7 +363,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_9_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_9_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the addLengths function.
             addLengths should take three Lengths as parameters.

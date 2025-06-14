@@ -2,7 +2,7 @@
 <exercises xml:id="chapter9_mixed-up-code">
   <title>Mixed Up Code Practice</title>
   <exercise label="mucp_9_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -54,7 +54,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -102,7 +102,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -136,7 +136,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -192,7 +192,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_5"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -230,7 +230,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_6"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -290,7 +290,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_7"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -345,7 +345,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_8"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -383,7 +383,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_9"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -426,7 +426,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_9_10"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

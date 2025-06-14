@@ -21,27 +21,27 @@
           <p>Writing modifiers only if there is a compelling advantage. Otherwise, write pure
             functions.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Writing fill-in functions only if there is a compelling advantage. Otherwise, write
             modifiers.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Writing pure functions only if there is a compelling advantage. Otherwise, write
             modifiers.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

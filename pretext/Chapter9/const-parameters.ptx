@@ -23,9 +23,9 @@ Time addTime(const Time&amp; t1, const Time&amp; t2) ...</program>
     <statement>
       <p>Match the action to a benefit of its use.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again.
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>passing by value</premise>
@@ -48,25 +48,25 @@ Time addTime(const Time&amp; t1, const Time&amp; t2) ...</program>
         <statement>
           <p>Makes reference parameters just as safe as value parameters.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Can be used when you intend to modify a parameter.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           It is used when you are writing a function and you do not intend to modify a parameter.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The syntax can look like this: void printTime(const Time&amp; time)...</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

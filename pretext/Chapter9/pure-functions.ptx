@@ -6,11 +6,11 @@
             outputting something. The only result of calling a pure function is the
             return value.</p>
   <listing label="pure_function_AC_1">
-    <caption>
+    <title>
       One example is the function <c>after</c>, which compares two <c>Time</c>s and returns a
             <c>bool</c> that indicates whether the first operand comes after the second. Take a look
             at this active code.
-    </caption>
+    </title>
     <program xml:id="pure_function_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -55,12 +55,12 @@ int main() {
   return sum;
 }</program>
   <listing label="pure_function_AC_2">
-    <caption>
+    <title>
       Take a look at this active code. If <c>currentTime</c>
             contains the current time and <c>breadTime</c> contains the amount of time
             it takes for your breadmaker to make bread, then you could use
             <c>addTime</c> to figure out when the bread will be done.
-    </caption>
+    </title>
     <program xml:id="pure_function_AC_2_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -101,9 +101,9 @@ int main() {
             minutes into the hours column.</p>
   <p>Here's a second, corrected version of this function.</p>
   <listing label="pure_function_AC_3">
-    <caption>
+    <title>
       This active code is the corrected version of <c>addTime</c>.
-    </caption>
+    </title>
     <program xml:id="pure_function_AC_3_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -153,9 +153,9 @@ int main() {
     <statement>
       <p>Match the statement to its equivalent.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again.
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>x.dollar += 2;</premise>

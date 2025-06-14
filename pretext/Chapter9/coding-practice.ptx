@@ -4,7 +4,6 @@
     <statement>
       <p>Write the <c>Cake</c> structure, which has instance variables name, color, diameter, and
         has_icing.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_1q">
         <code>
@@ -17,10 +16,10 @@ int main() {
     Cake c = { "Mary", "blue", 3.5, false };
 }
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We declare the <c>Cake</c> struct and list
-      the instance variables in order.</p> Below is one way to implement the program. We declare the
-      Cake struct and list the instance variables in order. <program xml:id="cp_9_AC_1a">
+    the instance variables in order.</p>
+    <program xml:id="cp_9_AC_1a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -48,7 +47,6 @@ int main() {
         Your cake is <c>color</c>, has a <c>diameter</c> inch diameter, and comes with/without icing.&#8221;
         Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_2q_editor">
         <code>
@@ -71,7 +69,7 @@ int main() {
     printCakeInfo(c2);
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_9_AC_2q_pp">
         <statement>
@@ -132,7 +130,6 @@ int main() {
     <statement>
       <p>Write the <c>makeCake</c> function, which prompts the user for a name, color, diameter, and whether
         or not they want icing. The function then returns the cake.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_3q">
         <code>
@@ -177,11 +174,10 @@ void printCakeInfo(Cake c) {
 </tests>
     <stdin>test red 8 y</stdin>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We create a <c>Cake</c> for the user, read
-      in the user&#8217;s input using cin, and return the <c>Cake</c>.</p> Below is one way to implement
-      the program. We create a Cake for the user, read in the user&#8217;s input using cin, and
-      return the Cake. <program xml:id="cp_9_AC_3a">
+    in the user&#8217;s input using cin, and return the <c>Cake</c>.</p>
+    <program xml:id="cp_9_AC_3a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -235,7 +231,6 @@ int main() {
         then multiplies the original diameter by the double and modifies the cake to have this new
         diameter. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_4q_editor">
         <code>
@@ -306,7 +301,7 @@ Cake makeCake() {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_9_AC_4q_pp">
         <statement>
@@ -351,7 +346,6 @@ Cake makeCake() {
       <p>Write the <c>editCake</c> function, which prompts the user for a new name, color, diameter, and
         whether or not they want icing. The function modifies the original cake that is passed in as
         a parameter. Use the makeCake function in your implementation to avoid duplicate code!</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_5q">
         <code>
@@ -423,10 +417,10 @@ int main() {
  }
 </tests>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We call <c>makeCake</c> in <c>editCake</c> and then set
-      the original cake equal to the new one.</p> Below is one way to implement the program. We call
-      makeCake in editCake and then set the original cake equal to the new one. <program xml:id="cp_9_AC_5a">
+    the original cake equal to the new one.</p>
+    <program xml:id="cp_9_AC_5a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -460,7 +454,6 @@ int main() {
   <exercise label="cp_9_7">
     <statement>
       <p>Write the <c>Pants</c> structure, which has instance variables size and material.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_7q">
         <code>
@@ -473,10 +466,10 @@ int main() {
     Pants p = { 'S', "denim" };
 }
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We declare the <c>Pants</c> struct and list
-      the instance variables in order.</p> Below is one way to implement the program. We declare the
-      Pants struct and list the instance variables in order. <program xml:id="cp_9_AC_7a">
+    the instance variables in order.</p>
+    <program xml:id="cp_9_AC_7a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -498,7 +491,6 @@ int main() {
     <statement>
       <p>Write the struct <c>Shirt</c>, which has the instance variables color and size (in that order). Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_6q_editor">
         <code>
@@ -511,7 +503,7 @@ int main () {
     Shirt t = { "blue", 'L' };
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_9_AC_6q_pp">
         <statement>
@@ -550,7 +542,6 @@ int main () {
       <p>Write the struct <c>Outfit</c>, which is a nested structure that has a <c>Shirt</c>, <c>Pants</c>, and
         has_hat (in that order). Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_8q_editor">
         <code>
@@ -574,7 +565,7 @@ int main () {
     Outfit o = { t, p, true };
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_9_AC_8q_pp">
         <statement>
@@ -612,7 +603,6 @@ int main () {
     <statement>
       <p>Write the <c>printOutfit</c> function, which prints out details of the outfit. The output below should
         be &#8220;Shirt: blue and L; Pants: S and denim; has hat&#8221;.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_9q">
         <code>
@@ -644,10 +634,9 @@ int main() {
     printOutfit(o);
 }
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We declare the <c>Cake</c> struct and list
-      the instance variables in order.</p> Below is one way to implement the program. We declare the
-      Cake struct and list the instance variables in order. <program xml:id="cp_9_AC_9a">
+      the instance variables in order.</p><program xml:id="cp_9_AC_9a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -695,7 +684,6 @@ int main() {
         also takes a <c>Shirt</c> as a parameter and <c>changePants</c> also takes a <c>Pants</c> as a parameter. Each
         function modifies the <c>Outfit</c> and changes the shirt or pants to the new input. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_9_AC_10q_editor">
         <code>
@@ -748,7 +736,7 @@ void printOutfit(Outfit o) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_9_AC_10q_pp">
         <statement>

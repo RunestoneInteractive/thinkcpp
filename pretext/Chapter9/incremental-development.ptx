@@ -40,9 +40,9 @@
   return makeTime(seconds);
 }</program>
   <listing label="incremental_development_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>convertToSeconds</c> and <c>makeTime</c> functions.
-    </caption>
+    </title>
     <program xml:id="incremental_development_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -93,10 +93,10 @@ int main() {
     correct (assuming, as usual, that the functions it calls are correct). As an exercise, rewrite <c>increment</c>
     the same way.</p>
   <listing label="incremental_development_AC_2">
-    <caption>
+    <title>
       Write your implementation of <c>increment</c> in the commented area of the active code below. If you
         get stuck, you can reveal the extra problem at the end for help.
-    </caption>
+    </title>
     <program xml:id="incremental_development_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -153,11 +153,9 @@ int main() {
         ]]></code>
     </program>
   </listing>
-  <exercises line="174"
-             runestone_options="{'showtitle': 'data-showtitle=&quot;Reveal Problem&quot;', 'hidetitle': 'data-hidetitle=&quot;Hide Problem&quot;', 'subchapter': 'incremental_development', 'chapter': 'Chapter9', 'basecourse': 'thinkcpp', 'optional': '', 'optclass': '', 'divid': '9_9_1', 'instructoronly': '', 'is_dynamic': 'True'}"
-             source="/mnt/f/Programming/Runestone2PreTeXt/book/_sources/Chapter9/incremental_development.rst">
+  <exercises>
     <exercise label="incremental_development_1"
-              numbered="yes"
+              number="yes"
               adaptive="yes"
               indentation="hide">
       <statement>

@@ -5,7 +5,7 @@
     for functions that operate on objects. For some operations, you will
     have a choice of several possible interfaces, so you should consider the
     pros and cons of each of these:</p>
-  <dl>
+  <p><dl>
     <li>
       <title>pure function:</title>
       <p>Takes objects and/or basic types as arguments but does not modify the
@@ -26,14 +26,14 @@
       <p>One of the parameters is an <q>empty</q> object that gets filled in by the function.
         Technically, this is a type of modifier.</p>
     </li>
-  </dl>
+  </dl></p>
   <exercise label="dnd9_1">
     <statement>
       <p>Match the term to its definition.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again.
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>pure function</premise>
