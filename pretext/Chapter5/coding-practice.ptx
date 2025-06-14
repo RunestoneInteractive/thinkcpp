@@ -2,11 +2,10 @@
 <exercises xml:id="chapter5_coding-practice">
   <title>Coding Practice</title>
     <exercise label="cp_5_AC_1">
-      <statement>Write a function called <c>calculator</c> which takes two <c>doubles</c>, <c>first</c> and <c>second</c> and a <c>char operation</c>
+      <statement><p>Write a function called <c>calculator</c> which takes two <c>doubles</c>, <c>first</c> and <c>second</c> and a <c>char operation</c>
         as parameters. <c>calculator</c> performs addition, subtraction, multiplication, or division with the
         two <c>doubles</c> depending on what operation is passed in (+, -, \*, /). It then returns the
-        result. Run and test your code!</statement>
-
+        result. Run and test your code!</p>
       <program interactive="activecode">
       <code><![CDATA[
 #include <iostream>
@@ -42,7 +41,7 @@ double calculator(double first, double second, char operation) {
             REQUIRE(calculator(3, 8, '/') == 0.375);
         }
       </tests>
-    </program>
+    </program></statement>
 
       <solution>
 
@@ -76,7 +75,6 @@ double calculator(double first, double second, char operation) {
         <p>A binary number is one that is expressed in the base-2 numeral system. Write a function <c>convertToBinary</c>
           which takes a <c>decimal</c> as a parameter. <c>convertToBinary</c> takes the number in decimal, converts it
           into a binary number, and returns the binary number. Test your function in <c>main</c>.</p>
-      </statement>
       <program xml:id="cp_5_AC_2q_editor"
                interactive="activecode"
                line-numbers="yes">
@@ -100,7 +98,7 @@ REQUIRE(convertToBinary(16) == 10000);
 REQUIRE(convertToBinary(31) == 11111);
 }
 </tests>
-    </program>
+    </program></statement>
       <hint>
         <activity label="cp_5_AC_2q_pp"
                   numbered="yes"
@@ -144,13 +142,13 @@ REQUIRE(convertToBinary(31) == 11111);
     </exercise>
 
     <exercise label="cp_5_AC_3">
-      <statement> An interior angle of a polygon is the angle between two adjacent sides of the
+      <statement><p>An interior angle of a polygon is the angle between two adjacent sides of the
         polygon. Each interior angle in an equilateral triangle measures 60 degree, each interior
         angle in a square measures 90 degrees, and in a regular pentagon, each interior angle
         measures 108 degrees. Write the function <c>calculateIntAngle</c>, which takes a <c>numSides</c> as a parameter and
         returns a <c>double</c>. <c>calculateIntAngle</c> finds the interior angle of a regular polygon with <c>numSides</c> sides.
         The formula to find the interior angle of a regular ngon is (n - 2) x 180 / n. Run and test
-        your code! </statement>
+        your code!</p>
       <program interactive="activecode">
       <code>
         <![CDATA[
@@ -162,7 +160,7 @@ double calculateIntAngle(int numSides) {
 }
         ]]>
       </code>
-    </program>
+    </program></statement>
       <solution>
         <p>Below
           is one way to implement the program. Using the formula given,
@@ -202,7 +200,6 @@ TEST_CASE("calculateIntAngle function") {
           which takes two parameters, <c>month</c> and <c>day</c>. <c>birthSeason</c> calculates which season the
           birthday falls in according to the meteorological start and returns a <c>string</c> with the
           correct season. For example, <c>birthSeason (7, 5)</c> returns <q>summer</q> since July 5 is in the summer.</p>
-      </statement>
       <program xml:id="cp_5_AC_4q_editor"
                interactive="activecode"
                line-numbers="yes">
@@ -242,7 +239,7 @@ TEST_CASE("birthSeason function: winter") {
   REQUIRE(birthSeason (2, 28) == "winter");
 }
 </tests>
-      </program>
+      </program></statement>
       <hint>
         <activity label="cp_5_AC_4q_pp"
                   numbered="yes"
@@ -302,7 +299,6 @@ TEST_CASE("birthSeason function: winter") {
           human years; a two year old dog is 24 years old in human years. Each year after the second
           year counts as 4 additional human years. For example, a dog that is 3 years old is
           actually 28 years old in human years. Run and test your code!</p>
-      </statement>
       <program interactive="activecode">          
         <code><![CDATA[
 #include <iostream>
@@ -327,7 +323,7 @@ TEST_CASE("dogToHumanYears function for > 1") {
 }
 ]]>
         </tests>
-      </program>
+      </program></statement>
       <solution>
         <p>Below
           is one way to implement the program. We can use a conditional to
@@ -356,7 +352,6 @@ int dogToHumanYears(int dogAge) {
           and 18. Write the function <c>isCommonFactor</c>, which takes three parameters, <c>num1</c>, <c>num2</c>, and <c>factor</c>
           . <c>isCommonFactor</c> returns <c>true</c> if <c>factor</c> is a factor of both <c>num1</c> and <c>num2</c>, and returns <c>false</c>
           otherwise. Run and test your code!.</p>
-      </statement>
       <program xml:id="cp_5_AC_6q_editor"
                interactive="activecode"
                line-numbers="yes">
@@ -382,7 +377,7 @@ REQUIRE(isCommonFactor (132, 42, 11) == 0);
 REQUIRE(isCommonFactor (74, 23, 3) == 0);
 }
 </tests>
-    </program>
+    </program></statement>
       <hint>
         <activity label="cp_5_AC_6q_pp"
                   exercise-interactive="parson">
@@ -426,12 +421,12 @@ REQUIRE(isCommonFactor (74, 23, 3) == 0);
     </exercise>
 
     <exercise label="cp_5_AC_7">
-      <statement> If a year is divisible by 4, then it is a leap year. However, if it is also
+      <statement><p>If a year is divisible by 4, then it is a leap year. However, if it is also
         divisible by 100, then it is not a leap year. However, if it is also divisible by 400, then
         it is a leap year. Thus, 2001 is not a leap year, 2004 is a leap year, 2100 is not a leap
         year, and 2000 is a leap year. Write the <c>boolean</c> function <c>isLeapYear</c>, which takes a year as a
         parameter and returns <c>true</c> if the year is a leap year and <c>false</c> otherwise. Run and test
-        your code! </statement>
+        your code!</p>
       <program interactive="activecode">
       <code><![CDATA[ 
 #include <iostream>
@@ -467,7 +462,7 @@ bool isLeapYear(int year) {
             REQUIRE(isLeapYear(2400) == 1);
         }
         </tests>
-    </program>
+    </program></statement>
       <solution>
         <p>Below is one way to implement the program. We can use conditionals in this order to
           efficiently determine whether or not a given year is a leap year.</p>
@@ -505,7 +500,6 @@ bool isLeapYear(int year) {
           poisonous. If a mushroom is small (&#x2018;S') and is red, it is poisonous. If a mushroom
           has fewer than 3 spots or is not red, it is poisonous. Otherwise, it is not. <c>isPoisonous</c>
           should return <c>true</c> if the mushroom is poisonous and <c>false</c> otherwise.</p>
-      </statement>
       <program xml:id="cp_5_AC_8q_editor"
                interactive="activecode"
                line-numbers="yes">
@@ -532,7 +526,7 @@ TEST_CASE("isPoisonous function: false cases") {
     REQUIRE(isPoisonous('L', 9, 1) == 0);
 }
 </tests>
-    </program>
+    </program></statement>
       <hint>
         <activity label="cp_5_AC_8q_pp"
                   numbered="yes"
@@ -589,13 +583,13 @@ TEST_CASE("isPoisonous function: false cases") {
 
 
     <exercise label="ecp_5_AC_9">
-      <statement> We know that a factorial is the product of an integer and all the integers below
+      <statement><p>We know that a factorial is the product of an integer and all the integers below
         it. For example, four factorial (4!) is 24. A triangular number is the same as a factorial,
         except you add all the numbers instead of multiplying. For example, the 1st triangular
         number is 1, the 2nd is 3, the 3rd is 6, the 4th is 10, the 5th is 15, etc. You can imagine
         rows of dots, where each successive row has one more dot, thus forming a triangular shape.
         Write the <c>triangularNum</c> function, which takes an <c>int n</c> as a parameter and returns the nth
-        triangular number. Use recursion. Run and test your code! </statement>
+        triangular number. Use recursion. Run and test your code!</p>
       <program interactive="activecode">
       <code><![CDATA[
 #include <iostream>
@@ -618,7 +612,7 @@ int triangularNum(int n) {
             REQUIRE(triangularNum (17) == 153);
         }
         </tests>
-    </program>
+    </program></statement>
       <solution>
         <p>Below is one way to implement the program. We can use conditionals to separate the base
           case and recursive cases. Our base case is when <c>n</c> is 1, and in that case we return
@@ -646,7 +640,6 @@ int triangularNum(int n) {
       <statement>
         <p>Write the function <c>digitSum</c> which takes an <c>int num</c> as a parameter and returns the sum of
           all its digits. For example, <c>digitSum(1423)</c> would return 10. Use recursion. </p>
-      </statement>
       <program xml:id="cp_5_AC_10q_editor"
                interactive="activecode"
                line-numbers="yes">
@@ -669,7 +662,7 @@ TEST_CASE("digitSum function") {
     REQUIRE(digitSum(2) == 2);
 }
 </tests>
-      </program>
+      </program></statement>
       <hint>
         <activity label="cp_5_AC_10q_pp"
                   numbered="yes"

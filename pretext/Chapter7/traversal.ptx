@@ -11,9 +11,9 @@
       use to keep track of the current index in the string.</p>
   </note>
   <listing label="traversal_AC_1">
-    <caption>
+    <title>
       This active code outputs each letter of string <c>fruit</c> using a while loop.
-    </caption>
+    </title>
     <program xml:id="traversal_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -45,11 +45,10 @@ int main() {
   <p>As an exercise, write a function that takes an <c>string</c> as an argument and that outputs the
     letters backwards, all on one line.</p>
   <exercise label="traversal_1">
-    <caption>
+    <statement><p>
       Try writing the <c>reverseWord</c> function in the commented section of this active code. If done
         correctly, the program should output <q>hello</q> backwards. If you get stuck, you can
-        reveal the hint below for help.
-    </caption>
+        reveal the hint below for help.</p>
     <program xml:id="traversal_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -66,10 +65,10 @@ int main() {
     reverseWord("hello");
 }
         ]]></code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="traversal_1_hint"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson"
@@ -192,8 +191,8 @@ while (index < truth.length()) {
           <p>e e e e e</p>
         </statement>
         <feedback>
-          We are updating the value of of <code>index</code>. Not doing so would make it an
-            infinte loop!
+          <p>We are updating the value of of <c>index</c>. Not doing so would make it an
+            infinte loop!</p>
         </feedback>
       </choice>
       <choice>
@@ -201,8 +200,8 @@ while (index < truth.length()) {
           <p>e e n r</p>
         </statement>
         <feedback>
-          Recalculate the values of <code>index</code> at each stage and consider which ones are
-            &amp;lt 7.
+          <p>Recalculate the values of <c>index</c> at each stage and consider which ones are
+            &amp;lt 7.</p>
         </feedback>
       </choice>
     </choices>

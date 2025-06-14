@@ -61,11 +61,11 @@ countdown(n-1);</program>
       your code will have errors.</p>
   </warning>
   <listing label="return_vals_AC_1">
-    <caption>
+    <title>
       Notice that there are two return statements in this code.
         What if we pass zero as an argument, and neither conditional
         returns true?
-    </caption>
+    </title>
     <program xml:id="return_vals_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -106,11 +106,11 @@ int main() {
     all the errors they can find. You should turn this option on all the time. The implementation
     below would fix the error in the code.</p>
   <listing label="return_vals_AC_2">
-    <caption>
+    <title>
       This code fixes the error in the previoius implementation of
         absoluteValue. If we pass 0 as an argument, the function will
         return 0. Thus, every route through the conditonal is satisfied.
-    </caption>
+    </title>
     <program xml:id="return_vals_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">

@@ -6,10 +6,10 @@
     the character at that index, <c>find</c> takes a character and finds the index where that character
     appears.</p>
   <listing label="find_function_AC_1">
-    <caption>
+    <title>
       Take a look at this active code, which uses the <c>find</c> function to find the character <c>'a'</c>
         in string <c>fruit</c> and string <c>dessert</c>.
-    </caption>
+    </title>
     <program xml:id="find_function_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -37,9 +37,9 @@ int main() {
   <p>In addition, there is a version of <c>find</c> that takes another <c>string</c> as an argument and that
     finds the index where the substring appears in the string.</p>
   <listing label="find_function_AC_2">
-    <caption>
+    <title>
       This active code finds the starting index of <c>"nan"</c> in <c>fruit</c>.
-    </caption>
+    </title>
     <program xml:id="find_function_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -78,7 +78,7 @@ int main() {
     </areas>
   </exercise>
   <exercise label="find_function_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -167,7 +167,7 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is 29</p>
         </statement>
         <feedback>
-          <code>find</code> returns the index of the FIRST occurence of "sea".
+          <p><c>find</c> returns the index of the FIRST occurence of "sea".</p>
         </feedback>
       </choice>
       <choice correct="yes">
@@ -175,8 +175,8 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is 5</p>
         </statement>
         <feedback>
-          Correct! <code>index</code> only has to look for a sequence arranged as "sea" in the
-            string.
+          <p>Correct! <c>index</c> only has to look for a sequence arranged as "sea" in the
+            string.</p>
         </feedback>
       </choice>
       <choice>
@@ -184,7 +184,7 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is -1</p>
         </statement>
         <feedback>
-          sea is present in the <code>sentence</code>.
+          <p>sea is present in the <c>sentence</c>.</p>
         </feedback>
       </choice>
     </choices>

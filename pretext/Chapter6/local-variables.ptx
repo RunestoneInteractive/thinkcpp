@@ -16,10 +16,15 @@
   <p>The stack diagram for this program shows clearly that the two variables named <c>i</c> are not
     in the same storage location. They can have different values, and changing one does not affect
     the other.</p>
-  <figure align="center">
-    <image source="Chapter6/Images/6.9stackdiagram.png"
-           width="50%"
-           alt="A stack of three boxes. The top one is 'main' and is empty. The next is 'printMultTable' and contains 'i = 1'. The next is 'printMultiples' and contains n=1, i = 3'."/>
+  <figure>
+      <caption>Stack Diagram</caption>
+      <image source="Chapter6/Images/6.9stackdiagram.png" width="50%">
+          <description><p>
+              A stack of three boxes. The top one is 'main' and is empty. The next is
+              'printMultTable' and contains 'i = 1'. The next is 'printMultiples' and
+              contains n=1, i = 3'."
+          </p></description>
+      </image>
   </figure>
   <p>Notice that the value of the parameter <c>n</c> in <c>printMultiples</c> has to be the same as the value of <c>i</c>
     in <c>printMultTable</c>. On the other hand, the value of <c>i</c> in <c>printMultiples</c> goes from 1 up to <c>n</c>. In the

@@ -39,7 +39,6 @@ cout &lt;&lt; letter &lt;&lt; endl;</program>
         should convert the string to uppercase, and <c>stringToLower</c> should convert the string to lowercase.
         Some functions that you might find useful include <c>isalpha</c>, <c>isupper</c>, <c>islower</c>, <c>toupper</c>, and <c>tolower</c>.
         If you get stuck, you can reveal the hint after the problem for help.</p>
-    </statement>
     <program xml:id="character_classification_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -67,10 +66,10 @@ int main() {
     cout << lower << endl;
 }
         ]]></code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="character_classification_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -123,9 +122,8 @@ int main() {
       </activity>
     </hint>
     <hint>
-      source="/mnt/f/Programming/Runestone2PreTeXt/book/_sources/Chapter7/character_classification.rst">
       <activity label="character_classification_2"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>

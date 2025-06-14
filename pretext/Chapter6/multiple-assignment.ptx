@@ -5,9 +5,9 @@
     one assignment to the same variable. The effect of the second assignment
     is to replace the old value of the variable with a new value.</p>
   <listing label="multiple_assignment_AC_1">
-    <caption>
+    <title>
       This active code reassigns <c>fred</c> from 5 to 7 and prints both values out.
-    </caption>
+    </title>
     <program xml:id="multiple_assignment_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -28,9 +28,9 @@ int main() {
   <p>The output of this program is <c>57</c>, because the first time we print <c>fred</c> his value is 5,
     and the second time his value is 7.</p>
   <listing label="multiple_assignment_AC_2">
-    <caption>
+    <title>
       This active code reassigns <c>fred</c> from 5 to 7 without printing out the initial value.
-    </caption>
+    </title>
     <program xml:id="multiple_assignment_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -52,11 +52,14 @@ int main() {
   <p>This kind of <term>multiple assignment</term> is the reason I described variables as a <em>
     container</em> for values. When you assign a value to a variable, you change the contents of the
     container, as shown in the figure:</p>
-  <figure align="center">
-    <image source="Chapter6/Images/6.1image.png"
-           width="50%"
-           alt="An assignment of 'fred = 7' changing the existing value of 'fred'."/>
-  </figure>
+    <figure>
+        <caption>Changing a value</caption>
+        <image source="Chapter6/Images/6.1image.png" width="50%">
+            <description><p>
+                An assignment of 'fred = 7' changing the existing value of 'fred'."
+            </p></description>
+        </image>
+    </figure>
   <p>When there are multiple assignments to a variable, it is especially important to distinguish
     between an assignment statement and a statement of equality. Because C++ uses the <c>=</c> symbol
     for assignment, it is tempting to interpret a statement like <c>a = b</c> as a statement of equality.

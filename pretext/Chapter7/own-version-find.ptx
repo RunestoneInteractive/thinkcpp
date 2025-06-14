@@ -17,11 +17,11 @@
     pass the <c>string</c> as the first argument. The other arguments are the character we are looking for
     and the index where we should start.</p>
   <listing label="own_version_find_AC_1">
-    <caption>
+    <title>
       In this active code , we are finding the number of <c>'e'</c> characters in the <q>Shepard</q>
         part of <q>German Shepard</q> using our function. Then we use the built-in <c>find</c> function
         to demonstrate how they work differentlsssy.
-    </caption>
+    </title>
     <program xml:id="own_version_find_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

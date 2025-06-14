@@ -7,10 +7,13 @@
   <p>Remember that every time a function gets called it creates a new
     instance that contains the function's local variables and parameters.</p>
   <p>This figure shows a stack diagram for <c>countdown</c>, called with <c>n = 3</c>:</p>
-  <figure align="center">
-    <image source="Chapter4/Images/4.9stackdiagram.png"
-           width="50%"
-           alt="A stack of 5 boxes. The top one is labeled main and is empty. The next four are all labeled 'countdown' and respectively contain n = 3, n = 2, n = 1, n = 0."/>
+  <figure>
+      <caption>Stack Diagram</caption>
+      <image source="Chapter4/Images/4.9stackdiagram.png" width="50%">
+          <description><p>
+              A stack of 5 boxes. The top one is labeled main and is empty. The next four are all labeled 'countdown' and respectively contain n = 3, n = 2, n = 1, n = 0.
+          </p></description>
+      </image>
   </figure>
   <p>There is one instance of <c>main</c> and <term>four</term> instances of <c>countdown</c>, each with a
     different value for the parameter <c>n</c>. The bottom of the stack, <c>countdown</c> with <c>n = 0</c> is the

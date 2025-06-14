@@ -20,10 +20,10 @@
   <p>Although a <q>log table</q> is not as useful as it once was, it still makes a good example of
     iteration.</p>
   <listing label="tables_AC_1">
-    <caption>
+    <title>
       This active code outputs a sequence of values in the left column
         and their logarithms in the right column.
-    </caption>
+    </title>
     <program xml:id="tables_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -66,8 +66,8 @@ int main() {
   </console>
   <p>If these values seem odd, remember that the <c>log</c> function uses base <m>e</m>. Since powers
     of two are so important in computer science, we often want to find logarithms with respect to
-    base 2. To do that, we can use the following formula:</p>
-  <m>\log_2 x = \frac {log_e x}{log_e 2}</m>
+    base 2. To do that, we can use the following formula:
+  <m>\log_2 x = \frac {log_e x}{log_e 2}</m></p>
   <p>Changing the output statement to</p>
   <program>
 cout &lt;&lt; x &lt;&lt; "\t" &lt;&lt; log(x) / log(2.0) &lt;&lt; endl;
@@ -88,10 +88,10 @@ cout &lt;&lt; x &lt;&lt; "\t" &lt;&lt; log(x) / log(2.0) &lt;&lt; endl;
     logarithms base 2 are round numbers. If we wanted to find the logarithms
     of other powers of two, we could modify the program like this:</p>
   <listing label="tables_AC_2">
-    <caption>
+    <title>
       If we wanted to find the logarithms of other powers of two,
         we could modify the program like this. Run this active code.
-    </caption>
+    </title>
     <program xml:id="tables_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -132,7 +132,6 @@ int main() {
     <statement>
       <p>Modify this active code so that it outputs the power of two up to 65536, which is <m>
         2^{16}</m>. If you get stuck, you can reveal the hint below the problem for help.</p>
-    </statement>
     <program xml:id="tables_AC_3_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -149,10 +148,10 @@ int main() {
     }
 }
         ]]></code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="tables_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
       <statement>

@@ -3,9 +3,9 @@
   <title><c>string</c>s are comparable</title>
   <p>All the comparison operators that work on <c>int</c>s and <c>double</c>s also work on <c>strings</c>.</p>
   <listing label="strings_comparable_AC_1">
-    <caption>
+    <title>
       This active code checks to see if <c>word</c> is equal to <c>"banana"</c>.
-    </caption>
+    </title>
     <program xml:id="strings_comparable_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -26,10 +26,10 @@ int main() {
   <p>The other comparison operations are useful for putting words in
     alphabetical order.</p>
   <listing label="strings_comparable_AC_2">
-    <caption>
+    <title>
       This active code uses comparison operators to determine the ordering of <c>word</c>
         relative to <c>"banana"</c>.
-    </caption>
+    </title>
     <program xml:id="strings_comparable_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">

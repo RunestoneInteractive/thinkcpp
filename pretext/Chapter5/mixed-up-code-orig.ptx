@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter5_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_5_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_5_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Vacation time! But before you go, you need to convert your currency.
             Let's write the code for the dollarToYen function. dollarToYen
@@ -36,7 +36,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_5_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>When you buy something, you also need to pay sales tax. For example,
             a nice shirt could be labeled with a price of exactly $20, but when
@@ -71,7 +71,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_5_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Most assignments and tests are graded as a percentage, but final
             grades are letters. Let's write the code for the percentToLetter function.
@@ -149,7 +149,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_4" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_5_4" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the code for the triangleArea function. triangleArea
             takes two parameters, base and height. It returns the
@@ -183,7 +183,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_5_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the cylinderVolume function. cylinderVolume
             takes two parameters, radius and height. It returns the
@@ -211,7 +211,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_5_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>On a distant planet, depending on the characteristics of an egg, a kenchic,
             an ooseg, or a guinpen might hatch from it. Let's write the function
@@ -276,7 +276,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_5_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the isDoubleDigit function. isDoubleDigit
             takes num as a parameter. isDoubleDigit returns true if
@@ -324,7 +324,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_5_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the Compare function. Compare
             takes two integers a, b. Compare returns 1 if
@@ -381,7 +381,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_5_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the isFactor function. isFactor
             takes two parameters, num and factor.
@@ -430,7 +430,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_5_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the isPerfectSquare function. isPerfectSquare
             takes input as a parameter and returns true if input is a
@@ -479,7 +479,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_5_11" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_5_11" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Most bacteria cultures grow exponentially. For this problem,
             assume the number of cells in a bacterial culture doubles every hour.

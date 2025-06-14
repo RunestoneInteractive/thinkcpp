@@ -16,10 +16,10 @@ cout &lt;&lt; i++ &lt;&lt; endl;
     to discourage you even more, I'm not going to tell you what the result
     is. If you really want to know, you can try it.</p>
   <listing label="increment_decrement_AC_1">
-    <caption>
+    <title>
       The active code demonstrates how using increment operators with <c>cout</c> statements can be
         confusing.
-    </caption>
+    </title>
     <program xml:id="increment_decrement_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -47,9 +47,9 @@ while (index &lt; length) {
   index++;
 }</program>
   <listing label="increment_decrement_AC_2">
-    <caption>
+    <title>
       This active code adds increment operators to our old letter-counter.
-    </caption>
+    </title>
     <program xml:id="increment_decrement_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -139,7 +139,7 @@ while (x < 0) {
     </choices>
   </exercise>
   <exercise label="increment_decrement_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

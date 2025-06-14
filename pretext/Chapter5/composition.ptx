@@ -31,12 +31,12 @@ return result;</program>
   return area(distance(xc, yc, xp, yp));
 }</program>
   <listing label="fun_comp_AC_1">
-    <caption>
+    <title>
       This program shows you how the distance and area functions are
         composed in the fred function to calculate the area of a circle
         if we only know the coordinates of the center, and one other point
         of the circle.
-    </caption>
+    </title>
     <program xml:id="fun_comp_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -170,10 +170,10 @@ int main() {
     Multiple calls can be made to the same function as well as to a number of
     different functions.</p>
   <listing label="multi_comp_1">
-    <caption>
+    <title>
       This program shows how mutliple calls are made to one function and it
         also shows that calling two or more different functions is valid.
-    </caption>
+    </title>
     <program xml:id="multi_comp_1_editor"
              interactive="activecode"
              line-numbers="yes">

@@ -8,10 +8,10 @@
   <p>A good way to start is to write a simple loop that prints the multiples
     of 2, all on one line.</p>
   <listing label="TwoD_tables_AC_1">
-    <caption>
+    <title>
       Run this active code, which uses a simple loop that prints the multiples
         of 2, all on one line.
-    </caption>
+    </title>
     <program xml:id="TwoD_tables_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

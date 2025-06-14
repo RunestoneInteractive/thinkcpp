@@ -6,8 +6,8 @@
     call <term>incremental
       development</term>.</p>
   <p>As an example, imagine you want to find the distance between two points, given by the
-    coordinates <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>. By the usual definition,</p>
-  <me>distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</me>
+    coordinates <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m>. By the usual definition,
+  <me>distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}</me></p>
   <p>The first step is to consider what a distance function should look like
     in C++. In other words, what are the inputs (parameters) and what is the
     output (return value).</p>
@@ -77,10 +77,10 @@ cout &lt;&lt; dist &lt;&lt; endl;</program>
 }</program>
   <p>Then in main, we should output and check the value of the result.</p>
   <listing label="program_dvlmt_AC_1">
-    <caption>
+    <title>
       This program implements the distance function that we've been
         talking about and outputs the result.
-    </caption>
+    </title>
     <program xml:id="program_dvlmt_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

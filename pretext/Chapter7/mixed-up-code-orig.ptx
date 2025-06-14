@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter7_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_7_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_7_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Write a program that prints the 4th character of word,
             and finds and replaces all instances of &#x2018;i' with &#x2018;e'.
@@ -52,7 +52,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_7_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>An anagram is a play on words by rearranging the letters of the original words
             to form new words. For example, the letters in <q>listen</q> can be rearranged to
@@ -97,7 +97,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_7_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the function longerString, which takes two parameters,
             first and second. If first has more letters
@@ -160,7 +160,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_7_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the cipherText function. cipherText
             should be a void function that takes input as a parameter,
@@ -214,7 +214,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_7_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>The program below should print out the number of occurences of the character &#x2018;t'
             in the string tongue_twister but the code is mixed up. Put the necessary blocks
@@ -269,7 +269,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_7_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>The program below should print out the index of the second instance of the
             character &#x2018;i' but the code is mixed up and contains extra blocks.
@@ -312,7 +312,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_7_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Deep in the forest live the 7 dwarves named Sorty, Torty, Vorty,
             Worty, Xorty, Yorty, and Zorty. The program below should print
@@ -365,7 +365,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_7_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>On the strange planet of Noes, there's a law that prohibits the usage of the letter <q>e</q>.
             As a result, they hired you to write a function called censorE that replaces all occurences
@@ -428,7 +428,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_7_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Your work for the planet of Noes impressed the nearby planets of Noas, Nois, Noos, and Nous.
             They want you to write different functions that censor out each planet's corresponding forbidden letter.
@@ -490,7 +490,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_7_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write a function called alphaCombine which takes
             two strings, first and second,
@@ -545,7 +545,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_7_11" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_7_11" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write a function called ispalindrome which takes
             a string named input

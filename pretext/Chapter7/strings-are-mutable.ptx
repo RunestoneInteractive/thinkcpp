@@ -4,9 +4,9 @@
   <p>You can change the letters in an <c>string</c> one at a time using the <c>[]</c> operator on the left
     side of an assignment.</p>
   <listing label="strings_are_mutable_AC_1">
-    <caption>
+    <title>
       This active code changes the first letter in <c>greeting</c> to be <c>'J'</c>.
-    </caption>
+    </title>
     <program xml:id="strings_are_mutable_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -24,16 +24,15 @@ int main() {
   </listing>
   <p>This produces the output <c>Jello, world!</c>.</p>
   <exercise label="string_mutable_1">
-    <caption>
-      What is printed by the following statements?
+    <statement><p>
+      What is printed by the following statements?</p>
       <program line-numbers="yes">
         <code><![CDATA[
 string fav_food = "ice cream";
 fav_food[3] = "d";
 cout << fav_food << endl;
 ]]></code>
-      </program>
-    </caption>
+      </program></statement>
     <choices>
       <choice>
         <statement>
@@ -115,7 +114,7 @@ string message = "You're a lizard Harry";
     </choices>
   </exercise>
   <exercise label="string_mutable_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>

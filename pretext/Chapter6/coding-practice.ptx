@@ -14,14 +14,13 @@
 *****
 </output>
       </console>
-    </statement>
     <program interactive="activecode"><code><![CDATA[
            #include <iostream>
            using namespace std;
 
            int main() {
                // Write your implementation here.
-           }]]></code></program>
+           }]]></code></program></statement>
     <solution>
       <p>Below is one way to implement the program. We use nested loops similar to the last
         version
@@ -59,7 +58,6 @@ int main() {
 ***
 ****</output>
       </console>
-    </statement>
     <program xml:id="cp_6_AC_2q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -75,10 +73,10 @@ int main() {
         // Write your implementation here.
     }
             ]]></code>
-            </program>
+            </program></statement>
     <hint>
       <activity label="cp_6_AC_2q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -160,7 +158,6 @@ int main() {
 *****
 </output>
       </console>
-    </statement>
     <program interactive="activecode"><code><![CDATA[
            #include <iostream>
            using namespace std;
@@ -172,7 +169,7 @@ int main() {
            int main() {
                printPyramid (5);
            }
-               ]]></code></program>
+               ]]></code></program></statement>
     <solution>
       <p>Below is one way to implement the program. We use multiple <c>while</c> loops to print out
         spaces and asterisks. The outer loop creates the number of rows, and within the outer loop,
@@ -222,7 +219,6 @@ int main() {
  4444444
 555555555</output>
       </console>
-    </statement>
     <program xml:id="cp_6_AC_4q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -238,10 +234,10 @@ int main() {
     printNumPyramid (5);
 }
         ]]></code>
-        </program>
+        </program></statement>
     <hint>
       <activity label="cp_6_AC_4q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -346,7 +342,6 @@ Fizz
 Buzz
 </output>
       </console>
-    </statement>
     <program interactive="activecode"><code><![CDATA[
            #include <iostream>
            using namespace std;
@@ -358,7 +353,7 @@ Buzz
            int main() {
                printPyramid (5);
            }
-               ]]></code></program>
+               ]]></code></program></statement>
     <solution>
       <p>Below is one way to implement the <q>FizzBuzz</q> program. We use conditionals with modulus
         operators in a while loop to categorize every number and print the correct output. Feel free
@@ -411,7 +406,6 @@ int main() {
 9       10      11      12      13      14      15      16      17      18      19
 10      11      12      13      14      15      16      17      18      19      20</output>
       </console>
-    </statement>
     <program xml:id="cp_6_AC_6q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -427,10 +421,10 @@ int main() {
     // Call your function here.
 }
         ]]></code>
-        </program>
+        </program></statement>
     <hint>
       <activity label="cp_6_AC_6q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -496,7 +490,6 @@ int main() {
       <p> Write the function <c>isPrime</c>, which takes an <c>int num</c> as a parameters. <c>isPrime</c> is a boolean
         function that returns <c>true</c> if <c>num</c> is a prime number and returns <c>false</c> otherwise.
         Run and test your code!</p>
-    </statement>
     <program interactive="activecode">
             <code><![CDATA[
 #include <iostream>
@@ -520,7 +513,7 @@ bool isPrime (int num) {
                 REQUIRE(isPrime (0) == 0);
             }
 ]]></tests>
-    </program>
+    </program></statement>
     <solution>
 
       <p>Below is one way to implement the <c>isPrime</c> function. First, we check to see if <c>num</c> is
@@ -570,7 +563,6 @@ TEST_CASE("isPrime for 0") {
     <statement>
       <p>Write a program that uses a <c>while</c> loop to print out the alphabet from <c>a</c> to <c>z</c>.
         Check the hint below for help with the construction of the code.</p>
-    </statement>
     <program xml:id="cp_6_AC_8q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -582,10 +574,10 @@ int main() {
     // Write your implementation here.
 }
         ]]></code>
-        </program>
+        </program></statement>
     <hint>
       <activity label="cp_6_AC_8q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -629,7 +621,6 @@ int main() {
         5, 8, 13, 21, 34, and so on.</p>
       <p>Write a program that prints the first 20 Fibonacci
         numbers.</p>
-    </statement>
     <program interactive="activecode">
             <code><![CDATA[
 #include <iostream>
@@ -652,7 +643,7 @@ int main() {
             TEST_CASE("isPrime for 0") {
                 REQUIRE(isPrime (0) == 0);
             }
-]]></tests></program>
+]]></tests></program></statement>
     <solution>
       <p>Below is one way to implement the program. First, we check to see if <c>num</c> is less than
         or equal to 1, and return <c>false</c> if that is the case. Next, we use a <c>while</c> loop to
@@ -689,7 +680,6 @@ int main() {
         factorial. Remembers that a factorial(denoted by !) is the product of all positive integers
         less than or equal to <c>n</c>, so 4! is 24. Use a <c>while</c> loop. Run and test your code!
         Check the hint below for help with the construction of the code.</p>
-    </statement>
     <program xml:id="cp_6_AC_10q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -711,10 +701,10 @@ TEST_CASE("factorial function") {
     REQUIRE(factorial(9) == 362880);
 }
 </tests>
-        </program>
+        </program></statement>
     <hint>
       <activity label="cp_6_AC_10q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">

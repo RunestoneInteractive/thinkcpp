@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter6_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_6_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_6_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>The program below should print out the even numbers between 20 and 40, inclusive,
             but the code is mixed up and contains extra blocks. Put the necessary blocks
@@ -50,7 +50,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_6_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>The program below should count down from 100 to 0 in decrements of
             10 but the code is mixed up and contains extra blocks. Put the necessary blocks
@@ -92,7 +92,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_6_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>The program below should find the sum of the first 10 natural numbers,
             but the code is mixed up and contains extra blocks. Put the necessary blocks
@@ -140,7 +140,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_6_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the code for the <c>repeatHello</c> function. <c>repeatHello</c>
             should be a <c>void</c> function that takes no arguments and uses a <c>while</c>
@@ -189,7 +189,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_6_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Now let's generalize the <c>repeatHello</c> function so that it repeats a given string three times.
             Let's write the code for the <c>repeatString</c> function, which takes
@@ -232,7 +232,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_6_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>We can further generalize <c>repeatString</c> so that it repeats a given string a given number of times.
             Let's write the code for the new <c>repeatString</c> function, which takes
@@ -281,7 +281,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_6_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>On the last day of every year, we count down the seconds before the new year arrives.
             Write the function <c>newYearCountdown</c>, which prints out a countdown from 10 and then
@@ -331,7 +331,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_6_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Help Goku reach power levels of over 9000! Write the function
             powerUp which takes powerLevel as a parameter.
@@ -386,7 +386,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_6_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Write the function summation which takes two
             parameters, start and end. summation adds
@@ -440,7 +440,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_6_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_6_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Write the function reverseNumber which takes num
             as a parameter and returns num but with its digits reversed.

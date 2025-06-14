@@ -6,7 +6,6 @@
       <p>A palindrome is a word, phrase, or sentence that reads the same forwards and backwards.</p>
       <p>Write a function <c>isPalindrome</c> that takes a <c>string input</c> as a parameter and returns a boolean that is
         true if the input is a palindrome and false otherwise. Run and test your code!</p>
-    </statement>
     <program interactive="activecode">
       <code><![CDATA[
 #include <iostream>
@@ -27,7 +26,7 @@ TEST_CASE("factorial function") {
     CHECK_FALSE(isPalindrome("kangaroo"));
 }
 ]]></tests>
-    </program>
+      </program></statement>
     <solution>
       <p>Below is one way to implement the program. We use the <c>isalpha</c> function to ignore the non
         alphabetical characters. Then we continuously check to see if the letters in the front are
@@ -67,7 +66,6 @@ bool isPalindrome(string input) {
         word appears in a given string. <c>countWord</c> should take two strings <c>input</c> and <c>word</c> as
         parameters and return an <c>int</c>. Feel free to use the <c>stringToLower</c> function we wrote earlier.
         Check the hint below for help with the construction of the code.</p>
-    </statement>
     <program xml:id="cp_7_AC_2q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -102,10 +100,10 @@ int main() {
     cout << "Your output: " << countWord(quote, "shrimp") << ", Correct output: 14" << endl;
 }
         ]]></code>
-        </program>
+        </program></statement>
     <hint>
       <activity label="cp_7_AC_2q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -161,14 +159,13 @@ int main() {
   </exercise>
 
   <exercise label="cp_7_AC_3">
-    <statement> Write a void function <c>censorWord</c> that censors a given word from a given string and
+    <statement><p> Write a void function <c>censorWord</c> that censors a given word from a given string and
       prints out the new string. <c>censorWord</c> should take two strings <c>input</c> and <c>word</c> as parameters
       and prints out <c>input</c> with every occurence of <c>word</c> censored with asterisks. For example, <c>censorWord("I really, really, really, really, really, really like
       you", "really")</c>
-      results in the following output: <program>
+      results in the following output:</p><program>
 <output>I ******, ******, ******, ******, ******, ****** like you</output>
 </program>
-    </statement>
     <program interactive="activecode">
       <code><![CDATA[
            #include <iostream>
@@ -182,7 +179,7 @@ int main() {
                censorWord("I really, really, really, really, really, really like you", "really");
            }
 ]]></code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below
         is one way to implement the program. We use a while loop to
@@ -224,7 +221,6 @@ int main() {
       <console>
         <output>Gucci , Gucci , Gucci , Gucci</output>
       </console>
-    </statement>
     <program xml:id="cp_7_AC_4q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -241,10 +237,10 @@ int main() {
     removeWord("Gucci gang, Gucci gang, Gucci gang, Gucci gang", "gang");
 }
     ]]></code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_7_AC_4q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -305,7 +301,6 @@ int main() {
         a message encrypted using ROT13 can be decrypted by calling ROT13 on the encrypted message.</p>
       <p>Write the function <c>ROT13</c> , which takes a <c>string input</c> as a parameter and returns an encrypted <c>string</c>
         . Test your function in <c>main</c> .</p>
-    </statement>
     <program interactive="activecode">
       <code><![CDATA[
           #include <iostream>
@@ -329,7 +324,7 @@ int main() {
               // cout << ROT13 (secretMessage) << endl;
           }
 ]]></code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement the <c>ROT13</c> function. We use a <c>while</c> loop to go through all
         the letters in the <c>string</c>. If the letter is between &#x2018;a' and &#x2018;n' or &#x2018;A'
@@ -378,7 +373,6 @@ int main() {
       <p>Write the function <c>reverseWord</c> which takes a <c>string input</c>, reverses it, and returns the reversed <c>string</c>.
         Run and test your code! Check the hint below for help with the construction of the
         code.</p>
-    </statement>
     <program xml:id="cp_7_AC_6q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -400,10 +394,10 @@ TEST_CASE("reverseWord function") {
     CHECK_EQ(reverseWord("racecar"), "racecar"); 
 }
 ]]></tests>
-    </program>
+      </program></statement>
     <hint>
       <activity label="cp_7_AC_6q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -447,7 +441,6 @@ TEST_CASE("reverseWord function") {
     <statement>
       <p>Write the function <c>capitalize</c> , which takes a <c>string input</c> as a parameter. <c>capitalize</c> capitalizes the
         first letter of every word, and returns the new <c>string</c> .</p>
-    </statement>
     <program interactive="activecode">
       <code><![CDATA[
           #include <iostream>
@@ -463,7 +456,7 @@ TEST_CASE("reverseWord function") {
               cout << capitalize("this String As well") << endl;
           }
 ]]></code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement the <c>capitalize</c> function. We use a <c>while</c> loop to go through all
         the <c>char</c>s in the <c>string</c>. We capitalize the first character and all characters following
@@ -501,7 +494,6 @@ int main() {
       <p>Write the function <c>countVowels</c> which takes a <c>string input</c> and returns the number of vowels in the <c>string</c>.
         Remember, &#x2018;a', &#x2018;e', &#x2018;i', &#x2018;o', and &#x2018;u' are vowels. Run and
         test your code! Check the hint below for help with the construction of the code.</p>
-    </statement>
     <program xml:id="cp_7_AC_8q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -523,10 +515,10 @@ TEST_CASE("countVowels function") {
     CHECK_EQ(countVowels("vowels"), 2); 
 }
 ]]></tests>
-    </program>
+      </program></statement>
     <hint>
       <activity label="cp_7_AC_8q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -576,7 +568,6 @@ TEST_CASE("countVowels function") {
       <p>Write the function <c>longestWord</c> , which takes a <c>string input</c> as a parameter. <c>longestWord</c> returns the
         words with the most letters in <c>input</c> . If there's a tie, return the first word. Use the <c>substr</c>
         function. Run and test your code!</p>
-    </statement>
     <program interactive="activecode">
       <code><![CDATA[
           #include <iostream>
@@ -596,7 +587,7 @@ TEST_CASE("longestWord function") {
     CHECK_EQ(longestWord("vowels"), "vowels");
 }
 ]]></tests>
-    </program>
+</program></statement>
     <solution>
       <p>Below is one way to implement the <c>longestWord</c> function. We use a <c>while</c> loop to go through all
         the <c>char</c>s in the <c>string</c>. We use variables to keep track of the longest word, the longest
@@ -639,7 +630,6 @@ string longestWord(string input) {
         functions <c>snakeToCamel</c> and <c>camelToSnake</c>. Each function takes a <c>string input</c> and returns the input using the
         other stylization. Feel free to use any <c>string</c> functions you'd like. Run and test your
         code! Check the hint below for help with the construction of the code.</p>
-    </statement>
     <program xml:id="cp_7_AC_10q_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -673,10 +663,10 @@ TEST_CASE("camelToSnake function") {
     CHECK_EQ(camelToSnake("code"), "code"); 
 }
 ]]></tests>
-    </program>
+      </program></statement>
     <hint>
       <activity label="cp_7_AC_10q_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>

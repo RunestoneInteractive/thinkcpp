@@ -12,11 +12,11 @@
   </console>
   <p>Try it in your development environment and see how it looks.</p>
   <listing label="runtime_error_AC_1">
-    <caption>
+    <title>
       Running this active code will result in a runtime error. Can you fix it so that we
         print out the first letter and last letter of string <c>greeting</c> instead of indexing out of
         range?
-    </caption>
+    </title>
     <program xml:id="runtime_error_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -52,7 +52,7 @@ int main() {
     </areas>
   </exercise>
   <exercise label="runtime_error_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

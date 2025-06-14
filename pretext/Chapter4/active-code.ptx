@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <exercises xml:id="chapter4_activecode-exercises">
-  <title>Activecode Exercises</title>
-  <p>Answer the following <term>Activecode</term> questions to assess what you have learned in this
-    chapter.</p>
+    <title>Activecode Exercises</title>
+    <introduction><p>
+        Answer the following <term>Activecode</term> questions to assess what you have learned in this
+        chapter.
+    </p></introduction>
   <exercise label="cond_rec_a1">
     <statement>
       <p>Fix the code below so that it prints <q>THE TEAM</q> <q>THE TEAM</q>
                     <q>THE TEAM</q> on three
         separate lines.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cond_rec_a1q_editor">
@@ -31,7 +32,7 @@ int main() {
   }
 }
           ]]></code>
-      </program>
+      </program></statement>
     <solution>
       <p>Below is one way to fix the program. Since we want <q>THE TEAM</q> to print three times, we
         must check all three conditons. this means changing the else if statements to if statements.</p>
@@ -65,7 +66,6 @@ int main() {
       <p>You are part of a class where everyone passes, but it's very hard
         to pass with an A. Fix the function so it prints your letter grade
         according to this scheme. [0, 50) = C, [50, 95) = B, and [95, 100] = A.</p>
-    </statement>
     <program xml:id="cond_rec_a2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -87,7 +87,7 @@ string whichDoor(double grade) {
   cout << s;
 }
       ]]></code>
-      </program>
+      </program></statement>
     <hint>
       <p>You are part of a class where everyone passes, but it's very hard
         to pass with an A. Fix the function so it prints your letter grade
@@ -153,7 +153,6 @@ string whichDoor(double grade) {
         should not count any numbers after 10 (the highest numbers
         that should print are 9 or 10). When it is done counting,
         the function should print that.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cond_rec_a3q_editor">
@@ -176,7 +175,7 @@ int main() {
     countBy2(5);
 }
         ]]></code>
-      </program>
+      </program></statement>
     <solution>
       <p>
         Below is one way to fix the program. The infinite recursion happens when we use an
@@ -211,7 +210,6 @@ int main() {
     <statement>
       <p>Finish the <c>is_even</c>code below so that it prints true if <c>x</c> is even and false if <c>x</c>
         is odd.</p>
-    </statement>
     <program xml:id="cond_rec_a4_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -230,7 +228,7 @@ int main() {
   is_even(x);
 }
 ]]></code>
-      </program>
+      </program></statement>
     <hint>
       <p>Finish the code below so that it prints true if <c>x</c> is even and false if <c>x</c> is
         odd. Use the lines to construct the code, then go back to complete the Activecode.</p>
@@ -280,7 +278,6 @@ int main() {
     <statement>
       <p>Finish the code below so that the function will continue to
         ask for input until the user guesses the word correctly.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cond_rec_a5q_editor">
@@ -297,7 +294,7 @@ bool guessTheWord(string correct) {
     }
 }
         ]]></code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to complete the program.</p>
       <program xml:id="cond_rec_a5a_editor"
@@ -324,7 +321,6 @@ bool guessTheWord(string correct) {
     <statement>
       <p>Write the function <c>greaterThan</c> that prints true if the first <c>double</c> argument is greater than
         the second <c>double</c> argument.</p>
-    </statement>
     <program xml:id="cond_rec_a6_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -336,7 +332,7 @@ void greaterThan(FIX ME) {
 
 }
       ]]></code>
-      </program>
+      </program></statement>
     <hint>
       <p>Write the function <c>greaterThan</c> that prints true if the first <c>double</c> argument is greater than
         the second <c>double</c> argument. Be sure to include any necessary headers. Use the lines to
@@ -389,7 +385,6 @@ void greaterThan(FIX ME) {
       <p>Write the function <c>goodVibes</c> that prints <q>I'm having a <c>mood</c> day!</q> depending on the
         value of <c>mood</c>. If <c>mood</c> is <q>bad</q>, then the function should not do anything since
         it's good vibes only. Be sure to include any necessary headers.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cond_rec_a7q_editor">
@@ -401,7 +396,7 @@ void goodVibes(string mood) {
 
 }
         ]]></code>
-      </program>
+      </program></statement>
     <solution>
       <p>Below is one way to write the program. The return allows the function to exit if
         there are bad vibes in the room. Otherise, the function prints as directed. </p>
@@ -424,7 +419,6 @@ void goodVibes(string mood) {
     <statement>
       <p>Write the function <c>exclusiveOr</c> that prints true If either <c>a</c> OR <c>b</c> is true, and
         prints false otherwise.</p>
-    </statement>
     <program xml:id="cond_rec_a8_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -436,7 +430,7 @@ void exclusiveOr(bool a, bool b) {
 
 }
       ]]></code>
-      </program>
+      </program></statement>
     <hint>
       <p>Write the function <c>exclusiveOr</c> that prints true If either <c>a</c> OR <c>b</c> is true, and
         prints false otherwise. Be sure to include any necessary headers. Use the lines to construct
@@ -480,7 +474,6 @@ void exclusiveOr(bool a, bool b) {
       <p>Write the function <c>countdown</c> that takes a positive integer and decrements it until eaching
         zero, printing the number at each step of the way. Once it reaches zero, it should print <q>
         Blastoff!</q></p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cond_rec_a9q_editor">
@@ -492,7 +485,7 @@ void countdown(int num) {
 
 }
         ]]></code>
-      </program>
+      </program></statement>
     <solution>
       <p>Below is one way to write the program.</p>
       <program xml:id="cond_rec_a9a_editor"
@@ -519,7 +512,6 @@ void countdown(int num) {
       <p>Write the function <c>printNegativeNum</c> that asks the user for a negative number. If the user does not
         provide a negative number, it should contine asking until the user provides one. It should
         then print the negative number.</p>
-    </statement>
     <program xml:id="cond_rec_a10_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -531,7 +523,7 @@ void printNegativeNum() {
 
 }
       ]]></code>
-      </program>
+      </program></statement>
     <hint>
       <p>Write the function <c>printNegativeNum</c> that asks the user for a negative number. If the user does not
         provide a negative number, it should contine asking until the user provides one. It should

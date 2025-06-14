@@ -24,9 +24,9 @@ x &lt;= y               // x is less than or equal to y</program>
   <p>Observe the conditional statement below.</p>
 
   <listing label="composition_AC_31">
-    <caption>
+    <title>
       This program performs a calculation involving variables and assigns the result to a variable.
-    </caption>
+    </title>
     <program xml:id="composition_AC_31_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -43,10 +43,10 @@ int main() {
   </listing>
 
   <listing label="conditional_execution_AC_1">
-    <caption>
+    <title>
       This program shows how you can use conditional statements to
         assess true/false situations.
-    </caption>
+    </title>
     <program label="conditional_execution_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

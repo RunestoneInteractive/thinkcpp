@@ -10,7 +10,6 @@
                     takes dollar as a parameter and returns the equivalent amount of Japanese yen.
                     The conversion rate is 1 USD equals 105.42 Japanese yen.
                     Write the code that performs this conversion.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_1_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -28,14 +27,11 @@ TEST_CASE("dollarToYen function") {
    REQUIRE(dollarToYen(2) == 210.84);
 }
 </tests>
-    </program>
+    </program></statement>
+
     <solution>
-
-
-    
-                Below is one way to write the function. You need to make sure your function's output accounts for decimal values.
-
-    
+        <p>Below is one way to write the function. You need to make sure your function's
+        output accounts for decimal values.</p>
     <program xml:id="mucp_5_1_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -56,7 +52,8 @@ TEST_CASE("dollarToYen function") {
 
             
 
-<exercise label="mucp_5_1_ac_a"><statement><p>Below is one way to write the function. You need to make sure your function's output accounts for decimal values.</p></statement><program xml:id="mucp_5_1_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_1_ac_a"><statement><p>Below is one way to write the function. You need to make sure your function's output accounts for decimal values.</p>
+    <program xml:id="mucp_5_1_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -72,7 +69,7 @@ TEST_CASE("dollarToYen function") {
    REQUIRE(dollarToYen(1) == 105.42);
    REQUIRE(dollarToYen(2) == 210.84);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -84,7 +81,6 @@ TEST_CASE("dollarToYen function") {
                     <c>priceWithTax</c>, which takes price and percentTax as parameters.
                     priceWithTax calculates the price after tax and returns it.
                     For example, priceWithTax(20,6) returns 21.2.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_2_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -102,14 +98,8 @@ TEST_CASE("priceWithTax function") {
    REQUIRE(priceWithTax(100,0) == 100);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function. You need to make sure your function returns cent values
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the function. You need to make sure your function returns cent values</p>
     <program xml:id="mucp_5_2_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -130,7 +120,8 @@ TEST_CASE("priceWithTax function") {
 
             
 
-<exercise label="mucp_5_2_ac_a"><statement><p>Below is one way to write the function. You need to make sure your function returns cent values</p></statement><program xml:id="mucp_5_2_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_2_ac_a"><statement><p>Below is one way to write the function. You need to make sure your function returns cent values</p>
+<program xml:id="mucp_5_2_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -146,7 +137,7 @@ TEST_CASE("priceWithTax function") {
    REQUIRE(priceWithTax(20,6) == 21.2);
    REQUIRE(priceWithTax(100,0) == 100);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -157,7 +148,6 @@ TEST_CASE("priceWithTax function") {
                     letter grade. A 90 and above is an &#x2018;A', an 80 and above is a &#x2018;B', a 70 and above
                     is a &#x2018;C', and anything under a 70 is an &#x2018;F'. Write the necessary code to
                     convert a grade percentage to a letter grade.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_3_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -175,12 +165,8 @@ TEST_CASE("percentToLetter function") {
    REQUIRE(percentToLetter(90) == 'A');
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function. Your syntax for the letter returns much match the return variable type of the function
+    </program></statement>
+    <solution><p>Below is one way to write the function. Your syntax for the letter returns much match the return variable type of the function</p>
 
     
     <program xml:id="mucp_5_3_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -214,7 +200,8 @@ TEST_CASE("percentToLetter function") {
 
             
 
-<exercise label="mucp_5_3_ac_a"><statement><p>Below is one way to write the function. Your syntax for the letter returns much match the return variable type of the function</p></statement><program xml:id="mucp_5_3_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_3_ac_a"><statement><p>Below is one way to write the function. Your syntax for the letter returns much match the return variable type of the function</p>
+<program xml:id="mucp_5_3_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -241,7 +228,7 @@ TEST_CASE("percentToLetter function") {
    REQUIRE(percentToLetter(0) == 'F');
    REQUIRE(percentToLetter(90) == 'A');
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -250,7 +237,6 @@ TEST_CASE("percentToLetter function") {
                     takes two parameters, base and height. It returns the
                     area of the triangle using the formula 1/2 * base * height.
                     Write the necessary code to find the area of a triangle.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_4_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -268,12 +254,9 @@ TEST_CASE("triangleArea function") {
    REQUIRE(triangleArea(4,5) == 10.0);
 }
 </tests>
-    </program>
-    <solution>
+    </program></statement>
 
-
-    
-                Below is one way to write the function. Your function must take in more than integer base and height values and return more than integer area values.
+    <solution><p>Below is one way to write the function. Your function must take in more than integer base and height values and return more than integer area values.</p>
 
     
     <program xml:id="mucp_5_4_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -296,7 +279,8 @@ TEST_CASE("triangleArea function") {
 
             
 
-<exercise label="mucp_5_4_ac_a"><statement><p>Below is one way to write the function. Your function must take in more than integer base and height values and return more than integer area values.</p></statement><program xml:id="mucp_5_4_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_4_ac_a"><statement><p>Below is one way to write the function. Your function must take in more than integer base and height values and return more than integer area values.</p>
+<program xml:id="mucp_5_4_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -312,7 +296,7 @@ TEST_CASE("triangleArea function") {
    REQUIRE(triangleArea(4.5,6.2) == 13.95);
    REQUIRE(triangleArea(4,5) == 10.0);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -321,7 +305,6 @@ TEST_CASE("triangleArea function") {
                     takes two parameters, radius and height. It returns the
                     volume of the cylinder using the formula pi * radius * radius * height.
                     Write the necessary code to find the volume of a cylinder.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_5_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -340,12 +323,8 @@ TEST_CASE("cylinderVolume function") {
    REQUIRE(cylinderVolume(6.25,5.0) == 613.28125);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function. Your function should incorporate the value for pi.
+    </program></statement>
+    <solution><p>Below is one way to write the function. Your function should incorporate the value for pi.</p>
 
     
     <program xml:id="mucp_5_5_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -370,7 +349,8 @@ TEST_CASE("cylinderVolume function") {
 
             
 
-<exercise label="mucp_5_5_ac_a"><statement><p>Below is one way to write the function. Your function should incorporate the value for pi.</p></statement><program xml:id="mucp_5_5_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_5_ac_a"><statement><p>Below is one way to write the function. Your function should incorporate the value for pi.</p>
+<program xml:id="mucp_5_5_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -388,7 +368,7 @@ TEST_CASE("cylinderVolume function") {
    REQUIRE(cylinderVolume(11.0,4.5) == 1709.73);
    REQUIRE(cylinderVolume(6.25,5.0) == 613.28125);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -400,7 +380,6 @@ TEST_CASE("cylinderVolume function") {
                     guinpen. Otherwise, if the egg is round and it isn't gray, then it is a kenchic. If
                     it isn't a guinpen and it isn't a kenchic, then it's an ooseg. Write the necessary
                     code to classify these eggs.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_6_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -419,14 +398,8 @@ TEST_CASE("birdType function") {
    REQUIRE(birdType(0,0) == 2);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the function.</p>
     <program xml:id="mucp_5_6_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -456,7 +429,8 @@ TEST_CASE("birdType function") {
 
             
 
-<exercise label="mucp_5_6_ac_a"><statement><p>Below is one way to write the function.</p></statement><program xml:id="mucp_5_6_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_6_ac_a"><statement><p>Below is one way to write the function.</p>
+<program xml:id="mucp_5_6_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -481,7 +455,7 @@ TEST_CASE("birdType function") {
    REQUIRE(birdType(1,0) == 1);
    REQUIRE(birdType(0,0) == 2);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -490,7 +464,6 @@ TEST_CASE("birdType function") {
                     takes num as a parameter. isDoubleDigit returns true if
                     num is a double digit number and returns false otherwise.
                     Write the necessary code to determine if a number is a double digit number.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_7_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -508,14 +481,8 @@ TEST_CASE("isDoubleDigit function") {
    REQUIRE(isDoubleDigit(100) == false);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function. Your function must account for numbers that are greater than 100.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the function. Your function must account for numbers that are greater than 100.</p>
     <program xml:id="mucp_5_7_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -541,7 +508,8 @@ TEST_CASE("isDoubleDigit function") {
 
             
 
-<exercise label="mucp_5_7_ac_a"><statement><p>Below is one way to write the function. Your function must account for numbers that are greater than 100.</p></statement><program xml:id="mucp_5_7_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_7_ac_a"><statement><p>Below is one way to write the function. Your function must account for numbers that are greater than 100.</p>
+<program xml:id="mucp_5_7_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -562,7 +530,7 @@ TEST_CASE("isDoubleDigit function") {
    REQUIRE(isDoubleDigit(10) == true);
    REQUIRE(isDoubleDigit(100) == false);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -571,7 +539,6 @@ TEST_CASE("isDoubleDigit function") {
                     takes two integers a, b. Compare returns 1 if
                     a is greater than b, -1 if a is less than b and 0 if they are equal.
                     Write the necessary code to compare two integers.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_8_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -590,12 +557,8 @@ TEST_CASE("Compare function") {
    REQUIRE(Compare(10,5) == 1);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function. Your function must account for equal integers.
+    </program></statement>
+    <solution><p>Below is one way to write the function. Your function must account for equal integers.</p>
 
     
     <program xml:id="mucp_5_8_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -627,7 +590,8 @@ TEST_CASE("Compare function") {
 
             
 
-<exercise label="mucp_5_8_ac_a"><statement><p>Below is one way to write the function. Your function must account for equal integers.</p></statement><program xml:id="mucp_5_8_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_8_ac_a"><statement><p>Below is one way to write the function. Your function must account for equal integers.</p>
+<program xml:id="mucp_5_8_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -652,7 +616,7 @@ TEST_CASE("Compare function") {
    REQUIRE(Compare(10,10) == 0);
    REQUIRE(Compare(10,5) == 1);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -662,7 +626,6 @@ TEST_CASE("Compare function") {
                     isFactor returns true if factor is a factor of num
                     and returns false otherwise. Write the necessary code to deternube is a number
                     is a factor of another.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_9_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -681,14 +644,8 @@ TEST_CASE("isFactor function") {
    REQUIRE(isFactor(9,1) == true);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function. The modulo (%) operator performs the necessary calculation.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the function. The modulo (%) operator performs the necessary calculation.</p>
     <program xml:id="mucp_5_9_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -715,7 +672,8 @@ TEST_CASE("isFactor function") {
 
             
 
-<exercise label="mucp_5_9_ac_a"><statement><p>Below is one way to write the function. The modulo (%) operator performs the necessary calculation.</p></statement><program xml:id="mucp_5_9_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_9_ac_a"><statement><p>Below is one way to write the function. The modulo (%) operator performs the necessary calculation.</p>
+<program xml:id="mucp_5_9_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -737,7 +695,7 @@ TEST_CASE("isFactor function") {
    REQUIRE(isFactor(7,4) == false);
    REQUIRE(isFactor(9,1) == true);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -746,7 +704,6 @@ TEST_CASE("isFactor function") {
                     takes input as a parameter and returns true if input is a
                     perfect square and returns false otherwise. Write the necessary code
                     to determine if a number is a perfect square.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_10_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -766,14 +723,8 @@ TEST_CASE("isPerfectSquare function") {
    REQUIRE(isPerfectSquare(10) == false);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the function.</p>
     <program xml:id="mucp_5_10_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <math.h>
@@ -802,7 +753,8 @@ TEST_CASE("isPerfectSquare function") {
 
             
 
-<exercise label="mucp_5_10_ac_a"><statement><p>Below is one way to write the function.</p></statement><program xml:id="mucp_5_10_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_10_ac_a"><statement><p>Below is one way to write the function.</p>
+<program xml:id="mucp_5_10_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -826,7 +778,7 @@ TEST_CASE("isPerfectSquare function") {
    REQUIRE(isPerfectSquare(16) == true);
    REQUIRE(isPerfectSquare(10) == false);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="XXX">
@@ -839,7 +791,6 @@ TEST_CASE("isPerfectSquare function") {
                     hour is one, the number of cells doubles to two. When hour is two,
                     the number of cells doubles to four. Use recursion. Write the
                     necesary code to count the bacteria.</p>
-    </statement>
     <program interactive="activecode" line-numbers="yes" xml:id="mucp_5_11_ac_q_editor">
       <code><![CDATA[
 #include <iostream>
@@ -857,14 +808,8 @@ TEST_CASE("countBacteria function") {
    REQUIRE(countBacteria(5) == 32);
 }
 </tests>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to write the function.
-
-    
+    </program></statement>
+    <solution><p>Below is one way to write the function.</p>
     <program xml:id="mucp_5_11_ac_a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -890,7 +835,7 @@ TEST_CASE("countBacteria function") {
 
             
 
-<exercise label="mucp_5_11_ac_a"><statement><p>Below is one way to write the function.</p></statement><program xml:id="mucp_5_11_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+<exercise label="mucp_5_11_ac_a"><statement><p>Below is one way to write the function.</p><program xml:id="mucp_5_11_ac_a_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -911,7 +856,7 @@ TEST_CASE("countBacteria function") {
    REQUIRE(countBacteria(0) == 1);
    REQUIRE(countBacteria(5) == 32);
 }
-</tests></program></exercise>
+</tests></program></statement></exercise>
             </solution>
   </exercise>
 </section>
