@@ -7,36 +7,36 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_12_1_opt_a">
+        <statement>
           <p>You can have a vector that stores a vector of objects.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ allows for a variety of different compositions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_1_opt_b">
+        <statement>
           <p>In order to check to see if two <c>Card</c>s are equal, we can use the <c>==</c> operator.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We have to write a function that compares two <c>Card</c>s.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_1_opt_c">
+        <statement>
           <p>There is no faster way to search through an unsorted vector than using a linear search.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If the <c>vector</c> were sorted, then there are faster search methods.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_1_opt_d">
+        <statement>
           <p>There is no such thing as an empty object.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           All variables are given default values unless otherwise specified by the user.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -46,44 +46,44 @@
     </statement>
     <choices>
       <choice>
-        <statement id="mce_12_2_opt_a">
+        <statement>
           <p>
             <c>vector&lt;int&gt; vec;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This declares a <c>vector</c> of <c>int</c>s.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_2_opt_b">
+        <statement>
           <p>
             <c><![CDATA[vector<int> vec<int>;]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the proper way to declare <c>vec</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_2_opt_c">
+        <statement>
           <p>
             <c><![CDATA[vector<vector<int> vec;]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Close! Look closely at the answer choices again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_2_opt_d">
+        <statement>
           <p>
             <c><![CDATA[vector<vector<int> > vec;]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the proper way to declare a <c>vector</c> of <c>vector</c>s of <c>int</c>s.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -114,36 +114,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_12_3_opt_a">
+        <statement>
           <p>Ace of Clubs</p>
         </statement>
-        <feedback>
+        <feedback><p>
           How did we define our mapping earlier in the chapter?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_3_opt_b">
+        <statement>
           <p>8 of Hearts</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>card</c> has a <c>suit</c> value of 2 corresponding to Hearts, and a <c>rank</c> value of 8.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_3_opt_c">
+        <statement>
           <p>King of Hearts</p>
         </statement>
-        <feedback>
+        <feedback><p>
           How did we define our mapping earlier in the chapter?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_3_opt_d">
+        <statement>
           <p><c>card</c> does not have a value.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We initialized <c>card</c> with a <c>suit</c> value of 2 and a <c>rank</c> value of 8.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -168,36 +168,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_12_4_opt_a">
+        <statement>
           <p><c>card</c> is not a valid <c>Card</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A <c>suit</c> of 1 and a <c>rank</c> of 3 maps to the 3 of Diamonds.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_4_opt_b">
+        <statement>
           <p>There shouldn't be a semicolon after the <c>struct</c> definition.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A <c>struct</c> definition always ends with a semicolon.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_4_opt_c">
+        <statement>
           <p><c>print</c> is a member function.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since <c>print</c> is a member function, we need to use the dot operator.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_4_opt_d">
+        <statement>
           <p>There is nothing wrong with the code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is an error with the code. Can you find it?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -224,36 +224,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_12_5_opt_a">
+        <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The output of a <c>bool</c> is either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_5_opt_b">
+        <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The output of a <c>bool</c> is either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_5_opt_c">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is <c>card1</c> greater than <c>card2</c>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_5_opt_d">
+        <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The Queen of Hearts is greater than the 2 of Hearts.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -290,36 +290,36 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_12_6_opt_a">
+        <statement>
           <p>51</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>card</c> is the King of Spades, which is located at the end of the deck.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_6_opt_b">
+        <statement>
           <p>52</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since the <c>vector</c> is size 52, it cannot have an index of 52.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_6_opt_c">
+        <statement>
           <p>12</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What is the value of <c>card</c>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_6_opt_d">
+        <statement>
           <p>-1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What is the value of <c>card</c>?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -357,36 +357,36 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_12_7_opt_a">
+        <statement>
           <p>It contains 12 <c>Card</c>s.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>createDeck</c> returns a <c>vector</c> of size 12, corresponding to 12 <c>Card</c>s.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_7_opt_b">
+        <statement>
           <p>The highest <c>rank</c> is 4.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>rank</c> goes up to but does not include 4.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_7_opt_c">
+        <statement>
           <p>There are no spades in the deck.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>suit</c> goes up to and include the <c>suit</c> value 3 which corresponds to spades.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_7_opt_d">
+        <statement>
           <p>The <c>deck</c> has 3 cards in each suit.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Each suit has an Ace, 2, and 3.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -419,37 +419,37 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_12_8_opt_a">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The King of Diamonds is right in the middle of the deck, so it doesn't need to call
             itself.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_8_opt_b">
+        <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Where is the King of Diamonds located relative to the sorted deck?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_8_opt_c">
+        <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Where is the King of Diamonds located relative to the sorted deck?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_8_opt_d">
+        <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Where is the King of Diamonds located relative to the sorted deck?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -488,36 +488,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_12_9_opt_a">
+        <statement>
           <p><c>push_back()</c>, <c>suit</c>, <c>i</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           What value should <c>i</c> go up to?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_9_opt_b">
+        <statement>
           <p><c>size()</c>, <c>rank</c>, <c>i</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           These are the correct variables and functions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_9_opt_c">
+        <statement>
           <p><c>size</c>, <c>rank</c>, <c>deck[i]</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           We want to print the index, not the card.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_9_opt_d">
+        <statement>
           <p><c>front()</c>, <c>suit</c>, <c>deck</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           What value should <c>i</c> go up to?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -528,37 +528,37 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_12_10_opt_a">
+        <statement>
           <p>Generalization</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Generalization means to take something specific and make it more general.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_10_opt_b">
+        <statement>
           <p>Encapsulation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Encapsulation means taking a piece of code and wrapping it up in a function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_12_10_opt_c">
+        <statement>
           <p>Abstraction</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Using this process, we can remove unnecessary details to focus on the more important
             aspects.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_12_10_opt_d">
+        <statement>
           <p>Implementation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Implementation is the process of taking an idea and making it real.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

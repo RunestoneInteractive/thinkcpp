@@ -29,10 +29,10 @@ cout &lt;&lt; "I found the card at index = " &lt;&lt; index &lt;&lt; endl;</prog
   <p>The output of this code is</p>
   <console><output>I found the card at index = 17</output></console>
   <listing label="12_8">
-    <caption>
+    <title>
       The code below searches for a particular card in a standard deck of 52 cards.
         It returns the index that the card was located at.
-    </caption>
+    </title>
     <program xml:id="c12_8_editor"
              interactive="activecode"
              line-numbers="yes">

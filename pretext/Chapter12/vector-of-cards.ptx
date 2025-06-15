@@ -7,10 +7,13 @@
 vector&lt;Card&gt; deck(52);
 </program>
   <p>Here is the state diagram for this object:</p>
-  <figure align="center">
-    <image source="Chapter12/Images/12.6deck_state_diagram.png"
-           width="50%"
-           alt="A box labeled 'deck' It shows boxes labeled 0, 1, 2 then ... followed by a box labeled 51. Each numbered box has 'suit: 0, rank: 0'"/>
+  <figure>
+      <caption>Deck state diagram</caption>
+      <image source="Chapter12/Images/12.6deck_state_diagram.png" width="50%">
+          <description><p>
+              A box labeled 'deck' It shows boxes labeled 0, 1, 2 then ... followed by a box labeled 51. Each numbered box has 'suit: 0, rank: 0'
+          </p></description>
+      </image>
   </figure>
   <p>The three dots represent the 48 cards I didn't feel like drawing. Keep
     in mind that we haven't initialized the instance variables of the cards
@@ -41,9 +44,9 @@ for (int suit = 0; suit &lt;= 3; suit++) {
   <p>This deck-building code is encapsulated in a function called <c>buildDeck</c> that takes no parameters
     and that returns a fully-populated vector of <c>Card</c>s.</p>
   <listing label="12_6">
-    <caption>
+    <title>
       Take a look at this active code, which includes the implementation of the <c>buildDeck</c> function.
-    </caption>
+    </title>
     <program xml:id="c12_6_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -140,43 +143,43 @@ void Card::print() const {
         <statement>
           <p>There are 16 cards in the deck.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! You can verify this by checking how many times the for loops execute.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The deck is single-suited.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Look at the conditions of the outer for loop, you'll find that there are two
             suits in this deck.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>There are no face cards in the deck.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Look at the conditions of the inner for loop, you'll find that this deck
             contains face cards.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The deck does not contain any Hearts.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The two suits in this deck are Clubs and Diamonds.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>There are two Jacks in the deck.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The deck contains the Jack of Clubs and the Jack of Diamonds.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

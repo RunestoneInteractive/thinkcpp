@@ -22,36 +22,36 @@
         <statement>
           <p>You can have vectors that contain other vectors and objects that contain other objects.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is called composition!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>You can have vectors that contain other vectors, but you can never have objects that
             contain other objects.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In this chapter you will see how you can have objects that contain other objects.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>You can never have vectors that contain other vectors, but you can have objects that
             contain other objects.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In this chapter you will see how you can have vectors that contain other vectors.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>You can never have vectors that contain other vectors, nor objects that contain other
             objects.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Vectors and objects can have nested compositons!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

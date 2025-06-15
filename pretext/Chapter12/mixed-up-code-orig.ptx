@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter12_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_12_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_12_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the struct definition for Song. Song should have
             instance variables title, artist, and numLikes. Put the necessary
@@ -31,7 +31,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_12_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's make an album! Write the struct definition for
             Album, which should have instance variables name, year and
@@ -71,7 +71,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_12_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Two Songs are equal if the title and artist of the Songs are equal.
             Write the function songEqual, which takes two Songs as parameters
@@ -114,7 +114,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_12_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>What if we'd like to search an album for our favorite song?
             Write the Album member function searchAlbum which takes a
@@ -177,7 +177,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_12_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>What's the most popular Song within an Album? Let's write
             the Album member function mostLikedSong, which prints out
@@ -242,7 +242,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_12_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the struct definition for Product. Product should have
             instance variables name and price. Put the necessary
@@ -272,7 +272,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_12_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's make a shopping list! Write the struct definition for
             List, which should have instance variables type and
@@ -306,7 +306,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_12_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Two Products are equal if the name and price of the Products are equal.
             Write the function productEqual, which takes two Products as parameters
@@ -385,7 +385,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_12_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Time to checkout! Write the List member function totalPrice
             which calculates and returns the total price of all the Products.
@@ -437,7 +437,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_12_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_12_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Oops! We made a mistake and grabbed pineapple pizza.
             What if we want to remove an Product from our List?

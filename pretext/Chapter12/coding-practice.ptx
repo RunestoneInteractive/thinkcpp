@@ -9,7 +9,6 @@
         intensity value of each RGB component ranges from 0 to 255, where 0 is no intensity and 255
         is highest intensity. Write the <c>struct</c> definition for <c>Pixel</c>, which has values for each
         component r, g, and b.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cp_12_AC_1q_editor">
@@ -20,7 +19,7 @@ using namespace std;
 
 // Write your code for the struct Pixel here.
         ]]></code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement the program. We declare the Pixel struct and create
         the instance variables in order.</p>
@@ -45,7 +44,6 @@ struct Pixel {
       <p>An image is just a matrix of pixels. Write the <c>struct</c> definition for <c>Image</c>, which should
         store information about its height and width and contain a matrix of <c>Pixel</c>s. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_12_AC_2q_editor">
         <code>
@@ -61,7 +59,7 @@ struct Pixel {
 
 // Write your code for the struct Image here.
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_12_AC_2_pp">
         <statement>
@@ -103,7 +101,6 @@ struct Pixel {
     <statement>
       <p>Let's print out a <c>Pixel</c>! Write the <c>Pixel</c> member function <c>printPixel</c>, which prints out the
         values of the <c>Pixel</c> in this form: (r, g, b).</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cp_12_AC_3q_editor">
@@ -126,7 +123,7 @@ int main() {
     p.printPixel();
 }
         ]]></code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement the program. We use the scope resolution operator
         to make printPixel a Pixel member function.</p>
@@ -162,7 +159,6 @@ int main() {
         member function <c>printImage</c>. Separate pixels in the same row with a space and add a new line at
         the end of each row. Use the <c>printPixel</c> function we created previously. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_12_AC_4q_editor">
         <code>
@@ -199,7 +195,7 @@ void Pixel::printPixel() {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_12_AC_4_pp">
         <statement>
@@ -248,7 +244,6 @@ void Pixel::printPixel() {
       <p>Somebody photobombed our image! What if we wanted to crop the photobomber out? Let's write
         the <c>Image</c> member function <c>cropImage</c>, which takes four paramenters, a start and stop row and
         a start and stop column. It then modifies the matrix to the cropped matrix.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cp_12_AC_5q_editor">
@@ -301,7 +296,7 @@ void Image::printImage() {
     }
 }
 </tests>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement the program. First we make a new matrix with the
         correct amount of rows. Then we push back the pixels we want into the new matrix.
@@ -363,7 +358,6 @@ int main() {
         indices and column indices from a matrix and swaps the two <c>Pixel</c>s at those locations. Note
         that these indices are 0-indexed, unlike the previous <c>cropIndex</c> parameters. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_12_AC_6q_editor">
         <code>
@@ -426,7 +420,7 @@ void Image::cropImage(int startRow, int stopRow, int startCol, int stopCol) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_12_AC_6_pp">
         <statement>
@@ -462,7 +456,6 @@ void Image::cropImage(int startRow, int stopRow, int startCol, int stopCol) {
       <p>When you take a selfie on your phone, the image is mirrored. We can do the same to an image
         by flipping it horizontally. Write the <c>Image</c> member function <c>flipHorizontal</c>, which flips an image
         horizontally. Use the <c>swapPixel</c> function we created previously.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cp_12_AC_7q_editor">
@@ -535,7 +528,7 @@ void Image::swapPixel(int row1, int col1, int row2, int col2) {
     matrix[row2][col2] = temp;
 }
 </tests>
-    </program>
+    </program></statement>
     <solution>
       <p> Below is one way to implement the program. We loop through each row in the
         matrix. We create start and end indices and repeatedly swap pixels, moving both
@@ -598,7 +591,6 @@ int main() {
         which reverts an image to be right side up. Check the hint below for help with the
         construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_12_AC_8q_editor">
         <code>
@@ -684,7 +676,7 @@ void Image::flipHorizontal() {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_12_AC_8_pp">
         <statement>
@@ -733,7 +725,6 @@ void Image::flipHorizontal() {
     <statement>
       <p>Let's write the <c>Image</c> member function called <c>createBorder</c>, which sets the <c>Pixel</c>s on the edge
         of an <c>Image</c> to a given <c>Pixel</c>.</p>
-    </statement>
     <program interactive="activecode"
              line-numbers="yes"
              xml:id="cp_12_AC_9q_editor">
@@ -834,7 +825,7 @@ void Image::flipVertical() {
     }
 }
 </tests>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement the program. We set the first and last row and
         first and last column of Pixels in the Image to the given Pixel.</p>
@@ -897,7 +888,6 @@ int main() {
         which sets the color of every <c>Pixel</c> to white. Check the hint below for help with the
         construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_12_AC_10q_editor">
         <code>
@@ -1007,7 +997,7 @@ void Image::createBorder(Pixel p) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_12_AC_10_pp">
         <statement>

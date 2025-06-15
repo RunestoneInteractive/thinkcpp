@@ -59,7 +59,6 @@ card.print();</program>
       <p>This active code uses the <c>Card::print()</c> function. Feel free to modify the values that <c>card</c> is
         being initialized to in the constructor: this will change the output from the <c>Card::print()</c>
         function.</p>
-    </statement>
     <program xml:id="c12_3_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -118,7 +117,7 @@ void Card::print() const {
    cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 </tests>
-    </program>
+    </program></statement>
   </exercise>
   <p>You might notice that we are not using the zeroeth element of the <c>ranks</c> vector. That's
     because the only valid ranks are 1&#x2013;13. By leaving an unused element at the beginning of
@@ -135,33 +134,33 @@ void Card::print() const {
         <statement>
           <p>rank.ranks</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Remember, ranks is a vector!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>ranks.rank</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Remember, ranks is a vector!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>ranks[rank]</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This is an example of how we use mapping!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>rank[ranks]</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is using the vector "ranks" as an index to a single "rank".
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -192,36 +191,36 @@ card.print();</program>
         <statement>
           <p>Yes, because the mappings should be easy for the programmer to remember.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The programmer should uses mappings that are easy to remember (even if this
             means we don't use the zeroeth element of the ranks vector).
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Yes, because the mappings should be easy for the user to remember.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The user doesn't need to know how things are mapped.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>No! All input and output uses human-readable formats, so the programmer doesn't need to
             understand what is going on behind the scenes.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The programmer should always know what is going on with their code.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>No! All input and output uses human-readable formats, so the user doesn't need to
             understand what is going on behind the scenes.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The user doesn't need to know how the programmer coded things.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

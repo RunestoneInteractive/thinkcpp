@@ -58,10 +58,10 @@ is greater than
   <p>According to <c>isGreater</c>, aces are less than deuces (2s). As an exercise, fix it so that aces are
     ranked higher than Kings, as they are in most card games.</p>
   <listing label="12_5">
-    <caption>
+    <title>
       Take a look at this active code, which uses the <c>isGreater</c> function. Feel free to change the
         values of the cards.
-    </caption>
+    </title>
     <program xml:id="c12_5_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -164,41 +164,41 @@ void Card::print() const {
         <statement>
           <p>bool</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We cannot say true is greater than false, or vice versa.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Strings are ordered lexiographically.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>int</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! It is quite obvious how integers are ordered.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Animal</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We cannot say that one animal is greater than another.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Card</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Cards are partially ordered.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

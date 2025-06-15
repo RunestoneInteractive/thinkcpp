@@ -7,7 +7,8 @@
     should be familiar:</p>
   <listing xml:id="printdeck-code"
            label="printdeck-code">
-    <program>void printDeck(const vector&lt;Card&gt;&amp; deck) {
+      <title>Printing a Deck</title>
+      <program>void printDeck(const vector&lt;Card&gt;&amp; deck) {
       for (size_t i = 0; i &lt; deck.size(); i++) {
         deck[i].print();
       }
@@ -22,7 +23,6 @@
       <p>A Euchre Deck contains 9's, 10's, Jacks, Queens, Kings, and Aces of all four suits. Modify
         the <c>buildDeck</c> function below to create a Euchre deck. The <c>printDeck</c> function will allow you to
         verify that you have done this correctly.</p>
-    </statement>
     <program xml:id="c12_7_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -102,7 +102,7 @@ void Card::print() const {
    }
  }
 </tests>
-    </program>
+    </program></statement>
     <solution>
       <p>Hopefully you took some time to try and figure out the code yourself. The solution
         below is just one of several correct solutions for creating the Euchre deck:</p>

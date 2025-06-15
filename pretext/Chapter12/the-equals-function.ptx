@@ -37,9 +37,9 @@ if (card1.equals(card2)) {
     be comfortable writing both member and nonmember functions, so that you
     can choose the interface that works best depending on the circumstance.</p>
   <listing label="12_4">
-    <caption>
+    <title>
       Run this active code to see how the <c>equals()</c> function works.
-    </caption>
+    </title>
     <program xml:id="c12_4_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -124,37 +124,37 @@ void Card::print() const {
         <statement>
           <p>Directly, using the build in == operator.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We have to create our own method to compare two Card objects, the ==
             operator won't work.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Compare their ranks and suits separately using the == operator. If either comparison is
             true, then they are equal.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This would return true if two cards have the same rank, but different suits
             OR the same suit, but different ranks.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Compare their ranks and suits separately using the == operator. If either comparison is
             false, then they are NOT equal.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Both ranks and suits must be the same for two cards to be equal.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>They cannot be compared because they are non-numerical objects.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Card objects can be compared, but we must create our own method.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -165,34 +165,34 @@ void Card::print() const {
     </statement>
     <choices>
       <choice>
-        <statement id="equals_function_2_opt_a">
+        <statement>
           <p>A free-standing function, because we shouldn't <q>invoke</q> the function on just one <c>Card</c>
             .</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We can invoke the function on a <c>Card</c>!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="equals_function_2_opt_b">
+        <statement>
           <p>A member function, because the <c>equals()</c> operation is part of the <c>Card</c> data structure.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The <c>equals()</c> operation is not necessarily part of the <c>Card</c> data structure.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="equals_function_2_opt_c">
+        <statement>
           <p>Both are viable.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This is a matter of preference!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="equals_function_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

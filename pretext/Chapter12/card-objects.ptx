@@ -180,33 +180,33 @@ Card threeOfClubs(0, 3);
         <statement>
           <p>To translate each rank / suit into a secret code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is called encryption.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>To create strings to represent each rank / suit.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We create strings before we encode.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>To define a mapping between each rank / suit and a sequence of numbers.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This makes it easier to compare cards.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>To write code describing real objects, like cards, with their respective ranks / suits.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is how we describe object-oriented programming.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -233,33 +233,33 @@ Card threeOfClubs(0, 3);
         <statement>
           <p>To have better organization in your code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Mapping helps more with order than with organization.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>To make it possible to compare objects that have non-numerical values.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! By mapping non-numerical values to integers, we can compare them!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>To represent complex objects visually.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! There is nothing visual about mapping.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>To add complexity to your code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Mapping actually simplifies your code.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

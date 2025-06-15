@@ -134,11 +134,11 @@ I found the card at index = -1</output>
     looking at a few cases and examining the code, you might be able to
     convince yourself.</p>
   <listing label="12_9">
-    <caption>
+    <title>
       The code below searches finds the same card from the same deck we used on the previous
       page.
       This time, it uses bisection search to locate the card.
-    </caption>
+    </title>
     <program xml:id="c12_9_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -281,33 +281,33 @@ bool Card::isGreater(const Card&amp; c2) const {
         <statement>
           <p>linear search</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! No search is faster than linear search when elements are not sorted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>bisection search</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Bisection sort does not work on unsorted elements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>both methods will work, but linear search is more efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Bisection sort does not work on unsorted elements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>both methods will work, but bisection search is more efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Bisection sort does not work on unsorted elements.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -321,33 +321,33 @@ bool Card::isGreater(const Card&amp; c2) const {
         <statement>
           <p>linear search</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You could use linear search, but it is not the only option.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>bisection search</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You could use bisection search, but it is not the only option.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>both methods will work, but linear search is more efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Both methods will work, but linear search is not the most efficient method.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>both methods will work, but bisection search is more efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! When elements are sorted, bisection search is much quicker.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -361,35 +361,35 @@ bool Card::isGreater(const Card&amp; c2) const {
         <statement>
           <p>having more than one recursive call</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You are allowed to make multiple recursive calls inside of a function! You
           might do this if there is more than one condition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>not including a base case</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! You always need a base case!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>writing recursive calls such that the base case is never reached</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! If you never reach the base case, the program will never stop making recursive
           calls.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>having more than one base case</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You are allowed to have multiple base cases. This is often necessary!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

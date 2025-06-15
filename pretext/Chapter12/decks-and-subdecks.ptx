@@ -37,35 +37,35 @@
         <statement>
           <p>It uses binary search to locate the card in the deck.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true. Binary search is very efficient.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>If the program user plays by the rules, we can think of deck, low, and high abstractly
             as a subdeck.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true. If the user doesn't follow the rules, we might be in trouble.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>It can only access the part of the deck that is between the bounds high and low.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is false! findBisect() can access the entire deck, even when you pass high and low
             parameters.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>There is no such thing as an empty object.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true. When you create an object, it is given default values.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
