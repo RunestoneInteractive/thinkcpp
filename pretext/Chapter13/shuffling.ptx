@@ -41,33 +41,33 @@
         <statement>
           <p>cstdlib</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>iostream</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the library for streaming cin and cout.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>strings</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the library for strings.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>cmath</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the library for math functions.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -77,7 +77,6 @@
         code. Once you're done with <c>randomInt</c> and <c>swapCards</c>, try using them to implement the <c>Deck</c>
         member function <c>shuffleDeck</c>. If done correctly, the program should output a shuffled deck of
         cards. If you stuck, you can check the hints below.</p>
-    </statement>
     <program xml:id="shuffling_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -188,11 +187,11 @@ void Deck::print() const {
     }
 }
 </tests>
-    </program>
+    </program></statement>
     <hint>
       <title>randomInt</title>
       <activity label="shuffling_help_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -236,7 +235,7 @@ void Deck::print() const {
     <hint>
       <title>swapCards</title>
       <activity label="shuffling_help_2"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -273,7 +272,7 @@ void Deck::print() const {
     <hint>
       <title>shuffleDeck</title>
       <activity label="shuffling_help_3"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>

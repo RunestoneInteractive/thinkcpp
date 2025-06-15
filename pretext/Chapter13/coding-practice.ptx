@@ -5,7 +5,6 @@
       <p>Create the enumerated type Planet, which maps the planets in our solar system to integers
         starting at 1. Make sure to list the planets out in order! (Sadly, Pluto is not a planet :(
         )</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_1q">
         <code>
@@ -14,11 +13,10 @@ using namespace std;
 
 // Write your code for the enumerated type Planet.
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. The planets in our solar system
-        are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</p> Below is one way
-      to implement the program. The planets in our solar system are Mercury, Venus, Earth, Mars,
-      Jupiter, Saturn, Uranus, and Neptune. <program xml:id="cp_13_AC_1a">
+    are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.</p>
+    <program xml:id="cp_13_AC_1a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -37,7 +35,6 @@ enum Planet { MERCURY = 1, VENUS, EARTH, MARS, JUPITER, SATURN, URANUS, NEPTUNE 
         days. Print out this information in the following format: Planet <c>planet</c> has <c>numDays</c> number
         of days in a year! Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_2q_editor">
         <code>
@@ -51,7 +48,7 @@ int main() {
     // Write your code here.
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_13_AC_2_pp">
         <statement>
@@ -132,7 +129,6 @@ int main() {
       <p>A Bingo board has 25 Spaces in a matrix-like grid. A Space has a number value randomly
         selected from 1 to 75 and can either be filled or not. Write the struct definitions for <c>Space</c>
         and <c>BingoBoard</c>.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_3q">
         <code>
@@ -144,11 +140,10 @@ using namespace std;
 
 // Write your code for the struct BingoBoard here.
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We declare the <c>Space</c> and <c>BingoBoard</c>
       struct and create the instance variables in order. Make sure to set <c>is_filled</c> to <c>false</c>!</p>
-      Below is one way to implement the program. We declare the Space and BingoBoard struct and
-      create the instance variables in order. Make sure to set is_filled to false! <program xml:id="cp_13_AC_3a">
+      <program xml:id="cp_13_AC_3a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -176,7 +171,6 @@ struct BingoBoard {
         process in multiple steps. First, write the function <c>randomInt</c>, which generates a random value
         between low and high, inclusive. Be sure to include the relevant libraries! Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_4q_editor">
         <code>
@@ -186,7 +180,7 @@ using namespace std;
 
 // Write your code for the randomInt function here.
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_13_AC_4_pp">
         <statement>
@@ -226,7 +220,6 @@ using namespace std;
     <statement>
       <p>Now we need a way to swap the values at two indices in a vector. Write the function <c>swapValues</c>,
         which takes a <c>vector</c> of <c>int</c>s and two indices as parameters.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_5q">
         <code>
@@ -236,13 +229,11 @@ using namespace std;
 
 // Write your code for the swapValues function here.
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We store the value at <c>index1</c> in a <c>temp</c>
       variable, replace the value at <c>index1</c> with the value at <c>index2</c>, and then finally replace the
-      value at <c>index2</c> with the value of <c>temp</c>. Make sure to pass <c>vec</c> by reference!</p> Below
-      is one way to implement the program. We store the value at index1 in a temp variable, replace
-      the value at index1 with the value at index2, and then finally replace the value at index2
-      with the value of temp. Make sure to pass vec by reference! <program xml:id="cp_13_AC_5a">
+      value at <c>index2</c> with the value of <c>temp</c>. Make sure to pass <c>vec</c> by reference!</p>
+      <program xml:id="cp_13_AC_5a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -265,7 +256,6 @@ void swapValues (vector&lt;int&gt; &amp;vec, int index1, int index2) {
         returns the shuffled <c>vector</c>. Check the hint below for help with the construction of
         the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_6q_editor">
         <code>
@@ -277,7 +267,7 @@ using namespace std;
 
 // Write your code for the generateRandVec function here.
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_13_AC_6_pp">
         <statement>
@@ -325,7 +315,6 @@ using namespace std;
         function and select the first 25 values to fill up the board. Make sure to create a free
         space in the middle of the board! Set the value of the free space to 0 and <c>is_filled</c> to <c>true</c>.
         All other spaces should have <c>is_filled</c> set to <c>false</c>.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_7q">
         <code>
@@ -376,15 +365,12 @@ vector&lt;int&gt; generateRandVec() {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. First we need to initialize the board to
       the correct dimensions. Then, we use <c>generateRandVec</c> to create a <c>vector</c> of random values from 1 to
       75. Afterwards, we set the values of the 25 <c>Space</c>s to the first 25 values in the random <c>vector</c>.
-      Lastly, we set the middle <c>Space</c> to 0 and set its <c>is_filled</c> to <c>true</c>.</p> Below is one way to
-      implement the program. First we need to initialize the board to the correct dimensions. Then,
-      we use generateRandVec to create a vector of random values from 1 to 75. Afterwards, we set
-      the values of the 25 Spaces to the first 25 values in the random vector. Lastly, we set the
-      middle Space to 0 and set its is_filled to true. <program xml:id="cp_13_AC_7a">
+      Lastly, we set the middle <c>Space</c> to 0 and set its <c>is_filled</c> to <c>true</c>.</p>
+      <program xml:id="cp_13_AC_7a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -463,7 +449,6 @@ vector&lt;int&gt; generateRandVec() {
       <p>Let&#8217;s print out our <c>BingoBoard</c>! Write the <c>BingoBoard</c> member function <c>printBoard</c>. Insert tabs
         between each value in each row to make the board print out neater. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_8q_editor">
         <code>
@@ -544,7 +529,7 @@ void BingoBoard::makeBoard() {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_13_AC_8_pp">
         <statement>
@@ -594,7 +579,6 @@ void BingoBoard::makeBoard() {
         elements again and the process continues. This way, the biggest elements
         &#8220;bubble&#8221; to the back. Write the function <c>bubbleSort</c>, which takes a <c>vector</c> as a
         parameter and sorts it. Feel free to use the provided <c>swapValues</c> function.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_9q">
         <code>
@@ -618,14 +602,12 @@ int main() {
     }
 }
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement the program. We must loop through all elements in the
       vector. Since we know the last <c>i</c> elements are already in place, our inner loop only goes
       up to <c>vec.size() - 1 - i</c>. If the next element is greater than the current element, we swap the two
-      elements.</p> Below is one way to implement the program. We must loop through all elements in
-      the vector. Since we know the last i elements are already in place, our inner loop only goes
-      up to vec.size() - 1 - i. If the next element is greater than the current element, we swap the
-      two elements. <program xml:id="cp_13_AC_9a">
+      elements.</p>
+      <program xml:id="cp_13_AC_9a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -669,7 +651,6 @@ int main() {
         since our <c>vector</c> is already sorted. Write the function <c>fastBubbleSort</c>, which is <c>bubbleSort</c> with this
         modification. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_13_AC_10q_editor">
         <code>
@@ -693,7 +674,7 @@ int main() {
     }
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_13_AC_10_pp">
         <statement>

@@ -35,11 +35,11 @@ else {
     then perform multiplication, and then print the error message. Occasionally this feature is
     useful, but most of the time it is a source of errors when people forget the <c>break</c> statements.</p>
   <listing label="switch_AC_1">
-    <caption> Take a look at this active code that allows you to choose your starter Pokemon. If you
+    <title>Take a look at this active code that allows you to choose your starter Pokemon. If you
       change the value of <c>type</c>, it will change the Pokemon you choose. Notice how if you don't
       assign <c>type</c> to a valid type, it outputs the default message. Try taking out the <c>break</c>
       statements in each case. What happens if you run the code with <c>type</c> as &#x2018;g'
-      afterwards? </caption>
+      afterwards? </title>
     <program xml:id="switch_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -112,34 +112,34 @@ default:        return "Not a valid suit";
         <statement>
           <p>ints</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We can use ints with switch statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>chars</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We can use chars with switch statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>strings</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Switch statements only work on integral values, so we cannot use strings with switch
           statements!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>enumerated types</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We can use enumerated types with switch statements.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -173,41 +173,41 @@ int main() {
         <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try running it with the active code.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>49</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Case 2 doesn't end with a break statement, so case 3 also runs!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>49Invalid num! Please try again.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Where do we encounter a break statement?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Invalid num! Please try again.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is 2 one of the invalid numbers?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Code will not run.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no reason why the code wouldn't run.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -239,41 +239,41 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The first statement ends with a break, so only 1 will print!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>149</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Where do we encounter a break statement?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>149Invalid num! Please try again.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is 1 one of the valid numbers? Where do we encounter a break statement?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Invalid num! Please try again.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is 1 one of the invalid numbers?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Code will not run.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no reason why the code wouldn't run.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -305,42 +305,42 @@ int main() {
         <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Where do we / don't we encounter a break statement?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>49</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Where do we / don't we encounter a break statement?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>49Invalid num! Please try again.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Notice that 2 is not an invalid number, but since we are missing break statements,
           multiple branches execute.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Invalid num! Please try again.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is 2 one of the invalid numbers?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Code will not run.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no reason why the code wouldn't run.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

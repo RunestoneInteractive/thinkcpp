@@ -101,43 +101,43 @@
         <statement>
           <p><m>n</m>, <m>n \log n</m>, more efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Simple sort traverses the vector n times, and each traversal takes additional time.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p><m>n^2</m>, <m>n \log n</m>, more efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Simple sort takes time proporitonal to <m>n^2</m>, mergesort takes time proportional to <m>n
             \log n</m> (which is more efficient).
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><m>n \log n</m>, <m>n</m>, less efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You might be confused about which algorithm is which. Also, what is the efficiency of
             simple sort?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><m>n \log n</m>, <m>n^2</m>, less efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You might be confused about which algorithm is which.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><m>n^2,</m> <m>n \log n</m>, less efficient</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Which algorithm is more efficient? (Which function grows more slowly?)
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -146,7 +146,6 @@
       <p>Write your implementation of <c>merge</c> in the commented area of the active code below. Read
         the comments in <c>main</c> to see how we'll test if your <c>merge</c> function works. If you get
         stuck, you can reveal the hint below for help.</p>
-    </statement>
     <program xml:id="mergesort_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -350,11 +349,11 @@ void Deck::sortDeck() {
     }
 }
 </tests>
-    </program>
+    </program></statement>
     <hint>
       <title>merge</title>
       <activity label="mergesort_help_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -445,7 +444,6 @@ void Deck::sortDeck() {
         non-recursive version of <c>mergeSort</c> first before writing the recursive version. Follow the
         comments in <c>main</c> to test your functions. If done correctly, the program should output a
         sorted deck of cards. If you get stuck, you can reveal the hints below for help.</p>
-    </statement>
     <program xml:id="mergesort_3_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -681,11 +679,11 @@ Deck merge(const Deck&amp; d1, const Deck&amp; d2) {
     return result;
 }
 </tests>
-    </program>
+    </program></statement>
     <hint>
       <title>mergeSort</title>
       <activity label="mergesort_help_2"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -724,7 +722,7 @@ Deck merge(const Deck&amp; d1, const Deck&amp; d2) {
         mergeSort recursive
       </title>
       <activity label="mergesort_help_3"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>

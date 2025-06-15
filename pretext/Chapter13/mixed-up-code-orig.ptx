@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter13_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_13_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_13_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Below is the enumerated type Days which maps days of the week to integers
             starting at 1. Use a switch statement to determine whether or not day
@@ -55,7 +55,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_13_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Use a switch statement to check and print out whether a number is divisible by two.
             Prompt and get input from the user. If input isn't valid,
@@ -112,7 +112,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_13_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Use a switch statement to check and print out the maximum between two numbers.
             Prompt and get input from the user for two integers. If input isn't valid,
@@ -175,7 +175,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_13_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Below is the pseudocode for the implementation of mergeSort.
             Put the blocks in the correct order!</p>
@@ -210,7 +210,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_13_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's revisit the Dictionary data structure defined in the previous section.
             Write the struct definitions for Entry, which has member variables word and page,
@@ -250,7 +250,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_13_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Assume our dictionary is currently unsorted. Let's write a Dictionary member function find
             that takes a string word as a parameter and returns the index of its corresponding
@@ -298,7 +298,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_13_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Of course, all dictionaries are in some sort of order. In order to do this, we
             must first write the Dictionary member function findFirstWord, which takes a starting
@@ -347,7 +347,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_13_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>We also need a swap function. Write the Dictionary member function
             swap which takes two indices as parameters and swaps the Entries
@@ -377,7 +377,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_13_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Now let's write the Dictionary member function alphabetize, which
             sorts the Entries in the Dictionary in alphabetical order. Use
@@ -419,7 +419,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_13_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_13_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's check to see if our sorting worked! Write the Dictionary
             member function printDictionary, which prints out the word in each

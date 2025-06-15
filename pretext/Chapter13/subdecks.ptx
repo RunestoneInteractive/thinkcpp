@@ -29,7 +29,6 @@
       <p>Try writing the <c>findBisect</c> function in the commented section of this active code. If done
         correctly, the program should output that the Seven of Clubs is at index 6 and the King of
         Diamonds is at index -1. If you get stuck, you can reveal the hint below for help.</p>
-    </statement>
     <program xml:id="subdeck_cards_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -205,11 +204,11 @@ Deck Deck::subdeck(int low, int high) const {
     return sub;
 }
 </tests>
-    </program>
+    </program></statement>
     <hint>
       <title>findBisect</title>
       <activity label="subdecks_help_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>

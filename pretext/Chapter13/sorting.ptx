@@ -53,7 +53,6 @@
         done with <c>findLowestCard</c>, try using it along with <c>swapCards</c> to implement the <c>Deck</c> member function <c>sortDeck</c>.
         If done correctly, the program should output a sorted deck of cards. If you get stuck, you
         can reveal the hints below for help.</p>
-    </statement>
     <program xml:id="sorting_deck_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -193,11 +192,11 @@ void Deck::shuffleDeck() {
     }
 }
 </tests>
-    </program>
+    </program></statement>
     <hint>
       <title>findLowestCard</title>
       <activity label="sorting_help_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -253,7 +252,7 @@ void Deck::shuffleDeck() {
     <hint>
       <title>sortDeck</title>
       <activity label="sorting_help_2"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>

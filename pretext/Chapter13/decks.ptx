@@ -25,10 +25,14 @@ Deck::Deck(int size) {
 Deck deck(52);
 </program>
   <p>Here is a state diagram showing what a <c>Deck</c> object looks like:</p>
-  <figure align="center">
-    <image source="Chapter13/Images/13.3stackdiagram.png"
-           width="50%"
-           alt="'deck' names a box. Inside it is a box named 'cards'. Inside 'cards' is a sequence of 52 numbered boxes each with 'suit: 0, rank: 0'."/>
+  <figure>
+      <caption/>
+      <image source="Chapter13/Images/13.3stackdiagram.png" width="50%">
+          <description><p>
+              'deck' names a box. Inside it is a box named 'cards'.
+              Inside 'cards' is a sequence of 52 numbered boxes each with 'suit: 0, rank: 0'.
+          </p></description>
+      </image>
   </figure>
   <p>The object named <c>deck</c> has a single instance variable named <c>cards</c>, which is a vector of <c>Card</c>
     objects. To access the cards in a deck we have to compose the syntax for accessing an instance
@@ -63,41 +67,41 @@ Deck deck(52);
           <p>The ranks and suits of the cards are initialized to the proper ranks and suits in a
             standard deck of cards.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Unless you the programmer tell it to, the computer won't do it.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>There will be 52 cards.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We initialized cards with a value of 52.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The ranks and suits will be initialized to their default values.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In our case is, the default values are zero.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The only instance variable in the deck is cards.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           cards is a vector of Cards!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>You can't access individual cards in the deck.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You can access any card by indexing, for example: deck.cards[n].
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -110,34 +114,34 @@ Deck deck(52);
         <statement>
           <p>True - because this is the default mapping of enumerated types.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The default mapping begins with 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>True - because our definition of rank overrides the default mapping.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Our definition doesn't use the default mapping, which begins with 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False - because this is the default mapping of enumerated types.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The default mapping begins with 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>False - because our definition of rank overrides the default mapping.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If we wanted to, we could have set the rank of ace to 7, and the rest of the cards
             would still be ranked in order.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

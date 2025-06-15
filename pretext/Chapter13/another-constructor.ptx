@@ -20,9 +20,9 @@
   <p>Notice how similar this function is to <c>buildDeck</c>, except that we had to change the syntax to make
     it a constructor. Now we can create a standard 52-card deck with the simple declaration <c>Deck deck;</c></p>
   <listing label="deck_constructor_AC_1">
-    <caption>
+    <title>
       This active code prints out the cards in a deck using the loop from the previous section.
-    </caption>
+    </title>
     <program xml:id="deck_constructor_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -118,38 +118,38 @@ Deck::Deck() {
         <statement>
           <p>True - we used the buildDeck function with a few modifications to do this.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           How do we create the deck?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>True - we wrote a Deck constructor to do this.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The for loops in the Deck constructor initialize each card to its proper value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False - we used the buildDeck function with a few modifications to do this.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Look at the active code. How do we create the deck?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False - we wrote a Deck constructor to do this.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Look at the active code.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="deck_constructor_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

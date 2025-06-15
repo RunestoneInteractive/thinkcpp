@@ -24,11 +24,11 @@ Deck pack = deck.subdeck(10, 51);</program>
     unthinkingly extend a metaphor past its breaking point. Beware of
     misleading analogies.</p>
   <listing label="shuffle_deal_AC_1">
-    <caption>
+    <title>
       This active code deals a deck of cards among three players for a game
         of Go Fish. Feel free to experiment with the code and deal decks for other
         games like War, Poker, or Hearts.
-    </caption>
+    </title>
     <program xml:id="shuffle_deal_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">

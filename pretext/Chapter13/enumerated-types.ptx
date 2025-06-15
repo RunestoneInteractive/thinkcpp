@@ -42,12 +42,12 @@ Card card (DIAMONDS, JACK);
 Card card (1, 11);
 </program>
   <listing label="enum_type_AC_1">
-    <caption>
+    <title>
       This active code uses the enumerated types created above to construct <c>Card</c> objects. Feel
         free to modify the values that the cards are being initialized to in the constructor: this
         will change the output from the <c>print</c> function. Notice how this is much clearer than using
         integers.
-    </caption>
+    </title>
     <program xml:id="enum_type_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -140,42 +140,42 @@ rank = Rank(rank+1);</program>
         <statement>
           <p>Perform arithmetic.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We are not allowed to do arithmetic with enumerated types.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Include a mapping as part of the program.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the purpose of an enumerated type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Use the same set of values in multiple mappings.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Variables in one enumeration type cannot be used in another enumeration type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Define the set of values that make up a mapping.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the purpose of an enumerated type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Use them as indices for a vector.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since the values in enumerated types are represented as integers, we can use them as
             vector indices.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -212,43 +212,43 @@ int main() {
         <statement>
           <p>Who ordered a triple scoop of Cookies 'n' Cream in a sugar cone?</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that we performed an override for one of the enumerated types!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Who ordered a double scoop of Strawberry in a cake cone?</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that the default enumeration starts at 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Who ordered a double scoop of Cookies 'n' Cream in a sugar cone?</p>
         </statement>
-        <feedback>
+        <feedback><p>
           2 corresponds to "double", 3 corresponds to "Cookies 'n' Cream", and 2 corresponds to
             "sugar cone".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Who ordered a triple scoop of Strawberry in a cake cone?</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that we performed an override for one of the enumerated types! The default
             enumeration starts at 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Who ordered a triple scoop of Mint Chocolate Chip in a Waffle Cone?</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take another look at how we defined our enumerated types.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

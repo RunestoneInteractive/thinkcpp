@@ -13,10 +13,10 @@
   <p>As usual, we can refer to the instance variables of the current object
     without using dot notation.</p>
   <listing label="deck_members_AC_1">
-    <caption>
+    <title>
       This active code prints out the deck of cards like in the previous section. Notice we can
         just use <c>deck.print()</c> to print out the deck instead of writing a for loop in main.
-    </caption>
+    </title>
     <program xml:id="deck_members_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -160,38 +160,38 @@ struct Deck {
         <statement>
           <p>Use the keyword this.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We use this to refer to the Card that the function is invoked on.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Define Deck before Card.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We don't have to define Deck before Card.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Pass a Card parameter in the Card member function find.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What do we pass as a parameter in find?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Declare Deck before Card and then define Deck afterwards.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is how we implemented our code!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="deck_members_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -234,9 +234,9 @@ struct Deck {
     </blocks>
   </exercise>
   <listing label="deck_members_AC_2">
-    <caption>
+    <title>
       This active code uses the <c>Deck::find</c> function you just built.
-    </caption>
+    </title>
     <program xml:id="deck_members_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
