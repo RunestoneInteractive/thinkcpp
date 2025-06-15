@@ -160,36 +160,36 @@ int main() {
         <statement>
           <p>!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function keeps executing while n is greater than 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>!!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function keeps executing while n is greater than 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>!!!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! First, the program enters the if statement within exclamationPoint because n
             is greater than 0. Then the function prints a "!" and calls itself again, but with n-1,
             which is 2. This repeats until n is 0, which is when the program exits the function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>!!!!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function keeps executing while n is greater than 0. Therefore, when n is 0, it will
             not print a "!"
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -215,35 +215,35 @@ int main() {
         <statement>
           <p>!!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If we start at zero, will the function ever call itself?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If we start at zero, will the function ever call itself?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The only output statement in this program prints a "!", therefore "0" would never
             print.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Nothing prints.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The program never enters the "if" statement within the function because n is
             never greater than 0.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

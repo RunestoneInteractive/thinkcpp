@@ -3,7 +3,7 @@
   <title>Mixed-Up Code Exercises</title>
   <p>Answer the following <term>Mixed-Up Code</term> questions to
             assess what you have learned in this chapter.</p>
-  <exercise label="functions_p9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that correctly prints the integer conversion of the passed double.</p>
     </statement>
@@ -37,7 +37,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p0" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p0" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function called newLine that takes no arguments and prints a blank line.  Then construct another function called divider that prints two blank lines separated by a line of <q>&#x2026; &#x2026; &#x2026; &#x2026;</q></p>
     </statement>
@@ -83,7 +83,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p1" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p1" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that correctly calculates the volume of a cone with as much precision as possible and prints the value to the terminal.  Use 3.14 for pi.</p>
     </statement>
@@ -120,7 +120,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p3" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that prints the sin of an angle given in degrees. Use 3.14 for pi.</p>
     </statement>
@@ -167,7 +167,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that prints the price (with 8% sales tax) of an item with after using a 30% off coupon.</p>
     </statement>
@@ -202,7 +202,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Suppose you have already defined a function called sumOfSquares which returns the sum of the squares of two numbers and root which returns the square root of a number.  Construct a function that calculates the hypotenuse of the right triangle and prints the three sidelengths.</p>
     </statement>
@@ -249,7 +249,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>The chickens from the previous chapter are infuriated.  Construct a function that prints <q>Eat</q> on the first line, <q>More</q> on the second line, and the name of the passed animal on the fourth line, followed by an exclamation point.</p>
     </statement>
@@ -289,7 +289,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that takes a dollar amount and cent amount and prints the total amount of money that you have. Hint: the mod operator &#x2018;%' returns the remainder of a division.</p>
     </statement>
@@ -326,7 +326,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>In Michigan, the probability that it snows on any given day in the winter is about 14%.  The probability of having a snow day on any given day in the winter is about 4%.  The probability that is snows and you have a snow day is 8%.
             Construct and call a function that calculates the probability of a having a snow day, given the fact that it will snow tonight.
@@ -379,7 +379,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="functions_p2" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="functions_p2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Your final grade is determined by a midterm component (each midterm is worth 20% of the grade) and a final component. In order to avoid any discrepancies with students who's grades are on the fence, your teacher follows this strict grading scale:
             [0%,60%) = F, [60%, 70%) = D, [70%, 80%) = C, [80%, 90%) = B and [90%, 100%] = A. He does not round until the very end.

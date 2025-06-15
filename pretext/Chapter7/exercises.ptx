@@ -20,74 +20,74 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_1_opt_a">
+        <statement>
           <p>
             <c>x</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>x</c> is an <c>int</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_1_opt_b">
+        <statement>
           <p>
             <c>y</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>y</c> is a <c>double</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_1_opt_c">
+        <statement>
           <p>
             <c>word</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>word</c> is a <c>string</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_1_opt_d">
+        <statement>
           <p>
             <c>"hello"</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <q>hello</q> is not a variable.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_1_opt_e">
+        <statement>
           <p>
             <c>letter</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>letter</c> is a <c>string</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_1_opt_f">
+        <statement>
           <p>
             <c>c</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>c</c> is a <c>char</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_1_opt_g">
+        <statement>
           <p>
             <c>isPrime</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>isPrime</c> is a <c>bool</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -106,36 +106,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_2_opt_a">
+        <statement>
           <p>11</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that indexing begins at 0 in C++.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_2_opt_b">
+        <statement>
           <p>10</p>
         </statement>
-        <feedback>
+        <feedback><p>
           &#x2018;p' is located at index 10 in quote.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_2_opt_c">
+        <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The character &#x2018;m' is located at index 4.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_2_opt_d">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The character <q>N</q> is located at index 0.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -163,36 +163,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_3_opt_a">
+        <statement>
           <p>I</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The value of <c>z</c> is not 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_3_opt_b">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The value of <c>z</c> is not greater than 11.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_3_opt_c">
+        <statement>
           <p>o</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The value of <c>z</c> is not 3.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_3_opt_d">
+        <statement>
           <p>y</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The final value of <c>z</c> is 7, and &#x2018;y' is at index 7 of <c>quote</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -212,45 +212,45 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_4_opt_a">
+        <statement>
           <p>-1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           -1 is not in <c>quote</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_4_opt_b">
+        <statement>
           <p>w</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>x</c> is not the index value of the character &#x2018;w'.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_4_opt_c">
+        <statement>
           <p>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>x</c> is not the index value of the last period.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_4_opt_d">
+        <statement>
           <p>&#x2018; &#x2018;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           It might be logical to think that memory outside of the <c>string</c> is empty space, but
             there could be leftover junk values.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_4_opt_e">
+        <statement>
           <p>Error, we are indexing out of bounds.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>x</c> has a value of 32 and there is no index 32 in <c>quote</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -275,36 +275,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_5_opt_a">
+        <statement>
           <p>teeest</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that indexing begins at 0 in C++.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_5_opt_b">
+        <statement>
           <p>Wg reeest</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If we print out every fifth character, including the first, this is the answer.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_5_opt_c">
+        <statement>
           <p>ith reatpowe coms grat rsponibliy.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is what we would get if we removed every fifth character.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_5_opt_d">
+        <statement>
           <p>With great power comes great responsiblity.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the conditional in the while loop.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -324,38 +324,38 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_7_6_opt_a">
+        <statement>
           <p>
             <c>string::npos</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since &#x2018;a' is not found in <c>quote</c>, the <c>find</c> function returns <c>string::npos</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_6_opt_b">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The character at index 0 is &#x2018;W'.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_6_opt_c">
+        <statement>
           <p>8</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The character at index 8 is &#x2018;e'.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_6_opt_d">
+        <statement>
           <p>15</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no index <c>15</c> in quote.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -375,45 +375,45 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_7_opt_a">
+        <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although <q>wood</q> appears four times in the <c>string</c>, that is not what the <c>find</c>
             function returns.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_7_opt_b">
+        <statement>
           <p>9</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The index of &#x2018;w' in the first <q>wood</q> is at index 9.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_7_opt_c">
+        <statement>
           <p>10</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember indexing begins at 0 in C++.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_7_opt_d">
+        <statement>
           <p>12</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>find</c> function returns the index of the first character of the found string.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_7_opt_e">
+        <statement>
           <p>22</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>find</c> function returns the index of the first character of the found string.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -433,36 +433,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_8_opt_a">
+        <statement>
           <p>9</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the starting index for where we should start looking.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_8_opt_b">
+        <statement>
           <p>22</p>
         </statement>
-        <feedback>
+        <feedback><p>
           After the first &#x2018;w', the second &#x2018;w' appears at index 22.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_8_opt_c">
+        <statement>
           <p>43</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the <c>find</c> function and its arguments.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_8_opt_d">
+        <statement>
           <p>65</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the <c>find</c> function and its arguments.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -489,36 +489,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_9_opt_a">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Are there any occurences of the letter &#x2018;e' in <c>quote</c>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_9_opt_b">
+        <statement>
           <p>6</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Count the number of &#x2018;e's in <c>quote</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_9_opt_c">
+        <statement>
           <p>7</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are 7 occurences of the letter &#x2018;e' in <c>quote</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_9_opt_d">
+        <statement>
           <p>12</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Count the number of &#x2018;e's in <c>quote</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -539,45 +539,45 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_10_opt_a">
+        <statement>
           <p>Marco! Polo!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the initialization of <c>output</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_10_opt_b">
+        <statement>
           <p>Marco!Polo!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the initialization of <c>output</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_10_opt_c">
+        <statement>
           <p>call response</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Can we concatenate <q>call</q> and <q>response</q>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_10_opt_d">
+        <statement>
           <p>callresponse</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Can we concatenate <q>call</q> and <q>response</q>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_10_opt_e">
+        <statement>
           <p>Error!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We cannot concatenate native C strings like <q>call</q> and <q>response</q>, so this
             code results in an error.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -605,44 +605,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_11_opt_a">
+        <statement>
           <p>
             <c>question['X'] = 's';</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The argument in the <c>[]</c> operator should be a position in the string.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_11_opt_b">
+        <statement>
           <p>
             <c>'s' = question[i];</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check the order of your assignment.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_11_opt_c">
+        <statement>
           <p>
             <c>'X' = 's';</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           We cannot assign the value of &#x2018;s' to &#x2018;X'.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_11_opt_d">
+        <statement>
           <p>
             <c>question[i] = 's';</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This will successfully replace all instances of &#x2018;X' with &#x2018;s'.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -660,45 +660,45 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_12_opt_a">
+        <statement>
           <p>butterbutterfly</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The operator between <q>butter</q> and <q>butterfly</q> is the <c>&lt;</c> operator, not <c>&lt;&lt;</c>
             .
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_12_opt_b">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Does <q>butter</q> come before or after <q>butterfly</q>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_12_opt_c">
+        <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <q>butter</q> comes before <q>butterfly</q> in the dictionary.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_12_opt_d">
+        <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In C++, boolean values are outputted as either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_12_opt_e">
+        <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In C++, boolean values are outputted as either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -725,38 +725,38 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_7_13_opt_a">
+        <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The code is not counting the number of a's or e's after position 17. Rather adding up
             their indices.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_13_opt_b">
+        <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The code is not counting the number of a's or e's. Rather adding up their indices.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_7_13_opt_c">
+        <statement>
           <p>64</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! the occurences of &#x2018;a' are 19 and 21, while that of &#x2018;e' is 24
             (after <c>index</c> 17). The total is 64.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_13_opt_d">
+        <statement>
           <p>68</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The first occurence of &#x2018;e' is at index 4 so it is not counted.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -780,44 +780,44 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_7_14_opt_a">
+        <statement>
           <p>
             <q>IMM MondM James Mond</q>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! We change indices 1,2,4,8,16 to M before <c>index</c> becomes <c>&gt;</c> <c>quote.length()</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_14_opt_b">
+        <statement>
           <p>
             <q>IMMMMMMMMMMMMMMMMMMM</q>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           We are not increasing <c>index</c> by 1, instead we are doubling it.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_14_opt_c">
+        <statement>
           <p>
             <q>MMM MondM James Mond</q>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           We don't start at position 0 this time.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_7_14_opt_d">
+        <statement>
           <p>
             <q>IMsMBMnM,MJMmMsMBMnM</q>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           we are not increasing <c>index</c> by 2, instead we are doubling it.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

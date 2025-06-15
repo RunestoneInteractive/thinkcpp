@@ -61,9 +61,9 @@ else {
       <p>Match the conditional statement to its output, assuming it is outputted using cout and x =
         3.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>(x % 2 == 1 &amp;&amp; x == 7)</premise>

@@ -13,11 +13,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to print one separate lines.
+    <solution><p>Below is one way to write the code to print one separate lines.</p>
 
     
     <program xml:id="VARS_p1_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -60,11 +56,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to declare and swap these variables.
+    <solution><p>Below is one way to write the code to declare and swap these variables.</p>
 
     
     <program xml:id="VARS_p2_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -111,11 +103,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to assign the variables.
+    <solution><p>Below is one way to write the code to assign the variables.</p>
 
     
     <program xml:id="VARS_p3_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -157,11 +145,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to convert units to tablespoons.
+    <solution><p>Below is one way to write the code to convert units to tablespoons.</p>
 
     
     <program xml:id="VARS_p4_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -203,11 +187,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to define variables, find volume and print results to the terminal.
+    <solution><p>Below is one way to write the code to define variables, find volume and print results to the terminal.</p>
 
     
     <program xml:id="VARS_p5_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -252,11 +232,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to change the value of the character variable.
+    <solution><p>Below is one way to write the code to change the value of the character variable.</p>
 
     
     <program xml:id="VARS_p6_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -293,11 +269,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to output the volume of the cylinder.
+    <solution><p>Below is one way to write the code to output the volume of the cylinder.</p>
 
     
     <program xml:id="VARS_p7_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -340,11 +312,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to output the string.
+    <solution><p>Below is one way to write the code to output the string.</p>
 
     
     <program xml:id="VARS_p8_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -390,11 +358,7 @@ int main() {
 }
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to calculate your savings.
+    <solution><p>Below is one way to write the code to calculate your savings.</p>
 
     
     <program xml:id="VARS_p9_ac_a_editor" line-numbers="yes"><code><![CDATA[
@@ -433,11 +397,7 @@ using namespace std;
 // YOUR CODE HERE
         ]]></code>
     </program>
-    <solution>
-
-
-    
-                Below is one way to write the code to illustrate the dog's name change process.
+    <solution><p>Below is one way to write the code to illustrate the dog's name change process.</p>
 
     
     <program xml:id="VARS_p10_ac_a_editor" line-numbers="yes"><code><![CDATA[

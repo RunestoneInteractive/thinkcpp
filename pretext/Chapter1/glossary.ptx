@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter1_glossary">
   <title>Chapter Glossary</title>
-  <dl>
+  <p><dl>
     <li>
       <title>problem-solving:</title>
       <p>The process of formulating a problem, finding a solution, and
@@ -92,15 +92,15 @@
       <title>debugging:</title>
       <p>The process of finding and removing any of the three kinds of errors.</p>
     </li>
-  </dl>
+  </dl></p>
   <exercise label="chapter_one_glossary_1">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>natural language</premise>
@@ -125,9 +125,9 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>interpret</premise>
@@ -153,9 +153,9 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>portability</premise>
@@ -180,9 +180,9 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>problem-solving</premise>

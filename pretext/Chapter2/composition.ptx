@@ -92,41 +92,41 @@ int main() {
         <statement>
           <p>Change line 5 to pets = dogs + cats;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Assignment statements operate such that the evaluated expression on the right is assigned to the variable on the left.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Change line 5 to int pets = dogs + cats;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           pets has already been declared as an int.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Change line 5 to pets == dogs + cats;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The == operator checks if the left side EQUALS the right side.  It is not the correct operator here.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Change line 5 to int pets == dogs + cats;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           pets has already been declared as an int.  Also, the == operator is not the proper choice here.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>No change, the code runs fine as is.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Assignment statements assign the value on the right to the variable on the left.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -157,7 +157,6 @@ int main() {
   <exercise label="compos_4">
     <statement>
       <p>Finish the code below so that the velocity is calculated completely on a single line.  Hint: the current velocity results from 1) the initial velocity and 2) the acceleration over a window of time.  Use <c>v0</c> for initial velocity, <c>a</c> for acceleration, and <c>t</c> for time.</p>
-    </statement>
     <program xml:id="compos_4_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -174,12 +173,11 @@ int main() {
    cout << "Correct = 17";
 }
         ]]></code>
-    </program>
+    </program></statement>
   </exercise>
   <exercise label="compos_5">
     <statement>
       <p>Finish the code below so that the volume of a rectangular prism with length <c>l</c>, width <c>w</c>, and height <c>h</c> is calculated on a single line.</p>
-    </statement>
     <program xml:id="compos_5_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -196,6 +194,6 @@ int main() {
    cout << "Correct = 24";
 }
         ]]></code>
-    </program>
+    </program></statement>
   </exercise>
 </section>

@@ -35,6 +35,7 @@ int main() {
     variables are contained in larger boxes that indicate which function they belong to.</p>
   <p>For example, the state diagram for <c>printTwice</c> looks like this:</p>
   <figure>
+      <caption>Local variable stack diagram</caption>
       <image source="Chapter3/Images/3.9stackdiagram.png">
           <description><p>
               Two boxes. One labeled main that contains a variable named 'argument'
@@ -71,33 +72,33 @@ int main() {
         <statement>
           <p>1 local variable, 1 parameter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A parameter would be located within the parentheses next to the function's name.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>0 local variables, 1 parameter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A parameter would be located within the parentheses next to the function's name.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>2 local variables, 0 parameters</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2 local variables, 1 parameter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A parameter would be located within the parentheses next to the function's name.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -121,33 +122,33 @@ int main() {
         <statement>
           <p>1 local variable, 1 parameter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A local variable exists when a variable is declared within a function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>0 local variables, 1 parameter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2 local variables, 0 parameters</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A local variable exists when a variable is declared within a function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2 local variables, 1 parameter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A local variable exists when a variable is declared within a function.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -193,33 +194,33 @@ int main() {
         <statement>
           <p>1 call</p>
         </statement>
-        <feedback>
+        <feedback><p>
           hi( ) is called from multiple functions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>4 calls</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2 calls</p>
         </statement>
-        <feedback>
+        <feedback><p>
           hi( ) is called from multiple functions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3 calls</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Two calls from one function are indeed two seperate calls.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

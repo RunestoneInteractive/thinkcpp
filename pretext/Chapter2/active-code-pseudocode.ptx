@@ -3,9 +3,11 @@
   <title>Activecode Exercises</title>
   <p>Answer the following <term>Activecode</term> questions to assess what you have learned in this chapter.</p>
   <exercise label="VARS_a">
-    <caption>
-      Fix the code below so that it runs without errors.  Hint: you might need to change the names of some variables.
-    </caption>
+      <statement>
+          <p>
+              Fix the code below so that it runs without errors.  Hint: you might
+              need to change the names of some variables.
+          </p>
     <program interactive="activecode" line-numbers="yes" xml:id="VARS_a1q_ps_editor">
       <code><![CDATA[
 #include <iostream>
@@ -19,12 +21,8 @@ int main() {
     cout << false << " is short for false." << endl;
 }
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to fix the program.  true and false are keywords, so they cannot be used as variable names.
+    </program></statement>
+    <solution><p>Below is one way to fix the program.  true and false are keywords, so they cannot be used as variable names.</p>
 
     
     <program xml:id="VARS_a1a_ps_editor" line-numbers="yes"><code><![CDATA[
@@ -41,7 +39,12 @@ int main() {
 
             
 
-<exercise label="VARS_a1a_ps"><caption>Below is one way to fix the program.  <c>true</c> and <c>false</c> are keywords, so they cannot be used as variable names.</caption><program xml:id="VARS_a1a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="VARS_a1a_ps">
+        <statement>
+            <p>
+                Below is one way to fix the program.  <c>true</c> and <c>false</c> are keywords, so they cannot be used as variable names.
+            </p>
+            <program xml:id="VARS_a1a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -51,7 +54,7 @@ int main() {
     cout << t << " is short for true. ";
     cout << f << " is short for false." << endl;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="VARS_a2">
@@ -131,9 +134,9 @@ int main() {
     </TabNode>
   </exercise>
   <exercise label="VARS_a3">
-    <caption>
+      <statement><p>
       Fix the code below so that it prints <q>Cady scored 90% on the exam.</q>
-    </caption>
+      </p>
     <program interactive="activecode" line-numbers="yes" xml:id="VARS_a3q_ps_editor">
       <code><![CDATA[
 #include <iostream>
@@ -147,12 +150,8 @@ int main() {
     cout << "Cady scored " << Cady * 100 << "% on the exam.";
 }
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to fix the program.  We want to use doubles so that our result isn't rounded down to 0 through integer division.
+    </program></statement>
+    <solution><p>Below is one way to fix the program.  We want to use doubles so that our result isn't rounded down to 0 through integer division.</p>
 
     
     <program xml:id="VARS_a3a_ps_editor" line-numbers="yes"><code><![CDATA[
@@ -167,7 +166,11 @@ int main() {
 
             
 
-<exercise label="VARS_a3a_ps"><caption>Below is one way to fix the program.  We want to use doubles so that our result isn't rounded down to 0 through integer division.</caption><program xml:id="VARS_a3a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="VARS_a3a_ps">
+        <statement><p>
+            Below is one way to fix the program.  We want to use doubles so that our result isn't rounded down to 0 through integer division.
+        </p>
+        <program xml:id="VARS_a3a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -175,7 +178,7 @@ int main() {
     double Cady = (3 * 5) * 6 / 100.0;
     cout << "Cady scored " << Cady * 100 << "% on the exam.";
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="VARS_a4">
@@ -242,9 +245,9 @@ int main() {
     </TabNode>
   </exercise>
   <exercise label="VARS_a5">
-    <caption>
+    <statement><p>
       Fix the code below so that assigns <c>a</c> its correct value of <c>'a'</c>.  Hint: use character operations!
-    </caption>
+    </p>
     <program interactive="activecode" line-numbers="yes" xml:id="VARS_a5q_ps_editor">
       <code><![CDATA[
 #include <iostream>
@@ -261,12 +264,8 @@ int main() {
    cout << a;
 }
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to complete the program.  There are many creative ways that you could use the order of operations to come up with a complex expression that will bring you to 'a', here is one way.
+    </program></statement>
+    <solution><p>Below is one way to complete the program.  There are many creative ways that you could use the order of operations to come up with a complex expression that will bring you to 'a', here is one way.</p>
 
     
     <program xml:id="VARS_a5a_ps_editor" line-numbers="yes"><code><![CDATA[
@@ -282,7 +281,11 @@ int main() {
 
             
 
-<exercise label="VARS_a5a_ps"><caption>Below is one way to complete the program.  There are many creative ways that you could use the order of operations to come up with a complex expression that will bring you to <c>'a'</c>, here is one way.</caption><program xml:id="VARS_a5a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="VARS_a5a_ps">
+        <statement><p>
+            Below is one way to complete the program.  There are many creative ways that you could use the order of operations to come up with a complex expression that will bring you to <c>'a'</c>, here is one way.
+        </p>
+        <program xml:id="VARS_a5a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -291,7 +294,7 @@ int main() {
    a = a - (3 * (4 + 1) + 3);
    cout << a;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="VARS_a6">
@@ -352,21 +355,18 @@ int main() {
     </TabNode>
   </exercise>
   <exercise label="VARS_a7">
-    <caption>
-      Write code that prints <q>Eat</q>, <q>More</q>, and <q>Chicken</q> on 3 consecutive lines. Be sure to inclue any necessary headers.
-    </caption>
+    <statement><p>
+        Write code that prints <q>Eat</q>, <q>More</q>, and <q>Chicken</q> on 3
+        consecutive lines. Be sure to inclue any necessary headers.
+    </p>
     <program interactive="activecode" line-numbers="yes" xml:id="VARS_a7q_ps_editor">
       <code>
 int main() {
 
 }
         </code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to implement the solution.
+    </program></statement>
+    <solution><p>Below is one way to implement the solution.</p>
 
     
     <program xml:id="VARS_a7a_ps_editor" line-numbers="yes"><code><![CDATA[
@@ -382,7 +382,11 @@ int main() {
 
             
 
-<exercise label="VARS_a7a_ps"><caption>Below is one way to implement the solution.</caption><program xml:id="VARS_a7a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="VARS_a7a_ps">
+        <statement><p>
+            Below is one way to implement the solution.
+        </p>
+        <program xml:id="VARS_a7a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -391,7 +395,7 @@ int main() {
     cout << "More" << endl;
     cout << "Chicken" << endl;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="VARS_a8">
@@ -446,9 +450,9 @@ int main() {
     </TabNode>
   </exercise>
   <exercise label="VARS_a9">
-    <caption>
+    <statement><p>
       You have about three hours and fifteen minutes of homework to do today.  Rather than starting it right away, you choose to procrastinate by calculating how many seconds you'll be spending on your work.  Convert the time to seconds and store the result in <c>seconds</c>.  Be sure to inclue any necessary headers.
-    </caption>
+  </p>
     <program interactive="activecode" line-numbers="yes" xml:id="VARS_a9q_ps_editor">
       <code><![CDATA[
 int main() {
@@ -457,12 +461,8 @@ int main() {
     cout << "Your solution had seconds = " << seconds << endl;  cout << "The correct solution has seconds = 11700";
 }
         ]]></code>
-    </program>
-    <solution>
-
-
-    
-                Below is one way to implement the solution.
+    </program></statement>
+    <solution><p>Below is one way to implement the solution.</p>
 
     
     <program xml:id="VARS_a9a_ps_editor" line-numbers="yes"><code><![CDATA[
@@ -479,7 +479,11 @@ int main() {
 
             
 
-<exercise label="VARS_a9a_ps"><caption>Below is one way to implement the solution.</caption><program xml:id="VARS_a9a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
+    <exercise label="VARS_a9a_ps">
+        <statement><p>
+            Below is one way to implement the solution.
+        </p>
+        <program xml:id="VARS_a9a_ps_editor-1" interactive="activecode" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -489,7 +493,7 @@ int main() {
     int totalMinutes = minutes + 60 * hours;
     int seconds = totalMinutes * 60;
 }
-        ]]></code></program></exercise>
+        ]]></code></program></statement></exercise>
             </solution>
   </exercise>
   <exercise label="VARS_a10">

@@ -125,7 +125,7 @@ endl</c>?</p>
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="new_functions_mc_1_opt_a">
+        <statement>
           <p>You can name a function anything you want.</p>
         </statement>
         <feedback><p>
@@ -133,7 +133,7 @@ endl</c>?</p>
         </p></feedback>
       </choice>
       <choice>
-        <statement id="new_functions_mc_1_opt_b">
+        <statement>
           <p>You can have a function with several parameters or a function with none.</p>
         </statement>
         <feedback><p>
@@ -141,7 +141,7 @@ endl</c>?</p>
         </p></feedback>
       </choice>
       <choice>
-        <statement id="new_functions_mc_1_opt_c">
+        <statement>
           <p>You can call a function inside of another function.</p>
         </statement>
         <feedback><p>
@@ -149,7 +149,7 @@ endl</c>?</p>
         </p></feedback>
       </choice>
       <choice>
-        <statement id="new_functions_mc_1_opt_d">
+        <statement>
           <p>You can write multiple statements on one line of a function.</p>
         </statement>
         <feedback><p>
@@ -219,7 +219,7 @@ endl</c>?</p>
     </areas>
   </exercise>
   <exercise label="new_functions_pp_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

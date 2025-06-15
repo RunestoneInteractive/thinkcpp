@@ -83,13 +83,13 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="fuwresults_2_opt_a">
+        <statement>
           <p>Yes</p>
         </statement>
         <feedback><p>Can you print the result of a void function?</p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="fuwresults_2_opt_b">
+        <statement>
           <p>No</p>
         </statement>
         <feedback><p>Correct! You can't print the result of a void function</p>

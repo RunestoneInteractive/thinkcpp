@@ -77,34 +77,34 @@ int main() {
         <statement>
           <p>Hey!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Hi!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that the program would only enter the "else" if x was not equal to 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Hello!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that the program would only enter the "else" if x was not equal to 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Nothing will print.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Only one of the condtionals will execute, but something will print, regardless of which
             one it is.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -135,34 +135,34 @@ int main() {
         <statement>
           <p>Hey!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that the program would only enter the first "if" if x was equal to 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Hi!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that the program would only enter the nested "if" if x was greater than 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Hello!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Nothing will print.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Only one of the condtionals will execute, but something will print, regardless of which
             one it is.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -195,42 +195,42 @@ int main() {
         <statement>
           <p>Back Left!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that the &gt; opearator is not inclusive.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Back Right!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           z &gt; m is true, and m &gt; m is false, so a student with these initials would be
             seated in the back right.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Front Left!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           z &gt; m is true because z comes after m. Also, the &gt; opearator is not inclusive.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Front Right!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           z &gt; m is true because z comes after m.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Error!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Character comparisons are legal, and useful in this case!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

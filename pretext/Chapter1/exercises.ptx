@@ -1,45 +1,47 @@
 <?xml version="1.0"?>
 <exercises xml:id="chapter1_multiple-choice-exercises">
-  <title>Chapter Exercises</title>
-  <p>Answer the following <term>Multiple Choice</term> questions to assess what you have learned in
-    this chapter.</p>
+    <title>Chapter Exercises</title>
+    <introduction><p>
+        Answer the following <term>Multiple Choice</term> questions to assess what you
+        have learned in this chapter.
+    </p></introduction>
   <exercise label="programming_1">
     <statement>
       <p>What is a <term>program</term> in computer science?</p>
     </statement>
     <choices>
       <choice>
-        <statement id="programming_1_opt_a">
+        <statement>
           <p>a planned series of events, a schedule</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is a definition of a program, just not in the computer science sense.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_1_opt_b">
+        <statement>
           <p>a translated language that is easy for the computer to understand</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is actually called a low-level language!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_1_opt_c">
+        <statement>
           <p>a sequence of instructions that specifies how to perform a computation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You can write these instructions to accomplish pretty much anything
           you want!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_1_opt_d">
+        <statement>
           <p>a general process for solving a category of problems</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is actually called an algorithm!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -49,42 +51,42 @@
     </statement>
     <choices>
       <choice>
-        <statement id="programming_2_opt_a">
+        <statement>
           <p>It loads the program from its saved location and makes the computer execute it.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the function of an executor. If you use a compiler, you must also
           use an executer to run your code.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_2_opt_b">
+        <statement>
           <p>It reads a high-level program and translates everything at once, before executing
             any of the commands.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If there are any errors in your code, the program will not compile. It is an
           all-or-nothing process.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_2_opt_c">
+        <statement>
           <p>It translates the program from the low-level language you coded in to a high-level
             language that the computer can understand.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You, the programmer, write your program in a HIGH-level language. It is then
           translated to a LOW-level language that the computer can understand.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_2_opt_d">
+        <statement>
           <p>It translates the program line-by-line, alternately reading lines and carrying
             out commands.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the function of an interpreter.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -94,42 +96,42 @@
     </statement>
     <choices>
       <choice>
-        <statement id="programming_3_opt_a">
+        <statement>
           <p>Source code can contain simple things like variables and values. Object code
             can contain more complex objects like data structures.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Contrary to it's name, object code has nothing to do with creating objects!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_3_opt_b">
+        <statement>
           <p>Object code can contain simple things like variables and values. Source code
             can contain more complex objects like data structures.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Source code and object code both contain variables, values, and data structures.
           They're just written in a different way.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_3_opt_c">
+        <statement>
           <p>Object code is the code that your program is written in. Source code is the
             translated version of this code that the computer can understand.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You seem to have things a bit mixed up!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_3_opt_d">
+        <statement>
           <p>Source code is the code that your program is written in. Object code is the
             translated version of this code that the computer can understand.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The computer can either use an interpreter or a compiler to make the
           translation.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -140,48 +142,48 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="programming_4_opt_a">
+        <statement>
           <p>math operations</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is how your program can carry out complex calculations!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_4_opt_b">
+        <statement>
           <p>debugging</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Debugging is the process of finding and fixing errors AFTER you
           have written your program. It's not one of the basic functions
           of a programming language.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_4_opt_c">
+        <statement>
           <p>input/output from the terminal and saved files</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This allows your program to communicate with data either from the user,
           or from the user's saved files.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_4_opt_d">
+        <statement>
           <p>testing for conditions</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is why you would consider using conditional statements
           in your program.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_4_opt_e">
+        <statement>
           <p>repetition</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is why you would consider using a loop in your program.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -199,38 +201,38 @@
     </statement>
     <choices>
       <choice>
-        <statement id="programming_5_opt_a">
+        <statement>
           <p>syntax error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is nothing wrong with the structure of this program.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_5_opt_b">
+        <statement>
           <p>run-time error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are no errors that will surface at runtime.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_5_opt_c">
+        <statement>
           <p>semantic error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the correct formula for calculating the volume of a
           cylinder. This program will go on to calculate the wrong volume
           because it doesn't know any better.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_5_opt_d">
+        <statement>
           <p>no error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the area formula.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -248,35 +250,35 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="programming_6_opt_a">
+        <statement>
           <p>syntax error</p>
         </statement>
-        <feedback> You are missing a semicolon on the second line, and you are using the variable <c>r</c>
-          without defining it on the third line. your program will not compile. </feedback>
+        <feedback><p> You are missing a semicolon on the second line, and you are using the variable <c>r</c>
+          without defining it on the third line. your program will not compile.</p></feedback>
       </choice>
       <choice>
-        <statement id="programming_6_opt_b">
+        <statement>
           <p>run-time error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are no errors that will surface at runtime.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_6_opt_c">
+        <statement>
           <p>semantic error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Everything looks good with your volume calculations.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_6_opt_d">
+        <statement>
           <p>no error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the structure of the code.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -286,44 +288,44 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="programming_7_opt_a">
+        <statement>
           <p>formal language</p>
         </statement>
-        <feedback>
+        <feedback><p>
           all programming languages are formal languages!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_7_opt_b">
+        <statement>
           <p>natural language</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ certainly did not evolve naturally!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_7_opt_c">
+        <statement>
           <p>foreign language</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ might seem foreign to you, but it's used globally!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_7_opt_d">
+        <statement>
           <p>high-level language.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ must be translated before the computer can understand!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_7_opt_e">
+        <statement>
           <p>low-level language.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The computer doesn't understand C++ until it gets translated!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -333,40 +335,40 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="programming_8_opt_a">
+        <statement>
           <p>The compiler ignores anything after <c>//</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is called a comment, which you can use to describe your code to
           outsiders who might not understand.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_8_opt_b">
+        <statement>
           <p>There is no limit the number of statements you can put in <c>main</c>.</p>
         </statement>
-        <feedback> You can include as many statements as you want to, but it is good practice to
-          keep the <c>main</c> as short as possible. </feedback>
+        <feedback><p>You can include as many statements as you want to, but it is good practice to
+          keep the <c>main</c> as short as possible.</p></feedback>
       </choice>
       <choice>
-        <statement id="programming_8_opt_c">
+        <statement>
           <p>Program execution begins at the first line of code.</p>
         </statement>
-        <feedback> Program execution actually begins with <c>main</c> and then happens in order, from
-          top to bottom. </feedback>
+        <feedback><p>Program execution actually begins with <c>main</c> and then happens in order, from
+          top to bottom.</p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_8_opt_d">
+        <statement>
           <p><c>main</c> is enclosed by squiggly brackets <c>{ }</c>.</p>
         </statement>
-        <feedback> The <c>main</c> program and <em>all</em> functions in C++ are enclosed by squiggly
-          brackets. </feedback>
+        <feedback><p>The <c>main</c> program and <em>all</em> functions in C++ are enclosed by squiggly
+          brackets.</p></feedback>
       </choice>
       <choice>
-        <statement id="programming_8_opt_e">
+        <statement>
           <p>The end of each statement is marked with a colon <c>:</c>.</p>
         </statement>
-        <feedback> Actually, each statement is terminated with a <em>semi</em> colon <c>;</c>. </feedback>
+        <feedback><p>Actually, each statement is terminated with a <em>semi</em> colon <c>;</c>.</p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -376,47 +378,47 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="programming_9_opt_a">
+        <statement>
           <p>Low-level languages are only used for a few special applications.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Low-level languages take more time to write, and they are much harder to
           understand, so they aren't used often.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_9_opt_b">
+        <statement>
           <p>Programs written in low-level languages must be translated before they can be run.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Low level languages are already written in a language that your computer
           can understand, so they don't need to be translated!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_9_opt_c">
+        <statement>
           <p>It's easier to program in a high-level language than a low-level language.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           High-level languages take less time to write, they are much easier to
           understand, and they are more likely to be correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_9_opt_d">
+        <statement>
           <p>Computers can only execute programs written in low-level languages.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is why most programs need to be translated before they can be run!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_9_opt_e">
+        <statement>
           <p>High-level languages can run on many different kinds of computers without an issue.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is called portability.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -426,39 +428,39 @@
     </statement>
     <choices>
       <choice>
-        <statement id="programming_10_opt_a">
+        <statement>
           <p>You should walk through your program line by line to make sure it's
             that your code doing what it is supposed to.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is how you would detect a semantic error. Parsing doesn't involve
           semantic errors.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="programming_10_opt_b">
+        <statement>
           <p>You should search through your program for syntax errors.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Parsing involves looking at the syntactic structure of your program.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_10_opt_c">
+        <statement>
           <p>You should translate your program to object code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This would be quite a chore! Luckily you have an interpreter or a compiler
           to do that for you!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="programming_10_opt_d">
+        <statement>
           <p>You should run your program and check for run-time errors.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Parsing doesn't involve run-time errors.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

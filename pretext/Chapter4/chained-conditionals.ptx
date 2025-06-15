@@ -70,34 +70,34 @@ int main() {
         <statement>
           <p>Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Make note of the use of "if" instead of "else if" or "else".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Make note of the use of "if" instead of "else if" or "else".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One! Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Make note of the use of "if" instead of "else if" or "else".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>One! Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           When we have "if" statments, but no "else if" or "else", every condition will be
             checked.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -126,36 +126,36 @@ int main() {
         <statement>
           <p>Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that only one action will be completed in a chain of "ifs", "else ifs", and
             "ifs"
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>One!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The chain of "ifs", "else ifs", and "elses" results in only one action being completed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One! Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
             being completed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One! Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
             being completed.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -184,35 +184,35 @@ int main() {
         <statement>
           <p>Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Make note of the use of "if" instead of "else if" or "else".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           When we have "if" statments, but no "else if" or "else", every condition will be
             checked.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One! Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The first statement will not be executed because x &gt; 8 is not true. Also, make note
             of the use of "if" instead of "else if" or "else".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One! Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The first statement will not be executed because x &gt; 8 is not true.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -241,36 +241,36 @@ int main() {
         <statement>
           <p>Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Only one action will is completed in a chain of "ifs", "else ifs", and "ifs";
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that only one action will be completed in a chain of "ifs", "else ifs", and
             "ifs".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One! Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
             "elses" will result in only one action being completed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One! Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           hge first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
             "elses" will result in only one action being completed.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

@@ -23,9 +23,9 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
     <statement>
       <p>Match the conditional statement to the correct boolean, given x = 2.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>x * 2 &gt; 4</premise>
@@ -41,9 +41,9 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
     <statement>
       <p>Match the statement to the word that describes it best.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>bool fred;</premise>
@@ -81,42 +81,42 @@ if (plusFlag) {
         <statement>
           <p>n was even when I checked it x was positive when I checked it</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Great!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>x was positive when I checked it n was even when I checked it</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Make sure you follow the correct order of execution. Also, a space is not automatically
             added.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>x was positive when I checked it</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take another look at the result from the modulus operator.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>n was even when I checked itx was positive when I checked it</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Both flags are made, But A space is after it.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>x was positive when I checked itn was even when I checked it</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Make sure you follow the correct order of execution.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -152,42 +152,42 @@ if (low_battery) {
     </statement>
     <choices>
       <choice>
-        <statement id="bool_var_4_opt_a">
+        <statement>
           <p>nothing will print</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The value of <c>low_battery</c> is true so we enter the first <c>if</c> block.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="bool_var_4_opt_b">
+        <statement>
           <p>
             <q>Charging your phone</q>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           correct! <c>low_battery</c> stays true and we set <c>power_outage</c> to false.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="bool_var_4_opt_c">
+        <statement>
           <p>
             <q>Battery is charged</q>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>low_battery</c> is true so we don't reach this <c>else</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="bool_var_4_opt_d">
+        <statement>
           <p>
             <q>There is no power</q>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           We change the value of <c>power_outage</c> to false before hand.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

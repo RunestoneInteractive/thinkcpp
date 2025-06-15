@@ -51,9 +51,9 @@ int main() {
         <p>Match the expression to its correct output. Don't forget to consider integer
           division!</p>
       </statement>
-      <feedback>
+      <feedback><p>
         Try again!
-      </feedback>
+      </p></feedback>
       <matches>
         <match order="1">
           <premise>(6*4)+1</premise>
@@ -97,9 +97,9 @@ int main() {
           <p>Click on ALL PARTS of the expression that get evaluated first. For example, if "1 + 1"
             gets evaluated first, click on "1", "+", and "1".</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
         <areas>
           <cline><area correct="no">1</area> <area correct="no"> + </area> <area correct="no"> 2</area> <area correct="no"> *</area> ( <area correct="yes">10</area> <area correct="yes">-</area> <area correct="yes">2</area> ) <area correct="no">/</area> <area correct="no">4</area></cline>
         </areas>
@@ -109,9 +109,9 @@ int main() {
           <p>Click on ALL PARTS of the expression that get evaluated first. For example, if "1 + 1"
             gets evaluated first, click on "1", "+", and "1".</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
         <areas>
           <cline><area correct="no">1</area> <area correct="no"> + </area> <area correct="yes">2</area> <area correct="yes"> * </area> <area correct="yes">8</area> <area correct="no"> / </area> <area correct="no">4</area></cline>
         </areas>
@@ -121,9 +121,9 @@ int main() {
           <p>Click on ALL PARTS of the expression that get evaluated first. For example, if "1 + 1"
             gets evaluated first, click on "1", "+", and "1".</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
         <areas>
           <cline><area correct="no">1</area> <area correct="no"> + </area> <area correct="yes">16</area> <area correct="yes"> / </area> <area correct="yes">4</area></cline>
         </areas>

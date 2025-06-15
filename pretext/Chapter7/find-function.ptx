@@ -64,9 +64,9 @@ int main() {
     <statement>
       <p>Click on the name of each variable that had been initialized with the value of 0.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Remember that the index of a string begins at 0, not 1.
-    </feedback>
+    </p></feedback>
     <areas>
 <cline><area correct="no">def main() {:</area></cline>
 <cline><area correct="no">string fruit = "apple";</area></cline>

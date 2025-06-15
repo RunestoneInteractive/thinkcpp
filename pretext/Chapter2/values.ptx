@@ -37,9 +37,9 @@ cout &lt;&lt; '}' &lt;&lt; endl;
     <statement>
       <p>Click on all integer VALUES.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="no">int main() {</area></cline>
       <cline>    <area correct="no">int x</area> = <area correct="yes">7</area>;</cline>
@@ -58,9 +58,9 @@ cout &lt;&lt; '}' &lt;&lt; endl;
     <statement>
       <p>Click on all string VALUES.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <areas>
       <cline>int main() {</cline>
       <cline>    char <area correct="no">init1</area> = <area correct="no">'<c>R</c>'</area>;</cline>
@@ -77,20 +77,20 @@ cout &lt;&lt; '}' &lt;&lt; endl;
     <statement>
       <p>Match the value to its data type by dragging items on the left to the boxes on the right.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
-        <premise><c>1</c></premise>
+        <premise><p><c>1</c></p></premise>
         <response>integer</response>
       </match>
       <match order="2">
-        <premise><c>"1"</c></premise>
+        <premise><p><c>"1"</c></p></premise>
         <response>string</response>
       </match>
       <match order="3">
-        <premise><c>'1'</c></premise>
+        <premise><p><c>'1'</c></p></premise>
         <response>character</response>
       </match>
     </matches>

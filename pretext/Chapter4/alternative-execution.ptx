@@ -91,33 +91,33 @@ int main() {
         <statement>
           <p>It is cold!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           That statement would print if degrees was less than 50.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>It is warm!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Nothing prints.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           One of the statements is satisfied, so something does print.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Error message.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is nothing in the code below that would generate an error.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

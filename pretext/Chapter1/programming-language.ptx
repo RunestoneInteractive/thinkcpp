@@ -98,45 +98,45 @@
         <statement>
           <p>Almost all programs are written in high-level languages.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           High-level languages are efficient and easy to understand, an obvious choice for
           writing a program!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Programs written in a high-level language must be translated before they can be run.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           All programs in high-level language must be translated to a low-level language before
           the computer can execute them!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>It's easier to program in a low-level language than a high-level language.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Actually, its much the other way around!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Computers can only execute programs written in high-level languages.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Computers actually can't understand high-level languages as they are written.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>High-level programs can only run on one kind of computer (you'd have to rewrite the
             program if you wanted to use a different machine).</p>
         </statement>
-        <feedback>
+        <feedback><p>
           High-level programs are portable, meaning they can run on different kinds of computers
           with little to no modification.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -149,33 +149,33 @@
         <statement>
           <p>To translate the program line by line.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the role of an interpreter!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>To copy the program from disk to memory and make the computer run the program.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The role of an executor is to carry out, or execute, the program!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>To translate the program all at once.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the role of a compiler!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>To give an error message if something is preventing the code from being translated.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This happens automatically when we try to compile/interpret our program.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -183,9 +183,9 @@
     <statement>
       <p>Match each term to an example of it by dragging the term into the appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>source code</premise>

@@ -76,18 +76,18 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Both match up to the g but Dog is shorter than Doghouse so it comes first in the
             dictionary.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Strings are compared character by character.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -106,26 +106,26 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           d is greater than D
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, upper case is less than lower case according to the ordinal values of the
             characters.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>They are the same word</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ is case sensitive meaning that upper case and lower case characters are different.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -144,17 +144,17 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           d is greater than D.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The length does not matter. Lower case d is greater than upper case D.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -173,17 +173,17 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           They are equal so one can't be greater than the other.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! because they are equal. They are equal because all characters match.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

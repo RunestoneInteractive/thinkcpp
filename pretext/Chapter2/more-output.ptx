@@ -137,39 +137,39 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is an "endl" statement, implying that a new line is created.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           "endl" creates one new line. The first line will say 7, while the second will print
             777.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In C++, you must make sure to say "endl" every time you'd like to create a new line.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In C++, you must make sure to say "endl" every time you'd like to create a new line.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="more_output_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -222,7 +222,7 @@ int main() {
     </blocks>
   </exercise>
   <exercise label="more_output_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>

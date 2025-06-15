@@ -64,33 +64,33 @@ int main() {
         <statement>
           <p>counter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>loop variable</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Both a and b</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>None of the above</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -120,36 +120,36 @@ int main() {
         <statement>
           <p><![CDATA[Change the first output statement to say cout << 3 * x << endl;]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           The addition of the endl will print the multiples of three on separate lines.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><![CDATA[Change the first output statement to say cout << 3 * x << \n;]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           A newline character must be used in conjunction with a string. In this case, we are
             outputting an integer. To use a newline character in this scenario you must use quotes
             around it. (ex. "\n")
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><![CDATA[Change the second output statement to say cout << endl << endl;]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           This would simply print out two new lines after all of the multiples have already
             printed on one line.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>This code already prints each multiple on its own line.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This code prints all multiples out on one line.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

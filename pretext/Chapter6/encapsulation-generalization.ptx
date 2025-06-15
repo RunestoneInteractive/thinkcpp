@@ -112,33 +112,33 @@ int main() {
         <statement>
           <p>Replacing integers with parameters.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This may be a possible way to generalize, but not the purpose.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Using a parameter that exists in several different functions.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the purpose of generalization.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Taking a very specific task and making it more applicable to other situations.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This makes your code more versatile.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Creating two functions with the same purpose but different names.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the purpose of generalization.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

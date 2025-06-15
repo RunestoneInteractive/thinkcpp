@@ -76,25 +76,25 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Don't forget that computer scientists do not start counting at 1!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, this would access the letter "b".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This would access the letter "k".
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -128,25 +128,25 @@ int main() {
         <statement>
           <p>jello</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Carefully check which string(s) we are indexing into.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>lello</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! We copy the 'l' from position 3 of "hello" to position 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>heljo</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Consider which string(s) we are indexing into.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -154,9 +154,9 @@ int main() {
     <statement>
       <p>Click on each spot where a character in a string is accessed.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Remember, square brackets [] are used to access a character in a string.
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="no">def main() {</area></cline>
       <cline><area correct="no">string fruit = "apple";</area></cline>

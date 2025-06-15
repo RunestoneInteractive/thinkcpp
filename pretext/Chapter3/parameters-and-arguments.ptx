@@ -143,9 +143,9 @@ int main() {
     <statement>
       <p>Match the function declaration to an example of its function call.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>int timesTwo(int x, int y);</premise>

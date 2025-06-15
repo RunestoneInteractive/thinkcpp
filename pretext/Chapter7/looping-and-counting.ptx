@@ -52,25 +52,25 @@ while (x < 0) {
         <statement>
           <p>5 4 3 2 1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Notice that x is negative.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>-5 -4 -3 -2 -1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Notice that the value of x is incremented before it is printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>-4 -3 -2 -1 0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The value of x is incremented before it is printed so the first value printed is -4.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -191,36 +191,36 @@ return 0;
     </statement>
     <choices>
       <choice>
-        <statement id="looping_counting_4_opt_a">
+        <statement>
           <p>The code dosen't reach <c>return 0</c> because we index out of bounds in <c>word_2</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We set <c>end_1</c> to be the smaller of the two lengths so we don't index out of bounds.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="looping_counting_4_opt_b">
+        <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Not all the letters after index 4 differ in the two words.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="looping_counting_4_opt_c">
+        <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We decrement the value of counter when we don't have matching letters.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="looping_counting_4_opt_d">
+        <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! we have 6 matching letters and 2 differing letters upto the length of <c>word_2</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

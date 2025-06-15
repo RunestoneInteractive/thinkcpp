@@ -36,10 +36,10 @@ int main() {
     <statement>
       <p>Click on each spot that would cause a runtime error.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Remember, an index that is negative or greater than the length of the string - 1 will give
         a run-time error.
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="no">int main() {</area></cline>
       <cline>    <area correct="no">string fruit = "apple";</area></cline>

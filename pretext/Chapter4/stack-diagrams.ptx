@@ -37,35 +37,35 @@
         <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If nLines could reach its base case, it cannot be done in 3 function calls.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If nLines could reach its base case, it cannot be done in 4 function calls.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>5</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If nLines could reach its base case, it could be done in 5 function calls, but does it
             ever reach the base case?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>infinite</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The nLines function never reaches its base case, so the stack diagram would be
             infinitely long.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

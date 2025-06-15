@@ -121,38 +121,38 @@ int main() {
         <statement>
           <p>A named sequence/group of statements that perform a particular task.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, a function is a named sequence of statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Any sequence of statements.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           While functions contain sequences of statements, not all sequences of statements are
             considered functions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>A mathematical expression that calculates a value.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           While some functions do calculate values, the python idea of a function is slightly
             different from the mathematical idea of a function in that not all functions calculate
             values. Consider, for example, the turtle functions in this section. They made the
             turtle draw a specific shape, rather than calculating a value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>A statement of the form x = 5 + 4.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This statement is called an assignment statement. It assigns the value on the right
             (9), to the name on the left (x).
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -209,33 +209,33 @@ int main() {
         <statement>
           <p>Once you write and debug a function, you can reuse it.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The reusability of functions is very useful.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Makes your program easier to read and debug.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           By abstracting blocks of code, functions make your code easier to read and understand.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Functions facilitate both recursion and iteration.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Recursive functions and iterative functions are useful.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>None of the above.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           All of the choices above are reasons for why functions are useful.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

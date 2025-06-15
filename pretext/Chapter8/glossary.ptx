@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter8_glossary">
   <title>Glossary</title>
-  <dl>
+  <p><dl>
     <li>
       <title>structure:</title>
       <p>A collection of data grouped together and treated as a single object.</p>
@@ -27,7 +27,7 @@
         to the argument variable. Changes to the parameter also affect the
         argument variable.</p>
     </li>
-  </dl>
+  </dl></p>
   <exercise label="chapter_eight_glossary">
     <statement>
       <p>Match the definition to the term.</p>

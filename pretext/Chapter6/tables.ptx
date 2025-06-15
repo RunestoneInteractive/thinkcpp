@@ -233,38 +233,38 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="tables_4_opt_a">
+        <statement>
           <p>Change <c>pow(x,2)</c> to <c>pow(3,x)</c> and change <c>x = x + 1</c> to <c>x = x + 2</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check the order of the <c>pow</c> function!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="tables_4_opt_b">
+        <statement>
           <p>Change <c>pow(x,2)</c> to <c>pow(x,3)</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This will print out the first ten perfect cubes.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="tables_4_opt_c">
+        <statement>
           <p>Change <c>pow(x,2)</c> to <c>pow(x,3)</c> and change <c>x = x + 1</c> to <c>x = x + 2</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Changing both the <c>pow</c> function and the increment in this way gives us the right
             answer.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="tables_4_opt_d">
+        <statement>
           <p>Change <c>x &lt; 11</c> to <c>x &lt; 6</c> and change <c>pow(x,2)</c> to <c>pow(x,3)</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This will print out the first five perfect cubes, but not the first five odd perfect
             cubes.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

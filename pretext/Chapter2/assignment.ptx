@@ -48,7 +48,6 @@ minute = 59;         // set minute to 59
       <p>Run the code sample below by using the <b>Next</b> button to advance line by line. As you do so,
       watch the area to the right to examine the <q>state of mind</q> of the computer as it runs the
       code.</p>
-    </statement>
     <program interactive="codelens" xml:id="state_of_mind_ed">
   int main() {
     char firstLetter;
@@ -58,7 +57,7 @@ minute = 59;         // set minute to 59
     int minute;
     minute = 59;         // set minute to 59
   }
-    </program>
+    </program></statement>
   </activity>
   <warning>
     <p>The variable type that you declare must match the type of the value
@@ -110,39 +109,39 @@ int main() {
         <statement>
           <p>Change the type of variable q from int to string.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, but take a look at variable p.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Change the type of both variables (p and q) from int to string.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Both variables are a character surrounded by double quotes, so they should be type
             string.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Change the type of variable p from int to char.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, but take a look at variable q.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Nothing needs to change! The code will work just fine!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           No! There will be a compile error.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="assignment_3"
-           numbered="yes"
+           number="yes"
            adaptive="yes"
            indentation="hide">
     <statement>

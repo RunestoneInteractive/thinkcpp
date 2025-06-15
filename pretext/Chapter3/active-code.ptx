@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <exercises xml:id="chapter3_activecode-exercises">
-  <title>Activecode Exercises</title>
-  <p>Answer the following <term>Activecode</term> questions to assess what you have learned in this
-    chapter.</p>
+    <title>Activecode Exercises</title>
+    <introduction><p>
+        Answer the following <term>Activecode</term> questions to assess what you
+        have learned in this chapter.
+    </p></introduction>
   <exercise label="functions_a1">
     <statement>
       <p>Fix the errors in the code below so that it prints the area of a circle with radius
@@ -72,7 +74,7 @@ int main() {
       <p>Fix the code below so that it prints <q>2 elephants</q>. Use the lines to construct the
         code, then go back to complete the Activecode.</p>
       <activity label="functions_a2_ps"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="show"
                 exercise-interactive="parson">
@@ -198,7 +200,7 @@ int main() {
           natural</em> log of <c>a</c> and prints the difference. You will need to use cmath
         functions. Use the lines to construct the code, then go back to complete the Activecode.</p>
       <activity label="functions_a4_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -307,7 +309,7 @@ cout << "Testing with a = 2.4, b = 6.8..." << endl; cout << "    Your solution h
         quotient of the <term>integer division</term> of the first number divided by the second. Use
         the lines to construct the code, then go back to complete the Activecode.</p>
       <activity label="functions_a6_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -429,7 +431,7 @@ int main() {
         calculates and prints the volume of a the rectangular prism. Use the lines to construct the
         code, then go back to complete the Activecode.</p>
       <activity label="functions_a8_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -541,7 +543,7 @@ int main() {
         and prints the volume of a sphere with that radius. Use 3.14 for <c>pi</c>. Use the lines to
         construct the code, then go back to complete the Activecode.</p>
       <activity label="functions_a10_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">

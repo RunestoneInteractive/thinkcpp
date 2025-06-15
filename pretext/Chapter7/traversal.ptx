@@ -139,25 +139,25 @@ while (i < s.length()) {
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           i goes through the odd numbers starting at 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, i goes through the odd numbers starting at 1. o is at position 1 and 8.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are 2 o characters but idx does not take on the correct index values for both.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -182,9 +182,9 @@ while (index < truth.length()) {
         <statement>
           <p>e e n r 1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! the values of index are 0 0 1 3 6. After this while loop ends.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>

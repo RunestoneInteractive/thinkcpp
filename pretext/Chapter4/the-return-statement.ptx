@@ -69,43 +69,43 @@ int main() {
         <statement>
           <p>One! Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the first conditional statement more closely.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           8 is not greater than 8, so it doesn't meet the first condition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           All of the following are "if" statements, with no return. There are no "else"
             statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           All of the following are "if" statements, with no return. There are no "else"
             statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the first conditional statement more closely.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -137,41 +137,41 @@ int main() {
         <statement>
           <p>One! Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again! 8 is not greater than 8, so the first condition will not be met.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Two! Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again! Remember what "return 0" is for!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Three!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again! 8 is greater than 6!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Two!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>One!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the first conditional statement more closely.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

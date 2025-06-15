@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter6_glossary">
   <title>Glossary</title>
-  <dl>
+  <p><dl>
     <li>
       <title>loop:</title>
       <p>A statement that executes repeatedly while a condition is true or
@@ -50,15 +50,15 @@
         style of development based on developing code to do simple, specific
         things, and then encapsulating and generalizing.</p>
     </li>
-  </dl>
+  </dl></p>
   <exercise label="chapter_six_glossary_one">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>loop</premise>
@@ -90,9 +90,9 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>encapsulate</premise>

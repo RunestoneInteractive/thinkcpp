@@ -38,33 +38,33 @@ cout << fav_food << endl;
         <statement>
           <p>icd cream</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that indexing begins at 0, not 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>icedcream</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Index 3 was a space and now it is "d".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>ice cream</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The character at index 3 should be changed to "d".
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>iced</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The character at index 3 should be changed to "d", and the rest stays the same.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -82,34 +82,34 @@ string message = "You're a lizard Harry";
         <statement>
           <p>message[9] = "w";</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since "l" is at index 9, replacing it with "w" fixes the message.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>message[10] = "w";</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember indexing starts at 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>"w" = message[9];</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In order to change a letter in a string, the ``[]`` operator must be on the left of the
             assignment.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>message[8] = "w";</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember indexing starts at 0.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

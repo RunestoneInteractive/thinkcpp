@@ -101,7 +101,7 @@ REQUIRE(convertToBinary(31) == 11111);
     </program></statement>
       <hint>
         <activity label="cp_5_AC_2q_pp"
-                  numbered="yes"
+                  number="yes"
                   adaptive="yes"
                   indentation="hide"
                   exercise-interactive="parson">
@@ -242,7 +242,7 @@ TEST_CASE("birthSeason function: winter") {
       </program></statement>
       <hint>
         <activity label="cp_5_AC_4q_pp"
-                  numbered="yes"
+                  number="yes"
                   adaptive="yes"
                   indentation="hide"
                   exercise-interactive="parson">
@@ -529,7 +529,7 @@ TEST_CASE("isPoisonous function: false cases") {
     </program></statement>
       <hint>
         <activity label="cp_5_AC_8q_pp"
-                  numbered="yes"
+                  number="yes"
                   adaptive="yes"
                   indentation="hide"
                   exercise-interactive="parson">
@@ -665,7 +665,7 @@ TEST_CASE("digitSum function") {
       </program></statement>
       <hint>
         <activity label="cp_5_AC_10q_pp"
-                  numbered="yes"
+                  number="yes"
                   adaptive="yes"
                   indentation="hide"
                   exercise-interactive="parson">

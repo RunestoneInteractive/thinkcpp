@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter2_glossary">
   <title>Glossary</title>
-  <dl>
+  <p><dl>
     <li>
       <title>variable:</title>
       <p>A named storage location for values. All variables have a type,
@@ -61,7 +61,7 @@
         compound statements and expressions in order to represent complex
         computations concisely.</p>
     </li>
-  </dl>
+  </dl></p>
   <exercise label="chapter_two_glossary_1">
     <statement>
       <p>Match the terms with their definitions.</p>

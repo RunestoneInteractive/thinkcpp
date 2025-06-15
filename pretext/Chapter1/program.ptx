@@ -9,7 +9,7 @@
   <p>The instructions (or commands, or statements) look different in
     different programming languages, but there are a few basic functions
     that appear in just about every language:</p>
-  <dl>
+  <p><dl>
     <li>
       <title>input:</title>
       <p>Get data from the keyboard, or a file, or some other device.</p>
@@ -32,7 +32,7 @@
       <title>repetition:</title>
       <p>Perform some action repeatedly, usually with some variation.</p>
     </li>
-  </dl>
+  </dl></p>
   <p>Believe it or not, that's pretty much all there is to it. Every program
     you've ever used, no matter how complicated, is made up of functions
     that look more or less like these. Thus, one way to describe programming
@@ -57,9 +57,9 @@
     <statement>
       <p>Match each term to an example of it.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>input</premise>

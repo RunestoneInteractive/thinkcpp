@@ -103,45 +103,45 @@ hello.cpp:1: oistream.h: No such file or directory
         <statement>
           <p>The main marks the spot in the program where execution begins.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The main indicates where the program begins executing!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>There is a limit the number of statements you can put in the main because they occupy
             system memory.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no limit to the number of statements you can put in the main, but it is good
             practice to keep it as short as possible.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Inside the main, program execution happens in order from top to bottom.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           When the program runs, it starts by executing the first statement in main, and it
             continues until the last.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The main program is enclosed by parentheses.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The main program and all functions in C++ are enclosed by squiggly brackets ( { and }
             ).
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The end of each statement is marked with a semicolon ( ; ).</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Forgetting a semicolon will cause a compile error!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

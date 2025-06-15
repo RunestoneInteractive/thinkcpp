@@ -1,8 +1,10 @@
 <?xml version="1.0"?>
 <exercises xml:id="chapter2_multiple-choice-exercises">
-  <title>Multiple Choice Exercises</title>
-  <p>Answer the following <term>Multiple Choice</term> questions to assess what you have learned in
-    this chapter.</p>
+    <title>Multiple Choice Exercises</title>
+    <introduction><p>
+        Answer the following <term>Multiple Choice</term> questions to assess what you
+        have learned in this chapter.
+    </p></introduction>
   <exercise label="VARS_mc1">
     <statement>
       <p>Take a look at the following program. How many lines of output will be produced?</p>
@@ -18,50 +20,50 @@
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc1_opt_a">
+        <statement>
           <p>6</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There <em>are</em> 6 <c>cout</c> statements, but that doesn't mean there are 6 lines of
             output!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc1_opt_b">
+        <statement>
           <p>5</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There <em>are</em> 5 lines of <c>cout</c> statments, but that doesn't mean there are 5
             lines of output!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc1_opt_c">
+        <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Even though there are 6 <c>cout</c> staments written on 5 lines, there are only 3 lines of
             output in the terminal.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc1_opt_d">
+        <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There <em>are</em> 2 <c>endl</c> statements. But what happens when you have more output
             after the <c>endl</c>?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc1_opt_e">
+        <statement>
           <p>0! There is an error!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Everything is syntacticly legal! You can have <c>cout</c> statements on <em>multiple lines
             of code</em> that have <em>one</em> line of output&#x2026; or you can have multiple <c>cout</c>
             statements on <em>one</em> line of code that have <em>multiple</em> lines of output!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -74,36 +76,36 @@ x = "3";
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc2_opt_a">
+        <statement>
           <p>integer</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>1</c> is an integer.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc2_opt_b">
+        <statement>
           <p>double</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>1.0</c> is a double.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc2_opt_c">
+        <statement>
           <p>character</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>'1'</c> is a character.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc2_opt_d">
+        <statement>
           <p>string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Anything in double quotes is a string.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -116,36 +118,36 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc3_opt_a">
+        <statement>
           <p>7</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>13 - 5</c> is computed first because it is in parentheses.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc3_opt_b">
+        <statement>
           <p>20</p>
         </statement>
-        <feedback>
+        <feedback><p>
           C++ follows the order of operations.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc3_opt_c">
+        <statement>
           <p>23.333</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>2 + 6</c> is not grouped together like <c>13 - 5</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc3_opt_d">
+        <statement>
           <p>34</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>2 + 6 / 3</c> is not computed first.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -164,46 +166,46 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc4_opt_a">
+        <statement>
           <p>
             <c>6</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The variables <c>y</c> and <c>z</c> have been re-assigned.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc4_opt_b">
+        <statement>
           <p>
             <c>10</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This would be correct if we had written <c>cout &lt;&lt; x + z</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc4_opt_c">
+        <statement>
           <p>
             <c>16</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Walking through each line of code and keeping track of variables, like you just did, is
             called <term>tracing</term>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc4_opt_d">
+        <statement>
           <p>
             <c>yz</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           If y and z were characters <c>'y'</c> and <c>'z'</c>, it would be legal to add them together.
             But the result <c>243</c> might surprise you!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -221,44 +223,44 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc5_opt_a">
+        <statement>
           <p>declaring <c>c</c> as an int.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This will still result in an error.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc5_opt_b">
+        <statement>
           <p>declaring <c>c</c> as a string.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This clears up the type mismatch on line 4.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc5_opt_c">
+        <statement>
           <p>declaring <c>d</c> as a char.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although the code will still run, it won't give correct output.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc5_opt_d">
+        <statement>
           <p>Line 4 is replaced with <c>c = 3</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although the code will still run, it won't give correct output.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc5_opt_e">
+        <statement>
           <p>Line 4 is replaced with <c>c = '3'</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           This clears up the type mismatch on line 4.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -278,54 +280,54 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc6_opt_a">
+        <statement>
           <p>
             <c>My favorite fruit is pineapple</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>pineapple</c> is the name of the variable, but it's not necessarily the value of that
             variable.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc6_opt_b">
+        <statement>
           <p>
             <c>My favorite fruit is bananas</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>pineapple = apples</c>, and <c>apples = "bananas"</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc6_opt_c">
+        <statement>
           <p>
             <c>My favorite fruit is apples</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>pineapple = apples</c>, but what does <c>apples</c> equal?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc6_opt_d">
+        <statement>
           <p>
             <c>My favorite fruit is mango</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>"mango"</c> is the value of the variable <c>pineapple</c> at the end of <c>main</c>, but not at the line
             of the <c>cout</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc6_opt_e">
+        <statement>
           <p>Compile error.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are no syntax errors that will cause an issue compiling.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -342,47 +344,47 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc7_opt_a">
+        <statement>
           <p>line 2, a variable cannot have the same name as its value</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A variable can have any value&#x2026; as long as the types are the same.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc7_opt_b">
+        <statement>
           <p>line 3, you cannot have a variable named friend</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>friend</c> is a reserved keyword in C++ and can't be used as a variable name. What a
             shame, since Tom and Jerry are the best of friends!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc7_opt_c">
+        <statement>
           <p>line 5, you cannot have two statements on the same line</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You can have as many statements as you want on one line, as long as you terminate each
             one with a semicolon.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc7_opt_d">
+        <statement>
           <p>No error, <c>Tom is friends with Jerry</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           If the code runs, C++ doesn't automatically add spaces between consecutive strings.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc7_opt_e">
+        <statement>
           <p>No error, <c>Tomis friends withJerry</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           If the error was corrected, this would be the output. Unfortunately, there is an error
             that prevents this line from executing.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -400,48 +402,48 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc8_opt_a">
+        <statement>
           <p>Regina</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Using the order of operations we have Regina scoring 30 / 100.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc8_opt_b">
+        <statement>
           <p>Gretchen</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Using the order of operations we have Gretchen scoring 48 / 100.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc8_opt_c">
+        <statement>
           <p>Karen</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>6 * 3 = 18</c>, and <c>18 + 2 / 100 = 18</c> due to integer division. Believe it or not, due to the order of
             operations and integer division, Karen ended up with the highest <q>score</q> at the end
             of the program's execution.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc8_opt_d">
+        <statement>
           <p>Cady</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Using the order of operations we have Mathlete Cady scoring 90 / 100. this would be the
             highest score&#x2026; if it weren't for integer division.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc8_opt_e">
+        <statement>
           <p>They all got 0's.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Integer division rounds the quotient down to the nearest integer. Take a closer look at
             what is being divided on each line, because not everyone recieved a zero!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -458,45 +460,45 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice>
-        <statement id="VARS_mc9_opt_a">
+        <statement>
           <p>line 2, a variable cannot have the same name as its value</p>
         </statement>
-        <feedback>
+        <feedback><p>
           A variable can have any value&#x2026; as long as the types are the same.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc9_opt_b">
+        <statement>
           <p>line 4, you cannot add an integer to a character</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Actually, C++ supports character operations! This is legal.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc9_opt_c">
+        <statement>
           <p>No error, <c>rx</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>x</c> is an integer, so what we really have is <c>r = r + 3</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc9_opt_d">
+        <statement>
           <p>No error, <c>r</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>'r'</c> isn't necessarily the value of <c>r</c>. Take a look at line 4.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="VARS_mc9_opt_e">
+        <statement>
           <p>No error, <c>u</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           &#x2018;u' is three letters after &#x2018;r', so on line 4, the value of <c>u</c>
             becomes the value of <c>r</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -510,45 +512,45 @@ x = 2 + (13 - 5) * 2 + 6 /3;
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="VARS_mc10_opt_a">
+        <statement>
           <p>semantic error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           With integer division, <c>1 / 3</c> becomes 0. Multiplying 0 by the rest of the expression
             will always return 0, which is not what you want your program to do!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc10_opt_b">
+        <statement>
           <p>syntax error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is nothing wrong with the structure of your program.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc10_opt_c">
+        <statement>
           <p>run-time error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are no errors that will surface at run-time.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc10_opt_d">
+        <statement>
           <p>You can't calculate and return on the same line!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You actually can, this is called composition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="VARS_mc10_opt_e">
+        <statement>
           <p>Nothing! There is not an error.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This formula will return a volume, but is it correct?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

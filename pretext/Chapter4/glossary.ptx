@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter4_glossary">
   <title>Glossary</title>
-  <dl>
+  <p><dl>
     <li>
       <title>modulus:</title>
       <p>An operator that works on integers and yields the remainder when one
@@ -33,15 +33,15 @@
         base case. Eventually an infinite recursion will cause a run-time
         error.</p>
     </li>
-  </dl>
+  </dl></p>
   <exercise label="chapter_four_glossary_1">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>modulus</premise>
@@ -64,9 +64,9 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>conditional</premise>

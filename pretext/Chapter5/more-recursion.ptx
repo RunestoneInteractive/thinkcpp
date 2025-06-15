@@ -126,35 +126,35 @@ int main() {
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           As the programmer, we explicitly call this function one time... but remember, recursive
             functions call themselves!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Not quite! Maybe you were thinking of the two possible branches of the function call.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You're close! But what happens when n = 0?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function is called four times total. Three of those times, the function recurses.
             The last time, the function reaches its base case and returns 1.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -211,33 +211,33 @@ int main() {
         <statement>
           <p>"5 4 3 2 1 0"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Consider what the base case is.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>"5 5 5 5 5"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Does the value of a stay the same after every function call?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>"5 4 3 2 1 0 -1 -2 -3 ...."</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Consider what the base case is.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>"5 4 3 2 1"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! we recursively print every value of a till we reach 0.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

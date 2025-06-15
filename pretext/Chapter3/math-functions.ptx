@@ -155,7 +155,7 @@ using namespace std;
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="math_functions_3_opt_a">
+        <statement>
           <p>
             <c>cos</c>
           </p>
@@ -163,7 +163,7 @@ using namespace std;
         <feedback><p>This function computes the cosine of an angle.</p></feedback>
       </choice>
       <choice>
-        <statement id="math_functions_3_opt_b">
+        <statement>
           <p>
             <c>arctan</c>
           </p>
@@ -171,7 +171,7 @@ using namespace std;
         <feedback><p>The arc tangent function is actually called <c>atan</c>.</p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="math_functions_3_opt_c">
+        <statement>
           <p>
             <c>log10</c>
           </p>
@@ -179,7 +179,7 @@ using namespace std;
         <feedback><p>This function computes the common logarithm.</p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="math_functions_3_opt_d">
+        <statement>
           <p>
             <c>pow</c>
           </p>
@@ -187,7 +187,7 @@ using namespace std;
         <feedback><p>This function raises an expression to a power.</p></feedback>
       </choice>
       <choice>
-        <statement id="math_functions_3_opt_e">
+        <statement>
           <p>
             <c>ln</c>
           </p>

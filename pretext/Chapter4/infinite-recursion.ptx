@@ -78,34 +78,34 @@ int main() {
         <statement>
           <p>The function will print "Not Negative!"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function will never print "Not Negative!" since we start with a negative number!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function will print "Not Negative!" more than once. Then it will print "Negative!"
             and will stop executing.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function will never print "Not Negative!" since we start with a negative number!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The function will print "Negative!"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We start with a negative number, so the function will reach the base case.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function will never stop executing, there will be infinite recursion.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We start with a negative number, so the function will reach the base case.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -133,34 +133,34 @@ int main() {
         <statement>
           <p>The function will print "Not Negative!"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function will print "Not Negative!", but it won't stop there!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The function will print "Not Negative!" more than once. Then it will print "Negative!"
             and will stop executing.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function will print "Not Negative!" until it reaches a negative number.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function will print "Negative!"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function will eventually print "Not Negative!", but that's not all!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function will never stop executing, there will be infinite recursion.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since we decrement each time, the base case will be reached.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -188,35 +188,35 @@ int main() {
         <statement>
           <p>The function will print "Not Negative!"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function will print "Not Negative!" but it won't stop there!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function will print "Not Negative!" more than once. Then it will print "Negative!"
             and will stop executing.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function will print "Not Negative!" more than once. But will it print "Negative"?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function will print "Negative!"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We start with a positive number, so the function simply won't print "Not Negative!"
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The function will never stop executing, there will be infinite recursion.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Our input is incremented with every recursive call, so if we start with a positive
             number, we will never reach the base case.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

@@ -26,33 +26,33 @@
         <statement>
           <p>string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Look at the function definition for main.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>integer</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! You should always return an integer to avoid issues down the road.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>nothing</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Main is supposed to return something!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>anything</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Main has a return type, check its function definition.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -98,33 +98,33 @@
         <statement>
           <p>"its night time Day time"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           a return statement if encountered before reaching the second ``if``.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>"its night time afternoon"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           a return statement is encountered before and ``sun_set`` is false.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>nothing is printed</p>
         </statement>
-        <feedback>
+        <feedback><p>
           ``sun_set`` is true so the "its night time" gets printed
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>"its night time"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Once the ``return`` statement is encountered nothing else is printed
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

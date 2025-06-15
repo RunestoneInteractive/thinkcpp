@@ -50,11 +50,9 @@ int hour, minute;</program>
     <statement>
       <p>Take a look at the code block below:
       </p>
-      <p>
       <program>
 char tom;
 </program>
-</p>
       <p>It's an example of a(n) <fillin answer="declaration" mode="string" case="insensitive"/> statement.</p>
     </statement>
     <evaluation>
@@ -69,9 +67,9 @@ char tom;
     <statement>
       <p>Click on all instances of integer VARIABLES.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="no">int main() {</area></cline>
       <cline>    int <area correct="yes">x</area> = <area correct="no">7</area>;</cline>
@@ -91,9 +89,9 @@ char tom;
     <statement>
       <p>Click on all instances of character VARIABLES.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <areas>
       <cline>int main() {</cline>
       <cline>    char <area correct="yes">init1</area> = <area correct="no">'K'</area>;</cline>
@@ -111,27 +109,27 @@ char tom;
     <statement>
       <p>Match the variable to the kind of value it can store. Do so by dragging items on the left to the boxes on the right.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Ideally, you want your variables to be named according to what they represent. Not the case
         here! Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
-        <premise><c>char joe;</c></premise>
-        <response><c>'x'</c></response>
+        <premise><p><c>char joe;</c></p></premise>
+        <response><p><c>'x'</c></p></response>
       </match>
       <match order="2">
-        <premise><c>string ten;</c></premise>
-        <response><c>"Joe"</c></response>
+        <premise><p><c>string ten;</c></p></premise>
+        <response><p><c>"Joe"</c></p></response>
       </match>
       <match order="3">
-        <premise><c>int x;</c></premise>
-        <response><c>10</c></response>
+        <premise><p><c>int x;</c></p></premise>
+        <response><p><c>10</c></p></response>
       </match>
     </matches>
   </exercise>
   <exercise label="variables_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

@@ -49,7 +49,7 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="defns_uses_2_opt_a">
+        <statement>
           <p>
             <c>void printName()</c>
           </p>
@@ -60,7 +60,7 @@ int main() {
         </p></feedback>
       </choice>
       <choice>
-        <statement id="defns_uses_2_opt_b">
+        <statement>
           <p>
             <c>totalCostAfterTax() {</c>
           </p>
@@ -70,7 +70,7 @@ int main() {
         </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="defns_uses_2_opt_c">
+        <statement>
           <p>
             <c>void todaysWeather() {</c>
           </p>
@@ -78,7 +78,7 @@ int main() {
         <feedback><p>Correct!</p></feedback>
       </choice>
       <choice>
-        <statement id="defns_uses_2_opt_d">
+        <statement>
           <p>
             <c>void finalGrade {</c>
           </p>

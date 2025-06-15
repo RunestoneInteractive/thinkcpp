@@ -109,9 +109,9 @@
       <statement>
         <p>Match each term to its definition!</p>
       </statement>
-      <feedback>
+      <feedback><p>
         Try again!
-      </feedback>
+      </p></feedback>
       <matches>
         <match order="1">
           <premise>syntax (compile-time) error</premise>

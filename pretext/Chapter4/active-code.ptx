@@ -94,7 +94,7 @@ string whichDoor(double grade) {
         according to this scheme. [0, 50) = C, [50, 95) = B, and [95, 100] = A.
         Use the lines to construct the code, then go back to complete the Activecode.</p>
       <activity label="cond_rec_a2_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -233,7 +233,7 @@ int main() {
       <p>Finish the code below so that it prints true if <c>x</c> is even and false if <c>x</c> is
         odd. Use the lines to construct the code, then go back to complete the Activecode.</p>
       <activity label="cond_rec_a4_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -338,7 +338,7 @@ void greaterThan(FIX ME) {
         the second <c>double</c> argument. Be sure to include any necessary headers. Use the lines to
         construct the code, then go back to complete the Activecode.</p>
       <activity label="cond_rec_a6_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -436,7 +436,7 @@ void exclusiveOr(bool a, bool b) {
         prints false otherwise. Be sure to include any necessary headers. Use the lines to construct
         the code, then go back to complete the Activecode.</p>
       <activity label="cond_rec_a8_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">
@@ -530,7 +530,7 @@ void printNegativeNum() {
         then print the negative number. Use the lines to construct the code, then go back to
         complete the Activecode.</p>
       <activity label="cond_rec_a10_pp"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide"
                 exercise-interactive="parson">

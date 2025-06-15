@@ -26,41 +26,41 @@
         <statement>
           <p><![CDATA[if (x > 0 && x < 10) {...]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is exactly what the nested conditionals are saying.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><![CDATA[if (x > 0 || x < 10) {...]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           || represents "or", but we need both sides of the conditional to be true.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><![CDATA[if (x > 0 ! x < 10) {...]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           The ! operator cannot be used to compare two sides of a conditional.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p><![CDATA[if ( !(x < 0) && !(x > 10) ) {...]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           If x = 0 or if x = 10, this expression will return true when it shouldn't.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p><![CDATA[if ( !(x <= 0) && !(x >= 10) ) {...]]></p>
         </statement>
-        <feedback>
+        <feedback><p>
           If it IS NOT what we don't want, then it IS what we want!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -69,9 +69,9 @@
       <p>Match the conditional statement to the correct boolean and the meaning of the operator in
         use, given n = 7.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>(n * 2 &gt; 10 &amp;&amp; n &gt;= 7)</premise>

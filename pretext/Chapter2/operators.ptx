@@ -68,9 +68,9 @@ cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
     <statement>
       <p>Match the statement to the result, given that x = 10.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>x*10</premise>
@@ -191,7 +191,7 @@ cout &lt;&lt; "Decimal:" &lt;&lt; num1 / num2;</program>
     </evaluation>
   </exercise>
   <exercise label="operators_4"
-           numbered="yes"
+           number="yes"
            adaptive="yes"
            indentation="hide">
     <statement>

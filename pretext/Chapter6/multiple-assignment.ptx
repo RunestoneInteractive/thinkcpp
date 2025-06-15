@@ -89,9 +89,9 @@ a = 3;         // a and b are no longer equal</program>
     <statement>
       <p>Match the expression to the statement that best describes it.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>4=a</premise>
@@ -134,33 +134,33 @@ int main() {
         <statement>
           <p>10!1!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are no spaces between the numbers.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>10 ! 1 !</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember, in C++ spaces must be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>10 ! 10 !</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Carefully look at the values being assigned.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>1!1!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Carefully look at the values being assigned.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -188,33 +188,33 @@ int main() {
         <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that printing a boolean results in either 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that printing a boolean results in either 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is x equal to y?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           x is equal to y, so the output is 1.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

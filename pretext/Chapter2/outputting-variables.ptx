@@ -95,41 +95,41 @@ int main() {
         <statement>
           <p>a</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The string, not the variable, a will be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>b</p>
         </statement>
-        <feedback>
+        <feedback><p>
           b will not be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>z</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The cout statement prints a, not the value of the variable a.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>8</p>
         </statement>
-        <feedback>
+        <feedback><p>
           z is the value of a and 8 will not be printed
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Nothing! There will be a compile error!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no type mismatch, so there will not be a compile error.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -149,41 +149,41 @@ int main() {
         <statement>
           <p>a</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The string a will not be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>b</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The string b will not be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>z</p>
         </statement>
-        <feedback>
+        <feedback><p>
           z is the value of a and 3 will not be printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>8</p>
         </statement>
-        <feedback>
+        <feedback><p>
           8 is the value of b will be printed!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Nothing! There will be a compile error!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no type mismatch, so there will not be a compile error.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -203,41 +203,41 @@ int main() {
         <statement>
           <p>x</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the code again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>y</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the code again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the code again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>e</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the code again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Nothing! There will be a compile error!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is a type mismatch, so there will be a compile error!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -245,26 +245,26 @@ int main() {
     <statement>
       <p>Match the variable initialization to its correct type. Do so by dragging items on the left to the matching box on the right.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
-        <premise><c>x = 2</c></premise>
+        <premise><p><c>x = 2</c></p></premise>
         <response>int</response>
       </match>
       <match order="2">
-        <premise><c>y = "2"</c></premise>
+        <premise><p><c>y = "2"</c></p></premise>
         <response>string</response>
       </match>
       <match order="3">
-        <premise><c>z = '2'</c></premise>
+        <premise><p><c>z = '2'</c></p></premise>
         <response>char</response>
       </match>
     </matches>
   </exercise>
   <exercise label="output_vars_5"
-           numbered="yes"
+           number="yes"
            adaptive="yes"
            indentation="hide">
     <statement>

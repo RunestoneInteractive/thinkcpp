@@ -39,7 +39,7 @@
   <p>Although formal and natural languages have many features in
     common&#x2014;tokens, structure, syntax and semantics&#x2014;there are many
     differences.</p>
-  <dl>
+  <p><dl>
     <li>
       <title>ambiguity:</title>
       <p>Natural languages are full of ambiguity, which people deal with by
@@ -59,12 +59,12 @@
           other shoe fell,</q> there is probably no shoe and nothing falling. Formal languages mean
         exactly what they say.</p>
     </li>
-  </dl>
+  </dl></p>
   <p>People who grow up speaking a natural language (everyone) often have a
     hard time adjusting to formal languages. In some ways the difference
     between formal and natural language is like the difference between
     poetry and prose, but more so:</p>
-  <dl>
+  <p><dl>
     <li>
       <title>poetry:</title>
       <p>Words are used for their sounds as well as for their meaning, and
@@ -82,7 +82,7 @@
       <p>The meaning of a computer program is unambiguous and literal, and
         can be understood entirely by analysis of the tokens and structure.</p>
     </li>
-  </dl>
+  </dl></p>
   <p>Here are some suggestions for reading programs (and other formal
     languages). First, remember that formal languages are much more dense
     than natural languages, so it takes longer to read them. Also, the
@@ -102,42 +102,42 @@
         <statement>
           <p>C++</p>
         </statement>
-        <feedback>
+        <feedback><p>
           All programming languages are formal languages!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>scientific notation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Scientific notation is designed to denote large numbers.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Mandarin</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Mandarin is a natural language.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>English</p>
         </statement>
-        <feedback>
+        <feedback><p>
           English is a natural language.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>chemical formulas</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Chemical formulas represent what elements a compound is made of! For example CO2 is is
             carbon dioxide!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -157,9 +157,9 @@
     <statement>
       <p>Match each term to an example of it by dragging the term into the appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>ambiguity</premise>
@@ -179,9 +179,9 @@
     <statement>
       <p>Match each term to an example of it by dragging the term into the appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>ambiguity</premise>
@@ -206,42 +206,42 @@
         <statement>
           <p>ambiguous</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Formal languages are designed to be unambiguous, so that each statement has only one
             meaning.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>redundant</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Formal language is straight to the point.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>literal</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Formal languages mean exactly what they say.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>verbose</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Formal language is straight to the point.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>concise</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Formal language is straight to the point.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

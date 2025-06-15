@@ -2,7 +2,7 @@
 <exercises xml:id="chapter5_mixed-up-code-exercises">
   <title>Mixed Up Code Practice</title>
   <exercise label="mucp_5_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -46,7 +46,7 @@
   </exercise>
 
   <exercise label="mucp_5_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -90,7 +90,7 @@
 
 
   <exercise label="mucp_5_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -169,7 +169,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -211,7 +211,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_5"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -244,7 +244,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_6"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -310,7 +310,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_7"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -360,7 +360,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_8"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -417,7 +417,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_9"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -468,7 +468,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_10"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -520,7 +520,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_5_11"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

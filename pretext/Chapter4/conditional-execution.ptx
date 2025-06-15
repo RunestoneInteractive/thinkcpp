@@ -80,33 +80,33 @@ int main() {
         <statement>
           <p>Change the value of x to be anything less than 6.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           While "Bigger" would now print, the other two statements would not!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Change the value of x to 13.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Now, none of the statements would print!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Change the sign of the last conditional statement to x &gt; 6.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Now, all of the statements would print.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Change the value of the return from 0 to "Bigger!"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           main returns an int, so trying to make it return a string will cause an error.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -114,9 +114,9 @@ int main() {
     <statement>
       <p>Match the operator to values of x and y that would return true.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>x &gt; y</premise>
@@ -136,9 +136,9 @@ int main() {
     <statement>
       <p>Match the operator to values of x and y that would return true.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>x == y</premise>

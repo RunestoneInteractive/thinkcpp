@@ -85,7 +85,7 @@ int main() {
     </evaluation>
   </exercise>
   <exercise label="char_operations_2"
-           numbered="yes"
+           number="yes"
            adaptive="yes"
            indentation="hide">
     <statement>

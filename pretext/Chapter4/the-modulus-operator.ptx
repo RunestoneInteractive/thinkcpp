@@ -42,34 +42,34 @@ int main() {
         <statement>
           <p>Use x % 2, and if the result is 0, it is odd.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If you divide a number by two and it has no remainder, that means it is an even number!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Use x % 2, and if the result is 1, it is odd.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If you divide a number by two and it has a remainder of one, that means it is an odd
             number!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Use x / 2, and if the result is 0, it is odd.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Dividing a number by two won't give us the information we want.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Use x / 2, and if the result is 1, it is odd.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Dividing a number by two won't give us the information we want.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -77,9 +77,9 @@ int main() {
     <statement>
       <p>Match the modulo expression to its result.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>3 % 2</premise>

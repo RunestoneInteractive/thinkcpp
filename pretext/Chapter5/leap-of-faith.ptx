@@ -35,34 +35,34 @@
           <p>Since you can find the factorial of the first 3 numbers in a list, you must also be
             able to find the factorial of the first 2.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is no leap of faith here. In fact, it's quite flip-flopped.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>You assume that the log function works, without examining the implementation.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is a leap of faith, but it is not recursive.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Since you can take the sum of the first 7 numbers in a list, you assume that you can
             also take the sum of the first 8.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Recursive leaps of faith always assume that the recursive call will work.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>You write a function and assume that it will work.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is a leap of faith, but it is not recursive.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

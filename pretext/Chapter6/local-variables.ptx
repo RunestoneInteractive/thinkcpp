@@ -61,43 +61,43 @@ int main() {
         <statement>
           <p>Yes, we cannot output the value of j outside of the loop.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The scope of i is restricted to the loop, so we cannot change the value of i outside of
             the loop.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Yes, we cannot output anything before the loop.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is allowed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Yes, we cannot reassign j to 20 outside of the loop.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The scope of i is restricted to the loop, so we cannot output the value of i outside of
             the loop.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Yes, we cannot let i start at 1 in the loop.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We are allowed to initialize i to any value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>No, there are no issues with the code below.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are issues with the code. Can you find them?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -138,18 +138,18 @@ int main() {
         <statement>
           <p>Yes</p>
         </statement>
-        <feedback>
+        <feedback><p>
           They are two different variables in two different scopes, but they do have the same
             name.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>No</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! They are not the same variable.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -186,21 +186,21 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="local_variables_3_opt_a">
+        <statement>
           <p>Yes</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The scope of <c>j</c> does not include <c>printMultiples</c> function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="local_variables_3_opt_b">
+        <statement>
           <p>No</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! <c>j</c> is not accessable as the value is merely passes from one function to
             another. We cannot have a statement such as j++; in <c>printMultiples</c> as it is out of the scope of <c>printMultTable</c>
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

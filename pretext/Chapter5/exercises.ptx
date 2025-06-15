@@ -16,44 +16,44 @@ ______ convertToCelsius(double fahrenheit) {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_1_opt_a">
+        <statement>
           <p>
             <c>int</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           What variable are we returning in the function, and what is the variable's type?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_1_opt_b">
+        <statement>
           <p>
             <c>double</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function returns <c>celsius</c>, which is a <c>double</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_1_opt_c">
+        <statement>
           <p>
             <c>string</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           What variable are we returning in the function, and what is the variable's type?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_1_opt_d">
+        <statement>
           <p>
             <c>void</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since we are returning something in the function, the function is not <c>void</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -79,44 +79,44 @@ int secretFunction(int input) {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_2_opt_a">
+        <statement>
           <p>14</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although 14 is divisible by 7, take another look at the conditionals.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_2_opt_b">
+        <statement>
           <p>18</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The flow of code would never reach the last return statement.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_2_opt_c">
+        <statement>
           <p>36</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check your order of operations!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_2_opt_d">
+        <statement>
           <p>37</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the conditional statements.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_2_opt_e">
+        <statement>
           <p>40</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since 14 is divisible by 2, the function returns two less than three times 14.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -127,45 +127,45 @@ int secretFunction(int input) {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_3_opt_a">
+        <statement>
           <p>
             <c>boolean isPrime(int input) {</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           In C++, use the <c>bool</c> keyword for a boolean.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_3_opt_b">
+        <statement>
           <p>
             <c>bool isPrime (input) {</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           In a function header, the type of each variable must be specified in the parameter
             list.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_3_opt_c">
+        <statement>
           <p>
             <c>bool isPrime(int input) {</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the correct function header for the function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_3_opt_d">
+        <statement>
           <p>
             <c>int isPrime(bool input) {</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at what the return type is.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -182,58 +182,58 @@ int func(double x, bool y);
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_4_opt_a">
+        <statement>
           <p>
             <c>int func(double a, bool b);</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since this function has the same name and parameter types as the given function, it is
             not allowed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_4_opt_b">
+        <statement>
           <p>
             <c>int foo(double x, bool y);</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This function has a different name from the given function, so it is allowed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_4_opt_c">
+        <statement>
           <p>
             <c>int func(double x);</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although this function has the same name as the given function, it has a different
             number of parameters, so it is allowed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_4_opt_d">
+        <statement>
           <p>
             <c>void func(double x, bool y);</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although this function has a different return type, its parameter list is the same as
             the given function, so it is not allowed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_4_opt_e">
+        <statement>
           <p>
             <c>int func(bool y, double x);</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although this function has the same name as the given function, its parameter list is
             in a different order, so it is allowed.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -254,38 +254,38 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_5_5_opt_a">
+        <statement>
           <p>1001</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since the first and last statements are true and the middle two are false, this is the
             correct output.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_5_opt_b">
+        <statement>
           <p>truefalsefalsetrue</p>
         </statement>
-        <feedback>
+        <feedback><p>
           In C++, boolean values are outputted as 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_5_opt_c">
+        <statement>
           <p>1false01</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since the second <c>cout</c> statement doesn't have quotes around the word <q>false</q>,
             the value of 0 is outputted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_5_opt_d">
+        <statement>
           <p>0110</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that if a boolean expression is true, it has a value of 1.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -306,44 +306,44 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_5_6_opt_a">
+        <statement>
           <p>0101</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since the expressions are false, true, false, and true, the output is 0101.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_6_opt_b">
+        <statement>
           <p>1010</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember that <c>true</c> outputs to 1 and <c>false</c> outputs to 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_6_opt_c">
+        <statement>
           <p>1101</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember the NOT operator (!) inverts the value of a boolean.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_6_opt_d">
+        <statement>
           <p>0100</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the order of operations.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_6_opt_e">
+        <statement>
           <p>0110</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the expressions.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -362,38 +362,38 @@ bool isEven(int num) {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_7_opt_a">
+        <statement>
           <p>Yes, we have to return either 0 or 1.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Returning a 0 or 1 would be returning an <c>int</c>, even though booleans evaluate to 0 or
             1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_7_opt_b">
+        <statement>
           <p>Yes, we cannot pass an <c>int</c> into a <c>bool</c> function.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The type of variables in the parameter list do not affect the return type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_7_opt_c">
+        <statement>
           <p>Yes, there is no case for odd numbers.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since we never established an else clause, if the input was an odd number, the function
             would not return anything despite not being a void function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_7_opt_d">
+        <statement>
           <p>There are no issues with the code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is an issue with the code. Can you find it?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -417,37 +417,37 @@ double Free_time(int day) {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_8_opt_a">
+        <statement>
           <p>Yes, we might not return anything.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We have an else clause in which we return a value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_8_opt_b">
+        <statement>
           <p>Yes, we cannot return an entire expression like <c>day*0.25</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If the result of the expression is compatible with the return type we can return it.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_8_opt_c">
+        <statement>
           <p>Yes, we are returning an <c>int</c> (in the <c>else</c> block) where as the return type is <c>double</c>
             .</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Implicit conversion from an int to double is ok in c++!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_8_opt_d">
+        <statement>
           <p>There are no issues with the code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! implicit conversion from int to double are ok!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -466,36 +466,36 @@ void moonWeight(double earth) {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_9_opt_a">
+        <statement>
           <p>Yes, we cannot have <c>cout</c> statements in a function.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We are allowed to use <c>cout</c> statements in a function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_9_opt_b">
+        <statement>
           <p>Yes, we cannot return anything.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>void</c> functions do not have return values, so we cannot return <c>moon</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_9_opt_c">
+        <statement>
           <p>Yes, we need to return the output statement.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>void</c> functions do not have return values.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_9_opt_d">
+        <statement>
           <p>There are no issues with the code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is an issue with the code. Can you find it?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -505,45 +505,45 @@ void moonWeight(double earth) {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_10_opt_a">
+        <statement>
           <p>
             <c>void</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           What keyword do we use before <c>main()</c> in every program?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_10_opt_b">
+        <statement>
           <p>
             <c>bool</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           What keyword do we use before <c>main()</c> in every program?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_10_opt_c">
+        <statement>
           <p>
             <c>double</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           What keyword do we use before <c>main()</c> in every program?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_10_opt_d">
+        <statement>
           <p>
             <c>int</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, <c>main</c> is supposed to return an integer, which is why programmers often return 0
             at the end of <c>main</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -567,42 +567,42 @@ int factorial(int n) {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_5_11_opt_a">
+        <statement>
           <p>
             <c>n = 0</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           When <c>n</c> is 0, the function returns the value 1 without making a recursive call.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_11_opt_b">
+        <statement>
           <p>
             <c>n = 1</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           When <c>n</c> is 1, the function makes a recursive call in the else statement.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_11_opt_c">
+        <statement>
           <p>
             <c>n = -1</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>n</c> never becomes -1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_11_opt_d">
+        <statement>
           <p>There is no base case.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If there was no base case, the function would recurse infinitely.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -632,36 +632,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_5_12_opt_a">
+        <statement>
           <p>6 5 4 3 2 1 0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Check what the base case prints.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_12_opt_b">
+        <statement>
           <p>6 6 6 6 6 6 1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What value do we give the recursive call?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_5_12_opt_c">
+        <statement>
           <p>6 5 4 3 2 1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The base case prints something!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_5_12_opt_d">
+        <statement>
           <p>6 5 4 3 2 1 1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We print a number and decrement it till we reach 0 then we print 1.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

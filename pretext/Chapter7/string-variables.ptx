@@ -89,25 +89,25 @@ int main() {
         <statement>
           <p>string x = "Hello";</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the correct way to initialize a string.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>x = "Hello";</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is an assignment.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>string x;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is a declaration.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

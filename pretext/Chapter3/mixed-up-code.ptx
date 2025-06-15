@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <exercises xml:id="chapter3_mixed-up-code-exercises">
-  <title>Mixed-Up Code Exercises</title>
-  <p>Answer the following <term>Mixed-Up Code</term> questions to assess what you have learned in
-    this chapter.</p>
+    <title>Mixed-Up Code Exercises</title>
+    <introduction><p>
+        Answer the following <term>Mixed-Up Code</term> questions to assess what
+        you have learned in this chapter.
+    </p></introduction>
   <exercise label="functions_p9"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -41,7 +43,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p0"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -92,7 +94,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -133,7 +135,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -184,7 +186,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -223,7 +225,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p5"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -276,7 +278,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p6"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -321,7 +323,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p7"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -363,7 +365,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p8"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -422,7 +424,7 @@
     </blocks>
   </exercise>
   <exercise label="functions_p2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

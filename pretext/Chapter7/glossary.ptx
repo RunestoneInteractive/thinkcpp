@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter7_glossary">
   <title>Glossary</title>
-  <dl>
+  <p><dl>
     <li>
       <title>object:</title>
       <p>A collection of related data that comes with a set of functions that
@@ -38,14 +38,14 @@
       <title>concatenate:</title>
       <p>To join two operands end-to-end.</p>
     </li>
-  </dl>
+  </dl></p>
   <exercise label="chapter_seven_glossary">
     <statement>
       <p>Match the definition to the term.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>object</premise>

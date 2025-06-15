@@ -157,33 +157,33 @@ int main() {
         <statement>
           <p>double</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are no doubles used in this function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>int</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The parameter does not have to be the same type as the return type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The variable "outside" is being returned, which is of string type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>char</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The return type is actually a string of chars.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -210,34 +210,34 @@ int main() {
         <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function returns y before reaching the line where y is doubled.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Because the return statement in the timesTwo function returns prior to the modification
             of y, 2 is returned and then printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>16</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function returns y before reaching the line where y is doubled.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function does not return.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function has an integer return type, so it WILL return an int.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -271,33 +271,33 @@ int main() {
         <statement>
           <p>You get a child discount yay!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function returns goes to the else block as age is not less than 5.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Sorry you have to pay full price.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The function returns 9.50 before reaching the output statment.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>nothing gets printed</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The return statement is encountered before the cout statement.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>9.50</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although 9.50 is returned there is no printing of this value.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

@@ -79,17 +79,17 @@ cout << s.length() << endl;
         <statement>
           <p>11</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The space counts as a character.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>12</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, there are 12 characters in the string.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -108,34 +108,34 @@ cout << (s[s.length()-5]) << endl;
         <statement>
           <p>o</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a look at the index calculation again, s.length()-5.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>r</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Yes, s.length() is 12 and 12-5 is 7. Use 7 as index and remember to start counting with
             0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>s</p>
         </statement>
-        <feedback>
+        <feedback><p>
           s is at index 11.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Error, s.length() is 12 and there is no index 12.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You subtract 5 before using the index operator so it will work.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

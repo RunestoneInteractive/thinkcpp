@@ -137,35 +137,35 @@ int main() {
         <statement>
           <p>combining the parameters</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Unless the function requires you to do so, then this is unnecessary.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>printing out the parameters</p>
         </statement>
-        <feedback>
+        <feedback><p>
           If you don't know the values of the parameters, this could be useful, but there is a
             better answer.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>returning something</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is called placekeeping. You don't have to return the correct answer, but you do
             need to return the correct data type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>debugging</p>
         </statement>
-        <feedback>
+        <feedback><p>
           You don't need to debug until after you've written the function.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -179,37 +179,37 @@ int main() {
         <statement>
           <p>Use temporary variables to hold intermediate values so you can output and check them.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Temporary variables are very useful in understanding what is happening at each step.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Start with a working program and make small, incremental changes. That way you know
             exactly where the error is if you have one.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the definition of incremental development.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Writing a program from start to finish, and then debugging at the end in order to
             understand all of the errors at once.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incremental development uses step by step debugging in order to avoid the difficulty
             this would present.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Once the program is working, you might want to consolidate some statements into
             compound expressions, or remove them entirely.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is good practice, as long as it doesn't make the program difficult to read.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -233,33 +233,33 @@ double distance(double x1, double y1, double x2, double y2) {
         <statement>
           <p>scaffolding - allows the function to compile and return something</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the correct definition of scaffolding.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>placekeeping - allows the function to compile and return something</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the correct definition of placekeeping but is not the correct answer.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>scaffolding - used to test values of temporary variables, later removed</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Printing out the values allows you to observe whether the function is working or not.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>placekeeping - used to test values of temporary variables, later removed</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the correct definition of placekeeping.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

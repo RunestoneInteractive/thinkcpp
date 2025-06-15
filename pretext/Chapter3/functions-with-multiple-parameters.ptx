@@ -55,7 +55,7 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="multiple_params_1_opt_a">
+        <statement>
           <p>
             <c>totalcost(double cost, tax, discount)</c>
           </p>
@@ -66,7 +66,7 @@ int main() {
         </p></feedback>
       </choice>
       <choice>
-        <statement id="multiple_params_1_opt_b">
+        <statement>
           <p>
             <c>totalCost(double cost, double tax) {</c>
           </p>
@@ -76,7 +76,7 @@ int main() {
         </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="multiple_params_1_opt_c">
+        <statement>
           <p>
             <c>void totalCost(double cost, double tax, double discount) {</c>
           </p>
@@ -100,7 +100,7 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="multiple_params_2_opt_a">
+        <statement>
           <p>
             <c>multiplyTwo(int x, string phil);</c>
           </p>
@@ -110,7 +110,7 @@ int main() {
         </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="multiple_params_2_opt_b">
+        <statement>
           <p>
             <c>multiplyTwo (x, phil);</c>
           </p>
@@ -118,7 +118,7 @@ int main() {
         <feedback><p>Correct!</p></feedback>
       </choice>
       <choice>
-        <statement id="multiple_params_2_opt_c">
+        <statement>
           <p>
             <c>void multiplyTwo(int num, string name) {</c>
           </p>
@@ -126,7 +126,7 @@ int main() {
         <feedback><p>This is the function definition.</p></feedback>
       </choice>
       <choice>
-        <statement id="multiple_params_2_opt_d">
+        <statement>
           <p>
             <c>void multiplyTwo(int x, string phil);</c>
           </p>

@@ -97,7 +97,7 @@ int final = int((exam1 + exam2 + exam3) / 3);
     </statement>
     <choices>
       <choice>
-        <statement id="double_to_int_2_opt_a">
+        <statement>
           <p><term>Method 1:</term><c>final</c> is a <c>double</c>, meaning my final grade will have more
             digits past the decimal, and will be higher than the <c>int</c> in Method 2.</p>
         </statement>
@@ -107,7 +107,7 @@ int final = int((exam1 + exam2 + exam3) / 3);
         </p></feedback>
       </choice>
       <choice>
-        <statement id="double_to_int_2_opt_b">
+        <statement>
           <p><term>Method 1:</term> the rounding happens at the beginning, so all three of my test
             scores will be rounded to the nearest <c>int</c>, which in my case, will round all of them
             up.</p>
@@ -118,7 +118,7 @@ int final = int((exam1 + exam2 + exam3) / 3);
         </p></feedback>
       </choice>
       <choice>
-        <statement id="double_to_int_2_opt_c">
+        <statement>
           <p><term>Method 2:</term><c>final</c> is an <c>int</c>, so it gets rounded up.</p>
         </statement>
         <feedback><p>
@@ -127,7 +127,7 @@ int final = int((exam1 + exam2 + exam3) / 3);
         </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="double_to_int_2_opt_d">
+        <statement>
           <p><term>Method 2:</term> the rounding happens at the very end, so my grade will be
             higher!</p>
         </statement>

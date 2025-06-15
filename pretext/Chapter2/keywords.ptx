@@ -45,41 +45,41 @@
         <statement>
           <p>integer</p>
         </statement>
-        <feedback>
+        <feedback><p>
           integer is not a keyword, but int is.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>cout</p>
         </statement>
-        <feedback>
+        <feedback><p>
           cout cannot be used as a variable name!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>variable</p>
         </statement>
-        <feedback>
+        <feedback><p>
           variable is fair game to use to name a variable.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           string cannot be used as a variable name.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>char</p>
         </statement>
-        <feedback>
+        <feedback><p>
           char is a keyword and cannot be used as a variable name.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -87,9 +87,9 @@
     <statement>
       <p>Click on all keywords.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <areas>
       <cline><area correct="yes">int</area> main() {</cline>
       <cline>    <area correct="yes">double</area><area correct="no">x</area> = 1.0;</cline>
@@ -107,7 +107,6 @@
     <statement>
       <p>Fix the code below so that it runs without errors and produces the intended output. Hint: you might need to change the names
         of some variables so they do not conflict with C++ keywords.</p>
-    </statement>
     <program xml:id="keywords_4_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -124,6 +123,6 @@ int main() {
     return 0;
 }
         ]]></code>
-    </program>
+    </program></statement>
   </exercise>
 </section>
