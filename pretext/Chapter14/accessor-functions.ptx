@@ -26,9 +26,9 @@
     One unusual thing about these accessor functions is that they are not <c>const</c>, because invoking
     them might modify the instance variables.</p>
   <listing label="fourteenfour">
-    <caption>
+    <title>
       Take a look at this active code, which uses the <c>getReal</c> accessor function.
-    </caption>
+    </title>
     <program xml:id="fourteenfour_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -81,7 +81,6 @@ int main() {
         you're done with that, write the <c>getMag</c> and <c>getTheta</c> accessor functions. Read the comments
         in <c>main</c> to see how we'll test if your functions works. If you get stuck, you can reveal
         the hint below for help.</p>
-    </statement>
     <program xml:id="fourteenfive_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -155,11 +154,11 @@ double Complex::getImag() {
   return imag;
 }
 </tests>
-    </program>
+    </program></statement>
     <hint>
       <title>calculatePolar</title>
       <activity label="question14_4_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -201,14 +200,8 @@ double Complex::getImag() {
     </hint>
     <hint>
       <title>getMag</title>
-      <statement label="question14_4_2"
-                 numbered="yes"
-                 adaptive="yes"
-                 indentation="hide">
-        <statement>
           <p>Let's write the code for the <c>getMag</c> function, which should return the magnitude of a <c>Complex</c>
             object.</p>
-        </statement>
         <blocks>
           <block order="3">
             <choice correct="yes">
@@ -230,12 +223,11 @@ double Complex::getImag() {
             <cline>}</cline>
           </block>
         </blocks>
-      </statement>
     </hint>
     <hint>
       <title>getTheta</title>
       <activity label="question14_4_3"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>

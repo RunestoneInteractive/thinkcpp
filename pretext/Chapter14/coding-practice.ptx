@@ -5,7 +5,6 @@
       <p>Below is the <c>struct</c> definition for <c>Room</c>, which has a length, width, and height. It also
         has two member functions, <c>calculateArea</c> and <c>calculateVolume</c>. Turn this <c>struct</c> into a <c>class</c> with private
         member variables.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_1q">
         <code>
@@ -27,10 +26,10 @@ struct Room {
     }
 };
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is the <c>class</c> definition of <c>Room</c>. As you can see, there isn&#8217;t a big
-      difference between <c>struct</c>s and <c>class</c>es.</p> Below is the class definition of Room. As you
-      can see, there isn&#8217;t a big difference between structs and classes. <program xml:id="cp_14_AC_1a">
+    difference between <c>struct</c>s and <c>class</c>es.</p>
+    <program xml:id="cp_14_AC_1a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -60,7 +59,6 @@ public:
       <p>There are errors in the code below. Modify the code so that <c>main</c> runs successfully.
         Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_2q_editor">
         <code>
@@ -95,7 +93,7 @@ int main() {
         &lt;&lt; " and a volume of " &lt;&lt; r.calculateVolume &lt;&lt; endl;
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_14_AC_2q_pp">
         <statement>
@@ -188,7 +186,6 @@ int main() {
         which converts Celsius to Fahrenheit and vice versa and returns the conversion. Update <c>getFahrenheit</c>
         and so that if <c>is_celsius</c> is true and a user calls <c>getFahrenheit</c>, it will call <c>cToF</c> and return the
         correct temperature in degrees Fahrenheit. Do the same for <c>getCelsius</c>.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_3q">
         <code>
@@ -221,11 +218,10 @@ public:
     }
 };
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement this. We use the correct conversions in <c>cToF</c> and <c>fToC</c>
-      and then call these functions in <c>getFahrenheit</c> and <c>getCelsius</c> if needed.</p> Below is one way to
-      implement this. We use the correct conversions in cToF and fToC and then call these functions
-      in getFahrenheit and getCelsius if needed. <program xml:id="cp_14_AC_3a">
+    and then call these functions in <c>getFahrenheit</c> and <c>getCelsius</c> if needed.</p>
+    <program xml:id="cp_14_AC_3a">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -275,7 +271,6 @@ public:
       <p>In <c>main</c> create a <c>Temp</c> object to calculate what 100 degrees Celsius is in Fahrenheit.
         Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_4q_editor">
         <code>
@@ -322,7 +317,7 @@ int main() {
     // Write your code here.
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_14_AC_4q_pp">
         <statement>
@@ -361,7 +356,6 @@ int main() {
         constructing a loop every time? We can create our own <c>MyVector</c> class! Write the <c>MyVector</c>
         class, which has a <c>vector</c> of <c>int</c>s as a private member variable. Also write the default
         constructor.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_5q">
         <code>
@@ -371,11 +365,10 @@ using namespace std;
 
 // Write the class definition for MyVector here.
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is the <c>class</c> definition of <c>MyVector</c>. We use the <c>public</c> and <c>private</c> keywords
-      to separate public and private members of our class. The default constructor sets size to 0.</p>
-      Below is the class definition of MyVector. We use the public and private keywords to separate
-      public and private members of our class. The default constructor sets size to 0. <program xml:id="cp_14_AC_5a">
+    to separate public and private members of our class. The default constructor sets size to 0.</p>
+    <program xml:id="cp_14_AC_5a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -398,7 +391,6 @@ public:
       <p>What if we had an existing <c>vector</c> with data that we want to copy into our <c>MyVector</c>? Write a
         constructor that takes a <c>vector</c> and copies the data into the <c>elements</c> vector. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_6q_editor">
         <code>
@@ -415,7 +407,7 @@ public:
     // Write your constructor here.
 };
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_14_AC_6q_pp">
         <statement>
@@ -448,7 +440,6 @@ public:
         and adds it to the end of our <c>MyVector</c>. <c>pop_back</c> removes the last element. <c>at</c> takes an
         index and returns the data stored at that index. Use existing <c>vector</c> functions to implement
         these <c>MyVector</c> functions!</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_7q">
         <code>
@@ -491,10 +482,10 @@ MyVector::MyVector (vector&lt;int&gt; vec) {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement these functions. Since these functions are defined
-      for <c>vector</c>s, we can call them on <c>elements</c>.</p> Below is one way to implement these functions.
-      Since these functions are defined for vectors, we can call them on elements. <program xml:id="cp_14_AC_7a">
+    for <c>vector</c>s, we can call them on <c>elements</c>.</p>
+    <program xml:id="cp_14_AC_7a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -544,7 +535,6 @@ MyVector::MyVector (vector&lt;int&gt; vec) {
         of <c>MyVector</c>. For example, if our <c>MyVector</c> contained the elements 2, 5, 1, and 8, <c>print</c>
         should print out [2, 5, 1, 8] followed by a newline. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_8q_editor">
         <code>
@@ -593,7 +583,7 @@ void MyVector::pop_back() { elements.pop_back(); };
 int MyVector::at(int index) { return elements[index]; }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_14_AC_8q_pp">
         <statement>
@@ -635,7 +625,6 @@ int MyVector::at(int index) { return elements[index]; }
     <statement>
       <p>Let&#8217;s write the <c>MyVector</c> member function <c>push_front</c> and <c>pop_front</c>. <c>push_front</c> should take a
         value and add it to the front of our <c>MyVector</c>, and <c>pop_front</c> should remove the first element.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_9q">
         <code>
@@ -694,15 +683,13 @@ void MyVector::print() {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement these functions. For push_front,
         we can create a temporary vector and add the new element to the
         front before pushing the rest of the old elements to the back.
         For pop_front, we can shift all elements up by one index and
-        pop the last element off.</p> Below is one way to implement these functions. For push_front,
-      we can create a temporary vector and add the new element to the front before pushing the rest
-      of the old elements to the back. For pop_front, we can shift all elements up by one index and
-      pop the last element off. <program xml:id="cp_14_AC_9a">
+        pop the last element off.</p>
+        <program xml:id="cp_14_AC_9a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -782,7 +769,6 @@ void MyVector::print() {
         and <c>findMin</c>. <c>findMax</c> and <c>findMin</c> return the indices of the max and min values, and <c>max</c>
         and <c>min</c> call these private member functions and return the max and min values. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_14_AC_10q_editor">
         <code>
@@ -860,7 +846,7 @@ void MyVector::pop_front() {
 }
 </tests>
 
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_14_AC_10q_pp">
         <statement>

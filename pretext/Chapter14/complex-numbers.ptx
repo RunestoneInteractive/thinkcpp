@@ -34,25 +34,27 @@ public:
             the point relative to the origin, and the distance (or magnitude) of the
             point.</p>
   <p>The following figure shows the two coordinate systems graphically.</p>
-  <figure align="center">
-    <image source="Chapter14/Images/14.3polar_and_cartesian.png"
-           width="50%"
-           alt="Complex numbers in polar coordinates are written r*e^(i * theta), where r is
-        the magnitude (radius), and theta is the angle in radians."/>
-    <caption>Complex numbers in polar coordinates are written <m>r e^{i \theta}</m>, where <m>r</m> is
+  <figure>
+      <caption>Complex numbers in polar coordinates are written <m>r e^{i \theta}</m>, where <m>r</m> is
         the magnitude (radius), and <m>\theta</m> is the angle in radians.</caption>
+        <image source="Chapter14/Images/14.3polar_and_cartesian.png" width="50%">
+            <description><p>
+                Complex numbers in polar coordinates are written r*e^(i * theta), where r is
+                the magnitude (radius), and theta is the angle in radians.
+            </p></description>
+        </image>
   </figure>
 
   <note>
     <p>Fortunately, it is easy to convert from one form to another. To go from
-                Cartesian to polar,</p>
+                Cartesian to polar,
     <me>\begin{aligned}
 r       &amp; = \sqrt{x^2 + y^2} \\
-\theta  &amp; = \arctan (y / x)\end{aligned}</me>
-    <p>To go from polar to Cartesian,</p>
-    <me docname="Chapter14/complex_numbers" label="True" nowrap="False" number="True" xml:space="preserve">\begin{aligned}
+\theta  &amp; = \arctan (y / x)\end{aligned}</me></p>
+    <p>To go from polar to Cartesian,
+    <me>\begin{aligned}
 x       &amp; = r \cos \theta \\
-y       &amp; = r \sin \theta\end{aligned}</me>
+y       &amp; = r \sin \theta\end{aligned}</me></p>
   </note>
   <p>So which representation should we use? Well, the whole reason there are
             multiple representations is that some operations are easier to perform
@@ -101,12 +103,12 @@ public:
             next few sections, we will develop accessor functions that will make
             those kinds of mistakes impossible.</p>
   <listing label="fourteentwo">
-    <caption>
+    <title>
       Take a look at this active code, which demonstrates the separation of
             interface and implementation using classes. In this code, we create a <c>Triangle</c>
             object which is represented by three sides. In <c>main</c>, we print out the perimeter of
             the triangle, which should be 12.
-    </caption>
+    </title>
     <program xml:id="fourteentwo_editor" interactive="activecode" download="yes" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -135,13 +137,13 @@ int main() {
     </program>
   </listing>
   <listing label="fourteenthree">
-    <caption>
+    <title>
         Now take a look at this second piece of active code. What if we decide we want
             to represent a <c>Triangle</c> in a different way? Because the way we represent a
             <c>Triangle</c> is private, we can easily change the implementation while keeping
             the interface the same. Now, <c>Triangle</c> is represented by two sides and the
             angle between them. Notice how our <c>main</c> function is the exact same as before.
-    </caption>
+    </title>
     <program xml:id="fourteenthree_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
@@ -174,7 +176,7 @@ int main() {
         ]]></code>
     </program>
   </listing>
-  <exercise label="question14_3_1" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="question14_3_1" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write a constructor that uses parameters to
             initialize the magnitude and theta, but does not calculate
@@ -217,17 +219,17 @@ int main() {
         <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Client programs wouldn't have access to these values in the first place.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Keeping instance variables private prevents client programs from accessing them.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

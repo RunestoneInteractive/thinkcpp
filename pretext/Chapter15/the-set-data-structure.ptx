@@ -5,7 +5,7 @@
     seen some examples already, including <c>string</c>s, which are collections of characters, and <c>vector</c>s
     which are collections of any type.</p>
   <p>An <term>ordered set</term> is a collection of items with two defining properties:</p>
-  <dl>
+  <p><dl>
     <li>
       <title>Ordering:</title>
       <p>The elements of the set have indices associated with them. We can use
@@ -25,7 +25,7 @@
       <p>As we add elements to the set, it expands to make room for new
         elements.</p>
     </li>
-  </dl>
+  </dl></p>
   <p>Both <c>string</c>s and <c>vector</c>s have an ordering; every element has an index we can use to identify
     it. None of the data structures we have seen so far have the properties of uniqueness or
     arbitrary size.</p>
@@ -127,7 +127,7 @@ Set cities (2);
 int index2 = cities.add (city2);</program>
   <p>I modified <c>processLine</c> to take the <c>cities</c> object as a second parameter.</p>
   <listing label="set_sample">
-    <caption>Try running the program:</caption>
+    <title>Try running the program:</title>
   <program xml:id="c15_7"
            interactive="activecode"
            line-numbers="yes">
@@ -216,42 +216,42 @@ int Set::add(const string&amp; s) {
         <statement>
           <p>the set grows to accomodate any new elements we add</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This is the "arbitrary size" property.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>the set is sorted in an order (ie alphabetically, numerically, e.t.c.)</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is not a requirement of a set.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>elements of the set have indices, which can be used to identify them</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This is the "ordering" property.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>there is a limit on how large a set can be</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is not a requirement of a set... in fact, sets are always expanding
             with each added element!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>there are no repeat elements in the set</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This is the uniqueness property!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -264,34 +264,34 @@ int Set::add(const string&amp; s) {
         <statement>
           <p>numElements is a read-only variable.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The user might pick a value for numElements that is out of range.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! While this could happen, it just wouldn't make sense for the uer to interact
             with numElements at all!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>numElements cannot be modified.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! numElements is modified, just not by the user.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>We should provide a set function, we just haven't implemented it yet!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! There is no need for the user to have access to a set function.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

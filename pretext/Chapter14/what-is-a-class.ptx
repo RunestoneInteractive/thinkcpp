@@ -37,18 +37,18 @@ public:
         <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! We can omit the ``private:`` label because the data members are private by
             default
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try again.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -82,33 +82,33 @@ public:
         <statement>
           <p>Remove the ``private:`` label.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! ``Deck`` is still a ``struct``.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Change ``struct`` to ``class`` and remove the ``public:`` label.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We don't want to make the constructors and all member functions private.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Remove the ``public:`` label.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We don't want to make the constructors and all member functions private.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Change ``struct`` to ``class``.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! ``Deck`` is now a ``class`` and it's okay that we kept the ``private:`` label.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -121,17 +121,17 @@ public:
         <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! However, they cannot be accessed outside of the class.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We can access private data members as long as we are in the class.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

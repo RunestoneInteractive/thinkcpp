@@ -47,9 +47,9 @@ public:
     internal representations of cards without having to change any client
     programs.</p>
   <listing label="priv_data_AC_1">
-    <caption>
+    <title>
       Run this active code. Uncomment the commented out code to see what happens!
-    </caption>
+    </title>
     <program xml:id="priv_data_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -138,17 +138,17 @@ void Card::print() const {
         <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Data encapsulation should hide implementation details.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Data encapsulation prevents unrestricted access to internal representations.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -174,33 +174,33 @@ void Card::print() const {
         <statement>
           <p>getSuit</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>setRank</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! "Setter" functions are also known as "mutator" functions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>print</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>getRank</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

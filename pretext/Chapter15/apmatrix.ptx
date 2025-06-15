@@ -51,41 +51,41 @@ m3[1][2] = 10.0 * m2[0][0];</program>
         <statement>
           <p>int</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>vector&lt;int&gt;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>vector&lt;vector&lt;int&gt;&gt;</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This is a technically type of matrix!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>matrix</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Matrices can be made of matrices.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

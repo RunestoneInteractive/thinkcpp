@@ -2,7 +2,7 @@
 <exercises xml:id="chapter14_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
   <exercise label="mucp_14_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -53,7 +53,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_14_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -106,7 +106,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_14_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -156,7 +156,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_14_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -203,7 +203,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_14_5"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -250,7 +250,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_14_6"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -307,7 +307,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>, whic
     </blocks>
   </exercise>
   <exercise label="mucp_14_7"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -367,7 +367,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>, whic
     </blocks>
   </exercise>
   <exercise label="mucp_14_8"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -439,7 +439,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>, whic
     </blocks>
   </exercise>
   <exercise label="mucp_14_9"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -482,7 +482,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>, whic
     </blocks>
   </exercise>
   <exercise label="mucp_14_10"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

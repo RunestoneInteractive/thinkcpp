@@ -30,7 +30,6 @@ And that has made all the difference.</pre>
           </datafile>
         </fn> and prints the first 5 lines to the
   terminal. Include proper file error checking.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_1q">
         <code>
@@ -40,7 +39,7 @@ using namespace std;
 
 // Write your code here.
         </code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement this program. We create an <c>ifstream</c> object to open our file.
   We check to make sure the file is opened correctly before we use <c>getline</c> in a <c>for</c> loop to
@@ -83,7 +82,6 @@ will serve to organize and measure the best of our energies and skills,
 because that challenge is one that we are willing to accept, one we are
 unwilling to postpone, and one we intend to win, and the others, too.</pre>
       </datafile> -->
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_2q_editor">
         <code>
@@ -93,7 +91,7 @@ using namespace std;
 
 // Write your code here.
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_15_AC_2q_pp">
         <statement>
@@ -170,7 +168,6 @@ using namespace std;
         </fn>, finds the median of the data, and prints
   &#8220;The median height is: <c>height</c> inches&#8221; to the terminal. Include proper file error
   checking.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_3q">
         <code>
@@ -182,7 +179,7 @@ using namespace std;
 
 // Write your code here.
         </code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement this program. We create an <c>ifstream</c> object to open our file.
   We check to make sure the file is opened correctly before we read the data values into a vector.
@@ -229,7 +226,6 @@ int main() {
   your output file would look like, the contents of your output file will be displayed on the
   terminal. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_4q_editor">
         <code>
@@ -256,7 +252,7 @@ int main() {
    }
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_15_AC_4q_pp">
         <statement>
@@ -344,7 +340,6 @@ int main() {
           </datafile>
         </fn>applies ROT13, and outputs the result to
   the terminal. Include proper file error checking.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_5q">
         <code>
@@ -357,7 +352,7 @@ int main() {
     // Write your code here.
 }
         </code>
-    </program>
+    </program></statement>
     <solution>
       <p>Below is one way to implement this program. We create an <c>ifstream</c> object to open our file.
   We check to make sure the file is opened correctly before we read the data values into a string.
@@ -424,7 +419,6 @@ Faith    Flemmings  10       3.0    15
 Gina     Zhou       9        3.2    14</pre>
           </datafile></fn> and outputs the rows
   of data where a student has a GPA of at least 3.5. Include proper file error checking.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_7q">
         <code>
@@ -436,14 +430,12 @@ int main() {
     // Write your code here.
 }
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement this program. We create an <c>ifstream</c> object to open our
   file. We check to make sure the file is opened correctly before we read the data values into
   corresponding variables. We check if the GPA is at least 3.5, and print the data values to the
-  terminal if so.</p> Below is one way to implement this program. We create an ifstream object to
-  open our file. We check to make sure the file is opened correctly before we read the data values
-  into corresponding variables. We check if the GPA is at least 3.5, and print the data values to
-  the terminal if so. <program xml:id="cp_15_AC_7a">
+  terminal if so.</p>
+  <program xml:id="cp_15_AC_7a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -478,7 +470,6 @@ int main() {
   Include proper file error checking.
         Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_8q_editor">
         <code>
@@ -488,7 +479,7 @@ using namespace std;
 
 // Write your code here.
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_15_AC_8q_pp">
         <statement>
@@ -573,7 +564,6 @@ That- that's about it.</pre>
     <statement>
       <p>Write a program that creates a multiplication table for the first 10 numbers using a matrix
   and outputting the table to an output file called <c>mult_table.txt</c>. Include proper file error checking.</p>
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_9q">
         <code>
@@ -586,12 +576,11 @@ int main() {
     // Write your code here.
 }
         </code>
-    </program>
+    </program></statement>
     <solution><p>Below is one way to implement this program. We create a 10x10 matrix
         and fill in the products. Then we traverse through the matrix and output
-        the values into the output file.</p> Below is one way to implement this program. We create a
-  10x10 matrix and fill in the products. Then we traverse through the matrix and output the values
-  into the output file. <program xml:id="cp_15_AC_9a">
+        the values into the output file.</p>
+        <program xml:id="cp_15_AC_9a">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -637,7 +626,6 @@ int main() {
         The product of an mxn and an nxp matrix is an mxp matrix.
         Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="cp_15_AC_10q_editor">
         <code>
@@ -656,7 +644,7 @@ int main() {
    // Write your code here.
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="cp_15_AC_10q_pp">
         <statement>

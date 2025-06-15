@@ -30,10 +30,10 @@ c1.printPolar();</program>
   <console><output>2 + 3i
 3.60555 e^ 0.982794i</output></console>
   <listing label="fourteensix">
-    <caption>
+    <title>
       This active code uses the print functions for <c>Complex</c> objects. Feel free to modify the code
         and experiment around!
-    </caption>
+    </title>
     <program xml:id="fourteensix_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -139,33 +139,33 @@ int main() {
         <statement>
           <p>5 e^ 0.927295i</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3 + 4i</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try using the active code above.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2 + 3i</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try using the active code above.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>5 e^ 1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try using the active code above.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

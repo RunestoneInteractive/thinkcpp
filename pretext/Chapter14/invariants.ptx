@@ -46,33 +46,33 @@ setPolar</program>
         <statement>
           <p>It prevents unrestricted access to the instance variables by making them private.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Users must instead use accessor functions to access them.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>It allows users to directly modify private member variables.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>It makes it so that private data members can never be modified by any function.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>It eliminates the need for invariants.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try again.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -86,18 +86,18 @@ setPolar</program>
         <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The invariant just has to be true when the function is complete, given that
             it's true at the start.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try again.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -111,18 +111,18 @@ setPolar</program>
         <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try again.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! We only have to maintain the invariant if it was true at the start. If it's
             false, all bets are off.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -135,33 +135,33 @@ setPolar</program>
         <statement>
           <p>The interior angles of a ``Triangle`` object must add up to 180 degrees.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The sum of two sides of a ``Triangle`` object must be greater than the third.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>All angles of a ``Triangle`` object must be 60 degrees.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! An equilateral triangle is only one possible kind of triangle.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The greatest angle in a ``Triangle`` object must be less than 90 degrees.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We are allowed to have obtuse triangles.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

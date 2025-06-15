@@ -53,34 +53,34 @@
         <statement>
           <p>an abstract object that works exclusively with cin and cout statements</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Stream objects do work with cin and cout, but that is not all that they do!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>an abstract object on which input and ouput operations are performed</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>an abstract object that works only with file data</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Stream objects do work with file data, but they do other things too.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>an abstract object that controls the flow of statements</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is not at all what stream objects do, you should try re-reading to get
           a better understanding!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -88,9 +88,9 @@
     <statement>
       <p>Match the stream to its type.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>cin</premise>

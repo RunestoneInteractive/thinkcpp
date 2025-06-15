@@ -63,10 +63,10 @@ Abort</program>
     including the file name and line number of the assertion that failed,
     the function name and the contents of the assert statement.</p>
   <listing label="fourteenten">
-    <caption>
+    <title>
       This active code uses the updated <c>calculateCartesian</c> with assert statements. Notice how because <c>c1</c>
         is not in polar, the assert statement in <c>calculateCartesian</c> fails and thus we get an error.
-    </caption>
+    </title>
     <program xml:id="fourteenten_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -205,34 +205,34 @@ void Complex::setCartesian(double r, double i) {
         <statement>
           <p>Assume assumptions are always true.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Assumptions can turn out to be true or false.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Only check the preconditions.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! In order to maintain invariance, we must ensure that postconditions are met
             as well.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Document assumptions explicitly as part of the program.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Write code that checks assumptions, like using assert statements.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

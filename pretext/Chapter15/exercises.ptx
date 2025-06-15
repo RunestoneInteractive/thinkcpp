@@ -8,44 +8,44 @@
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_1_opt_a">
+        <statement>
           <p>
             <c>iostream</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This library deals with communication through the standard input and output.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_1_opt_b">
+        <statement>
           <p>
             <c>sstream</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This library is used to manipulate string objects as if they were streams.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_1_opt_c">
+        <statement>
           <p>
             <c>fstream</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This library is used to manipulate files using streams.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_1_opt_d">
+        <statement>
           <p>
             <c>iomanip</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This library is used to modify internal flags and formatting options.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -69,36 +69,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_2_opt_a">
+        <statement>
           <p>We should use <c>ofstream</c> instead of <c>ifstream</c>.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since we are dealing with an input file, we should use <c>ifstream</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_2_opt_b">
+        <statement>
           <p>The arguments in <c>getline</c> are incorrect.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We are supposed to read input through the <c>ifstream</c> object. This line should be <c>getline(infile, input)</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_2_opt_c">
+        <statement>
           <p>We cannot use a variable to store the filename.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Since the name of the file is just a string, we can store it in a variable.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_2_opt_d">
+        <statement>
           <p>There are no errors with this code.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take another look at the code. Are we reading the input correctly into <c>input</c>?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -109,52 +109,52 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_3_opt_a">
+        <statement>
           <p>
             <c><![CDATA[if (infile.good()) { 
   cout << "File opened unsuccessfully" << endl; 
 }]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           If the <c>if</c> statement evaluates to true, then the file was opened successfully.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_3_opt_b">
+        <statement>
           <p>
             <c><![CDATA[if (!infile.is_open()) {
   cout << "File opened unsuccessfully" << endl;
 }]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           <c>is_open()</c> is another function that returns <c>true</c> if a file is opened successfully.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_3_opt_c">
+        <statement>
           <p>
             <c><![CDATA[if (infile.good() == false) {
   cout << "File opened unsuccessfully" << endl;
 }]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           If the file isn't opened successfully, an error message is printed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_3_opt_d">
+        <statement>
           <p>
             <c><![CDATA[if (!infile.open()) {
   cout << "File opened unsuccessfully" << endl;
 }]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>open()</c> function is different from <c>is_open()</c> and does not return a <c>bool</c>.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -164,28 +164,28 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_4_opt_b">
+        <statement>
           <p>We can assume the program opens all files successfully.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There are times when a file can't be properly opened because they may have not been properly closed the last time they were used or the file is currently used by another program. As a result, it is good practice to include a check in your program.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_4_opt_c">
+        <statement>
           <p>A stream is an abstract object that represents the flow of data from a source.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We've used two streams before: the standard input stream and standard output stream (<c>cin</c> and <c>cout</c>).
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_4_opt_d">
+        <statement>
           <p>We cannot use the operators <c>&lt;&lt;</c> and <c>&gt;&gt;</c>, as they are for <c>iostream</c> objects only.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           We are also able to use the operators for <c>fstream</c> objects.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -213,36 +213,36 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_15_5_opt_a">
+        <statement>
           <p>2 4 8 16 32 64</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the only thing we write to the output file.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_5_opt_b">
+        <statement>
           <p>Powers of 2: 2 4 8 16 31 64</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take another look at the stream objects used in the code.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_5_opt_c">
+        <statement>
           <p>Powers of 2:</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is printed to standard output, not the output file.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_5_opt_d">
+        <statement>
           <p>Unable to open file</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although this may be printed, this is not the contents of the output file.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -281,44 +281,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_6_opt_a">
+        <statement>
           <p>
             <c>cout &lt;&lt; avg &lt;&lt; endl</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This will output the average to standard output.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_6_opt_b">
+        <statement>
           <p>
             <c><![CDATA[outfile << avg << endl]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take another look at the code. Is there a clue as to what data should be in the output file?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_6_opt_c">
+        <statement>
           <p>
             <c><![CDATA[infile << studentNum << "\t" << avg << endl]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           The data should be written to the output file.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_6_opt_d">
+        <statement>
           <p>
             <c><![CDATA[outfile << studentNum << "\t" << avg << endl]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This properly outputs the student number and the student's average to the output file.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -347,36 +347,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_7_opt_a">
+        <statement>
           <p>The code converts the original string to an integer and outputs the integer.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at the contents of the <c>for</c> loop.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_7_opt_b">
+        <statement>
           <p>The code converts an integer to a string and outputs the string.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What does the <c>atoi</c> function do?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_7_opt_c">
+        <statement>
           <p>The code outputs the sum of all the original string's digits.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>digitString</c> variable is a <c>string</c>, not an <c>int</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_7_opt_d">
+        <statement>
           <p>The code converts the original string to an integer in reverse and outputs the integer in reverse.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The code in the <c>for</c> loop parses the string in reverse.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -386,36 +386,36 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_15_8_opt_a">
+        <statement>
           <p>A set can contain multiple elements with the same value.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           All elements in a set are unique.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_8_opt_b">
+        <statement>
           <p>We can identify elements of a set by each element's index.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Each element has an index associated with it.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_8_opt_c">
+        <statement>
           <p>The elements of a <c>Set</c> are always sorted.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Although a set is ordered, it is not necessarily sorted.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_8_opt_d">
+        <statement>
           <p>The size of a <c>Set</c> object is fixed.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>Set</c> data structure can expand to make room for new elements.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -425,44 +425,44 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_9_opt_a">
+        <statement>
           <p>
             <c><![CDATA[matrix<string> m1(2);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           A <c>matrix</c> has two dimensions and this constructor only has one dimension.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_9_opt_b">
+        <statement>
           <p>
             <c><![CDATA[matrix<int> m2(2, 6, 0);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This creates a <c>matrix</c> with 2 rows and 6 columns with all of its elements equal to 0.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_9_opt_c">
+        <statement>
           <p>
             <c><![CDATA[matrix<char> m3(m2);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This creates <c>m3</c> to be a copy of <c>m2</c>.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_9_opt_d">
+        <statement>
           <p>
             <c><![CDATA[matrix<int> m2(2.4, 2);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           There must be a whole number of rows and columns.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -507,36 +507,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_15_10_opt_a">
+        <statement>
           <p>8</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The matrix only contains even sums of the row and column indices and 0 otherwise. Thus, the sum of all elements is 8.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_10_opt_b">
+        <statement>
           <p>16</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What does the secret function do?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_15_10_opt_c">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What are the contents of the matrix?
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_15_10_opt_d">
+        <statement>
           <p>9</p>
         </statement>
-        <feedback>
+        <feedback><p>
           What are the contents of the matrix?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

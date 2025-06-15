@@ -30,7 +30,6 @@ sum.printCartesian();</program>
         function for <c>Complex</c> objects in the commented area of the active code. If you get stuck, you
         can reveal the hint below for help. Once you are finished, feel free to modify the code and
         experiment around!</p>
-    </statement>
     <program xml:id="fourteenseven_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -136,11 +135,11 @@ Complex add (Complex&amp; a, Complex&amp; b) {
   return sum;
 }
 </tests>
-    </program>
+    </program></statement>
     <hint>
       <title>subtract</title>
       <activity label="question14_6_1"
-                numbered="yes"
+                number="yes"
                 adaptive="yes"
                 indentation="hide">
         <statement>
@@ -210,33 +209,33 @@ int main() {
         <statement>
           <p>3.1i + 1.9i</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try using the active code above.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>1.9i + 3.1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try using the active code above.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3.0 + 1.9i</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try using the active code above.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>3.1 + 1.9i</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

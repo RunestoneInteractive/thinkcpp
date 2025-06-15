@@ -77,34 +77,34 @@ int main() {
         <statement>
           <p>takes the absolute value of a number</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Go back and read for the answer.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>converts a double to an int</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Go back and read for the answer.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>converts a string to an int</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This is very helpful when we read numbers from a file (where they are
             strings).
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>converts an int to a string</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Go back and read for the answer.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -117,46 +117,46 @@ int main() {
         <statement>
           <p>2020</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This one is quite simple.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>ab,jkl2!!moo0?huh2mth0haha.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This long, confusing string will clean up nicely!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>2,00!!!!!!!!2</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>2OOO020OOOOO</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! You have to look closely to see that some of these are 0's!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>we2love0parsing2numbersO!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Although we do love parsing numbers, this is incorrect.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question15_6_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

@@ -80,34 +80,34 @@ int index = line.find('\"');
         <statement>
           <p>to scan an entire program for errors</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is included in the debugging process.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>to run a program start to finish and record the run time</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is included in the debugging process.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>to analyze the structure of a statement in a formal language</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The compiler has to parse the program before it can translate it into machine
             language!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>to search an entire program for a statement</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You can use control (command) + F to find a particular statement.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -141,7 +141,7 @@ int index = line.find('\"');
     </evaluation>
   </exercise>
   <exercise label="question15_5_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

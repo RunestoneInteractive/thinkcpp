@@ -24,9 +24,9 @@
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>ordered set</premise>
@@ -34,7 +34,7 @@
       </match>
       <match order="2">
         <premise>stream</premise>
-        <response>a data structure that represents a <q>flow</q> or sequence of data items from one place to another. In C++ streams are used for input and output</response>
+        <response><p>a data structure that represents a <q>flow</q> or sequence of data items from one place to another. In C++ streams are used for input and output</p></response>
       </match>
       <match order="3">
         <premise>accumulator</premise>

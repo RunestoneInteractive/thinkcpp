@@ -74,9 +74,9 @@ int main()
 
         Finish each sentence.</p>
     </statement>
-    <feedback>
+    <feedback><p>
       Try again!
-    </feedback>
+    </p></feedback>
     <matches>
       <match order="1">
         <premise>The constructor is</premise>
@@ -136,7 +136,7 @@ int main()
     </evaluation>
   </exercise>
   <exercise label="question15_3_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

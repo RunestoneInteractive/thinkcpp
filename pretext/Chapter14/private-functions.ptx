@@ -39,12 +39,12 @@ public:
     void setCartesian(double r, double i);
     void setPolar(double m, double t);
 };</program>
-  <note>The <c>private</c> label at the beginning is not necessary, but it is a useful reminder.</note>
+  <note><p>The <c>private</c> label at the beginning is not necessary, but it is a useful reminder.</p></note>
   <listing label="fourteeneleven">
-    <caption>
+    <title>
       This active code updates <c>calculatePolar</c> and <c>calculateCartesian</c> to be private functions. Notice how we are no
         longer able to call <c>calculateCartesian</c> in main. Feel free to modify the code and experiment around!
-    </caption>
+    </title>
     <program xml:id="fourteeneleven_editor"
              interactive="activecode"
              line-numbers="yes">

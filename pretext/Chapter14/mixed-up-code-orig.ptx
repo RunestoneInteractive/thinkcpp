@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <section xml:id="chapter14_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
-  <exercise label="mucp_14_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_14_1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's write the class definition for <c>Circle</c>. <c>Circle</c> should have its
             radius stored in a private member variable. Also write the constructor
@@ -45,7 +45,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_14_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Now that we have our <c>Circle</c> class, let's write some accessor
             functions! Write the <c>Circle</c> member functions <c>getRadius</c>
@@ -95,7 +95,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_14_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Write a <c>main</c>. In <c>main</c>, create a <c>Circle</c> with radius 2.4
             and output the radius. Then change the radius to 3.6 and output
@@ -137,7 +137,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_14_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>A <c>Rectangle</c> can be constructed given only two points. First,
             write the class definition for <c>Point</c>, which stores an x and
@@ -183,7 +183,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_14_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Now that we've defined the <c>Point</c> class, we can go back to
             writing the <c>Rectangle</c> class. <c>Rectangle</c> should store
@@ -229,7 +229,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_14_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Write the <c>Rectangle</c> member function <c>calculateSides</c>, which finds
             the length and height of the rectangle using the stored <c>Point``s.
@@ -278,7 +278,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>,
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_14_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Write a <c>main</c> In <c>main</c>, create a <c>Rectangle</c> with corners
             at (2.5, 7.5) and (8, 1.5). Print out the length and height, calculate the area,
@@ -333,7 +333,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>,
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_14_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the <c>Date</c> class. <c>Date</c> stores information
             about the day, month, and year in private variables, in addition to a <c>vector</c>
@@ -400,7 +400,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>,
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_14_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write the <c>Date</c> member function, <c>printDate</c>,
             which prints the date out in the following format: month/day/year CE/BCE
@@ -439,7 +439,7 @@ Afterwards, write the ``Rectangle</c> member function <c>calculateArea</c>,
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_14_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_14_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Write the <c>Date</c> member function <c>isLeapYear</c>, which returns true if
             the year is a leap year. Then write the <c>Date</c> member function <c>lastDayInMonth</c>,

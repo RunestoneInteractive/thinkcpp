@@ -22,7 +22,7 @@ int main() {
  }
 }</program>
   <exercise label="question15_4_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -74,18 +74,18 @@ int main() {
           <p>Create two "for" loops instead of an if-statement so that the statement loops through
             both conditions once.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Create a "while" loop instead of an if-statement so that the statement loops through
             both conditions separately until the body of the loop is reached.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
@@ -93,9 +93,9 @@ int main() {
             that checks whether out_file.good() is false, instead of putting them together in one
             "if" statement.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

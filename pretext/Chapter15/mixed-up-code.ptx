@@ -2,7 +2,7 @@
 <exercises xml:id="chapter15_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
   <exercise label="mucp_15_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -50,7 +50,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -101,7 +101,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -157,7 +157,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -227,7 +227,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_5"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -300,7 +300,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_6"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -367,7 +367,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_7"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -413,7 +413,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_8"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -473,7 +473,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_9"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -525,7 +525,7 @@
     </blocks>
   </exercise>
   <exercise label="mucp_15_10"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
