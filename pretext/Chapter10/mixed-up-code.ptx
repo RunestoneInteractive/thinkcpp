@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <exercises xml:id="chapter10_mixed-up-code-exercises-1">
-  <title>Mixed-Up Code Exercises</title>
-  <p>Answer the following <term>Mixed-Up Code</term> questions to assess what you have learned in
-    this chapter.</p>
+    <title>Mixed-Up Code Exercises</title>
+    <introduction><p>
+        Answer the following <term>Mixed-Up Code</term> questions to assess what you have learned in
+        this chapter.
+    </p></introduction>
   <exercise label="vectors_p1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -43,7 +45,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -83,7 +85,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -127,7 +129,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -166,7 +168,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p5"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -215,7 +217,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p6"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -257,7 +259,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p7"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -301,7 +303,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p8"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -343,7 +345,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p9"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -387,7 +389,7 @@
     </blocks>
   </exercise>
   <exercise label="vectors_p10"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>

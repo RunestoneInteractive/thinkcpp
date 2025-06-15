@@ -1,14 +1,15 @@
 <exercises xml:id="chapter10_activecode-exercises">
-  <title>Activecode Exercises</title>
-  <p>Answer the following <term>Activecode</term> questions to assess what you have learned in this
-    chapter.</p>
+    <title>Activecode Exercises</title>
+    <introduction><p>
+        Answer the following <term>Activecode</term> questions to assess what you have
+        learned in this chapter.
+    </p></introduction>
   <exercise label="vectors_a1">
     <statement>
       <p>Fix the code below so that it creates a vector with 5 elements initialized to 1, and
         changes
         the third element of that vector to a 2.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a1q_editor">
 
@@ -28,15 +29,13 @@ int main () {
 
 </tests>
 
-    </program>
+    </program></statement>
     <solution>
-      <statement>
         <p>Below is one way to fix the program. You must always include the <c>&lt;vector&gt;</c> header when
           dealing with vectors. Furthermore, to initialize a vector&#8217;s elements to a certain
           value, you must include that value as a second argument to the size. Finally, vectors are
           zero-indexed.</p>
 
-      </statement>
       <program xml:id="vectors_a1a_editor">
 
         <code>
@@ -63,7 +62,6 @@ int main () {
     <statement>
       <p>Fix the function below so that it returns how many even numbers are in <c>nums</c>. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a2_editor">
         <code>
@@ -85,7 +83,7 @@ int main() {
     cout &lt;&lt; evenCount(vec) &lt;&lt; endl;
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="vectors_a2_pp">
         <statement>
@@ -140,7 +138,6 @@ int main() {
       <p>Fix the function below so that it creates a vector of all of the words in <c>words</c> that end
         with the passed character.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a3q_editor">
 
@@ -166,15 +163,13 @@ int endsWith(const vector&lt;string&gt;&amp; vec, char c) {
 
 </tests>
 
-    </program>
+    </program></statement>
     <solution>
-      <statement>
         <p>Below is one way to fix the function. You must initialize <c>count</c> to zero. You also must
           initialize <c>last</c> as an integer. To access a string <em>inside</em> of <c>vec</c>, we use <c>vec[i]</c>.
           To get the last character, we must index the string to the last index, which is one less
           than the length of the string.</p>
 
-      </statement>
       <program xml:id="vectors_a3a_editor">
 
         <code>
@@ -211,7 +206,6 @@ int endsWith(const vector&lt;string&gt;&amp; vec, char c) {
         been exposed.
         Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a4_editor">
         <code>
@@ -230,7 +224,7 @@ int main () {
     }
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="vectors_a4_pp">
         <statement>
@@ -286,7 +280,6 @@ int main () {
       <p>Finish the code below so that it creates removes elements from the end of the vector until
         it ends with <c>"stop"</c>.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a5q_editor">
 
@@ -310,13 +303,11 @@ int main () {
 
 </tests>
 
-    </program>
+    </program></statement>
     <solution>
-      <statement>
         <p>Below is one way to finish the program. We just use the <c>pop_back</c> function until the last
           element of the vector is <c>"stop"</c>.</p>
 
-      </statement>
       <program xml:id="vectors_a5a_editor">
 
         <code>
@@ -349,7 +340,6 @@ int main () {
         vector until it ends with an even number. Check the hint below for help with the
         construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a6_editor">
         <code>
@@ -368,7 +358,7 @@ int main() {
     }
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="vectors_a6_pp">
         <statement>
@@ -412,7 +402,6 @@ int main() {
         vector <c>vec</c> contains the character <c>let</c>. It should return true if all strings contain
         the <c>let</c>.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a7q_editor">
 
@@ -426,14 +415,12 @@ using namespace std;
 
 </tests>
 
-    </program>
+    </program></statement>
     <solution>
-      <statement>
         <p>Below is one way to finish the program. We loop through the vector, and we loop through
           each string inside it. If the string has the character, it is added to <c>count</c>. We then
           check whether <c>count</c> is equal to the number of elements in <c>vec</c> and return a boolean.</p>
 
-      </statement>
       <program xml:id="vectors_a7a_editor">
 
         <code>
@@ -474,7 +461,6 @@ int has_char(const vector&lt;string&gt;&amp; vec, char let) {
         1 and <c>max</c>, inclusive. Check the hint below for help with the construction of the
         code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a8_editor">
         <code>
@@ -495,7 +481,7 @@ int main() {
     }
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="vectors_a8_pp">
         <statement>
@@ -545,7 +531,6 @@ int main() {
     <statement>
       <p>Write the function <c>mean</c> which returns the average of a vector of numbers.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a9q_editor">
 
@@ -559,13 +544,11 @@ using namespace std;
 
 </tests>
 
-    </program>
+    </program></statement>
     <solution>
-      <statement>
         <p>Below is one way to finish the program. First we take the sum, then divide the sum by the
           number of elements in <c>nums</c>.</p>
 
-      </statement>
       <program xml:id="vectors_a9a_editor">
 
         <code>
@@ -596,7 +579,6 @@ double mean (const vector&lt;double&gt; nums) {
         that are divisible by 100. Check the hint below for help with the construction of the
         code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a10_editor">
         <code>
@@ -612,7 +594,7 @@ int main() {
     cout &lt;&lt; hundyBundy(vec) &lt;&lt; endl;
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="vectors_a10_pp">
         <statement>
@@ -668,7 +650,6 @@ int main() {
         integers. We don&#8217;t want any negative values so don&#8217;t subtract 1 from 0. (
         remember to take in the vector by reference to make changes to the actual vector! )</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a11q_editor">
 
@@ -682,14 +663,12 @@ using namespace std;
 
 </tests>
 
-    </program>
+    </program></statement>
     <solution>
-      <statement>
         <p>Below is one way to finish the program. We us the modulus operator to check for even
           numbers and decrement them.
           we keep an extra check for 0 to make sure wew are not decrementing 0.</p>
 
-      </statement>
       <program xml:id="vectors_a11a_editor">
 
         <code>
@@ -722,7 +701,6 @@ void make_odd ( vector&lt;int&gt; &amp;nums) {
         order and then prints the second half in the order present in the vector. If we had <c>vec = {1,2,3,4,5,6}</c>
         we would print <c>3 2 1 4 5 6</c>. You can assume the size of the vector will always be even. Check the hint below for help with the construction of the code.</p>
 
-    </statement>
     <program interactive="activecode"
              xml:id="vectors_a12_editor">
         <code>
@@ -738,7 +716,7 @@ int main() {
     weird_print(vec);
 }
         </code>
-    </program>
+    </program></statement>
     <hint>
       <activity label="vectors_a12_pp">
         <statement>

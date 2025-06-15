@@ -29,10 +29,13 @@ vector&lt;int&gt; count (4);
     which is the size of the new vector.</p>
   <p>The following figure shows how vectors are represented in state
     diagrams:</p>
-  <figure align="center">
-    <image source="Chapter10/Images/10.1state_diagram.png"
-           width="50%"
-           alt="'count' names a box. In it is a row of 4 boxes labeled 0 through 3. Each numbered box has 0 inside.'"/>
+  <figure>
+      <caption>Representation of vector</caption>
+      <image source="Chapter10/Images/10.1state_diagram.png" width="50%">
+          <description><p>
+              'count' names a box. In it is a row of 4 boxes labeled 0 through 3. Each numbered box has 0 inside.'
+          </p></description>
+      </image>
   </figure>
   <p>The large numbers inside the boxes are the <term>elements</term> of the vector. The small
     numbers outside the boxes are the indices used to identify each box. When you allocate a new
@@ -50,44 +53,44 @@ vector&lt;int&gt; count (4, 0);
     </statement>
     <choices>
       <choice>
-        <statement id="vectors_1_opt_a">
+        <statement>
           <p>
             <c><![CDATA[vector<string> words ("", 5);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Vector parameters are in the wrong order.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="vectors_1_opt_b">
+        <statement>
           <p>
             <c><![CDATA[vector<string> words (5);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Vector elements are default constructed to empty strings.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="vectors_1_opt_c">
+        <statement>
           <p>
             <c><![CDATA[vector<string> words (5, "");]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! We made a vector of strings with 5 elements, initialized to empty strings.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="vectors_1_opt_d">
+        <statement>
           <p>
             <c><![CDATA[vector<char> words (5, '');]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! words should be a vector of strings.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -101,41 +104,41 @@ vector&lt;int&gt; count (4, 0);
         <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is an integer, not a string.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>"a"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>'a'</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is a character, not a string.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>"word"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>"1"</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -149,33 +152,33 @@ vector&lt;int&gt; count (4, 0);
         <statement>
           <p>initializer</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Go back and read to find the answer!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>constructor</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>creator</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Go back and read to find the answer!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>instance function</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Go back and read to find the answer!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -188,28 +191,28 @@ vector&lt;int&gt; numbers(6);
     </statement>
     <choices>
       <choice>
-        <statement id="vectors_4_opt_a">
+        <statement>
           <p>undefined (we don't know the values)</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Integers are default constructed to a known value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="vectors_4_opt_b">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Integers are default constructed to a zero value.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="vectors_4_opt_c">
+        <statement>
           <p>6</p>
         </statement>
-        <feedback>
+        <feedback><p>
           6 is the size we want the vector to be.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

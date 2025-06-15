@@ -29,9 +29,9 @@ while (i &lt; 4) {
   i++;
 }</program>
   <listing label="for_loops_AC_1">
-    <caption>
+    <title>
       Run this active code, which uses a <c>for</c> loop.
-    </caption>
+    </title>
     <program xml:id="for_loops_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -51,9 +51,9 @@ int main() {
     </program>
   </listing>
   <listing label="for_loops_AC_2">
-    <caption>
+    <title>
       Run this active code, which uses a <c>while</c> loop.
-    </caption>
+    </title>
     <program xml:id="for_loops_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -76,10 +76,10 @@ int main() {
 
   <p>The <c>INCREMENTOR</c> does not have to do <c>++</c> to a variable. It can be any statement you like, but it should do something to modify the looping variable. If you want to count down, you could use <c>i--</c> as your <c>INCREMENTOR</c>.</p>
   <listing label="for_loops_AC_3">
-    <caption>
+    <title>
       Run this active code, which uses a <c>for</c> loop with a negative change in the <q>
         INCREMENTOR</q>.
-    </caption>
+    </title>
     <program xml:id="for_loops_AC_3_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -128,38 +128,38 @@ int main() {
         <statement>
           <p>in the BODIES of both loops</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>in the BODY of a for loop, and in the statement of a while loop</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>in the statement of a for loop, and in the BODY of a while loop</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>in the statements of both loops</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="question10_4_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

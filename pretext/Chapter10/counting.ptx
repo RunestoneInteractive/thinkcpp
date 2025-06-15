@@ -37,11 +37,11 @@
   return count;
 }</program>
   <listing label="counting_AC_1">
-    <caption>
+    <title>
       Take a look at this active code which uses the <c>howMany</c> function. Run the code to see how
         many times the target appears in the vector! Feel free to modify the code and experiment
         around.
-    </caption>
+    </title>
     <program xml:id="counting_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -101,43 +101,43 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
           <p>a method of programming where you write simple "helper" functions that are later
             incorporated into larger functions</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Bottom-up design starts with a lot of small functions and assembles them into
             a few larger ones that accomplish a task.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>a method of programming in which you tackle the largest functions first, and save the
             simple functions for later</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is describing top-down design.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>a method of programming where you break the task down into smaller and smaller
             components until it cannot be simplified further</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is describing top-down design.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>a method of programming where you use the minimum number of functions to accomplish the
             task</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Bottom-up design uses many simple functions rather than a few complex ones,
             so it is not minimizing the number of functions being used.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="counting_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

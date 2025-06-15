@@ -14,9 +14,9 @@ vector&lt;int&gt; countCopy = count;
 </program>
   <p>The <c>=</c> operator works on <c>vector</c>s in pretty much the way you would expect.</p>
   <listing label="copying_vectors_AC_1">
-    <caption>
+    <title>
       Take a look at this active code, which uses the copy constructor.
-    </caption>
+    </title>
     <program xml:id="copying_vectors_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -62,44 +62,44 @@ void print_vec(vector&lt;int&gt; vec) {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="copying_vectors_1_opt_a">
+        <statement>
           <p>
             <c><![CDATA[vector<double> nums = decimals;]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is one way to make a copy.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="copying_vectors_1_opt_b">
+        <statement>
           <p>
             <c><![CDATA[vector<double> decimals = nums;]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This makes a copy of nums called decimals.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="copying_vectors_1_opt_c">
+        <statement>
           <p>
             <c><![CDATA[vector<double> nums (decimals);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is one way to make a copy.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="copying_vectors_1_opt_d">
+        <statement>
           <p>
             <c><![CDATA[vector<double> decimals (nums);]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This makes a copy of nums called decimals.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

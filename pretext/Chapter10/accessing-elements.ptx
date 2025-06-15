@@ -11,10 +11,13 @@ count[2]++;
 count[3] -= 60;</program>
   <p>All of these are legal assignment statements. Here is the effect of this
     code fragment:</p>
-  <figure align="center">
-    <image source="Chapter10/Images/10.2count_diagram.png"
-           width="50%"
-           alt="'count' names a box. In it is a row of 4 boxes labeled 0 through 3. Each numbered box has 0 inside.'"/>
+  <figure>
+      <caption>Acessing elements</caption>
+      <image source="Chapter10/Images/10.2count_diagram.png" width="50%">
+          <description><p>
+              'count' names a box. In it is a row of 4 boxes labeled 0 through 3. Each numbered box has 0 inside.'
+          </p></description>
+      </image>
   </figure>
   <warning>
     <p>Since elements of this vector are numbered from 0 to 3, there is no element with the index 4.
@@ -35,10 +38,10 @@ while (i &lt; 4) {
     element. This type of vector traversal is very common. Vectors and loops go together like fava
     beans and a nice Chianti.</p>
   <listing label="accessing_elements_AC_1">
-    <caption>
+    <title>
       Take a look at this active code. We can modify the vectors by accessing
       its elements.
-    </caption>
+    </title>
     <program xml:id="accessing_elements_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -74,51 +77,52 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="accessing_elements_1_opt_a">
+        <statement>
           <p>
             <c>vec[3] = vec[3]++;</c>
           </p>
         </statement>
-        <feedback> Incorrect! This is actually incrementing the 4th element of <term>vec</term>,
-          since vectors are zero indexed. </feedback>
+        <feedback><p>Incorrect! This is actually incrementing the 4th element of <term>vec</term>,
+          since vectors are zero indexed.</p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_elements_1_opt_b">
+        <statement>
           <p>
             <c>vec(3) = vec(3) + 1;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is not proper syntax.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="accessing_elements_1_opt_c">
+        <statement>
           <p>
             <c>vec[2]++;</c>
           </p>
         </statement>
-        <feedback>
-          <c>vec[2]</c> is the third element and we increment it by using the <c>++</c> operator. </feedback>
+        <feedback><p>
+          <c>vec[2]</c> is the third element and we increment it by using the <c>++</c> operator.</p></feedback>
       </choice>
       <choice>
-        <statement id="accessing_elements_1_opt_d">
+        <statement>
           <p>
             <c>vec(2) = vec(2)++;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not proper syntax.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="accessing_elements_1_opt_e">
+        <statement>
           <p>
             <c>vec[2] = vec[2] + 1</c>
           </p>
         </statement>
-        <feedback>
-          <c>vec[2]</c> is the third element and we increment it by adding 1. </feedback>
+        <feedback><p>
+            <c>vec[2]</c> is the third element and we increment it by adding 1.
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

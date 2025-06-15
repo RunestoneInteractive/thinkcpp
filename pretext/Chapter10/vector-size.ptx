@@ -24,9 +24,9 @@ for (i = 0; i &lt; count.size(); i++) {
     size in some variable by calling the <c>size</c> function before the loop begins, and use this
     variable to check for the last element.</p>
   <listing label="vector_size_AC_1">
-    <caption>
+    <title>
       Try running this active code!
-    </caption>
+    </title>
     <program xml:id="vector_size_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -89,33 +89,33 @@ int main() {
         <statement>
           <p>5</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is what gets returned by nums.size()
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is the element before nums[nums.size()]
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>none of the above due to runtime error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! This would be indexing out of bounds and would cause a runtime error.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

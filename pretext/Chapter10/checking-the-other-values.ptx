@@ -53,25 +53,25 @@ for (int i = 0; i &lt; upperBound; i++) {
         <statement>
           <p>inside of the for loop.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>outside of the for loop, but inside of the function it's used in.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The variable goes out of scope as soon as the for loop terminates!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>outside of the function, and everywhere else in the program.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The variable goes out of scope as soon as the for loop terminates!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -85,36 +85,36 @@ for (int i = 0; i &lt; upperBound; i++) {
         <statement>
           <p>the difference between actual and expected number of appearances increases</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The numbers go from being off by less than 5 to more than 100.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>the difference between actual and expected number of appearances decreases</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Take a look at the numbers again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>the percent by which the number of appearances differs from the expected number
             increases</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Take a look at the numbers again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>the percent by which the number of appearances differs from the expected number
             decreases</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! As we continue to increase the size of numValues, the percent by which the
             number of appearances differes from the expected value approaches 0.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

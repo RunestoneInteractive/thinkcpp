@@ -7,7 +7,7 @@
     not know the size of the vector beforehand. So we need wish add new values to the end of a
     vector as the user inputs them. We can use then vector function <c>push_back</c> for that purpose.</p>
   <listing label="vector-from-input">
-    <caption>A program that reads in numbers, adding each to a vector, until the user inputs -1.</caption>
+    <title>A program that reads in numbers, adding each to a vector, until the user inputs -1.</title>
   <program>#include &lt;iostream&gt;
 #include &lt;vector&gt;
 using namespace std;
@@ -33,10 +33,10 @@ int main() {
       end of a vector.</p>
   </note>
   <listing label="vector_functions_AC_1">
-    <caption>
+    <title>
       This active code uses the <c>push_back</c> function to add even numbers less than or equal to 10 to
         the vector <c>values</c>.
-    </caption>
+    </title>
     <program xml:id="vector_functions_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -84,38 +84,38 @@ void print_vec(vector&lt;int&gt; vec) {
         <statement>
           <p>5</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is the size of the vector before we ran the command.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>6</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>7</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>8</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We are adding the element 3 to the end of the vector, not 3 elements!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="vector_functions_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -201,27 +201,27 @@ cout << endl;
         <statement>
           <p>4 3 2 1 0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           we change the numbers in the first half of the vector before we copy them to the second
             half
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>4 3 2 3 4</p>
         </statement>
-        <feedback>
-          when <code>i</code> is 3 we copy from <code>end = 1</code> copying the values we
+        <feedback><p>
+          when <c>i</c> is 3 we copy from <c>end = 1</c> copying the values we
             already changed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>0 1 2 3 4</p>
         </statement>
-        <feedback>
+        <feedback><p>
           we change values in the second loop.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

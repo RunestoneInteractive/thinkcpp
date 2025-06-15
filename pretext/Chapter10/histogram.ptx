@@ -33,33 +33,33 @@ for (int i = 0; i &lt; upperBound; i++) {
         <statement>
           <p>Vectors require more typing than using individual variables to store data.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Vectors require less typing than using individual varaibles to store data.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Vectors create multiple storage locations at once under the same name.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Once you store something in a vector, you cannot change its value.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The values of vector elements can always be changed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Each storage location of a vector is accessed by indexing.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

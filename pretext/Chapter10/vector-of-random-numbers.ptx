@@ -34,9 +34,9 @@ printVector(vector);</program>
   </console>
   <p>which is pretty random-looking. Your results might be different.</p>
   <listing label="vector_of_rand_nums_AC_1">
-    <caption>
+    <title>
       Try running this active code.
-    </caption>
+    </title>
     <program xml:id="vector_of_rand_nums_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -113,36 +113,36 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
         <statement>
           <p>more uniform</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>less uniform</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! As we store more random numbers in a vector, we see that the frequencies of
           each number are approximately equal.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>more normal</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The distribution of random numbers is not related to the normal
           distribution.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>less normal</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The distribution of random numbers is not related to the normal
           distribution.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -164,17 +164,17 @@ void dostuff(const vector<int> & vec) {
         <statement>
           <p>yes we would get a compile error</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! we can't make changes to a vector we take in by constant reference
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>no we would not because values remain same.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Even if we keep the values same we are editing a constant which is not allowed.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

@@ -2,7 +2,7 @@
 <section xml:id="chapter10_mixed-up-code-exercises-1">
   <title>Mixed-Up Code Exercises</title>
   <p>Answer the following <term>Mixed-Up Code</term> questions to assess what you have learned in this chapter.</p>
-  <exercise label="vectors_p1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p1" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Construct a block of code that changes the first element of <c>vec</c> to a 6,
             multiplies the third element of <c>vec</c> by 2, and increments the last element
@@ -34,7 +34,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Construct a block of code that creates a vector called <c>digs</c> whose elements are
             7, 8, 7, 8.  Then access elements to change the <c>digs</c> to contain the elements
@@ -68,7 +68,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Construct a block of code that creates a vector called <c>nums</c> whose elements are five 1's.
             Then make a copy of this vector called <c>digits</c>, and use vector operations to change
@@ -105,7 +105,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p4" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p4" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Construct a block of code that loops over a vector called <c>numbers</c>
             and transforms the vector so each element is doubled.</p>
@@ -137,7 +137,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p5" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p5" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Suppose you have the vector <c><![CDATA[vector<string> words = {"car", "cat", "switch", "princess"}]]></c>
             Construct a block of code that transforms the vector to
@@ -181,7 +181,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p6" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p6" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Suppose you run Club Keno, and you are in charge of picking the 20
             random numbered balls between 1 and 80.  Construct a block of code that
@@ -217,7 +217,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p7" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p7" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p><![CDATA[Suppose <code>album</code> has already been defined as
             ]]><c><![CDATA[vector<string> album = {"imagine", "needy", "NASA", "bloodline", "fake smile", "bad idea", "make up", "ghostin", "in my head", "7 rings", "thank u, next", "break up with your girlfriend, i'm bored"}]]></c>
@@ -254,7 +254,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p8" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p8" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Suppose you have the following two vectors to describe the weekly forecast
             <c><![CDATA[vector<double> temps = {82.0, 76.8, 74.3, 58.8, 79.2, 73.4, 80.1}]]></c>
@@ -291,7 +291,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p9" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p9" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Suppose you have the following vector <c>nouns</c>,
             <c><![CDATA[vector<string> nouns = {"cereal", "Cocoa Puffs", "Mario", "luigi", "Aerosmith"}]]></c>
@@ -329,7 +329,7 @@
       </block>
     </blocks>
   </exercise>
-  <exercise label="vectors_p10" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="vectors_p10" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Suppose you have the following function <c>howMany</c> and vector <c>exclamations</c>
             Construct a block of code that counts how many times <q>.</q>, <q>!</q>, and <q>?</q> occur in <c>exclamations</c>.
