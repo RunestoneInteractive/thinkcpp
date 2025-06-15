@@ -59,41 +59,41 @@ Time time(seconds);
         <statement>
           <p>They initialize the instance variables of an object.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This statement is true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>They have the same name as the class.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This statement is true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>They return an instance of an object.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Constructors do not have a return type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>We refer to the objects they initialize implicitly, or using keyword this.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This statment is true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>They have the same name as the class, no return type and unchanged parameters.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This statement is true!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

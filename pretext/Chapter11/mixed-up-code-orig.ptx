@@ -2,9 +2,8 @@
 <section xml:id="chapter11_mixed-up-code-practice">
   <title>Mixed Up Code Practice</title>
   <p>Answer the following <term>Mixed-Up Code</term> questions to assess what you have learned in this chapter.</p>
-  <exercise label="mucp_11_1" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_11_1" number="yes" adaptive="yes" indentation="show">
     <statement>
-      <blockquote>
         <p>Construct a block of code that would make the print function into a member function.</p>
         <program line-numbers="yes">
           <code><![CDATA[
@@ -23,7 +22,6 @@ int main( ) {
 }
 ]]></code>
         </program>
-      </blockquote>
     </statement>
     <blocks>
       <block order="7">
@@ -70,7 +68,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_2" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_11_2" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Let's make an album! Write the struct definition for
             Album, which should have instance variables name and year.
@@ -120,7 +118,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_3" numbered="yes" adaptive="yes" indentation="show">
+  <exercise label="mucp_11_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Put the necessary blocks of code in the correct order to establish
             the convertToSeconds member function.</p>
@@ -151,7 +149,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_4" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_11_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Create the Student::is_older() function as it would be defined INSIDE
             of the Student structure definition. This function checks if the current
@@ -193,7 +191,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_5" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_11_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Put the necessary blocks of code in the correct order to initialise
             a constructor for type Days that takes in the number of days and
@@ -238,7 +236,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_6" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_11_6" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Let's write two constructors for Student. One with no arguments and
             one with arguments. Put the necessary blocks of code in
@@ -286,7 +284,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_7" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_11_7" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Implement two constructors for the Penguin structure. One should
             be a default constructor, the other should take arguments. The
@@ -343,7 +341,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_8" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_11_8" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Put the necessary blocks of code in the correct order to make the
             AddDays function below a member function a member function.</p>
@@ -377,7 +375,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_9" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_11_9" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Put the necessary blocks of code in the correct order to create a struct
             Penguin that stores name and age. In addition have 2 constructors and
@@ -445,7 +443,7 @@ int main( ) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="mucp_11_10" numbered="yes" adaptive="yes" indentation="hide">
+  <exercise label="mucp_11_10" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Put the necessary blocks of code in the correct order in order to write
             a header (.h) file for the struct Student.</p>

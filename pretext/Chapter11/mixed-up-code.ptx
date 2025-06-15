@@ -4,7 +4,7 @@
   <p>Answer the following <term>Mixed-Up Code</term> questions to assess what you have learned in
     this chapter.</p>
   <exercise label="mucp_11_1"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -76,7 +76,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_2"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -131,7 +131,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="show">
     <statement>
@@ -167,7 +167,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_4"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -217,7 +217,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_5"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -269,7 +269,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_6"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -322,7 +322,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_7"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -384,7 +384,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_8"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -424,7 +424,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_9"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>
@@ -500,7 +500,7 @@ int main( ) {
     </blocks>
   </exercise>
   <exercise label="mucp_11_10"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

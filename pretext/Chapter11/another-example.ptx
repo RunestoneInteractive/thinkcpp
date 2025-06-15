@@ -34,10 +34,10 @@ currentTime.increment (500.0);
 currentTime.print();</program>
   <p>The output of this program is <c>9:22:50</c>.</p>
   <listing label="another_example_AC_1">
-    <caption>
+    <title>
       Feel free to change the input and experiment around with the active
         code below!
-    </caption>
+    </title>
     <program xml:id="another_example_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -112,7 +112,7 @@ void Time::increment(double secs) {
     </evaluation>
   </exercise>
   <exercise label="another_example_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

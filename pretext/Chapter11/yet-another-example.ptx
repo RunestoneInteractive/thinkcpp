@@ -20,9 +20,9 @@
   <p>The <c>print</c> function in the previous section should also declare that the implicit parameter is <c>const</c>
     .</p>
   <listing label="yet_another_example_AC_1">
-    <caption>
+    <title>
       Feel free to try out the <c>convertToSeconds()</c> function in this active code!
-    </caption>
+    </title>
     <program xml:id="yet_another_example_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -70,34 +70,34 @@ double Time::convertToSeconds() const {
         <statement>
           <p>Before the parameter list.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Try again!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Inside the parameter list.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This would be correct if we were talking about a free-standing function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>After the parameter list.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Implicit parameters are always const and don't need to be declared.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Parameters are only const if they are not modified inside the function,
             implicit parameters are no exception.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

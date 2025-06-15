@@ -63,9 +63,9 @@ currentTime.print();</program>
     of how the function works. If you omit the definition, or provide a definition that has an
     interface different from what you promised, the compiler will complain.</p>
   <listing label="print_AC_1">
-    <caption>
+    <title>
       Feel free to mess around with input for <c>currentTime</c> in this active code!
-    </caption>
+    </title>
     <program xml:id="print_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -120,40 +120,40 @@ void Time::print() {
         <statement>
           <p>Change the name of the function to Dog::bark</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You don't need to rename the function unless you define it outside of the
             structure definition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Remove the Dog parameter</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! We no longer need to pass a Dog as an argument, since we are going to be
             invoking the function on a Dog object.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Operate on the current Dog object by using *this</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! To get the current object, we need to dereference the this pointer using *.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Declare the function inside of the Dog structure definition</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Member functions are declared inside of structure definitions.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="print_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

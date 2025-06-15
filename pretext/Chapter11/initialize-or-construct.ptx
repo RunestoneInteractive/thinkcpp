@@ -33,11 +33,11 @@ Time currentTime(9, 14, 30.0);
 </program>
   <listing label="initialize_or_construct_AC_1"
            xml:id="initialize_or_construct_AC_1">
-    <caption>
+    <title>
       In this active code, you can experiment passing values into the two
       different constructors that we have defined on this page and the previous
       page.
-    </caption>
+    </title>
     <program label="initialize_or_construct_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -91,36 +91,36 @@ void Time::print() {
           <p>When we initialize a new object, the compiler automatically finds the correct
             constructor to use.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This statement is true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>You can always initialize an object using squiggly-braces.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Once you define a constructor, you can no longer use squiggly-braces to
             initialize an object.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>You can have many constructors with the same name.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This statement is true, as long as the constructors take different
             parameters.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Once you define a constructor for a structure, you MUST use it to initialize any new
             structures of that type.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This statement is true!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -134,41 +134,41 @@ void Time::print() {
         <statement>
           <p>friend constructors</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! "Friend" constructors are constructors that are private except to the friend
             class.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>overriding</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Overriding is the ability of an inherited class to rewrite the methods of
             the base class at runtime, not what we're looking for here.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>overloading</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>friend class</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! A friend class is a class that can access private members of another class,
             not what we're looking for here.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="initialize_or_construct_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

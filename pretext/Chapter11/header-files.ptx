@@ -90,7 +90,7 @@ int main() {
   <p>It may not be obvious why it is useful to break such a small program
     into three pieces. In fact, most of the advantages come when we are
     working with larger programs:</p>
-  <dl>
+  <p><dl>
     <li>
       <title>Reuse:</title>
       <p>Once you have written a structure like <c>Time</c>, you might find it useful in more than one
@@ -111,7 +111,7 @@ int main() {
         compilation can save a lot of time, since you usually need to compile
         only a few files at a time.</p>
     </li>
-  </dl>
+  </dl></p>
   <p>For small programs like the ones in this book, there is no great
     advantage to splitting up programs. But it is good for you to know about
     this feature, especially since it explains one of the statements that
@@ -134,33 +134,33 @@ using namespace std;</program>
         <statement>
           <p>the file that contains structure/function definitions</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>the file that contains structure/function implementation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is called the implementation file.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>the file that contains int main()</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Header files are compiled separately and later linked to int main().
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>the first file that you write for any given project</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You are not required to write your programs in any specific order.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -171,44 +171,44 @@ using namespace std;</program>
     </statement>
     <choices>
       <choice>
-        <statement id="header_files_2_opt_a">
+        <statement>
           <p>
             <c>#include &lt;header.h&gt;</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is how we include standard library headers.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="header_files_2_opt_b">
+        <statement>
           <p>
             <c><![CDATA[#include <"header.h">]]></c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You should get rid of those brackets!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="header_files_2_opt_c">
+        <statement>
           <p>
             <c>#include header.h</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You're missing quotes!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="header_files_2_opt_d">
+        <statement>
           <p>
             <c>#include "header.h"</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -221,34 +221,34 @@ using namespace std;</program>
         <statement>
           <p>Files can be compiled separately and linked to a single program later.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is actually true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Separate compilation can be time-consuming, since you're working with more files.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Separate compilation actually saves time, since you only need to compile a few
             files at a time!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>It minimizes interactions between components.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is actually true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>It's easier to include your implementation in other program, besides your main.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is actually true!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

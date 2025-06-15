@@ -7,41 +7,41 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_11_1_opt_a">
+        <statement>
           <p>In C++, anything done with a member function can also be done by a free-standing
             function</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Though sometimes there may be an advantage of one over the other this process is doable
             and converting from one form to the other is a mechanical process
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_1_opt_b">
+        <statement>
           <p>In a function that operates on 3 structures, 2 are accessed with dot notation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           There is one implicit structure, and two structures that need to be accessed with dot
             notation.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_1_opt_c">
+        <statement>
           <p>The scope resolution operator should be used every time you work with data structures
             and implement member function inside the structure definition.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The scope resolution operator need not be used everytime one works with structures and
             is used to implement member functions outside the class definition.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_1_opt_d">
+        <statement>
           <p>The <c>this</c> keyword is used to refer to the current object</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The <c>this</c> keyword is a pointer to the current object.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -52,46 +52,46 @@
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_11_2_opt_a">
+        <statement>
           <p>
             <c>Student::student_email(const Student&amp; s1)</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is the proper way to declare a member function <c>student_email</c> that passes a <c>Student</c>
             object by reference.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_2_opt_b">
+        <statement>
           <p>
             <c>student_email(Student)</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the proper way to pass a <c>Student</c> object and declare a member function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_2_opt_c">
+        <statement>
           <p>
             <c>Student::student_email(Student s1)</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Close! Look closely at the answer choices again and the methos of passing the
             parameter.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_2_opt_d">
+        <statement>
           <p>
             <c>student_email(Student&amp; s1)</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not the proper way to declare a member function.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -127,46 +127,46 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_11_3_opt_a">
+        <statement>
           <p>
             <c>bool StarWars::isMainCast()</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_3_opt_b">
+        <statement>
           <p>
             <c>void StarWars::isMainCast()</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           Pay close attention to the function implementation adn return type
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_3_opt_c">
+        <statement>
           <p>
             <c>bool isMainCast()</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           As the function was implemented outside the class definition a scope resolution
             operator must be used.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_3_opt_d">
+        <statement>
           <p>
             <c>bool isMainCast (StarWars&amp; character)</c>
           </p>
         </statement>
-        <feedback>
+        <feedback><p>
           As the function was implemented outside the class definition a scope resolution
             operator must be used. Additionally, the object is passed implicitly.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -205,36 +205,36 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_11_4_opt_a">
+        <statement>
           <p>True</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The output of a <c>bool</c> is either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_4_opt_b">
+        <statement>
           <p>False</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The output of a <c>bool</c> is either a 0 or 1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_4_opt_c">
+        <statement>
           <p>0</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Then density of c (2) is not greater than that of c1 (50).
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_4_opt_d">
+        <statement>
           <p>1</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Is density of <c>c</c> greater than <c>c1</c>?
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -263,39 +263,39 @@ int main() {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_11_5_opt_a">
+        <statement>
           <p>1 and <q>female</q></p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The constructor was called to store age as 1 and gender as female in p1.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_5_opt_b">
+        <statement>
           <p>No values, the constructor cannot be invoked as it is out of the struct</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The scope resolution operator allows for a member function outside the structure
             definition to be invoked by the class type.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_5_opt_c">
+        <statement>
           <p>0 and <q/></p>
         </statement>
-        <feedback>
+        <feedback><p>
           In such a scenario a default constructor is not called. Pay attention to the
             constructor values implemented.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_5_opt_d">
+        <statement>
           <p>No values, nothing was assigned to <c>age</c> and <c>gender</c> and the constructor was never
             called</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Upon creation of the Penguin p1 the constructor initialises the object automatically
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -331,40 +331,40 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_11_6_opt_a">
+        <statement>
           <p>This program does not run as the presence of two constructors will throw a compile
             error.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Constructor overloading is possible.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_6_opt_b">
+        <statement>
           <p>Friend constructors</p>
         </statement>
-        <feedback>
+        <feedback><p>
           <q>Friend</q> constructors are constructors that are private except to the friend
             class.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_6_opt_c">
+        <statement>
           <p>Constructor overriding</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Overriding is the ability of an inherited class to rewrite the methods of the base
             class at runtime. Constructors cannot be overwritten
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_6_opt_d">
+        <statement>
           <p>Overloading</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! The constructors are overloaded as they have the same the name but different
             number of arguments.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -395,39 +395,39 @@ struct Student {
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_11_7_opt_a">
+        <statement>
           <p>The Student.cpp file will have the definitions of the member functions.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_7_opt_b">
+        <statement>
           <p>Student.cpp needs to #include the header file.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_7_opt_c">
+        <statement>
           <p>The Student.cpp file must implement the member functions in the same order as the
             declarations.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is not necessary.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_7_opt_d">
+        <statement>
           <p>Header files contain the structure/function definitions and by splitting the program
             into multiple files one can compile the files seperately and link it to a single program
             later.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           This is true!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -464,37 +464,37 @@ int main() {
     </statement>
     <choices>
       <choice>
-        <statement id="mce_11_8_opt_a">
+        <statement>
           <p>3</p>
         </statement>
-        <feedback>
+        <feedback><p>
           p1 is initialised using the Penguin() constructor, its gender variable would not be
             null.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_8_opt_b">
+        <statement>
           <p>3 female</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_8_opt_c">
+        <statement>
           <p>1 male</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Pay closer attention to the values being printed!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_8_opt_d">
+        <statement>
           <p>No output. The code won't compile.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Constructor overloading is allowed!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -522,36 +522,36 @@ Point3D p1;
     </statement>
     <choices>
       <choice>
-        <statement id="mce_11_9_opt_a">
+        <statement>
           <p>Sum of relevant variables =</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look Point3D( )
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_9_opt_b">
+        <statement>
           <p>Sum of relevant variables = 9</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Take a closer look at what is outputted in Point3D( )
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_9_opt_c">
+        <statement>
           <p>Sum of relevant variables = 10</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_9_opt_d">
+        <statement>
           <p>No output is printed.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Remember what you clearned about constructors and when they're called
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -561,41 +561,41 @@ Point3D p1;
     </statement>
     <choices>
       <choice correct="yes">
-        <statement id="mce_11_10_opt_a">
+        <statement>
           <p>When we call a member function we invoke the function on the data structure</p>
         </statement>
-        <feedback>
+        <feedback><p>
           When called, the member function is invoked on the data structure
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
-        <statement id="mce_11_10_opt_b">
+        <statement>
           <p>In a member function, you should declare the implicit parameter to be const before the
             parameter list</p>
         </statement>
-        <feedback>
+        <feedback><p>
           The implicit parameter should be declared const after the parameter list
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_10_opt_c">
+        <statement>
           <p>In the example <c>x::y</c> the scope resolution operator indicates that a function named <c>y</c>
             can be invoked on a structure <c>x</c></p>
         </statement>
-        <feedback>
+        <feedback><p>
           When defining a member function outside of the sturucture definition the <c>::</c>
             operator is used to indicate that an object of that class type can call the function is
             question.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
-        <statement id="mce_11_10_opt_d">
+        <statement>
           <p>Implicit variable access in member functions allows us to access member variables
             without the dot notation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Implicit variable access allows us to access variables directly
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

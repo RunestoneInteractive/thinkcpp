@@ -64,34 +64,34 @@
         <statement>
           <p>object-oriented programming</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>data-oriented programming</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Data-oriented programming focuses on how data is touched and processed.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>structured programming</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Structured programming makes use of structured control flow using block
             structures (if/else, for/while).
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>structural programming</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! This is not one of the types of programming.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -105,25 +105,25 @@
         <statement>
           <p>all</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! But sometimes there is an advantage to using one over the other!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>some</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The answer might surprise you!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>none</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Quite the opposite, actually!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -136,34 +136,34 @@
         <statement>
           <p>before the structure definition</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You're very close!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>inside of the structure definition</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>after the structure definition</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You're very close!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>anywhere in the program</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The purpose of a member function is to establish a relationship between the
             structure and the function.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>

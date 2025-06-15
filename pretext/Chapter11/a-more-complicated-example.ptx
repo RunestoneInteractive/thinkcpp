@@ -25,10 +25,10 @@
   <p>You can almost read the invocation like English: <q>If the done-time is
       after the current-time, then&#x2026;</q></p>
   <listing label="more_complicated_example_AC_1">
-    <caption>
+    <title>
       This active code is another practical example using the <c>after</c> function. Feel free to
         modify the time that school gets out, and the time that the track meet starts, if you wish!
-    </caption>
+    </title>
     <program xml:id="more_complicated_example_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
@@ -78,33 +78,33 @@ bool Time::after(const Time&amp; time2) const {
         <statement>
           <p>There is only one Time parameter.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! There are actually two Time parameters, one of them is implicit.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>The function operates on two Time objects.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! There are two Time objects - the implicit one and time2.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>The function is invoked on time2.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The function is invoked on the implicit Time object.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>"hour" and "minute" refer to the hour and minute of the implicit Time object.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -118,39 +118,39 @@ bool Time::after(const Time&amp; time2) const {
         <statement>
           <p>One</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! There is One implicit structure.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Two</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! Keep in mind there are 4 structures and 1 is implicit.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>Three</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! There is One implicit structure, and three structures that need to be accessed
             with dot notation.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Four</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! We shouldn't need to use dot notation for all of them!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
   <exercise label="more_complicated_example_3"
-            numbered="yes"
+            number="yes"
             adaptive="yes"
             indentation="hide">
     <statement>

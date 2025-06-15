@@ -22,36 +22,36 @@
         <statement>
           <p>after being granted permission</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You don't need "permission" to access member variables inside a member
             function.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>only inside of that specific member function</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You can access member variables implicitly inside any and all member
             functions.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>using dot notation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! You don't need to use dot notation to access variables implicitly.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>directly, without dot notation</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! Implicit variable access allows us to access variables directly-- without
             using dot notation.
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
@@ -64,35 +64,35 @@
         <statement>
           <p>Every time you are working with data structures!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The scope resolution operator is not always necessary!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>When you implement member functions inside of the structure definition.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! When you write member functions inside of the structure definition, you do
             not need to specify the scope.
-        </feedback>
+        </p></feedback>
       </choice>
       <choice correct="yes">
         <statement>
           <p>When you implement member functions outside of the structure definition.</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Correct! When you write member functions outside of the structure definition, you need
             to specify the scope, hence the :: operator!
-        </feedback>
+        </p></feedback>
       </choice>
       <choice>
         <statement>
           <p>Never! It is bad practice!</p>
         </statement>
-        <feedback>
+        <feedback><p>
           Incorrect! The scope resolution operator is good practice when used correctly!
-        </feedback>
+        </p></feedback>
       </choice>
     </choices>
   </exercise>
