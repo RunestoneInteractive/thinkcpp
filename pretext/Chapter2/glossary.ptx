@@ -67,7 +67,7 @@
     <statement>
       <p>Match the terms with their definitions.</p>
     </statement>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>variable</premise>
         <response>A named storage location.</response>
@@ -84,13 +84,13 @@
         <premise>keyword</premise>
         <response>A reserved word that is used by the compiler to parse programs.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_two_glossary_2">
     <statement>
       <p>Match the terms with their definitions.</p>
     </statement>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>statement</premise>
         <response>A line of code that represents a command or action.</response>
@@ -108,13 +108,13 @@
         <response>A combination of variables, operators and values that represents a single result
           value.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_two_glossary_3">
     <statement>
       <p>Match the terms with their definitions.</p>
     </statement>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>operator</premise>
         <response>A special symbol that represents a simple computation.</response>
@@ -132,7 +132,7 @@
         <response>To combine simple expressions and statements into compound statements and
           expressions.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
     </reading-questions>
 </section>

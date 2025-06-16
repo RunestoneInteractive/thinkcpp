@@ -117,7 +117,7 @@ int main() {
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>x &gt; y</premise>
         <response>x = 10, y = 2</response>
@@ -130,7 +130,7 @@ int main() {
         <premise>x &lt; y</premise>
         <response>x = 2, y = 10</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="conditional_execution_3">
     <statement>
@@ -139,7 +139,7 @@ int main() {
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>x == y</premise>
         <response>x = 3, y = 3</response>
@@ -152,6 +152,6 @@ int main() {
         <premise>x &lt; y</premise>
         <response>x = 2, y = 6</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

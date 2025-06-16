@@ -160,7 +160,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>ambiguity</premise>
         <response>being unclear and open to interpretation</response>
@@ -173,7 +173,7 @@
         <premise>literalness</premise>
         <response>meaning exactly what is said, nothing more</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="formal_natural_4">
     <statement>
@@ -182,7 +182,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>ambiguity</premise>
         <response> I rode a black horse in red jacket.</response>
@@ -195,7 +195,7 @@
         <premise>literalness</premise>
         <response> Give me a cup of water.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="formal_natural_5">
     <statement>

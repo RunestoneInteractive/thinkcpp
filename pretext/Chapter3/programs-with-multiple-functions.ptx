@@ -67,7 +67,7 @@ int main() {
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>multiplyTwo </premise>
         <response> executes second</response>
@@ -84,7 +84,7 @@ int main() {
         <premise>addTwo </premise>
         <response> executes last</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="multiple_fun_2">
     <statement>

@@ -33,7 +33,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>pseudocode</premise>
         <response>A way of designing programs by writing rough drafts in a combination of English
@@ -54,6 +54,6 @@
         <response>An algorithm for sorting a collection of values. It is faster than the simple
           algorithm in the previous chapter, especially for large collections.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

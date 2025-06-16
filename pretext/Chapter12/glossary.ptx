@@ -20,7 +20,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>encode</premise>
         <response>To represent one set of values using another set of values, by constructing a
@@ -30,6 +30,6 @@
         <premise>abstract parameter</premise>
         <response>A set of parameters that act together as a single parameter.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

@@ -60,7 +60,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>return type</premise>
         <response>The type of value a function returns.</response>
@@ -77,7 +77,7 @@
         <premise>logical operator</premise>
         <response>An operator that combines boolean values in order to test compound conditions.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_five_glossary_2">
     <statement>
@@ -87,7 +87,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>dead code</premise>
         <response>Part of a program that can never be executed.</response>
@@ -100,7 +100,7 @@
         <premise>overloading</premise>
         <response>Having more than one function with the same name but different parameters.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_five_glossary_3">
     <statement>
@@ -110,7 +110,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>boolean</premise>
         <response>A value or variable that can take on one of two states, often called true and
@@ -124,6 +124,6 @@
         <premise>void</premise>
         <response>A special return type that does not return a value.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

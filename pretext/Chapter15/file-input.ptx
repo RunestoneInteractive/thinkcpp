@@ -77,7 +77,7 @@ int main()
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>The constructor is</premise>
         <response>ifstream.</response>
@@ -94,7 +94,7 @@ int main()
         <premise>The result of this code snippet supports the same operators as</premise>
         <response>cin.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="question15_3_2">
     <statement>

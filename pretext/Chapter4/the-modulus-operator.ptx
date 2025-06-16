@@ -80,7 +80,7 @@ int main() {
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>3 % 2</premise>
         <response>1</response>
@@ -97,6 +97,6 @@ int main() {
         <premise>9 % 6</premise>
         <response>3</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

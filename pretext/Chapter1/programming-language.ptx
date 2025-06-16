@@ -183,7 +183,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>source code</premise>
         <response>our program written in C++</response>
@@ -192,6 +192,6 @@
         <premise>object code</premise>
         <response>translated version of our program that the computer can understand and execute</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

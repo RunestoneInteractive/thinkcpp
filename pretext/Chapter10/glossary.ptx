@@ -53,7 +53,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>vector</premise>
         <response>A named collection of values, where all the values have the same type, and each
@@ -67,14 +67,14 @@
         <premise>index</premise>
         <response>An integer variable or value used to indicate an element of a vector.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="glossary_2">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
         appropriate box.</p>
     </statement>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>constructor</premise>
         <response>A special function that creates a new object and initializes its instance
@@ -89,7 +89,7 @@
         <premise>seed</premise>
         <response>A value used to initialize a random number sequence.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="glossary_3">
     <statement>
@@ -99,7 +99,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>deterministic</premise>
         <response>A program that does the same thing every time it is run.</response>
@@ -114,6 +114,6 @@
         <response>A vector of integers where each integer counts the number of values that fall into
           a certain range.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

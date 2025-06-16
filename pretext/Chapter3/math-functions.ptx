@@ -112,7 +112,7 @@ using namespace std;
       <p>Match the statement to its description.</p>
     </statement>
     <feedback><p>This is feedback.</p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>cmath</premise>
         <response>allows the use of functions like log and sin</response>
@@ -125,7 +125,7 @@ using namespace std;
         <premise>namespace std</premise>
         <response>the standard implementation of cout</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="math_functions_2">
     <statement>

@@ -46,7 +46,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>object</premise>
         <response>A collection of related data that comes with a set of functions that operate on it.</response>
@@ -75,6 +75,6 @@
         <premise>concatenate</premise>
         <response>To join two operands end-to-end.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

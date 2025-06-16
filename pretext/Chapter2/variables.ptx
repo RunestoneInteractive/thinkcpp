@@ -113,7 +113,7 @@ char tom;
       Ideally, you want your variables to be named according to what they represent. Not the case
         here! Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise><p><c>char joe;</c></p></premise>
         <response><c>'x'</c></response>
@@ -126,7 +126,7 @@ char tom;
         <premise><p><c>int x;</c></p></premise>
         <response><c>10</c></response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="variables_4"
             number="yes"

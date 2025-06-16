@@ -42,7 +42,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>modulus</premise>
         <response>An operator that works on integers and yields the remainder when one number is
@@ -57,7 +57,7 @@
         <response>Putting a conditional statement inside one or both branches of another conditional
           statement.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_four_glossary_2">
     <statement>
@@ -67,7 +67,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>conditional</premise>
         <response>A block of statements that may or may not be executed depending on some condition.</response>
@@ -80,6 +80,6 @@
         <premise>infinite recursion</premise>
         <response>The process of making recursive calls without every reaching the base case.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

@@ -26,7 +26,7 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>x * 2 &gt; 4</premise>
         <response>false</response>
@@ -35,7 +35,7 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
         <premise>x &gt;= 2</premise>
         <response>true</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="bool_var_2">
     <statement>
@@ -44,7 +44,7 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>bool fred;</premise>
         <response>variable declaration</response>
@@ -57,7 +57,7 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
         <premise>bool testResult = false;</premise>
         <response>initialization</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="bool_var_3">
     <statement>

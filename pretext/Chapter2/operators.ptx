@@ -71,7 +71,7 @@ cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>x*10</premise>
         <response>100</response>
@@ -88,7 +88,7 @@ cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
         <premise>(x+x+x+x+x)*20</premise>
         <response>1000</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="operators_3">
     <statement>

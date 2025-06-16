@@ -26,7 +26,7 @@ Time addTime(const Time&amp; t1, const Time&amp; t2) ...</program>
     <feedback><p>
       Try again.
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>passing by value</premise>
         <response>the calling function and the callee are appropriately encapsulated&#x2014;it is
@@ -37,7 +37,7 @@ Time addTime(const Time&amp; t1, const Time&amp; t2) ...</program>
         <premise>passing by reference</premise>
         <response>more efficient, because it avoids copying the argument</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="const_parameters_2">
     <statement>

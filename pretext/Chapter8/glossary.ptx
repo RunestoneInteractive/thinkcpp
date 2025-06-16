@@ -35,7 +35,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>structure</premise>
         <response>A collection of data grouped together and treated as a single object.</response>
@@ -59,6 +59,6 @@
         <response>A method of parameter-passing in which the parameter is a reference to the
           argument variable. Changes to the parameter also affect the argument variable.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

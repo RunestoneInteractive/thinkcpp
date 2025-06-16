@@ -72,7 +72,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>(n * 2 &gt; 10 &amp;&amp; n &gt;= 7)</premise>
         <response>true, "and"</response>
@@ -97,7 +97,7 @@
         <premise>!(n &gt;= 10)</premise>
         <response>true, "not"</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="logical_op_3">
     <statement>

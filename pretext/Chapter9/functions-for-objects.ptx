@@ -34,7 +34,7 @@
     <feedback><p>
       Try again.
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>pure function</premise>
         <response>Does not modify objects. The return values is either a basic type or a new object
@@ -49,6 +49,6 @@
         <response>Technically a type of modifier. One of the parameters is an "empty" object that
           gets filled in by the function.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

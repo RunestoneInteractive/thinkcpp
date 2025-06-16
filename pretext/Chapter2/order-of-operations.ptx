@@ -54,7 +54,7 @@ int main() {
       <feedback><p>
         Try again!
       </p></feedback>
-      <matches>
+      <cardsort>
         <match order="1">
           <premise>(6*4)+1</premise>
           <response>25</response>
@@ -71,7 +71,7 @@ int main() {
           <premise>6/(4+1)</premise>
           <response>1</response>
         </match>
-      </matches>
+      </cardsort>
     </exercise>
     <exercise label="order_of_operations_2">
       <statement>

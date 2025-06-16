@@ -41,7 +41,7 @@
         appropriate box.</p>
     </statement>
     <feedback><p>Try again!</p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>floating-point</premise>
         <response>A type of value that can contain fractions as well as integers.</response>
@@ -54,7 +54,7 @@
         <premise>call</premise>
         <response>Causes a function to be executed.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_three_glossary_two">
     <statement>
@@ -62,7 +62,7 @@
         appropriate box.</p>
     </statement>
     <feedback><p>Try again!</p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>function</premise>
         <response>A named sequence of statements that performs some useful function.</response>
@@ -75,6 +75,6 @@
         <premise>argument</premise>
         <response>A value that you provide when you call a function.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

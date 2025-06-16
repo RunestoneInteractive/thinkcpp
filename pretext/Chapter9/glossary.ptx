@@ -49,7 +49,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>instance</premise>
         <response>An example from a category. My cat is an instance of the category <q>feline
@@ -69,7 +69,7 @@
         <response>A function whose result depends only on its parameters, and that has so effects
           other than returning a value.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_nine_glossary_two">
     <statement>
@@ -78,7 +78,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>functional programming style</premise>
         <response>A style of program design in which the majority of functions are pure.</response>
@@ -98,6 +98,6 @@
         <response>A set of instructions for solving a class of problems by a mechanical,
           unintelligent process.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

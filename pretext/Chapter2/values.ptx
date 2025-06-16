@@ -80,7 +80,7 @@ cout &lt;&lt; '}' &lt;&lt; endl;
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise><p><c>1</c></p></premise>
         <response>integer</response>
@@ -93,6 +93,6 @@ cout &lt;&lt; '}' &lt;&lt; endl;
         <premise><p><c>'1'</c></p></premise>
         <response>character</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

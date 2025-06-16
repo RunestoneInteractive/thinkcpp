@@ -156,7 +156,7 @@ int main() {
     <feedback><p>
       Try again.
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>x.dollar += 2;</premise>
         <response>x.dollar = x.dollar + 2;</response>
@@ -173,6 +173,6 @@ int main() {
         <premise>x.cents += 2;</premise>
         <response>x.cents = x.cents + 2;</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

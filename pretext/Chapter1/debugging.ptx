@@ -112,7 +112,7 @@
       <feedback><p>
         Try again!
       </p></feedback>
-      <matches>
+      <cardsort>
         <match order="1">
           <premise>syntax (compile-time) error</premise>
           <response>an error that surfaces when something is wrong with the structure of your
@@ -126,7 +126,7 @@
           <premise>semantic error</premise>
           <response>your program does what you told it to do, not what you intended for it to do</response>
         </match>
-      </matches>
+      </cardsort>
     </exercise>
     <exercise label="debugging_4">
       <statement>

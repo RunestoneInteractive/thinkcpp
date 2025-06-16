@@ -541,7 +541,7 @@
     <feedback>
       Try again!
     </feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>error</premise>
         <response>int x = int y+3;</response>
@@ -558,6 +558,6 @@
         <premise>bug</premise>
         <response>double x * y = x + y;</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise> -->
 </exercises>

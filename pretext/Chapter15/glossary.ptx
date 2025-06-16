@@ -27,7 +27,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>ordered set</premise>
         <response>a data structure in which every element appears only once and every element has an index that identifies it</response>
@@ -40,6 +40,6 @@
         <premise>accumulator</premise>
         <response>a variable used inside a loop to accumulate a result, often by getting something added or concatenated during each iteration.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>

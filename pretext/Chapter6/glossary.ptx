@@ -59,7 +59,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>loop</premise>
         <response>A statement that executes repeatedly while a condition is true or some condition
@@ -83,7 +83,7 @@
         <response>A special character, written as \t in C++, that causes the cursor to move to the
           next tab stop on the current line.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
   <exercise label="chapter_six_glossary_two">
     <statement>
@@ -93,7 +93,7 @@
     <feedback><p>
       Try again!
     </p></feedback>
-    <matches>
+    <cardsort>
       <match order="1">
         <premise>encapsulate</premise>
         <response>To divide a large complex program into components (like functions) and isolate the
@@ -114,6 +114,6 @@
         <premise>development plan</premise>
         <response>A process for developing a program.</response>
       </match>
-    </matches>
+    </cardsort>
   </exercise>
 </section>
