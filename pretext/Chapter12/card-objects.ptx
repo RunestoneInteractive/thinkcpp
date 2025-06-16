@@ -19,7 +19,8 @@
     sequence of
       numbers and the things I want to represent.</q> For example,</p>
   <table>
-    <tabular>
+      <title>Mapping suits to integers</title>
+      <tabular>
       <row>
         <cell>
           Spades
@@ -70,7 +71,8 @@
     this mapping is that the suits map to integers in order, so we can compare suits by comparing
     integers. The mapping for ranks is fairly obvious; each of the numerical ranks maps to the
     corresponding integer, and for face cards:</p>
-  <table>
+    <table>
+        <title>Mapping ranks to integers</title>
     <tabular>
       <row>
         <cell>
