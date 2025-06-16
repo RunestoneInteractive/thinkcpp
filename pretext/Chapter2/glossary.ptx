@@ -62,6 +62,7 @@
             computations concisely.</p>
         </gi>
     </glossary>
+    <reading-questions>
   <exercise label="chapter_two_glossary_1">
     <statement>
       <p>Match the terms with their definitions.</p>
@@ -133,4 +134,5 @@
       </match>
     </matches>
   </exercise>
+    </reading-questions>
 </section>

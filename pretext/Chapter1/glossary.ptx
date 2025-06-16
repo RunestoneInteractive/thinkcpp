@@ -93,6 +93,7 @@
             <p>The process of finding and removing any of the three kinds of errors.</p>
         </gi>
     </glossary>
+    <reading-questions>
   <exercise label="chapter_one_glossary_1">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
@@ -228,4 +229,5 @@
       </match>
     </matches>
   </exercise>
+</reading-questions>
 </section>
