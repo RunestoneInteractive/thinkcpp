@@ -7,7 +7,7 @@
     <title>
       This active code reassigns <c>fred</c> from 5 to 7 and prints both values out.
     </title>
-    <program xml:id="multiple_assignment_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program label="multiple_assignment_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -28,7 +28,7 @@ int main() {
     <title>
       This active code reassigns <c>fred</c> from 5 to 7 without printing out the initial value.
     </title>
-    <program xml:id="multiple_assignment_AC_2_editor" interactive="activecode" line-numbers="yes">
+    <program label="multiple_assignment_AC_2_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

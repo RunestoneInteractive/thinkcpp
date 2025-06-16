@@ -7,7 +7,7 @@
       Try running this active code! Afterwards, try changing 9 to a different
         integer to see how the function works!
     </title>
-    <program xml:id="the_while_statement_AC_1_editor"
+    <program label="the_while_statement_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[

@@ -55,7 +55,7 @@ void printMultTable(int high) {
         we can create multiplication tables of multiple sizes by simply changing the parameter
         passed into <c>printMultTable</c>. Run the active code to see what happens!
     </title>
-    <program xml:id="more_generalization_AC_1_editor"
+    <program label="more_generalization_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[
@@ -111,7 +111,7 @@ printMultiples(i, i);
       This active code prints half the multiplication table. We can achieve this by
         replacing the <c>printMultiples(i, high)</c> in <c>printMultTable</c> with <c>printMultiples(i, i)</c>. Run the active code to see what happens!
     </title>
-    <program xml:id="more_generalization_AC_2_editor"
+    <program label="more_generalization_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[

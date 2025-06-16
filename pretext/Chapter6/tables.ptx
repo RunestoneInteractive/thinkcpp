@@ -24,7 +24,7 @@
       This active code outputs a sequence of values in the left column
         and their logarithms in the right column.
     </title>
-    <program xml:id="tables_AC_1_editor"
+    <program label="tables_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[
@@ -92,7 +92,7 @@ cout &lt;&lt; x &lt;&lt; "\t" &lt;&lt; log(x) / log(2.0) &lt;&lt; endl;
       If we wanted to find the logarithms of other powers of two,
         we could modify the program like this. Run this active code.
     </title>
-    <program xml:id="tables_AC_2_editor"
+    <program label="tables_AC_2_editor"
              interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[
@@ -132,7 +132,7 @@ int main() {
     <statement>
       <p>Modify this active code so that it outputs the power of two up to 65536, which is <m>
         2^{16}</m>. If you get stuck, you can reveal the hint below the problem for help.</p>
-    <program xml:id="tables_AC_3_editor"
+    <program label="tables_AC_3_editor"
              interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[

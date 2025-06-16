@@ -20,7 +20,7 @@
     <title>
       This active code uses the <c>printMultTable</c> function. Run the active code to see what happens!
     </title>
-    <program xml:id="more_encapsulation_AC_1_editor"
+    <program label="more_encapsulation_AC_1_editor"
              interactive="activecode"
              line-numbers="yes">
       <code><![CDATA[
