@@ -106,12 +106,12 @@ int main() {cout<<"Goodbye, ";cout<<"cruel world!"<<endl;}
     the program and locate syntax errors.</p>
   <exercise label="more_output_1">
     <statement>
-      <p>A phrase that appears in quotation marks is called a(n)<fillin mode="string" case="insensitive" answer="string"/>.</p>
+      <p>A phrase that appears in quotation marks is called a(n)<fillin answer="string"/>.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -177,12 +177,6 @@ int main() {
         the third line, and <q>Pop!</q> on the sixth line. You might not use all of endl blocks
         provided.</p>
     </statement>
-    <program-preamble>
-      #include &lt;iostream&gt;
-      using namespace std;
-    </program-preamble>
-    <program
-             codelens="no"></program>
     <blocks>
       <block order="3">
         <cline>int main() {</cline>
@@ -229,12 +223,6 @@ int main() {
       <p>Construct a main function that prints <q>Hello, world!</q> so that <q>Hello,</q> and <q>
         world!</q> are printed on two separate lines.</p>
     </statement>
-    <program-preamble>
-      #include &lt;iostream&gt;
-      using namespace std;
-    </program-preamble>
-    <program
-             codelens="no"></program>
     <blocks>
       <block order="6">
         <cline>int main() {</cline>

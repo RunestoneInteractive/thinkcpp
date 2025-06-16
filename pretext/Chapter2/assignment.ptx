@@ -45,7 +45,7 @@ minute = 59;         // set minute to 59
   </p>
   <activity label="state_of_mind">
     <statement>
-      <p>Run the code sample below by using the <b>Next</b> button to advance line by line. As you do so,
+      <p>Run the code sample below by using the <c>Next</c> button to advance line by line. As you do so,
       watch the area to the right to examine the <q>state of mind</q> of the computer as it runs the
       code.</p>
     <program interactive="codelens" xml:id="state_of_mind_ed">
@@ -80,12 +80,12 @@ int minute = "59";         // WRONG!
 </program>
   <exercise label="assignment_1">
     <statement>
-      <p>A(n) <fillin mode="string" case="insensitive" answer="assignment"/> statement gives a value to a variable. </p>
+      <p>A(n) <fillin answer="assignment"/> statement gives a value to a variable. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

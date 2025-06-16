@@ -36,12 +36,12 @@ int hour, minute;</program>
     both integers (<c>int</c> type).</p>
   <exercise label="variables_3">
     <statement>
-      <p>A(n) <fillin mode="string" case="insensitive" answer="variable"/> is a name given to a location in memory used to keep track of a value. </p>
+      <p>A(n) <fillin answer="variable"/> is a name given to a location in memory used to keep track of a value. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -53,12 +53,12 @@ int hour, minute;</program>
       <program>
 char tom;
 </program>
-      <p>It's an example of a(n) <fillin answer="declaration" mode="string" case="insensitive"/> statement.</p>
+      <p>It's an example of a(n) <fillin answer="declaration"/> statement.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

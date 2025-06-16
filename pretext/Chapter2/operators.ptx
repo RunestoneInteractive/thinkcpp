@@ -92,12 +92,12 @@ cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
   </exercise>
   <exercise label="operators_3">
     <statement>
-      <p>Integer division always <fillin mode="string" case="insensitive" answer="truncates?"/> the answer by dropping any decimal portion.</p>
+      <p>Integer division always <fillin/> the answer by dropping any decimal portion.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp case="insensitive">truncates?</strcmp>
         </test>
       </evaluate>
     </evaluation>
@@ -108,11 +108,11 @@ cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
 int num2 = 5;
 cout &lt;&lt; num1 / num2;</program>
       <p>What is printed to the terminal?</p>
-      <p><fillin mode="number" case="insensitive" answer="2"/></p>
+      <p><fillin answer="2"/></p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>
@@ -125,12 +125,12 @@ int num2 = 48;
 cout &lt;&lt; num2 / num1;</program>
       <p>What is printed to the terminal?</p>
       <p>
-        <fillin mode="number" case="insensitive" answer="4"/>
+        <fillin answer="4"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>
@@ -143,12 +143,12 @@ int num2 = 40;
 cout &lt;&lt; num2 / num1;</program>
       <p>What is printed to the terminal?</p>
       <p>
-        <fillin mode="number" case="insensitive" answer="4"/>
+        <fillin answer="4"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>
@@ -161,7 +161,7 @@ int num2 = 39;
 cout &lt;&lt; num2 / num1;</program>
       <p>What is printed to the terminal?</p>
       <p>
-        <fillin mode="number" case="insensitive" answer="3"/>
+        <fillin answer="3"/>
       </p>
     </statement>
     <evaluation>
@@ -184,7 +184,7 @@ cout &lt;&lt; "Decimal:" &lt;&lt; num1 / num2;</program>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>

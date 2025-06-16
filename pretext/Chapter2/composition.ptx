@@ -132,24 +132,24 @@ int main() {
   </exercise>
   <exercise label="compos_2">
     <statement>
-      <p>The left-hand side of an assignment statement has to be a <fillin mode="string" case="insensitive" answer="variable"/> name, not an expression.  </p>
+      <p>The left-hand side of an assignment statement has to be a <fillin answer="variable"/> name, not an expression.  </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
   </exercise>
   <exercise label="compos_3">
     <statement>
-      <p>In programming, another word for <term>combine</term> is <fillin mode="string" case="insensitive" answer="(compose)|(composition)"/>.  </p>
+      <p>In programming, another word for <term>combine</term> is <fillin answer="(compose)|(composition)"/>.  </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

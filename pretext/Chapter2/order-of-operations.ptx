@@ -75,12 +75,12 @@ int main() {
     </exercise>
     <exercise label="order_of_operations_2">
       <statement>
-        <p>Any time you want to override the rules of precedence, you can use <fillin mode="string" case="insensitive" answer="parentheses"/>.</p>
+        <p>Any time you want to override the rules of precedence, you can use <fillin answer="parentheses"/>.</p>
       </statement>
       <evaluation>
         <evaluate>
-          <test>
-            <strcmp use-answer="yes"/>
+          <test correct="yes">
+            <strcmp use-answer="yes" case="insensitive"/>
           </test>
         </evaluate>
       </evaluation>

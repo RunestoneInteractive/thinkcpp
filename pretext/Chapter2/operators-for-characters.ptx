@@ -73,12 +73,12 @@ int main() {
     exceptions.</p>
   <exercise label="char_operations_1">
     <statement>
-      <p>What is the value of letter if <c>letter = 'c' + 3</c>? <fillin mode="string" case="insensitive" answer="(f)|('f')"/>
+      <p>What is the value of letter if <c>letter = 'c' + 3</c>? <fillin answer="(f)|('f')"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

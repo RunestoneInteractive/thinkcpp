@@ -25,12 +25,12 @@
   <exercise label="keywords_1">
     <statement>
       <p>Words that are reserved in C++ because they are used by the compiler to parse the structure
-        of your program are called <fillin mode="string" case="insensitive" answer="keywords?"/>.</p>
+        of your program are called <fillin answer="keywords?"/>.</p>
     </statement>
     <evaluation>
       <evaluate>
-          <test>
-            <strcmp use-answer="yes"/>
+          <test correct="yes">
+            <strcmp use-answer="yes" case="insensitive"/>
           </test>
       </evaluate>
     </evaluation>
