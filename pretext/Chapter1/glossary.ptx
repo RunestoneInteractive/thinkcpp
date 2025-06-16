@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter1_glossary">
+<?xml version="1.0" ?><section xml:id="chapter1_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -103,20 +102,20 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>natural language</premise>
+      <match>
+        <premise order="1">natural language</premise>
         <response>Any of the languages people speak that have evolved naturally.</response>
       </match>
-      <match order="2">
-        <premise>high-level language</premise>
+      <match>
+        <premise order="2">high-level language</premise>
         <response>A programming language like C++ that is easy for humans to read and write.</response>
       </match>
-      <match order="3">
-        <premise>low-level language</premise>
+      <match>
+        <premise order="3">low-level language</premise>
         <response>A programming language that is easy for a computer to execute.</response>
       </match>
-      <match order="4">
-        <premise>formal language</premise>
+      <match>
+        <premise order="4">formal language</premise>
         <response>Any of the languages people have designed for specific purposes.</response>
       </match>
     </cardsort>
@@ -130,21 +129,21 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>interpret</premise>
+      <match>
+        <premise order="1">interpret</premise>
         <response>To execute a program in a high-level language by translating it one line at a
           time.</response>
       </match>
-      <match order="2">
-        <premise>compile</premise>
+      <match>
+        <premise order="2">compile</premise>
         <response>To execute a program in a high-level language by translating it all at once.</response>
       </match>
-      <match order="3">
-        <premise>source code</premise>
+      <match>
+        <premise order="3">source code</premise>
         <response>A program in a high-level language, before being compiled.</response>
       </match>
-      <match order="4">
-        <premise>object code</premise>
+      <match>
+        <premise order="4">object code</premise>
         <response>The output of the compiler, after translating the program.</response>
       </match>
     </cardsort>
@@ -158,20 +157,20 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>portability</premise>
+      <match>
+        <premise order="1">portability</premise>
         <response>A property of a program that can run on more than one kind of computer.</response>
       </match>
-      <match order="2">
-        <premise>executable</premise>
+      <match>
+        <premise order="2">executable</premise>
         <response>Another name for object code that is ready to be executed.</response>
       </match>
-      <match order="3">
-        <premise>algorithm</premise>
+      <match>
+        <premise order="3">algorithm</premise>
         <response>A general process for solving a category of problems.</response>
       </match>
-      <match order="4">
-        <premise>bug</premise>
+      <match>
+        <premise order="4">bug</premise>
         <response>An error in a program.</response>
       </match>
     </cardsort>
@@ -185,21 +184,21 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>problem-solving</premise>
+      <match>
+        <premise order="1">problem-solving</premise>
         <response>The process of formulating a problem, finding a solution, and expressing the
           solution.</response>
       </match>
-      <match order="2">
-        <premise>syntax</premise>
+      <match>
+        <premise order="2">syntax</premise>
         <response>The structure of a program.</response>
       </match>
-      <match order="3">
-        <premise>semantics</premise>
+      <match>
+        <premise order="3">semantics</premise>
         <response>The meaning of a program.</response>
       </match>
-      <match order="4">
-        <premise>parse</premise>
+      <match>
+        <premise order="4">parse</premise>
         <response>To examine a program and analyze the syntactic structure.</response>
       </match>
     </cardsort>
@@ -210,21 +209,21 @@
         appropriate box.</p>
     </statement>
     <cardsort>
-      <match order="1">
-        <premise>syntax error</premise>
+      <match>
+        <premise order="1">syntax error</premise>
         <response>An error in a program that makes it impossible to parse and compile.</response>
       </match>
-      <match order="2">
-        <premise>run-time error</premise>
+      <match>
+        <premise order="2">run-time error</premise>
         <response>An error in a program that makes it fail upon execution.</response>
       </match>
-      <match order="3">
-        <premise>logical error</premise>
+      <match>
+        <premise order="3">logical error</premise>
         <response>An error in a program that makes it do something other than what the programmer
           intended.</response>
       </match>
-      <match order="4">
-        <premise>debugging</premise>
+      <match>
+        <premise order="4">debugging</premise>
         <response>The process of finding and removing any of the three kinds of errors.</response>
       </match>
     </cardsort>

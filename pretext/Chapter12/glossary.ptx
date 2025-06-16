@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter12_glossary">
+<?xml version="1.0" ?><section xml:id="chapter12_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -21,13 +20,13 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>encode</premise>
+      <match>
+        <premise order="1">encode</premise>
         <response>To represent one set of values using another set of values, by constructing a
           mapping between them</response>
       </match>
-      <match order="2">
-        <premise>abstract parameter</premise>
+      <match>
+        <premise order="2">abstract parameter</premise>
         <response>A set of parameters that act together as a single parameter.</response>
       </match>
     </cardsort>

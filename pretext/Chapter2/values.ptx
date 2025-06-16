@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_values">
+<?xml version="1.0" ?><section xml:id="chapter2_values">
   <title>Values</title>
-  <p>A <term>value</term> is one of the fundamental things&#x2014;like a letter or a
-    number&#x2014;that a program manipulates. The only values we have manipulated so far are the
+  <p>A <term>value</term> is one of the fundamental things—like a letter or a
+    number—that a program manipulates. The only values we have manipulated so far are the
     string values we have been outputting, like <q>Hello, world.</q>. You (and the compiler) can
     identify <c>string</c> values because they are enclosed in quotation marks.</p>
   <p>There many different kinds of values, called <term>types</term>. This includes integers and
@@ -17,7 +16,7 @@ cout &lt;&lt; 17 &lt;&lt; endl;
 cout &lt;&lt; '}' &lt;&lt; endl;
 </program>
   <p>This example outputs a single close squiggly-brace on a line by itself.</p>
-  <p>It is easy to confuse different types of values, like <c>"5"</c>, <c>'5'</c>, and <c>5</c>, but if you pay
+  <p>It is easy to confuse different types of values, like <c>&quot;5&quot;</c>, <c>'5'</c>, and <c>5</c>, but if you pay
     attention to the punctuation, it should be clear that the first is a string, the second is a
     character and the third is an integer. The reason this distinction is important should become
     clear soon.</p>
@@ -49,8 +48,8 @@ cout &lt;&lt; '}' &lt;&lt; endl;
       <cline>        <area correct="no">x</area>++;</cline>
       <cline>    }</cline>
       <cline>    <area correct="no">c</area> = <area correct="no">'9'</area>;</cline>
-      <cline>    cout &lt;&lt; "<area correct="no">It's the year</area> <area correct="no">3000</area>!";</cline>
-      <cline>    cout &lt;&lt; <area correct="no">"Just kidding, it's "</area> &lt;&lt; <area correct="yes">2020</area> &lt;&lt; "!";</cline>
+      <cline>    cout &lt;&lt; &quot;<area correct="no">It's the year</area> <area correct="no">3000</area>!&quot;;</cline>
+      <cline>    cout &lt;&lt; <area correct="no">&quot;Just kidding, it's &quot;</area> &lt;&lt; <area correct="yes">2020</area> &lt;&lt; &quot;!&quot;;</cline>
       <cline>}</cline>
     </areas>
   </exercise>
@@ -64,12 +63,12 @@ cout &lt;&lt; '}' &lt;&lt; endl;
     <areas>
       <cline>int main() {</cline>
       <cline>    char <area correct="no">init1</area> = <area correct="no">'<c>R</c>'</area>;</cline>
-      <cline>    string <area correct="no">init2</area> = <area correct="yes">"M"</area>;</cline>
-      <cline>    cout &lt;&lt; <area correct="no">init1</area> &lt;&lt; <area correct="yes">"+"</area> &lt;&lt; <area correct="no">init2</area> &lt;&lt; endl;</cline>
-      <cline>    string <area correct="no">init3</area> = <area correct="yes">"R"</area>;</cline>
+      <cline>    string <area correct="no">init2</area> = <area correct="yes">&quot;M&quot;</area>;</cline>
+      <cline>    cout &lt;&lt; <area correct="no">init1</area> &lt;&lt; <area correct="yes">&quot;+&quot;</area> &lt;&lt; <area correct="no">init2</area> &lt;&lt; endl;</cline>
+      <cline>    string <area correct="no">init3</area> = <area correct="yes">&quot;R&quot;</area>;</cline>
       <cline>    char <area correct="no">init4</area> = '<area correct="no">P</area>';</cline>
       <cline>    cout &lt;&lt; <area correct="no">init3</area> &lt;&lt; <area correct="no">'+'</area> &lt;&lt; <area correct="no">init4</area> &lt;&lt; endl;</cline>
-      <cline>    cout &lt;&lt; <area correct="yes">"Carved their initials in a tree!"</area>;</cline>
+      <cline>    cout &lt;&lt; <area correct="yes">&quot;Carved their initials in a tree!&quot;</area>;</cline>
       <cline>}</cline>
     </areas>
   </exercise>
@@ -81,16 +80,16 @@ cout &lt;&lt; '}' &lt;&lt; endl;
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise><p><c>1</c></p></premise>
+      <match>
+        <premise order="1"><p><c>1</c></p></premise>
         <response>integer</response>
       </match>
-      <match order="2">
-        <premise><p><c>"1"</c></p></premise>
+      <match>
+        <premise order="2"><p><c>&quot;1&quot;</c></p></premise>
         <response>string</response>
       </match>
-      <match order="3">
-        <premise><p><c>'1'</c></p></premise>
+      <match>
+        <premise order="3"><p><c>'1'</c></p></premise>
         <response>character</response>
       </match>
     </cardsort>

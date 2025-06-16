@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter15_glossary">
+<?xml version="1.0" ?><section xml:id="chapter15_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -28,16 +27,16 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>ordered set</premise>
+      <match>
+        <premise order="1">ordered set</premise>
         <response>a data structure in which every element appears only once and every element has an index that identifies it</response>
       </match>
-      <match order="2">
-        <premise>stream</premise>
+      <match>
+        <premise order="2">stream</premise>
         <response>a data structure that represents a <q>flow</q> or sequence of data items from one place to another. In C++ streams are used for input and output</response>
       </match>
-      <match order="3">
-        <premise>accumulator</premise>
+      <match>
+        <premise order="3">accumulator</premise>
         <response>a variable used inside a loop to accumulate a result, often by getting something added or concatenated during each iteration.</response>
       </match>
     </cardsort>

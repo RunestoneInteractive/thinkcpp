@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_order-of-operations">
+<?xml version="1.0" ?><section xml:id="chapter2_order-of-operations">
   <title>Order of Operations</title>
   <p>When more than one operator appears in an expression the order of evaluation depends on the
     rules of <term>precedence</term>. A complete explanation of precedence can get complicated, but
@@ -29,9 +28,7 @@
       Observe the output of the code to see how the placement of parentheses can change the
         result of a calculation.
     </title>
-    <program xml:id="order_of_operations_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="order_of_operations_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -55,20 +52,20 @@ int main() {
         Try again!
       </p></feedback>
       <cardsort>
-        <match order="1">
-          <premise>(6*4)+1</premise>
+        <match>
+          <premise order="1">(6*4)+1</premise>
           <response>25</response>
         </match>
-        <match order="2">
-          <premise>6*(4+1)</premise>
+        <match>
+          <premise order="2">6*(4+1)</premise>
           <response>30</response>
         </match>
-        <match order="3">
-          <premise>(6/4)+1</premise>
+        <match>
+          <premise order="3">(6/4)+1</premise>
           <response>2</response>
         </match>
-        <match order="4">
-          <premise>6/(4+1)</premise>
+        <match>
+          <premise order="4">6/(4+1)</premise>
           <response>1</response>
         </match>
       </cardsort>
@@ -94,8 +91,8 @@ int main() {
       <!-- </introduction> -->
       <exercise label="order_of_operations_3A">
         <statement>
-          <p>Click on ALL PARTS of the expression that get evaluated first. For example, if "1 + 1"
-            gets evaluated first, click on "1", "+", and "1".</p>
+          <p>Click on ALL PARTS of the expression that get evaluated first. For example, if &quot;1 + 1&quot;
+            gets evaluated first, click on &quot;1&quot;, &quot;+&quot;, and &quot;1&quot;.</p>
         </statement>
         <feedback><p>
           Try again!
@@ -106,8 +103,8 @@ int main() {
       </exercise>
       <exercise label="order_of_operations_3B">
         <statement>
-          <p>Click on ALL PARTS of the expression that get evaluated first. For example, if "1 + 1"
-            gets evaluated first, click on "1", "+", and "1".</p>
+          <p>Click on ALL PARTS of the expression that get evaluated first. For example, if &quot;1 + 1&quot;
+            gets evaluated first, click on &quot;1&quot;, &quot;+&quot;, and &quot;1&quot;.</p>
         </statement>
         <feedback><p>
           Try again!
@@ -118,8 +115,8 @@ int main() {
       </exercise>
       <exercise label="order_of_operations_3C">
         <statement>
-          <p>Click on ALL PARTS of the expression that get evaluated first. For example, if "1 + 1"
-            gets evaluated first, click on "1", "+", and "1".</p>
+          <p>Click on ALL PARTS of the expression that get evaluated first. For example, if &quot;1 + 1&quot;
+            gets evaluated first, click on &quot;1&quot;, &quot;+&quot;, and &quot;1&quot;.</p>
         </statement>
         <feedback><p>
           Try again!

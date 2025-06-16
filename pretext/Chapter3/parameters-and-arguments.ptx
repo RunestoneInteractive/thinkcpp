@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter3_parameters-and-arguments">
+<?xml version="1.0" ?><section xml:id="chapter3_parameters-and-arguments">
   <title>Parameters and Arguments</title>
   <p>Some of the built-in functions we have used have <term>parameters</term>, which are values that
     you provide to let the function do its job. For example, if you want to find the sine of a
@@ -56,9 +55,7 @@
       The following code will show the output of the printTwice function.
         Try modifying the value of argument to change the output.
     </title>
-    <program xml:id="params_args_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="params_args_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -88,7 +85,7 @@ int main() {
           }
 
           int main() {
-            string argument = "s";
+            string argument = &quot;s&quot;;
             printTwice(argument);
             return 0;
           }
@@ -147,21 +144,21 @@ int main() {
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>int timesTwo(int x, int y);</premise>
+      <match>
+        <premise order="1">int timesTwo(int x, int y);</premise>
         <response>timesTwo(4, 7);</response>
       </match>
-      <match order="2">
-        <premise>int timesTwo(string y, int x);</premise>
-        <response>timesTwo("hello", 10);</response>
+      <match>
+        <premise order="2">int timesTwo(string y, int x);</premise>
+        <response>timesTwo(&quot;hello&quot;, 10);</response>
       </match>
-      <match order="3">
-        <premise>int timesTwo(double x, string y);</premise>
-        <response>timesTwo(4.5, "hello");</response>
+      <match>
+        <premise order="3">int timesTwo(double x, string y);</premise>
+        <response>timesTwo(4.5, &quot;hello&quot;);</response>
       </match>
-      <match order="4">
-        <premise>int timesTwo(string x, string y);</premise>
-        <response>timesTwo("hello", "hi");</response>
+      <match>
+        <premise order="4">int timesTwo(string x, string y);</premise>
+        <response>timesTwo(&quot;hello&quot;, &quot;hi&quot;);</response>
       </match>
     </cardsort>
   </exercise>

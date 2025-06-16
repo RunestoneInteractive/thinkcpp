@@ -1,11 +1,10 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_const-parameters">
+<?xml version="1.0" ?><section xml:id="chapter9_const-parameters">
   <title><c>const</c> parameters</title>
   <p>You might have noticed that the parameters for <c>after</c> and <c>addTime</c> are being passed by
     reference. Since these are pure functions, they do not modify the parameters they receive, so I
     could just as well have passed them by value.</p>
   <p>The advantage of passing by value is that the calling function and the
-    callee are appropriately encapsulated&#x2014;it is not possible for a change in
+    callee are appropriately encapsulated—it is not possible for a change in
     one to affect the other, except by affecting the return value.</p>
   <p>On the other hand, passing by reference usually is more efficient, because it avoids copying
     the argument. Furthermore, there is a nice feature in C++, called <c>const</c>, that can make
@@ -27,14 +26,14 @@ Time addTime(const Time&amp; t1, const Time&amp; t2) ...</program>
       Try again.
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>passing by value</premise>
-        <response>the calling function and the callee are appropriately encapsulated&#x2014;it is
+      <match>
+        <premise order="1">passing by value</premise>
+        <response>the calling function and the callee are appropriately encapsulated—it is
           not possible for a change in one to affect the other, except by affecting the return
           value.</response>
       </match>
-      <match order="2">
-        <premise>passing by reference</premise>
+      <match>
+        <premise order="2">passing by reference</premise>
         <response>more efficient, because it avoids copying the argument</response>
       </match>
     </cardsort>

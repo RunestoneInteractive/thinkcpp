@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_pure-functions">
+<?xml version="1.0" ?><section xml:id="chapter9_pure-functions">
   <title>Pure functions</title>
   <p>A function is considered a pure function if the result depends only on
             the arguments, and it has no side effects like modifying an argument or
@@ -157,20 +156,20 @@ int main() {
       Try again.
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>x.dollar += 2;</premise>
+      <match>
+        <premise order="1">x.dollar += 2;</premise>
         <response>x.dollar = x.dollar + 2;</response>
       </match>
-      <match order="2">
-        <premise>x.dollar -= 2;</premise>
+      <match>
+        <premise order="2">x.dollar -= 2;</premise>
         <response>x.dollar = x.dollar - 2;</response>
       </match>
-      <match order="3">
-        <premise>x.cents -= 2;</premise>
+      <match>
+        <premise order="3">x.cents -= 2;</premise>
         <response>x.cents = x.cents - 2;</response>
       </match>
-      <match order="4">
-        <premise>x.cents += 2;</premise>
+      <match>
+        <premise order="4">x.cents += 2;</premise>
         <response>x.cents = x.cents + 2;</response>
       </match>
     </cardsort>

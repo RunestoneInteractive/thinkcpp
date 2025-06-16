@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter11_glossary">
+<?xml version="1.0" ?><section xml:id="chapter11_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -57,17 +56,17 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>member function</premise>
+      <match>
+        <premise order="1">member function</premise>
         <response>A function that operates on an object that is passed as an implicit parameter
-          named "this".</response>
+          named &quot;this&quot;.</response>
       </match>
-      <match order="2">
-        <premise>nonmember function</premise>
+      <match>
+        <premise order="2">nonmember function</premise>
         <response>A free-standing function that is not part of any structure definition.</response>
       </match>
-      <match order="3">
-        <premise>current object</premise>
+      <match>
+        <premise order="3">current object</premise>
         <response>The object on which a member function is invoked.</response>
       </match>
     </cardsort>
@@ -81,16 +80,16 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>invoke</premise>
+      <match>
+        <premise order="1">invoke</premise>
         <response>To call a function <q>on</q> an object.</response>
       </match>
-      <match order="2">
-        <premise>this</premise>
+      <match>
+        <premise order="2">this</premise>
         <response>A keyword that refers to the current object.</response>
       </match>
-      <match order="3">
-        <premise>interface</premise>
+      <match>
+        <premise order="3">interface</premise>
         <response>A description of how a function is used.</response>
       </match>
     </cardsort>
@@ -104,16 +103,16 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>function declaration</premise>
+      <match>
+        <premise order="1">function declaration</premise>
         <response>A statement that declares the interface to a function without providing the body.</response>
       </match>
-      <match order="2">
-        <premise>implementation</premise>
+      <match>
+        <premise order="2">implementation</premise>
         <response>The body of a function, or the details of how a function works.</response>
       </match>
-      <match order="3">
-        <premise>constructor</premise>
+      <match>
+        <premise order="3">constructor</premise>
         <response>A special function that initializes the instance variables of a newly-created
           object.</response>
       </match>

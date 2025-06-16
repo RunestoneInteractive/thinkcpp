@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter1_formal-and-natural-languages-formal">
+<?xml version="1.0" ?><section xml:id="chapter1_formal-and-natural-languages-formal">
   <title>Formal and Natural Languages</title>
   <p><term>Natural languages</term> are the languages that people speak, like English, Spanish, and
     French. They were not designed by people (although people try to impose some order on them);
@@ -37,7 +36,7 @@
     what a shoe is, and what it means to fall, you will understand the general implication of this
     sentence.</p>
   <p>Although formal and natural languages have many features in
-    common&#x2014;tokens, structure, syntax and semantics&#x2014;there are many
+    common—tokens, structure, syntax and semantics—there are many
     differences.</p>
   <p><dl>
     <li>
@@ -161,16 +160,16 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>ambiguity</premise>
+      <match>
+        <premise order="1">ambiguity</premise>
         <response>being unclear and open to interpretation</response>
       </match>
-      <match order="2">
-        <premise>redundancy</premise>
+      <match>
+        <premise order="2">redundancy</premise>
         <response>being repetetive to get the point across</response>
       </match>
-      <match order="3">
-        <premise>literalness</premise>
+      <match>
+        <premise order="3">literalness</premise>
         <response>meaning exactly what is said, nothing more</response>
       </match>
     </cardsort>
@@ -183,23 +182,23 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>ambiguity</premise>
+      <match>
+        <premise order="1">ambiguity</premise>
         <response> I rode a black horse in red jacket.</response>
       </match>
-      <match order="2">
-        <premise>redundancy</premise>
+      <match>
+        <premise order="2">redundancy</premise>
         <response>I rode a black horse and I wore a red jacket.</response>
       </match>
-      <match order="3">
-        <premise>literalness</premise>
+      <match>
+        <premise order="3">literalness</premise>
         <response> Give me a cup of water.</response>
       </match>
     </cardsort>
   </exercise>
   <exercise label="formal_natural_5">
     <statement>
-      <p><term>Multiple Response</term> Formal languages are&#x2026;</p>
+      <p><term>Multiple Response</term> Formal languages are…</p>
     </statement>
     <choices>
       <choice>

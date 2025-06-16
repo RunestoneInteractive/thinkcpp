@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_glossary">
+<?xml version="1.0" ?><section xml:id="chapter10_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -54,17 +53,17 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>vector</premise>
+      <match>
+        <premise order="1">vector</premise>
         <response>A named collection of values, where all the values have the same type, and each
           value is identified by an index.</response>
       </match>
-      <match order="2">
-        <premise>element</premise>
+      <match>
+        <premise order="2">element</premise>
         <response>One of the values in a vector.</response>
       </match>
-      <match order="3">
-        <premise>index</premise>
+      <match>
+        <premise order="3">index</premise>
         <response>An integer variable or value used to indicate an element of a vector.</response>
       </match>
     </cardsort>
@@ -75,18 +74,18 @@
         appropriate box.</p>
     </statement>
     <cardsort>
-      <match order="1">
-        <premise>constructor</premise>
+      <match>
+        <premise order="1">constructor</premise>
         <response>A special function that creates a new object and initializes its instance
           variables.</response>
       </match>
-      <match order="2">
-        <premise>pseudorandom</premise>
+      <match>
+        <premise order="2">pseudorandom</premise>
         <response>A sequence of numbers that appear to be random, but which are actually the product
           of a deterministic computation.</response>
       </match>
-      <match order="3">
-        <premise>seed</premise>
+      <match>
+        <premise order="3">seed</premise>
         <response>A value used to initialize a random number sequence.</response>
       </match>
     </cardsort>
@@ -100,17 +99,17 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>deterministic</premise>
+      <match>
+        <premise order="1">deterministic</premise>
         <response>A program that does the same thing every time it is run.</response>
       </match>
-      <match order="2">
-        <premise>bottom-up design</premise>
+      <match>
+        <premise order="2">bottom-up design</premise>
         <response>A method of program development that starts by writing small, useful functions and
           then assembling them into larger solutions.</response>
       </match>
-      <match order="3">
-        <premise>histogram</premise>
+      <match>
+        <premise order="3">histogram</premise>
         <response>A vector of integers where each integer counts the number of values that fall into
           a certain range.</response>
       </match>

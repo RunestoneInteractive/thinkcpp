@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
-<section xml:id="chapter15_file-input-finput">
+<?xml version="1.0" ?><section xml:id="chapter15_file-input-finput">
   <title>File input</title>
   <p>To get data from a file, we have to create a stream that flows from the file into the program.
     We can do that using the <c>ifstream</c> constructor.</p>
   <program>
-ifstream infile("file-name");
+ifstream infile(&quot;file-name&quot;);
 </program>
   <p>The argument for this constructor is a string that contains the name of the file you want to
     open. The result is an object named <c>infile</c> that supports all the same operations as <c>cin</c>,
@@ -18,7 +17,7 @@ int main()
     int x;
     string line;
 
-    ifstream infile("file-name");
+    ifstream infile(&quot;file-name&quot;);
     infile &gt;&gt; x;               // get a single integer and store in x
     getline(infile, line);           // get a whole line and store in line
 }</program>
@@ -43,7 +42,7 @@ int main()
  ifstream infile(fileName);
 
  if (infile.good() == false) {
-   cout &lt;&lt; "Unable to open the file named " &lt;&lt; fileName;
+   cout &lt;&lt; &quot;Unable to open the file named &quot; &lt;&lt; fileName;
    exit (1);
  }
 
@@ -70,7 +69,7 @@ int main()
 
         ::
 
-        ifstream infile("file-name");
+        ifstream infile(&quot;file-name&quot;);
 
         Finish each sentence.</p>
     </statement>
@@ -78,32 +77,28 @@ int main()
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>The constructor is</premise>
+      <match>
+        <premise order="1">The constructor is</premise>
         <response>ifstream.</response>
       </match>
-      <match order="2">
-        <premise>The argument and the name of the file you want to open is</premise>
-        <response>"file-name".</response>
+      <match>
+        <premise order="2">The argument and the name of the file you want to open is</premise>
+        <response>&quot;file-name&quot;.</response>
       </match>
-      <match order="3">
-        <premise>The result of this code snippet is an object named</premise>
+      <match>
+        <premise order="3">The result of this code snippet is an object named</premise>
         <response>infile.</response>
       </match>
-      <match order="4">
-        <premise>The result of this code snippet supports the same operators as</premise>
+      <match>
+        <premise order="4">The result of this code snippet supports the same operators as</premise>
         <response>cin.</response>
       </match>
     </cardsort>
   </exercise>
   <exercise label="question15_3_2">
     <statement>
-      <p>The <c>ifstream</c> member function called <fillin mode="string"
-                case="insensitive"
-                answer="good"/>
-        makes sure the file was opened successfully, and member function <fillin mode="string"
-                case="insensitive"
-                answer="eof"/>
+      <p>The <c>ifstream</c> member function called <fillin mode="string" case="insensitive" answer="good"/>
+        makes sure the file was opened successfully, and member function <fillin mode="string" case="insensitive" answer="eof"/>
         detects the end of the file. </p>
     </statement>
     <evaluation>
@@ -122,9 +117,7 @@ int main()
   <exercise label="question15_3_3">
     <statement>
       <p>The __________ statement allows us to exit the loop as soon as we detect the end of the
-        file. <fillin mode="string"
-                case="insensitive"
-                answer="break"/>
+        file. <fillin mode="string" case="insensitive" answer="break"/>
       </p>
     </statement>
     <evaluation>
@@ -135,10 +128,7 @@ int main()
       </evaluate>
     </evaluation>
   </exercise>
-  <exercise label="question15_3_4"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="question15_3_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Create a code block that reads lines from <q>filename</q> and prints them out. First, make
         sure that the file is able to be opened.</p>
@@ -148,7 +138,7 @@ int main()
         <cline>int main() {</cline>
       </block>
       <block order="7">
-        <cline> string name_of_file = "filename";</cline>
+        <cline> string name_of_file = &quot;filename&quot;;</cline>
       </block>
       <block order="8">
         <cline> ifstream in_file(name_of_file);</cline>

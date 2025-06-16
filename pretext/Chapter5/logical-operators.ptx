@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
-<section xml:id="chapter5_logical-operators">
+<?xml version="1.0" ?><section xml:id="chapter5_logical-operators">
   <title>Logical operators</title>
   <p>There are three <term>logical operators</term> in C++: AND, OR and NOT, which are denoted by
-    the symbols &#x2018;'&amp;&amp;'', &#x2018;'||'' and &#x2018;'!''. The semantics (meaning) of
-    these operators is similar to their meaning in English. For example &#x2018;'x &gt; 0 &amp;&amp;
+    the symbols ‘'&amp;&amp;'', ‘'||'' and ‘'!''. The semantics (meaning) of
+    these operators is similar to their meaning in English. For example ‘'x &gt; 0 &amp;&amp;
     x &lt; 10'' is true only if x is greater than zero AND less than 10.</p>
   <p><c>evenFlag || n%3 == 0</c> is true if <em>either</em> of the conditions is true, that is, if evenFlag is true OR
     the number is divisible by 3.</p>
@@ -17,7 +16,7 @@
       <p>Multiple Response: How could you re-write the following code using a single conditional?</p>
       <program>if (x &gt; 0) {
   if (x &lt; 10) {
-    cout &lt;&lt; "x is a positive single digit" &lt;&lt; endl;
+    cout &lt;&lt; &quot;x is a positive single digit&quot; &lt;&lt; endl;
   }
 }</program>
     </statement>
@@ -35,7 +34,7 @@
           <p><![CDATA[if (x > 0 || x < 10) {...]]></p>
         </statement>
         <feedback><p>
-          || represents "or", but we need both sides of the conditional to be true.
+          || represents &quot;or&quot;, but we need both sides of the conditional to be true.
         </p></feedback>
       </choice>
       <choice>
@@ -73,29 +72,29 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>(n * 2 &gt; 10 &amp;&amp; n &gt;= 7)</premise>
-        <response>true, "and"</response>
+      <match>
+        <premise order="1">(n * 2 &gt; 10 &amp;&amp; n &gt;= 7)</premise>
+        <response>true, &quot;and&quot;</response>
       </match>
-      <match order="2">
-        <premise>(n * 2 &gt; 10 &amp;&amp; n &lt; 7)</premise>
-        <response>false, "and"</response>
+      <match>
+        <premise order="2">(n * 2 &gt; 10 &amp;&amp; n &lt; 7)</premise>
+        <response>false, &quot;and&quot;</response>
       </match>
-      <match order="3">
-        <premise>(n%2 == 1 || n == 8)</premise>
-        <response>true, "or"</response>
+      <match>
+        <premise order="3">(n%2 == 1 || n == 8)</premise>
+        <response>true, &quot;or&quot;</response>
       </match>
-      <match order="4">
-        <premise>(n%2 == 0 || n == 8)</premise>
-        <response>false, "or"</response>
+      <match>
+        <premise order="4">(n%2 == 0 || n == 8)</premise>
+        <response>false, &quot;or&quot;</response>
       </match>
-      <match order="5">
-        <premise>!(n == 7)</premise>
-        <response>false, "not"</response>
+      <match>
+        <premise order="5">!(n == 7)</premise>
+        <response>false, &quot;not&quot;</response>
       </match>
-      <match order="6">
-        <premise>!(n &gt;= 10)</premise>
-        <response>true, "not"</response>
+      <match>
+        <premise order="6">!(n &gt;= 10)</premise>
+        <response>true, &quot;not&quot;</response>
       </match>
     </cardsort>
   </exercise>

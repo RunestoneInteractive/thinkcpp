@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter1_what-is-a-programming-language">
+<?xml version="1.0" ?><section xml:id="chapter1_what-is-a-programming-language">
   <title>What is a Programming Language?</title>
   <p>The programming language you will be learning is C++. It is a <term>high-level
       language</term>.</p>
@@ -184,12 +183,12 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>source code</premise>
+      <match>
+        <premise order="1">source code</premise>
         <response>our program written in C++</response>
       </match>
-      <match order="2">
-        <premise>object code</premise>
+      <match>
+        <premise order="2">object code</premise>
         <response>translated version of our program that the computer can understand and execute</response>
       </match>
     </cardsort>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_glossary">
+<?xml version="1.0" ?><section xml:id="chapter7_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -32,7 +31,7 @@
         <gi>
             <title>decrement</title>
             <p>Decrease the value of a variable by one. The decrement operator in
-            C++ is <c>&#x2013;</c>.</p>
+            C++ is <c>–</c>.</p>
         </gi>
         <gi>
             <title>concatenate</title>
@@ -47,32 +46,32 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>object</premise>
+      <match>
+        <premise order="1">object</premise>
         <response>A collection of related data that comes with a set of functions that operate on it.</response>
       </match>
-      <match order="2">
-        <premise>index</premise>
+      <match>
+        <premise order="2">index</premise>
         <response>A variable or value used to select one of the members of an ordered set, like a character from a string.</response>
       </match>
-      <match order="3">
-        <premise>traverse</premise>
+      <match>
+        <premise order="3">traverse</premise>
         <response>To iterate through all the elements of a set performing a similar operation on each.</response>
       </match>
-      <match order="4">
-        <premise>counter</premise>
+      <match>
+        <premise order="4">counter</premise>
         <response>A variable used to count something.</response>
       </match>
-      <match order="5">
-        <premise>increment</premise>
+      <match>
+        <premise order="5">increment</premise>
         <response>Increase the value of a variable by one.</response>
       </match>
-      <match order="6">
-        <premise>decrement</premise>
+      <match>
+        <premise order="6">decrement</premise>
         <response>Decrease the value of a variable by one.</response>
       </match>
-      <match order="7">
-        <premise>concatenate</premise>
+      <match>
+        <premise order="7">concatenate</premise>
         <response>To join two operands end-to-end.</response>
       </match>
     </cardsort>

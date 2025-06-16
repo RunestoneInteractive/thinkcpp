@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter15_streams">
+<?xml version="1.0" ?><section xml:id="chapter15_streams">
   <title>Streams</title>
   <p>To get input from a file or send output to a file, you have to create an <c>ifstream</c> object (for
     input files) or an <c>ofstream</c> object (for output files). These objects are defined in the header
@@ -14,16 +13,10 @@
     outgoing stream.</p>
   <exercise label="question15_2_1">
     <statement>
-      <p>You create an <fillin mode="string"
-                case="insensitive"
-                answer="ostream"/> object to write
-        data to a file, and a <fillin mode="string"
-                case="insensitive"
-                answer="istream"/> object to
+      <p>You create an <fillin mode="string" case="insensitive" answer="ostream"/> object to write
+        data to a file, and a <fillin mode="string" case="insensitive" answer="istream"/> object to
         read data from a file. In order to define objects to input from a file or send output to a
-        file, you must include the <c>&lt;</c> <fillin mode="string"
-                case="insensitive"
-                answer="fstream"/> <c>&gt;</c>
+        file, you must include the <c>&lt;</c> <fillin mode="string" case="insensitive" answer="fstream"/> <c>&gt;</c>
         header file. </p>
     </statement>
     <evaluation>
@@ -92,12 +85,12 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>cin</premise>
+      <match>
+        <premise order="1">cin</premise>
         <response>ifstream</response>
       </match>
-      <match order="2">
-        <premise>cout</premise>
+      <match>
+        <premise order="2">cout</premise>
         <response>ofstream</response>
       </match>
     </cardsort>

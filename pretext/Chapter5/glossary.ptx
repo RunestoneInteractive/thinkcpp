@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter5_glossary">
+<?xml version="1.0" ?><section xml:id="chapter5_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -61,20 +60,20 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>return type</premise>
+      <match>
+        <premise order="1">return type</premise>
         <response>The type of value a function returns.</response>
       </match>
-      <match order="2">
-        <premise>return value</premise>
+      <match>
+        <premise order="2">return value</premise>
         <response>The value provided as the result of a function call.</response>
       </match>
-      <match order="3">
-        <premise>comparison operator</premise>
+      <match>
+        <premise order="3">comparison operator</premise>
         <response>An operator that compares two values and produces a boolean.</response>
       </match>
-      <match order="4">
-        <premise>logical operator</premise>
+      <match>
+        <premise order="4">logical operator</premise>
         <response>An operator that combines boolean values in order to test compound conditions.</response>
       </match>
     </cardsort>
@@ -88,16 +87,16 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>dead code</premise>
+      <match>
+        <premise order="1">dead code</premise>
         <response>Part of a program that can never be executed.</response>
       </match>
-      <match order="2">
-        <premise>scaffolding</premise>
+      <match>
+        <premise order="2">scaffolding</premise>
         <response>Code used during program development but not part of the final version.</response>
       </match>
-      <match order="3">
-        <premise>overloading</premise>
+      <match>
+        <premise order="3">overloading</premise>
         <response>Having more than one function with the same name but different parameters.</response>
       </match>
     </cardsort>
@@ -111,17 +110,17 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>boolean</premise>
+      <match>
+        <premise order="1">boolean</premise>
         <response>A value or variable that can take on one of two states, often called true and
           false.</response>
       </match>
-      <match order="2">
-        <premise>flag</premise>
+      <match>
+        <premise order="2">flag</premise>
         <response>A variable that records a condition or status information.</response>
       </match>
-      <match order="3">
-        <premise>void</premise>
+      <match>
+        <premise order="3">void</premise>
         <response>A special return type that does not return a value.</response>
       </match>
     </cardsort>

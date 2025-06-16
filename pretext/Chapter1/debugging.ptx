@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter1_what-is-debugging">
+<?xml version="1.0" ?><section xml:id="chapter1_what-is-debugging">
   <title>What is Debugging?</title>
   <introduction>
     <p>Programming is a complex process, and since it is done by human
@@ -113,17 +112,17 @@
         Try again!
       </p></feedback>
       <cardsort>
-        <match order="1">
-          <premise>syntax (compile-time) error</premise>
+        <match>
+          <premise order="1">syntax (compile-time) error</premise>
           <response>an error that surfaces when something is wrong with the structure of your
             program</response>
         </match>
-        <match order="2">
-          <premise>run-time error</premise>
+        <match>
+          <premise order="2">run-time error</premise>
           <response>an error that comes up when your program is executed</response>
         </match>
-        <match order="3">
-          <premise>semantic error</premise>
+        <match>
+          <premise order="3">semantic error</premise>
           <response>your program does what you told it to do, not what you intended for it to do</response>
         </match>
       </cardsort>

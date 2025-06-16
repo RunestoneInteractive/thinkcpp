@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_outputting-variables">
+<?xml version="1.0" ?><section xml:id="chapter2_outputting-variables">
   <title>Outputting Variables</title>
   <p>You can output the value of a variable using the same commands we used
     to output simple values. The program below creates two integer variables
@@ -18,9 +17,7 @@ The current time is 11:59
       This program outputs the current time, according to the values you
         provide for hour and minute.
     </title>
-    <program xml:id="output_vars_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="output_vars_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -45,7 +42,7 @@ int main() {
     </program>
   </listing>
   <p>When we talk about <q>outputting a variable,</q> we mean outputting the <em>value</em> of the
-    variable. To output the <em>name</em> of a variable, you have to put it in quotes. For example: <c>cout &lt;&lt; "hour";</c>
+    variable. To output the <em>name</em> of a variable, you have to put it in quotes. For example: <c>cout &lt;&lt; &quot;hour&quot;;</c>
     The output of this statement is as follows.</p>
   <console><output>hour</output></console>
   <p>As we have seen before, you can include more than one value in a single
@@ -55,9 +52,7 @@ int main() {
       This program does the same thing as the previous, but the print
         statements have been condensed to one line. This is better style.
     </title>
-    <program xml:id="output_vars_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="output_vars_AC_2_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -87,7 +82,7 @@ int main() {
   char b;
   a = 'z';
   b = '8';
-  cout &lt;&lt; "a";
+  cout &lt;&lt; &quot;a&quot;;
 }</program>
     </statement>
     <choices>
@@ -249,24 +244,21 @@ int main() {
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise><p><c>x = 2</c></p></premise>
+      <match>
+        <premise order="1"><p><c>x = 2</c></p></premise>
         <response>int</response>
       </match>
-      <match order="2">
-        <premise><p><c>y = "2"</c></p></premise>
+      <match>
+        <premise order="2"><p><c>y = &quot;2&quot;</c></p></premise>
         <response>string</response>
       </match>
-      <match order="3">
-        <premise><p><c>z = '2'</c></p></premise>
+      <match>
+        <premise order="3"><p><c>z = '2'</c></p></premise>
         <response>char</response>
       </match>
     </cardsort>
   </exercise>
-  <exercise label="output_vars_5"
-           number="yes"
-           adaptive="yes"
-           indentation="hide">
+  <exercise label="output_vars_5" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a main function that assigns <q>Hello</q> to the variable h, then prints out h's
         value.</p>
@@ -285,7 +277,7 @@ int main() {
       </block>
       <block order="2">
         <choice correct="yes">
-          <cline> h = "Hello";</cline>
+          <cline> h = &quot;Hello&quot;;</cline>
         </choice>
         <choice>
           <cline> h = Hello; </cline>
@@ -296,11 +288,11 @@ int main() {
           <cline> cout &lt;&lt; h;</cline>
         </choice>
         <choice>
-          <cline> cout &lt;&lt; "Hello"; </cline>
+          <cline> cout &lt;&lt; &quot;Hello&quot;; </cline>
         </choice>
       </block>
       <block order="7">
-        <cline> cout &lt;&lt; "h"; </cline>
+        <cline> cout &lt;&lt; &quot;h&quot;; </cline>
       </block>
       <block order="5">
         <cline>}</cline>

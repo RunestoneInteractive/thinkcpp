@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter1_what-is-a-program">
+<?xml version="1.0" ?><section xml:id="chapter1_what-is-a-program">
   <title>What is a Program?</title>
   <p>A <term>program</term> is a sequence of instructions that specifies
     how to perform a computation. The computation might be something mathematical, like solving a
@@ -61,24 +60,24 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>input</premise>
+      <match>
+        <premise order="1">input</premise>
         <response>the program user enters a few ordered pairs when prompted in the terminal</response>
       </match>
-      <match order="2">
-        <premise>output</premise>
+      <match>
+        <premise order="2">output</premise>
         <response>the calculated distances are saved to a file</response>
       </match>
-      <match order="3">
-        <premise>math</premise>
+      <match>
+        <premise order="3">math</premise>
         <response>the program calculates the distance between two ordered pairs</response>
       </match>
-      <match order="4">
-        <premise>testing</premise>
+      <match>
+        <premise order="4">testing</premise>
         <response>the program makes sure that the calculated distance is non-negative</response>
       </match>
-      <match order="5">
-        <premise>repetition</premise>
+      <match>
+        <premise order="5">repetition</premise>
         <response>the program continues executing as long as there are more data points to compute
           distance</response>
       </match>

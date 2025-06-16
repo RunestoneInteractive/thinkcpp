@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter4_the-modulus-operator">
+<?xml version="1.0" ?><section xml:id="chapter4_the-modulus-operator">
   <title>The Modulus Operator</title>
   <p>The modulus operator works on integers (and integer expressions) and yields the <em>remainder</em>
     when the first operand is divided by the second. In C++, the modulus operator is a percent sign, <c>%</c>.
@@ -9,9 +8,7 @@
       This program shows the difference between the division operator
         and the modulus operator.
     </title>
-    <program xml:id="mod_operator_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="mod_operator_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -81,20 +78,20 @@ int main() {
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>3 % 2</premise>
+      <match>
+        <premise order="1">3 % 2</premise>
         <response>1</response>
       </match>
-      <match order="2">
-        <premise>2 % 3</premise>
+      <match>
+        <premise order="2">2 % 3</premise>
         <response>2</response>
       </match>
-      <match order="3">
-        <premise>6 % 2</premise>
+      <match>
+        <premise order="3">6 % 2</premise>
         <response>0</response>
       </match>
-      <match order="4">
-        <premise>9 % 6</premise>
+      <match>
+        <premise order="4">9 % 6</premise>
         <response>3</response>
       </match>
     </cardsort>

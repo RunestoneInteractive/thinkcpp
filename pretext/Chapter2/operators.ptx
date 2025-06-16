@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_operators">
+<?xml version="1.0" ?><section xml:id="chapter2_operators">
   <title>Operators</title>
   <p><term>Operators</term> are special symbols that are used to represent simple computations like
     addition and multiplication. Most of the operators in C++ do exactly what you would expect them
@@ -24,9 +23,7 @@
         passed since midnight. You'll notice that the result isn't quite what
         you expect. Read on to find out why!
     </title>
-    <program xml:id="operators_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="operators_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -52,7 +49,7 @@ int main() {
     on), the result must also be an integer, and by definition integer division <term>truncates</term> the answer. <em>Truncating</em> a value means dropping the decimal portion, even in cases like this where the next integer is so close.</p>
   <p>A possible alternative in this case is to calculate a percentage rather
     than a fraction:</p>
-  <program>cout &lt;&lt; "Percentage of the hour that has passed: ";
+  <program>cout &lt;&lt; &quot;Percentage of the hour that has passed: &quot;;
 cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
   <p>The result is:</p>
   <console><output>Percentage of the hour that has passed: 98</output></console>
@@ -72,20 +69,20 @@ cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>x*10</premise>
+      <match>
+        <premise order="1">x*10</premise>
         <response>100</response>
       </match>
-      <match order="2">
-        <premise>x-10</premise>
+      <match>
+        <premise order="2">x-10</premise>
         <response>0</response>
       </match>
-      <match order="3">
-        <premise>100/x</premise>
+      <match>
+        <premise order="3">100/x</premise>
         <response>10</response>
       </match>
-      <match order="4">
-        <premise>(x+x+x+x+x)*20</premise>
+      <match>
+        <premise order="4">(x+x+x+x+x)*20</premise>
         <response>1000</response>
       </match>
     </cardsort>
@@ -176,7 +173,7 @@ cout &lt;&lt; num2 / num1;</program>
     <statement>
       <program>int num1 = 7;
 int num2 = 8;
-cout &lt;&lt; "Decimal:" &lt;&lt; num1 / num2;</program>
+cout &lt;&lt; &quot;Decimal:&quot; &lt;&lt; num1 / num2;</program>
       <p>What is printed after <c>Decimal:</c>?</p>
       <p>
         <fillin mode="number" case="insensitive" answer="0"/>
@@ -190,10 +187,7 @@ cout &lt;&lt; "Decimal:" &lt;&lt; num1 / num2;</program>
       </evaluate>
     </evaluation>
   </exercise>
-  <exercise label="operators_4"
-           number="yes"
-           adaptive="yes"
-           indentation="hide">
+  <exercise label="operators_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a code block that prints the total cost of your meal, including the 6.0% sales
         tax, after you purchase two orders of fries, three burgers, and a milkshake. Start by

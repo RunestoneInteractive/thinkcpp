@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter3_programs-with-multiple-functions">
+<?xml version="1.0" ?><section xml:id="chapter3_programs-with-multiple-functions">
   <title>Programs with Multiple Functions</title>
   <p>When you look at a class definition that contains several functions, it is tempting to read it
     from top to bottom, but that is likely to be confusing, because that is not the <term>order of
@@ -25,9 +24,7 @@
     <statement>
       <p>This program calls the multiplyTwo and addTwo functions in the
         main. Follow the order of execution using the Codelens.</p>
-    <program label="multiple_functions_AC_1_editor"
-             interactive="codelens"
-             line-numbers="yes">
+    <program label="multiple_functions_AC_1_editor" interactive="codelens" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -68,20 +65,20 @@ int main() {
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>multiplyTwo </premise>
+      <match>
+        <premise order="1">multiplyTwo </premise>
         <response> executes second</response>
       </match>
-      <match order="2">
-        <premise>printTotal </premise>
+      <match>
+        <premise order="2">printTotal </premise>
         <response> executes third</response>
       </match>
-      <match order="3">
-        <premise>main </premise>
+      <match>
+        <premise order="3">main </premise>
         <response> executes first</response>
       </match>
-      <match order="4">
-        <premise>addTwo </premise>
+      <match>
+        <premise order="4">addTwo </premise>
         <response> executes last</response>
       </match>
     </cardsort>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter5_boolean-variables">
+<?xml version="1.0" ?><section xml:id="chapter5_boolean-variables">
   <title>Boolean Variables</title>
   <p>As usual, for every type of value, there is a corresponding type of variable. In C++ the
     boolean type is called <term>bool</term>. Boolean variables work just like the other types:</p>
@@ -15,7 +14,7 @@ bool testResult = false;</program>
 bool plusFlag = (x &gt; 0);    // true if x is positive</program>
   <p>and then use it as part of a conditional statement later</p>
   <program>if (evenFlag) {
-  cout &lt;&lt; "n was even when I checked it";
+  cout &lt;&lt; &quot;n was even when I checked it&quot;;
 }</program>
   <p>A variable used in this way is called a <term>flag</term>, since it flags the presence or
     absence of some condition.</p>
@@ -27,12 +26,12 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>x * 2 &gt; 4</premise>
+      <match>
+        <premise order="1">x * 2 &gt; 4</premise>
         <response>false</response>
       </match>
-      <match order="2">
-        <premise>x &gt;= 2</premise>
+      <match>
+        <premise order="2">x &gt;= 2</premise>
         <response>true</response>
       </match>
     </cardsort>
@@ -45,16 +44,16 @@ bool plusFlag = (x &gt; 0);    // true if x is positive</program>
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>bool fred;</premise>
+      <match>
+        <premise order="1">bool fred;</premise>
         <response>variable declaration</response>
       </match>
-      <match order="2">
-        <premise>fred = true;</premise>
+      <match>
+        <premise order="2">fred = true;</premise>
         <response>assignment</response>
       </match>
-      <match order="3">
-        <premise>bool testResult = false;</premise>
+      <match>
+        <premise order="3">bool testResult = false;</premise>
         <response>initialization</response>
       </match>
     </cardsort>
@@ -69,11 +68,11 @@ bool evenFlag = (n % 2 == 0);
 bool plusFlag = (x &gt; 0);
 
 if (evenFlag) {
-  cout &lt;&lt; "n was even when I checked it ";
+  cout &lt;&lt; &quot;n was even when I checked it &quot;;
 }
 
 if (plusFlag) {
-  cout &lt;&lt; "x was positive when I checked it";
+  cout &lt;&lt; &quot;x was positive when I checked it&quot;;
 }</program>
     </statement>
     <choices>
@@ -138,15 +137,15 @@ if (low_battery) {
   if (!power_outage) {
 
     if (low_battery) {
-        cout&lt;&lt;"Charging your phone"&lt;&lt;endl;
+        cout&lt;&lt;&quot;Charging your phone&quot;&lt;&lt;endl;
     }
     else{
-        cout&lt;&lt;"Battery is charged"&lt;&lt;endl;
+        cout&lt;&lt;&quot;Battery is charged&quot;&lt;&lt;endl;
     }
 
   }
   else{
-    cout&lt;&lt;"There is no power"&lt;&lt;endl&gt;&gt;;
+    cout&lt;&lt;&quot;There is no power&quot;&lt;&lt;endl&gt;&gt;;
   }
 }</program>
     </statement>

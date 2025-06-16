@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_variables">
+<?xml version="1.0" ?><section xml:id="chapter2_variables">
   <title>Variables</title>
   <p>One of the most powerful features of a programming language is the ability to manipulate <term>
     variables</term>. A variable is a named location that stores a value.</p>
@@ -81,7 +80,7 @@ char tom;
       <cline>    }</cline>
       <cline>    double <area correct="no">d</area> = <area correct="no">9</area>;</cline>
       <cline>    int <area correct="yes">z</area> = <area correct="yes">x</area> + <area correct="yes">y</area>;</cline>
-      <cline><![CDATA[    cout << "It's the year " << ]]><area correct="no">2000</area> + <area correct="yes">z</area> &lt;&lt; "!";</cline>
+      <cline><![CDATA[    cout << "It's the year " << ]]><area correct="no">2000</area> + <area correct="yes">z</area> &lt;&lt; &quot;!&quot;;</cline>
       <cline>}</cline>
     </areas>
   </exercise>
@@ -95,12 +94,12 @@ char tom;
     <areas>
       <cline>int main() {</cline>
       <cline>    char <area correct="yes">init1</area> = <area correct="no">'K'</area>;</cline>
-      <cline>    string <area correct="no">init2</area> = <area correct="no">"T"</area>;</cline>
-      <cline>    cout &lt;&lt; <area correct="yes">init1</area> &lt;&lt; <area correct="no">"+"</area> &lt;&lt; <area correct="no">init2</area> &lt;&lt; endl;</cline>
-      <cline>    string <area correct="no">init3</area> = <area correct="no">"C"</area>;</cline>
+      <cline>    string <area correct="no">init2</area> = <area correct="no">&quot;T&quot;</area>;</cline>
+      <cline>    cout &lt;&lt; <area correct="yes">init1</area> &lt;&lt; <area correct="no">&quot;+&quot;</area> &lt;&lt; <area correct="no">init2</area> &lt;&lt; endl;</cline>
+      <cline>    string <area correct="no">init3</area> = <area correct="no">&quot;C&quot;</area>;</cline>
       <cline>    char <area correct="yes">init4</area> = <area correct="no">'J'</area>;</cline>
       <cline>    cout &lt;&lt; <area correct="no">init3</area> &lt;&lt; <area correct="no">'+'</area> &lt;&lt; <area correct="yes">init4</area> &lt;&lt; endl;</cline>
-      <cline>    string <area correct="no">c</area> = <area correct="no">"Carved their initials in a tree!"</area>;</cline>
+      <cline>    string <area correct="no">c</area> = <area correct="no">&quot;Carved their initials in a tree!&quot;</area>;</cline>
       <cline>    cout &lt;&lt; <area correct="no">c</area>;</cline>
       <cline>}</cline>
     </areas>
@@ -114,24 +113,21 @@ char tom;
         here! Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise><p><c>char joe;</c></p></premise>
+      <match>
+        <premise order="1"><p><c>char joe;</c></p></premise>
         <response><c>'x'</c></response>
       </match>
-      <match order="2">
-        <premise><p><c>string ten;</c></p></premise>
-        <response><c>"Joe"</c></response>
+      <match>
+        <premise order="2"><p><c>string ten;</c></p></premise>
+        <response><c>&quot;Joe&quot;</c></response>
       </match>
-      <match order="3">
-        <premise><p><c>int x;</c></p></premise>
+      <match>
+        <premise order="3"><p><c>int x;</c></p></premise>
         <response><c>10</c></response>
       </match>
     </cardsort>
   </exercise>
-  <exercise label="variables_4"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="variables_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Arrange the code blocks to create the variables <c>name</c>, <c>firstInitial</c>, and <c>numberOfSiblings</c> IN THAT
         ORDER. It is up to you to choose the correct types for these variables.</p>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter3_math-functions">
+<?xml version="1.0" ?><section xml:id="chapter3_math-functions">
   <title>Math Functions</title>
   <p>In mathematics, you have probably seen functions like <m>\sin</m> and <m>\log</m>,
     and you have learned to evaluate expressions like <m>\sin(\pi/2)</m> and <m>\log(1/x)</m>.
@@ -20,9 +19,7 @@
       This program performs calculations using some of the built-in functions
         from the cmath library.
     </title>
-    <program xml:id="math_functions_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="math_functions_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -59,9 +56,7 @@ int main() {
         we have a line of code that converts the default radians value to
         degrees.
     </title>
-    <program xml:id="math_functions_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="math_functions_AC_2_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -103,7 +98,7 @@ using namespace std;
   <program>
 #include &lt;cmath&gt;
 </program>
-  <note><p><term>cmath</term> is one of a number of header files that start with &#x2018;c' to signify that
+  <note><p><term>cmath</term> is one of a number of header files that start with ‘c' to signify that
     they are derived from similar header files in the <term>C</term> language. In <term>C</term> the math
     library is named <c>math.h</c>. In <term>C++</term> you should always use the version of the library
     that starts with 'c' as opposed to the one that ends with '.h'.</p></note>
@@ -113,16 +108,16 @@ using namespace std;
     </statement>
     <feedback><p>This is feedback.</p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>cmath</premise>
+      <match>
+        <premise order="1">cmath</premise>
         <response>allows the use of functions like log and sin</response>
       </match>
-      <match order="2">
-        <premise>iostream</premise>
+      <match>
+        <premise order="2">iostream</premise>
         <response>contains information about input and output streams</response>
       </match>
-      <match order="3">
-        <premise>namespace std</premise>
+      <match>
+        <premise order="3">namespace std</premise>
         <response>the standard implementation of cout</response>
       </match>
     </cardsort>

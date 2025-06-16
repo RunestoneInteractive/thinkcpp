@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter3_glossary">
+<?xml version="1.0" ?><section xml:id="chapter3_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -42,16 +41,16 @@
     </statement>
     <feedback><p>Try again!</p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>floating-point</premise>
+      <match>
+        <premise order="1">floating-point</premise>
         <response>A type of value that can contain fractions as well as integers.</response>
       </match>
-      <match order="2">
-        <premise>initialization</premise>
+      <match>
+        <premise order="2">initialization</premise>
         <response>A statement that declares a new variable and assigns a value to it.</response>
       </match>
-      <match order="3">
-        <premise>call</premise>
+      <match>
+        <premise order="3">call</premise>
         <response>Causes a function to be executed.</response>
       </match>
     </cardsort>
@@ -63,16 +62,16 @@
     </statement>
     <feedback><p>Try again!</p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>function</premise>
+      <match>
+        <premise order="1">function</premise>
         <response>A named sequence of statements that performs some useful function.</response>
       </match>
-      <match order="2">
-        <premise>parameter</premise>
+      <match>
+        <premise order="2">parameter</premise>
         <response>A piece of information you provide in order to call a function.</response>
       </match>
-      <match order="3">
-        <premise>argument</premise>
+      <match>
+        <premise order="3">argument</premise>
         <response>A value that you provide when you call a function.</response>
       </match>
     </cardsort>

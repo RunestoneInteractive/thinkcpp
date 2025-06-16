@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_functions-for-objects">
+<?xml version="1.0" ?><section xml:id="chapter9_functions-for-objects">
   <title>Functions for objects</title>
   <p>In the next few sections, I will demonstrate several possible interfaces
     for functions that operate on objects. For some operations, you will
@@ -35,18 +34,18 @@
       Try again.
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>pure function</premise>
+      <match>
+        <premise order="1">pure function</premise>
         <response>Does not modify objects. The return values is either a basic type or a new object
           that was create in the function. Takes objects and/or basic types as arguments.</response>
       </match>
-      <match order="2">
-        <premise>modifier</premise>
+      <match>
+        <premise order="2">modifier</premise>
         <response>Often returns void. Modifies some or all parameters. Takes objects as parameters.</response>
       </match>
-      <match order="3">
-        <premise>fill-in function</premise>
-        <response>Technically a type of modifier. One of the parameters is an "empty" object that
+      <match>
+        <premise order="3">fill-in function</premise>
+        <response>Technically a type of modifier. One of the parameters is an &quot;empty&quot; object that
           gets filled in by the function.</response>
       </match>
     </cardsort>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter5_bool-functions-bool">
+<?xml version="1.0" ?><section xml:id="chapter5_bool-functions-bool">
   <title>Bool Functions</title>
   <p>Functions can return bool values just like any other type, which is
     often convenient for hiding complicated tests inside functions. For
@@ -16,7 +15,7 @@
     like yes/no questions. The return type is bool, which means that every return statement has to
     provide a bool expression.</p>
   <p>The code itself is straightforward, although it is a bit longer than it needs to be. Remember
-    that the expression <c>x >= 0 &amp;&amp; x &lt; 10</c> has type amp; amp; bool, so there is nothing wrong with returning it
+    that the expression <c>x &gt;= 0 &amp;&amp; x &lt; 10</c> has type amp; amp; bool, so there is nothing wrong with returning it
     directly, and avoiding the if statement altogether:</p>
   <program>bool isSingleDigit(int x) {
   return (x &gt;= 0 &amp;&amp; x &lt; 10);
@@ -24,9 +23,7 @@
   <p>In main you can call this function in the usual ways:</p>
   <program>cout &lt;&lt; isSingleDigit(2) &lt;&lt; endl;
 bool bigFlag = !isSingleDigit(17);</program>
-  <program xml:id="bool_fun_AC_1"
-           interactive="activecode"
-           line-numbers="yes">
+  <program xml:id="bool_fun_AC_1" interactive="activecode" line-numbers="yes">
     <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -51,10 +48,10 @@ using namespace std;
     number.</p>
   <p>The most common use of bool functions is inside conditional statements</p>
   <program>if (isSingleDigit(x)) {
-  cout &lt;&lt; "x is little" &lt;&lt; endl;
+  cout &lt;&lt; &quot;x is little&quot; &lt;&lt; endl;
 }
 else {
-  cout &lt;&lt; "x is big" &lt;&lt; endl;
+  cout &lt;&lt; &quot;x is big&quot; &lt;&lt; endl;
 }</program>
   <exercise label="bool_fun_1">
     <statement>
@@ -65,20 +62,17 @@ else {
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>(x % 2 == 1 &amp;&amp; x == 7)</premise>
+      <match>
+        <premise order="1">(x % 2 == 1 &amp;&amp; x == 7)</premise>
         <response>0</response>
       </match>
-      <match order="2">
-        <premise>(x % 2 == 0 || x + 1 == 4)</premise>
+      <match>
+        <premise order="2">(x % 2 == 0 || x + 1 == 4)</premise>
         <response>1</response>
       </match>
     </cardsort>
   </exercise>
-  <exercise label="bool_fun_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="bool_fun_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that first checks if a number <em>x</em> is positive, then checks
         if it's even, and then prints out a message to classify the number. It prints <q>both</q> if
@@ -90,32 +84,29 @@ else {
       <block order="1">
         <cline>bool positiveFlag = (x &gt; 0);</cline>
       </block>
-      <block order="14"
-             correct="no">
+      <block order="14" correct="no">
         <cline><![CDATA[bool positiveFlag = (x < 0); ]]></cline>
       </block>
       <block order="2">
         <cline>bool evenFlag = (x % 2 == 0);</cline>
       </block>
-      <block order="10"
-             correct="no">
+      <block order="10" correct="no">
         <cline>bool evenFlag = (x % 2 == 1); </cline>
       </block>
       <block order="11">
         <cline>if (evenFlag &amp;&amp; positiveFlag) {</cline>
       </block>
-      <block order="3"
-             correct="no">
+      <block order="3" correct="no">
         <cline>if (evenFlag || positiveFlag) {  </cline>
       </block>
       <block order="9">
-        <cline> cout &lt;&lt; "both";</cline>
+        <cline> cout &lt;&lt; &quot;both&quot;;</cline>
       </block>
       <block order="6">
         <cline>} else if (evenFlag) {</cline>
       </block>
       <block order="4">
-        <cline> cout &lt;&lt; "even";</cline>
+        <cline> cout &lt;&lt; &quot;even&quot;;</cline>
       </block>
       <block order="13">
         <cline>} else if (positiveFlag) {</cline>
@@ -127,7 +118,7 @@ else {
         <cline>} else {</cline>
       </block>
       <block order="8">
-        <cline> cout &lt;&lt; "neither";</cline>
+        <cline> cout &lt;&lt; &quot;neither&quot;;</cline>
       </block>
       <block order="5">
         <cline>}</cline>

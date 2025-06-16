@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter13_glossary">
+<?xml version="1.0" ?><section xml:id="chapter13_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -34,23 +33,23 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>pseudocode</premise>
+      <match>
+        <premise order="1">pseudocode</premise>
         <response>A way of designing programs by writing rough drafts in a combination of English
           and C++.</response>
       </match>
-      <match order="2">
-        <premise>helper function</premise>
+      <match>
+        <premise order="2">helper function</premise>
         <response>Often a small function that does not do anything enormously useful by itself, but
           which helps another, more useful, function.</response>
       </match>
-      <match order="3">
-        <premise>top-down design</premise>
+      <match>
+        <premise order="3">top-down design</premise>
         <response>A method of program development that uses pseudocode to sketch solutions to large
           problems and design the interfaces of helper functions.</response>
       </match>
-      <match order="4">
-        <premise>mergesort</premise>
+      <match>
+        <premise order="4">mergesort</premise>
         <response>An algorithm for sorting a collection of values. It is faster than the simple
           algorithm in the previous chapter, especially for large collections.</response>
       </match>

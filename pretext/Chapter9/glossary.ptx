@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_glossary">
+<?xml version="1.0" ?><section xml:id="chapter9_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -50,22 +49,22 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>instance</premise>
+      <match>
+        <premise order="1">instance</premise>
         <response>An example from a category. My cat is an instance of the category <q>feline
           things.</q> Every object is an instance of some type.</response>
       </match>
-      <match order="2">
-        <premise>instance variable</premise>
+      <match>
+        <premise order="2">instance variable</premise>
         <response>One of the named data items that make up an structure. Each structure has its own
           copy of the instance variables for its type.</response>
       </match>
-      <match order="3">
-        <premise>constant reference parameter</premise>
+      <match>
+        <premise order="3">constant reference parameter</premise>
         <response>A parameter that is passed by reference but that cannot be modified.</response>
       </match>
-      <match order="4">
-        <premise>pure function</premise>
+      <match>
+        <premise order="4">pure function</premise>
         <response>A function whose result depends only on its parameters, and that has so effects
           other than returning a value.</response>
       </match>
@@ -79,22 +78,22 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>functional programming style</premise>
+      <match>
+        <premise order="1">functional programming style</premise>
         <response>A style of program design in which the majority of functions are pure.</response>
       </match>
-      <match order="2">
-        <premise>modifier</premise>
+      <match>
+        <premise order="2">modifier</premise>
         <response>A function that changes one or more of the objects it receives as parameters, and
           usually returns void.</response>
       </match>
-      <match order="3">
-        <premise>fill-in function</premise>
+      <match>
+        <premise order="3">fill-in function</premise>
         <response>A function that takes an <q>empty</q> object as a parameter and fills it its
           instance variables instead of generating a return value.</response>
       </match>
-      <match order="4">
-        <premise>algorithm</premise>
+      <match>
+        <premise order="4">algorithm</premise>
         <response>A set of instructions for solving a class of problems by a mechanical,
           unintelligent process.</response>
       </match>

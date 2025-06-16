@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_glossary">
+<?xml version="1.0" ?><section xml:id="chapter2_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -68,20 +67,20 @@
       <p>Match the terms with their definitions.</p>
     </statement>
     <cardsort>
-      <match order="1">
-        <premise>variable</premise>
+      <match>
+        <premise order="1">variable</premise>
         <response>A named storage location.</response>
       </match>
-      <match order="2">
-        <premise>value</premise>
+      <match>
+        <premise order="2">value</premise>
         <response>A letter, or number, or other thing that can be stored.</response>
       </match>
-      <match order="3">
-        <premise>type</premise>
+      <match>
+        <premise order="3">type</premise>
         <response>A set of values.</response>
       </match>
-      <match order="4">
-        <premise>keyword</premise>
+      <match>
+        <premise order="4">keyword</premise>
         <response>A reserved word that is used by the compiler to parse programs.</response>
       </match>
     </cardsort>
@@ -91,20 +90,20 @@
       <p>Match the terms with their definitions.</p>
     </statement>
     <cardsort>
-      <match order="1">
-        <premise>statement</premise>
+      <match>
+        <premise order="1">statement</premise>
         <response>A line of code that represents a command or action.</response>
       </match>
-      <match order="2">
-        <premise>declaration</premise>
+      <match>
+        <premise order="2">declaration</premise>
         <response>A statement that creates a new variable and determines its type.</response>
       </match>
-      <match order="3">
-        <premise>assignment</premise>
+      <match>
+        <premise order="3">assignment</premise>
         <response>A statement that assigns a value to a variable.</response>
       </match>
-      <match order="4">
-        <premise>expression</premise>
+      <match>
+        <premise order="4">expression</premise>
         <response>A combination of variables, operators and values that represents a single result
           value.</response>
       </match>
@@ -115,20 +114,20 @@
       <p>Match the terms with their definitions.</p>
     </statement>
     <cardsort>
-      <match order="1">
-        <premise>operator</premise>
+      <match>
+        <premise order="1">operator</premise>
         <response>A special symbol that represents a simple computation.</response>
       </match>
-      <match order="2">
-        <premise>operand</premise>
+      <match>
+        <premise order="2">operand</premise>
         <response>One of the values that is operated on.</response>
       </match>
-      <match order="3">
-        <premise>precedence</premise>
+      <match>
+        <premise order="3">precedence</premise>
         <response>The order in which operations are evaluated.</response>
       </match>
-      <match order="4">
-        <premise>composition</premise>
+      <match>
+        <premise order="4">composition</premise>
         <response>To combine simple expressions and statements into compound statements and
           expressions.</response>
       </match>

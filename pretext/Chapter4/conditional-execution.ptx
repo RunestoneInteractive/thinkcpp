@@ -1,11 +1,10 @@
-<?xml version="1.0"?>
-<section xml:id="chapter4_conditional-execution">
+<?xml version="1.0" ?><section xml:id="chapter4_conditional-execution">
   <title>Conditional Execution</title>
   <p>In order to write useful programs, we almost always need the ability to check certain
     conditions and change the behavior of the program accordingly. <term>Conditional statements</term>
     give us this ability. The simplest form is the if statement:</p>
   <program>if (x &gt; 0) {
-  cout &lt;&lt; "x is positive" &lt;&lt; endl;
+  cout &lt;&lt; &quot;x is positive&quot; &lt;&lt; endl;
 }</program>
   <p>The expression in parentheses is called the condition. If it is true,
     then the statements in brackets get executed. If the condition is not
@@ -47,9 +46,7 @@ int main() {
       This program shows how you can use conditional statements to
         assess true/false situations.
     </title>
-    <program label="conditional_execution_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program label="conditional_execution_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -81,7 +78,7 @@ int main() {
           <p>Change the value of x to be anything less than 6.</p>
         </statement>
         <feedback><p>
-          While "Bigger" would now print, the other two statements would not!
+          While &quot;Bigger&quot; would now print, the other two statements would not!
         </p></feedback>
       </choice>
       <choice>
@@ -102,7 +99,7 @@ int main() {
       </choice>
       <choice>
         <statement>
-          <p>Change the value of the return from 0 to "Bigger!"</p>
+          <p>Change the value of the return from 0 to &quot;Bigger!&quot;</p>
         </statement>
         <feedback><p>
           main returns an int, so trying to make it return a string will cause an error.
@@ -118,16 +115,16 @@ int main() {
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>x &gt; y</premise>
+      <match>
+        <premise order="1">x &gt; y</premise>
         <response>x = 10, y = 2</response>
       </match>
-      <match order="2">
-        <premise>x &lt;= y</premise>
+      <match>
+        <premise order="2">x &lt;= y</premise>
         <response>x = 5, y = 5</response>
       </match>
-      <match order="3">
-        <premise>x &lt; y</premise>
+      <match>
+        <premise order="3">x &lt; y</premise>
         <response>x = 2, y = 10</response>
       </match>
     </cardsort>
@@ -140,16 +137,16 @@ int main() {
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>x == y</premise>
+      <match>
+        <premise order="1">x == y</premise>
         <response>x = 3, y = 3</response>
       </match>
-      <match order="2">
-        <premise>x &gt;= y</premise>
+      <match>
+        <premise order="2">x &gt;= y</premise>
         <response>x = 6, y = 2</response>
       </match>
-      <match order="3">
-        <premise>x &lt; y</premise>
+      <match>
+        <premise order="3">x &lt; y</premise>
         <response>x = 2, y = 6</response>
       </match>
     </cardsort>

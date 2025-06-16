@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter4_glossary">
+<?xml version="1.0" ?><section xml:id="chapter4_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -43,17 +42,17 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>modulus</premise>
+      <match>
+        <premise order="1">modulus</premise>
         <response>An operator that works on integers and yields the remainder when one number is
           divided by another.</response>
       </match>
-      <match order="2">
-        <premise>chaining</premise>
+      <match>
+        <premise order="2">chaining</premise>
         <response>A way of joining several conditional statements in sequence.</response>
       </match>
-      <match order="3">
-        <premise>nesting</premise>
+      <match>
+        <premise order="3">nesting</premise>
         <response>Putting a conditional statement inside one or both branches of another conditional
           statement.</response>
       </match>
@@ -68,16 +67,16 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>conditional</premise>
+      <match>
+        <premise order="1">conditional</premise>
         <response>A block of statements that may or may not be executed depending on some condition.</response>
       </match>
-      <match order="2">
-        <premise>recursion</premise>
+      <match>
+        <premise order="2">recursion</premise>
         <response>The process of calling the same function you are currently executing.</response>
       </match>
-      <match order="3">
-        <premise>infinite recursion</premise>
+      <match>
+        <premise order="3">infinite recursion</premise>
         <response>The process of making recursive calls without every reaching the base case.</response>
       </match>
     </cardsort>

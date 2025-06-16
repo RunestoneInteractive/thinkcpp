@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter6_glossary">
+<?xml version="1.0" ?><section xml:id="chapter6_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -60,26 +59,26 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>loop</premise>
+      <match>
+        <premise order="1">loop</premise>
         <response>A statement that executes repeatedly while a condition is true or some condition
           is satisfied.</response>
       </match>
-      <match order="2">
-        <premise>infinite loop</premise>
+      <match>
+        <premise order="2">infinite loop</premise>
         <response>A loop whose condition is always true.</response>
       </match>
-      <match order="3">
-        <premise>body</premise>
+      <match>
+        <premise order="3">body</premise>
         <response>The statements inside the loop.</response>
       </match>
-      <match order="4">
-        <premise>iteration</premise>
+      <match>
+        <premise order="4">iteration</premise>
         <response>One pass through (execution of) the body of the loop, including the valuation of
           the condition.</response>
       </match>
-      <match order="5">
-        <premise>tab</premise>
+      <match>
+        <premise order="5">tab</premise>
         <response>A special character, written as \t in C++, that causes the cursor to move to the
           next tab stop on the current line.</response>
       </match>
@@ -94,24 +93,24 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>encapsulate</premise>
+      <match>
+        <premise order="1">encapsulate</premise>
         <response>To divide a large complex program into components (like functions) and isolate the
           components from each other (for example, by using local variables).</response>
       </match>
-      <match order="2">
-        <premise>local variable</premise>
+      <match>
+        <premise order="2">local variable</premise>
         <response>A variable that is declared inside a function and that exists only within that
           function. Local variables cannot be accessed from outside their home function, and do not
           interfere with any other functions.</response>
       </match>
-      <match order="3">
-        <premise>generalize</premise>
+      <match>
+        <premise order="3">generalize</premise>
         <response>To replace something unnecessarily specific (like a constant value) with something
           appropriately general (like a variable or parameter).</response>
       </match>
-      <match order="4">
-        <premise>development plan</premise>
+      <match>
+        <premise order="4">development plan</premise>
         <response>A process for developing a program.</response>
       </match>
     </cardsort>

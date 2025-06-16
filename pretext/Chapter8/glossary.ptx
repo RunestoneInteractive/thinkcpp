@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_glossary">
+<?xml version="1.0" ?><section xml:id="chapter8_glossary">
     <title>Glossary</title>
     <glossary>
         <gi>
@@ -36,26 +35,26 @@
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>structure</premise>
+      <match>
+        <premise order="1">structure</premise>
         <response>A collection of data grouped together and treated as a single object.</response>
       </match>
-      <match order="2">
-        <premise>instance variable</premise>
+      <match>
+        <premise order="2">instance variable</premise>
         <response>One of the named pieces of data that make up a structure.</response>
       </match>
-      <match order="3">
-        <premise>reference</premise>
+      <match>
+        <premise order="3">reference</premise>
         <response>A value that indicates or refers to a variable or structure.</response>
       </match>
-      <match order="4">
-        <premise>pass by value</premise>
+      <match>
+        <premise order="4">pass by value</premise>
         <response>A method of parameter-passing in which the value provided as an argument is copied
           into the corresponding parameter, but the parameter and the argument occupy distinct
           locations.</response>
       </match>
-      <match order="5">
-        <premise>pass by reference</premise>
+      <match>
+        <premise order="5">pass by reference</premise>
         <response>A method of parameter-passing in which the parameter is a reference to the
           argument variable. Changes to the parameter also affect the argument variable.</response>
       </match>

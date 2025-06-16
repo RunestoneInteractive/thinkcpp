@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter6_multiple-assignment">
+<?xml version="1.0" ?><section xml:id="chapter6_multiple-assignment">
   <title>Multiple assignment</title>
   <p>I haven't said much about it, but it is legal in C++ to make more than
     one assignment to the same variable. The effect of the second assignment
@@ -8,9 +7,7 @@
     <title>
       This active code reassigns <c>fred</c> from 5 to 7 and prints both values out.
     </title>
-    <program xml:id="multiple_assignment_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="multiple_assignment_AC_1_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -31,9 +28,7 @@ int main() {
     <title>
       This active code reassigns <c>fred</c> from 5 to 7 without printing out the initial value.
     </title>
-    <program xml:id="multiple_assignment_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program xml:id="multiple_assignment_AC_2_editor" interactive="activecode" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -56,7 +51,7 @@ int main() {
         <caption>Changing a value</caption>
         <image source="Chapter6/Images/6.1image.png" width="50%">
             <description><p>
-                An assignment of 'fred = 7' changing the existing value of 'fred'."
+                An assignment of 'fred = 7' changing the existing value of 'fred'.&quot;
             </p></description>
         </image>
     </figure>
@@ -93,20 +88,20 @@ a = 3;         // a and b are no longer equal</program>
       Try again!
     </p></feedback>
     <cardsort>
-      <match order="1">
-        <premise>4=a</premise>
+      <match>
+        <premise order="1">4=a</premise>
         <response>Illegal</response>
       </match>
-      <match order="2">
-        <premise>a==b</premise>
+      <match>
+        <premise order="2">a==b</premise>
         <response>Checking if a is equal to b</response>
       </match>
-      <match order="3">
-        <premise>a=b</premise>
+      <match>
+        <premise order="3">a=b</premise>
         <response>Assigning a to the value of b</response>
       </match>
-      <match order="4">
-        <premise>a=4</premise>
+      <match>
+        <premise order="4">a=4</premise>
         <response>Setting the value of a to 4</response>
       </match>
     </cardsort>
