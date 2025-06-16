@@ -34,7 +34,12 @@ int main() {
   <p>The state diagram for this object looks like this:</p>
   <figure>
       <caption>State diagram</caption>
-      <image source="Chapter9/Images/9.1stackdiagram.png" width="50%" />
+      <image source="Chapter9/Images/9.1stackdiagram.png" width="50%">
+          <description><p>
+              The word time is written above a box. Inside the box, hour has the
+              value 11, minute has the value 59, and second has the value 3.14159.
+          </p></description>
+      </image>
   </figure>
   <p>The word <term>instance</term> is sometimes used when we talk about objects, because every
     object is an instance (or example) of some type. The reason that instance variables are so-named
