@@ -143,12 +143,12 @@
   </exercise>
   <exercise label="formal_natural_2">
     <statement>
-      <p>Analyzing the structure of a sentence or a program is called <fillin mode="string" case="insensitive" answer="parsing"/>.</p>
+      <p>Analyzing the structure of a sentence or a program is called <fillin answer="parsing"/>.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

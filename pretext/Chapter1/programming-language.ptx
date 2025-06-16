@@ -68,23 +68,20 @@
     figure out what it is.</p>
   <exercise label="program_lang_1">
     <statement>
-      <p>A(n) <fillin mode="string"
-                case="insensitive"
-                answer="interpreter"/> translates a
-        high-level program line by line, executing commands as they come. A(n) <fillin mode="string"
-                case="insensitive"
-                answer="compiler"/>
+      <p>A(n) <fillin answer="interpreter"/> translates a
+      high-level program line by line, executing commands as they come.
+      A(n) <fillin answer="compiler"/>
         translates a high-level program all at once, before executing any of the commands! </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
-        </test>
+          <test correct="yes">
+              <strcmp use-answer="yes" case="insensitive"/>
+          </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+          <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

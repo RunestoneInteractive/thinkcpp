@@ -470,31 +470,26 @@
       <p>Fill in the missing pieces:</p>
       <p>
         <c>#include &lt;</c>
-        <fillin answer="iostream"
-                mode="string"/>
+        <fillin answer="iostream"/>
         <c>&gt;</c>
       </p>
       <p>
         <c>using namespace</c>
-        <fillin answer="std"
-                mode="string"/>
+        <fillin answer="std"/>
         <c>;</c>
       </p>
       <p>
         <c>int</c>
-        <fillin answer="main"
-                mode="string"/>
+        <fillin answer="main"/>
         <c>() {</c>
       </p>
       <p>
         <c><![CDATA[ cout << "Hello world " << endl]]></c>
-        <fillin answer=";"
-                mode="string"/>
+        <fillin answer=";"/>
       </p>
       <p>
         <c>return</c>
-        <fillin answer="0"
-                mode="string"/>
+        <fillin answer="0"/>
         <c>;</c>
       </p>
       <p>
@@ -503,42 +498,41 @@
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
         <test>
-          <strcmp string="[1-9]+"
-                  strip="no"/>
-          <feedback>
+          <strcmp>[0-9]+</strcmp>
+          <feedback><p>
             Try again! It is possible to return any integer, but only one value means "ran
-            successfully".
+            successfully".</p>
           </feedback>
         </test>
       </evaluate>
     </evaluation>
   </exercise>
 
-  <!-- not clear what is bug and what is an error and you need to use the "right" identicle label on
+  <!-- not clear what is bug and what is an error and you need to use the "right" identical label on
   each block -->
   <!-- <exercise label="debugging_3">
     <statement>

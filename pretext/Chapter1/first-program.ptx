@@ -83,12 +83,12 @@ hello.cpp:1: oistream.h: No such file or directory
     you see it again in the future you will know what it means.</p>
   <exercise label="first_program_1">
     <statement>
-      <p>How do you indicate a single line comment in C++? <fillin mode="string" case="insensitive" answer="//"/>
+      <p>How do you indicate a single line comment in C++? <fillin answer="//"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
@@ -147,17 +147,17 @@ hello.cpp:1: oistream.h: No such file or directory
   </exercise>
   <exercise label="first_program_3">
     <statement>
-      <p><fillin mode="string" case="insensitive" answer="cout"/> is an object that allows you to send output to the terminal. It requires you to use
-        the <fillin mode="string" case="insensitive" answer="&lt;&lt;"/> operator. </p>
+      <p><fillin answer="cout"/> is an object that allows you to send output to the terminal. It requires you to use
+        the <fillin answer="&lt;&lt;"/> operator. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

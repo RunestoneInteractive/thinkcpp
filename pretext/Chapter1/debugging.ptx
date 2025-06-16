@@ -88,19 +88,19 @@
       programming practices.</p>
     <exercise label="debugging_1">
       <statement>
-        <p>Another word for an error is a(n) <fillin mode="string" case="insensitive" answer="bug"/>. The process of
-          finding and fixing errors is called <fillin mode="string" case="insensitive" answer="debugging"/>.
+        <p>Another word for an error is a(n) <fillin answer="bug"/>. The process of
+          finding and fixing errors is called <fillin answer="debugging"/>.
         </p>
       </statement>
       <evaluation>
         <evaluate>
-          <test>
-            <strcmp use-answer="yes"/>
+          <test correct="yes">
+            <strcmp use-answer="yes" case="insensitive"/>
           </test>
         </evaluate>
         <evaluate>
           <test>
-            <strcmp use-answer="yes"/>
+            <strcmp use-answer="yes" case="insensitive"/>
           </test>
         </evaluate>
       </evaluation>
@@ -130,13 +130,13 @@
     </exercise>
     <exercise label="debugging_4">
       <statement>
-        <p>The structure of your program and the rules it must follow are called the <fillin mode="string" case="insensitive" answer="syntax"/>.
+        <p>The structure of your program and the rules it must follow are called the <fillin answer="syntax"/>.
         </p>
       </statement>
       <evaluation>
         <evaluate>
-          <test>
-            <strcmp use-answer="yes"/>
+          <test correct="yes">
+            <strcmp use-answer="yes" case="insensitive"/>
           </test>
         </evaluate>
       </evaluation>
