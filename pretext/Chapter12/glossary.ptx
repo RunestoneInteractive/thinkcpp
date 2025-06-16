@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <section xml:id="chapter12_glossary">
-  <title>Glossary</title>
-  <dl>
-    <li>
-      <title>encode:</title>
-      <p>To represent one set of values using another set of values, by
-        constructing a mapping between them.</p>
-    </li>
-    <li>
-      <title>abstract parameter:</title>
-      <p>A set of parameters that act together as a single parameter.</p>
-    </li>
-  </dl>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>encode</title>
+            <p>To represent one set of values using another set of values, by
+            constructing a mapping between them.</p>
+        </gi>
+        <gi>
+            <title>abstract parameter</title>
+            <p>A set of parameters that act together as a single parameter.</p>
+        </gi>
+    </glossary>
   <exercise label="glossary12">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the

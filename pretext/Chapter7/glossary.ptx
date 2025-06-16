@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 <section xml:id="chapter7_glossary">
-  <title>Glossary</title>
-  <p><dl>
-    <li>
-      <title>object:</title>
-      <p>A collection of related data that comes with a set of functions that
-                        operate on it. The objects we have used so far are the <c>cout</c>
-                        object provided by the system, and <c>string</c>s.</p>
-    </li>
-    <li>
-      <title>index:</title>
-      <p>A variable or value used to select one of the members of an ordered
-                        set, like a character from a string.</p>
-    </li>
-    <li>
-      <title>traverse:</title>
-      <p>To iterate through all the elements of a set performing a similar
-                        operation on each.</p>
-    </li>
-    <li>
-      <title>counter:</title>
-      <p>A variable used to count something, usually initialized to zero and
-                        then incremented.</p>
-    </li>
-    <li>
-      <title>increment:</title>
-      <p>Increase the value of a variable by one. The increment operator in
-                        C++ is <c>++</c>. In fact, that's why C++ is called C++, because it is
-                        meant to be one better than C.</p>
-    </li>
-    <li>
-      <title>decrement:</title>
-      <p>Decrease the value of a variable by one. The decrement operator in
-                        C++ is <c>&#x2013;</c>.</p>
-    </li>
-    <li>
-      <title>concatenate:</title>
-      <p>To join two operands end-to-end.</p>
-    </li>
-  </dl></p>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>object</title>
+            <p>A collection of related data that comes with a set of functions that
+            operate on it. The objects we have used so far are the <c>cout</c>
+            object provided by the system, and <c>string</c>s.</p>
+        </gi>
+        <gi>
+            <title>index</title>
+            <p>A variable or value used to select one of the members of an ordered
+            set, like a character from a string.</p>
+        </gi>
+        <gi>
+            <title>traverse</title>
+            <p>To iterate through all the elements of a set performing a similar
+            operation on each.</p>
+        </gi>
+        <gi>
+            <title>counter</title>
+            <p>A variable used to count something, usually initialized to zero and
+            then incremented.</p>
+        </gi>
+        <gi>
+            <title>increment</title>
+            <p>Increase the value of a variable by one. The increment operator in
+            C++ is <c>++</c>. In fact, that's why C++ is called C++, because it is
+            meant to be one better than C.</p>
+        </gi>
+        <gi>
+            <title>decrement</title>
+            <p>Decrease the value of a variable by one. The decrement operator in
+            C++ is <c>&#x2013;</c>.</p>
+        </gi>
+        <gi>
+            <title>concatenate</title>
+            <p>To join two operands end-to-end.</p>
+        </gi>
+    </glossary>
   <exercise label="chapter_seven_glossary">
     <statement>
       <p>Match the definition to the term.</p>

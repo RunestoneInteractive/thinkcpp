@@ -1,47 +1,47 @@
 <?xml version="1.0"?>
 <section xml:id="chapter9_glossary">
-  <title>Glossary</title>
-  <dl>
-    <li>
-      <title>instance:</title>
-      <p>An example from a category. My cat is an instance of the category <q>feline things.</q>
-        Every object is an instance of some type.</p>
-    </li>
-    <li>
-      <title>instance variable:</title>
-      <p>One of the named data items that make up an structure. Each structure
-        has its own copy of the instance variables for its type.</p>
-    </li>
-    <li>
-      <title>constant reference parameter:</title>
-      <p>A parameter that is passed by reference but that cannot be modified.</p>
-    </li>
-    <li>
-      <title>pure function:</title>
-      <p>A function whose result depends only on its parameters, and that has
-        so effects other than returning a value.</p>
-    </li>
-    <li>
-      <title>functional programming style:</title>
-      <p>A style of program design in which the majority of functions are
-        pure.</p>
-    </li>
-    <li>
-      <title>modifier:</title>
-      <p>A function that changes one or more of the objects it receives as parameters, and usually
-        returns <c>void</c>.</p>
-    </li>
-    <li>
-      <title>fill-in function:</title>
-      <p>A function that takes an <q>empty</q> object as a parameter and fills in its instance
-        variables instead of generating a return value.</p>
-    </li>
-    <li>
-      <title>algorithm:</title>
-      <p>A set of instructions for solving a class of problems by a
-        mechanical, unintelligent process.</p>
-    </li>
-  </dl>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>instance</title>
+            <p>An example from a category. My cat is an instance of the category <q>feline things.</q>
+            Every object is an instance of some type.</p>
+        </gi>
+        <gi>
+            <title>instance variable</title>
+            <p>One of the named data items that make up an structure. Each structure
+            has its own copy of the instance variables for its type.</p>
+        </gi>
+        <gi>
+            <title>constant reference parameter</title>
+            <p>A parameter that is passed by reference but that cannot be modified.</p>
+        </gi>
+        <gi>
+            <title>pure function</title>
+            <p>A function whose result depends only on its parameters, and that has
+            so effects other than returning a value.</p>
+        </gi>
+        <gi>
+            <title>functional programming style</title>
+            <p>A style of program design in which the majority of functions are
+            pure.</p>
+        </gi>
+        <gi>
+            <title>modifier</title>
+            <p>A function that changes one or more of the objects it receives as parameters, and usually
+            returns <c>void</c>.</p>
+        </gi>
+        <gi>
+            <title>fill-in function</title>
+            <p>A function that takes an <q>empty</q> object as a parameter and fills in its instance
+            variables instead of generating a return value.</p>
+        </gi>
+        <gi>
+            <title>algorithm</title>
+            <p>A set of instructions for solving a class of problems by a
+            mechanical, unintelligent process.</p>
+        </gi>
+    </glossary>
   <exercise label="chapter_nine_glossary_one">
     <statement>
       <p>Match the definition to the term.</p>
@@ -52,8 +52,8 @@
     <matches>
       <match order="1">
         <premise>instance</premise>
-        <response><p>An example from a category. My cat is an instance of the category <q>feline
-          things.</q> Every object is an instance of some type.</p></response>
+        <response>An example from a category. My cat is an instance of the category <q>feline
+          things.</q> Every object is an instance of some type.</response>
       </match>
       <match order="2">
         <premise>instance variable</premise>
@@ -90,8 +90,8 @@
       </match>
       <match order="3">
         <premise>fill-in function</premise>
-        <response><p>A function that takes an <q>empty</q> object as a parameter and fills it its
-          instance variables instead of generating a return value.</p></response>
+        <response>A function that takes an <q>empty</q> object as a parameter and fills it its
+          instance variables instead of generating a return value.</response>
       </match>
       <match order="4">
         <premise>algorithm</premise>

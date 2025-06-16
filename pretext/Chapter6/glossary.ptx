@@ -1,56 +1,56 @@
 <?xml version="1.0"?>
 <section xml:id="chapter6_glossary">
-  <title>Glossary</title>
-  <p><dl>
-    <li>
-      <title>loop:</title>
-      <p>A statement that executes repeatedly while a condition is true or
-        until some condition is satisfied.</p>
-    </li>
-    <li>
-      <title>infinite loop:</title>
-      <p>A loop whose condition is always true.</p>
-    </li>
-    <li>
-      <title>body:</title>
-      <p>The statements inside the loop.</p>
-    </li>
-    <li>
-      <title>iteration:</title>
-      <p>One pass through (execution of) the body of the loop, including the
-        evaluation of the condition.</p>
-    </li>
-    <li>
-      <title>tab:</title>
-      <p>A special character, written as <c>\t</c> in C++, that causes the cursor to move to the next
-        tab stop on the current line.</p>
-    </li>
-    <li>
-      <title>encapsulate:</title>
-      <p>To divide a large complex program into components (like functions)
-        and isolate the components from each other (for example, by using
-        local variables).</p>
-    </li>
-    <li>
-      <title>local variable:</title>
-      <p>A variable that is declared inside a function and that exists only
-        within that function. Local variables cannot be accessed from outside
-        their home function, and do not interfere with any other functions.</p>
-    </li>
-    <li>
-      <title>generalize:</title>
-      <p>To replace something unnecessarily specific (like a constant value)
-        with something appropriately general (like a variable or parameter).
-        Generalization makes code more versatile, more likely to be reused,
-        and sometimes even easier to write.</p>
-    </li>
-    <li>
-      <title>development plan:</title>
-      <p>A process for developing a program. In this chapter, I demonstrated a
-        style of development based on developing code to do simple, specific
-        things, and then encapsulating and generalizing.</p>
-    </li>
-  </dl></p>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>loop</title>
+            <p>A statement that executes repeatedly while a condition is true or
+            until some condition is satisfied.</p>
+        </gi>
+        <gi>
+            <title>infinite loop</title>
+            <p>A loop whose condition is always true.</p>
+        </gi>
+        <gi>
+            <title>body</title>
+            <p>The statements inside the loop.</p>
+        </gi>
+        <gi>
+            <title>iteration</title>
+            <p>One pass through (execution of) the body of the loop, including the
+            evaluation of the condition.</p>
+        </gi>
+        <gi>
+            <title>tab</title>
+            <p>A special character, written as <c>\t</c> in C++, that causes the cursor to move to the next
+            tab stop on the current line.</p>
+        </gi>
+        <gi>
+            <title>encapsulate</title>
+            <p>To divide a large complex program into components (like functions)
+            and isolate the components from each other (for example, by using
+            local variables).</p>
+        </gi>
+        <gi>
+            <title>local variable</title>
+            <p>A variable that is declared inside a function and that exists only
+            within that function. Local variables cannot be accessed from outside
+            their home function, and do not interfere with any other functions.</p>
+        </gi>
+        <gi>
+            <title>generalize</title>
+            <p>To replace something unnecessarily specific (like a constant value)
+            with something appropriately general (like a variable or parameter).
+            Generalization makes code more versatile, more likely to be reused,
+            and sometimes even easier to write.</p>
+        </gi>
+        <gi>
+            <title>development plan</title>
+            <p>A process for developing a program. In this chapter, I demonstrated a
+            style of development based on developing code to do simple, specific
+            things, and then encapsulating and generalizing.</p>
+        </gi>
+    </glossary>
   <exercise label="chapter_six_glossary_one">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the

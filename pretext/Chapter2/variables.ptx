@@ -116,15 +116,15 @@ char tom;
     <matches>
       <match order="1">
         <premise><p><c>char joe;</c></p></premise>
-        <response><p><c>'x'</c></p></response>
+        <response><c>'x'</c></response>
       </match>
       <match order="2">
         <premise><p><c>string ten;</c></p></premise>
-        <response><p><c>"Joe"</c></p></response>
+        <response><c>"Joe"</c></response>
       </match>
       <match order="3">
         <premise><p><c>int x;</c></p></premise>
-        <response><p><c>10</c></p></response>
+        <response><c>10</c></response>
       </match>
     </matches>
   </exercise>

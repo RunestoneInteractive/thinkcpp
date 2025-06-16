@@ -1,39 +1,39 @@
 <?xml version="1.0"?>
 <section xml:id="chapter4_glossary">
-  <title>Glossary</title>
-  <p><dl>
-    <li>
-      <title>modulus:</title>
-      <p>An operator that works on integers and yields the remainder when one
-        number is divided by another. In C++ it is denoted with a percent
-        sign (%).</p>
-    </li>
-    <li>
-      <title>conditional:</title>
-      <p>A block of statements that may or may not be executed depending on
-        some condition.</p>
-    </li>
-    <li>
-      <title>chaining:</title>
-      <p>A way of joining several conditional statements in sequence.</p>
-    </li>
-    <li>
-      <title>nesting:</title>
-      <p>Putting a conditional statement inside one or both branches of
-        another conditional statement.</p>
-    </li>
-    <li>
-      <title>recursion:</title>
-      <p>The process of calling the same function you are currently
-        executing.</p>
-    </li>
-    <li>
-      <title>infinite recursion:</title>
-      <p>A function that calls itself recursively without every reaching the
-        base case. Eventually an infinite recursion will cause a run-time
-        error.</p>
-    </li>
-  </dl></p>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>modulus</title>
+            <p>An operator that works on integers and yields the remainder when one
+            number is divided by another. In C++ it is denoted with a percent
+            sign (%).</p>
+        </gi>
+        <gi>
+            <title>conditional</title>
+            <p>A block of statements that may or may not be executed depending on
+            some condition.</p>
+        </gi>
+        <gi>
+            <title>chaining</title>
+            <p>A way of joining several conditional statements in sequence.</p>
+        </gi>
+        <gi>
+            <title>nesting</title>
+            <p>Putting a conditional statement inside one or both branches of
+            another conditional statement.</p>
+        </gi>
+        <gi>
+            <title>recursion</title>
+            <p>The process of calling the same function you are currently
+            executing.</p>
+        </gi>
+        <gi>
+            <title>infinite recursion</title>
+            <p>A function that calls itself recursively without every reaching the
+            base case. Eventually an infinite recursion will cause a run-time
+            error.</p>
+        </gi>
+    </glossary>
   <exercise label="chapter_four_glossary_1">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the

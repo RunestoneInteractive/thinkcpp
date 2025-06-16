@@ -1,67 +1,67 @@
 <?xml version="1.0"?>
 <section xml:id="chapter2_glossary">
-  <title>Glossary</title>
-  <p><dl>
-    <li>
-      <title>variable:</title>
-      <p>A named storage location for values. All variables have a type,
-        which determines which values it can store.</p>
-    </li>
-    <li>
-      <title>value:</title>
-      <p>A letter, or number, or other thing that can be stored in a
-        variable.</p>
-    </li>
-    <li>
-      <title>type:</title>
-      <p>A set of values. The types we have seen are integers(int in C++)
-        and characters ( char in C++).</p>
-    </li>
-    <li>
-      <title>keyword:</title>
-      <p>A reserved word that is used by the compiler to parse programs.
-        Examples we have seen include int, void and endl.</p>
-    </li>
-    <li>
-      <title>statement:</title>
-      <p>A line of code that represents a command or action. So far, the
-        statements we have seen are declarations, assignments, and output
-        statements.</p>
-    </li>
-    <li>
-      <title>declaration:</title>
-      <p>A statement that creates a new variable and determines its type.</p>
-    </li>
-    <li>
-      <title>assignment:</title>
-      <p>A statement that assigns a value to a variable.</p>
-    </li>
-    <li>
-      <title>expression:</title>
-      <p>A combination of variables, operators and values that represents a
-        single result value. Expressions also have types, as determined by
-        their operators and operands.</p>
-    </li>
-    <li>
-      <title>operator:</title>
-      <p>A special symbol that represents a simple computation like addition
-        or multiplication.</p>
-    </li>
-    <li>
-      <title>operand:</title>
-      <p>One of the values on which an operator operates.</p>
-    </li>
-    <li>
-      <title>precedence:</title>
-      <p>The order in which operations are evaluated.</p>
-    </li>
-    <li>
-      <title>composition:</title>
-      <p>The ability to combine simple expressions and statements into
-        compound statements and expressions in order to represent complex
-        computations concisely.</p>
-    </li>
-  </dl></p>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>variable</title>
+            <p>A named storage location for values. All variables have a type,
+            which determines which values it can store.</p>
+        </gi>
+        <gi>
+            <title>value</title>
+            <p>A letter, or number, or other thing that can be stored in a
+            variable.</p>
+        </gi>
+        <gi>
+            <title>type</title>
+            <p>A set of values. The types we have seen are integers(int in C++)
+            and characters ( char in C++).</p>
+        </gi>
+        <gi>
+            <title>keyword</title>
+            <p>A reserved word that is used by the compiler to parse programs.
+            Examples we have seen include int, void and endl.</p>
+        </gi>
+        <gi>
+            <title>statement</title>
+            <p>A line of code that represents a command or action. So far, the
+            statements we have seen are declarations, assignments, and output
+            statements.</p>
+        </gi>
+        <gi>
+            <title>declaration</title>
+            <p>A statement that creates a new variable and determines its type.</p>
+        </gi>
+        <gi>
+            <title>assignment</title>
+            <p>A statement that assigns a value to a variable.</p>
+        </gi>
+        <gi>
+            <title>expression</title>
+            <p>A combination of variables, operators and values that represents a
+            single result value. Expressions also have types, as determined by
+            their operators and operands.</p>
+        </gi>
+        <gi>
+            <title>operator</title>
+            <p>A special symbol that represents a simple computation like addition
+            or multiplication.</p>
+        </gi>
+        <gi>
+            <title>operand</title>
+            <p>One of the values on which an operator operates.</p>
+        </gi>
+        <gi>
+            <title>precedence</title>
+            <p>The order in which operations are evaluated.</p>
+        </gi>
+        <gi>
+            <title>composition</title>
+            <p>The ability to combine simple expressions and statements into
+            compound statements and expressions in order to represent complex
+            computations concisely.</p>
+        </gi>
+    </glossary>
   <exercise label="chapter_two_glossary_1">
     <statement>
       <p>Match the terms with their definitions.</p>

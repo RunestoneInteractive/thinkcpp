@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <section xml:id="chapter13_glossary">
-  <title>Glossary</title>
-  <dl>
-    <li>
-      <title>pseudocode:</title>
-      <p>A way of designing programs by writing rough drafts in a combination
-        of English and C++.</p>
-    </li>
-    <li>
-      <title>helper function:</title>
-      <p>Often a small function that does not do anything enormously useful by
-        itself, but which helps another, more useful, function.</p>
-    </li>
-    <li>
-      <title>top-down design:</title>
-      <p>A method of program development that uses pseudocode to sketch
-        solutions to large problems and design the interfaces of helper
-        functions.</p>
-    </li>
-    <li>
-      <title>mergesort:</title>
-      <p>An algorithm for sorting a collection of values. Mergesort is faster
-        than the simple algorithm in the previous chapter, especially for
-        large collections.</p>
-    </li>
-  </dl>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>pseudocode</title>
+            <p>A way of designing programs by writing rough drafts in a combination
+            of English and C++.</p>
+        </gi>
+        <gi>
+            <title>helper function</title>
+            <p>Often a small function that does not do anything enormously useful by
+            itself, but which helps another, more useful, function.</p>
+        </gi>
+        <gi>
+            <title>top-down design</title>
+            <p>A method of program development that uses pseudocode to sketch
+            solutions to large problems and design the interfaces of helper
+            functions.</p>
+        </gi>
+        <gi>
+            <title>mergesort</title>
+            <p>An algorithm for sorting a collection of values. Mergesort is faster
+            than the simple algorithm in the previous chapter, especially for
+            large collections.</p>
+        </gi>
+    </glossary>
   <exercise label="glossary_13">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the

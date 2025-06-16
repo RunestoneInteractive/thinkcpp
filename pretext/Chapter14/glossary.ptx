@@ -1,35 +1,35 @@
 <?xml version="1.0"?>
 <section xml:id="chapter14_glossary">
-  <title>Glossary</title>
-  <dl>
-    <li>
-      <title>class:</title>
-      <p>In general use, a class is a user-defined type with member functions.
-        In C++, a class is a structure with private instance variables.</p>
-    </li>
-    <li>
-      <title>accessor function:</title>
-      <p>A function that provides access (read or write) to a private instance
-        variable.</p>
-    </li>
-    <li>
-      <title>invariant:</title>
-      <p>A condition, usually pertaining to an object, that should be true at
-        all times in client code, and that should be maintained by all member
-        functions.</p>
-    </li>
-    <li>
-      <title>precondition:</title>
-      <p>A condition that is assumed to be true at the beginning of a
-        function. If the precondition is not true, the function may not work.
-        It is often a good idea for functions to check their preconditions,
-        if possible.</p>
-    </li>
-    <li>
-      <title>postcondition:</title>
-      <p>A condition that is true at the end of a function.</p>
-    </li>
-  </dl>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>class:</title>
+            <p>In general use, a class is a user-defined type with member functions.
+            In C++, a class is a structure with private instance variables.</p>
+        </gi>
+        <gi>
+            <title>accessor function:</title>
+            <p>A function that provides access (read or write) to a private instance
+            variable.</p>
+        </gi>
+        <gi>
+            <title>invariant:</title>
+            <p>A condition, usually pertaining to an object, that should be true at
+            all times in client code, and that should be maintained by all member
+            functions.</p>
+        </gi>
+        <gi>
+            <title>precondition:</title>
+            <p>A condition that is assumed to be true at the beginning of a
+            function. If the precondition is not true, the function may not work.
+            It is often a good idea for functions to check their preconditions,
+            if possible.</p>
+        </gi>
+        <gi>
+            <title>postcondition:</title>
+            <p>A condition that is true at the end of a function.</p>
+        </gi>
+    </glossary>
   <exercise label="glossary_14">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the

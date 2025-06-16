@@ -1,50 +1,50 @@
 <?xml version="1.0"?>
 <section xml:id="chapter10_glossary">
-  <title>Glossary</title>
-  <dl>
-    <li>
-      <title>vector:</title>
-      <p>A named collection of values, where all the values have the same
-        type, and each value is identified by an index.</p>
-    </li>
-    <li>
-      <title>element:</title>
-      <p>One of the values in a vector. The <c>[]</c> operator selects elements of a vector.</p>
-    </li>
-    <li>
-      <title>index:</title>
-      <p>An integer variable or value used to indicate an element of a vector.</p>
-    </li>
-    <li>
-      <title>constructor:</title>
-      <p>A special function that creates a new object and initializes its
-        instance variables.</p>
-    </li>
-    <li>
-      <title>deterministic:</title>
-      <p>A program that does the same thing every time it is run.</p>
-    </li>
-    <li>
-      <title>pseudorandom:</title>
-      <p>A sequence of numbers that appear to be random, but which are
-        actually the product of a deterministic computation.</p>
-    </li>
-    <li>
-      <title>seed:</title>
-      <p>A value used to initialize a random number sequence. Using the same
-        seed should yield the same sequence of values.</p>
-    </li>
-    <li>
-      <title>bottom-up design:</title>
-      <p>A method of program development that starts by writing small, useful
-        functions and then assembling them into larger solutions.</p>
-    </li>
-    <li>
-      <title>histogram:</title>
-      <p>A vector of integers where each integer counts the number of values
-        that fall into a certain range.</p>
-    </li>
-  </dl>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>vector:</title>
+            <p>A named collection of values, where all the values have the same
+            type, and each value is identified by an index.</p>
+        </gi>
+        <gi>
+            <title>element:</title>
+            <p>One of the values in a vector. The <c>[]</c> operator selects elements of a vector.</p>
+        </gi>
+        <gi>
+            <title>index:</title>
+            <p>An integer variable or value used to indicate an element of a vector.</p>
+        </gi>
+        <gi>
+            <title>constructor:</title>
+            <p>A special function that creates a new object and initializes its
+            instance variables.</p>
+        </gi>
+        <gi>
+            <title>deterministic:</title>
+            <p>A program that does the same thing every time it is run.</p>
+        </gi>
+        <gi>
+            <title>pseudorandom:</title>
+            <p>A sequence of numbers that appear to be random, but which are
+            actually the product of a deterministic computation.</p>
+        </gi>
+        <gi>
+            <title>seed:</title>
+            <p>A value used to initialize a random number sequence. Using the same
+            seed should yield the same sequence of values.</p>
+        </gi>
+        <gi>
+            <title>bottom-up design:</title>
+            <p>A method of program development that starts by writing small, useful
+            functions and then assembling them into larger solutions.</p>
+        </gi>
+        <gi>
+            <title>histogram:</title>
+            <p>A vector of integers where each integer counts the number of values
+            that fall into a certain range.</p>
+        </gi>
+    </glossary>
   <exercise label="glossary_1">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the

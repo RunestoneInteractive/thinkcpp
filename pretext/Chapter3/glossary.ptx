@@ -1,40 +1,40 @@
 <?xml version="1.0"?>
 <section xml:id="chapter3_glossary">
-  <title>Glossary</title>
-  <dl>
-    <li>
-      <title>floating-point:</title>
-      <p>A type of variable (or value) that can contain fractions as well as
-                        integers. There are a few floating-point types in C++; the one we
-                        use in this book is double.</p>
-    </li>
-    <li>
-      <title>initialization:</title>
-      <p>A statement that declares a new variable and assigns a value to it
-                        at the same time.</p>
-    </li>
-    <li>
-      <title>function:</title>
-      <p>A named sequence of statements that performs some useful function.
-                        Functions may or may not take parameters, and may or may not produce
-                        a result.</p>
-    </li>
-    <li>
-      <title>parameter:</title>
-      <p>A piece of information you provide in order to call a function.
-                        Parameters are like variables in the sense that they contain values
-                        and have types.</p>
-    </li>
-    <li>
-      <title>argument:</title>
-      <p>A value that you provide when you call a function. This value must
-                        have the same type as the corresponding parameter.</p>
-    </li>
-    <li>
-      <title>call:</title>
-      <p>Cause a function to be executed.</p>
-    </li>
-  </dl>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>floating-point</title>
+            <p>A type of variable (or value) that can contain fractions as well as
+            integers. There are a few floating-point types in C++; the one we
+            use in this book is double.</p>
+        </gi>
+        <gi>
+            <title>initialization</title>
+            <p>A statement that declares a new variable and assigns a value to it
+            at the same time.</p>
+        </gi>
+        <gi>
+            <title>function</title>
+            <p>A named sequence of statements that performs some useful function.
+            Functions may or may not take parameters, and may or may not produce
+            a result.</p>
+        </gi>
+        <gi>
+            <title>parameter</title>
+            <p>A piece of information you provide in order to call a function.
+            Parameters are like variables in the sense that they contain values
+            and have types.</p>
+        </gi>
+        <gi>
+            <title>argument</title>
+            <p>A value that you provide when you call a function. This value must
+            have the same type as the corresponding parameter.</p>
+        </gi>
+        <gi>
+            <title>call</title>
+            <p>Cause a function to be executed.</p>
+        </gi>
+    </glossary>
   <exercise label="chapter_three_glossary_one">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the

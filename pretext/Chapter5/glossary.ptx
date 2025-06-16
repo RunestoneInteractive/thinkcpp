@@ -1,57 +1,57 @@
 <?xml version="1.0"?>
 <section xml:id="chapter5_glossary">
-  <title>Glossary</title>
-  <p><dl>
-    <li>
-      <title>return type:</title>
-      <p>The type of value a function returns.</p>
-    </li>
-    <li>
-      <title>return value:</title>
-      <p>The value provided as the result of a function call.</p>
-    </li>
-    <li>
-      <title>dead code:</title>
-      <p>Part of a program that can never be executed, often because it
-        appears after a return statement.</p>
-    </li>
-    <li>
-      <title>scaffolding:</title>
-      <p>Code that is used during program development but is not part of the
-        final version.</p>
-    </li>
-    <li>
-      <title>void:</title>
-      <p>A special return type that indicates a void function; that is, one
-        that does not return a value.</p>
-    </li>
-    <li>
-      <title>overloading:</title>
-      <p>Having more than one function with the same name but different
-        parameters. When you call an overloaded function, C++ knows which
-        version to use by looking at the arguments you provide.</p>
-    </li>
-    <li>
-      <title>boolean:</title>
-      <p>A value or variable that can take on one of two states, often called <m>true</m> and <m>
-        false</m>. In C++, boolean values can be stored in a variable type called bool.</p>
-    </li>
-    <li>
-      <title>flag:</title>
-      <p>A variable (usually type bool) that records a condition or status
-        information.</p>
-    </li>
-    <li>
-      <title>comparison operator:</title>
-      <p>An operator that compares two values and produces a boolean that
-        indicates the relationship between the operands.</p>
-    </li>
-    <li>
-      <title>logical operator:</title>
-      <p>An operator that combines boolean values in order to test compound
-        conditions.</p>
-    </li>
-  </dl></p>
+    <title>Glossary</title>
+    <glossary>
+        <gi>
+            <title>return type</title>
+            <p>The type of value a function returns.</p>
+        </gi>
+        <gi>
+            <title>return value</title>
+            <p>The value provided as the result of a function call.</p>
+        </gi>
+        <gi>
+            <title>dead code</title>
+            <p>Part of a program that can never be executed, often because it
+            appears after a return statement.</p>
+        </gi>
+        <gi>
+            <title>scaffolding</title>
+            <p>Code that is used during program development but is not part of the
+            final version.</p>
+        </gi>
+        <gi>
+            <title>void</title>
+            <p>A special return type that indicates a void function; that is, one
+            that does not return a value.</p>
+        </gi>
+        <gi>
+            <title>overloading</title>
+            <p>Having more than one function with the same name but different
+            parameters. When you call an overloaded function, C++ knows which
+            version to use by looking at the arguments you provide.</p>
+        </gi>
+        <gi>
+            <title>boolean</title>
+            <p>A value or variable that can take on one of two states, often called <m>true</m> and <m>
+            false</m>. In C++, boolean values can be stored in a variable type called bool.</p>
+        </gi>
+        <gi>
+            <title>flag</title>
+            <p>A variable (usually type bool) that records a condition or status
+            information.</p>
+        </gi>
+        <gi>
+            <title>comparison operator</title>
+            <p>An operator that compares two values and produces a boolean that
+            indicates the relationship between the operands.</p>
+        </gi>
+        <gi>
+            <title>logical operator</title>
+            <p>An operator that combines boolean values in order to test compound
+            conditions.</p>
+        </gi>
+    </glossary>
   <exercise label="chapter_five_glossary_1">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
