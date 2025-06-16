@@ -137,7 +137,7 @@ char tom;
         ORDER. It is up to you to choose the correct types for these variables.</p>
     </statement>
     <blocks>
-      <block order="7">
+      <block order="1">
         <choice correct="yes">
           <cline>string name;</cline>
         </choice>
@@ -150,31 +150,15 @@ char tom;
           <cline>char firstInitial;</cline>
         </choice>
         <choice>
-          <cline>char firstInitial </cline>
+          <cline>string firstInitial;</cline>
         </choice>
       </block>
-      <block order="8">
-        <choice correct="yes">
-          <cline>string firstInitial; </cline>
-        </choice>
-        <choice>
-          <cline>string firstInitial </cline>
-        </choice>
-      </block>
-      <block order="6">
+      <block order="3">
         <choice correct="yes">
           <cline>int numberOfSiblings;</cline>
         </choice>
         <choice>
-          <cline>int numberOfSiblings </cline>
-        </choice>
-      </block>
-      <block order="9">
-        <choice correct="yes">
-          <cline>double numberOfSiblings; </cline>
-        </choice>
-        <choice>
-          <cline>double numberOfSiblings </cline>
+          <cline>double numberOfSiblings;</cline>
         </choice>
       </block>
     </blocks>
