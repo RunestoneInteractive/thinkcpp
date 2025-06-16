@@ -342,7 +342,7 @@ Fizz
 Buzz
 </output>
       </console>
-    <program interactive="activecode" label="cp_6_AC_5"><code><![CDATA[
+    <program interactive="activecode" label="cp_6_AC_5_editor"><code><![CDATA[
            #include <iostream>
            using namespace std;
 
