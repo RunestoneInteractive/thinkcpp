@@ -168,7 +168,8 @@ int main() {
     <statement>
       <p>Finish the code below so that it returns the correct volume of a sphere.
         Hint: think about what happens when you use integer division. The volume of a sphere is
-        given by V = (4/3)(pi)(r^3).</p>
+        given by:
+      <me>V = \frac{4}{3} \pi r^3</me></p>
     <program xml:id="VARS_a4_ps_editor"
              interactive="activecode"
              line-numbers="yes">
