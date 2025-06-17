@@ -631,18 +631,15 @@ int main() {
 }
            ]]></code>
             <tests><![CDATA[
-            #define CATCH_CONFIG_MAIN
-            #include <catch.hpp>
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
  
-            TEST_CASE("isPrime function") {
-                REQUIRE(isPrime (1) == 0);
-                REQUIRE(isPrime (13) == 1);
-                REQUIRE(isPrime (24) == 0);
-            }
- 
-            TEST_CASE("isPrime for 0") {
-                REQUIRE(isPrime (0) == 0);
-            }
+TEST_CASE("isPrime function") {
+    CHECK(isPrime (0) == 0);
+    CHECK(isPrime (1) == 0);
+    CHECK(isPrime (13) == 1);
+    CHECK(isPrime (24) == 0);
+}
 ]]></tests></program></statement>
     <solution>
       <p>Below is one way to implement the program. First, we check to see if <c>num</c> is less than
