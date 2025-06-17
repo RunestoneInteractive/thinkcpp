@@ -5,6 +5,7 @@ __pycache__
 output
 .error_schema.log
 logs
+generated-assests/
 
 # at least temporarily, ignore stuff the CLI makes for github codespaces
 .devcontainer.json
