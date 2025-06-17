@@ -11,6 +11,7 @@
     </author>
 
     <copyright>
+      <year>2012</year>
       <holder>Barbara Ericson and Allen B. Downey.</holder>
       <minilicense>Creative Commons BY-NC 4.0 License</minilicense>
       <shortlicense>
@@ -21,13 +22,13 @@
     </copyright>
   </bibinfo>
 
-  <colophon xml:id="front-colophon">
-    <colophon-items/>
-  </colophon>
-
   <titlepage>
     <titlepage-items/>
   </titlepage>
+
+  <colophon xml:id="front-colophon">
+    <colophon-items/>
+  </colophon>
 
   <acknowledgement xml:id="acknowledgement">
     <p>This ebook in an interactive version of <url href="https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version">How
