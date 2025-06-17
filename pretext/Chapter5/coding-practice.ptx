@@ -17,28 +17,28 @@ double calculator(double first, double second, char operation) {
 
       </code>
       <tests>
-        #define CATCH_CONFIG_MAIN
-        #include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
         
-        TEST_CASE(&quot;calculator function: addition&quot;) {
-            REQUIRE(calculator(3, 6, '+') == 9);
-            REQUIRE(calculator(-2.6, 4, '+') == 1.4);
-        }
+TEST_CASE(&quot;calculator function: addition&quot;) {
+    CHECK(calculator(3, 6, '+') == 9);
+    CHECK(calculator(-2.6, 4, '+') == 1.4);
+}
         
-        TEST_CASE(&quot;calculator function: subtraction&quot;) {
-            REQUIRE(calculator(19, 2, '-') == 17);
-            REQUIRE(calculator(-2.3, 2, '-') == -4.3);
-        }
+TEST_CASE(&quot;calculator function: subtraction&quot;) {
+    CHECK(calculator(19, 2, '-') == 17);
+    CHECK(calculator(-2.3, 2, '-') == -4.3);
+}
         
-        TEST_CASE(&quot;calculator function: multiplication&quot;) {
-            REQUIRE(calculator(5, 8, '*') == 40);
-            REQUIRE(calculator(0.5, -6, '*') == -3.0);
-        }
+TEST_CASE(&quot;calculator function: multiplication&quot;) {
+    CHECK(calculator(5, 8, '*') == 40);
+    CHECK(calculator(0.5, -6, '*') == -3.0);
+}
         
-        TEST_CASE(&quot;calculator function: division&quot;) {
-            REQUIRE(calculator(16, 4, '/') == 4);
-            REQUIRE(calculator(3, 8, '/') == 0.375);
-        }
+TEST_CASE(&quot;calculator function: division&quot;) {
+    CHECK(calculator(16, 4, '/') == 4);
+    CHECK(calculator(3, 8, '/') == 0.375);
+}
       </tests>
     </program></statement>
 
@@ -84,14 +84,14 @@ int convertToBinary(int decimal) {
 }
     ]]></code>
       <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE(&quot;convertToBinary function&quot;) {
-REQUIRE(convertToBinary(1) == 1);
-REQUIRE(convertToBinary(5) == 101);
-REQUIRE(convertToBinary(16) == 10000);
-REQUIRE(convertToBinary(31) == 11111);
+    CHECK(convertToBinary(1) == 1);
+    CHECK(convertToBinary(5) == 101);
+    CHECK(convertToBinary(16) == 10000);
+    CHECK(convertToBinary(31) == 11111);
 }
 </tests>
     </program></statement>
@@ -166,14 +166,14 @@ double calculateIntAngle(int numSides) {
     return (numSides - 2) * 180.0 / numSides;
 }
         ]]></code><tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE(&quot;calculateIntAngle function&quot;) {
-    REQUIRE(calculateIntAngle(3) == 60);
-    REQUIRE(calculateIntAngle(4) == 90);
-    REQUIRE(calculateIntAngle(5) == 108);
-    REQUIRE(calculateIntAngle(8) == 135);
+    CHECK(calculateIntAngle(3) == 60);
+    CHECK(calculateIntAngle(4) == 90);
+    CHECK(calculateIntAngle(5) == 108);
+    CHECK(calculateIntAngle(8) == 135);
 }
 </tests></program>
 
@@ -201,31 +201,31 @@ string birthSeason(int month, int day) {
 }
       ]]></code>
         <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE(&quot;birthSeason function: spring&quot;) {
-  REQUIRE(birthSeason (5, 3) == &quot;spring&quot;);
-  REQUIRE(birthSeason (3, 1) == &quot;spring&quot;);
-  REQUIRE(birthSeason (5, 31) == &quot;spring&quot;);
+  CHECK(birthSeason (5, 3) == &quot;spring&quot;);
+  CHECK(birthSeason (3, 1) == &quot;spring&quot;);
+  CHECK(birthSeason (5, 31) == &quot;spring&quot;);
 }
 
 TEST_CASE(&quot;birthSeason function: summer&quot;) {
-  REQUIRE(birthSeason (7, 5) == &quot;summer&quot;);
-  REQUIRE(birthSeason (6, 1) == &quot;summer&quot;);
-  REQUIRE(birthSeason (8, 31) == &quot;summer&quot;);
+  CHECK(birthSeason (7, 5) == &quot;summer&quot;);
+  CHECK(birthSeason (6, 1) == &quot;summer&quot;);
+  CHECK(birthSeason (8, 31) == &quot;summer&quot;);
 }
 
 TEST_CASE(&quot;birthSeason function: fall&quot;) {
-  REQUIRE(birthSeason (11, 24) == &quot;fall&quot;);
-  REQUIRE(birthSeason (9, 1) == &quot;fall&quot;);
-  REQUIRE(birthSeason (11, 30) == &quot;fall&quot;);
+  CHECK(birthSeason (11, 24) == &quot;fall&quot;);
+  CHECK(birthSeason (9, 1) == &quot;fall&quot;);
+  CHECK(birthSeason (11, 30) == &quot;fall&quot;);
 }
 
 TEST_CASE(&quot;birthSeason function: winter&quot;) {
-  REQUIRE(birthSeason (2, 20) == &quot;winter&quot;);
-  REQUIRE(birthSeason (12, 1) == &quot;winter&quot;);
-  REQUIRE(birthSeason (2, 28) == &quot;winter&quot;);
+  CHECK(birthSeason (2, 20) == &quot;winter&quot;);
+  CHECK(birthSeason (12, 1) == &quot;winter&quot;);
+  CHECK(birthSeason (2, 28) == &quot;winter&quot;);
 }
 </tests>
       </program></statement>
@@ -294,17 +294,17 @@ int dogToHumanYears (int dogAge) {
 }
 ]]></code>
         <tests><![CDATA[
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE("dogToHumanYears function for 1 and under") {
-  REQUIRE(dogToHumanYears(1) == 15);
+  CHECK(dogToHumanYears(1) == 15);
 }
 
 TEST_CASE("dogToHumanYears function for > 1") {
-  REQUIRE(dogToHumanYears(2) == 24);
-  REQUIRE(dogToHumanYears(3) == 28);
-  REQUIRE(dogToHumanYears(5) == 36);
+  CHECK(dogToHumanYears(2) == 24);
+  CHECK(dogToHumanYears(3) == 28);
+  CHECK(dogToHumanYears(5) == 36);
 }
 ]]>
         </tests>
@@ -346,17 +346,17 @@ bool isCommonFactor(int num1, int num2, int factor) {
 }
     ]]></code>
       <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE(&quot;isCommonFactor function: true cases&quot;) {
-REQUIRE(isCommonFactor (24, 8, 4) == 1);
-REQUIRE(isCommonFactor (75, 20, 5) == 1);
+    CHECK(isCommonFactor (24, 8, 4) == 1);
+    CHECK(isCommonFactor (75, 20, 5) == 1);
 }
 
 TEST_CASE(&quot;isCommonFactor function: false cases&quot;) {
-REQUIRE(isCommonFactor (132, 42, 11) == 0);
-REQUIRE(isCommonFactor (74, 23, 3) == 0);
+    CHECK(isCommonFactor (132, 42, 11) == 0);
+    CHECK(isCommonFactor (74, 23, 3) == 0);
 }
 </tests>
     </program></statement>
@@ -420,28 +420,28 @@ bool isLeapYear(int year) {
 ]]>
       </code>
       <tests>
-        #define CATCH_CONFIG_MAIN
-        #include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
         
-        TEST_CASE(&quot;isLeapYear not divisible by 4&quot;) {
-            REQUIRE(isLeapYear(2001) == 0);
-            REQUIRE(isLeapYear(2005) == 0);
-        }
+TEST_CASE(&quot;isLeapYear not divisible by 4&quot;) {
+    CHECK(isLeapYear(2001) == 0);
+    CHECK(isLeapYear(2005) == 0);
+}
         
-        TEST_CASE(&quot;isLeapYear divisible by 4&quot;) {
-            REQUIRE(isLeapYear(2004) == 1);
-            REQUIRE(isLeapYear(2008) == 1);
-        }
+TEST_CASE(&quot;isLeapYear divisible by 4&quot;) {
+    CHECK(isLeapYear(2004) == 1);
+    CHECK(isLeapYear(2008) == 1);
+}
         
-        TEST_CASE(&quot;isLeapYear divisible by 100&quot;) {
-            REQUIRE(isLeapYear(2100) == 0);
-            REQUIRE(isLeapYear(1900) == 0);
-        }
+TEST_CASE(&quot;isLeapYear divisible by 100&quot;) {
+    CHECK(isLeapYear(2100) == 0);
+    CHECK(isLeapYear(1900) == 0);
+}
         
-        TEST_CASE(&quot;isLeapYear divisible by 400&quot;) {
-            REQUIRE(isLeapYear(2000) == 1);
-            REQUIRE(isLeapYear(2400) == 1);
-        }
+TEST_CASE(&quot;isLeapYear divisible by 400&quot;) {
+    CHECK(isLeapYear(2000) == 1);
+    CHECK(isLeapYear(2400) == 1);
+}
         </tests>
     </program></statement>
       <solution>
@@ -490,18 +490,18 @@ bool isPoisonous(char size, int numSpots, bool isRed) {
 }
     ]]></code>
       <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE(&quot;isPoisonous function: true cases&quot;) {
-    REQUIRE(isPoisonous('S', 10, 0) == 1);
-    REQUIRE(isPoisonous('S', 10, 0) == 1);
-    REQUIRE(isPoisonous('L', 1, 1) == 1);
+    CHECK(isPoisonous('S', 10, 0) == 1);
+    CHECK(isPoisonous('S', 10, 0) == 1);
+    CHECK(isPoisonous('L', 1, 1) == 1);
 }
 
 TEST_CASE(&quot;isPoisonous function: false cases&quot;) {
-    REQUIRE(isPoisonous('L', 4, 1) == 0);
-    REQUIRE(isPoisonous('L', 9, 1) == 0);
+    CHECK(isPoisonous('L', 4, 1) == 0);
+    CHECK(isPoisonous('L', 9, 1) == 0);
 }
 </tests>
     </program></statement>
@@ -575,14 +575,14 @@ int triangularNum(int n) {
 ]]>
       </code>
       <tests>
-        #define CATCH_CONFIG_MAIN
-        #include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
         
         TEST_CASE(&quot;triangularNum function&quot;) {
-            REQUIRE(triangularNum (1) == 1);
-            REQUIRE(triangularNum (3) == 6);
-            REQUIRE(triangularNum (6) == 21);
-            REQUIRE(triangularNum (17) == 153);
+            CHECK(triangularNum (1) == 1);
+            CHECK(triangularNum (3) == 6);
+            CHECK(triangularNum (6) == 21);
+            CHECK(triangularNum (17) == 153);
         }
         </tests>
     </program></statement>
@@ -622,14 +622,14 @@ int digitSum(int num) {
 }
       ]]></code>
         <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
 
 TEST_CASE(&quot;digitSum function&quot;) {
-    REQUIRE(digitSum(123) == 6);
-    REQUIRE(digitSum(8739) == 27);
-    REQUIRE(digitSum(440) == 8);
-    REQUIRE(digitSum(2) == 2);
+    CHECK(digitSum(123) == 6);
+    CHECK(digitSum(8739) == 27);
+    CHECK(digitSum(440) == 8);
+    CHECK(digitSum(2) == 2);
 }
 </tests>
       </program></statement>
