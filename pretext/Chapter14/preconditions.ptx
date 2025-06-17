@@ -235,13 +235,13 @@ void Complex::setCartesian(double r, double i) {
   </exercise>
   <exercise label="question14_9_2">
     <statement>
-      <p>What function causes the program to quit immediately? <fillin mode="string" case="insensitive" answer="exit"/>
+      <p>What function causes the program to quit immediately? <fillin answer="exit"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

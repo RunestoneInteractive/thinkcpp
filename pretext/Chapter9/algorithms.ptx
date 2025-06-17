@@ -38,12 +38,12 @@
             produced.</p>
   <exercise label="algorithms_1">
     <statement>
-      <p>When you write a general solution for a class of problems, as opposed to a specific solution to a single problem, you have written an ____. <fillin mode="string" case="insensitive" answer="algorithm"/>  </p>
+      <p>When you write a general solution for a class of problems, as opposed to a specific solution to a single problem, you have written an ____. <fillin answer="algorithm"/>  </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

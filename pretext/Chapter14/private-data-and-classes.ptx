@@ -151,13 +151,13 @@ void Card::print() const {
   </exercise>
   <exercise label="question14_1_2">
     <statement>
-      <p>What type of data member cannot be directly accessed outside of the structure? <fillin mode="string" case="insensitive" answer="private.*"/>
+      <p>What type of data member cannot be directly accessed outside of the structure? <fillin answer="private.*"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

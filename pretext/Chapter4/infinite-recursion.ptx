@@ -38,18 +38,18 @@ int main() {
 }</program>
   <exercise label="unbounded_recursion_1">
     <statement>
-      <p>If a recursive function never reaches its <fillin mode="string" case="insensitive" answer="base"/> case, then the function will continue
-        executing indefinitely. This is called <fillin mode="string" case="insensitive" answer="infinite"/> recursion. </p>
+      <p>If a recursive function never reaches its <fillin answer="base"/> case, then the function will continue
+        executing indefinitely. This is called <fillin answer="infinite"/> recursion. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

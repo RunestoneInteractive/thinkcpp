@@ -244,12 +244,12 @@ int main() {
   </exercise>
   <exercise label="recursion_3">
     <statement>
-      <p>A function that calls itself is said to be <fillin mode="string" case="insensitive" answer="recursive"/>.</p>
+      <p>A function that calls itself is said to be <fillin answer="recursive"/>.</p>
     </statement>
     <evaluation>
       <evaluate>
-          <test>
-            <strcmp use-answer="yes"/>
+          <test correct="yes">
+            <strcmp use-answer="yes" case="insensitive"/>
             <feedback>
               And the process by which a function calls itself is called recursion.
             </feedback>

@@ -47,19 +47,19 @@
   </exercise>
   <exercise label="which_is_best_2">
     <statement>
-      <p>Anything that can be done with modifiers and <fillin mode="string" case="insensitive" answer="fill-in"/> functions can also be done with <fillin mode="string" case="insensitive" answer="pure"/>
+      <p>Anything that can be done with modifiers and <fillin answer="fill-in"/> functions can also be done with <fillin answer="pure"/>
         functions.
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
