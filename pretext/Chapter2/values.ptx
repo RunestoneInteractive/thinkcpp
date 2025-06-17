@@ -22,12 +22,12 @@ cout &lt;&lt; '}' &lt;&lt; endl;
     clear soon.</p>
   <exercise label="values_1">
     <statement>
-      <p>A <fillin/> value is a single letter, number, or punctuation enclosed in single quotes. </p>
+      <p>A <fillin answer="(char)|(character)"/> value is a single letter, number, or punctuation enclosed in single quotes. </p>
     </statement>
     <evaluation>
       <evaluate>
         <test correct="yes">
-          <strcmp case="insensitive">(char)|(character)</strcmp>
+          <strcmp case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

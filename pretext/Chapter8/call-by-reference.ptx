@@ -79,12 +79,12 @@ int main() {
     convention.</p>
   <exercise label="call_by_reference_1">
     <statement>
-      <p>Which symbol is used to cause the compiler to pass a function's parameter by reference? <fillin mode="string" case="insensitive" answer="&amp;"/>
+      <p>Which symbol is used to cause the compiler to pass a function's parameter by reference? <fillin answer="&amp;"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

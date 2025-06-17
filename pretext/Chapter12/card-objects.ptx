@@ -140,32 +140,28 @@ Card threeOfClubs(0, 3);
     rank 3.</p>
   <exercise label="card_objects_1">
     <statement>
-      <p>The instance variables for a playing card are <fillin mode="string"
-                case="insensitive"
-                answer="rank"/>
-        and <fillin mode="string"
-                case="insensitive"
-                answer="suit"/>. (Put them in alphabetical
+      <p>The instance variables for a playing card are <fillin answer="rank"/>
+        and <fillin answer="suit"/>. (Put them in alphabetical
         order.)</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
         <test>
-          <strcmp>suit</strcmp>
+          <strcmp case="insensitive">suit</strcmp>
           <feedback>
             Wrong spot - use that in the other blank
           </feedback>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
         <test>
-          <strcmp>rank</strcmp>
+          <strcmp case="insensitive">rank</strcmp>
           <feedback>
             Wrong spot - use that in the other blank
           </feedback>
@@ -214,14 +210,12 @@ Card threeOfClubs(0, 3);
   </exercise>
   <exercise label="card_objects_3">
     <statement>
-      <p>The symbol <m>\mapsto</m> means <fillin mode="string"
-                case="insensitive"
-                answer="maps(\s+ to)?"/> . </p>
+      <p>The symbol <m>\mapsto</m> means <fillin answer="maps(\s+ to)?"/> . </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

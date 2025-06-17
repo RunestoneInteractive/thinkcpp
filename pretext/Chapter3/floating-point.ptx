@@ -67,13 +67,13 @@ double y = 1.0 / 3.0;
     performing floating-point operations.</p>
   <exercise label="floating_point_1">
     <statement>
-      <p>A(n) <fillin mode="string" case="insensitive" answer="initialization"/> statment consists of a declaration statement and an assignment statement, which
+      <p>A(n) <fillin answer="initialization"/> statment consists of a declaration statement and an assignment statement, which
         are combined. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -90,12 +90,12 @@ double y = 1.0 / 3.0;
           
           double servingSize = servings / people;</program>
 
-        <p>The program claims <c>servingSize</c> is <fillin mode="string" case="insensitive" answer="2"/> servings.
-          This is <fillin mode="string" case="insensitive" answer="less"/> (more, less, the same) than/as the correct answer.</p>
+        <p>The program claims <c>servingSize</c> is <fillin answer="2"/> servings.
+          This is <fillin answer="less"/> (more, less, the same) than/as the correct answer.</p>
     </statement>
     <evaluation>
       <evaluate>
-          <test>
+          <test correct="yes">
             <strcmp use-answer="yes"/>
             <feedback>
               Correct! C++ performs integer division.
@@ -109,8 +109,8 @@ double y = 1.0 / 3.0;
           </test>
       </evaluate>
       <evaluate>
-          <test>
-            <strcmp use-answer="yes"/>
+          <test correct="yes">
+            <strcmp use-answer="yes" case="insensitive"/>
           </test>
           <test>
             <strcmp>.*</strcmp>

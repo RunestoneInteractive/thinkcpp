@@ -31,7 +31,7 @@
   </note>
   <exercise label="fuwresults_1">
     <statement>
-      <p>What will be <term>printed</term> when the following code runs? <fillin mode="string" case="insensitive" answer="8"/>
+      <p>What will be <term>printed</term> when the following code runs? <fillin answer="8"/>
       </p>
       <program line-numbers="yes">
         <code><![CDATA[
@@ -52,7 +52,7 @@ int main() {
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
           <feedback>
             Yes! 2*4=8 so that will be printed but not returned

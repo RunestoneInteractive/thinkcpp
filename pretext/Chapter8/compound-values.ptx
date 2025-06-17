@@ -15,13 +15,13 @@
   <exercise label="compound_values_1">
     <statement>
       <p>Strings are made up of smaller pieces (the characters). This makes strings an example of a
-        _____ type. <fillin mode="string" case="insensitive" answer="compound"/>
+        _____ type. <fillin answer="compound"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -29,13 +29,13 @@
   <exercise label="compound_values_2">
     <statement>
       <p>One of the mechanisms for creating your own compound values is structures. What is the
-        other? <fillin mode="string" case="insensitive" answer="class(es)?"/>
+        other? <fillin answer="class(es)?"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

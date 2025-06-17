@@ -32,12 +32,12 @@ int main() {
     messages you get.</p>
   <exercise label="defns_uses_1">
     <statement>
-      <p>The function definition must be written <fillin mode="string" case="insensitive" answer="(before)|(above)"/> the first use of the function. </p>
+      <p>The function definition must be written <fillin answer="(before)|(above)"/> the first use of the function. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

@@ -156,9 +156,9 @@ int main() {
       prints out the new string. <c>censorWord</c> should take two strings <c>input</c> and <c>word</c> as parameters
       and prints out <c>input</c> with every occurence of <c>word</c> censored with asterisks. For example, <c>censorWord(&quot;I really, really, really, really, really, really like
       you&quot;, &quot;really&quot;)</c>
-      results in the following output:</p><program>
+      results in the following output:</p><console>
 <output>I ******, ******, ******, ******, ******, ****** like you</output>
-</program>
+</console>
     <program interactive="activecode" label="cp_7_AC_3_editor">
       <code><![CDATA[
            #include <iostream>

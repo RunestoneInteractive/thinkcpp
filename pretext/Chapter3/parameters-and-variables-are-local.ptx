@@ -151,13 +151,13 @@ int main() {
   </exercise>
   <exercise label="locals_3">
     <statement>
-      <p>Whenever we make a function call, we create a(n) <fillin mode="string" case="insensitive" answer="instance"/> of that function, which contains
+      <p>Whenever we make a function call, we create a(n) <fillin answer="instance"/> of that function, which contains
         the parameters and local variables for that function. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
           <feedback>
             You could create many instances of one function, each with their own parameters and
               local variables if you wanted!

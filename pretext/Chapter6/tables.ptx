@@ -191,26 +191,26 @@ int main() {
   </exercise>
   <exercise label="tables_2">
     <statement>
-      <p>What is the equivalent of endl, and typically used at the end of a string? <fillin mode="string" case="insensitive" answer="(newline.*)|(.*\\n.*)"/>
+      <p>What is the equivalent of endl, and typically used at the end of a string? <fillin answer="(newline.*)|(.*\\n.*)"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
   </exercise>
   <exercise label="tables_3">
     <statement>
-      <p>How would you write a tab character? <fillin mode="string" case="insensitive" answer=".*\\t.*"/>
+      <p>How would you write a tab character? <fillin answer=".*\\t.*"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes" strip="no"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" strip="no" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

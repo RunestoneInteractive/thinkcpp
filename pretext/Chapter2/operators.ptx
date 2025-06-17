@@ -89,12 +89,12 @@ cout &lt;&lt; minute * 100 / 60 &lt;&lt; endl;</program>
   </exercise>
   <exercise label="operators_3">
     <statement>
-      <p>Integer division always <fillin/> the answer by dropping any decimal portion.</p>
+      <p>Integer division always <fillin answer="truncates?"/> the answer by dropping any decimal portion.</p>
     </statement>
     <evaluation>
       <evaluate>
         <test correct="yes">
-          <strcmp case="insensitive">truncates?</strcmp>
+          <strcmp case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -176,7 +176,7 @@ int num2 = 8;
 cout &lt;&lt; &quot;Decimal:&quot; &lt;&lt; num1 / num2;</program>
       <p>What is printed after <c>Decimal:</c>?</p>
       <p>
-        <fillin mode="number" case="insensitive" answer="0"/>
+        <fillin answer="0"/>
       </p>
     </statement>
     <evaluation>
