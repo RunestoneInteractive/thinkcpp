@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<section xml:id="ack_acknowledgements">
-  <title>Acknowledgements</title>
-  <p>This interactive ebook is based on a book by Allen B. Downey.  See
-            <url href="https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version" visual="https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version">https://open.umn.edu/opentextbooks/textbooks/how-to-think-like-a-computer-scientist-c-version</url></p>
-  <p>We thank Brad Miller for all of his tremendous work on Runestone including getting C++ to work,
-            adding unit tests for C++, and adding a visualizer for C++.</p>
-</section>
