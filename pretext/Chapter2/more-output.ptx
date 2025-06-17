@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_more-output">
+<?xml version="1.0" ?><section xml:id="chapter2_more-output">
   <title>More Output</title>
   <p>As I mentioned in the last chapter, you can put as many statements as you want in <c>main</c>. For
     example, to output more than one line:</p>
@@ -8,10 +7,7 @@
     <title>
       This program prints two different statements on two different lines using <c>endl</c>.
     </title>
-    <program label="more_output_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes"
-             highlight-lines="5-6">
+    <program label="more_output_AC_1_editor" interactive="activecode" line-numbers="yes" highlight-lines="5-6">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -39,10 +35,7 @@ int main() {
     <title>
       This program prints two different statements on the same line.
     </title>
-    <program xml:id="more_output_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes"
-             highlight-lines="5">
+    <program interactive="activecode" line-numbers="yes" highlight-lines="5" label="more_output_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -66,9 +59,7 @@ world!</c>. Notice in <c>main</c> that there is a
         difference is that there are no spaces separating the different
         components of each line.
     </title>
-    <program xml:id="more_output_AC_3_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="more_output_AC_3_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -89,9 +80,7 @@ int main() {
         it only uses one line. However, this format is pretty messy and relatively
         hard to follow.
     </title>
-    <program xml:id="more_output_AC_4_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="more_output_AC_4_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -119,8 +108,7 @@ int main() {cout<<"Goodbye, ";cout<<"cruel world!"<<endl;}
   <exercise label="more_output_2">
     <statement>
       <p>On how many separate lines will the 7's be printed?</p>
-      <program
-               line-numbers="yes">
+      <program line-numbers="yes">
 #include &lt;iostream&gt;
 using namespace std;
 
@@ -138,7 +126,7 @@ int main() {
           <p>1</p>
         </statement>
         <feedback><p>
-          There is an "endl" statement, implying that a new line is created.
+          There is an &quot;endl&quot; statement, implying that a new line is created.
         </p></feedback>
       </choice>
       <choice correct="yes">
@@ -146,7 +134,7 @@ int main() {
           <p>2</p>
         </statement>
         <feedback><p>
-          "endl" creates one new line. The first line will say 7, while the second will print
+          &quot;endl&quot; creates one new line. The first line will say 7, while the second will print
             777.
         </p></feedback>
       </choice>
@@ -155,7 +143,7 @@ int main() {
           <p>3</p>
         </statement>
         <feedback><p>
-          In C++, you must make sure to say "endl" every time you'd like to create a new line.
+          In C++, you must make sure to say &quot;endl&quot; every time you'd like to create a new line.
         </p></feedback>
       </choice>
       <choice>
@@ -163,15 +151,12 @@ int main() {
           <p>4</p>
         </statement>
         <feedback><p>
-          In C++, you must make sure to say "endl" every time you'd like to create a new line.
+          In C++, you must make sure to say &quot;endl&quot; every time you'd like to create a new line.
         </p></feedback>
       </choice>
     </choices>
   </exercise>
-  <exercise label="more_output_3"
-            number="yes"
-            adaptive="yes"
-            indentation="show">
+  <exercise label="more_output_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Construct a main function that prints <q>Snap!</q> on the first line, <q>Crackle!</q> on
         the third line, and <q>Pop!</q> on the sixth line. You might not use all of endl blocks
@@ -182,7 +167,7 @@ int main() {
         <cline>int main() {</cline>
       </block>
       <block order="4">
-        <cline> cout &lt;&lt; "Snap!";</cline>
+        <cline> cout &lt;&lt; &quot;Snap!&quot;;</cline>
       </block>
       <block order="8">
         <cline><![CDATA[ cout << endl; // first endl]]></cline>
@@ -200,14 +185,12 @@ int main() {
         <cline><![CDATA[ cout << endl; // fourth endl]]></cline>
       </block>
       <block order="9">
-        <cline> cout &lt;&lt; "Pop!";</cline>
+        <cline> cout &lt;&lt; &quot;Pop!&quot;;</cline>
       </block>
-      <block order="5"
-             correct="no">
+      <block order="5" correct="no">
         <cline><![CDATA[ cout << endl; // fifth endl ]]></cline>
       </block>
-      <block order="10"
-             correct="no">
+      <block order="10" correct="no">
         <cline><![CDATA[ cout << endl; // sixth endl ]]></cline>
       </block>
       <block order="1">
@@ -215,10 +198,7 @@ int main() {
       </block>
     </blocks>
   </exercise>
-  <exercise label="more_output_4"
-            number="yes"
-            adaptive="yes"
-            indentation="show">
+  <exercise label="more_output_4" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Construct a main function that prints <q>Hello, world!</q> so that <q>Hello,</q> and <q>
         world!</q> are printed on two separate lines.</p>
@@ -230,17 +210,14 @@ int main() {
       <block order="4">
         <cline><![CDATA[ cout << "Hello," << endl; cout << "world!";]]></cline>
       </block>
-      <block order="5"
-             correct="no">
+      <block order="5" correct="no">
         <cline><![CDATA[ cout << "Hello," << "world!" << endl; ]]></cline>
       </block>
-      <block order="1"
-             correct="no">
-        <cline> cout &gt;&gt; "Hello," &gt;&gt; endl; cout &gt;&gt; "world!"; </cline>
+      <block order="1" correct="no">
+        <cline> cout &gt;&gt; &quot;Hello,&quot; &gt;&gt; endl; cout &gt;&gt; &quot;world!&quot;; </cline>
       </block>
-      <block order="2"
-             correct="no">
-        <cline> cout &gt;&gt; "Hello," &gt;&gt; "world!" &gt;&gt; endl; </cline>
+      <block order="2" correct="no">
+        <cline> cout &gt;&gt; &quot;Hello,&quot; &gt;&gt; &quot;world!&quot; &gt;&gt; endl; </cline>
       </block>
       <block order="3">
         <cline>}</cline>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_character-classification">
+<?xml version="1.0" ?><section xml:id="chapter7_character-classification">
   <title>Character classification</title>
   <p>It is often useful to examine a character and test whether it is upper or lower case, or
     whether it is a character or a digit. C++ provides a library of functions that perform this kind
@@ -7,7 +6,7 @@
     file <c>cctype</c>.</p>
   <program>char letter = 'a';
 if (isalpha(letter)) {
-  cout &lt;&lt; "The character " &lt;&lt; letter &lt;&lt; " is a letter." &lt;&lt; endl;
+  cout &lt;&lt; &quot;The character &quot; &lt;&lt; letter &lt;&lt; &quot; is a letter.&quot; &lt;&lt; endl;
 }</program>
   <p>You might expect the return value from <c>isalpha</c> to be a <c>bool</c>, but for reasons I don't even
     want to think about, it is actually an integer that is 0 if the argument is not a letter, and
@@ -15,7 +14,7 @@ if (isalpha(letter)) {
   <p>This oddity is not as inconvenient as it seems, because it is legal to use this kind of integer
     in a conditional, as shown in the example. The value 0 is treated as <c>false</c>, and all non-zero
     values are treated as <c>true</c>.</p>
-  <p>Technically, this sort of thing should not be allowed&#x2014;integers are not
+  <p>Technically, this sort of thing should not be allowed—integers are not
     the same thing as boolean values. Nevertheless, the C++ habit of
     converting automatically between types can be useful.</p>
   <p>Other character classification functions include <c>isdigit</c>, which identifies the digits 0 through
@@ -39,9 +38,7 @@ cout &lt;&lt; letter &lt;&lt; endl;</program>
         should convert the string to uppercase, and <c>stringToLower</c> should convert the string to lowercase.
         Some functions that you might find useful include <c>isalpha</c>, <c>isupper</c>, <c>islower</c>, <c>toupper</c>, and <c>tolower</c>.
         If you get stuck, you can reveal the hint after the problem for help.</p>
-    <program xml:id="character_classification_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="character_classification_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cctype>
@@ -68,10 +65,7 @@ int main() {
         ]]></code>
     </program></statement>
     <hint>
-      <activity label="character_classification_1"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="character_classification_1" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the <c>stringToUpper</c> function. <c>stringToUpper</c> should convert a string to
             uppercase.</p>
@@ -122,10 +116,7 @@ int main() {
       </activity>
     </hint>
     <hint>
-      <activity label="character_classification_2"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="character_classification_2" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the <c>stringToLower</c> function. <c>stringToLower</c> should convert a string to
       lowercase.</p>

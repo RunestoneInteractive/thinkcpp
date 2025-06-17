@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter14_accessor-functions">
+<?xml version="1.0" ?><section xml:id="chapter14_accessor-functions">
   <title>Accessor functions</title>
   <p>By convention, accessor functions have names that begin with <c>get</c> and end with the name of
     the instance variable they fetch. The return type, naturally, is the type of the corresponding
@@ -29,9 +28,7 @@
     <title>
       Take a look at this active code, which uses the <c>getReal</c> accessor function.
     </title>
-    <program xml:id="fourteenfour_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteenfour_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -81,9 +78,7 @@ int main() {
         you're done with that, write the <c>getMag</c> and <c>getTheta</c> accessor functions. Read the comments
         in <c>main</c> to see how we'll test if your functions works. If you get stuck, you can reveal
         the hint below for help.</p>
-    <program xml:id="fourteenfive_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteenfive_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -157,10 +152,7 @@ double Complex::getImag() {
     </program></statement>
     <hint>
       <title>calculatePolar</title>
-      <activity label="question14_4_1"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="question14_4_1" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the <c>calculatePolar</c> function. Follow the format of the function <c>calculateCartesian</c>
             .</p>
@@ -226,10 +218,7 @@ double Complex::getImag() {
     </hint>
     <hint>
       <title>getTheta</title>
-      <activity label="question14_4_3"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="question14_4_3" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the <c>getTheta</c> function, which should return the magnitude of a <c>Complex</c>
             object.</p>

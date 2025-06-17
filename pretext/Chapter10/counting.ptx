@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_counting">
+<?xml version="1.0" ?><section xml:id="chapter10_counting">
   <title>Counting</title>
   <p>A good approach to problems like this is to think of simple functions that are easy to write,
     and that might turn out to be useful. Then you can combine them into a solution. This approach
@@ -42,9 +41,7 @@
         many times the target appears in the vector! Feel free to modify the code and experiment
         around.
     </title>
-    <program xml:id="counting_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="counting_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -85,7 +82,7 @@ vector&lt;int&gt; randomVector(int n, int upperBound) {
 
 void printVector(const vector&lt;int&gt;&amp; vec) {
    for (size_t i = 0; i &lt; vec.size(); i++) {
-      cout &lt;&lt; vec[i] &lt;&lt; " ";
+      cout &lt;&lt; vec[i] &lt;&lt; &quot; &quot;;
    }
 }
 </tests>
@@ -98,7 +95,7 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
     <choices>
       <choice correct="yes">
         <statement>
-          <p>a method of programming where you write simple "helper" functions that are later
+          <p>a method of programming where you write simple &quot;helper&quot; functions that are later
             incorporated into larger functions</p>
         </statement>
         <feedback><p>
@@ -136,10 +133,7 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
       </choice>
     </choices>
   </exercise>
-  <exercise label="counting_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="counting_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that counts how many numbers are between lowerbound and
         upperbound inclusive.</p>

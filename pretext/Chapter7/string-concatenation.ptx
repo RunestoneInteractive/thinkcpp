@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_string-concatenation">
+<?xml version="1.0" ?><section xml:id="chapter7_string-concatenation">
   <title>String concatenation</title>
   <p>Interestingly, the <c>+</c> operator can be used on strings; it performs string <term>
     concatenation</term>. To concatenate means to join the two operands end to end.</p>
@@ -8,9 +7,7 @@
       In this active code, we use the <c>+</c> operator to concatenate <c>fruit</c> with <c>bakedGood</c>
         to create <c>dessert</c>.
     </title>
-    <program xml:id="string_concatenation_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="string_concatenation_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -30,7 +27,7 @@ int main() {
   </warning>
   <p>Thus, you cannot write something like</p>
   <program>
-string dessert = "banana" + " nut bread";
+string dessert = &quot;banana&quot; + &quot; nut bread&quot;;
 </program>
   <p>because both operands are C strings. As long as one of the operands is a <c>string</c>, though, C++
     will automatically convert the other.</p>
@@ -45,9 +42,7 @@ string dessert = "banana" + " nut bread";
     <title>
       This active code outputs the ducklings names in alphabetical order.
     </title>
-    <program xml:id="string_concatenation_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="string_concatenation_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -78,7 +73,7 @@ Ouack
 Pack
 Quack</output></console>
   <p>Again, be careful to use string concatenation only with <c>string</c>s and not with native C strings.
-    Unfortunately, an expression like <c>letter + "ack"</c> is syntactically legal in C++, although it produces a
+    Unfortunately, an expression like <c>letter + &quot;ack&quot;</c> is syntactically legal in C++, although it produces a
     very strange result, at least in my development environment.</p>
   <exercise label="string_concatenation_1">
     <statement>
@@ -127,10 +122,7 @@ cout << s + t << endl;
       </choice>
     </choices>
   </exercise>
-  <exercise label="string_concatenation_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="string_concatenation_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>As an exercise, put together the code below so that it prints <c>C++ is so fun!</c></p>
     </statement>
@@ -139,21 +131,19 @@ cout << s + t << endl;
         <cline>int main() {</cline>
       </block>
       <block order="6">
-        <cline>   string language = "C++";</cline>
-        <cline>   string action = " is so ";</cline>
-        <cline>   string adjective = "fun!";</cline>
+        <cline>   string language = &quot;C++&quot;;</cline>
+        <cline>   string action = &quot; is so &quot;;</cline>
+        <cline>   string adjective = &quot;fun!&quot;;</cline>
       </block>
-      <block order="1"
-             correct="no">
-        <cline>   string language = "C++"; </cline>
-        <cline>   string action = "is so";</cline>
-        <cline>   string adjective = "fun!";</cline>
+      <block order="1" correct="no">
+        <cline>   string language = &quot;C++&quot;; </cline>
+        <cline>   string action = &quot;is so&quot;;</cline>
+        <cline>   string adjective = &quot;fun!&quot;;</cline>
       </block>
       <block order="4">
         <cline><![CDATA[   cout << language + action + adjective << endl;]]></cline>
       </block>
-      <block order="2"
-             correct="no">
+      <block order="2" correct="no">
         <cline><![CDATA[   cout << "language" + "action" + "adjective" << endl; ]]></cline>
       </block>
       <block order="3">
@@ -161,31 +151,27 @@ cout << s + t << endl;
       </block>
     </blocks>
   </exercise>
-  <exercise label="string_concatenation_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="string_concatenation_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Put together the code below to creater a function <c>greeter</c> that adds <q>hello</q> and <q>
         goodbye</q> behind and ahead of a message respectively and then prints the new message.
-        Example: <c>greeter("ssup")</c> will print <q>hello ssup goodbye</q></p>
+        Example: <c>greeter(&quot;ssup&quot;)</c> will print <q>hello ssup goodbye</q></p>
     </statement>
     <blocks>
       <block order="1">
         <cline>void greeter(string message) {</cline>
       </block>
-      <block order="4"
-             correct="no">
+      <block order="4" correct="no">
         <cline>string greeter(string message) { </cline>
       </block>
       <block order="8">
         <choice correct="yes">
-          <cline>   string beginning = "hello ";</cline>
-          <cline>   string end = " goodbye";</cline>
+          <cline>   string beginning = &quot;hello &quot;;</cline>
+          <cline>   string end = &quot; goodbye&quot;;</cline>
         </choice>
         <choice>
-          <cline>   string beginning = "hello"; </cline>
-          <cline>   string end = "goodbye";</cline>
+          <cline>   string beginning = &quot;hello&quot;; </cline>
+          <cline>   string end = &quot;goodbye&quot;;</cline>
         </choice>
       </block>
       <block order="5">
@@ -198,8 +184,7 @@ cout << s + t << endl;
           <cline>   new_Word = message + end;</cline>
         </choice>
       </block>
-      <block order="3"
-             correct="no">
+      <block order="3" correct="no">
         <cline><![CDATA[   cout << "new_Word"; ]]></cline>
       </block>
       <block order="6">

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter4_chained-conditionals">
+<?xml version="1.0" ?><section xml:id="chapter4_chained-conditionals">
   <title>Chained Conditionals</title>
   <p>Sometimes you want to check for a number of related conditions and choose one of several
     actions. One way to do this is by <term>chaining</term> a series of ifs and elses:</p>
@@ -9,9 +8,7 @@
         negative, or zero. Feel free to change the value of x to
         make sure it works.
     </title>
-    <program xml:id="chained_conditionals_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="chained_conditionals_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -54,13 +51,13 @@ using namespace std;
 int main() {
   int x = 10;
   if (x &gt; 8) {
-    cout &lt;&lt; "One! ";
+    cout &lt;&lt; &quot;One! &quot;;
   }
   if (x &gt; 6) {
-    cout &lt;&lt; "Two! ";
+    cout &lt;&lt; &quot;Two! &quot;;
   }
   if (x &gt; 3) {
-    cout &lt;&lt; "Three!" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Three!&quot; &lt;&lt; endl;
   }
   return 0;
 }</program>
@@ -71,7 +68,7 @@ int main() {
           <p>Three!</p>
         </statement>
         <feedback><p>
-          Make note of the use of "if" instead of "else if" or "else".
+          Make note of the use of &quot;if&quot; instead of &quot;else if&quot; or &quot;else&quot;.
         </p></feedback>
       </choice>
       <choice>
@@ -79,7 +76,7 @@ int main() {
           <p>One!</p>
         </statement>
         <feedback><p>
-          Make note of the use of "if" instead of "else if" or "else".
+          Make note of the use of &quot;if&quot; instead of &quot;else if&quot; or &quot;else&quot;.
         </p></feedback>
       </choice>
       <choice>
@@ -87,7 +84,7 @@ int main() {
           <p>One! Two!</p>
         </statement>
         <feedback><p>
-          Make note of the use of "if" instead of "else if" or "else".
+          Make note of the use of &quot;if&quot; instead of &quot;else if&quot; or &quot;else&quot;.
         </p></feedback>
       </choice>
       <choice correct="yes">
@@ -95,7 +92,7 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback><p>
-          When we have "if" statments, but no "else if" or "else", every condition will be
+          When we have &quot;if&quot; statments, but no &quot;else if&quot; or &quot;else&quot;, every condition will be
             checked.
         </p></feedback>
       </choice>
@@ -110,13 +107,13 @@ using namespace std;
 int main() {
   int x = 10;
   if (x &gt; 8) {
-    cout &lt;&lt; "One! " ;
+    cout &lt;&lt; &quot;One! &quot; ;
   }
   else if (x &gt; 6) {
-    cout &lt;&lt; "Two! ";
+    cout &lt;&lt; &quot;Two! &quot;;
   }
   else {
-    cout &lt;&lt; "Three!" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Three!&quot; &lt;&lt; endl;
   }
   return 0;
 }</program>
@@ -127,8 +124,8 @@ int main() {
           <p>Three!</p>
         </statement>
         <feedback><p>
-          Remember that only one action will be completed in a chain of "ifs", "else ifs", and
-            "ifs"
+          Remember that only one action will be completed in a chain of &quot;ifs&quot;, &quot;else ifs&quot;, and
+            &quot;ifs&quot;
         </p></feedback>
       </choice>
       <choice correct="yes">
@@ -136,7 +133,7 @@ int main() {
           <p>One!</p>
         </statement>
         <feedback><p>
-          The chain of "ifs", "else ifs", and "elses" results in only one action being completed.
+          The chain of &quot;ifs&quot;, &quot;else ifs&quot;, and &quot;elses&quot; results in only one action being completed.
         </p></feedback>
       </choice>
       <choice>
@@ -144,7 +141,7 @@ int main() {
           <p>One! Two!</p>
         </statement>
         <feedback><p>
-          Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
+          Remember that a chain of &quot;ifs&quot;, &quot;else ifs&quot;, and &quot;elses&quot; will result in only one action
             being completed.
         </p></feedback>
       </choice>
@@ -153,7 +150,7 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback><p>
-          Remember that a chain of "ifs", "else ifs", and "elses" will result in only one action
+          Remember that a chain of &quot;ifs&quot;, &quot;else ifs&quot;, and &quot;elses&quot; will result in only one action
             being completed.
         </p></feedback>
       </choice>
@@ -168,13 +165,13 @@ using namespace std;
 int main() {
   int x = 7;
   if (x &gt; 8) {
-    cout &lt;&lt; "One! " ;
+    cout &lt;&lt; &quot;One! &quot; ;
   }
   if (x &gt; 6) {
-    cout &lt;&lt; "Two! ";
+    cout &lt;&lt; &quot;Two! &quot;;
   }
   if (x &gt; 3) {
-    cout &lt;&lt; "Three!" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Three!&quot; &lt;&lt; endl;
   }
   return 0;
 }</program>
@@ -185,7 +182,7 @@ int main() {
           <p>Two!</p>
         </statement>
         <feedback><p>
-          Make note of the use of "if" instead of "else if" or "else".
+          Make note of the use of &quot;if&quot; instead of &quot;else if&quot; or &quot;else&quot;.
         </p></feedback>
       </choice>
       <choice correct="yes">
@@ -193,7 +190,7 @@ int main() {
           <p>Two! Three!</p>
         </statement>
         <feedback><p>
-          When we have "if" statments, but no "else if" or "else", every condition will be
+          When we have &quot;if&quot; statments, but no &quot;else if&quot; or &quot;else&quot;, every condition will be
             checked.
         </p></feedback>
       </choice>
@@ -203,7 +200,7 @@ int main() {
         </statement>
         <feedback><p>
           The first statement will not be executed because x &gt; 8 is not true. Also, make note
-            of the use of "if" instead of "else if" or "else".
+            of the use of &quot;if&quot; instead of &quot;else if&quot; or &quot;else&quot;.
         </p></feedback>
       </choice>
       <choice>
@@ -225,13 +222,13 @@ using namespace std;
 int main() {
   int x = 7;
   if (x &gt; 8) {
-    cout &lt;&lt; "One! " ;
+    cout &lt;&lt; &quot;One! &quot; ;
   }
   else if (x &gt; 6) {
-    cout &lt;&lt; "Two! ";
+    cout &lt;&lt; &quot;Two! &quot;;
   }
   else {
-    cout &lt;&lt; "Three!" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Three!&quot; &lt;&lt; endl;
   }
   return 0;
 }</program>
@@ -242,7 +239,7 @@ int main() {
           <p>Two!</p>
         </statement>
         <feedback><p>
-          Only one action will is completed in a chain of "ifs", "else ifs", and "ifs";
+          Only one action will is completed in a chain of &quot;ifs&quot;, &quot;else ifs&quot;, and &quot;ifs&quot;;
         </p></feedback>
       </choice>
       <choice>
@@ -250,8 +247,8 @@ int main() {
           <p>Two! Three!</p>
         </statement>
         <feedback><p>
-          Remember that only one action will be completed in a chain of "ifs", "else ifs", and
-            "ifs".
+          Remember that only one action will be completed in a chain of &quot;ifs&quot;, &quot;else ifs&quot;, and
+            &quot;ifs&quot;.
         </p></feedback>
       </choice>
       <choice>
@@ -259,8 +256,8 @@ int main() {
           <p>One! Two!</p>
         </statement>
         <feedback><p>
-          The first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
-            "elses" will result in only one action being completed.
+          The first condition will not be satisfied. Also, a chain of &quot;ifs&quot;, &quot;else ifs&quot;, and
+            &quot;elses&quot; will result in only one action being completed.
         </p></feedback>
       </choice>
       <choice>
@@ -268,8 +265,8 @@ int main() {
           <p>One! Two! Three!</p>
         </statement>
         <feedback><p>
-          hge first condition will not be satisfied. Also, a chain of "ifs", "else ifs", and
-            "elses" will result in only one action being completed.
+          hge first condition will not be satisfied. Also, a chain of &quot;ifs&quot;, &quot;else ifs&quot;, and
+            &quot;elses&quot; will result in only one action being completed.
         </p></feedback>
       </choice>
     </choices>

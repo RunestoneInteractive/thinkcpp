@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_call-by-value">
+<?xml version="1.0" ?><section xml:id="chapter8_call-by-value">
   <title>Call by value</title>
   <p>When you pass a structure as an argument, remember that the argument and the parameter are not
     the same variable. Instead, there are two variables (one in the caller and one in the callee)
@@ -9,7 +8,7 @@
         <caption>Stack Diagram for structure</caption>
         <image source="Chapter8/Images/8.6stackdiagram.png" width="50%">
             <description><p>
-                "Two boxes, one for 'main' and one for 'printPoint'. 'main' has a variable blank and 'printPoint' has a variable 'p'. Both variables have 'x:3, y:4'"
+                &quot;Two boxes, one for 'main' and one for 'printPoint'. 'main' has a variable blank and 'printPoint' has a variable 'p'. Both variables have 'x:3, y:4'&quot;
             </p></description>
         </image>
   </figure>
@@ -23,9 +22,7 @@
       Take a look at this active code. Notice from the output of the code below how the function <c>addTwo</c>
         changes the instance variables, but not on <c>blank</c> itself.
     </title>
-    <program xml:id="call_by_value_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="call_by_value_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter14_private-functions">
+<?xml version="1.0" ?><section xml:id="chapter14_private-functions">
   <title>Private functions</title>
   <p>In some cases, there are member functions that are used internally by a class, but that should
     not be invoked by client programs. For example, <c>calculatePolar</c> and <c>calculateCartesian</c> are used by the accessor
@@ -45,9 +44,7 @@ public:
       This active code updates <c>calculatePolar</c> and <c>calculateCartesian</c> to be private functions. Notice how we are no
         longer able to call <c>calculateCartesian</c> in main. Feel free to modify the code and experiment around!
     </title>
-    <program xml:id="fourteeneleven_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteeneleven_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -134,11 +131,11 @@ double Complex::getTheta() {
 }
 
 void Complex::printCartesian() {
-  cout &lt;&lt; getReal() &lt;&lt; " + " &lt;&lt; getImag() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getReal() &lt;&lt; &quot; + &quot; &lt;&lt; getImag() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 void Complex::printPolar() {
-  cout &lt;&lt; getMag() &lt;&lt; " e^ " &lt;&lt; getTheta() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getMag() &lt;&lt; &quot; e^ &quot; &lt;&lt; getTheta() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 Complex add (Complex&amp; a, Complex&amp; b) {

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_vector-functions">
+<?xml version="1.0" ?><section xml:id="chapter10_vector-functions">
   <title>Vector functions</title>
   <p>The best feature of a vector is its resizeability. A vector, once declared, can be resized from
     anywhere within the program. Suppose we have a situation where we input numbers from the user
@@ -37,9 +36,7 @@ int main() {
       This active code uses the <c>push_back</c> function to add even numbers less than or equal to 10 to
         the vector <c>values</c>.
     </title>
-    <program xml:id="vector_functions_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="vector_functions_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -63,13 +60,13 @@ int main() {
 
 void print_vec(vector&lt;int&gt; vec) {
    size_t i = 0;
-   cout &lt;&lt; "[";
+   cout &lt;&lt; &quot;[&quot;;
    while (i &lt; vec.size()-1) {
-       cout &lt;&lt; vec[i] &lt;&lt; ",";
+       cout &lt;&lt; vec[i] &lt;&lt; &quot;,&quot;;
        i++;
    }
    cout &lt;&lt; vec[vec.size()-1];
-   cout &lt;&lt; "]" &lt;&lt; endl;
+   cout &lt;&lt; &quot;]&quot; &lt;&lt; endl;
 }
 </tests>
     </program>
@@ -114,10 +111,7 @@ void print_vec(vector&lt;int&gt; vec) {
       </choice>
     </choices>
   </exercise>
-  <exercise label="vector_functions_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="vector_functions_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct the <c>make_even</c> function that loops through <c>vec</c>, adds 1 to any elements that are
         odd, and returns the new vector.</p>
@@ -157,8 +151,7 @@ void print_vec(vector&lt;int&gt; vec) {
           <cline>      }</cline>
         </choice>
       </block>
-      <block order="9"
-             correct="no">
+      <block order="9" correct="no">
         <cline>      else {                         </cline>
         <cline>         vec[i] -= 1;</cline>
         <cline>      }</cline>

@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_composition">
+<?xml version="1.0" ?><section xml:id="chapter2_composition">
   <title>Composition</title>
   <p>So far we have looked at the elements of a programming
-            language&#x2014;variables, expressions, and statements&#x2014;in isolation, without
+            language—variables, expressions, and statements—in isolation, without
             talking about how to combine them.</p>
   <p>One of the most useful features of programming languages is their
             ability to take small building blocks and <term>compose</term> them. For example,
@@ -12,7 +11,7 @@
     <title>
       This program performs multiplication and prints the result.
     </title>
-    <program xml:id="composition_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="composition_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -31,7 +30,7 @@ int main() {
     <title>
       This program performs a calculation involving variables and prints the result at the same time.
     </title>
-    <program xml:id="composition_AC_2_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="composition_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -50,7 +49,7 @@ int main() {
     <title>
       This program performs a calculation involving variables and assigns the result to a variable.
     </title>
-    <program xml:id="composition_AC_3_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="composition_AC_3_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -83,7 +82,7 @@ int main() {
     int cats = 6;
     int pets;
     dogs + cats = pets;
-    cout &lt;&lt; "I have " &lt;&lt; pets &lt;&lt; " pets!";
+    cout &lt;&lt; &quot;I have &quot; &lt;&lt; pets &lt;&lt; &quot; pets!&quot;;
     return 0;
 }</program>
     </statement>
@@ -157,7 +156,7 @@ int main() {
   <exercise label="compos_4">
     <statement>
       <p>Finish the code below so that the velocity is calculated completely on a single line.  Hint: the current velocity results from 1) the initial velocity and 2) the acceleration over a window of time.  Use <c>v0</c> for initial velocity, <c>a</c> for acceleration, and <c>t</c> for time.</p>
-    <program xml:id="compos_4_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="compos_4_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -178,7 +177,7 @@ int main() {
   <exercise label="compos_5">
     <statement>
       <p>Finish the code below so that the volume of a rectangular prism with length <c>l</c>, width <c>w</c>, and height <c>h</c> is calculated on a single line.</p>
-    <program xml:id="compos_5_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="compos_5_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

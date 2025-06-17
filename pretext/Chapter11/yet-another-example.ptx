@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter11_yet-another-example">
+<?xml version="1.0" ?><section xml:id="chapter11_yet-another-example">
   <title>Yet another example</title>
   <p>The original version of <c>convertToSeconds</c> looked like this:</p>
   <program>double convertToSeconds(const Time&amp; time) {
@@ -23,9 +22,7 @@
     <title>
       Feel free to try out the <c>convertToSeconds()</c> function in this active code!
     </title>
-    <program xml:id="yet_another_example_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="yet_another_example_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -49,7 +46,7 @@ int main() {
       <tests>
 
 void Time::print() {
-  cout &lt;&lt; hour &lt;&lt; ":" &lt;&lt; minute &lt;&lt; ":" &lt;&lt; second;
+  cout &lt;&lt; hour &lt;&lt; &quot;:&quot; &lt;&lt; minute &lt;&lt; &quot;:&quot; &lt;&lt; second;
 }
 
 double Time::convertToSeconds() const {

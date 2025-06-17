@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter14_preconditions">
+<?xml version="1.0" ?><section xml:id="chapter14_preconditions">
   <title>Preconditions</title>
   <p>Often when you write a function you make implicit assumptions about the
     parameters you receive. If those assumptions turn out to be true, then
@@ -31,7 +30,7 @@ void Complex::calculateCartesian() {
   <program>void Complex::calculateCartesian() {
     if (polar == false) {
         cout &lt;&lt;
-        "calculateCartesian failed because the polar representation is invalid"
+        &quot;calculateCartesian failed because the polar representation is invalid&quot;
         &lt;&lt; endl;
         exit(1);
     }
@@ -67,9 +66,7 @@ Abort</program>
       This active code uses the updated <c>calculateCartesian</c> with assert statements. Notice how because <c>c1</c>
         is not in polar, the assert statement in <c>calculateCartesian</c> fails and thus we get an error.
     </title>
-    <program xml:id="fourteenten_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteenten_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -155,11 +152,11 @@ double Complex::getTheta() {
 }
 
 void Complex::printCartesian() {
-  cout &lt;&lt; getReal() &lt;&lt; " + " &lt;&lt; getImag() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getReal() &lt;&lt; &quot; + &quot; &lt;&lt; getImag() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 void Complex::printPolar() {
-  cout &lt;&lt; getMag() &lt;&lt; " e^ " &lt;&lt; getTheta() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getMag() &lt;&lt; &quot; e^ &quot; &lt;&lt; getTheta() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 Complex add (Complex&amp; a, Complex&amp; b) {

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_for-loops">
+<?xml version="1.0" ?><section xml:id="chapter10_for-loops">
   <title><c>for</c> loops</title>
   <p>The loops we have written so far have a number of elements in common.
     All of them start by initializing a variable; they have a test, or
@@ -32,9 +31,7 @@ while (i &lt; 4) {
     <title>
       Run this active code, which uses a <c>for</c> loop.
     </title>
-    <program xml:id="for_loops_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="for_loops_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -54,9 +51,7 @@ int main() {
     <title>
       Run this active code, which uses a <c>while</c> loop.
     </title>
-    <program xml:id="for_loops_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="for_loops_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -80,9 +75,7 @@ int main() {
       Run this active code, which uses a <c>for</c> loop with a negative change in the <q>
         INCREMENTOR</q>.
     </title>
-    <program xml:id="for_loops_AC_3_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="for_loops_AC_3_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -158,10 +151,7 @@ int main() {
       </choice>
     </choices>
   </exercise>
-  <exercise label="question10_4_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="question10_4_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct the <c>half_life()</c> function that prints the first num half lives of the initial amount.</p>
     </statement>
@@ -196,8 +186,7 @@ int main() {
       <block order="3">
         <cline><![CDATA[      cout << new_amount << endl;]]></cline>
       </block>
-      <block order="7"
-             correct="no">
+      <block order="7" correct="no">
         <cline>   return new_amount;                         </cline>
       </block>
       <block order="8">

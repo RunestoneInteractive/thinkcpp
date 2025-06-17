@@ -28,7 +28,7 @@
       Observe the output of the code to see how the placement of parentheses can change the
         result of a calculation.
     </title>
-    <program xml:id="order_of_operations_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="order_of_operations_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

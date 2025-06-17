@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter13_subdecks">
+<?xml version="1.0" ?><section xml:id="chapter13_subdecks">
   <title>Subdecks</title>
   <p>How should we represent a hand or some other subset of a full deck? One easy choice is to make
     a <c>Deck</c> object that has fewer than 52 cards.</p>
@@ -29,9 +28,7 @@
       <p>Try writing the <c>findBisect</c> function in the commented section of this active code. If done
         correctly, the program should output that the Seven of Clubs is at index 6 and the King of
         Diamonds is at index -1. If you get stuck, you can reveal the hint below for help.</p>
-    <program xml:id="subdeck_cards_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="subdeck_cards_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -98,27 +95,27 @@ Card::Card(Suit s, Rank r) {
 
 void Card::print() const {
     vector&lt;string&gt; suits(4);
-    suits[0] = "Clubs";
-    suits[1] = "Diamonds";
-    suits[2] = "Hearts";
-    suits[3] = "Spades";
+    suits[0] = &quot;Clubs&quot;;
+    suits[1] = &quot;Diamonds&quot;;
+    suits[2] = &quot;Hearts&quot;;
+    suits[3] = &quot;Spades&quot;;
 
     vector&lt;string&gt; ranks(14);
-    ranks[1] = "Ace";
-    ranks[2] = "2";
-    ranks[3] = "3";
-    ranks[4] = "4";
-    ranks[5] = "5";
-    ranks[6] = "6";
-    ranks[7] = "7";
-    ranks[8] = "8";
-    ranks[9] = "9";
-    ranks[10] = "10";
-    ranks[11] = "Jack";
-    ranks[12] = "Queen";
-    ranks[13] = "King";
+    ranks[1] = &quot;Ace&quot;;
+    ranks[2] = &quot;2&quot;;
+    ranks[3] = &quot;3&quot;;
+    ranks[4] = &quot;4&quot;;
+    ranks[5] = &quot;5&quot;;
+    ranks[6] = &quot;6&quot;;
+    ranks[7] = &quot;7&quot;;
+    ranks[8] = &quot;8&quot;;
+    ranks[9] = &quot;9&quot;;
+    ranks[10] = &quot;10&quot;;
+    ranks[11] = &quot;Jack&quot;;
+    ranks[12] = &quot;Queen&quot;;
+    ranks[13] = &quot;King&quot;;
 
-    cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+    cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 
 bool Card::isGreater(const Card&amp; c2) const {
@@ -207,10 +204,7 @@ Deck Deck::subdeck(int low, int high) const {
     </program></statement>
     <hint>
       <title>findBisect</title>
-      <activity label="subdecks_help_1"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="subdecks_help_1" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for this version of the findBisect function.
             findBisect should take a subdeck and a card as parameters and

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_fill-in-functions">
+<?xml version="1.0" ?><section xml:id="chapter9_fill-in-functions">
   <title>Fill-in functions</title>
   <p>Occasionally you will see functions like <c>addTime</c> written with a different interface (different
     arguments and return values). Instead of creating a new object every time <c>addTime</c> is called, we
@@ -29,9 +28,7 @@
       This active code uses the fill-in version of the <c>addTime</c> function. Feel free to modify the
         code!
     </title>
-    <program xml:id="fillin_functions_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fillin_functions_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

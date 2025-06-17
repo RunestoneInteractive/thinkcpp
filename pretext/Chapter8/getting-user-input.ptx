@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_getting-user-input">
+<?xml version="1.0" ?><section xml:id="chapter8_getting-user-input">
   <title>Getting user input</title>
   <p>The programs we have written so far are pretty predictable; they do the
     same thing every time they run. Most of the time, though, we want
@@ -27,9 +26,7 @@ cin &gt;&gt; x;</program>
       This active code is an example of what getting input from the
         user might look like. Feel free to change 42 to other values!
     </title>
-    <program xml:id="getting_user_input_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="getting_user_input_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -60,7 +57,7 @@ int main() {
   <p><c>cin</c> can also be used to input a <c>string</c>:</p>
   <program>string name;
 
-cout &lt;&lt; "What is your name? ";
+cout &lt;&lt; &quot;What is your name? &quot;;
 cin &gt;&gt; name;
 cout &lt;&lt; name &lt;&lt; endl;</program>
   <p>Unfortunately, this statement only takes the first word of input, and
@@ -71,7 +68,7 @@ cout &lt;&lt; name &lt;&lt; endl;</program>
   <p>Instead, I use a function in the header <c>string</c> called <c>getline</c>.</p>
   <program>string name;
 
-cout &lt;&lt; "What is your name? ";
+cout &lt;&lt; &quot;What is your name? &quot;;
 getline(cin, name);
 cout &lt;&lt; name &lt;&lt; endl;</program>
   <p>The first argument to <c>getline</c> is <c>cin</c>, which is where the input is coming from. The second
@@ -83,9 +80,7 @@ cout &lt;&lt; name &lt;&lt; endl;</program>
       This active code is an example of what getting input from the user might look like using <c>getline</c>.
         Feel free to change <q>Harry Potter</q> to other values!
     </title>
-    <program xml:id="getting_user_input_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="getting_user_input_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>

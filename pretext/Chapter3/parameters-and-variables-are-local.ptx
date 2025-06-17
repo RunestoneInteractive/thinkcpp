@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter3_parameters-and-variables-are-local">
+<?xml version="1.0" ?><section xml:id="chapter3_parameters-and-variables-are-local">
   <title>Parameters and Variables are Local</title>
   <p>Parameters and variables only exist inside their own functions. In the code below, within the confines of <c>main</c>,
     there is no such thing as <c>phil</c>. If you try to use it, the compiler will complain. Similarly,
@@ -7,12 +6,10 @@
   <listing xml:id="locals_AC_1" label="locals_AC_1">
     <title>
       The following code will show the output of the printTwice function.
-        Notice that it is the argument &#x2018;b' that is outputted, not the
-        variable &#x2018;phil'.
+        Notice that it is the argument ‘b' that is outputted, not the
+        variable ‘phil'.
     </title>
-    <program xml:id="locals_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="locals_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -56,13 +53,13 @@ int main() {
     <statement>
       <p>How many local variables and parameters does <c>main</c> have?</p>
       <program>void prprintHelloName(string name) {
-  cout &lt;&lt; "Hello " &lt;&lt; name &lt;&lt; "!";
+  cout &lt;&lt; &quot;Hello &quot; &lt;&lt; name &lt;&lt; &quot;!&quot;;
 }
 
 int main() {
-  string name1 = "Phil";
+  string name1 = &quot;Phil&quot;;
   printHelloName(name1);
-  string name2 = "Joe";
+  string name2 = &quot;Joe&quot;;
   printHelloName(name2);
   return 0;
 }</program>
@@ -106,13 +103,13 @@ int main() {
     <statement>
       <p>How many local variables and parameters does <c>printHelloName</c> have?</p>
       <program>void prprintHelloName(string name) {
-  cout &lt;&lt; "Hello " &lt;&lt; name &lt;&lt; "!";
+  cout &lt;&lt; &quot;Hello &quot; &lt;&lt; name &lt;&lt; &quot;!&quot;;
 }
 
 int main() {
-  string name1 = "Phil";
+  string name1 = &quot;Phil&quot;;
   printHelloName(name1);
-  string name2 = "Joe";
+  string name2 = &quot;Joe&quot;;
   printHelloName(name2);
   return 0;
 }</program>
@@ -173,12 +170,12 @@ int main() {
     <statement>
       <p>How many calls to <c>hi</c> are made during the exectuion of the entire program?</p>
       <program>void hi() {
-  cout &lt;&lt; "hiii !"&lt;&lt;endl;
+  cout &lt;&lt; &quot;hiii !&quot;&lt;&lt;endl;
 }
 
 void printGreeting() {
   hi();
-  cout&lt;&lt;"how are you doing today. "&lt;&lt;endl;
+  cout&lt;&lt;&quot;how are you doing today. &quot;&lt;&lt;endl;
   hi();
 }
 

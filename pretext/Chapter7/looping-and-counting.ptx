@@ -1,14 +1,11 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_looping-and-counting-loopcount">
+<?xml version="1.0" ?><section xml:id="chapter7_looping-and-counting-loopcount">
   <title>Looping and counting</title>
   <listing label="looping_and_counting_AC_1">
     <title>
       This active code counts the number of times the letter <c>'a'</c> appears in a string <c>fruit</c>
         .
     </title>
-    <program xml:id="looping_and_counting_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="looping_and_counting_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -74,10 +71,7 @@ while (x < 0) {
       </choice>
     </choices>
   </exercise>
-  <exercise label="looping_counting_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="looping_counting_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>As an exercise, encapsulate this code in a function named <c>countLetters</c>, and generalize it so
         that it accepts the string and the letter as arguments. In the function, declare <c>length</c>, <c>count</c>,
@@ -115,8 +109,8 @@ while (x < 0) {
         <cline>int main() {</cline>
       </block>
       <block order="8">
-        <cline> string city = "New Baltimore";</cline>
-        <cline> char letter = "e";</cline>
+        <cline> string city = &quot;New Baltimore&quot;;</cline>
+        <cline> char letter = &quot;e&quot;;</cline>
       </block>
       <block order="3">
         <cline> <![CDATA[cout << countLetters(city, letter);]]></cline>
@@ -124,18 +118,14 @@ while (x < 0) {
       </block>
     </blocks>
   </exercise>
-  <exercise label="looping_counting_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="looping_counting_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>The following is the correct code for printing the even numbers from 0 to 10, but it also
         includes some extra code that you won't need. Drag the needed blocks from the left and put
         them in the correct order on the right.</p>
     </statement>
     <blocks>
-      <block order="4"
-             correct="no">
+      <block order="4" correct="no">
         <cline>x = x + 1; </cline>
       </block>
       <block order="5">
@@ -144,8 +134,7 @@ while (x < 0) {
       <block order="3">
         <cline>while (x &lt;= 10) {</cline>
       </block>
-      <block order="1"
-             correct="no">
+      <block order="1" correct="no">
         <cline>while (x &lt; 10) { </cline>
       </block>
       <block order="2">

@@ -1,19 +1,18 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_printtime">
+<?xml version="1.0" ?><section xml:id="chapter9_printtime">
   <title>
     <c>printTime</c>
   </title>
   <p>When we define a new type it is a good idea to write function that
             displays the instance variables in a human-readable form, which you attempted on the page before. Your solution should have looked something like this.</p>
   <program>void printTime(Time&amp; t) {
-  cout &lt;&lt; t.hour &lt;&lt; ":" &lt;&lt; t.minute &lt;&lt; ":" &lt;&lt; t.second &lt;&lt; endl;
+  cout &lt;&lt; t.hour &lt;&lt; &quot;:&quot; &lt;&lt; t.minute &lt;&lt; &quot;:&quot; &lt;&lt; t.second &lt;&lt; endl;
 }</program>
   <listing label="printTime_AC_1">
     <title>
       In this active code, the output of this function, if we pass <c>time</c> an argument, is
             <c>11:59:3.14159</c>.
     </title>
-    <program xml:id="printTime_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="printTime_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_vector-of-random-numbers">
+<?xml version="1.0" ?><section xml:id="chapter10_vector-of-random-numbers">
   <title>Vector of random numbers</title>
   <p>The first step is to generate a large number of random values and store them in a vector. By <q>large
     number,</q> of course, I mean 20. It's always a good idea to start with a manageable number, to
@@ -17,7 +16,7 @@
     test this function, it is convenient to have a function that outputs the contents of a vector.</p>
   <program>void printVector(const vector&lt;int&gt;&amp; vec) {
   for (size_t i = 0; i &lt; vec.size(); i++) {
-    cout &lt;&lt; vec[i] &lt;&lt; " ";
+    cout &lt;&lt; vec[i] &lt;&lt; &quot; &quot;;
   }
 }</program>
   <p>Notice that it is legal to pass <c>vector</c>s by reference. In fact it is quite common, since it
@@ -37,9 +36,7 @@ printVector(vector);</program>
     <title>
       Try running this active code.
     </title>
-    <program xml:id="vector_of_rand_nums_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="vector_of_rand_nums_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -68,14 +65,14 @@ vector&lt;int&gt; randomVector(int n, int upperBound) {
 
 void printVector(const vector&lt;int&gt;&amp; vec) {
    for (size_t i = 0; i &lt; vec.size(); i++) {
-      cout &lt;&lt; vec[i] &lt;&lt; " ";
+      cout &lt;&lt; vec[i] &lt;&lt; &quot; &quot;;
    }
 }
 </tests>
     </program>
   </listing>
   <p>If these numbers are really random, we expect each digit to appear the
-    same number of times&#x2014;twice each. In fact, the number 6 appears five
+    same number of times—twice each. In fact, the number 6 appears five
     times, and the numbers 4 and 8 never appear at all.</p>
   <p>Do these results mean the values are not really uniform? It's hard to
     tell. With so few values, the chances are slim that we would get exactly
@@ -86,9 +83,7 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
   <exercise label="vector_of_rand_nums_1">
     <statement>
       <p>How should we declare the parameter, <term>vector</term>, if we don't intend to make any
-        changes to it? <fillin mode="string"
-                case="insensitive"
-                answer="CONST"/>
+        changes to it? <fillin mode="string" case="insensitive" answer="CONST"/>
       </p>
     </statement>
     <evaluation>

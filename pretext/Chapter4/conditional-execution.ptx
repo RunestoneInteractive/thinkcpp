@@ -26,7 +26,7 @@ x &lt;= y               // x is less than or equal to y</program>
     <title>
       This program performs a calculation involving variables and assigns the result to a variable.
     </title>
-    <program xml:id="composition_AC_31_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="composition_AC_31_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_keywords">
+<?xml version="1.0" ?><section xml:id="chapter2_keywords">
   <title>Keywords</title>
   <p>A few sections ago, I said that you can make up any name you want for your variables, but
     that's not quite true. There are certain words that are reserved in C++ because they are used by
@@ -20,7 +19,7 @@
   <note>
     <p>Case matters! You can name a <c>string</c> variable <c>String</c> without an issue because C++ does not
       consider <c>String</c> to be the same as keyword <c>string</c>. Also, a anything written in quotes, for
-      example <c>"string"</c> is not considered a keyword in C++, even if it is spelt the same.</p>
+      example <c>&quot;string&quot;</c> is not considered a keyword in C++, even if it is spelt the same.</p>
   </note>
   <exercise label="keywords_1">
     <statement>
@@ -95,7 +94,7 @@
       <cline>    <area correct="yes">double</area><area correct="no">x</area> = 1.0;</cline>
       <cline>    <area correct="yes">int</area><area correct="no">y</area> = <area correct="no">x</area> + 5;</cline>
       <cline>    <area correct="yes">bool</area><area correct="no">Bool</area>;</cline>
-      <cline>    <area correct="yes">string</area><area correct="no">s</area> = <area correct="no">"void"</area>;</cline>
+      <cline>    <area correct="yes">string</area><area correct="no">s</area> = <area correct="no">&quot;void&quot;</area>;</cline>
       <cline>    <area correct="yes">if</area> (<area correct="no">y</area> &gt; <area correct="no">x</area>) {</cline>
       <cline>        <area correct="no">Bool</area> = <area correct="yes">true</area>;</cline>
       <cline>    }</cline>
@@ -107,9 +106,7 @@
     <statement>
       <p>Fix the code below so that it runs without errors and produces the intended output. Hint: you might need to change the names
         of some variables so they do not conflict with C++ keywords.</p>
-    <program xml:id="keywords_4_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="keywords_4_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

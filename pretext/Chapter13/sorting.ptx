@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter13_sorting">
+<?xml version="1.0" ?><section xml:id="chapter13_sorting">
   <title>Sorting</title>
   <p>Now that we have messed up the deck, we need a way to put it back in
     order. Ironically, there is an algorithm for sorting that is very
@@ -27,11 +26,7 @@
   <p>Once again, I am going to leave the implementation up to the reader.</p>
   <exercise label="sorting_deck_1">
     <statement>
-      <p>If I'm writing a long, complex function with many steps, a(n) <fillin mode="string"
-                case="insensitive"
-                answer="helper"/> <fillin mode="string"
-                case="insensitive"
-                answer="function"/>
+      <p>If I'm writing a long, complex function with many steps, a(n) <fillin mode="string" case="insensitive" answer="helper"/> <fillin mode="string" case="insensitive" answer="function"/>
         would help me condense the function's code and make it easier to understand. </p>
     </statement>
     <evaluation>
@@ -53,9 +48,7 @@
         done with <c>findLowestCard</c>, try using it along with <c>swapCards</c> to implement the <c>Deck</c> member function <c>sortDeck</c>.
         If done correctly, the program should output a sorted deck of cards. If you get stuck, you
         can reveal the hints below for help.</p>
-    <program xml:id="sorting_deck_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="sorting_deck_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -121,27 +114,27 @@ Card::Card(Suit s, Rank r) {
 
 void Card::print() const {
     vector&lt;string&gt; suits(4);
-    suits[0] = "Clubs";
-    suits[1] = "Diamonds";
-    suits[2] = "Hearts";
-    suits[3] = "Spades";
+    suits[0] = &quot;Clubs&quot;;
+    suits[1] = &quot;Diamonds&quot;;
+    suits[2] = &quot;Hearts&quot;;
+    suits[3] = &quot;Spades&quot;;
 
     vector&lt;string&gt; ranks(14);
-    ranks[1] = "Ace";
-    ranks[2] = "2";
-    ranks[3] = "3";
-    ranks[4] = "4";
-    ranks[5] = "5";
-    ranks[6] = "6";
-    ranks[7] = "7";
-    ranks[8] = "8";
-    ranks[9] = "9";
-    ranks[10] = "10";
-    ranks[11] = "Jack";
-    ranks[12] = "Queen";
-    ranks[13] = "King";
+    ranks[1] = &quot;Ace&quot;;
+    ranks[2] = &quot;2&quot;;
+    ranks[3] = &quot;3&quot;;
+    ranks[4] = &quot;4&quot;;
+    ranks[5] = &quot;5&quot;;
+    ranks[6] = &quot;6&quot;;
+    ranks[7] = &quot;7&quot;;
+    ranks[8] = &quot;8&quot;;
+    ranks[9] = &quot;9&quot;;
+    ranks[10] = &quot;10&quot;;
+    ranks[11] = &quot;Jack&quot;;
+    ranks[12] = &quot;Queen&quot;;
+    ranks[13] = &quot;King&quot;;
 
-    cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+    cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 
 bool Card::isGreater(const Card&amp; c2) const {
@@ -195,10 +188,7 @@ void Deck::shuffleDeck() {
     </program></statement>
     <hint>
       <title>findLowestCard</title>
-      <activity label="sorting_help_1"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="sorting_help_1" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the findLowestCard function. findLowestCard
             should take an index as a parameter and return an int.</p>
@@ -251,10 +241,7 @@ void Deck::shuffleDeck() {
     </hint>
     <hint>
       <title>sortDeck</title>
-      <activity label="sorting_help_2"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="sorting_help_2" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the sortDeck function. We'll use findLowestCard
             and swapCards in our implementation of sortDeck.</p>

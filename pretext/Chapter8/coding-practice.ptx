@@ -1,12 +1,11 @@
-<exercises xml:id="chapter8_coding-practice">
+<?xml version="1.0" ?><exercises xml:id="chapter8_coding-practice">
   <title>Coding Practice</title>
 
   <exercise label="cp_8_1">
     <statement>
       <p>Write the function <c>rectangleInfo</c> which prompts the user for the width and height of a rectangle.
         Then <c>rectangleInfo</c> prints out the area and perimeter of the rectangle.</p>
-    <program interactive="activecode"
-             xml:id="cp_8_AC_1q">
+    <program interactive="activecode" label="cp_8_AC_1q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -31,10 +30,10 @@ using namespace std;
 
 void rectangleInfo() {
     int height, width;
-    cout &lt;&lt; "Please enter the height and width of a rectangle separated by spaces: ";
+    cout &lt;&lt; &quot;Please enter the height and width of a rectangle separated by spaces: &quot;;
     cin &gt;&gt; height &gt;&gt; width;
-    cout &lt;&lt; "The area of the rectangle is " &lt;&lt; height * width &lt;&lt; endl;
-    cout &lt;&lt; "The perimeter of the rectangle is " &lt;&lt; 2 * (height + width) &lt;&lt; endl;
+    cout &lt;&lt; &quot;The area of the rectangle is &quot; &lt;&lt; height * width &lt;&lt; endl;
+    cout &lt;&lt; &quot;The perimeter of the rectangle is &quot; &lt;&lt; 2 * (height + width) &lt;&lt; endl;
 }
 
 int main() {
@@ -48,11 +47,10 @@ int main() {
   <exercise label="cp_8_2">
     <statement>
       <p>Write a simple function called <c>greetUser</c> which prompts the user for their full name. Then the
-        function outputs &#8220;Hello <c>fullName</c>!&#8221;. Check the hint below for help with the
+        function outputs “Hello <c>fullName</c>!”. Check the hint below for help with the
         construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_8_AC_2q_editor">
+    <program interactive="activecode" label="cp_8_AC_2q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -70,7 +68,7 @@ int main() {
       <activity label="cp_8_AC_2q_pp">
         <statement>
           <p>Write a simple function called <c>greetUser</c> which prompts the user for their full name. Then
-            the function outputs &#8220;Hello <c>fullName</c>!&#8221;. Use the lines to construct the code,
+            the function outputs “Hello <c>fullName</c>!”. Use the lines to construct the code,
             then go back to complete the Activecode.</p>
         </statement>
         <blocks>
@@ -80,12 +78,11 @@ int main() {
           <block order="7">
             <cline>    string fullName;</cline>
           </block>
-          <block order="5"
-                 correct="no">
-            <cline>    string fullName = "Captain America"; </cline>
+          <block order="5" correct="no">
+            <cline>    string fullName = &quot;Captain America&quot;; </cline>
           </block>
           <block order="3">
-            <cline>    cout &lt;&lt; "Please enter your full name!" &lt;&lt; endl;</cline>
+            <cline>    cout &lt;&lt; &quot;Please enter your full name!&quot; &lt;&lt; endl;</cline>
           </block>
           <block order="1">
             <choice correct="yes">
@@ -96,7 +93,7 @@ int main() {
             </choice>
           </block>
           <block order="8">
-            <cline>    cout &lt;&lt; "Hello " &lt;&lt; fullName &lt;&lt; "!" &lt;&lt; endl;</cline>
+            <cline>    cout &lt;&lt; &quot;Hello &quot; &lt;&lt; fullName &lt;&lt; &quot;!&quot; &lt;&lt; endl;</cline>
           </block>
           <block order="6">
             <cline>}</cline>
@@ -111,10 +108,9 @@ int main() {
       <p>In the not so distant future, robots have replaced humans to do any kind of imaginable work
         or chore. Define the <c>Robot</c> structure, which has instance variables <c>string name</c>, <c>string model</c>, <c>int serialNumber</c>
         , <c>int batteryLevelPercentage</c>, and <c>string task</c> in that order. Then write the <c>printRobotData</c> function, which takes a <c>Robot</c>
-        as a parameter and prints out the robot&#8217;s data in the following format: <c>name</c> (<c>model</c> <c>serialNumber</c>)
-        has <c>batteryLevelPercentage</c> percent battery and is currently executing the task &#8220;<c>task</c>&#8221;.</p>
-    <program interactive="activecode"
-             xml:id="cp_8_AC_3q">
+        as a parameter and prints out the robot’s data in the following format: <c>name</c> (<c>model</c> <c>serialNumber</c>)
+        has <c>batteryLevelPercentage</c> percent battery and is currently executing the task “<c>task</c>”.</p>
+    <program interactive="activecode" label="cp_8_AC_3q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -124,11 +120,11 @@ using namespace std;
 // Write your code for the function printRobotData here.
 
 int main() {
-    Robot rob = { "Rob", "XLV", 9800, 45, "washing dishes" };
-    cout &lt;&lt; "Your output:" &lt;&lt; endl;
+    Robot rob = { &quot;Rob&quot;, &quot;XLV&quot;, 9800, 45, &quot;washing dishes&quot; };
+    cout &lt;&lt; &quot;Your output:&quot; &lt;&lt; endl;
     printRobotData (rob);
-    cout &lt;&lt; "Correct output:" &lt;&lt; endl;
-    cout &lt;&lt; "Rob (XLV 9800) has 45 percent battery and is currently executing the task \"washing dishes\"";
+    cout &lt;&lt; &quot;Correct output:&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Rob (XLV 9800) has 45 percent battery and is currently executing the task \&quot;washing dishes\&quot;&quot;;
 }
         </code>
     </program></statement>
@@ -149,18 +145,18 @@ struct Robot {
 };
 
 void printRobotData (Robot r) {
-     cout &lt;&lt; r.name &lt;&lt; " (" &lt;&lt; r.model &lt;&lt; " " &lt;&lt; r.serialNumber
-          &lt;&lt; ") has " &lt;&lt; r.batteryLevelPercentage
-          &lt;&lt; " percent battery and is currently executing the task \""
-          &lt;&lt; r.task &lt;&lt; "\"" &lt;&lt; endl;
+     cout &lt;&lt; r.name &lt;&lt; &quot; (&quot; &lt;&lt; r.model &lt;&lt; &quot; &quot; &lt;&lt; r.serialNumber
+          &lt;&lt; &quot;) has &quot; &lt;&lt; r.batteryLevelPercentage
+          &lt;&lt; &quot; percent battery and is currently executing the task \&quot;&quot;
+          &lt;&lt; r.task &lt;&lt; &quot;\&quot;&quot; &lt;&lt; endl;
 }
 
 int main() {
-    Robot rob = { "Rob", "XLV", 9800, 45, "washing dishes" };
-    cout &lt;&lt; "Your output:" &lt;&lt; endl;
+    Robot rob = { &quot;Rob&quot;, &quot;XLV&quot;, 9800, 45, &quot;washing dishes&quot; };
+    cout &lt;&lt; &quot;Your output:&quot; &lt;&lt; endl;
     printRobotData (rob);
-    cout &lt;&lt; "Correct output:" &lt;&lt; endl;
-    cout &lt;&lt; "Rob (XLV 9800) has 45 percent battery and is currently executing the task \"washing dishes\"";
+    cout &lt;&lt; &quot;Correct output:&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Rob (XLV 9800) has 45 percent battery and is currently executing the task \&quot;washing dishes\&quot;&quot;;
 }
         </code>
     </program>
@@ -171,10 +167,9 @@ int main() {
     <statement>
       <p>Robots will naturally deplete their charge as they carry out tasks. Write a function called <c>chargeRobot</c>
         which takes a <c>Robot</c> as a parameter and charges the robot to 100 percent. Then output the
-        statement &#8220;Robot <c>name</c> is fully charged!&#8221;. Check the hint below for help with the construction of the code.</p>
+        statement “Robot <c>name</c> is fully charged!”. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_8_AC_4q_editor">
+    <program interactive="activecode" label="cp_8_AC_4q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -192,20 +187,20 @@ void printRobotData (Robot r);
 // Write your code for the function chargeRobot here.
 
 int main() {
-    Robot bob = { "Bob", "MKZ", 143, 65, "sweeping floors" };
+    Robot bob = { &quot;Bob&quot;, &quot;MKZ&quot;, 143, 65, &quot;sweeping floors&quot; };
     chargeRobot(bob);
-    cout &lt;&lt; "Your output:" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Your output:&quot; &lt;&lt; endl;
     printRobotData (bob);
-    cout &lt;&lt; "Correct output:" &lt;&lt; endl;
-    cout &lt;&lt; "Bob (MKZ 143) has 100 percent battery and is currently executing the task \"sweeping floors\"";
+    cout &lt;&lt; &quot;Correct output:&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Bob (MKZ 143) has 100 percent battery and is currently executing the task \&quot;sweeping floors\&quot;&quot;;
 }
         </code>
 <tests>
 void printRobotData (Robot r) {
-    cout &lt;&lt; r.name &lt;&lt; " (" &lt;&lt; r.model &lt;&lt; " " &lt;&lt; r.serialNumber
-            &lt;&lt; ") has " &lt;&lt; r.batteryLevelPercentage
-            &lt;&lt; " percent battery and is currently executing the task \""
-            &lt;&lt; r.task &lt;&lt; "\"" &lt;&lt; endl;
+    cout &lt;&lt; r.name &lt;&lt; &quot; (&quot; &lt;&lt; r.model &lt;&lt; &quot; &quot; &lt;&lt; r.serialNumber
+            &lt;&lt; &quot;) has &quot; &lt;&lt; r.batteryLevelPercentage
+            &lt;&lt; &quot; percent battery and is currently executing the task \&quot;&quot;
+            &lt;&lt; r.task &lt;&lt; &quot;\&quot;&quot; &lt;&lt; endl;
 }
 </tests>
 
@@ -215,7 +210,7 @@ void printRobotData (Robot r) {
         <statement>
           <p>Robots will naturally deplete their charge as they carry out tasks. Write a function
             called <c>chargeRobot</c> which takes a <c>Robot</c> as a parameter and charges the robot to 100
-            percent. Then output the statement &#8220;Robot <c>name</c> is fully charged!&#8221;. Use
+            percent. Then output the statement “Robot <c>name</c> is fully charged!”. Use
             the lines to construct the code, then go back to complete the Activecode.</p>
         </statement>
         <blocks>
@@ -230,12 +225,11 @@ void printRobotData (Robot r) {
           <block order="5">
             <cline>    r.batteryLevelPercentage = 100;</cline>
           </block>
-          <block order="4"
-                 correct="no">
+          <block order="4" correct="no">
             <cline>    r.batteryLevelPercentage = 100%; </cline>
           </block>
           <block order="1">
-            <cline>    cout &lt;&lt; "Robot " &lt;&lt; r.name &lt;&lt; " is fully charged!" &lt;&lt; endl;</cline>
+            <cline>    cout &lt;&lt; &quot;Robot &quot; &lt;&lt; r.name &lt;&lt; &quot; is fully charged!&quot; &lt;&lt; endl;</cline>
           </block>
           <block order="2">
             <cline>}</cline>
@@ -247,11 +241,10 @@ void printRobotData (Robot r) {
 
   <exercise label="cp_8_5">
     <statement>
-      <p>In case a robot malfunctions, let&#8217;s write the function <c>resetRobot</c>. <c>resetRobot</c> takes a <c>Robot</c>
-        as a parameter and resets its name to &#8220;EnterAName&#8221;, recharges the battery to 100
-        percent, and resets the task to &#8220;Idle&#8221;.</p>
-    <program interactive="activecode"
-             xml:id="cp_8_AC_5q">
+      <p>In case a robot malfunctions, let’s write the function <c>resetRobot</c>. <c>resetRobot</c> takes a <c>Robot</c>
+        as a parameter and resets its name to “EnterAName”, recharges the battery to 100
+        percent, and resets the task to “Idle”.</p>
+    <program interactive="activecode" label="cp_8_AC_5q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -269,20 +262,20 @@ void printRobotData (Robot r);
 // Write your code for the function resetRobot here.
 
 int main() {
-    Robot a = { "Bot", "RSO", 1985, 32, "gardening" };
+    Robot a = { &quot;Bot&quot;, &quot;RSO&quot;, 1985, 32, &quot;gardening&quot; };
     resetRobot(a);
-    cout &lt;&lt; "Your output:" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Your output:&quot; &lt;&lt; endl;
     printRobotData (a);
-    cout &lt;&lt; "Correct output:" &lt;&lt; endl;
-    cout &lt;&lt; "EnterAName (RSO 1985) has 100 percent battery and is currently executing the task \"Idle\"";
+    cout &lt;&lt; &quot;Correct output:&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;EnterAName (RSO 1985) has 100 percent battery and is currently executing the task \&quot;Idle\&quot;&quot;;
 }
         </code>
 <tests>
 void printRobotData (Robot r) {
-     cout &lt;&lt; r.name &lt;&lt; " (" &lt;&lt; r.model &lt;&lt; " " &lt;&lt; r.serialNumber
-          &lt;&lt; ") has " &lt;&lt; r.batteryLevelPercentage
-          &lt;&lt; " percent battery and is currently executing the task \""
-          &lt;&lt; r.task &lt;&lt; "\"" &lt;&lt; endl;
+     cout &lt;&lt; r.name &lt;&lt; &quot; (&quot; &lt;&lt; r.model &lt;&lt; &quot; &quot; &lt;&lt; r.serialNumber
+          &lt;&lt; &quot;) has &quot; &lt;&lt; r.batteryLevelPercentage
+          &lt;&lt; &quot; percent battery and is currently executing the task \&quot;&quot;
+          &lt;&lt; r.task &lt;&lt; &quot;\&quot;&quot; &lt;&lt; endl;
 }
 </tests>
 
@@ -306,25 +299,25 @@ struct Robot {
 void printRobotData (Robot r);
 
 void resetRobot(Robot&amp; r) {
-    Robot reset = { "EnterAName", r.model, r.serialNumber, 100, "Idle" };
+    Robot reset = { &quot;EnterAName&quot;, r.model, r.serialNumber, 100, &quot;Idle&quot; };
     r = reset;
 }
 
 int main() {
-    Robot a = { "Bot", "RSO", 1985, 32, "gardening" };
+    Robot a = { &quot;Bot&quot;, &quot;RSO&quot;, 1985, 32, &quot;gardening&quot; };
     resetRobot(a);
-    cout &lt;&lt; "Your output:" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Your output:&quot; &lt;&lt; endl;
     printRobotData (a);
-    cout &lt;&lt; "Correct output:" &lt;&lt; endl;
-    cout &lt;&lt; "EnterAName (RSO 1985) has 100 percent battery and is currently executing the task \"Idle\"";
+    cout &lt;&lt; &quot;Correct output:&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;EnterAName (RSO 1985) has 100 percent battery and is currently executing the task \&quot;Idle\&quot;&quot;;
 }
         </code>
 <tests>
 void printRobotData (Robot r) {
-     cout &lt;&lt; r.name &lt;&lt; " (" &lt;&lt; r.model &lt;&lt; " " &lt;&lt; r.serialNumber
-          &lt;&lt; ") has " &lt;&lt; r.batteryLevelPercentage
-          &lt;&lt; " percent battery and is currently executing the task \""
-          &lt;&lt; r.task &lt;&lt; "\"" &lt;&lt; endl;
+     cout &lt;&lt; r.name &lt;&lt; &quot; (&quot; &lt;&lt; r.model &lt;&lt; &quot; &quot; &lt;&lt; r.serialNumber
+          &lt;&lt; &quot;) has &quot; &lt;&lt; r.batteryLevelPercentage
+          &lt;&lt; &quot; percent battery and is currently executing the task \&quot;&quot;
+          &lt;&lt; r.task &lt;&lt; &quot;\&quot;&quot; &lt;&lt; endl;
 }
 </tests>
 
@@ -336,11 +329,10 @@ void printRobotData (Robot r) {
     <statement>
       <p>Write the <c>Pokemon</c> structure, which has instance variables <c>string pokeName</c>, <c>string type</c>, <c>int level</c>, and <c>int healthPercentage</c>
         in that order. Next, write the function <c>printPokeInfo</c>, which takes a <c>Pokemon</c> as a parameter and
-        outputs the Pokemon&#8217;s info in the following format: <c>pokeName</c> (Lv. <c>level</c>, <c>healthPercentage</c>%
+        outputs the Pokemon’s info in the following format: <c>pokeName</c> (Lv. <c>level</c>, <c>healthPercentage</c>%
         HP). Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_8_AC_6q_editor">
+    <program interactive="activecode" label="cp_8_AC_6q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -350,11 +342,11 @@ using namespace std;
 // Write your code for the function printPokeInfo here.
 
 int main() {
-    Pokemon magikarp = { "Magikarp", "Water", 12, 100 };
-    cout &lt;&lt; "Your output:" &lt;&lt; endl;
+    Pokemon magikarp = { &quot;Magikarp&quot;, &quot;Water&quot;, 12, 100 };
+    cout &lt;&lt; &quot;Your output:&quot; &lt;&lt; endl;
     printPokeInfo(magikarp);
-    cout &lt;&lt; "Correct output:" &lt;&lt; endl;
-    cout &lt;&lt; "Magikarp (Lv. 12, 100% HP)";
+    cout &lt;&lt; &quot;Correct output:&quot; &lt;&lt; endl;
+    cout &lt;&lt; &quot;Magikarp (Lv. 12, 100% HP)&quot;;
 }
         </code>
     </program></statement>
@@ -363,7 +355,7 @@ int main() {
         <statement>
           <p>Write the <c>Pokemon</c> structure, which has instance variables <c>string pokeName</c>, <c>string type</c>, <c>int level</c>,
             and <c>int healthPercentage</c> in that order. Next, write the function <c>printPokeInfo</c>, which takes a <c>Pokemon</c> as a
-            parameter and outputs the Pokemon&#8217;s info in the following format: <c>pokeName</c> (Lv. <c>level</c>
+            parameter and outputs the Pokemon’s info in the following format: <c>pokeName</c> (Lv. <c>level</c>
             , <c>healthPercentage</c>% HP). Use the lines to construct the code, then go back to complete the
             Activecode.</p>
         </statement>
@@ -397,7 +389,7 @@ int main() {
             </choice>
           </block>
           <block order="3">
-            <cline>    cout &lt;&lt; p.pokeName &lt;&lt; " (Lv. " &lt;&lt; p.level &lt;&lt; ", " &lt;&lt; p.healthPercentage &lt;&lt; "% HP)" &lt;&lt; endl;</cline>
+            <cline>    cout &lt;&lt; p.pokeName &lt;&lt; &quot; (Lv. &quot; &lt;&lt; p.level &lt;&lt; &quot;, &quot; &lt;&lt; p.healthPercentage &lt;&lt; &quot;% HP)&quot; &lt;&lt; endl;</cline>
           </block>
           <block order="5">
             <cline>}</cline>
@@ -411,10 +403,9 @@ int main() {
     <statement>
       <p>Now write the <c>Trainer</c> structure, which has instance variables <c>string trainerName</c>, <c>char gender</c>, <c>int numBadges</c>,
         and six <c>Pokemon</c> objects named <c>first</c>, <c>second</c>, etc., in that order. Then, write the
-        function <c>printTrainerInfo</c>, which takes a <c>Trainer</c> as a parameter and outputs the trainer&#8217;s info.
+        function <c>printTrainerInfo</c>, which takes a <c>Trainer</c> as a parameter and outputs the trainer’s info.
         For example, the code below should print:</p>
-    <program interactive="activecode"
-             xml:id="cp_8_AC_7q">
+    <program interactive="activecode" label="cp_8_AC_7q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -433,26 +424,26 @@ void printPokeInfo(Pokemon p);
 // Write your code for the function printTrainerInfo here.
 
 int main() {
-    Pokemon pikachu = { "Pikachu", "Electric", 81, 100 };
-    Pokemon espeon = { "Espeon", "Psychic", 72, 100 };
-    Pokemon snorlax = { "Snorlax", "Normal", 75, 100 };
-    Pokemon venusaur = { "Venusaur", "Grass &amp; Poison", 77, 100 };
-    Pokemon charizard = { "Charizard", "Fire &amp; Flying", 77, 100 };
-    Pokemon blastoise = { "Blastoise", "Water", 77, 100 };
-    Trainer red = { "Red", 'M', 8, pikachu, espeon, snorlax, venusaur, charizard, blastoise };
+    Pokemon pikachu = { &quot;Pikachu&quot;, &quot;Electric&quot;, 81, 100 };
+    Pokemon espeon = { &quot;Espeon&quot;, &quot;Psychic&quot;, 72, 100 };
+    Pokemon snorlax = { &quot;Snorlax&quot;, &quot;Normal&quot;, 75, 100 };
+    Pokemon venusaur = { &quot;Venusaur&quot;, &quot;Grass &amp; Poison&quot;, 77, 100 };
+    Pokemon charizard = { &quot;Charizard&quot;, &quot;Fire &amp; Flying&quot;, 77, 100 };
+    Pokemon blastoise = { &quot;Blastoise&quot;, &quot;Water&quot;, 77, 100 };
+    Trainer red = { &quot;Red&quot;, 'M', 8, pikachu, espeon, snorlax, venusaur, charizard, blastoise };
     printTrainerInfo(red);
 }
         </code>
 <tests>
 void printPokeInfo(Pokemon p) {
-    cout &lt;&lt; p.pokeName &lt;&lt; " (Lv. " &lt;&lt; p.level &lt;&lt; ", " &lt;&lt; p.healthPercentage &lt;&lt; "% HP)" &lt;&lt; endl;
+    cout &lt;&lt; p.pokeName &lt;&lt; &quot; (Lv. &quot; &lt;&lt; p.level &lt;&lt; &quot;, &quot; &lt;&lt; p.healthPercentage &lt;&lt; &quot;% HP)&quot; &lt;&lt; endl;
 }
 </tests>
 
     </program></statement>
     <solution><p>Below is one way to implement the program. First we declare the instance variables
       in the <c>struct</c> definition. Next, we call <c>printPokeInfo</c> on each <c>Pokemon</c> in <c>Trainer</c> and output the
-      trainer&#8217;s info in the correct format.</p>
+      trainer’s info in the correct format.</p>
       <program xml:id="cp_8_AC_7a">
         <code>
 #include &lt;iostream&gt;
@@ -475,8 +466,8 @@ struct Trainer {
 void printPokeInfo(Pokemon p);
 
 void printTrainerInfo(Trainer t) {
-    cout &lt;&lt; "Trainer " &lt;&lt; t.trainerName &lt;&lt; " has " &lt;&lt; t.numBadges
-         &lt;&lt; " badges and " &lt;&lt; t.trainerName &lt;&lt; "'s team consists of " &lt;&lt; endl;
+    cout &lt;&lt; &quot;Trainer &quot; &lt;&lt; t.trainerName &lt;&lt; &quot; has &quot; &lt;&lt; t.numBadges
+         &lt;&lt; &quot; badges and &quot; &lt;&lt; t.trainerName &lt;&lt; &quot;'s team consists of &quot; &lt;&lt; endl;
     printPokeInfo(t.first);
     printPokeInfo(t.second);
     printPokeInfo(t.third);
@@ -486,19 +477,19 @@ void printTrainerInfo(Trainer t) {
 }
 
 int main() {
-    Pokemon pikachu = { "Pikachu", "Electric", 81, 100 };
-    Pokemon espeon = { "Espeon", "Psychic", 72, 100 };
-    Pokemon snorlax = { "Snorlax", "Normal", 75, 100 };
-    Pokemon venusaur = { "Venusaur", "Grass &amp; Poison", 77, 100 };
-    Pokemon charizard = { "Charizard", "Fire &amp; Flying", 77, 100 };
-    Pokemon blastoise = { "Blastoise", "Water", 77, 100 };
-    Trainer red = { "Red", 'M', 8, pikachu, espeon, snorlax, venusaur, charizard, blastoise };
+    Pokemon pikachu = { &quot;Pikachu&quot;, &quot;Electric&quot;, 81, 100 };
+    Pokemon espeon = { &quot;Espeon&quot;, &quot;Psychic&quot;, 72, 100 };
+    Pokemon snorlax = { &quot;Snorlax&quot;, &quot;Normal&quot;, 75, 100 };
+    Pokemon venusaur = { &quot;Venusaur&quot;, &quot;Grass &amp; Poison&quot;, 77, 100 };
+    Pokemon charizard = { &quot;Charizard&quot;, &quot;Fire &amp; Flying&quot;, 77, 100 };
+    Pokemon blastoise = { &quot;Blastoise&quot;, &quot;Water&quot;, 77, 100 };
+    Trainer red = { &quot;Red&quot;, 'M', 8, pikachu, espeon, snorlax, venusaur, charizard, blastoise };
     printTrainerInfo(red);
 }
         </code>
 <tests>
 void printPokeInfo(Pokemon p) {
-    cout &lt;&lt; p.pokeName &lt;&lt; " (Lv. " &lt;&lt; p.level &lt;&lt; ", " &lt;&lt; p.healthPercentage &lt;&lt; "% HP)" &lt;&lt; endl;
+    cout &lt;&lt; p.pokeName &lt;&lt; &quot; (Lv. &quot; &lt;&lt; p.level &lt;&lt; &quot;, &quot; &lt;&lt; p.healthPercentage &lt;&lt; &quot;% HP)&quot; &lt;&lt; endl;
 }
 </tests>
 
@@ -509,11 +500,10 @@ void printPokeInfo(Pokemon p) {
   <exercise label="cp_8_8">
     <statement>
       <p>When Pokemon are injured, they can be healed up at the Pokemon Center. Write the function <c>healPokemon</c>,
-        which takes a <c>Trainer</c> as a parameter and heals the Trainer&#8217;s Pokemon to 100 percent
+        which takes a <c>Trainer</c> as a parameter and heals the Trainer’s Pokemon to 100 percent
         health. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_8_AC_8q_editor">
+    <program interactive="activecode" label="cp_8_AC_8q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -538,13 +528,13 @@ void printTrainerInfo(Trainer t);
 // Write your code for the function healPokemon here.
 
 int main() {
-    Pokemon exeggutor = {"Exeggutor", "Grass &amp; Psychic", 58, 78};
-    Pokemon alakazam = {"Alakazam", "Psychic", 54, 0};
-    Pokemon arcanine = {"Arcanine", "Fire", 58, 24};
-    Pokemon rhydon = {"Rhydon", "Ground &amp; Rock", 56, 55};
-    Pokemon gyarados = {"Gyarados", "Water &amp; Flying", 58, 100};
-    Pokemon pidgeot = {"Pidgeot", "Normal &amp; Flying", 56, 35};
-    Trainer blue = {"Blue", 'M', 8, exeggutor, alakazam, arcanine, rhydon, gyarados, pidgeot};
+    Pokemon exeggutor = {&quot;Exeggutor&quot;, &quot;Grass &amp; Psychic&quot;, 58, 78};
+    Pokemon alakazam = {&quot;Alakazam&quot;, &quot;Psychic&quot;, 54, 0};
+    Pokemon arcanine = {&quot;Arcanine&quot;, &quot;Fire&quot;, 58, 24};
+    Pokemon rhydon = {&quot;Rhydon&quot;, &quot;Ground &amp; Rock&quot;, 56, 55};
+    Pokemon gyarados = {&quot;Gyarados&quot;, &quot;Water &amp; Flying&quot;, 58, 100};
+    Pokemon pidgeot = {&quot;Pidgeot&quot;, &quot;Normal &amp; Flying&quot;, 56, 35};
+    Trainer blue = {&quot;Blue&quot;, 'M', 8, exeggutor, alakazam, arcanine, rhydon, gyarados, pidgeot};
     printTrainerInfo(blue);
     healPokemon(blue);
     printTrainerInfo(blue);  // Pokemon should now all be healed to 100% health
@@ -552,12 +542,12 @@ int main() {
         </code>
 <tests>
 void printPokeInfo(Pokemon p) {
-    cout &lt;&lt; p.pokeName &lt;&lt; " (Lv. " &lt;&lt; p.level &lt;&lt; ", " &lt;&lt; p.healthPercentage &lt;&lt; "% HP)" &lt;&lt; endl;
+    cout &lt;&lt; p.pokeName &lt;&lt; &quot; (Lv. &quot; &lt;&lt; p.level &lt;&lt; &quot;, &quot; &lt;&lt; p.healthPercentage &lt;&lt; &quot;% HP)&quot; &lt;&lt; endl;
 }
 
 void printTrainerInfo(Trainer t) {
-    cout &lt;&lt; "Trainer " &lt;&lt; t.trainerName &lt;&lt; " has " &lt;&lt; t.numBadges
-        &lt;&lt; " badges and " &lt;&lt; t.trainerName &lt;&lt; "'s team consists of " &lt;&lt; endl;
+    cout &lt;&lt; &quot;Trainer &quot; &lt;&lt; t.trainerName &lt;&lt; &quot; has &quot; &lt;&lt; t.numBadges
+        &lt;&lt; &quot; badges and &quot; &lt;&lt; t.trainerName &lt;&lt; &quot;'s team consists of &quot; &lt;&lt; endl;
     printPokeInfo(t.first);
     printPokeInfo(t.second);
     printPokeInfo(t.third);
@@ -572,7 +562,7 @@ void printTrainerInfo(Trainer t) {
       <activity label="cp_8_AC_8q_pp">
         <statement>
           <p>When Pokemon are injured, they can be healed up at the Pokemon Center. Write the
-            function <c>healPokemon</c>, which takes a <c>Trainer</c> as a parameter and heals the Trainer&#8217;s
+            function <c>healPokemon</c>, which takes a <c>Trainer</c> as a parameter and heals the Trainer’s
             Pokemon to 100 percent health. Use the lines to construct the code, then go back to
             complete the Activecode.</p>
         </statement>
@@ -614,12 +604,11 @@ void printTrainerInfo(Trainer t) {
   <exercise label="cp_8_9">
     <statement>
       <p>Now write the function <c>pokeCenter</c> which takes a <c>Trainer</c> as a parameter and prompts the user if
-        they&#8217;d like to heal their Pokemon. Below are the possible outputs (y, n, or an invalid
-        input). If user inputs &#8216;y&#8217;, call <c>healPokemon</c> and output the correct dialogue. If
-        user inputs &#8216;n&#8217;, don&#8217;t call <c>healPokemon</c> and output the correct dialogue. If
+        they’d like to heal their Pokemon. Below are the possible outputs (y, n, or an invalid
+        input). If user inputs ‘y’, call <c>healPokemon</c> and output the correct dialogue. If
+        user inputs ‘n’, don’t call <c>healPokemon</c> and output the correct dialogue. If
         user inputs an invalid character, output the error message.</p>
-    <program interactive="activecode"
-             xml:id="cp_8_AC_9q">
+    <program interactive="activecode" label="cp_8_AC_9q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -645,13 +634,13 @@ void healPokemon(Trainer&amp; t);
 // Write your code for the function pokeCenter here.
 
 int main() {
-    Pokemon exeggutor = {"Exeggutor", "Grass &amp; Psychic", 58, 78};
-    Pokemon alakazam = {"Alakazam", "Psychic", 54, 0};
-    Pokemon arcanine = {"Arcanine", "Fire", 58, 24};
-    Pokemon rhydon = {"Rhydon", "Ground &amp; Rock", 56, 55};
-    Pokemon gyarados = {"Gyarados", "Water &amp; Flying", 58, 100};
-    Pokemon pidgeot = {"Pidgeot", "Normal &amp; Flying", 56, 35};
-    Trainer blue = {"Blue", 'M', 8, exeggutor, alakazam, arcanine, rhydon, gyarados, pidgeot};
+    Pokemon exeggutor = {&quot;Exeggutor&quot;, &quot;Grass &amp; Psychic&quot;, 58, 78};
+    Pokemon alakazam = {&quot;Alakazam&quot;, &quot;Psychic&quot;, 54, 0};
+    Pokemon arcanine = {&quot;Arcanine&quot;, &quot;Fire&quot;, 58, 24};
+    Pokemon rhydon = {&quot;Rhydon&quot;, &quot;Ground &amp; Rock&quot;, 56, 55};
+    Pokemon gyarados = {&quot;Gyarados&quot;, &quot;Water &amp; Flying&quot;, 58, 100};
+    Pokemon pidgeot = {&quot;Pidgeot&quot;, &quot;Normal &amp; Flying&quot;, 56, 35};
+    Trainer blue = {&quot;Blue&quot;, 'M', 8, exeggutor, alakazam, arcanine, rhydon, gyarados, pidgeot};
     printTrainerInfo(blue);
     pokeCenter(blue);
     printTrainerInfo(blue);  // Pokemon should now all be healed to 100% health
@@ -659,12 +648,12 @@ int main() {
         </code>
 <tests>
 void printPokeInfo(Pokemon p) {
-    cout &lt;&lt; p.pokeName &lt;&lt; " (Lv. " &lt;&lt; p.level &lt;&lt; ", " &lt;&lt; p.healthPercentage &lt;&lt; "% HP)" &lt;&lt; endl;
+    cout &lt;&lt; p.pokeName &lt;&lt; &quot; (Lv. &quot; &lt;&lt; p.level &lt;&lt; &quot;, &quot; &lt;&lt; p.healthPercentage &lt;&lt; &quot;% HP)&quot; &lt;&lt; endl;
 }
 
 void printTrainerInfo(Trainer t) {
-    cout &lt;&lt; "Trainer " &lt;&lt; t.trainerName &lt;&lt; " has " &lt;&lt; t.numBadges
-         &lt;&lt; " badges and " &lt;&lt; t.trainerName &lt;&lt; "'s team consists of " &lt;&lt; endl;
+    cout &lt;&lt; &quot;Trainer &quot; &lt;&lt; t.trainerName &lt;&lt; &quot; has &quot; &lt;&lt; t.numBadges
+         &lt;&lt; &quot; badges and &quot; &lt;&lt; t.trainerName &lt;&lt; &quot;'s team consists of &quot; &lt;&lt; endl;
     printPokeInfo(t.first);
     printPokeInfo(t.second);
     printPokeInfo(t.third);
@@ -685,7 +674,7 @@ void healPokemon(Trainer&amp; t) {
 
     </program></statement>
     <solution><p>Below is one way to implement the program. We use conditionals to perform
-        the correct output and operation depending on the user&#8217;s input.</p>
+        the correct output and operation depending on the user’s input.</p>
         <program xml:id="cp_8_AC_9a">
         <code>
 #include &lt;iostream&gt;
@@ -711,29 +700,29 @@ void healPokemon(Trainer&amp; t);
 
 void pokeCenter(Trainer&amp; t) {
     char response;
-    cout &lt;&lt; "Welcome to the Pok&#233;mon Center. Would you like me to take your Pok&#233;mon? (y/n) ";
+    cout &lt;&lt; &quot;Welcome to the Pokémon Center. Would you like me to take your Pokémon? (y/n) &quot;;
     cin &gt;&gt; response;
     if (response == 'y') {
-        cout &lt;&lt; "Okay, I'll take your Pok&#233;mon for a few seconds." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Okay, I'll take your Pokémon for a few seconds.&quot; &lt;&lt; endl;
         healPokemon(t);
-        cout &lt;&lt; "Your Pok&#233;mon are now healed. We hope to see you again." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Your Pokémon are now healed. We hope to see you again.&quot; &lt;&lt; endl;
     }
     else if (response == 'n') {
-        cout &lt;&lt; "We hope to see you again." &lt;&lt; endl;
+        cout &lt;&lt; &quot;We hope to see you again.&quot; &lt;&lt; endl;
     }
     else {
-        cout &lt;&lt; "Sorry, not a valid input." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Sorry, not a valid input.&quot; &lt;&lt; endl;
     }
 }
 
 int main() {
-    Pokemon exeggutor = {"Exeggutor", "Grass &amp; Psychic", 58, 78};
-    Pokemon alakazam = {"Alakazam", "Psychic", 54, 0};
-    Pokemon arcanine = {"Arcanine", "Fire", 58, 24};
-    Pokemon rhydon = {"Rhydon", "Ground &amp; Rock", 56, 55};
-    Pokemon gyarados = {"Gyarados", "Water &amp; Flying", 58, 100};
-    Pokemon pidgeot = {"Pidgeot", "Normal &amp; Flying", 56, 35};
-    Trainer blue = {"Blue", 'M', 8, exeggutor, alakazam, arcanine, rhydon, gyarados, pidgeot};
+    Pokemon exeggutor = {&quot;Exeggutor&quot;, &quot;Grass &amp; Psychic&quot;, 58, 78};
+    Pokemon alakazam = {&quot;Alakazam&quot;, &quot;Psychic&quot;, 54, 0};
+    Pokemon arcanine = {&quot;Arcanine&quot;, &quot;Fire&quot;, 58, 24};
+    Pokemon rhydon = {&quot;Rhydon&quot;, &quot;Ground &amp; Rock&quot;, 56, 55};
+    Pokemon gyarados = {&quot;Gyarados&quot;, &quot;Water &amp; Flying&quot;, 58, 100};
+    Pokemon pidgeot = {&quot;Pidgeot&quot;, &quot;Normal &amp; Flying&quot;, 56, 35};
+    Trainer blue = {&quot;Blue&quot;, 'M', 8, exeggutor, alakazam, arcanine, rhydon, gyarados, pidgeot};
     printTrainerInfo(blue);
     pokeCenter(blue);
     printTrainerInfo(blue);  // Pokemon should now all be healed to 100% health
@@ -741,12 +730,12 @@ int main() {
         </code>
 <tests>
 void printPokeInfo(Pokemon p) {
-    cout &lt;&lt; p.pokeName &lt;&lt; " (Lv. " &lt;&lt; p.level &lt;&lt; ", " &lt;&lt; p.healthPercentage &lt;&lt; "% HP)" &lt;&lt; endl;
+    cout &lt;&lt; p.pokeName &lt;&lt; &quot; (Lv. &quot; &lt;&lt; p.level &lt;&lt; &quot;, &quot; &lt;&lt; p.healthPercentage &lt;&lt; &quot;% HP)&quot; &lt;&lt; endl;
 }
 
 void printTrainerInfo(Trainer t) {
-    cout &lt;&lt; "Trainer " &lt;&lt; t.trainerName &lt;&lt; " has " &lt;&lt; t.numBadges
-         &lt;&lt; " badges and " &lt;&lt; t.trainerName &lt;&lt; "'s team consists of " &lt;&lt; endl;
+    cout &lt;&lt; &quot;Trainer &quot; &lt;&lt; t.trainerName &lt;&lt; &quot; has &quot; &lt;&lt; t.numBadges
+         &lt;&lt; &quot; badges and &quot; &lt;&lt; t.trainerName &lt;&lt; &quot;'s team consists of &quot; &lt;&lt; endl;
     printPokeInfo(t.first);
     printPokeInfo(t.second);
     printPokeInfo(t.third);
@@ -771,10 +760,10 @@ void healPokemon(Trainer&amp; t) {
 
   <exercise label="cp_8_10">
     <statement>
-      <p>Ever wanted to know how much you&#8217;d weigh on each planet? Write the <c>convertWeight</c> function,
+      <p>Ever wanted to know how much you’d weigh on each planet? Write the <c>convertWeight</c> function,
         which takes a <c>double earthWeight</c> and <c>int planet</c> as parameters. First, in <c>main</c>, prompt the user to enter
         their weight in pounds and a number corresponding to a planet (Mercury is 1, Venus is 2,
-        etc.). Next, call the <c>convertWeight</c> function using the user&#8217;s input. Finally, print out
+        etc.). Next, call the <c>convertWeight</c> function using the user’s input. Finally, print out
         their weight on that planet. If the user inputs an invalid planet, print out an error
         message. The weight conversion are as follows (multiply the number by <c>earthWeight</c> to get the
         weight on that planet): Mercury - 0.38, Venus - 0.91, Earth - 1.00, Mars - 0.38, Jupiter -
@@ -795,8 +784,7 @@ Please enter your weight in pounds: 170
 Please select a planet: 23
 Error, not a valid planet.</pre>
 
-    <program interactive="activecode"
-             xml:id="cp_8_AC_10q_editor">
+    <program interactive="activecode" label="cp_8_AC_10q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -811,10 +799,10 @@ int main() {
     <hint>
       <activity label="cp_8_AC_10q_pp">
         <statement>
-          <p>Ever wanted to know how much you&#8217;d weigh on each planet? Write the <c>convertWeight</c>
+          <p>Ever wanted to know how much you’d weigh on each planet? Write the <c>convertWeight</c>
             function, which takes a <c>double earthWeight</c> and <c>int planet</c> as parameters. First, in <c>main</c>, prompt the
             user to enter their weight in pounds and a number corresponding to a planet (Mercury is
-            1, Venus is 2, etc.). Next, call the <c>convertWeight</c> function using the user&#8217;s input.
+            1, Venus is 2, etc.). Next, call the <c>convertWeight</c> function using the user’s input.
             Finally, print out their weight on that planet. If the user inputs an invalid planet,
             print out an error message. The weight conversion are as follows (multiply the number by <c>earthWeight</c>
             to get the weight on that planet): Mercury - 0.38, Venus - 0.91, Earth - 1.00, Mars -
@@ -844,47 +832,47 @@ int main() {
           </block>
           <block order="13">
             <cline>    if (planet== 1) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Mercury is " &lt;&lt; earthWeight * .38 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Mercury is &quot; &lt;&lt; earthWeight * .38 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="4">
             <cline>    else if(planet == 2) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Venus is " &lt;&lt; earthWeight * .91 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Venus is &quot; &lt;&lt; earthWeight * .91 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="6">
             <cline>    else if (planet == 3) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Earth is " &lt;&lt; earthWeight * 1 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Earth is &quot; &lt;&lt; earthWeight * 1 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="5">
             <cline>    else if(planet == 4) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Mars is " &lt;&lt; earthWeight * .38 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Mars is &quot; &lt;&lt; earthWeight * .38 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="15">
             <cline>    else if(planet == 5) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Jupiter is " &lt;&lt; earthWeight * 2.34 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Jupiter is &quot; &lt;&lt; earthWeight * 2.34 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="10">
             <cline>    else if(planet == 6) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Saturn is " &lt;&lt; earthWeight * 1.06 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Saturn is &quot; &lt;&lt; earthWeight * 1.06 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="11">
             <cline>    else if(planet == 7) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Uranus is " &lt;&lt; earthWeight * .92 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Uranus is &quot; &lt;&lt; earthWeight * .92 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="16">
             <cline>    else if(planet == 8) {</cline>
-            <cline>        cout &lt;&lt; "Your weight on Neptune is " &lt;&lt; earthWeight * 1.19 &lt;&lt; " pounds." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Your weight on Neptune is &quot; &lt;&lt; earthWeight * 1.19 &lt;&lt; &quot; pounds.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="18">
             <cline>    else {</cline>
-            <cline>        cout &lt;&lt; "Error, not a valid planet." &lt;&lt; endl;</cline>
+            <cline>        cout &lt;&lt; &quot;Error, not a valid planet.&quot; &lt;&lt; endl;</cline>
             <cline>    }</cline>
           </block>
           <block order="1">
@@ -901,12 +889,12 @@ int main() {
             <cline>    int planet;</cline>
           </block>
           <block order="8">
-            <cline>    cout &lt;&lt; "Please enter your weight in pounds: ";</cline>
+            <cline>    cout &lt;&lt; &quot;Please enter your weight in pounds: &quot;;</cline>
             <cline>    cin &gt;&gt; earthWeight;</cline>
             <cline>    cout &lt;&lt; earthWeight &lt;&lt; endl;</cline>
           </block>
           <block order="12">
-            <cline>    cout &lt;&lt; "Please select a planet: ";</cline>
+            <cline>    cout &lt;&lt; &quot;Please select a planet: &quot;;</cline>
             <cline>    cin &gt;&gt; planet;</cline>
             <cline>    cout &lt;&lt; planet &lt;&lt; endl;</cline>
           </block>

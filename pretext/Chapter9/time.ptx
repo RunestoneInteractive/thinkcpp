@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_time">
+<?xml version="1.0" ?><section xml:id="chapter9_time">
   <title>Time</title>
   <p>As a second example of a user-defined structure, we will define a type called <c>Time</c>, which is
     used to record the time of day. The various pieces of information that form a time are the hour,
@@ -12,9 +11,7 @@
       This active code shows what the structure definition looks like. We can create a <c>Time</c>
         object in the usual way.
     </title>
-    <program xml:id="time_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="time_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -181,9 +178,7 @@ int main() {
       <p>Try writing the <c>printTime</c> function in the commented section of this active code. <c>printTime</c>
         should print out the time in the HOUR:MINUTE:SECONDS format. If you get stuck, you can
         reveal the extra problem at the end for help.</p>
-    <program xml:id="time_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="time_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -208,10 +203,7 @@ int main() {
     </program></statement>
   </exercise>
   <exercises>
-    <exercise label="time_4"
-              number="yes"
-              adaptive="yes"
-              indentation="hide">
+    <exercise label="time_4" number="yes" adaptive="yes" indentation="hide">
       <statement>
         <p>Let's write the code for the <c>printTime</c> function. <c>printTime</c> should print out the time in the
           HOUR:MINUTE:SECONDS format.</p>

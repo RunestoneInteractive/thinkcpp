@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter11_a-more-complicated-example">
+<?xml version="1.0" ?><section xml:id="chapter11_a-more-complicated-example">
   <title>A more complicated example</title>
   <p>Although the process of transforming functions into member functions is mechanical, there are
     some oddities. For example, <c>after</c> operates on two <c>Time</c> structures, not just one, and we
@@ -20,18 +19,16 @@
 }</program>
   <p>To invoke this function:</p>
   <program>if (doneTime.after(currentTime)) {
-  cout &lt;&lt; "The bread will be done after it starts." &lt;&lt; endl;
+  cout &lt;&lt; &quot;The bread will be done after it starts.&quot; &lt;&lt; endl;
 }</program>
   <p>You can almost read the invocation like English: <q>If the done-time is
-      after the current-time, then&#x2026;</q></p>
+      after the current-time, then…</q></p>
   <listing label="more_complicated_example_AC_1">
     <title>
       This active code is another practical example using the <c>after</c> function. Feel free to
         modify the time that school gets out, and the time that the track meet starts, if you wish!
     </title>
-    <program xml:id="more_complicated_example_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="more_complicated_example_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -100,7 +97,7 @@ bool Time::after(const Time&amp; time2) const {
       </choice>
       <choice correct="yes">
         <statement>
-          <p>"hour" and "minute" refer to the hour and minute of the implicit Time object.</p>
+          <p>&quot;hour&quot; and &quot;minute&quot; refer to the hour and minute of the implicit Time object.</p>
         </statement>
         <feedback><p>
           Correct!
@@ -149,10 +146,7 @@ bool Time::after(const Time&amp; time2) const {
       </choice>
     </choices>
   </exercise>
-  <exercise label="more_complicated_example_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="more_complicated_example_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Create the <c>Dog::is_older()</c> function.
         This function checks if the current <c>Dog</c> is older than another <c>Dog</c>. The
@@ -195,8 +189,7 @@ bool Time::after(const Time&amp; time2) const {
           <cline>};</cline>
         </choice>
       </block>
-      <block order="7"
-             correct="no">
+      <block order="7" correct="no">
         <cline> Dog dog = *this;</cline>
       </block>
     </blocks>

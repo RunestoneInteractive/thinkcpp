@@ -1,11 +1,10 @@
-<exercises xml:id="chapter9_coding-practice">
+<?xml version="1.0" ?><exercises xml:id="chapter9_coding-practice">
   <title>Coding Practice</title>
   <exercise label="cp_9_1">
     <statement>
       <p>Write the <c>Cake</c> structure, which has instance variables name, color, diameter, and
         has_icing.</p>
-    <program interactive="activecode"
-             xml:id="cp_9_AC_1q">
+    <program interactive="activecode" label="cp_9_AC_1q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -13,7 +12,7 @@ using namespace std;
 // Write your code for the struct Cake here.
 
 int main() {
-    Cake c = { "Mary", "blue", 3.5, false };
+    Cake c = { &quot;Mary&quot;, &quot;blue&quot;, 3.5, false };
 }
         </code>
     </program></statement>
@@ -32,7 +31,7 @@ struct Cake {
 };
 
 int main() {
-    Cake c = { "Mary", "blue", 3.5, false };
+    Cake c = { &quot;Mary&quot;, &quot;blue&quot;, 3.5, false };
 }
         </code>
     </program>
@@ -41,14 +40,13 @@ int main() {
 
   <exercise label="cp_9_AC_2q_q">
     <statement>
-      <p>Write the function <c>printCakeInfo</c>, which prints the cake&#8217;s information in the format
-        &#8220;This is a <c>color</c>, <c>diameter</c> inch diameter cake with/without icing.&#8221; If <c>name</c>
-        does not have the value &#8220;n/a&#8221;, <c>printCakeInfo</c> prints out &#8220;Happy birthday <c>name</c>!
-        Your cake is <c>color</c>, has a <c>diameter</c> inch diameter, and comes with/without icing.&#8221;
+      <p>Write the function <c>printCakeInfo</c>, which prints the cake’s information in the format
+        “This is a <c>color</c>, <c>diameter</c> inch diameter cake with/without icing.” If <c>name</c>
+        does not have the value “n/a”, <c>printCakeInfo</c> prints out “Happy birthday <c>name</c>!
+        Your cake is <c>color</c>, has a <c>diameter</c> inch diameter, and comes with/without icing.”
         Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_9_AC_2q_editor">
+    <program interactive="activecode" label="cp_9_AC_2q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -63,9 +61,9 @@ struct Cake {
 // Write your code for the printCakeInfo function here.
 
 int main() {
-    Cake c1 = { "n/a", "red", 12.5, true };
+    Cake c1 = { &quot;n/a&quot;, &quot;red&quot;, 12.5, true };
     printCakeInfo(c1);
-    Cake c2 = { "Tom", "white", 10, false };
+    Cake c2 = { &quot;Tom&quot;, &quot;white&quot;, 10, false };
     printCakeInfo(c2);
 }
         </code>
@@ -73,10 +71,10 @@ int main() {
     <hint>
       <activity label="cp_9_AC_2q_pp">
         <statement>
-          <p>Write the function <c>printCakeInfo</c>, which prints the cake&#8217;s information in the format
-            &#8220;This is a <c>color</c>, <c>diameter</c> inch diameter cake with/without icing.&#8221; If <c>name</c>
-            does not have the value &#8220;n/a&#8221;, <c>printCakeInfo</c> prints out &#8220;Happy birthday <c>name</c>!
-            Your cake is <c>color</c>, has a <c>diameter</c> inch diameter, and comes with/without icing.&#8221;
+          <p>Write the function <c>printCakeInfo</c>, which prints the cake’s information in the format
+            “This is a <c>color</c>, <c>diameter</c> inch diameter cake with/without icing.” If <c>name</c>
+            does not have the value “n/a”, <c>printCakeInfo</c> prints out “Happy birthday <c>name</c>!
+            Your cake is <c>color</c>, has a <c>diameter</c> inch diameter, and comes with/without icing.”
             Use the lines to construct the code, then go back to complete the Activecode.</p>
         </statement>
         <blocks>
@@ -89,16 +87,16 @@ int main() {
             </choice>
           </block>
           <block order="1">
-            <cline>    if (c.name == "n/a") {</cline>
+            <cline>    if (c.name == &quot;n/a&quot;) {</cline>
           </block>
           <block order="4">
             <cline>        if (c.has_icing) {</cline>
-            <cline>            cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake with icing." &lt;&lt; endl;</cline>
+            <cline>            cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake with icing.&quot; &lt;&lt; endl;</cline>
             <cline>        }</cline>
           </block>
           <block order="9">
             <cline>        else {</cline>
-            <cline>            cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake without icing." &lt;&lt; endl;</cline>
+            <cline>            cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake without icing.&quot; &lt;&lt; endl;</cline>
             <cline>        }</cline>
           </block>
           <block order="3">
@@ -109,12 +107,12 @@ int main() {
           </block>
           <block order="2">
             <cline>        if (c.has_icing) {</cline>
-            <cline>            cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes with icing." &lt;&lt; endl;</cline>
+            <cline>            cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes with icing.&quot; &lt;&lt; endl;</cline>
             <cline>        }</cline>
           </block>
           <block order="5">
             <cline>        else {</cline>
-            <cline>            cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes without icing." &lt;&lt; endl;</cline>
+            <cline>            cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes without icing.&quot; &lt;&lt; endl;</cline>
             <cline>        }</cline>
           </block>
           <block order="8">
@@ -130,8 +128,7 @@ int main() {
     <statement>
       <p>Write the <c>makeCake</c> function, which prompts the user for a name, color, diameter, and whether
         or not they want icing. The function then returns the cake.</p>
-    <program interactive="activecode"
-             xml:id="cp_9_AC_3q">
+    <program interactive="activecode" label="cp_9_AC_3q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -154,20 +151,20 @@ int main() {
         </code>
 <tests>
 void printCakeInfo(Cake c) {
-    if (c.name == "n/a") {
+    if (c.name == &quot;n/a&quot;) {
         if (c.has_icing) {
-            cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake with icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake with icing.&quot; &lt;&lt; endl;
         }
         else {
-            cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake without icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake without icing.&quot; &lt;&lt; endl;
         }
     }
     else {
         if (c.has_icing) {
-            cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes with icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes with icing.&quot; &lt;&lt; endl;
         }
         else {
-            cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes without icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes without icing.&quot; &lt;&lt; endl;
         }
     }
 }
@@ -176,7 +173,7 @@ void printCakeInfo(Cake c) {
 
     </program></statement>
     <solution><p>Below is one way to implement the program. We create a <c>Cake</c> for the user, read
-    in the user&#8217;s input using cin, and return the <c>Cake</c>.</p>
+    in the user’s input using cin, and return the <c>Cake</c>.</p>
     <program xml:id="cp_9_AC_3a">
         <code>
 #include &lt;iostream&gt;
@@ -196,16 +193,16 @@ Cake makeCake() {
     string name, color;
     double diameter;
     char icing;
-    cout &lt;&lt; "Name: ";
+    cout &lt;&lt; &quot;Name: &quot;;
     cin &gt;&gt; name;
     input.name = name;
-    cout &lt;&lt; "Color: ";
+    cout &lt;&lt; &quot;Color: &quot;;
     cin &gt;&gt; color;
     input.color = color;
-    cout &lt;&lt; "Diameter: ";
+    cout &lt;&lt; &quot;Diameter: &quot;;
     cin &gt;&gt; diameter;
     input.diameter = diameter;
-    cout &lt;&lt; "Icing? (y/n) ";
+    cout &lt;&lt; &quot;Icing? (y/n) &quot;;
     cin &gt;&gt; icing;
     if (icing == 'y') {
         input.has_icing = true;
@@ -231,8 +228,7 @@ int main() {
         then multiplies the original diameter by the double and modifies the cake to have this new
         diameter. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_9_AC_4q_editor">
+    <program interactive="activecode" label="cp_9_AC_4q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -250,27 +246,27 @@ Cake makeCake();
 // Write your code for the changeCakeDiameter function here.
 
 int main() {
-    Cake original = { "John", "green", 8.5, true };
+    Cake original = { &quot;John&quot;, &quot;green&quot;, 8.5, true };
     changeCakeDiameter(original, 2);
     printCakeInfo(original);
 }
         </code>
 <tests>
 void printCakeInfo(Cake c) {
-    if (c.name == "n/a") {
+    if (c.name == &quot;n/a&quot;) {
         if (c.has_icing) {
-            cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake with icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake with icing.&quot; &lt;&lt; endl;
         }
         else {
-            cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake without icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake without icing.&quot; &lt;&lt; endl;
         }
     }
     else {
         if (c.has_icing) {
-            cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes with icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes with icing.&quot; &lt;&lt; endl;
         }
         else {
-            cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes without icing." &lt;&lt; endl;
+            cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes without icing.&quot; &lt;&lt; endl;
         }
     }
 }
@@ -280,16 +276,16 @@ Cake makeCake() {
     string name, color;
     double diameter;
     char icing;
-    cout &lt;&lt; "Name: ";
+    cout &lt;&lt; &quot;Name: &quot;;
     cin &gt;&gt; name;
     input.name = name;
-    cout &lt;&lt; "Color: ";
+    cout &lt;&lt; &quot;Color: &quot;;
     cin &gt;&gt; color;
     input.color = color;
-    cout &lt;&lt; "Diameter: ";
+    cout &lt;&lt; &quot;Diameter: &quot;;
     cin &gt;&gt; diameter;
     input.diameter = diameter;
-    cout &lt;&lt; "Icing? (y/n) ";
+    cout &lt;&lt; &quot;Icing? (y/n) &quot;;
     cin &gt;&gt; icing;
     if (icing == 'y') {
         input.has_icing = true;
@@ -325,12 +321,10 @@ Cake makeCake() {
           <block order="5">
             <cline>    c.diameter *= scale;</cline>
           </block>
-          <block order="4"
-                 correct="no">
+          <block order="4" correct="no">
             <cline>    c.diameter; </cline>
           </block>
-          <block order="7"
-                 correct="no">
+          <block order="7" correct="no">
             <cline>    c.diameter = c.diameter * 2; </cline>
           </block>
           <block order="6">
@@ -346,8 +340,7 @@ Cake makeCake() {
       <p>Write the <c>editCake</c> function, which prompts the user for a new name, color, diameter, and
         whether or not they want icing. The function modifies the original cake that is passed in as
         a parameter. Use the makeCake function in your implementation to avoid duplicate code!</p>
-    <program interactive="activecode"
-             xml:id="cp_9_AC_5q">
+    <program interactive="activecode" label="cp_9_AC_5q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -365,7 +358,7 @@ Cake makeCake();
 // Write your code for the editCake function here.
 
 int main() {
-    Cake original = { "Oops", "orange", 185, true };
+    Cake original = { &quot;Oops&quot;, &quot;orange&quot;, 185, true };
     editCake(original);
     printCakeInfo(original);
 }
@@ -373,20 +366,20 @@ int main() {
         <stdin>Better purple 12 n</stdin>
 <tests>
  void printCakeInfo(Cake c) {
-     if (c.name == "n/a") {
+     if (c.name == &quot;n/a&quot;) {
          if (c.has_icing) {
-             cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake with icing." &lt;&lt; endl;
+             cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake with icing.&quot; &lt;&lt; endl;
          }
          else {
-             cout &lt;&lt; "This is a " &lt;&lt; c.color &lt;&lt; "," &lt;&lt; c.diameter &lt;&lt; " inch diameter cake without icing." &lt;&lt; endl;
+             cout &lt;&lt; &quot;This is a &quot; &lt;&lt; c.color &lt;&lt; &quot;,&quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter cake without icing.&quot; &lt;&lt; endl;
          }
      }
      else {
          if (c.has_icing) {
-             cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes with icing." &lt;&lt; endl;
+             cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes with icing.&quot; &lt;&lt; endl;
          }
          else {
-             cout &lt;&lt; "Happy birthday " &lt;&lt; c.name &lt;&lt; "! Your cake is " &lt;&lt; c.color &lt;&lt; ", has a " &lt;&lt; c.diameter &lt;&lt; " inch diameter, and comes without icing." &lt;&lt; endl;
+             cout &lt;&lt; &quot;Happy birthday &quot; &lt;&lt; c.name &lt;&lt; &quot;! Your cake is &quot; &lt;&lt; c.color &lt;&lt; &quot;, has a &quot; &lt;&lt; c.diameter &lt;&lt; &quot; inch diameter, and comes without icing.&quot; &lt;&lt; endl;
          }
      }
  }
@@ -396,16 +389,16 @@ int main() {
      string name, color;
      double diameter;
      char icing;
-     cout &lt;&lt; "Name: ";
+     cout &lt;&lt; &quot;Name: &quot;;
      cin &gt;&gt; name;
      input.name = name;
-     cout &lt;&lt; "Color: ";
+     cout &lt;&lt; &quot;Color: &quot;;
      cin &gt;&gt; color;
      input.color = color;
-     cout &lt;&lt; "Diameter: ";
+     cout &lt;&lt; &quot;Diameter: &quot;;
      cin &gt;&gt; diameter;
      input.diameter = diameter;
-     cout &lt;&lt; "Icing? (y/n) ";
+     cout &lt;&lt; &quot;Icing? (y/n) &quot;;
      cin &gt;&gt; icing;
      if (icing == 'y') {
          input.has_icing = true;
@@ -441,7 +434,7 @@ void editCake(Cake&amp; c) {
 }
 
 int main() {
-    Cake original = { "Oops", "orange", 185, true };
+    Cake original = { &quot;Oops&quot;, &quot;orange&quot;, 185, true };
     editCake(original);
     printCakeInfo(original);
 }
@@ -454,8 +447,7 @@ int main() {
   <exercise label="cp_9_7">
     <statement>
       <p>Write the <c>Pants</c> structure, which has instance variables size and material.</p>
-    <program interactive="activecode"
-             xml:id="cp_9_AC_7q">
+    <program interactive="activecode" label="cp_9_AC_7q">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -463,7 +455,7 @@ using namespace std;
 // Write your code for the struct Pants here.
 
 int main() {
-    Pants p = { 'S', "denim" };
+    Pants p = { 'S', &quot;denim&quot; };
 }
         </code>
     </program></statement>
@@ -480,7 +472,7 @@ struct Pants {
 };
 
 int main() {
-    Pants p = { 'S', "denim" };
+    Pants p = { 'S', &quot;denim&quot; };
 }
         </code>
     </program>
@@ -491,8 +483,7 @@ int main() {
     <statement>
       <p>Write the struct <c>Shirt</c>, which has the instance variables color and size (in that order). Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_9_AC_6q_editor">
+    <program interactive="activecode" label="cp_9_AC_6q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -500,7 +491,7 @@ using namespace std;
 // Write your code for the struct Shirt here.
 
 int main () {
-    Shirt t = { "blue", 'L' };
+    Shirt t = { &quot;blue&quot;, 'L' };
 }
         </code>
     </program></statement>
@@ -520,15 +511,13 @@ int main () {
           <block order="5">
             <cline>    char size;</cline>
           </block>
-          <block order="2"
-                 correct="no">
+          <block order="2" correct="no">
             <cline>    string size; </cline>
           </block>
           <block order="6">
             <cline>};</cline>
           </block>
-          <block order="1"
-                 correct="no">
+          <block order="1" correct="no">
             <cline>} </cline>
           </block>
         </blocks>
@@ -542,8 +531,7 @@ int main () {
       <p>Write the struct <c>Outfit</c>, which is a nested structure that has a <c>Shirt</c>, <c>Pants</c>, and
         has_hat (in that order). Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_9_AC_8q_editor">
+    <program interactive="activecode" label="cp_9_AC_8q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -560,8 +548,8 @@ struct Shirt {
 // Write your code for the struct Outfit here.
 
 int main () {
-    Shirt t = { "blue", 'L' };
-    Pants p = { 'S', "denim" };
+    Shirt t = { &quot;blue&quot;, 'L' };
+    Pants p = { 'S', &quot;denim&quot; };
     Outfit o = { t, p, true };
 }
         </code>
@@ -587,8 +575,7 @@ int main () {
           <block order="3">
             <cline>    bool has_hat;</cline>
           </block>
-          <block order="6"
-                 correct="no">
+          <block order="6" correct="no">
             <cline>    int has_hat; </cline>
           </block>
           <block order="5">
@@ -602,9 +589,8 @@ int main () {
   <exercise label="cp_9_AC_9q">
     <statement>
       <p>Write the <c>printOutfit</c> function, which prints out details of the outfit. The output below should
-        be &#8220;Shirt: blue and L; Pants: S and denim; has hat&#8221;.</p>
-    <program interactive="activecode"
-             xml:id="cp_9_AC_9q">
+        be “Shirt: blue and L; Pants: S and denim; has hat”.</p>
+    <program interactive="activecode" label="cp_9_AC_9q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -628,8 +614,8 @@ struct Outfit {
 // Write your code for the printOutfit function here.
 
 int main() {
-    Shirt t = { "blue", 'L' };
-    Pants p = { 'S', "denim" };
+    Shirt t = { &quot;blue&quot;, 'L' };
+    Pants p = { 'S', &quot;denim&quot; };
     Outfit o = { t, p, true };
     printOutfit(o);
 }
@@ -658,19 +644,19 @@ struct Outfit {
 }
 
 void printOutfit(Outfit o) {
-"Shirt: blue and L; Pants: S and denim; has hat"
-    cout &lt;&lt; "Shirt: " &lt;&lt; o.s.color &lt;&lt; " and " &lt;&lt; o.s.size &lt;&lt; "; Pants:" &lt;&lt; o.p.size &lt;&lt; " and " &lt;&lt; o.p.material &lt;&lt; "; ";
+&quot;Shirt: blue and L; Pants: S and denim; has hat&quot;
+    cout &lt;&lt; &quot;Shirt: &quot; &lt;&lt; o.s.color &lt;&lt; &quot; and &quot; &lt;&lt; o.s.size &lt;&lt; &quot;; Pants:&quot; &lt;&lt; o.p.size &lt;&lt; &quot; and &quot; &lt;&lt; o.p.material &lt;&lt; &quot;; &quot;;
     if (o.has_hat) {
-        cout &lt;&lt; "has hat" &lt;&lt; endl;
+        cout &lt;&lt; &quot;has hat&quot; &lt;&lt; endl;
     }
     else {
-        cout &lt;&lt; "does not have hat" &lt;&lt; endl;
+        cout &lt;&lt; &quot;does not have hat&quot; &lt;&lt; endl;
     }
 }
 
 int main() {
-    Shirt t = { "blue", 'L' };
-    Pants p = { 'S', "denim" };
+    Shirt t = { &quot;blue&quot;, 'L' };
+    Pants p = { 'S', &quot;denim&quot; };
     Outfit o = { t, p, true };
     printOutfit(o);
 }
@@ -684,8 +670,7 @@ int main() {
         also takes a <c>Shirt</c> as a parameter and <c>changePants</c> also takes a <c>Pants</c> as a parameter. Each
         function modifies the <c>Outfit</c> and changes the shirt or pants to the new input. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_9_AC_10q_editor">
+    <program interactive="activecode" label="cp_9_AC_10q_editor">
         <code>
 #include &lt;iostream&gt;
 using namespace std;
@@ -713,12 +698,12 @@ struct Outfit {
 // Write your code for the changePants function here.
 
 int main() {
-    Shirt t = { "blue", 'L' };
-    Pants p = { 'S', "denim" };
+    Shirt t = { &quot;blue&quot;, 'L' };
+    Pants p = { 'S', &quot;denim&quot; };
     Outfit o = { t, p, true };
     printOutfit(o);
-    Shirt newShirt = { "red", 'M' };
-    Pants newPants = { 'M', "khakis" };
+    Shirt newShirt = { &quot;red&quot;, 'M' };
+    Pants newPants = { 'M', &quot;khakis&quot; };
     changeShirts(o, newShirt);
     changePants(o, newPants);
     printOutfit(o);
@@ -726,12 +711,12 @@ int main() {
         </code>
 <tests>
 void printOutfit(Outfit o) {
-    cout &lt;&lt; "Shirt: " &lt;&lt; o.s.color &lt;&lt; " and " &lt;&lt; o.s.size &lt;&lt; "; Pants: " &lt;&lt; o.p.size &lt;&lt; " and " &lt;&lt; o.p.material &lt;&lt; "; ";
+    cout &lt;&lt; &quot;Shirt: &quot; &lt;&lt; o.s.color &lt;&lt; &quot; and &quot; &lt;&lt; o.s.size &lt;&lt; &quot;; Pants: &quot; &lt;&lt; o.p.size &lt;&lt; &quot; and &quot; &lt;&lt; o.p.material &lt;&lt; &quot;; &quot;;
     if (o.has_hat) {
-        cout &lt;&lt; "has hat" &lt;&lt; endl;
+        cout &lt;&lt; &quot;has hat&quot; &lt;&lt; endl;
     }
     else {
-        cout &lt;&lt; "does not have hat" &lt;&lt; endl;
+        cout &lt;&lt; &quot;does not have hat&quot; &lt;&lt; endl;
     }
 }
 </tests>

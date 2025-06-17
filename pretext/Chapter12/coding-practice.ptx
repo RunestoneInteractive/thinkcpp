@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<exercises xml:id="chapter12_coding-practice">
+<?xml version="1.0" ?><exercises xml:id="chapter12_coding-practice">
   <title>Coding Practice</title>
   <exercise label="cp_12_1">
     <statement>
@@ -9,9 +8,7 @@
         intensity value of each RGB component ranges from 0 to 255, where 0 is no intensity and 255
         is highest intensity. Write the <c>struct</c> definition for <c>Pixel</c>, which has values for each
         component r, g, and b.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_12_AC_1q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_12_AC_1q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -23,8 +20,7 @@ using namespace std;
     <solution>
       <p>Below is one way to implement the program. We declare the Pixel struct and create
         the instance variables in order.</p>
-      <program xml:id="cp_12_AC_1a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_12_AC_1a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -44,8 +40,7 @@ struct Pixel {
       <p>An image is just a matrix of pixels. Write the <c>struct</c> definition for <c>Image</c>, which should
         store information about its height and width and contain a matrix of <c>Pixel</c>s. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_12_AC_2q_editor">
+    <program interactive="activecode" label="cp_12_AC_2q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -80,12 +75,10 @@ struct Pixel {
           <block order="5">
             <cline>    vector&lt;vector&lt;Pixel&gt;&gt; matrix;</cline>
           </block>
-          <block order="7"
-                 correct="no">
+          <block order="7" correct="no">
             <cline>    vector&lt;Pixel&gt; matrix; </cline>
           </block>
-          <block order="1"
-                 correct="no">
+          <block order="1" correct="no">
             <cline>    vector&lt;vector&gt; matrix; </cline>
           </block>
           <block order="4">
@@ -101,9 +94,7 @@ struct Pixel {
     <statement>
       <p>Let's print out a <c>Pixel</c>! Write the <c>Pixel</c> member function <c>printPixel</c>, which prints out the
         values of the <c>Pixel</c> in this form: (r, g, b).</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_12_AC_3q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_12_AC_3q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -127,8 +118,7 @@ int main() {
     <solution>
       <p>Below is one way to implement the program. We use the scope resolution operator
         to make printPixel a Pixel member function.</p>
-      <program xml:id="cp_12_AC_3a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_12_AC_3a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -154,13 +144,12 @@ int main() {
 
   <exercise label="cp_12_AC_4_q">
     <statement>
-      <p>Now let&#8217;s print an <c>Image</c>. Unfortunately we can&#8217;t print out the actual image
+      <p>Now let’s print an <c>Image</c>. Unfortunately we can’t print out the actual image
         to the terminal, but we can print out the <c>Pixel</c>s in the <c>Image</c> matrix. Write the <c>Image</c>
         member function <c>printImage</c>. Separate pixels in the same row with a space and add a new line at
         the end of each row. Use the <c>printPixel</c> function we created previously. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_12_AC_4q_editor">
+    <program interactive="activecode" label="cp_12_AC_4q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -191,7 +180,7 @@ int main() {
         </code>
 <tests>
 void Pixel::printPixel() {
-    cout &lt;&lt; "("&lt;&lt; r &lt;&lt; ", " &lt;&lt; g &lt;&lt; ", " &lt;&lt; b &lt;&lt; ")";
+    cout &lt;&lt; &quot;(&quot;&lt;&lt; r &lt;&lt; &quot;, &quot; &lt;&lt; g &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;)&quot;;
 }
 </tests>
 
@@ -199,7 +188,7 @@ void Pixel::printPixel() {
     <hint>
       <activity label="cp_12_AC_4_pp">
         <statement>
-          <p>Now let&#8217;s print an <c>Image</c>. Unfortunately we can&#8217;t print out the actual
+          <p>Now let’s print an <c>Image</c>. Unfortunately we can’t print out the actual
             image to the terminal, but we can print out the <c>Pixel</c>s in the <c>Image</c> matrix. Write
             the <c>Image</c> member function <c>printImage</c>. Separate pixels in the same row with a space and
             add a new line at the end of each row. Use the <c>printPixel</c> function we created previously.
@@ -219,7 +208,7 @@ void Pixel::printPixel() {
             <cline>        matrix[r][c].printPixel();</cline>
           </block>
           <block order="3">
-            <cline>        cout &lt;&lt; " ";</cline>
+            <cline>        cout &lt;&lt; &quot; &quot;;</cline>
           </block>
           <block order="2">
             <cline>    }</cline>
@@ -244,9 +233,7 @@ void Pixel::printPixel() {
       <p>Somebody photobombed our image! What if we wanted to crop the photobomber out? Let's write
         the <c>Image</c> member function <c>cropImage</c>, which takes four paramenters, a start and stop row and
         a start and stop column. It then modifies the matrix to the cropped matrix.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_12_AC_5q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_12_AC_5q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -283,14 +270,14 @@ int main() {
         ]]></code>
       <tests>
 void Pixel::printPixel() {
-    cout &lt;&lt; "("&lt;&lt; r &lt;&lt; ", " &lt;&lt; g &lt;&lt; ", " &lt;&lt; b &lt;&lt; ")";
+    cout &lt;&lt; &quot;(&quot;&lt;&lt; r &lt;&lt; &quot;, &quot; &lt;&lt; g &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;)&quot;;
 }
 
 void Image::printImage() {
     for (int r = 0; r &lt; height; ++r) {
     for (int c = 0; c &lt; width; ++ c) {
         matrix[r][c].printPixel();
-        cout &lt;&lt; " ";
+        cout &lt;&lt; &quot; &quot;;
     }
     cout &lt;&lt; endl;
     }
@@ -303,8 +290,7 @@ void Image::printImage() {
         Afterwards, we must update the height and width of the Image and set the Image's
         matrix
         equal to the new one we created. </p>
-      <program xml:id="cp_12_AC_5a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_12_AC_5a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -354,12 +340,11 @@ int main() {
 
   <exercise label="cp_12_AC_6_q">
     <statement>
-      <p>Let&#8217;s write a <c>swapPixel</c> member function for <c>Image</c>. <c>swapPixel</c> takes two pairs of row
+      <p>Let’s write a <c>swapPixel</c> member function for <c>Image</c>. <c>swapPixel</c> takes two pairs of row
         indices and column indices from a matrix and swaps the two <c>Pixel</c>s at those locations. Note
         that these indices are 0-indexed, unlike the previous <c>cropIndex</c> parameters. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_12_AC_6q_editor">
+    <program interactive="activecode" label="cp_12_AC_6q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -394,14 +379,14 @@ int main() {
         </code>
 <tests>
 void Pixel::printPixel() {
-    cout &lt;&lt; "("&lt;&lt; r &lt;&lt; ", " &lt;&lt; g &lt;&lt; ", " &lt;&lt; b &lt;&lt; ")";
+    cout &lt;&lt; &quot;(&quot;&lt;&lt; r &lt;&lt; &quot;, &quot; &lt;&lt; g &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;)&quot;;
 }
 
 void Image::printImage() {
     for (int r = 0; r &lt; height; ++r) {
     for (int c = 0; c &lt; width; ++ c) {
         matrix[r][c].printPixel();
-        cout &lt;&lt; " ";
+        cout &lt;&lt; &quot; &quot;;
     }
     cout &lt;&lt; endl;
     }
@@ -424,7 +409,7 @@ void Image::cropImage(int startRow, int stopRow, int startCol, int stopCol) {
     <hint>
       <activity label="cp_12_AC_6_pp">
         <statement>
-          <p>Let&#8217;s write a <c>swapPixel</c> member function for <c>Image</c>. <c>swapPixel</c> takes two pairs of row
+          <p>Let’s write a <c>swapPixel</c> member function for <c>Image</c>. <c>swapPixel</c> takes two pairs of row
             indices and column indices from a matrix and swaps the two <c>Pixel</c>s at those locations.
             Note that these indices are 0-indexed, unlike the previous <c>cropIndex</c> parameters. Use the
             lines to construct the code, then go back to complete the Activecode.</p>
@@ -456,9 +441,7 @@ void Image::cropImage(int startRow, int stopRow, int startCol, int stopCol) {
       <p>When you take a selfie on your phone, the image is mirrored. We can do the same to an image
         by flipping it horizontally. Write the <c>Image</c> member function <c>flipHorizontal</c>, which flips an image
         horizontally. Use the <c>swapPixel</c> function we created previously.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_12_AC_7q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_12_AC_7q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -497,14 +480,14 @@ int main() {
         ]]></code>
       <tests>
 void Pixel::printPixel() {
-    cout &lt;&lt; "("&lt;&lt; r &lt;&lt; ", " &lt;&lt; g &lt;&lt; ", " &lt;&lt; b &lt;&lt; ")";
+    cout &lt;&lt; &quot;(&quot;&lt;&lt; r &lt;&lt; &quot;, &quot; &lt;&lt; g &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;)&quot;;
 }
 
 void Image::printImage() {
     for (int r = 0; r &lt; height; ++r) {
     for (int c = 0; c &lt; width; ++ c) {
         matrix[r][c].printPixel();
-        cout &lt;&lt; " ";
+        cout &lt;&lt; &quot; &quot;;
     }
     cout &lt;&lt; endl;
     }
@@ -535,8 +518,7 @@ void Image::swapPixel(int row1, int col1, int row2, int col2) {
         indices
         toward the middle. Once they meet in the middle, we have finished flipping the
         image.</p>
-      <program xml:id="cp_12_AC_7a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_12_AC_7a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -587,12 +569,11 @@ int main() {
 
   <exercise label="cp_12_AC_8_q">
     <statement>
-      <p>Oops! Somehow our image came out upside down. Let&#8217;s write the <c>Image</c> member function <c>flipVertical</c>,
+      <p>Oops! Somehow our image came out upside down. Let’s write the <c>Image</c> member function <c>flipVertical</c>,
         which reverts an image to be right side up. Check the hint below for help with the
         construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_12_AC_8q_editor">
+    <program interactive="activecode" label="cp_12_AC_8q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -632,14 +613,14 @@ int main() {
         </code>
 <tests>
 void Pixel::printPixel() {
-    cout &lt;&lt; "("&lt;&lt; r &lt;&lt; ", " &lt;&lt; g &lt;&lt; ", " &lt;&lt; b &lt;&lt; ")";
+    cout &lt;&lt; &quot;(&quot;&lt;&lt; r &lt;&lt; &quot;, &quot; &lt;&lt; g &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;)&quot;;
 }
 
 void Image::printImage() {
     for (int r = 0; r &lt; height; ++r) {
     for (int c = 0; c &lt; width; ++ c) {
         matrix[r][c].printPixel();
-        cout &lt;&lt; " ";
+        cout &lt;&lt; &quot; &quot;;
     }
     cout &lt;&lt; endl;
     }
@@ -680,7 +661,7 @@ void Image::flipHorizontal() {
     <hint>
       <activity label="cp_12_AC_8_pp">
         <statement>
-          <p>Oops! Somehow our image came out upside down. Let&#8217;s write the <c>Image</c> member
+          <p>Oops! Somehow our image came out upside down. Let’s write the <c>Image</c> member
             function <c>flipVertical</c>, which reverts an image to be right side up. Use the lines to construct
             the code, then go back to complete the Activecode.</p>
         </statement>
@@ -725,9 +706,7 @@ void Image::flipHorizontal() {
     <statement>
       <p>Let's write the <c>Image</c> member function called <c>createBorder</c>, which sets the <c>Pixel</c>s on the edge
         of an <c>Image</c> to a given <c>Pixel</c>.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_12_AC_9q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_12_AC_9q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -770,14 +749,14 @@ int main() {
         ]]></code>
       <tests>
 void Pixel::printPixel() {
-    cout &lt;&lt; "("&lt;&lt; r &lt;&lt; ", " &lt;&lt; g &lt;&lt; ", " &lt;&lt; b &lt;&lt; ")";
+    cout &lt;&lt; &quot;(&quot;&lt;&lt; r &lt;&lt; &quot;, &quot; &lt;&lt; g &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;)&quot;;
 }
 
 void Image::printImage() {
     for (int r = 0; r &lt; height; ++r) {
     for (int c = 0; c &lt; width; ++ c) {
         matrix[r][c].printPixel();
-        cout &lt;&lt; " ";
+        cout &lt;&lt; &quot; &quot;;
     }
     cout &lt;&lt; endl;
     }
@@ -829,8 +808,7 @@ void Image::flipVertical() {
     <solution>
       <p>Below is one way to implement the program. We set the first and last row and
         first and last column of Pixels in the Image to the given Pixel.</p>
-      <program xml:id="cp_12_AC_9a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_12_AC_9a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -884,12 +862,11 @@ int main() {
 
   <exercise label="cp_12_AC_10_q">
     <statement>
-      <p>Let&#8217;s return our image to the state of a clean slate. Write the function <c>clearImage</c>,
+      <p>Let’s return our image to the state of a clean slate. Write the function <c>clearImage</c>,
         which sets the color of every <c>Pixel</c> to white. Check the hint below for help with the
         construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_12_AC_10q_editor">
+    <program interactive="activecode" label="cp_12_AC_10q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -930,14 +907,14 @@ int main() {
         </code>
 <tests>
 void Pixel::printPixel() {
-    cout &lt;&lt; "("&lt;&lt; r &lt;&lt; ", " &lt;&lt; g &lt;&lt; ", " &lt;&lt; b &lt;&lt; ")";
+    cout &lt;&lt; &quot;(&quot;&lt;&lt; r &lt;&lt; &quot;, &quot; &lt;&lt; g &lt;&lt; &quot;, &quot; &lt;&lt; b &lt;&lt; &quot;)&quot;;
 }
 
 void Image::printImage() {
     for (int r = 0; r &lt; height; ++r) {
     for (int c = 0; c &lt; width; ++ c) {
         matrix[r][c].printPixel();
-        cout &lt;&lt; " ";
+        cout &lt;&lt; &quot; &quot;;
     }
     cout &lt;&lt; endl;
     }
@@ -1001,7 +978,7 @@ void Image::createBorder(Pixel p) {
     <hint>
       <activity label="cp_12_AC_10_pp">
         <statement>
-          <p>Let&#8217;s return our image to the state of a clean slate. Write the function <c>clearImage</c>,
+          <p>Let’s return our image to the state of a clean slate. Write the function <c>clearImage</c>,
             which sets the color of every <c>Pixel</c> to white. Use the lines to construct the code,
             then go back to complete the Activecode.</p>
         </statement>

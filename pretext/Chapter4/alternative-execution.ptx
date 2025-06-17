@@ -1,14 +1,13 @@
-<?xml version="1.0"?>
-<section xml:id="chapter4_alternative-execution-alternative">
+<?xml version="1.0" ?><section xml:id="chapter4_alternative-execution-alternative">
   <title>Alternative Execution</title>
   <p>A second form of conditional execution is alternative execution, in
     which there are two possibilities, and the condition determines which
     one gets executed. The syntax looks like:</p>
   <program>if (x % 2 == 0) {
-  cout &lt;&lt; "x is even" &lt;&lt; endl;
+  cout &lt;&lt; &quot;x is even&quot; &lt;&lt; endl;
 }
 else {
-  cout &lt;&lt; "x is odd" &lt;&lt; endl;
+  cout &lt;&lt; &quot;x is odd&quot; &lt;&lt; endl;
 }</program>
   <p>If the remainder when x is divided by 2 is zero, then we know that x is
     even, and this code displays a message to that effect. If the condition
@@ -18,10 +17,10 @@ else {
     often, you might want to <q>wrap</q> this code up in a function, as follows:</p>
   <program>void printParity(int x) {
   if (x % 2 == 0) {
-    cout &lt;&lt; "x is even" &lt;&lt; endl;
+    cout &lt;&lt; &quot;x is even&quot; &lt;&lt; endl;
   }
   else {
-    cout &lt;&lt; "x is odd" &lt;&lt; endl;
+    cout &lt;&lt; &quot;x is odd&quot; &lt;&lt; endl;
   }
 }</program>
   <p>Now you have a function named <c>printParity</c> that will display an appropriate message for any integer
@@ -40,9 +39,7 @@ printParity(int number);         // WRONG!!!</program>
         Feel free to modify the values of number and otherNumber to
         see how the output is changed.
     </title>
-    <program xml:id="alt_execution_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="alt_execution_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -74,10 +71,10 @@ using namespace std;
 
 void weather(int temp) {
   if (temp &lt; 52) {
-    cout &lt;&lt; "It is cold!";
+    cout &lt;&lt; &quot;It is cold!&quot;;
   }
   else {
-    cout &lt;&lt; "It is warm!";
+    cout &lt;&lt; &quot;It is warm!&quot;;
   }
 }
 
@@ -121,9 +118,7 @@ int main() {
       </choice>
     </choices>
   </exercise>
-  <exercise label="alt_execution_2"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="alt_execution_2" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that correctly goes through alternative execution for pricing of
         an entre at a nice restaurant. If the price is more than $30.00, print <q>Expensive!</q>. If
@@ -146,7 +141,7 @@ int main() {
         <cline><![CDATA[ cout << "Expensive!";]]></cline>
       </block>
       <block order="6">
-        <cline>} //"if" bracket</cline>
+        <cline>} //&quot;if&quot; bracket</cline>
       </block>
       <block order="7">
         <choice correct="yes">
@@ -165,7 +160,7 @@ int main() {
         </choice>
       </block>
       <block order="4">
-        <cline>} //"else" bracket</cline>
+        <cline>} //&quot;else&quot; bracket</cline>
       </block>
     </blocks>
   </exercise>

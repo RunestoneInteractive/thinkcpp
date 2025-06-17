@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter15_the-set-data-structure">
+<?xml version="1.0" ?><section xml:id="chapter15_the-set-data-structure">
   <title>The <c>Set</c> data structure</title>
   <p>A data structure is a container for grouping a collection of data into a single object. We have
     seen some examples already, including <c>string</c>s, which are collections of characters, and <c>vector</c>s
@@ -76,7 +75,7 @@ Set::Set(int n)
   if (i &lt; numElements) {
     return elements[i];
   } else {
-    cout &lt;&lt; "Set index out of range." &lt;&lt; endl;
+    cout &lt;&lt; &quot;Set index out of range.&quot; &lt;&lt; endl;
     exit (1);
   }
 }</program>
@@ -128,9 +127,7 @@ int index2 = cities.add (city2);</program>
   <p>I modified <c>processLine</c> to take the <c>cities</c> object as a second parameter.</p>
   <listing label="set_sample">
     <title>Try running the program:</title>
-  <program xml:id="c15_7"
-           interactive="activecode"
-           line-numbers="yes">
+  <program interactive="activecode" line-numbers="yes" label="c15_7">
     <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -177,7 +174,7 @@ string Set::getElement(int i) const {
     return elements[i];
   }
   else {
-   cout &lt;&lt; "Set index out of range." &lt;&lt; endl;
+   cout &lt;&lt; &quot;Set index out of range.&quot; &lt;&lt; endl;
    exit (1);
   }
 }
@@ -217,7 +214,7 @@ int Set::add(const string&amp; s) {
           <p>the set grows to accomodate any new elements we add</p>
         </statement>
         <feedback><p>
-          Correct! This is the "arbitrary size" property.
+          Correct! This is the &quot;arbitrary size&quot; property.
         </p></feedback>
       </choice>
       <choice>
@@ -233,7 +230,7 @@ int Set::add(const string&amp; s) {
           <p>elements of the set have indices, which can be used to identify them</p>
         </statement>
         <feedback><p>
-          Correct! This is the "ordering" property.
+          Correct! This is the &quot;ordering&quot; property.
         </p></feedback>
       </choice>
       <choice>
@@ -313,14 +310,14 @@ int Set::add(const string&amp; s) {
         following code.
       </p>
       <program>Set cities(10);
-cities.add("Detroit");
-cities.add("Ann Arbor");
-cities.add("Ann Arbor");
-cities.add("East Lansing");
-cities.add("Grand Rapids");
-cities.add("Detroit");
-cities.add("Mackinac");
-cities.add("Mackinaw");
+cities.add(&quot;Detroit&quot;);
+cities.add(&quot;Ann Arbor&quot;);
+cities.add(&quot;Ann Arbor&quot;);
+cities.add(&quot;East Lansing&quot;);
+cities.add(&quot;Grand Rapids&quot;);
+cities.add(&quot;Detroit&quot;);
+cities.add(&quot;Mackinac&quot;);
+cities.add(&quot;Mackinaw&quot;);
 string element = cities.getElement(4);  cout &lt;&lt; element;</program>
       <p>Type the output exactly as it would appear in the terminal.</p>
       <fillin mode="string" case="insensitive" answer="Mackinac"/>

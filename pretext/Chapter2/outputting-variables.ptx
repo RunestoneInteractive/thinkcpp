@@ -17,7 +17,7 @@ The current time is 11:59
       This program outputs the current time, according to the values you
         provide for hour and minute.
     </title>
-    <program xml:id="output_vars_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="output_vars_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -52,7 +52,7 @@ int main() {
       This program does the same thing as the previous, but the print
         statements have been condensed to one line. This is better style.
     </title>
-    <program xml:id="output_vars_AC_2_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="output_vars_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

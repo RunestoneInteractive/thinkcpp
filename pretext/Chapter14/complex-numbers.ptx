@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter14_complex-numbers">
+<?xml version="1.0" ?><section xml:id="chapter14_complex-numbers">
   <title>Complex numbers</title>
   <p>As a running example for the rest of this chapter we will consider a
             class definition for complex numbers. Complex numbers are useful for
@@ -109,7 +108,7 @@ public:
             object which is represented by three sides. In <c>main</c>, we print out the perimeter of
             the triangle, which should be 12.
     </title>
-    <program xml:id="fourteentwo_editor" interactive="activecode" download="yes" line-numbers="yes">
+    <program interactive="activecode" download="yes" line-numbers="yes" label="fourteentwo_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -144,7 +143,7 @@ int main() {
             the interface the same. Now, <c>Triangle</c> is represented by two sides and the
             angle between them. Notice how our <c>main</c> function is the exact same as before.
     </title>
-    <program xml:id="fourteenthree_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteenthree_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>

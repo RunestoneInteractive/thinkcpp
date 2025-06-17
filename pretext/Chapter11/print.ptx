@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter11_print">
+<?xml version="1.0" ?><section xml:id="chapter11_print">
   <title>
     <c>print</c>
   </title>
@@ -11,7 +10,7 @@
 };
 
 void printTime(const Time&amp; time) {
-  cout &lt;&lt; time.hour &lt;&lt; ":" &lt;&lt; time.minute &lt;&lt; ":" &lt;&lt; time.second &lt;&lt; endl;
+  cout &lt;&lt; time.hour &lt;&lt; &quot;:&quot; &lt;&lt; time.minute &lt;&lt; &quot;:&quot; &lt;&lt; time.second &lt;&lt; endl;
 }</program>
   <p>To call this function, we had to pass a <c>Time</c> object as a parameter.</p>
   <program>Time currentTime = { 9, 14, 30.0 };
@@ -32,7 +31,7 @@ printTime(currentTime);</program>
     following function, we use it to assign the value of <c>this</c> to a local variable named <c>time</c>.</p>
   <program>void Time::print() {
   Time time = *this;
-  cout &lt;&lt; time.hour &lt;&lt; ":" &lt;&lt; time.minute &lt;&lt; ":" &lt;&lt; time.second &lt;&lt; endl;
+  cout &lt;&lt; time.hour &lt;&lt; &quot;:&quot; &lt;&lt; time.minute &lt;&lt; &quot;:&quot; &lt;&lt; time.second &lt;&lt; endl;
 }</program>
   <p>The first two lines of this function changed quite a bit as we
     transformed it into a member function, but notice that the output
@@ -66,9 +65,7 @@ currentTime.print();</program>
     <title>
       Feel free to mess around with input for <c>currentTime</c> in this active code!
     </title>
-    <program xml:id="print_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="print_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -88,7 +85,7 @@ int main() {
         ]]></code>
       <tests>
 void Time::print() {
-  cout &lt;&lt; hour &lt;&lt; ":" &lt;&lt; minute &lt;&lt; ":" &lt;&lt; second &lt;&lt; endl;
+  cout &lt;&lt; hour &lt;&lt; &quot;:&quot; &lt;&lt; minute &lt;&lt; &quot;:&quot; &lt;&lt; second &lt;&lt; endl;
 }
 </tests>
     </program>
@@ -152,10 +149,7 @@ void Time::print() {
       </choice>
     </choices>
   </exercise>
-  <exercise label="print_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="print_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Create the <c>Dog</c> object with member functions <c>bark</c> and <c>is_teacup_dog</c> (if the weight of the
         dog is less than 4 pounds) Write the functions in the same order they appear inside the

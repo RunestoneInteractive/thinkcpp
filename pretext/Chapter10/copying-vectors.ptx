@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_copying-vectors">
+<?xml version="1.0" ?><section xml:id="chapter10_copying-vectors">
   <title>Copying vectors</title>
   <p>There is one more constructor for <c>vector</c>s, which is called a copy constructor because it takes
     one <c>vector</c> as an argument and creates a new vector that is the same size, with the same
@@ -17,9 +16,7 @@ vector&lt;int&gt; countCopy = count;
     <title>
       Take a look at this active code, which uses the copy constructor.
     </title>
-    <program xml:id="copying_vectors_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="copying_vectors_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -44,13 +41,13 @@ int main() {
 
 void print_vec(vector&lt;int&gt; vec) {
    size_t i = 0;
-   cout &lt;&lt; "[";
+   cout &lt;&lt; &quot;[&quot;;
    while (i &lt; vec.size()-1) {
-       cout &lt;&lt; vec[i] &lt;&lt; ",";
+       cout &lt;&lt; vec[i] &lt;&lt; &quot;,&quot;;
        i++;
    }
    cout &lt;&lt; vec[vec.size()-1];
-   cout &lt;&lt; "]" &lt;&lt; endl;
+   cout &lt;&lt; &quot;]&quot; &lt;&lt; endl;
 }
 </tests>
     </program>
@@ -106,9 +103,7 @@ void print_vec(vector&lt;int&gt; vec) {
   <exercise label="copying_vectors_2">
     <statement>
       <p>What is the name of the function that takes a vector as an argument, and creates a new
-        vector of the same size and with the same elements? <fillin mode="string"
-                case="insensitive"
-                answer="constructor"/>
+        vector of the same size and with the same elements? <fillin mode="string" case="insensitive" answer="constructor"/>
       </p>
     </statement>
     <evaluation>

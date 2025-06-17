@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter12_searching-find">
+<?xml version="1.0" ?><section xml:id="chapter12_searching-find">
   <title>Searching</title>
   <p>The next function I want to write is <c>find</c>, which searches through a vector of <c>Card</c>s to
     see whether it contains a certain card. It may not be obvious why this function would be useful,
@@ -25,7 +24,7 @@
   <program>vector&lt;Card&gt; deck = buildDeck();
 
 int index = card.find(deck[17]);
-cout &lt;&lt; "I found the card at index = " &lt;&lt; index &lt;&lt; endl;</program>
+cout &lt;&lt; &quot;I found the card at index = &quot; &lt;&lt; index &lt;&lt; endl;</program>
   <p>The output of this code is</p>
   <console><output>I found the card at index = 17</output></console>
   <listing label="12_8">
@@ -33,9 +32,7 @@ cout &lt;&lt; "I found the card at index = " &lt;&lt; index &lt;&lt; endl;</prog
       The code below searches for a particular card in a standard deck of 52 cards.
         It returns the index that the card was located at.
     </title>
-    <program xml:id="c12_8_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="c12_8_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -79,27 +76,27 @@ Card::Card(int s, int r) {
 
 void Card::print() const {
    vector&lt;string&gt; suits(4);
-   suits[0] = "Clubs";
-   suits[1] = "Diamonds";
-   suits[2] = "Hearts";
-   suits[3] = "Spades";
+   suits[0] = &quot;Clubs&quot;;
+   suits[1] = &quot;Diamonds&quot;;
+   suits[2] = &quot;Hearts&quot;;
+   suits[3] = &quot;Spades&quot;;
 
    vector&lt;string&gt; ranks(14);
-   ranks[1] = "Ace";
-   ranks[2] = "2";
-   ranks[3] = "3";
-   ranks[4] = "4";
-   ranks[5] = "5";
-   ranks[6] = "6";
-   ranks[7] = "7";
-   ranks[8] = "8";
-   ranks[9] = "9";
-   ranks[10] = "10";
-   ranks[11] = "Jack";
-   ranks[12] = "Queen";
-   ranks[13] = "King";
+   ranks[1] = &quot;Ace&quot;;
+   ranks[2] = &quot;2&quot;;
+   ranks[3] = &quot;3&quot;;
+   ranks[4] = &quot;4&quot;;
+   ranks[5] = &quot;5&quot;;
+   ranks[6] = &quot;6&quot;;
+   ranks[7] = &quot;7&quot;;
+   ranks[8] = &quot;8&quot;;
+   ranks[9] = &quot;9&quot;;
+   ranks[10] = &quot;10&quot;;
+   ranks[11] = &quot;Jack&quot;;
+   ranks[12] = &quot;Queen&quot;;
+   ranks[13] = &quot;King&quot;;
 
-   cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+   cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
  }
 
  void printDeck(const vector&lt;Card&gt;&amp; deck) {

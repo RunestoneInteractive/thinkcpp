@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_traversal">
+<?xml version="1.0" ?><section xml:id="chapter7_traversal">
   <title>Traversal</title>
   <p>A common thing to do with a string is start at the beginning, select each character in turn, do
     something to it, and continue until the end. This pattern of processing is called a <term>
@@ -14,9 +13,7 @@
     <title>
       This active code outputs each letter of string <c>fruit</c> using a while loop.
     </title>
-    <program xml:id="traversal_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="traversal_AC_1_editor">
       <code><![CDATA[
 #include <string>
 #include <iostream>
@@ -49,9 +46,7 @@ int main() {
       Try writing the <c>reverseWord</c> function in the commented section of this active code. If done
         correctly, the program should output <q>hello</q> backwards. If you get stuck, you can
         reveal the hint below for help.</p>
-    <program xml:id="traversal_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="traversal_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -67,12 +62,7 @@ int main() {
         ]]></code>
     </program></statement>
     <hint>
-      <activity label="traversal_1_hint"
-                number="yes"
-                adaptive="yes"
-                indentation="hide"
-                exercise-interactive="parson"
-                langauge="cpp">
+      <activity label="traversal_1_hint" number="yes" adaptive="yes" indentation="hide" exercise-interactive="parson" langauge="cpp">
         <statement>
           <p>Let's write the code for the <c>reverseWord</c> function. <c>reverseWord</c> should take a string as a
             parameter and output the letters backwards.</p>
@@ -108,8 +98,7 @@ int main() {
             <cline> }</cline>
             <cline>}</cline>
           </block>
-          <block order="3"
-                 correct="no">
+          <block order="3" correct="no">
             <cline>  index = index + 1;</cline>
             <cline>  count = count + 1;</cline>
             <cline> }</cline>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_extracting-characters-from-a-string">
+<?xml version="1.0" ?><section xml:id="chapter7_extracting-characters-from-a-string">
   <title>Extracting characters from a string</title>
   <p>Strings are called <q>strings</q> because they are made up of a sequence, or string, of
     characters. The first operation we are going to perform on a string is to extract one of the
@@ -9,9 +8,7 @@
       Take a look at this active code. We extract the character at index 1 from string <c>fruit</c>
         using <c>[</c> and <c>]</c>.
     </title>
-    <program xml:id="extracting_characters_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="extracting_characters_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -28,8 +25,8 @@ int main() {
     The result is stored in a <c>char</c> named <c>letter</c>. When I output the value of <c>letter</c>, I get a
     surprise:</p>
   <console><output>a</output></console>
-  <p><c>a</c> is not the first letter of <c>"banana"</c>. Unless you are a computer scientist. For perverse
-    reasons, computer scientists always start counting from zero. The 0th letter (<q>zeroeth</q>) of <c>"banana"</c>
+  <p><c>a</c> is not the first letter of <c>&quot;banana&quot;</c>. Unless you are a computer scientist. For perverse
+    reasons, computer scientists always start counting from zero. The 0th letter (<q>zeroeth</q>) of <c>&quot;banana&quot;</c>
     is <c>b</c>. The 1th letter (<q>oneth</q>) is <c>a</c> and the 2th (<q>twoeth</q>) letter is <c>n</c>
     .</p>
   <note>
@@ -41,9 +38,7 @@ int main() {
     <title>
       This active code accesses the first character in string <c>fruit</c>.
     </title>
-    <program xml:id="extracting_characters_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="extracting_characters_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -85,7 +80,7 @@ int main() {
           <p>0</p>
         </statement>
         <feedback><p>
-          Yes, this would access the letter "b".
+          Yes, this would access the letter &quot;b&quot;.
         </p></feedback>
       </choice>
       <choice>
@@ -93,7 +88,7 @@ int main() {
           <p>2</p>
         </statement>
         <feedback><p>
-          This would access the letter "k".
+          This would access the letter &quot;k&quot;.
         </p></feedback>
       </choice>
     </choices>
@@ -137,7 +132,7 @@ int main() {
           <p>lello</p>
         </statement>
         <feedback><p>
-          Correct! We copy the 'l' from position 3 of "hello" to position 0.
+          Correct! We copy the 'l' from position 3 of &quot;hello&quot; to position 0.
         </p></feedback>
       </choice>
       <choice>
@@ -159,30 +154,27 @@ int main() {
     </p></feedback>
     <areas>
       <cline><area correct="no">def main() {</area></cline>
-      <cline><area correct="no">string fruit = "apple";</area></cline>
+      <cline><area correct="no">string fruit = &quot;apple&quot;;</area></cline>
       <cline>    char letter = <area correct="yes">fruit[2];</area></cline>
       <cline><area correct="no">cout &lt;&lt; fruit &lt;&lt; endl;</area></cline>
       <cline>    cout &lt;&lt;  <area correct="yes">fruit[4]</area>  &lt;&lt; endl;</cline>
       <cline>}</cline>
     </areas>
   </exercise>
-  <exercise label="extracting_characters_4"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="extracting_characters_4" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that correctly prints the letter <q>a</q>.</p>
     </statement>
     <blocks>
-      <block order="2" >
+      <block order="2">
         <cline>string x;</cline>
       </block>
       <block order="1" correct="no">
         <choice correct="yes">
-          <cline>x = "It is warm outside!";</cline>
+          <cline>x = &quot;It is warm outside!&quot;;</cline>
         </choice>
         <choice>
-          <cline>x = "It is warm outside" </cline>
+          <cline>x = &quot;It is warm outside&quot; </cline>
         </choice>
       </block>
       <block order="3">

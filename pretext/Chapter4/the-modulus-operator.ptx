@@ -8,7 +8,7 @@
       This program shows the difference between the division operator
         and the modulus operator.
     </title>
-    <program xml:id="mod_operator_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="mod_operator_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

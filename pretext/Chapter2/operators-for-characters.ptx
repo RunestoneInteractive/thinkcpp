@@ -1,13 +1,10 @@
-<?xml version="1.0"?>
-<section xml:id="chapter2_operators-for-characters">
+<?xml version="1.0" ?><section xml:id="chapter2_operators-for-characters">
   <title>Operators for Characters</title>
   <p>Interestingly, the same mathematical operations that work on integers
     also work on characters. For example, observe the output of the following program.</p>
   <listing label="char_operations_AC_1">
     <title>This program performs character addition.</title>
-    <program xml:id="char_operations_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="char_operations_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -35,9 +32,7 @@ int main() {
       This program performs automatic type converstion. It converts <c>'a'</c>
         to its ASCII value.
     </title>
-    <program xml:id="char_operations_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="char_operations_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -56,7 +51,7 @@ int main() {
     from one to the other if there is a good reason.</p>
   <note>
     <p>Characters in C++ hold <url href="https://www.ascii-code.com/ASCII">ASCII</url> values, which range from 0 to 128. Uppercase
-      &#x2018;A' has an ASCII value of 65, lowercase &#x2018;a' has a value of 97, and a space has a
+      ‘A' has an ASCII value of 65, lowercase ‘a' has a value of 97, and a space has a
       value of 32. C++ converts characters to their ASCII values to perform automatic type
       conversion and character arithmetic.</p>
   </note>
@@ -84,12 +79,9 @@ int main() {
       </evaluate>
     </evaluation>
   </exercise>
-  <exercise label="char_operations_2"
-           number="yes"
-           adaptive="yes"
-           indentation="hide">
+  <exercise label="char_operations_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
-      <p>Construct a main function that uses character operations to generate the output &#x2018;r'.</p>
+      <p>Construct a main function that uses character operations to generate the output ‘r'.</p>
     </statement>
     <blocks>
       <block order="3">
@@ -98,27 +90,23 @@ int main() {
       <block order="1">
         <cline> char r;</cline>
       </block>
-      <block order="5"
-             correct="no">
+      <block order="5" correct="no">
         <cline> int r; </cline>
       </block>
       <block order="2">
         <cline> r = 'p' + 2;</cline>
       </block>
-      <block order="7"
-             correct="no">
+      <block order="7" correct="no">
         <cline> r = p + 2; </cline>
       </block>
-      <block order="6"
-             correct="no">
+      <block order="6" correct="no">
         <cline> r = 'p' + 3; </cline>
       </block>
       <block order="8">
         <cline> cout &lt;&lt; r;</cline>
       </block>
-      <block order="4"
-             correct="no">
-        <cline> cout &lt;&lt; "r"; </cline>
+      <block order="4" correct="no">
+        <cline> cout &lt;&lt; &quot;r&quot;; </cline>
       </block>
       <block order="9">
         <cline>}</cline>

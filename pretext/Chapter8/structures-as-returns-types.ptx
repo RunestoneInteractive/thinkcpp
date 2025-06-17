@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_structures-as-return-types">
+<?xml version="1.0" ?><section xml:id="chapter8_structures-as-return-types">
   <title>Structures as return types</title>
   <p>You can write functions that return structures. For example, <c>findCenter</c> takes a <c>Rectangle</c> as an
     argument and returns a <c>Point</c> that contains the coordinates of the center of the <c>Rectangle</c>:</p>
@@ -18,9 +17,7 @@ printPoint (center);</program>
     <title>
       This active code uses the <c>findCenter</c> function. Run the code to see what the output is!
     </title>
-    <program xml:id="structures_return_types_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="structures_return_types_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

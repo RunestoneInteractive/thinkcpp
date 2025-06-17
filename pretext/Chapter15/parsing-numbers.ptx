@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter15_parsing-numbers">
+<?xml version="1.0" ?><section xml:id="chapter15_parsing-numbers">
   <title>Parsing numbers</title>
   <p>The next task is to convert the numbers in the file from strings to integers. When people write
     large numbers, they often use commas to group the digits, as in 1,750. Most of the time when
@@ -17,7 +16,7 @@
 
 int convertToInt(const string&amp; s)
 {
-  string digitString = "";
+  string digitString = &quot;&quot;;
 
   for (size_t i = 0; i &lt; s.length(); i++) {
     if (isdigit (s[i])) {
@@ -42,9 +41,7 @@ digitString = digitString + s[i];
     string.</p>
   <p>Try the function out for yourself! As you can see, this function can also be used
     to parse phone numbers!</p>
-  <program xml:id="c15_6"
-           interactive="activecode"
-           line-numbers="yes">
+  <program interactive="activecode" line-numbers="yes" label="c15_6">
     <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -155,10 +152,7 @@ int main() {
       </choice>
     </choices>
   </exercise>
-  <exercise label="question15_6_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="question15_6_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Create the replace_with() function that takes a string <q>str</q>, a character to get rid
         of <q>olc_char</q>, and a character to replace it with <q>new_char</q>. It should return a

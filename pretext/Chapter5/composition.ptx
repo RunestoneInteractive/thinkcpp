@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter5_composition">
+<?xml version="1.0" ?><section xml:id="chapter5_composition">
   <title>Composition</title>
   <p>As you should expect by now, once you define a new function, you can use
     it as part of an expression, and you can build new functions using
@@ -37,9 +36,7 @@ return result;</program>
         if we only know the coordinates of the center, and one other point
         of the circle.
     </title>
-    <program xml:id="fun_comp_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fun_comp_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -115,7 +112,7 @@ int main() {
       <p>It turns out you already have a function called <c>printHelloName</c> so you must rename this one. Which
         of the following could be the new name for your function?</p>
       <program>void printHelloName(string name) {
-  cout &lt;&lt; "Hello " &lt;&lt; name &lt;&lt; "!" &lt;&lt;  endl;
+  cout &lt;&lt; &quot;Hello &quot; &lt;&lt; name &lt;&lt; &quot;!&quot; &lt;&lt;  endl;
 }</program>
     </statement>
     <choices>
@@ -174,9 +171,7 @@ int main() {
       This program shows how mutliple calls are made to one function and it
         also shows that calling two or more different functions is valid.
     </title>
-    <program xml:id="multi_comp_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="multi_comp_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<exercises xml:id="chapter2_activecode-exercises">
+<?xml version="1.0" ?><exercises xml:id="chapter2_activecode-exercises">
     <title>Activecode Exercises</title>
     <introduction><p>
         Answer the following <term>Activecode</term> questions to assess what you have
@@ -10,10 +9,7 @@
       <p>Fix the code below so that it runs without errors. Hint: you might need to change the
         names
         of some variables.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             language="python"
-             xml:id="VARS_a1q_editor">
+    <program interactive="activecode" line-numbers="yes" language="python" label="VARS_a1q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -30,8 +26,7 @@ int main() {
     <solution>
       <p>Below is one way to fix the program. true and false are
         keywords, so they cannot be used as variable names.</p>
-      <program xml:id="VARS_a1a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="VARS_a1a_editor" line-numbers="yes"><code><![CDATA[
            #include <iostream>
            using namespace std;
            
@@ -49,10 +44,7 @@ int main() {
   <exercise label="VARS_a2">
     <statement>
       <p>Finish the code below so that it prints <q>I drive a 2014 Buick Regal</q></p>
-    <program xml:id="VARS_a2_editor"
-             interactive="activecode"
-             language="cpp"
-             line-numbers="yes">
+    <program interactive="activecode" language="cpp" line-numbers="yes" label="VARS_a2_editor">
           <code><![CDATA[
     #include <iostream>
     using namespace std;
@@ -73,17 +65,12 @@ int main() {
     <hint>
       <p>Finish the code below so that it prints <q>I drive a 2014 Buick Regal</q>. Use the lines to
         construct the pseudocode, then go back to complete the exercise.</p>
-      <activity label="VARS_a2_p"
-                number="yes"
-                adaptive="yes"
-        language="cpp"
-                indentation="show">
+      <activity label="VARS_a2_p" number="yes" adaptive="yes" language="cpp" indentation="show">
         <statement>
           <p>Finish the code below so that it prints <q>I drive a 2014 Buick Regal</q>. Use the
             lines to construct the pseudocode, then go back to complete the exercise.</p>
         </statement>
-        <blocks 
-        language="cpp">
+        <blocks language="cpp">
           <block order="12">
             <cline>Open main()</cline>
           </block>
@@ -132,9 +119,7 @@ int main() {
   <exercise label="VARS_a3">
     <statement>
       <p>Fix the code below so that it prints <q>Cady scored 90% on the exam.</q></p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="VARS_a3q_editor">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a3q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -151,8 +136,7 @@ int main() {
     <solution>
       <p>Below is one way to fix the program. We want to use doubles so
         that our result isn't rounded down to 0 through integer division.</p>
-      <program xml:id="VARS_a3a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="VARS_a3a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -170,9 +154,7 @@ int main() {
         Hint: think about what happens when you use integer division. The volume of a sphere is
         given by:
       <me>V = \frac{4}{3} \pi r^3</me></p>
-    <program xml:id="VARS_a4_ps_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a4_ps_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -192,11 +174,7 @@ int main() {
     </program></statement>
     <hint>
       <p>Use the lines on to construct the pseudocode, then go back to complete the exercise.</p>
-      <activity label="VARS_a4_p_ps"
-                number="yes"
-                adaptive="yes"
-                indentation="show"
-                exercise-interactive="parson">
+      <activity label="VARS_a4_p_ps" number="yes" adaptive="yes" indentation="show" exercise-interactive="parson">
         <blocks>
           <block order="6">
             <cline>Open main()</cline>
@@ -233,9 +211,7 @@ int main() {
     <statement>
       <p>Fix the code below so that assigns <c>a</c> its correct value of <c>'a'</c>. Hint: use
         character operations!</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="VARS_a5q_editor">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a5q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -255,8 +231,7 @@ int main() {
     <solution><p> Below is one way to complete the program. There are many
       creative ways that you could use the order of operations to come up with a complex expression
       that will bring you to 'a', here is one way.</p>
-      <program xml:id="VARS_a5a_editor"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="VARS_a5a_editor" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -275,9 +250,7 @@ int main() {
       <p>Write code that assigns <q>apples</q> to the variable oranges, and <q>oranges</q> to the
         variable apples, then swaps their values. Be sure to include any necessary headers. YOU MAY
         NOT HARDCODE YOUR SOLUTION.</p>
-    <program xml:id="VARS_a6_ps_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a6_ps_editor">
         <code><![CDATA[
 int main() {
 
@@ -290,11 +263,7 @@ int main() {
       </program></statement>
     <hint>
       <p>Use the lines to construct the pseudocode, then go back to complete the exercise.</p>
-      <activity label="VARS_a6_p_ps"
-                number="yes"
-                exercise-interactive="parson"
-                adaptive="yes"
-                indentation="show">
+      <activity label="VARS_a6_p_ps" number="yes" exercise-interactive="parson" adaptive="yes" indentation="show">
         <blocks>
           <block order="7">
             <cline>Open main()</cline>
@@ -303,13 +272,13 @@ int main() {
             <cline>Initialize oranges as string;</cline>
           </block>
           <block order="5">
-            <cline>Assign "apples" to oranges;</cline>
+            <cline>Assign &quot;apples&quot; to oranges;</cline>
           </block>
           <block order="8">
             <cline>Initialize apples as string;</cline>
           </block>
           <block order="3">
-            <cline>Assign "oranges" to apples;</cline>
+            <cline>Assign &quot;oranges&quot; to apples;</cline>
           </block>
           <block order="10">
             <cline>Assign apples to a temporary variable;</cline>
@@ -335,9 +304,7 @@ int main() {
     <statement>
       <p>Write code that prints <q>Eat</q>, <q>More</q>, and <q>Chicken</q> on 3 consecutive lines.
         Be sure to inclue any necessary headers.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="VARS_a7q_editor">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a7q_editor">
       <code>
 int main() {
 
@@ -363,9 +330,7 @@ int main() {
       <p>Write code that calculates how much you you will spend after tipping 20% on your $36.25
         dinner. Save the result of this calculation in <c>plusTip</c>. Be sure to include any necessary
         headers.</p>
-    <program xml:id="VARS_a8_ps_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a8_ps_editor">
       <code><![CDATA[
 int main() {
 
@@ -377,11 +342,7 @@ int main() {
     </program></statement>
     <hint>
       <p>Use the lines to construct the pseudocode, then go back to complete the exercise.</p>
-      <activity label="VARS_a8_p_ps"
-                number="yes"
-                adaptive="yes"
-                indentation="show"
-                exercise-interactive="parson">
+      <activity label="VARS_a8_p_ps" number="yes" adaptive="yes" indentation="show" exercise-interactive="parson">
         <blocks>
           <block order="6">
             <cline>Open main()</cline>
@@ -418,9 +379,7 @@ int main() {
         starting it right away, you choose to procrastinate by calculating how many seconds you'll
         be spending on your work. Convert the time to seconds and store the result in <c>seconds</c>. Be
         sure to inclue any necessary headers.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="VARS_a9q_editor">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a9q_editor">
       <code><![CDATA[
 int main() {
 
@@ -450,9 +409,7 @@ int main() {
       <p>Write code that calculates and prints the average of a and b if a = 3.14, and b = 1.59.
         You
         may only use one line of code. Be sure to inclue any necessary headers.</p>
-    <program xml:id="VARS_a10_ps_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="VARS_a10_ps_editor">
               <code><![CDATA[
     int main() {
     
@@ -466,11 +423,7 @@ int main() {
       <p>Write code that calculates and prints the average of a and b if a = 3.14, and b = 1.59.
         You may only use one line of code. Use the lines on the to construct the pseudocode,
         then go back to complete the Activecode.</p>
-      <activity label="VARS_a10_p_ps"
-                number="yes"
-                adaptive="yes"
-                indentation="show"
-                exercise-interactive="parson">
+      <activity label="VARS_a10_p_ps" number="yes" adaptive="yes" indentation="show" exercise-interactive="parson">
         <blocks>
           <block order="2">
             <cline>Open main()</cline>

@@ -9,8 +9,7 @@
   <listing label="first_program_AC_list"
            xml:id="first_program_AC_list">
     <title> This program prints <q>Hello, World.</q> to the output. </title>
-    <program interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="first_prog_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

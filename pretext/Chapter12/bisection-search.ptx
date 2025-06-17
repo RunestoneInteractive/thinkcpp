@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter12_bisection-search">
+<?xml version="1.0" ?><section xml:id="chapter12_bisection-search">
   <title>Bisection search</title>
   <p>If the cards in the deck are not in order, there is no way to search
     that is faster than the linear search. We have to look at every card,
@@ -89,7 +88,7 @@
   <program>int findBisect(const Card&amp; card, const vector&lt;Card&gt;&amp; deck,
                 int low, int high) {
 
-  cout &lt;&lt; low &lt;&lt; ", " &lt;&lt; high &lt;&lt; endl;
+  cout &lt;&lt; low &lt;&lt; &quot;, &quot; &lt;&lt; high &lt;&lt; endl;
 
   if (high &lt; low) return -1;
 
@@ -139,9 +138,7 @@ I found the card at index = -1</output>
       page.
       This time, it uses bisection search to locate the card.
     </title>
-    <program xml:id="c12_9_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="c12_9_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -187,27 +184,27 @@ Card::Card(int s, int r) {
 
 void Card::print() const {
    vector&lt;string&gt; suits(4);
-   suits[0] = "Clubs";
-   suits[1] = "Diamonds";
-   suits[2] = "Hearts";
-   suits[3] = "Spades";
+   suits[0] = &quot;Clubs&quot;;
+   suits[1] = &quot;Diamonds&quot;;
+   suits[2] = &quot;Hearts&quot;;
+   suits[3] = &quot;Spades&quot;;
 
    vector&lt;string&gt; ranks(14);
-   ranks[1] = "Ace";
-   ranks[2] = "2";
-   ranks[3] = "3";
-   ranks[4] = "4";
-   ranks[5] = "5";
-   ranks[6] = "6";
-   ranks[7] = "7";
-   ranks[8] = "8";
-   ranks[9] = "9";
-   ranks[10] = "10";
-   ranks[11] = "Jack";
-   ranks[12] = "Queen";
-   ranks[13] = "King";
+   ranks[1] = &quot;Ace&quot;;
+   ranks[2] = &quot;2&quot;;
+   ranks[3] = &quot;3&quot;;
+   ranks[4] = &quot;4&quot;;
+   ranks[5] = &quot;5&quot;;
+   ranks[6] = &quot;6&quot;;
+   ranks[7] = &quot;7&quot;;
+   ranks[8] = &quot;8&quot;;
+   ranks[9] = &quot;9&quot;;
+   ranks[10] = &quot;10&quot;;
+   ranks[11] = &quot;Jack&quot;;
+   ranks[12] = &quot;Queen&quot;;
+   ranks[13] = &quot;King&quot;;
 
-   cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+   cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
  }
 
 vector&lt;Card&gt; buildDeck() {
@@ -238,7 +235,7 @@ int find(const Card&amp; card, const vector&lt;Card&gt;&amp; deck) {
 
 int findBisect(const Card&amp; card, const vector&lt;Card&gt;&amp; deck, int low, int high) {
 
-   cout &lt;&lt; low &lt;&lt; ", " &lt;&lt; high &lt;&lt; endl;
+   cout &lt;&lt; low &lt;&lt; &quot;, &quot; &lt;&lt; high &lt;&lt; endl;
 
    if (high &lt; low) return -1;
 
@@ -396,9 +393,7 @@ bool Card::isGreater(const Card&amp; c2) const {
   <exercise label="bisection_search_4">
     <statement>
       <p>How many recursive calls are used to locate the King of Hearts? (Hearts = suit 2, King =
-        rank 13). <fillin mode="number"
-                case="insensitive"
-                answer="2"/>
+        rank 13). <fillin mode="number" case="insensitive" answer="2"/>
       </p>
     </statement>
     <evaluation>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_rectangles">
+<?xml version="1.0" ?><section xml:id="chapter8_rectangles">
   <title>Rectangles</title>
   <p>Now let's say that we want to create a structure to represent a
     rectangle. The question is, what information do I have to provide in
@@ -29,7 +28,7 @@ Rectangle box = { corner, 100.0, 200.0 };</program>
           <description><p>
               'box' names a box that contains three variables: 'width' which is 100,
               'height' which is 200, and 'corner' which names a package that has
-              'x: 0' and 'y: 0'."
+              'x: 0' and 'y: 0'.&quot;
           </p></description>
       </image>
   </figure>
@@ -58,9 +57,7 @@ Rectangle box = { { 0.0, 0.0 }, 100.0, 200.0 };
       This active code uses the <c>Rectangle</c> structure. Feel free to modify the code and experiment
         around!
     </title>
-    <program xml:id="rectangles_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="rectangles_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

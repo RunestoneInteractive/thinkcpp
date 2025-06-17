@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter14_another-function-on-complex-numbers">
+<?xml version="1.0" ?><section xml:id="chapter14_another-function-on-complex-numbers">
   <title>Another function on <c>Complex</c> numbers</title>
   <p>Another operation we might want is multiplication. Unlike addition,
     multiplication is easy if the numbers are in polar coordinates and hard
@@ -47,9 +46,7 @@ product.printCartesian();</program>
       This active code uses the <c>mult</c> and <c>setPolar</c> functions. Feel free to modify the code and
         experiment around!
     </title>
-    <program xml:id="fourteeneight_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteeneight_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -131,11 +128,11 @@ double Complex::getTheta() {
 }
 
 void Complex::printCartesian() {
-  cout &lt;&lt; getReal() &lt;&lt; " + " &lt;&lt; getImag() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getReal() &lt;&lt; &quot; + &quot; &lt;&lt; getImag() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 void Complex::printPolar() {
-  cout &lt;&lt; getMag() &lt;&lt; " e^ " &lt;&lt; getTheta() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getMag() &lt;&lt; &quot; e^ &quot; &lt;&lt; getTheta() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 Complex add (Complex&amp; a, Complex&amp; b) {
@@ -229,9 +226,7 @@ int main() {
       <p>Now let's try implementing the <c>setCartesian</c> function. Write your implementation in the commented
         area of this active code. Read the comments in <c>main</c> to test out your code! If you get
         stuck, you can reveal the extra problem at the end for help.</p>
-    <program xml:id="fourteennine_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteennine_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -323,11 +318,11 @@ double Complex::getTheta() {
 }
 
 void Complex::printCartesian() {
-  cout &lt;&lt; getReal() &lt;&lt; " + " &lt;&lt; getImag() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getReal() &lt;&lt; &quot; + &quot; &lt;&lt; getImag() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 void Complex::printPolar() {
-  cout &lt;&lt; getMag() &lt;&lt; " e^ " &lt;&lt; getTheta() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getMag() &lt;&lt; &quot; e^ &quot; &lt;&lt; getTheta() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 Complex add (Complex&amp; a, Complex&amp; b) {
@@ -359,10 +354,7 @@ Complex mult (Complex&amp; a, Complex&amp; b) {
 </tests>
     </program></statement>
     <hint>
-      <activity label="question14_7_2"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="question14_7_2" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the <c>setCartesian</c> function.</p>
         </statement>

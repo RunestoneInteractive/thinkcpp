@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter13_switch-statement">
+<?xml version="1.0" ?><section xml:id="chapter13_switch-statement">
   <title><c>switch</c> statement</title>
   <p>It's hard to mention enumerated types without mentioning <c>switch</c> statements, because they often
     go hand in hand. A <c>switch</c> statement is an alternative to a chained conditional that is
@@ -12,7 +11,7 @@ case '*':
     perform_multiplication();
     break;
 default:
-    cout &lt;&lt; "I only know how to perform addition and multiplication" &lt;&lt; endl;
+    cout &lt;&lt; &quot;I only know how to perform addition and multiplication&quot; &lt;&lt; endl;
     break;
 }</program>
   <p>This <c>switch</c> statement is equivalent to the following chained conditional:</p>
@@ -23,7 +22,7 @@ else if (symbol == '*') {
     perform_multiplication();
 }
 else {
-    cout &lt;&lt; "I only know how to perform addition and multiplication" &lt;&lt; endl;
+    cout &lt;&lt; &quot;I only know how to perform addition and multiplication&quot; &lt;&lt; endl;
 }</program>
   <p>The <c>break</c> statements are necessary in each branch in a <c>switch</c> statement because otherwise
     the flow of execution <q>falls through</q> to the next case.</p>
@@ -38,11 +37,9 @@ else {
     <title>Take a look at this active code that allows you to choose your starter Pokemon. If you
       change the value of <c>type</c>, it will change the Pokemon you choose. Notice how if you don't
       assign <c>type</c> to a valid type, it outputs the default message. Try taking out the <c>break</c>
-      statements in each case. What happens if you run the code with <c>type</c> as &#x2018;g'
+      statements in each case. What happens if you run the code with <c>type</c> as ‘g'
       afterwards? </title>
-    <program xml:id="switch_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="switch_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -72,11 +69,11 @@ int main() {
   <p><c>switch</c> statements work with integers, characters, and enumerated types. For example, to
     convert a <c>Suit</c> to the corresponding string, we could use something like:</p>
   <program>switch (suit) {
-case CLUBS:     return "Clubs";
-case DIAMONDS:  return "Diamonds";
-case HEARTS:    return "Hearts";
-case SPADES:    return "Spades";
-default:        return "Not a valid suit";
+case CLUBS:     return &quot;Clubs&quot;;
+case DIAMONDS:  return &quot;Diamonds&quot;;
+case HEARTS:    return &quot;Hearts&quot;;
+case SPADES:    return &quot;Spades&quot;;
+default:        return &quot;Not a valid suit&quot;;
 }</program>
   <p>In this case we don't need <c>break</c> statements because the <c>return</c> statements cause the flow of
     execution to return to the caller instead of falling through to the next case.</p>
@@ -84,9 +81,7 @@ default:        return "Not a valid suit";
     errors or unexpected values.</p>
   <exercise label="switch_1">
     <statement>
-      <p>A(n) <fillin mode="string"
-                case="insensitive"
-                answer="break"/> statement is necessary for
+      <p>A(n) <fillin mode="string" case="insensitive" answer="break"/> statement is necessary for
         each branch in a <c>switch</c> statement. </p>
     </statement>
     <evaluation>

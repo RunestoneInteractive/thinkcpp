@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_length">
+<?xml version="1.0" ?><section xml:id="chapter7_length">
   <title>Length</title>
   <p>To find the length of a string (number of characters), we can use the <c>length</c> function. The
     syntax for calling this function is a little different from what we've seen before.</p>
@@ -7,9 +6,7 @@
     <title>
       This active code outputs the length of string <c>fruit</c>.
     </title>
-    <program xml:id="length_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="length_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -36,7 +33,7 @@ int main() {
     something like</p>
   <program>int length = fruit.length();
 char last = fruit[length];       // WRONG!!</program>
-  <p>That won't work. The reason is that there is no 6th letter in <c>"banana"</c>. Since we started
+  <p>That won't work. The reason is that there is no 6th letter in <c>&quot;banana&quot;</c>. Since we started
     counting at 0, the 6 letters are numbered from 0 to 5. To get the last character, you have to
     subtract 1 from <c>length</c>.</p>
   <warning>
@@ -48,9 +45,7 @@ char last = fruit[length];       // WRONG!!</program>
       This active code outputs the last character in string <c>fruit</c> using the <c>length</c>
         function.
     </title>
-    <program xml:id="length_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="length_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -139,10 +134,7 @@ cout << (s[s.length()-5]) << endl;
       </choice>
     </choices>
   </exercise>
-  <exercise label="length_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="length_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that correctly implements the accumulator pattern, with <c>course</c>
         being the first variable initialized.</p>
@@ -152,7 +144,7 @@ cout << (s[s.length()-5]) << endl;
         <cline>int main() {</cline>
           </block>
           <block order="7">
-        <cline> string course = "Programming";</cline>
+        <cline> string course = &quot;Programming&quot;;</cline>
       </block>
       <block order="3">
         <cline> size_t num_chars;</cline>

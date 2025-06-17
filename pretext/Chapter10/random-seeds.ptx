@@ -24,7 +24,7 @@
   <listing label="random-seeds-demo">
     <title>Try this program - it should print a different sequence of numbers each time you run
       it. If you remove the srand call, it will generate the same sequence each time.</title>
-    <program interactive="activecode">
+    <program interactive="activecode" label="ch10_rndseeds_editor">
 #include &lt;iostream&gt;
 #include &lt;cstdlib&gt;
 #include &lt;ctime&gt;

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_call-by-reference">
+<?xml version="1.0" ?><section xml:id="chapter8_call-by-reference">
   <title>Call by reference</title>
   <p>An alternative parameter-passing mechanism that is available in C++ is called <q>pass by
     reference.</q> This mechanism makes it possible to pass a structure to a procedure and modify
@@ -28,9 +27,7 @@ printPoint (blank);</program>
       Take a look at this active code. <c>reflect</c> passes the parameter <c>p</c> by reference. Notice
         that the output of this code matches what we expect it to be.
     </title>
-    <program xml:id="call_by_reference_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="call_by_reference_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -62,7 +59,7 @@ int main() {
 (4, 3)</program>
   <p>Here's how we would draw a stack diagram for this program:</p>
   <figure>
-      <caption></caption>
+      <caption/>
       <image source="Chapter8/Images/8.7stackdiagram.png" width="50%">
           <description><p>
               Two boxes, one for 'main' and one for 'reflect'. 'main' has a variable blank with 'x:3, y:4' crossed out and replaced with 'x:4, y:3'. 'reflect' has a variable 'p' that just points at 'blank' in 'main'.

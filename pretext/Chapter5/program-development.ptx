@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter5_program-development-distance">
+<?xml version="1.0" ?><section xml:id="chapter5_program-development-distance">
   <title>Program Development</title>
   <p>At this point you should be able to look at complete C++ functions and tell what they do. But
     it may not be clear yet how to go about writing them. I am going to suggest one technique that I
@@ -34,14 +33,14 @@ cout &lt;&lt; dist &lt;&lt; endl;</program>
   <p>Once we have checked the syntax of the function definition, we can start
     adding lines of code one at a time. After each incremental change, we
     recompile and run the program. That way, at any point we know exactly
-    where the error must be&#x2014;in the last line we added.</p>
+    where the error must be—in the last line we added.</p>
   <p>The next step in the computation is to find the differences <m>x_2 - x_1</m> and <m>y_2 - y_1</m>.
     I will store those values in temporary variables named dx and dy.</p>
   <program>double distance(double x1, double y1, double x2, double y2) {
   double dx = x2 - x1;
   double dy = y2 - y1;
-  cout &lt;&lt; "dx is " &lt;&lt; dx &lt;&lt; endl;
-  cout &lt;&lt; "dy is " &lt;&lt; dy &lt;&lt; endl;
+  cout &lt;&lt; &quot;dx is &quot; &lt;&lt; dx &lt;&lt; endl;
+  cout &lt;&lt; &quot;dy is &quot; &lt;&lt; dy &lt;&lt; endl;
   return 0.0;
 }</program>
   <p>I added output statements that will let me check the intermediate values
@@ -62,7 +61,7 @@ cout &lt;&lt; dist &lt;&lt; endl;</program>
   double dx = x2 - x1;
   double dy = y2 - y1;
   double dsquared = dx*dx + dy*dy;
-  cout &lt;&lt; "dsquared is " &lt;&lt; dsquared;
+  cout &lt;&lt; &quot;dsquared is &quot; &lt;&lt; dsquared;
   return 0.0;
 }</program>
   <p>Again, I would compile and run the program at this stage and check the
@@ -81,9 +80,7 @@ cout &lt;&lt; dist &lt;&lt; endl;</program>
       This program implements the distance function that we've been
         talking about and outputs the result.
     </title>
-    <program xml:id="program_dvlmt_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="program_dvlmt_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -223,8 +220,8 @@ using namespace std;
 double distance(double x1, double y1, double x2, double y2) {
   double dx = x2 - x1;
   double dy = y2 - y1;
-  cout &lt;&lt; "dx is " &lt;&lt; dx &lt;&lt; endl;
-  cout &lt;&lt; "dy is " &lt;&lt; dy &lt;&lt; endl;
+  cout &lt;&lt; &quot;dx is &quot; &lt;&lt; dx &lt;&lt; endl;
+  cout &lt;&lt; &quot;dy is &quot; &lt;&lt; dy &lt;&lt; endl;
   return 0.0;
 }</program>
     </statement>

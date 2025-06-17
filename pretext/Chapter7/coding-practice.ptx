@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
-<exercises xml:id="chapter7_coding-practice">
+<?xml version="1.0" ?><exercises xml:id="chapter7_coding-practice">
   <title>Coding Practice</title>
   <exercise label="cp_7_AC_1">
     <statement>
       <p>A palindrome is a word, phrase, or sentence that reads the same forwards and backwards.</p>
       <p>Write a function <c>isPalindrome</c> that takes a <c>string input</c> as a parameter and returns a boolean that is
         true if the input is a palindrome and false otherwise. Run and test your code!</p>
-    <program interactive="activecode">
+    <program interactive="activecode" label="cp_7_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cctype>
@@ -31,8 +30,7 @@ TEST_CASE("factorial function") {
       <p>Below is one way to implement the program. We use the <c>isalpha</c> function to ignore the non
         alphabetical characters. Then we continuously check to see if the letters in the front are
         equal to the ones in the back until we reach the middle of the string.</p>
-      <program xml:id="cp_7_AC_1a"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_7_AC_1a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <cctype>
 using namespace std;
@@ -66,9 +64,7 @@ bool isPalindrome(string input) {
         word appears in a given string. <c>countWord</c> should take two strings <c>input</c> and <c>word</c> as
         parameters and return an <c>int</c>. Feel free to use the <c>stringToLower</c> function we wrote earlier.
         Check the hint below for help with the construction of the code.</p>
-    <program xml:id="cp_7_AC_2q_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="cp_7_AC_2q_editor">
           <code><![CDATA[
 #include <iostream>
 #include "ctype.h"
@@ -102,10 +98,7 @@ int main() {
         ]]></code>
         </program></statement>
     <hint>
-      <activity label="cp_7_AC_2q_pp"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="cp_7_AC_2q_pp" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>How much does Bubba love shrimp? Probably a lot. But how many times does the word <q>
             shrimp</q> come up in his monologue? Write a function <c>countWord</c> that counts the number of
@@ -161,12 +154,12 @@ int main() {
   <exercise label="cp_7_AC_3">
     <statement><p> Write a void function <c>censorWord</c> that censors a given word from a given string and
       prints out the new string. <c>censorWord</c> should take two strings <c>input</c> and <c>word</c> as parameters
-      and prints out <c>input</c> with every occurence of <c>word</c> censored with asterisks. For example, <c>censorWord("I really, really, really, really, really, really like
-      you", "really")</c>
+      and prints out <c>input</c> with every occurence of <c>word</c> censored with asterisks. For example, <c>censorWord(&quot;I really, really, really, really, really, really like
+      you&quot;, &quot;really&quot;)</c>
       results in the following output:</p><program>
 <output>I ******, ******, ******, ******, ******, ****** like you</output>
 </program>
-    <program interactive="activecode">
+    <program interactive="activecode" label="cp_7_AC_3_editor">
       <code><![CDATA[
            #include <iostream>
            using namespace std;
@@ -185,8 +178,7 @@ int main() {
         is one way to implement the program. We use a while loop to
         repeatedly search for instances of word in input. Once found, we replace
         the length of the word with asterisks.</p>
-      <program xml:id="cp_7_AC_3a"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_7_AC_3a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -216,14 +208,12 @@ int main() {
         the new string. <c>removeWord</c> should take two strings <c>input</c> and <c>word</c> as parameters and prints
         out <c>input</c> with every occurence of <c>word</c> removed. Use string concatenation and the C++
         string function <c>substr</c>. <c>substr</c> takes two parameters, a starting index and a length. For
-        example, if <c>string greeting = "hello world"</c>, then <c>greeting.substr(6, 5)</c> returns the string <c>"world"</c>. Test your function in main.
+        example, if <c>string greeting = &quot;hello world&quot;</c>, then <c>greeting.substr(6, 5)</c> returns the string <c>&quot;world&quot;</c>. Test your function in main.
         Check the hint below for help with the construction of the code. The output should be:</p>
       <console>
         <output>Gucci , Gucci , Gucci , Gucci</output>
       </console>
-    <program xml:id="cp_7_AC_4q_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="cp_7_AC_4q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -239,16 +229,13 @@ int main() {
     ]]></code>
     </program></statement>
     <hint>
-      <activity label="cp_7_AC_4q_pp"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="cp_7_AC_4q_pp" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Write a void function <c>removeWord</c> that removes a given word from a given string and prints
             out the new string. <c>removeWord</c> should take two strings <c>input</c> and <c>word</c> as parameters
             and prints out <c>input</c> with every occurence of <c>word</c> removed. Use string concatenation
             and the C++ string function <c>substr</c>. <c>substr</c> takes two parameters, a starting index and
-            a length. For example, if <c>string greeting = "hello world"</c>, then <c>greeting.substr(6, 5)</c> returns the string <c>"world"</c>. Test your
+            a length. For example, if <c>string greeting = &quot;hello world&quot;</c>, then <c>greeting.substr(6, 5)</c> returns the string <c>&quot;world&quot;</c>. Test your
             function in main. Use the lines to construct the code, then go back to complete the
             Activecode. The output should be:</p>
           <console>
@@ -301,7 +288,7 @@ int main() {
         a message encrypted using ROT13 can be decrypted by calling ROT13 on the encrypted message.</p>
       <p>Write the function <c>ROT13</c> , which takes a <c>string input</c> as a parameter and returns an encrypted <c>string</c>
         . Test your function in <c>main</c> .</p>
-    <program interactive="activecode">
+    <program interactive="activecode" label="cp_7_AC_5_editor">
       <code><![CDATA[
           #include <iostream>
           #include <cctype>
@@ -327,11 +314,10 @@ int main() {
     </program></statement>
     <solution>
       <p>Below is one way to implement the <c>ROT13</c> function. We use a <c>while</c> loop to go through all
-        the letters in the <c>string</c>. If the letter is between &#x2018;a' and &#x2018;n' or &#x2018;A'
-        and &#x2018;N', we use character operations to add 13 to each letter. Otherwise, we subtract
+        the letters in the <c>string</c>. If the letter is between ‘a' and ‘n' or ‘A'
+        and ‘N', we use character operations to add 13 to each letter. Otherwise, we subtract
         13 from each letter. We return the encrypted message at the end.</p>
-      <program xml:id="cp_7_AC_5a"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_7_AC_5a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <cctype>
 using namespace std;
@@ -373,9 +359,7 @@ int main() {
       <p>Write the function <c>reverseWord</c> which takes a <c>string input</c>, reverses it, and returns the reversed <c>string</c>.
         Run and test your code! Check the hint below for help with the construction of the
         code.</p>
-    <program xml:id="cp_7_AC_6q_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="cp_7_AC_6q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -396,10 +380,7 @@ TEST_CASE("reverseWord function") {
 ]]></tests>
       </program></statement>
     <hint>
-      <activity label="cp_7_AC_6q_pp"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="cp_7_AC_6q_pp" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Write the function <c>reverseString</c> which takes a <c>string input</c>, reverses it, and returns the reversed <c>string</c>.
             Use the lines to construct the code, then go back to complete the Activecode.</p>
@@ -441,7 +422,7 @@ TEST_CASE("reverseWord function") {
     <statement>
       <p>Write the function <c>capitalize</c> , which takes a <c>string input</c> as a parameter. <c>capitalize</c> capitalizes the
         first letter of every word, and returns the new <c>string</c> .</p>
-    <program interactive="activecode">
+    <program interactive="activecode" label="cp_7_AC_7_editor">
       <code><![CDATA[
           #include <iostream>
           #include <cctype>
@@ -461,8 +442,7 @@ TEST_CASE("reverseWord function") {
       <p>Below is one way to implement the <c>capitalize</c> function. We use a <c>while</c> loop to go through all
         the <c>char</c>s in the <c>string</c>. We capitalize the first character and all characters following
         a space using <c>toupper</c>. At the end, we return the <c>string</c>.</p>
-      <program xml:id="cp_7_AC_7a"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_7_AC_7a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 #include <cctype>
 using namespace std;
@@ -492,11 +472,9 @@ int main() {
   <exercise label="cp_7_AC_8q">
     <statement>
       <p>Write the function <c>countVowels</c> which takes a <c>string input</c> and returns the number of vowels in the <c>string</c>.
-        Remember, &#x2018;a', &#x2018;e', &#x2018;i', &#x2018;o', and &#x2018;u' are vowels. Run and
+        Remember, ‘a', ‘e', ‘i', ‘o', and ‘u' are vowels. Run and
         test your code! Check the hint below for help with the construction of the code.</p>
-    <program xml:id="cp_7_AC_8q_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="cp_7_AC_8q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -517,13 +495,10 @@ TEST_CASE("countVowels function") {
 ]]></tests>
       </program></statement>
     <hint>
-      <activity label="cp_7_AC_8q_pp"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="cp_7_AC_8q_pp" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Write the function <c>countVowels</c> which takes a <c>string input</c> and returns the number of vowels in
-            the <c>string</c>. Remember, &#x2018;a', &#x2018;e', &#x2018;i', &#x2018;o', and &#x2018;u'
+            the <c>string</c>. Remember, ‘a', ‘e', ‘i', ‘o', and ‘u'
             are vowels. Use the lines to construct the code, then go back to complete the Activecode.</p>
         </statement>
         <blocks>
@@ -568,7 +543,7 @@ TEST_CASE("countVowels function") {
       <p>Write the function <c>longestWord</c> , which takes a <c>string input</c> as a parameter. <c>longestWord</c> returns the
         words with the most letters in <c>input</c> . If there's a tie, return the first word. Use the <c>substr</c>
         function. Run and test your code!</p>
-    <program interactive="activecode">
+    <program interactive="activecode" label="cp_7_AC_9_editor">
       <code><![CDATA[
           #include <iostream>
           using namespace std;
@@ -595,8 +570,7 @@ TEST_CASE("longestWord function") {
         by counting the number of <c>char</c>s between spaces. If the length is greater than the max,
         length becomes the new max and we update the longest word. This keeps repeating until we
         reach the end of the string, and the longest word is returned.</p>
-      <program xml:id="cp_7_AC_9a"
-               line-numbers="yes"><code><![CDATA[
+      <program xml:id="cp_7_AC_9a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -630,9 +604,7 @@ string longestWord(string input) {
         functions <c>snakeToCamel</c> and <c>camelToSnake</c>. Each function takes a <c>string input</c> and returns the input using the
         other stylization. Feel free to use any <c>string</c> functions you'd like. Run and test your
         code! Check the hint below for help with the construction of the code.</p>
-    <program xml:id="cp_7_AC_10q_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="cp_7_AC_10q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -665,10 +637,7 @@ TEST_CASE("camelToSnake function") {
 ]]></tests>
       </program></statement>
     <hint>
-      <activity label="cp_7_AC_10q_pp"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="cp_7_AC_10q_pp" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Camel case is the practice of writing phrases without spaces or punctuation, indicating
             the separation of words using capital letter. For example, <q>camel case</q> in camel
@@ -706,7 +675,7 @@ TEST_CASE("camelToSnake function") {
           <block order="4">
             <cline>        if (isupper(input.at(i))) {</cline>
             <cline>            input.at(i) = tolower(input.at(i));</cline>
-            <cline>            input.insert(i, "_");</cline>
+            <cline>            input.insert(i, &quot;_&quot;);</cline>
             <cline>        }</cline>
           </block>
           <block order="8">

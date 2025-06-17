@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter4_the-return-statement">
+<?xml version="1.0" ?><section xml:id="chapter4_the-return-statement">
   <title>The Return Statement</title>
   <p>The <c>return</c> statement allows you to terminate the execution of a function before you reach the
     end. One reason to use it is if you detect an error condition:</p>
@@ -9,9 +8,7 @@
         provided is not positive. Try running the code as is. If you get
         an error message, try changing the value of x.
     </title>
-    <program xml:id="return_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="return_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -53,13 +50,13 @@ using namespace std;
 int main() {
   int x = 8;
   if (x &gt; 8) {
-    cout &lt;&lt; "One! ";
+    cout &lt;&lt; &quot;One! &quot;;
   }
   if (x &gt; 6) {
-    cout &lt;&lt; "Two! ";
+    cout &lt;&lt; &quot;Two! &quot;;
   }
   if (x &gt; 3) {
-    cout &lt;&lt; "Three!" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Three!&quot; &lt;&lt; endl;
   }
   return 0;
 }</program>
@@ -86,7 +83,7 @@ int main() {
           <p>Three!</p>
         </statement>
         <feedback><p>
-          All of the following are "if" statements, with no return. There are no "else"
+          All of the following are &quot;if&quot; statements, with no return. There are no &quot;else&quot;
             statements.
         </p></feedback>
       </choice>
@@ -95,7 +92,7 @@ int main() {
           <p>Two!</p>
         </statement>
         <feedback><p>
-          All of the following are "if" statements, with no return. There are no "else"
+          All of the following are &quot;if&quot; statements, with no return. There are no &quot;else&quot;
             statements.
         </p></feedback>
       </choice>
@@ -118,15 +115,15 @@ using namespace std;
 int main() {
   int x = 8;
   if (x &gt; 8) {
-    cout &lt;&lt; "One! ";
+    cout &lt;&lt; &quot;One! &quot;;
     return 0;
   }
   if (x &gt; 6) {
-    cout &lt;&lt; "Two! ";
+    cout &lt;&lt; &quot;Two! &quot;;
     return 0;
   }
   if (x &gt; 3) {
-    cout &lt;&lt; "Three!" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Three!&quot; &lt;&lt; endl;
     return 0;
   }
   return 0;
@@ -146,7 +143,7 @@ int main() {
           <p>Two! Three!</p>
         </statement>
         <feedback><p>
-          Try again! Remember what "return 0" is for!
+          Try again! Remember what &quot;return 0&quot; is for!
         </p></feedback>
       </choice>
       <choice>

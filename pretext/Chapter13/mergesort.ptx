@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter13_mergesort">
+<?xml version="1.0" ?><section xml:id="chapter13_mergesort">
   <title>Mergesort</title>
   <p>In <xref ref="chapter13_sorting"/>, we saw a simple
     sorting algorithm that turns out not to be very efficient. In order to sort <m>n</m> items, it
@@ -146,9 +145,7 @@
       <p>Write your implementation of <c>merge</c> in the commented area of the active code below. Read
         the comments in <c>main</c> to see how we'll test if your <c>merge</c> function works. If you get
         stuck, you can reveal the hint below for help.</p>
-    <program xml:id="mergesort_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="mergesort_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -231,27 +228,27 @@ Card::Card(Suit s, Rank r) {
 
 void Card::print() const {
     vector&lt;string&gt; suits(4);
-    suits[0] = "Clubs";
-    suits[1] = "Diamonds";
-    suits[2] = "Hearts";
-    suits[3] = "Spades";
+    suits[0] = &quot;Clubs&quot;;
+    suits[1] = &quot;Diamonds&quot;;
+    suits[2] = &quot;Hearts&quot;;
+    suits[3] = &quot;Spades&quot;;
 
     vector&lt;string&gt; ranks(14);
-    ranks[1] = "Ace";
-    ranks[2] = "2";
-    ranks[3] = "3";
-    ranks[4] = "4";
-    ranks[5] = "5";
-    ranks[6] = "6";
-    ranks[7] = "7";
-    ranks[8] = "8";
-    ranks[9] = "9";
-    ranks[10] = "10";
-    ranks[11] = "Jack";
-    ranks[12] = "Queen";
-    ranks[13] = "King";
+    ranks[1] = &quot;Ace&quot;;
+    ranks[2] = &quot;2&quot;;
+    ranks[3] = &quot;3&quot;;
+    ranks[4] = &quot;4&quot;;
+    ranks[5] = &quot;5&quot;;
+    ranks[6] = &quot;6&quot;;
+    ranks[7] = &quot;7&quot;;
+    ranks[8] = &quot;8&quot;;
+    ranks[9] = &quot;9&quot;;
+    ranks[10] = &quot;10&quot;;
+    ranks[11] = &quot;Jack&quot;;
+    ranks[12] = &quot;Queen&quot;;
+    ranks[13] = &quot;King&quot;;
 
-    cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+    cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 
 bool Card::isGreater(const Card&amp; c2) const {
@@ -352,10 +349,7 @@ void Deck::sortDeck() {
     </program></statement>
     <hint>
       <title>merge</title>
-      <activity label="mergesort_help_1"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="mergesort_help_1" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>First, let's write the code for the merge function. merge should
             take two decks as parameters and return a deck with the deck merged.</p>
@@ -444,9 +438,7 @@ void Deck::sortDeck() {
         non-recursive version of <c>mergeSort</c> first before writing the recursive version. Follow the
         comments in <c>main</c> to test your functions. If done correctly, the program should output a
         sorted deck of cards. If you get stuck, you can reveal the hints below for help.</p>
-    <program xml:id="mergesort_3_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="mergesort_3_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -530,27 +522,27 @@ Card::Card(Suit s, Rank r) {
 
 void Card::print() const {
     vector&lt;string&gt; suits(4);
-    suits[0] = "Clubs";
-    suits[1] = "Diamonds";
-    suits[2] = "Hearts";
-    suits[3] = "Spades";
+    suits[0] = &quot;Clubs&quot;;
+    suits[1] = &quot;Diamonds&quot;;
+    suits[2] = &quot;Hearts&quot;;
+    suits[3] = &quot;Spades&quot;;
 
     vector&lt;string&gt; ranks(14);
-    ranks[1] = "Ace";
-    ranks[2] = "2";
-    ranks[3] = "3";
-    ranks[4] = "4";
-    ranks[5] = "5";
-    ranks[6] = "6";
-    ranks[7] = "7";
-    ranks[8] = "8";
-    ranks[9] = "9";
-    ranks[10] = "10";
-    ranks[11] = "Jack";
-    ranks[12] = "Queen";
-    ranks[13] = "King";
+    ranks[1] = &quot;Ace&quot;;
+    ranks[2] = &quot;2&quot;;
+    ranks[3] = &quot;3&quot;;
+    ranks[4] = &quot;4&quot;;
+    ranks[5] = &quot;5&quot;;
+    ranks[6] = &quot;6&quot;;
+    ranks[7] = &quot;7&quot;;
+    ranks[8] = &quot;8&quot;;
+    ranks[9] = &quot;9&quot;;
+    ranks[10] = &quot;10&quot;;
+    ranks[11] = &quot;Jack&quot;;
+    ranks[12] = &quot;Queen&quot;;
+    ranks[13] = &quot;King&quot;;
 
-    cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+    cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 
 bool Card::isGreater(const Card&amp; c2) const {
@@ -682,10 +674,7 @@ Deck merge(const Deck&amp; d1, const Deck&amp; d2) {
     </program></statement>
     <hint>
       <title>mergeSort</title>
-      <activity label="mergesort_help_2"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="mergesort_help_2" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the mergeSort function. mergeSort
             should be a Deck member function that returns a sorted deck.</p>
@@ -721,10 +710,7 @@ Deck merge(const Deck&amp; d1, const Deck&amp; d2) {
       <title>
         mergeSort recursive
       </title>
-      <activity label="mergesort_help_3"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="mergesort_help_3" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's take it one step further and rewrite <c>mergeSort</c> as a recursive function.</p>
         </statement>

@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<section xml:id="chapter9_incremental-development-versus-planning">
+<?xml version="1.0" ?><section xml:id="chapter9_incremental-development-versus-planning">
   <title>Incremental development versus planning</title>
   <p>In this chapter I have demonstrated an approach to program development I refer to as <term>rapid
     prototyping with iterative improvement</term>. In each case, I wrote a rough draft (or
     prototype) that performed the basic calculation, and then tested it on a few cases, correcting
     flaws as I found them.</p>
   <p>Although this approach can be effective, it can lead to code that is
-    unnecessarily complicated&#x2014;since it deals with many special cases&#x2014;and
-    unreliable&#x2014;since it is hard to know if you have found all the errors.</p>
+    unnecessarily complicated—since it deals with many special cases—and
+    unreliable—since it is hard to know if you have found all the errors.</p>
   <p>An alternative is high-level planning, in which a little insight into the problem can make the
     programming much easier. In this case the insight is that a <c>Time</c> is really a three-digit
     number in base 60! The <c>second</c> is the <q>ones column,</q> the <c>minute</c> is the <q>60's
@@ -43,9 +42,7 @@
     <title>
       This active code uses the <c>convertToSeconds</c> and <c>makeTime</c> functions.
     </title>
-    <program xml:id="incremental_development_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="incremental_development_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -97,9 +94,7 @@ int main() {
       Write your implementation of <c>increment</c> in the commented area of the active code below. If you
         get stuck, you can reveal the extra problem at the end for help.
     </title>
-    <program xml:id="incremental_development_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="incremental_development_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -154,10 +149,7 @@ int main() {
     </program>
   </listing>
   <exercises>
-    <exercise label="incremental_development_1"
-              number="yes"
-              adaptive="yes"
-              indentation="hide">
+    <exercise label="incremental_development_1" number="yes" adaptive="yes" indentation="hide">
       <statement>
         <p>Let's write the code for the updated version of the <c>increment</c> function. <c>increment</c> adds a
           number of seconds to a <c>Time</c> object and updates the values of the object. This version

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_a-run-time-error">
+<?xml version="1.0" ?><section xml:id="chapter7_a-run-time-error">
   <title>A run-time error</title>
   <p>Way back in <xref ref="chapter1_run-time-errors-run-time"/> I talked about
     run-time errors, which are errors that don't appear until a program has started running.</p>
@@ -17,9 +16,7 @@
         print out the first letter and last letter of string <c>greeting</c> instead of indexing out of
         range?
     </title>
-    <program xml:id="runtime_error_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="runtime_error_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -42,7 +39,7 @@ int main() {
     </p></feedback>
     <areas>
       <cline><area correct="no">int main() {</area></cline>
-      <cline>    <area correct="no">string fruit = "apple";</area></cline>
+      <cline>    <area correct="no">string fruit = &quot;apple&quot;;</area></cline>
       <cline>    char letter = <area correct="no">fruit[0];</area></cline>
       <cline>    char letter = <area correct="yes">fruit[9];</area></cline>
       <cline>    cout &lt;&lt; <area correct="no">fruit</area> &lt;&lt; endl;</cline>
@@ -51,10 +48,7 @@ int main() {
       <cline>}</cline>
     </areas>
   </exercise>
-  <exercise label="runtime_error_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="runtime_error_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that correctly changes the string to say <q>cat in the hat</q>
         instead of <q>cat on the mat</q>, then print it. Change the necessary characters in order
@@ -63,29 +57,25 @@ int main() {
     <blocks>
       <block order="1">
         <cline>int main() {</cline>
-        <cline> string sentence = "cat on the mat";</cline>
+        <cline> string sentence = &quot;cat on the mat&quot;;</cline>
       </block>
       <block order="6">
-        <cline> sentence[4] = "i";</cline>
+        <cline> sentence[4] = &quot;i&quot;;</cline>
       </block>
-      <block order="5"
-             correct="no">
-        <cline> sentence[5] = "i"; </cline>
+      <block order="5" correct="no">
+        <cline> sentence[5] = &quot;i&quot;; </cline>
       </block>
-      <block order="3"
-             correct="no">
-        <cline> sentence[3] = "i"; </cline>
+      <block order="3" correct="no">
+        <cline> sentence[3] = &quot;i&quot;; </cline>
       </block>
       <block order="7">
-        <cline> sentence[11] = "h";</cline>
+        <cline> sentence[11] = &quot;h&quot;;</cline>
       </block>
-      <block order="8"
-             correct="no">
-        <cline> sentence [12] = "h"; </cline>
+      <block order="8" correct="no">
+        <cline> sentence [12] = &quot;h&quot;; </cline>
       </block>
-      <block order="2"
-             correct="no">
-        <cline> sentence[10] = "h";</cline>
+      <block order="2" correct="no">
+        <cline> sentence[10] = &quot;h&quot;;</cline>
       </block>
       <block order="4">
         <cline> <![CDATA[cout << sentence << endl;]]></cline>

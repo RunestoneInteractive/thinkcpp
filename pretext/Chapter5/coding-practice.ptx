@@ -1,12 +1,11 @@
-<?xml version="1.0"?>
-<exercises xml:id="chapter5_coding-practice">
+<?xml version="1.0" ?><exercises xml:id="chapter5_coding-practice">
   <title>Coding Practice</title>
     <exercise label="cp_5_AC_1">
       <statement><p>Write a function called <c>calculator</c> which takes two <c>doubles</c>, <c>first</c> and <c>second</c> and a <c>char operation</c>
         as parameters. <c>calculator</c> performs addition, subtraction, multiplication, or division with the
         two <c>doubles</c> depending on what operation is passed in (+, -, \*, /). It then returns the
         result. Run and test your code!</p>
-      <program interactive="activecode">
+      <program interactive="activecode" label="cp_5_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -21,22 +20,22 @@ double calculator(double first, double second, char operation) {
         #define CATCH_CONFIG_MAIN
         #include &lt;catch.hpp&gt;
         
-        TEST_CASE("calculator function: addition") {
+        TEST_CASE(&quot;calculator function: addition&quot;) {
             REQUIRE(calculator(3, 6, '+') == 9);
             REQUIRE(calculator(-2.6, 4, '+') == 1.4);
         }
         
-        TEST_CASE("calculator function: subtraction") {
+        TEST_CASE(&quot;calculator function: subtraction&quot;) {
             REQUIRE(calculator(19, 2, '-') == 17);
             REQUIRE(calculator(-2.3, 2, '-') == -4.3);
         }
         
-        TEST_CASE("calculator function: multiplication") {
+        TEST_CASE(&quot;calculator function: multiplication&quot;) {
             REQUIRE(calculator(5, 8, '*') == 40);
             REQUIRE(calculator(0.5, -6, '*') == -3.0);
         }
         
-        TEST_CASE("calculator function: division") {
+        TEST_CASE(&quot;calculator function: division&quot;) {
             REQUIRE(calculator(16, 4, '/') == 4);
             REQUIRE(calculator(3, 8, '/') == 0.375);
         }
@@ -48,8 +47,7 @@ double calculator(double first, double second, char operation) {
         <p>Below is one way to implement the <c>calculator</c> function. Using conditionals, we return the
           correct result depending on which operation was given.</p>
 
-        <program xml:id="cp_5_AC_1a"
-                 line-numbers="yes"><code><![CDATA[
+        <program xml:id="cp_5_AC_1a" line-numbers="yes"><code><![CDATA[
 double calculator(double first, double second, char operation) {
     if (operation == '+') {
         return first + second;
@@ -75,9 +73,7 @@ double calculator(double first, double second, char operation) {
         <p>A binary number is one that is expressed in the base-2 numeral system. Write a function <c>convertToBinary</c>
           which takes a <c>decimal</c> as a parameter. <c>convertToBinary</c> takes the number in decimal, converts it
           into a binary number, and returns the binary number. Test your function in <c>main</c>.</p>
-      <program xml:id="cp_5_AC_2q_editor"
-               interactive="activecode"
-               line-numbers="yes">
+      <program interactive="activecode" line-numbers="yes" label="cp_5_AC_2q_editor">
       <code><![CDATA[
 #include <iostream>
 #include <bits/stdc++.h>
@@ -91,7 +87,7 @@ int convertToBinary(int decimal) {
 #define CATCH_CONFIG_MAIN
 #include &lt;catch.hpp&gt;
 
-TEST_CASE("convertToBinary function") {
+TEST_CASE(&quot;convertToBinary function&quot;) {
 REQUIRE(convertToBinary(1) == 1);
 REQUIRE(convertToBinary(5) == 101);
 REQUIRE(convertToBinary(16) == 10000);
@@ -100,11 +96,7 @@ REQUIRE(convertToBinary(31) == 11111);
 </tests>
     </program></statement>
       <hint>
-        <activity label="cp_5_AC_2q_pp"
-                  number="yes"
-                  adaptive="yes"
-                  indentation="hide"
-                  exercise-interactive="parson">
+        <activity label="cp_5_AC_2q_pp" number="yes" adaptive="yes" indentation="hide" exercise-interactive="parson">
           <statement>
             <p>A binary number is one that is expressed in the base-2 numeral system. Write a
               function <c>convertToBinary</c> which takes a <c>decimal</c> as a parameter. <c>convertToBinary</c> takes the number in
@@ -149,7 +141,7 @@ REQUIRE(convertToBinary(31) == 11111);
         returns a <c>double</c>. <c>calculateIntAngle</c> finds the interior angle of a regular polygon with <c>numSides</c> sides.
         The formula to find the interior angle of a regular ngon is (n - 2) x 180 / n. Run and test
         your code!</p>
-      <program interactive="activecode">
+      <program interactive="activecode" label="cp_5_AC_3_editor">
       <code>
         <![CDATA[
 #include <iostream>
@@ -166,8 +158,7 @@ double calculateIntAngle(int numSides) {
           is one way to implement the program. Using the formula given,
           we can find the interior angle and return it. Notice how we use 180.0
           instead of 180 to avoid integer division.</p>
-        <program xml:id="cp_5_AC_3a"
-                 line-numbers="yes"><code><![CDATA[
+        <program xml:id="cp_5_AC_3a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -178,7 +169,7 @@ double calculateIntAngle(int numSides) {
 #define CATCH_CONFIG_MAIN
 #include &lt;catch.hpp&gt;
 
-TEST_CASE("calculateIntAngle function") {
+TEST_CASE(&quot;calculateIntAngle function&quot;) {
     REQUIRE(calculateIntAngle(3) == 60);
     REQUIRE(calculateIntAngle(4) == 90);
     REQUIRE(calculateIntAngle(5) == 108);
@@ -200,9 +191,7 @@ TEST_CASE("calculateIntAngle function") {
           which takes two parameters, <c>month</c> and <c>day</c>. <c>birthSeason</c> calculates which season the
           birthday falls in according to the meteorological start and returns a <c>string</c> with the
           correct season. For example, <c>birthSeason (7, 5)</c> returns <q>summer</q> since July 5 is in the summer.</p>
-      <program xml:id="cp_5_AC_4q_editor"
-               interactive="activecode"
-               line-numbers="yes">
+      <program interactive="activecode" line-numbers="yes" label="cp_5_AC_4q_editor">
         <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -215,37 +204,33 @@ string birthSeason(int month, int day) {
 #define CATCH_CONFIG_MAIN
 #include &lt;catch.hpp&gt;
 
-TEST_CASE("birthSeason function: spring") {
-  REQUIRE(birthSeason (5, 3) == "spring");
-  REQUIRE(birthSeason (3, 1) == "spring");
-  REQUIRE(birthSeason (5, 31) == "spring");
+TEST_CASE(&quot;birthSeason function: spring&quot;) {
+  REQUIRE(birthSeason (5, 3) == &quot;spring&quot;);
+  REQUIRE(birthSeason (3, 1) == &quot;spring&quot;);
+  REQUIRE(birthSeason (5, 31) == &quot;spring&quot;);
 }
 
-TEST_CASE("birthSeason function: summer") {
-  REQUIRE(birthSeason (7, 5) == "summer");
-  REQUIRE(birthSeason (6, 1) == "summer");
-  REQUIRE(birthSeason (8, 31) == "summer");
+TEST_CASE(&quot;birthSeason function: summer&quot;) {
+  REQUIRE(birthSeason (7, 5) == &quot;summer&quot;);
+  REQUIRE(birthSeason (6, 1) == &quot;summer&quot;);
+  REQUIRE(birthSeason (8, 31) == &quot;summer&quot;);
 }
 
-TEST_CASE("birthSeason function: fall") {
-  REQUIRE(birthSeason (11, 24) == "fall");
-  REQUIRE(birthSeason (9, 1) == "fall");
-  REQUIRE(birthSeason (11, 30) == "fall");
+TEST_CASE(&quot;birthSeason function: fall&quot;) {
+  REQUIRE(birthSeason (11, 24) == &quot;fall&quot;);
+  REQUIRE(birthSeason (9, 1) == &quot;fall&quot;);
+  REQUIRE(birthSeason (11, 30) == &quot;fall&quot;);
 }
 
-TEST_CASE("birthSeason function: winter") {
-  REQUIRE(birthSeason (2, 20) == "winter");
-  REQUIRE(birthSeason (12, 1) == "winter");
-  REQUIRE(birthSeason (2, 28) == "winter");
+TEST_CASE(&quot;birthSeason function: winter&quot;) {
+  REQUIRE(birthSeason (2, 20) == &quot;winter&quot;);
+  REQUIRE(birthSeason (12, 1) == &quot;winter&quot;);
+  REQUIRE(birthSeason (2, 28) == &quot;winter&quot;);
 }
 </tests>
       </program></statement>
       <hint>
-        <activity label="cp_5_AC_4q_pp"
-                  number="yes"
-                  adaptive="yes"
-                  indentation="hide"
-                  exercise-interactive="parson">
+        <activity label="cp_5_AC_4q_pp" number="yes" adaptive="yes" indentation="hide" exercise-interactive="parson">
           <statement>
             <p>The astronomical start and end dates of the four seasons are based on the position of
               the Earth relative to the Sun. As a result, it changes every year and can be difficult
@@ -264,22 +249,22 @@ TEST_CASE("birthSeason function: winter") {
             </block>
             <block order="4">
               <cline><![CDATA[    if (month >= 3 && month < 6) {]]></cline>
-              <cline>        return "spring";</cline>
+              <cline>        return &quot;spring&quot;;</cline>
               <cline>    }</cline>
             </block>
             <block order="1">
               <cline><![CDATA[    if (month >= 6 && month < 9) {]]></cline>
-              <cline>        return "summer";</cline>
+              <cline>        return &quot;summer&quot;;</cline>
               <cline>    }</cline>
             </block>
             <block order="6">
               <cline><![CDATA[    if (month >= 9 && month < 12) {]]></cline>
-              <cline>        return "fall";</cline>
+              <cline>        return &quot;fall&quot;;</cline>
               <cline>    }</cline>
             </block>
             <block order="2">
               <cline><![CDATA[    if (month == 12 || month < 3) {]]></cline>
-              <cline>        return "winter";</cline>
+              <cline>        return &quot;winter&quot;;</cline>
               <cline>    }</cline>
             </block>
             <block order="3">
@@ -299,7 +284,7 @@ TEST_CASE("birthSeason function: winter") {
           human years; a two year old dog is 24 years old in human years. Each year after the second
           year counts as 4 additional human years. For example, a dog that is 3 years old is
           actually 28 years old in human years. Run and test your code!</p>
-      <program interactive="activecode">          
+      <program interactive="activecode" label="cp_5_AC_5_editor">
         <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -329,8 +314,7 @@ TEST_CASE("dogToHumanYears function for > 1") {
           is one way to implement the program. We can use a conditional to
           check to see if the dog is one year old. If it is older than one, then
           we can use the formula to return the correct age in human years.</p>
-        <program xml:id="cp_5_AC_5a"
-                 line-numbers="yes"><code><![CDATA[
+        <program xml:id="cp_5_AC_5a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -352,9 +336,7 @@ int dogToHumanYears(int dogAge) {
           and 18. Write the function <c>isCommonFactor</c>, which takes three parameters, <c>num1</c>, <c>num2</c>, and <c>factor</c>
           . <c>isCommonFactor</c> returns <c>true</c> if <c>factor</c> is a factor of both <c>num1</c> and <c>num2</c>, and returns <c>false</c>
           otherwise. Run and test your code!.</p>
-      <program xml:id="cp_5_AC_6q_editor"
-               interactive="activecode"
-               line-numbers="yes">
+      <program interactive="activecode" line-numbers="yes" label="cp_5_AC_6q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -367,20 +349,19 @@ bool isCommonFactor(int num1, int num2, int factor) {
 #define CATCH_CONFIG_MAIN
 #include &lt;catch.hpp&gt;
 
-TEST_CASE("isCommonFactor function: true cases") {
+TEST_CASE(&quot;isCommonFactor function: true cases&quot;) {
 REQUIRE(isCommonFactor (24, 8, 4) == 1);
 REQUIRE(isCommonFactor (75, 20, 5) == 1);
 }
 
-TEST_CASE("isCommonFactor function: false cases") {
+TEST_CASE(&quot;isCommonFactor function: false cases&quot;) {
 REQUIRE(isCommonFactor (132, 42, 11) == 0);
 REQUIRE(isCommonFactor (74, 23, 3) == 0);
 }
 </tests>
     </program></statement>
       <hint>
-        <activity label="cp_5_AC_6q_pp"
-                  exercise-interactive="parson">
+        <activity label="cp_5_AC_6q_pp" exercise-interactive="parson">
           <statement>
             <p>A number is a common factor of two other numbers if it divides evenly into both of
               the other numbers. For example, 2 is a common factor of 4 and 18, because 2 goes
@@ -427,7 +408,7 @@ REQUIRE(isCommonFactor (74, 23, 3) == 0);
         year, and 2000 is a leap year. Write the <c>boolean</c> function <c>isLeapYear</c>, which takes a year as a
         parameter and returns <c>true</c> if the year is a leap year and <c>false</c> otherwise. Run and test
         your code!</p>
-      <program interactive="activecode">
+      <program interactive="activecode" label="cp_5_AC_7_editor">
       <code><![CDATA[ 
 #include <iostream>
 using namespace std;
@@ -442,22 +423,22 @@ bool isLeapYear(int year) {
         #define CATCH_CONFIG_MAIN
         #include &lt;catch.hpp&gt;
         
-        TEST_CASE("isLeapYear not divisible by 4") {
+        TEST_CASE(&quot;isLeapYear not divisible by 4&quot;) {
             REQUIRE(isLeapYear(2001) == 0);
             REQUIRE(isLeapYear(2005) == 0);
         }
         
-        TEST_CASE("isLeapYear divisible by 4") {
+        TEST_CASE(&quot;isLeapYear divisible by 4&quot;) {
             REQUIRE(isLeapYear(2004) == 1);
             REQUIRE(isLeapYear(2008) == 1);
         }
         
-        TEST_CASE("isLeapYear divisible by 100") {
+        TEST_CASE(&quot;isLeapYear divisible by 100&quot;) {
             REQUIRE(isLeapYear(2100) == 0);
             REQUIRE(isLeapYear(1900) == 0);
         }
         
-        TEST_CASE("isLeapYear divisible by 400") {
+        TEST_CASE(&quot;isLeapYear divisible by 400&quot;) {
             REQUIRE(isLeapYear(2000) == 1);
             REQUIRE(isLeapYear(2400) == 1);
         }
@@ -467,8 +448,7 @@ bool isLeapYear(int year) {
         <p>Below is one way to implement the program. We can use conditionals in this order to
           efficiently determine whether or not a given year is a leap year.</p>
 
-        <program xml:id="cp_5_AC_7a"
-                 line-numbers="yes"><code><![CDATA[
+        <program xml:id="cp_5_AC_7a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -496,13 +476,11 @@ bool isLeapYear(int year) {
         <p>In the enchanted Mushroom Forest, there are many different types of mushrooms as far as
           the eye can see. Most of these mushrooms can make delicious stews and dishes, but some of
           them are poisonous. Write the function <c>isPoisonous</c>, which takes an <c>char size</c>, <c>int numSpots</c>, and <c>bool isRed</c>
-          as parameters. If a mushroom is large (&#x2018;L') and has fewer than 3 spots, it is
-          poisonous. If a mushroom is small (&#x2018;S') and is red, it is poisonous. If a mushroom
+          as parameters. If a mushroom is large (‘L') and has fewer than 3 spots, it is
+          poisonous. If a mushroom is small (‘S') and is red, it is poisonous. If a mushroom
           has fewer than 3 spots or is not red, it is poisonous. Otherwise, it is not. <c>isPoisonous</c>
           should return <c>true</c> if the mushroom is poisonous and <c>false</c> otherwise.</p>
-      <program xml:id="cp_5_AC_8q_editor"
-               interactive="activecode"
-               line-numbers="yes">
+      <program interactive="activecode" line-numbers="yes" label="cp_5_AC_8q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -515,24 +493,20 @@ bool isPoisonous(char size, int numSpots, bool isRed) {
 #define CATCH_CONFIG_MAIN
 #include &lt;catch.hpp&gt;
 
-TEST_CASE("isPoisonous function: true cases") {
+TEST_CASE(&quot;isPoisonous function: true cases&quot;) {
     REQUIRE(isPoisonous('S', 10, 0) == 1);
     REQUIRE(isPoisonous('S', 10, 0) == 1);
     REQUIRE(isPoisonous('L', 1, 1) == 1);
 }
 
-TEST_CASE("isPoisonous function: false cases") {
+TEST_CASE(&quot;isPoisonous function: false cases&quot;) {
     REQUIRE(isPoisonous('L', 4, 1) == 0);
     REQUIRE(isPoisonous('L', 9, 1) == 0);
 }
 </tests>
     </program></statement>
       <hint>
-        <activity label="cp_5_AC_8q_pp"
-                  number="yes"
-                  adaptive="yes"
-                  indentation="hide"
-                  exercise-interactive="parson">
+        <activity label="cp_5_AC_8q_pp" number="yes" adaptive="yes" indentation="hide" exercise-interactive="parson">
           <statement>
             <p>Use the lines to construct the code, then go back to complete the Activecode.</p>
           </statement>
@@ -557,8 +531,7 @@ TEST_CASE("isPoisonous function: false cases") {
               <cline>        return true;</cline>
               <cline>    }</cline>
             </block>
-            <block order="2"
-                   correct="no">
+            <block order="2" correct="no">
               <cline>    if (size == 'S' || isRed == false) { </cline>
               <cline>        return true;</cline>
               <cline>    }</cline>
@@ -590,7 +563,7 @@ TEST_CASE("isPoisonous function: false cases") {
         rows of dots, where each successive row has one more dot, thus forming a triangular shape.
         Write the <c>triangularNum</c> function, which takes an <c>int n</c> as a parameter and returns the nth
         triangular number. Use recursion. Run and test your code!</p>
-      <program interactive="activecode">
+      <program interactive="activecode" label="ecp_5_AC_9_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -605,7 +578,7 @@ int triangularNum(int n) {
         #define CATCH_CONFIG_MAIN
         #include &lt;catch.hpp&gt;
         
-        TEST_CASE("triangularNum function") {
+        TEST_CASE(&quot;triangularNum function&quot;) {
             REQUIRE(triangularNum (1) == 1);
             REQUIRE(triangularNum (3) == 6);
             REQUIRE(triangularNum (6) == 21);
@@ -617,8 +590,7 @@ int triangularNum(int n) {
         <p>Below is one way to implement the program. We can use conditionals to separate the base
           case and recursive cases. Our base case is when <c>n</c> is 1, and in that case we return
           1. Otherwise, we recursively call <c>triangularNum</c> on <c>n-1</c>.</p>
-        <program xml:id="cp_5_AC_9a"
-                 line-numbers="yes"><code><![CDATA[
+        <program xml:id="cp_5_AC_9a" line-numbers="yes"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -640,9 +612,7 @@ int triangularNum(int n) {
       <statement>
         <p>Write the function <c>digitSum</c> which takes an <c>int num</c> as a parameter and returns the sum of
           all its digits. For example, <c>digitSum(1423)</c> would return 10. Use recursion. </p>
-      <program xml:id="cp_5_AC_10q_editor"
-               interactive="activecode"
-               line-numbers="yes">
+      <program interactive="activecode" line-numbers="yes" label="cp_5_AC_10q_editor">
         <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -655,7 +625,7 @@ int digitSum(int num) {
 #define CATCH_CONFIG_MAIN
 #include &lt;catch.hpp&gt;
 
-TEST_CASE("digitSum function") {
+TEST_CASE(&quot;digitSum function&quot;) {
     REQUIRE(digitSum(123) == 6);
     REQUIRE(digitSum(8739) == 27);
     REQUIRE(digitSum(440) == 8);
@@ -664,11 +634,7 @@ TEST_CASE("digitSum function") {
 </tests>
       </program></statement>
       <hint>
-        <activity label="cp_5_AC_10q_pp"
-                  number="yes"
-                  adaptive="yes"
-                  indentation="hide"
-                  exercise-interactive="parson">
+        <activity label="cp_5_AC_10q_pp" number="yes" adaptive="yes" indentation="hide" exercise-interactive="parson">
           <statement>
             <p>Write the function <c>digitSum</c> which takes an <c>int num</c> as a parameter and returns the sum
               of all its digits. For example, <c>digitSum (1423)</c> would return 10. Use recursion. Use the lines
@@ -698,8 +664,7 @@ TEST_CASE("digitSum function") {
                 <cline>    return (num % 10 + digitSum(num)); </cline>
               </choice>
             </block>
-            <block order="3"
-                   correct="no">
+            <block order="3" correct="no">
               <cline>    return (digitsum(num) % 10); </cline>
             </block>
             <block order="2">

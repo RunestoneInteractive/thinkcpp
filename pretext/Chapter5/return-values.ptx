@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter5_return-values">
+<?xml version="1.0" ?><section xml:id="chapter5_return-values">
   <title>Return Values</title>
   <p>Some of the built-in functions we have used, like the math functions,
     have produced results. That is, the effect of calling the function is to
@@ -66,9 +65,7 @@ countdown(n-1);</program>
         What if we pass zero as an argument, and neither conditional
         returns true?
     </title>
-    <program xml:id="return_vals_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="return_vals_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -111,9 +108,7 @@ int main() {
         absoluteValue. If we pass 0 as an argument, the function will
         return 0. Thus, every route through the conditonal is satisfied.
     </title>
-    <program xml:id="return_vals_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="return_vals_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -137,17 +132,17 @@ int main() {
   </listing>
   <p>As an aside, you should know that there is a function in the math
     library called fabs that calculates the absolute value of a
-    double&#x2014;correctly.</p>
+    double—correctly.</p>
   <exercise label="return_vals_1">
     <statement>
       <p>What should the return type of the below function be?</p>
       <program>________ weather(int temp) {
- string outside = "";
+ string outside = &quot;&quot;;
  if (temp &lt; 50) {
-   outside = "cold";
+   outside = &quot;cold&quot;;
  }
  else {
-   outside = "warm"
+   outside = &quot;warm&quot;
  }
  return outside;
 }</program>
@@ -174,7 +169,7 @@ int main() {
           <p>string</p>
         </statement>
         <feedback><p>
-          The variable "outside" is being returned, which is of string type.
+          The variable &quot;outside&quot; is being returned, which is of string type.
         </p></feedback>
       </choice>
       <choice>
@@ -250,12 +245,12 @@ using namespace std;
 double ticket_price(int age) {
    if(age&lt;5) {
        return 5.50;
-       cout&lt;&lt;" You get a child discount yay!"&lt;&lt;endl;
+       cout&lt;&lt;&quot; You get a child discount yay!&quot;&lt;&lt;endl;
    }
 
    else{
        return 9.50;
-       cout&lt;&lt;" Sorry you have to pay full price."&lt;&lt;endl;
+       cout&lt;&lt;&quot; Sorry you have to pay full price.&quot;&lt;&lt;endl;
    }
    return 0.0; //to avoid compiler error
 }

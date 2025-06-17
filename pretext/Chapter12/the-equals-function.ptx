@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter12_the-equals-function">
+<?xml version="1.0" ?><section xml:id="chapter12_the-equals-function">
   <title>The <c>equals</c> function</title>
   <p>In order for two cards to be equal, they have to have the same rank and the same suit.
     Unfortunately, the <c>==</c> operator does not work for user-defined types like <c>Card</c>, so we
@@ -18,7 +17,7 @@
 Card card2 (1, 11);
 
 if (card1.equals(card2)) {
-  cout &lt;&lt; "Yup, that's the same card." &lt;&lt; endl;
+  cout &lt;&lt; &quot;Yup, that's the same card.&quot; &lt;&lt; endl;
 }</program>
   <p>This method of invocation always seems strange to me when the function is something like <c>equals</c>,
     in which the two arguments are symmetric. What I mean by symmetric is that it does not matter
@@ -31,7 +30,7 @@ if (card1.equals(card2)) {
   <p>When we call this version of the function, the arguments appear
     side-by-side in a way that makes more logical sense, to me at least.</p>
   <program>if (equals(card1, card2)) {
-  cout &lt;&lt; "Yup, that's the same card." &lt;&lt; endl;
+  cout &lt;&lt; &quot;Yup, that's the same card.&quot; &lt;&lt; endl;
 }</program>
   <p>Of course, this is a matter of taste. My point here is that you should
     be comfortable writing both member and nonmember functions, so that you
@@ -40,9 +39,7 @@ if (card1.equals(card2)) {
     <title>
       Run this active code to see how the <c>equals()</c> function works.
     </title>
-    <program xml:id="c12_4_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="c12_4_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -80,37 +77,37 @@ Card::Card(int s, int r) {
 bool Card::equals(const Card&amp; c2) const {
   bool boolean = (rank == c2.rank &amp;&amp; suit == c2.suit);
   if (boolean == true) {
-    cout &lt;&lt; "Yup, that's the same card." &lt;&lt; endl;
+    cout &lt;&lt; &quot;Yup, that's the same card.&quot; &lt;&lt; endl;
   }
   else {
-    cout &lt;&lt; "Nope, those cards are different." &lt;&lt; endl;
+    cout &lt;&lt; &quot;Nope, those cards are different.&quot; &lt;&lt; endl;
   }
   return boolean;
 }
 
 void Card::print() const {
   vector&lt;string&gt; suits(4);
-  suits[0] = "Clubs";
-  suits[1] = "Diamonds";
-  suits[2] = "Hearts";
-  suits[3] = "Spades";
+  suits[0] = &quot;Clubs&quot;;
+  suits[1] = &quot;Diamonds&quot;;
+  suits[2] = &quot;Hearts&quot;;
+  suits[3] = &quot;Spades&quot;;
 
   vector&lt;string&gt; ranks(14);
-  ranks[1] = "Ace";
-  ranks[2] = "2";
-  ranks[3] = "3";
-  ranks[4] = "4";
-  ranks[5] = "5";
-  ranks[6] = "6";
-  ranks[7] = "7";
-  ranks[8] = "8";
-  ranks[9] = "9";
-  ranks[10] = "10";
-  ranks[11] = "Jack";
-  ranks[12] = "Queen";
-  ranks[13] = "King";
+  ranks[1] = &quot;Ace&quot;;
+  ranks[2] = &quot;2&quot;;
+  ranks[3] = &quot;3&quot;;
+  ranks[4] = &quot;4&quot;;
+  ranks[5] = &quot;5&quot;;
+  ranks[6] = &quot;6&quot;;
+  ranks[7] = &quot;7&quot;;
+  ranks[8] = &quot;8&quot;;
+  ranks[9] = &quot;9&quot;;
+  ranks[10] = &quot;10&quot;;
+  ranks[11] = &quot;Jack&quot;;
+  ranks[12] = &quot;Queen&quot;;
+  ranks[13] = &quot;King&quot;;
 
-   cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+   cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 </tests>
     </program>
@@ -191,10 +188,7 @@ void Card::print() const {
       </choice>
     </choices>
   </exercise>
-  <exercise label="equals_function_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="equals_function_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>In a card game called Euchre, the highest ranked suit is called the trump suit. The trump
         suit contains
@@ -224,12 +218,12 @@ void Card::print() const {
       </block>
       <block order="3">
         <choice correct="yes">
-          <cline> else if (rank == "Jack" &amp;&amp; suit == same_color()) {</cline>
+          <cline> else if (rank == &quot;Jack&quot; &amp;&amp; suit == same_color()) {</cline>
           <cline>  return true;</cline>
           <cline> }</cline>
         </choice>
         <choice>
-          <cline> else if (rank == "Jack") {                         </cline>
+          <cline> else if (rank == &quot;Jack&quot;) {                         </cline>
           <cline>  return true;</cline>
           <cline> }</cline>
         </choice>

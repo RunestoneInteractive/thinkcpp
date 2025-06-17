@@ -1,12 +1,9 @@
-<exercises xml:id="chapter15_coding-practice">
+<?xml version="1.0" ?><exercises xml:id="chapter15_coding-practice">
   <title>Coding Practice</title>
   <exercise label="cp_15_1">
     <statement>
       <p>Write a program that takes in an input file called <c>poem.txt</c> <fn>
-          <datafile label="poem.txt"
-                    filename="poem.txt"
-                    cols="10"
-                    rows="5">
+          <datafile label="poem.txt" filename="poem.txt" cols="10" rows="5">
             <pre>Two roads diverged in a yellow wood,
 And sorry I could not travel both
 And be one traveler, long I stood
@@ -30,8 +27,7 @@ And that has made all the difference.</pre>
           </datafile>
         </fn> and prints the first 5 lines to the
   terminal. Include proper file error checking.</p>
-    <program interactive="activecode"
-             xml:id="cp_15_AC_1q">
+    <program interactive="activecode" label="cp_15_AC_1q">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -51,10 +47,10 @@ using namespace std;
 using namespace std;
 
 int main() {
-    ifstream infile("poem.txt");
+    ifstream infile(&quot;poem.txt&quot;);
     string input;
     if (!infile.good()) {
-        cout &lt;&lt; "Error. Unable to open file." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Error. Unable to open file.&quot; &lt;&lt; endl;
         exit(1);
     }
     for (int i = 0; i &lt; 5; ++i) {
@@ -70,8 +66,8 @@ int main() {
     <statement>
       <p>Write a program that prompts a user for the name of an input file and for an integer <c>n</c>.
   Then open the file and output the first <c>n</c> lines of the file with each line reversed. For
-  example, if you read in the line &#8220;hello world&#8221; you should print out &#8220;dlrow
-  olleh&#8221; to the terminal. Include proper file error checking. Check the hint below for help with the construction of the code.</p>
+  example, if you read in the line “hello world” you should print out “dlrow
+  olleh” to the terminal. Include proper file error checking. Check the hint below for help with the construction of the code.</p>
       <!-- 
       No need for a particular file given the ask of this program...
       <datafile label="moon-speech.txt" filename="moon-speech.txt">
@@ -82,8 +78,7 @@ will serve to organize and measure the best of our energies and skills,
 because that challenge is one that we are willing to accept, one we are
 unwilling to postpone, and one we intend to win, and the others, too.</pre>
       </datafile> -->
-    <program interactive="activecode"
-             xml:id="cp_15_AC_2q_editor">
+    <program interactive="activecode" label="cp_15_AC_2q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -97,8 +92,8 @@ using namespace std;
         <statement>
           <p>Write a program that prompts a user for the name of an input file and for an integer <c>n</c>.
   Then open the file and output the first <c>n</c> lines of the file with each line reversed. For
-  example, if you read in the line &#8220;hello world&#8221; you should print out &#8220;dlrow
-  olleh&#8221; to the terminal. Include proper file error checking. Use the lines to construct the
+  example, if you read in the line “hello world” you should print out “dlrow
+  olleh” to the terminal. Include proper file error checking. Use the lines to construct the
   code, then go back to complete the Activecode.</p>
         </statement>
         <blocks>
@@ -115,12 +110,12 @@ using namespace std;
             <cline>   string line;</cline>
           </block>
           <block order="8">
-            <cline>   cout &lt;&lt; "Enter the name of the file: ";</cline>
+            <cline>   cout &lt;&lt; &quot;Enter the name of the file: &quot;;</cline>
             <cline>   cin &gt;&gt; fileIn;</cline>
             <cline>   cout &lt;&lt; fileIn &lt;&lt; endl;</cline>
           </block>
           <block order="11">
-            <cline>   cout &lt;&lt; "Enter an integer: ";</cline>
+            <cline>   cout &lt;&lt; &quot;Enter an integer: &quot;;</cline>
             <cline>   cin &gt;&gt; n;</cline>
             <cline>   cout &lt;&lt; n &lt;&lt; endl;</cline>
           </block>
@@ -129,7 +124,7 @@ using namespace std;
           </block>
           <block order="1">
             <cline>   if (inFile.good() == false) {</cline>
-            <cline>      cout &lt;&lt; "Unable to open the file named " &lt;&lt; fileIn &lt;&lt; " and output " &lt;&lt; n &lt;&lt; " lines." &lt;&lt; endl;</cline>
+            <cline>      cout &lt;&lt; &quot;Unable to open the file named &quot; &lt;&lt; fileIn &lt;&lt; &quot; and output &quot; &lt;&lt; n &lt;&lt; &quot; lines.&quot; &lt;&lt; endl;</cline>
             <cline>      exit(1);</cline>
             <cline>   }</cline>
           </block>
@@ -158,18 +153,16 @@ using namespace std;
   <exercise label="cp_15_3">
     <statement>
       <p>Write a program that takes in an input file called <c>heights.txt</c><fn>
-          <datafile label="heights.txt"
-                    filename="heights.txt">
+          <datafile label="heights.txt" filename="heights.txt">
             <pre>62  67      75      68      65
 67  70      72      74      66
 72  66      66      73      69
 61  60      73      72      60</pre>
           </datafile>
         </fn>, finds the median of the data, and prints
-  &#8220;The median height is: <c>height</c> inches&#8221; to the terminal. Include proper file error
+  “The median height is: <c>height</c> inches” to the terminal. Include proper file error
   checking.</p>
-    <program interactive="activecode"
-             xml:id="cp_15_AC_3q">
+    <program interactive="activecode" label="cp_15_AC_3q">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -194,12 +187,12 @@ using namespace std;
 using namespace std;
 
 int main() {
-    ifstream infile("heights.txt");
+    ifstream infile(&quot;heights.txt&quot;);
     vector&lt;int&gt; data;
     double median;
     int height;
     if (!infile.good()) {
-        cout &lt;&lt; "Error. Unable to open file." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Error. Unable to open file.&quot; &lt;&lt; endl;
         exit(1);
     }
     while (infile &gt;&gt; height) {
@@ -212,7 +205,7 @@ int main() {
     else {
         median = data[data.size() / 2];
     }
-    cout &lt;&lt; "The median height is: " &lt;&lt; median &lt;&lt; " inches" &lt;&lt; endl;
+    cout &lt;&lt; &quot;The median height is: &quot; &lt;&lt; median &lt;&lt; &quot; inches&quot; &lt;&lt; endl;
 }
         </code>
     </program>
@@ -226,8 +219,7 @@ int main() {
   your output file would look like, the contents of your output file will be displayed on the
   terminal. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_15_AC_4q_editor">
+    <program interactive="activecode" label="cp_15_AC_4q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -242,9 +234,9 @@ int main() {
 
 
    // Do not modify the code below
-   ifstream student_output("powers.txt");
+   ifstream student_output(&quot;powers.txt&quot;);
    if (!student_output.good()) {
-         cout &lt;&lt; "Error opening student's output." &lt;&lt; endl;
+         cout &lt;&lt; &quot;Error opening student's output.&quot; &lt;&lt; endl;
    }
    string answer;
    while (getline(student_output, answer)) {
@@ -269,7 +261,7 @@ int main() {
             <cline>   int n;</cline>
           </block>
           <block order="14">
-            <cline>   cout &lt;&lt; "Enter an integer: ";</cline>
+            <cline>   cout &lt;&lt; &quot;Enter an integer: &quot;;</cline>
           </block>
           <block order="9">
             <cline>   cin &gt;&gt; n;</cline>
@@ -278,11 +270,11 @@ int main() {
             <cline>   cout &lt;&lt; n &lt;&lt; endl;</cline>
           </block>
           <block order="4">
-            <cline>   ofstream outfile ("powers.txt");</cline>
+            <cline>   ofstream outfile (&quot;powers.txt&quot;);</cline>
           </block>
           <block order="12">
             <cline>   if (outfile.good() == false) {</cline>
-            <cline>      cout &lt;&lt; "Unable to open output file." &lt;&lt; endl;</cline>
+            <cline>      cout &lt;&lt; &quot;Unable to open output file.&quot; &lt;&lt; endl;</cline>
             <cline>      exit (1);</cline>
             <cline>   }</cline>
           </block>
@@ -302,11 +294,11 @@ int main() {
             <cline>   }</cline>
           </block>
           <block order="17">
-            <cline>   ifstream student_output("powers.txt");</cline>
+            <cline>   ifstream student_output(&quot;powers.txt&quot;);</cline>
           </block>
           <block order="13">
             <cline>   if (!student_output.good()) {</cline>
-            <cline>      cout &lt;&lt; "Error opening student's output." &lt;&lt; endl;</cline>
+            <cline>      cout &lt;&lt; &quot;Error opening student's output.&quot; &lt;&lt; endl;</cline>
             <cline>   }</cline>
           </block>
           <block order="2">
@@ -329,19 +321,17 @@ int main() {
   <exercise label="cp_15_5">
     <statement>
       <p>ROT13 is a simple Caesar cipher that replaces each letter in a string with the 13th letter
-  after it in the alphabet. For example, using ROT13 on the letter &#8220;a&#8221; would turn it
-  into &#8220;n&#8221;. Notice how since 13 is exactly half the number of characters in the
-  alphabet, using ROT13 on the letter &#8220;n&#8221; would turn it into &#8220;a&#8221;. Thus,
+  after it in the alphabet. For example, using ROT13 on the letter “a” would turn it
+  into “n”. Notice how since 13 is exactly half the number of characters in the
+  alphabet, using ROT13 on the letter “n” would turn it into “a”. Thus,
   ROT13 can be used to encrypt and decrypt messages. Write a program that takes in an input file
   called <c>message.txt</c><fn>
-          <datafile label="message.txt"
-                    filename="message.txt">
+          <datafile label="message.txt" filename="message.txt">
             <pre>Pbatenghyngvbaf! Lbh'ir qrpelcgrq guvf zrffntr.</pre>
           </datafile>
         </fn>applies ROT13, and outputs the result to
   the terminal. Include proper file error checking.</p>
-    <program interactive="activecode"
-             xml:id="cp_15_AC_5q">
+    <program interactive="activecode" label="cp_15_AC_5q">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -389,10 +379,10 @@ string ROT13 (string message) {
 }
 
 int main() {
-    ifstream infile("message.txt");
+    ifstream infile(&quot;message.txt&quot;);
     string message;
     if (!infile.good()) {
-        cout &lt;&lt; "Error. Unable to open file." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Error. Unable to open file.&quot; &lt;&lt; endl;
         exit(1);
     }
     while (getline(infile, message)) {
@@ -406,8 +396,7 @@ int main() {
   <exercise label="cp_15_7">
     <statement>
       <p>Write a program that reads in data about a class from the file <c>class_data.txt</c><fn>
-          <datafile label="class_data.txt"
-                    filename="class_data.txt">
+          <datafile label="class_data.txt" filename="class_data.txt">
             <p>Below are the contents of the input file.</p>
             <pre>First    Last       Grade    GPA    Age
 Alex     Jones      9        3.4    14
@@ -419,8 +408,7 @@ Faith    Flemmings  10       3.0    15
 Gina     Zhou       9        3.2    14</pre>
           </datafile></fn> and outputs the rows
   of data where a student has a GPA of at least 3.5. Include proper file error checking.</p>
-    <program interactive="activecode"
-             xml:id="cp_15_AC_7q">
+    <program interactive="activecode" label="cp_15_AC_7q">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -442,12 +430,12 @@ int main() {
 using namespace std;
 
 int main() {
-    ifstream infile("class_data.txt");
+    ifstream infile(&quot;class_data.txt&quot;);
     string fname, lname;
     int grade, age;
     double gpa;
     if (!infile.good()) {
-        cout &lt;&lt; "Error. Unable to open file." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Error. Unable to open file.&quot; &lt;&lt; endl;
         exit(1);
     }
     getline(infile, fname);
@@ -466,12 +454,11 @@ int main() {
   <exercise label="cp_15_8_q">
     <statement>
       <p>Write a program that takes an input file called <c>shrimp.txt</c> and outputs
-        the contents of the file where "shrimp" is replaced by a word that the user inputs to the terminal.
+        the contents of the file where &quot;shrimp&quot; is replaced by a word that the user inputs to the terminal.
   Include proper file error checking.
         Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_15_AC_8q_editor">
+    <program interactive="activecode" label="cp_15_AC_8q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -483,14 +470,13 @@ using namespace std;
     <hint>
       <activity label="cp_15_AC_8q_pp">
         <statement>
-          <p>Write a program that takes an input file called &#8220;shrimp.txt&#8221; and outputs
-            the quote with &#8220;shrimp&#8221; replaced by a word that the user inputs to the
+          <p>Write a program that takes an input file called “shrimp.txt” and outputs
+            the quote with “shrimp” replaced by a word that the user inputs to the
   terminal.
             Include proper file error checking.
             Use the lines to construct the code, then go back to complete the Activecode.</p>
 
-          <datafile label="shrimp.txt"
-                    filename="shrimp.txt">
+          <datafile label="shrimp.txt" filename="shrimp.txt">
             <pre>There's pineapple shrimp, lemon shrimp, coconut shrimp,
 pepper shrimp, shrimp soup, shrimp stew, shrimp salad,
 shrimp and potatoes, shrimp burger, shrimp sandwich.
@@ -505,7 +491,7 @@ That- that's about it.</pre>
             <cline>   string word;</cline>
           </block>
           <block order="7">
-            <cline>   cout &lt;&lt; "Enter word to replace 'shrimp': ";</cline>
+            <cline>   cout &lt;&lt; &quot;Enter word to replace 'shrimp': &quot;;</cline>
           </block>
           <block order="15">
             <cline>   cin &gt;&gt; word;</cline>
@@ -514,10 +500,10 @@ That- that's about it.</pre>
             <cline>   cout &lt;&lt; word &lt;&lt; endl;</cline>
           </block>
           <block order="2">
-            <cline>   string replace = "shrimp";</cline>
+            <cline>   string replace = &quot;shrimp&quot;;</cline>
           </block>
           <block order="17">
-            <cline>   ifstream inFile("shrimp.txt");</cline>
+            <cline>   ifstream inFile(&quot;shrimp.txt&quot;);</cline>
           </block>
           <block order="9">
             <cline>   string line;</cline>
@@ -564,8 +550,7 @@ That- that's about it.</pre>
     <statement>
       <p>Write a program that creates a multiplication table for the first 10 numbers using a matrix
   and outputting the table to an output file called <c>mult_table.txt</c>. Include proper file error checking.</p>
-    <program interactive="activecode"
-             xml:id="cp_15_AC_9q">
+    <program interactive="activecode" label="cp_15_AC_9q">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -588,9 +573,9 @@ int main() {
 using namespace std;
 
 int main() {
-    ofstream outfile("mult_table.txt");
+    ofstream outfile(&quot;mult_table.txt&quot;);
     if (!outfile.good()) {
-        cout &lt;&lt; "Error. Unable to open file." &lt;&lt; endl;
+        cout &lt;&lt; &quot;Error. Unable to open file.&quot; &lt;&lt; endl;
         exit(1);
     }
     vector&lt;int&gt; rows(10);
@@ -622,12 +607,11 @@ int main() {
         Take a look at the example below. Two find the product of two
         matrices, take the ith row from the first matrix and the jth column
         from the second matrix, find the summation of the product of each component,
-        and that&#8217;s the value that goes into the (i, j) location of the new matrix.
+        and that’s the value that goes into the (i, j) location of the new matrix.
         The product of an mxn and an nxp matrix is an mxp matrix.
         Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="cp_15_AC_10q_editor">
+    <program interactive="activecode" label="cp_15_AC_10q_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;fstream&gt;
@@ -652,7 +636,7 @@ int main() {
             Take a look at the example below. To find the product of two
             matrices, take the ith row from the first matrix and the jth column
             from the second matrix, find the summation of the product of each component,
-            and that&#8217;s the value that goes into the (i, j) location of the new matrix.
+            and that’s the value that goes into the (i, j) location of the new matrix.
             The product of an mxn and an nxp matrix is an mxp matrix.
             Use the lines to construct the code, then go back to complete the Activecode.</p>
         </statement>

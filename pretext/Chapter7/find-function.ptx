@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_the-find-function">
+<?xml version="1.0" ?><section xml:id="chapter7_the-find-function">
   <title>The <c>find</c> function</title>
   <p>The <c>string</c> class provides several other functions that you can invoke on strings. The <c>find</c>
     function is like the opposite the <c>[]</c> operator. Instead of taking an index and extracting
@@ -10,9 +9,7 @@
       Take a look at this active code, which uses the <c>find</c> function to find the character <c>'a'</c>
         in string <c>fruit</c> and string <c>dessert</c>.
     </title>
-    <program xml:id="find_function_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="find_function_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -38,11 +35,9 @@ int main() {
     finds the index where the substring appears in the string.</p>
   <listing label="find_function_AC_2">
     <title>
-      This active code finds the starting index of <c>"nan"</c> in <c>fruit</c>.
+      This active code finds the starting index of <c>&quot;nan&quot;</c> in <c>fruit</c>.
     </title>
-    <program xml:id="find_function_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="find_function_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -69,18 +64,15 @@ int main() {
     </p></feedback>
     <areas>
 <cline><area correct="no">def main() {:</area></cline>
-<cline><area correct="no">string fruit = "apple";</area></cline>
+<cline><area correct="no">string fruit = &quot;apple&quot;;</area></cline>
 <cline>    size_t<area correct="no"> index_a </area>= fruit.find('e');</cline>
-<cline>    size_t<area correct="yes"> index_b </area>= fruit.find("app");</cline>
+<cline>    size_t<area correct="yes"> index_b </area>= fruit.find(&quot;app&quot;);</cline>
 <cline>    size_t<area correct="yes"> index_c </area>= fruit.find('a');</cline>
 <cline>    size_t<area correct="no"> index_d </area>= fruit.find('l');</cline>
 <cline>}</cline>
     </areas>
   </exercise>
-  <exercise label="find_function_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="find_function_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that correctly finds and prints where the first <q>B</q> is in
         the string. Declare <c>city</c> before <c>index</c>.</p>
@@ -91,10 +83,10 @@ int main() {
       </block>
       <block order="1">
         <choice correct="yes">
-          <cline> string city = "New Baltimore";</cline>
+          <cline> string city = &quot;New Baltimore&quot;;</cline>
         </choice>
         <choice>
-          <cline> string city = "New Baltimore" </cline>
+          <cline> string city = &quot;New Baltimore&quot; </cline>
         </choice>
       </block>
       <block order="2">
@@ -167,7 +159,7 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is 29</p>
         </statement>
         <feedback>
-          <p><c>find</c> returns the index of the FIRST occurence of "sea".</p>
+          <p><c>find</c> returns the index of the FIRST occurence of &quot;sea&quot;.</p>
         </feedback>
       </choice>
       <choice correct="yes">
@@ -175,7 +167,7 @@ cout << "Index to find sea is " << index << endl;
           <p>Index to find sea is 5</p>
         </statement>
         <feedback>
-          <p>Correct! <c>index</c> only has to look for a sequence arranged as "sea" in the
+          <p>Correct! <c>index</c> only has to look for a sequence arranged as &quot;sea&quot; in the
             string.</p>
         </feedback>
       </choice>

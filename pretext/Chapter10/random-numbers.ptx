@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_random-numbers-random">
+<?xml version="1.0" ?><section xml:id="chapter10_random-numbers-random">
   <title>Random numbers</title>
   <p>Most computer programs do the same thing every time they are executed, so they are said to be <term>
     deterministic</term>. Usually, determinism is a good thing, since we expect the same calculation
@@ -10,7 +9,7 @@
     and use them to determine the outcome of the program. Pseudorandom numbers are not truly random
     in the mathematical sense, but for our purposes, they will do.</p>
   <p>C++ provides a function called <c>random</c> that generates <term>pseudorandom</term> numbers
-    (pseudo- meaning "fake"). It is declared in the header file <c>cstdlib</c>, which contains a variety of <q>standard
+    (pseudo- meaning &quot;fake&quot;). It is declared in the header file <c>cstdlib</c>, which contains a variety of <q>standard
     library</q> functions, hence the name.</p>
   <warning>
     <p>
@@ -25,9 +24,7 @@
     <title>
       Take a look at this active code, which generates 4 random numbers.
     </title>
-    <program xml:id="random_numbers_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="random_numbers_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cstdlib>
@@ -65,9 +62,7 @@ int y = x % upperBound;</program>
     <title>
       This active code generates random numbers between 1 and 7.
     </title>
-    <program xml:id="random_numbers_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="random_numbers_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cstdlib>
@@ -102,9 +97,7 @@ double y = double(x) / RAND_MAX;</program>
       <p>This active code generates random numbers between 0 and 1. Can you modify it
         to generate random numbers between 100.0 and 200.0? If you're stuck you can
         reveal the hint below!</p>
-    <program xml:id="random_numbers_AC_3_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="random_numbers_AC_3_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cstdlib>

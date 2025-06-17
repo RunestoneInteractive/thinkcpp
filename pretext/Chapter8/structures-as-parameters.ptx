@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_structures-as-parameters">
+<?xml version="1.0" ?><section xml:id="chapter8_structures-as-parameters">
   <title>Structures as parameters</title>
   <p>You can pass structures as parameters in the usual way. For example,</p>
   <program>void printPoint(Point p) {
-  cout &lt;&lt; "(" &lt;&lt; p.x &lt;&lt; ", " &lt;&lt; p.y &lt;&lt; ")" &lt;&lt; endl;
+  cout &lt;&lt; &quot;(&quot; &lt;&lt; p.x &lt;&lt; &quot;, &quot; &lt;&lt; p.y &lt;&lt; &quot;)&quot; &lt;&lt; endl;
 }</program>
   <p><c>printPoint</c> takes a point as an argument and outputs it in the standard format. If you call <c>printPoint (blank)</c>,
     it will output <c>(3, 4)</c>.</p>
@@ -11,9 +10,7 @@
     <title>
       This active code uses the <c>printPoint</c> function. Run the code to see the output!
     </title>
-    <program xml:id="structures_parameters_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="structures_parameters_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -45,9 +42,7 @@ int main() {
       This active code uses the updated version of the <c>distance</c> function. Feel free to modify the
         code!
     </title>
-    <program xml:id="structures_parameters_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="structures_parameters_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -130,10 +125,7 @@ int main() {
       </choice>
     </choices>
   </exercise>
-  <exercise label="structures_parameters_2"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="structures_parameters_2" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that takes in three Point structures and prints the average of the x
         coordinates and the average of the y coordinates as a coordinate. Find the x average before
@@ -149,15 +141,13 @@ int main() {
       <block order="2">
         <cline> double avgY = (p1.y + p2.y + p3.y)/3;</cline>
       </block>
-      <block order="1"
-             correct="no">
+      <block order="1" correct="no">
         <cline> double avgY = (y.p1 + y.p2 + y.p3)/3; </cline>
       </block>
       <block order="7">
         <cline><![CDATA[ cout << "(" << avgX << "," << avgY << ")";]]></cline>
       </block>
-      <block order="5"
-             correct="no">
+      <block order="5" correct="no">
         <cline><![CDATA[ cout << "(" << "avgX" << "," << "avgY" << ")"; ]]></cline>
       </block>
       <block order="6">

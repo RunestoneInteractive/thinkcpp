@@ -1,4 +1,4 @@
-<exercises xml:id="chapter10_activecode-exercises">
+<?xml version="1.0" ?><exercises xml:id="chapter10_activecode-exercises">
     <title>Activecode Exercises</title>
     <introduction><p>
         Answer the following <term>Activecode</term> questions to assess what you have
@@ -10,8 +10,7 @@
         changes
         the third element of that vector to a 2.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a1q_editor">
+    <program interactive="activecode" label="vectors_a1q_editor">
 
         <code>
 #include &lt;iostream&gt;
@@ -32,7 +31,7 @@ int main () {
     </program></statement>
     <solution>
         <p>Below is one way to fix the program. You must always include the <c>&lt;vector&gt;</c> header when
-          dealing with vectors. Furthermore, to initialize a vector&#8217;s elements to a certain
+          dealing with vectors. Furthermore, to initialize a vector’s elements to a certain
           value, you must include that value as a second argument to the size. Finally, vectors are
           zero-indexed.</p>
 
@@ -62,8 +61,7 @@ int main () {
     <statement>
       <p>Fix the function below so that it returns how many even numbers are in <c>nums</c>. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a2_editor">
+    <program interactive="activecode" label="vectors_a2_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -97,8 +95,7 @@ int main() {
           <block order="11">
             <cline>    int count = 0;</cline>
           </block>
-          <block order="1"
-                 correct="no">
+          <block order="1" correct="no">
             <cline>    int count; </cline>
           </block>
           <block order="5">
@@ -138,8 +135,7 @@ int main() {
       <p>Fix the function below so that it creates a vector of all of the words in <c>words</c> that end
         with the passed character.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a3q_editor">
+    <program interactive="activecode" label="vectors_a3q_editor">
 
         <code>
 #include &lt;iostream&gt;
@@ -206,8 +202,7 @@ int endsWith(const vector&lt;string&gt;&amp; vec, char c) {
         been exposed.
         Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a4_editor">
+    <program interactive="activecode" label="vectors_a4_editor">
         <code>
 #include &lt;iostream&gt;
 
@@ -278,10 +273,9 @@ int main () {
   <exercise label="vectors_a5">
     <statement>
       <p>Finish the code below so that it creates removes elements from the end of the vector until
-        it ends with <c>"stop"</c>.</p>
+        it ends with <c>&quot;stop&quot;</c>.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a5q_editor">
+    <program interactive="activecode" label="vectors_a5q_editor">
 
         <code>
 #include &lt;iostream&gt;
@@ -290,7 +284,7 @@ int main () {
 using namespace std;
 
 int main () {
-    vector&lt;string&gt; words = {"roses", "are", "red", "violets", "stop", "are", "blue"}
+    vector&lt;string&gt; words = {&quot;roses&quot;, &quot;are&quot;, &quot;red&quot;, &quot;violets&quot;, &quot;stop&quot;, &quot;are&quot;, &quot;blue&quot;}
 
     while(          ) {
 
@@ -306,7 +300,7 @@ int main () {
     </program></statement>
     <solution>
         <p>Below is one way to finish the program. We just use the <c>pop_back</c> function until the last
-          element of the vector is <c>"stop"</c>.</p>
+          element of the vector is <c>&quot;stop&quot;</c>.</p>
 
       <program xml:id="vectors_a5a_editor">
 
@@ -317,9 +311,9 @@ int main () {
 using namespace std;
 
 int main () {
-    vector&lt;string&gt; words = {"roses", "are", "red", "violets", "stop", "are", "blue"};
+    vector&lt;string&gt; words = {&quot;roses&quot;, &quot;are&quot;, &quot;red&quot;, &quot;violets&quot;, &quot;stop&quot;, &quot;are&quot;, &quot;blue&quot;};
 
-    while (words[words.size() - 1] != "stop"){
+    while (words[words.size() - 1] != &quot;stop&quot;){
         words.pop_back();
     }
 }
@@ -340,8 +334,7 @@ int main () {
         vector until it ends with an even number. Check the hint below for help with the
         construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a6_editor">
+    <program interactive="activecode" label="vectors_a6_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -370,8 +363,7 @@ int main() {
           <block order="3">
             <cline>void endsEven (vector&lt;int&gt; &amp;vec) {</cline>
           </block>
-          <block order="1"
-                 correct="no">
+          <block order="1" correct="no">
             <cline>vector endsEven (vector&lt;int&gt; &amp;vec) { </cline>
           </block>
           <block order="6">
@@ -402,8 +394,7 @@ int main() {
         vector <c>vec</c> contains the character <c>let</c>. It should return true if all strings contain
         the <c>let</c>.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a7q_editor">
+    <program interactive="activecode" label="vectors_a7q_editor">
 
         <code>
 #include &lt;iostream&gt;
@@ -461,8 +452,7 @@ int has_char(const vector&lt;string&gt;&amp; vec, char let) {
         1 and <c>max</c>, inclusive. Check the hint below for help with the construction of the
         code.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a8_editor">
+    <program interactive="activecode" label="vectors_a8_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;cstdlib&gt;
@@ -515,8 +505,7 @@ int main() {
           <block order="4">
             <cline>    return randomVec;</cline>
           </block>
-          <block order="9"
-                 correct="no">
+          <block order="9" correct="no">
             <cline>    return randomVec[i]; </cline>
           </block>
           <block order="8">
@@ -531,8 +520,7 @@ int main() {
     <statement>
       <p>Write the function <c>mean</c> which returns the average of a vector of numbers.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a9q_editor">
+    <program interactive="activecode" label="vectors_a9q_editor">
 
         <code>
 #include &lt;iostream&gt;
@@ -579,8 +567,7 @@ double mean (const vector&lt;double&gt; nums) {
         that are divisible by 100. Check the hint below for help with the construction of the
         code.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a10_editor">
+    <program interactive="activecode" label="vectors_a10_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;
@@ -617,8 +604,7 @@ int main() {
           <block order="11">
             <cline>    for (size_t i = 0; i &lt; vec.size(); i++) {</cline>
           </block>
-          <block order="2"
-                 correct="no">
+          <block order="2" correct="no">
             <cline>    for (size_t i = 0; i &lt; count(); i++) { </cline>
           </block>
           <block order="6">
@@ -647,11 +633,10 @@ int main() {
   <exercise label="vectors_a11">
     <statement>
       <p>Write the function <c>make_odd</c> which subtracts 1 from every even number in a vector of
-        integers. We don&#8217;t want any negative values so don&#8217;t subtract 1 from 0. (
+        integers. We don’t want any negative values so don’t subtract 1 from 0. (
         remember to take in the vector by reference to make changes to the actual vector! )</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a11q_editor">
+    <program interactive="activecode" label="vectors_a11q_editor">
 
         <code>
 #include &lt;iostream&gt;
@@ -701,8 +686,7 @@ void make_odd ( vector&lt;int&gt; &amp;nums) {
         order and then prints the second half in the order present in the vector. If we had <c>vec = {1,2,3,4,5,6}</c>
         we would print <c>3 2 1 4 5 6</c>. You can assume the size of the vector will always be even. Check the hint below for help with the construction of the code.</p>
 
-    <program interactive="activecode"
-             xml:id="vectors_a12_editor">
+    <program interactive="activecode" label="vectors_a12_editor">
         <code>
 #include &lt;iostream&gt;
 #include &lt;vector&gt;

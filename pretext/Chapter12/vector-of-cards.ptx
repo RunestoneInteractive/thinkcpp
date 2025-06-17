@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
-<section xml:id="chapter12_vectors-of-cards">
+<?xml version="1.0" ?><section xml:id="chapter12_vectors-of-cards">
   <title>Vectors of cards</title>
   <p>The reason I chose <c>Cards</c> as the objects for this chapter is that there is an obvious use for
-    a vector of cards&#x2014;a deck. Here is some code that creates a new deck of 52 cards:</p>
+    a vector of cards—a deck. Here is some code that creates a new deck of 52 cards:</p>
   <program>
 vector&lt;Card&gt; deck(52);
 </program>
@@ -47,9 +46,7 @@ for (int suit = 0; suit &lt;= 3; suit++) {
     <title>
       Take a look at this active code, which includes the implementation of the <c>buildDeck</c> function.
     </title>
-    <program xml:id="c12_6_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="c12_6_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -97,27 +94,27 @@ Card::Card(int s, int r) {
 
 void Card::print() const {
    vector&lt;string&gt; suits(4);
-   suits[0] = "Clubs";
-   suits[1] = "Diamonds";
-   suits[2] = "Hearts";
-   suits[3] = "Spades";
+   suits[0] = &quot;Clubs&quot;;
+   suits[1] = &quot;Diamonds&quot;;
+   suits[2] = &quot;Hearts&quot;;
+   suits[3] = &quot;Spades&quot;;
 
    vector&lt;string&gt; ranks(14);
-   ranks[1] = "Ace";
-   ranks[2] = "2";
-   ranks[3] = "3";
-   ranks[4] = "4";
-   ranks[5] = "5";
-   ranks[6] = "6";
-   ranks[7] = "7";
-   ranks[8] = "8";
-   ranks[9] = "9";
-   ranks[10] = "10";
-   ranks[11] = "Jack";
-   ranks[12] = "Queen";
-   ranks[13] = "King";
+   ranks[1] = &quot;Ace&quot;;
+   ranks[2] = &quot;2&quot;;
+   ranks[3] = &quot;3&quot;;
+   ranks[4] = &quot;4&quot;;
+   ranks[5] = &quot;5&quot;;
+   ranks[6] = &quot;6&quot;;
+   ranks[7] = &quot;7&quot;;
+   ranks[8] = &quot;8&quot;;
+   ranks[9] = &quot;9&quot;;
+   ranks[10] = &quot;10&quot;;
+   ranks[11] = &quot;Jack&quot;;
+   ranks[12] = &quot;Queen&quot;;
+   ranks[13] = &quot;King&quot;;
 
-   cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+   cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 </tests>
     </program>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter4_recursion">
+<?xml version="1.0" ?><section xml:id="chapter4_recursion">
   <title>Recursion</title>
   <p>What mentioned in the last chapter is that it is legal for one function to
     call another, and we have seen several examples of that. I neglected to
@@ -13,7 +12,7 @@
   <p>For example, look at the following function:</p>
   <program>void countdown(int n) {
   if (n == 0) {
-    cout &lt;&lt; "Blastoff!" &lt;&lt; endl;
+    cout &lt;&lt; &quot;Blastoff!&quot; &lt;&lt; endl;
   }
   else {
     cout &lt;&lt; n &lt;&lt; endl;
@@ -22,14 +21,12 @@
 }</program>
   <p>The name of the function is <c>countdown</c> and it takes a single integer as a parameter. If the
     parameter is zero, it outputs the word <q>Blastoff.</q> Otherwise, it outputs the parameter and
-    then calls a function named <c>countdown</c> &#x2014;itself&#x2014; passing <c>n - 1</c> as an argument.</p>
+    then calls a function named <c>countdown</c> —itself— passing <c>n - 1</c> as an argument.</p>
   <activity label="recursion_AC_1">
     <statement>
       <p>Watch how the countdown function works when we start with a value
         of 3.</p>
-    <program xml:id="recursion_AC_1_editor"
-             interactive="codelens" language="cpp"
-             line-numbers="yes">
+    <program xml:id="recursion_AC_1_editor" interactive="codelens" language="cpp" line-numbers="yes">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -55,13 +52,13 @@ int main() {
   <p>What happens if we call <c>countdown</c> function like this:</p>
   <blockquote>
     <p>The execution of <c>countdown</c> begins with <c>n = 3</c>, and since n is not zero, it outputs the value
-      3, and then calls itself&#x2026;</p>
+      3, and then calls itself…</p>
     <blockquote>
       <p>The execution of <c>countdown</c> begins with <c>n = 2</c>, and since n is not zero, it outputs the value
-        2, and then calls itself&#x2026;</p>
+        2, and then calls itself…</p>
       <blockquote>
         <p>The execution of <c>countdown</c> begins with <c>n = 1</c>, and since n is not zero, it outputs the
-          value 1, and then calls itself&#x2026;</p>
+          value 1, and then calls itself…</p>
         <blockquote>
           <p>The execution of <c>countdown</c> begins with <c>n = 0</c>, and since n is zero, it outputs the word <q>
             Blastoff!</q> and then returns.</p>
@@ -102,9 +99,7 @@ void threeLine() {
     <title>
       You can have a little bit of fun with recursion. Try this guessing game below!
     </title>
-    <program xml:id="recursion_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="recursion_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cstdlib>
@@ -146,7 +141,7 @@ using namespace std;
 
 void exclamationPoint(int n) {
   if (n &gt; 0) {
-    cout &lt;&lt; "!";
+    cout &lt;&lt; &quot;!&quot;;
     exclamationPoint (n-1);
   }
 }
@@ -178,7 +173,7 @@ int main() {
         </statement>
         <feedback><p>
           Correct! First, the program enters the if statement within exclamationPoint because n
-            is greater than 0. Then the function prints a "!" and calls itself again, but with n-1,
+            is greater than 0. Then the function prints a &quot;!&quot; and calls itself again, but with n-1,
             which is 2. This repeats until n is 0, which is when the program exits the function.
         </p></feedback>
       </choice>
@@ -188,7 +183,7 @@ int main() {
         </statement>
         <feedback><p>
           The function keeps executing while n is greater than 0. Therefore, when n is 0, it will
-            not print a "!"
+            not print a &quot;!&quot;
         </p></feedback>
       </choice>
     </choices>
@@ -201,7 +196,7 @@ using namespace std;
 
 void exclamationPoint(int n) {
   if (n &gt; 0) {
-    cout &lt;&lt; "!";
+    cout &lt;&lt; &quot;!&quot;;
     exclamationPoint (n-1);
   }
 }
@@ -232,7 +227,7 @@ int main() {
           <p>0</p>
         </statement>
         <feedback><p>
-          The only output statement in this program prints a "!", therefore "0" would never
+          The only output statement in this program prints a &quot;!&quot;, therefore &quot;0&quot; would never
             print.
         </p></feedback>
       </choice>
@@ -241,7 +236,7 @@ int main() {
           <p>Nothing prints.</p>
         </statement>
         <feedback><p>
-          Correct! The program never enters the "if" statement within the function because n is
+          Correct! The program never enters the &quot;if&quot; statement within the function because n is
             never greater than 0.
         </p></feedback>
       </choice>

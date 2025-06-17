@@ -1,14 +1,11 @@
-<?xml version="1.0"?>
-<exercises xml:id="chapter11_coding-practice">
+<?xml version="1.0" ?><exercises xml:id="chapter11_coding-practice">
   <title>Coding Practice</title>
   <exercise label="cp_11_AC_1">
     <statement>
       <p>Write the <c>Cake</c> structure, which has instance variables name, weight and member function
         has_icing function that returns a bool. Use the <c>Cake</c> object initialised below to invoke
         the has_icing function.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_1q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_1q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -24,9 +21,7 @@ int main() {
     <solution>
         <p>Below is one way to implement the program. We declare the <c>Cake</c> struct and list the
           instance variables in order.</p>
-      <program xml:id="cp_11_AC_1a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_11_AC_1a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -48,9 +43,7 @@ int main() {
     <statement>
       <p>The <c>Cake</c> structure has instance variables name, weight and member function has_icing.
         Write the has_icing function which returns true when the weight is greater than 10.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_2q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_2q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -70,9 +63,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-      <program xml:id="cp_9_AC_2a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_9_AC_2a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -102,9 +93,7 @@ int main() {
       <p>Create the <c>Music</c> structure, with member variables num_sold and year, and member functions <c>sold</c>
         and <c>is_new</c>. The <c>sold</c> function should print twice the num_sold while the <c>is_new</c> function
         should return true if the year is greater than 2012.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_3q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_3q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -120,9 +109,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-        <program xml:id="cp_11_AC_3a_editor"
-                 interactive="activecode"
-                 line-numbers="yes"><code><![CDATA[
+        <program interactive="activecode" line-numbers="yes" label="cp_11_AC_3a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -157,9 +144,7 @@ int main() {
       <p>Create the <c>Music</c> structure, with member variables num_sold and year, and member function <c>latest</c>.
         The <c>latest</c> function operates on two <c>Music</c> objects, and returns true if the current
         object's year is greater than the other's.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_4q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_4q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -177,9 +162,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-        <program xml:id="cp_11_AC_4a_editor"
-                 interactive="activecode"
-                 line-numbers="yes"><code><![CDATA[
+        <program interactive="activecode" line-numbers="yes" label="cp_11_AC_4a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -211,9 +194,7 @@ int main() {
       <p>Write the function <c>printInfo</c>, which prints the music album's information in the format <q>This
         is a <c>artist</c>, <c>year</c> album with/without featured artists.</q> If <c>artist</c> has the value <q>
         n/a</q>, <c>printInfo</c> prints out <q>Unknown <c>artist</c>! Your album is from <c>year</c>.</q></p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_5q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_5q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -236,9 +217,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-      <program xml:id="cp_11_AC_5a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_11_AC_5a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -275,9 +254,7 @@ int main() {
     <statement>
       <p>The <c>Music</c> structure has instance variables name, weight and member function has_icing.
         Write the has_icing function which returns true when the weight is greater than 10.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_6q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_6q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -297,9 +274,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-      <program xml:id="cp_11_AC_6a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_11_AC_6a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -329,9 +304,7 @@ int main() {
       <p>Write the <c>Pants</c> structure, which has instance variables size and material. Also write a
         constructor for <c>Pants</c> that would be called when p1 is declred. The constructor sets the
         size to L and material to cotton.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_7q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_7q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -349,9 +322,7 @@ int main() {
     <solution>
         <p>Below is one way to implement the program. We declare the <c>Pants</c> struct and list the
           instance variables in order. In addition, we write a default constructor.</p>
-      <program xml:id="cp_11_AC_7a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_11_AC_7a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -379,9 +350,7 @@ int main() {
       <p>Implement 2 constructors for the struct <c>Book</c>, which has the instance variables name and
         publish_year. One should be a default constructor that sets name to N/A and publish_year to
         0. The other constructor should take arguments</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_8q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_8q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -406,9 +375,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-      <program xml:id="cp_11_AC_8a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_11_AC_8a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 
@@ -442,9 +409,7 @@ int main() {
     <statement>
       <p>Implement the struct <c>Book</c> as would appear in the Book.h header file and the following
         necessary statement in main.cpp in order for thr program to run</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_9q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_9q_editor">
       <code><![CDATA[
 struct Book {
     // Group and label the following as instance variables, constructors, modifiers or functions as would be seen in a header (Book.h) file
@@ -468,9 +433,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-      <program xml:id="cp_11_AC_9a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_11_AC_9a_editor"><code><![CDATA[
 struct Book {
     // Instance variables
     string name;
@@ -499,9 +462,7 @@ int main() {
       <p>Implement the struct <c>Instrument</c> struct along with 2 constructors for the same (default and one
         that takes parameters). <c>Instrument</c> has the instance variables name, year_made and function
         is_popular(). The default constructor sets name to guitar and year_made to 2000.</p>
-    <program interactive="activecode"
-             line-numbers="yes"
-             xml:id="cp_11_AC_10q_editor">
+    <program interactive="activecode" line-numbers="yes" label="cp_11_AC_10q_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -516,9 +477,7 @@ int main() {
     </program></statement>
     <solution>
         <p>Below is one way to implement the program.</p>
-      <program xml:id="cp_11_AC_10a_editor"
-               interactive="activecode"
-               line-numbers="yes"><code><![CDATA[
+      <program interactive="activecode" line-numbers="yes" label="cp_11_AC_10a_editor"><code><![CDATA[
 #include <iostream>
 using namespace std;
 

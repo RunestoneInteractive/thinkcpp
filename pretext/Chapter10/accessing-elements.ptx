@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter10_accessing-elements">
+<?xml version="1.0" ?><section xml:id="chapter10_accessing-elements">
   <title>Accessing elements</title>
   <p>The <c>[]</c> operator reads and writes the elements of a vector in much the same way it accesses
     the characters in an <c>string</c>. This is called <term>vector indexing</term>. As with <c>string</c>s, the
@@ -42,9 +41,7 @@ while (i &lt; 4) {
       Take a look at this active code. We can modify the vectors by accessing
       its elements.
     </title>
-    <program xml:id="accessing_elements_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="accessing_elements_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <vector>
@@ -128,8 +125,7 @@ int main() {
   </exercise>
   <exercise label="accessing_elements_2">
     <statement>
-      <p>What is the highest index reached by <c>while(i &lt; 7)</c>? <fillin mode="number"
-                answer="6"/>
+      <p>What is the highest index reached by <c>while(i &lt; 7)</c>? <fillin mode="number" answer="6"/>
       </p>
     </statement>
     <evaluation>

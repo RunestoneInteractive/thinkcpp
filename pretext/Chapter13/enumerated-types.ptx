@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter13_enumerated-types">
+<?xml version="1.0" ?><section xml:id="chapter13_enumerated-types">
   <title>Enumerated types</title>
   <p>In the previous chapter I talked about mappings between real-world
     values like rank and suit, and internal representations like integers
@@ -48,9 +47,7 @@ Card card (1, 11);
         will change the output from the <c>print</c> function. Notice how this is much clearer than using
         integers.
     </title>
-    <program xml:id="enum_type_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="enum_type_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -86,27 +83,27 @@ Card::Card(Suit s, Rank r) {
 
 void Card::print() const {
     vector&lt;string&gt; suits(4);
-    suits[0] = "Clubs";
-    suits[1] = "Diamonds";
-    suits[2] = "Hearts";
-    suits[3] = "Spades";
+    suits[0] = &quot;Clubs&quot;;
+    suits[1] = &quot;Diamonds&quot;;
+    suits[2] = &quot;Hearts&quot;;
+    suits[3] = &quot;Spades&quot;;
 
     vector&lt;string&gt; ranks(14);
-    ranks[1] = "Ace";
-    ranks[2] = "2";
-    ranks[3] = "3";
-    ranks[4] = "4";
-    ranks[5] = "5";
-    ranks[6] = "6";
-    ranks[7] = "7";
-    ranks[8] = "8";
-    ranks[9] = "9";
-    ranks[10] = "10";
-    ranks[11] = "Jack";
-    ranks[12] = "Queen";
-    ranks[13] = "King";
+    ranks[1] = &quot;Ace&quot;;
+    ranks[2] = &quot;2&quot;;
+    ranks[3] = &quot;3&quot;;
+    ranks[4] = &quot;4&quot;;
+    ranks[5] = &quot;5&quot;;
+    ranks[6] = &quot;6&quot;;
+    ranks[7] = &quot;7&quot;;
+    ranks[8] = &quot;8&quot;;
+    ranks[9] = &quot;9&quot;;
+    ranks[10] = &quot;10&quot;;
+    ranks[11] = &quot;Jack&quot;;
+    ranks[12] = &quot;Queen&quot;;
+    ranks[13] = &quot;King&quot;;
 
-    cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+    cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 </tests>
     </program>
@@ -129,8 +126,8 @@ for (Suit suit = CLUBS; suit &lt;= SPADES; suit = Suit(suit+1)) {
     type:</p>
   <program>suit = Suit(suit+1);
 rank = Rank(rank+1);</program>
-  <p>Actually, there is a better way to do this&#x2014;we can define the <c>++</c> operator for
-    enumerated types&#x2014;but that is beyond the scope of this book.</p>
+  <p>Actually, there is a better way to do this—we can define the <c>++</c> operator for
+    enumerated types—but that is beyond the scope of this book.</p>
   <exercise label="enum_type_1">
     <statement>
       <p>Multiple Response: What can we do with enumerated types?</p>
@@ -196,9 +193,9 @@ struct iceCream {
     printOrder() {
     // To save space, I didn't include the mapping.
     // I'm sure you can still figure it out.
-    cout &lt;&lt; "Who ordered a " &lt;&lt; scoops[scoop] 
-        &lt;&lt; " scoop of " &lt;&lt; flavors[flavor] 
-        &lt;&lt; " in a " &lt;&lt; orders[order] &lt;&lt; ?;
+    cout &lt;&lt; &quot;Who ordered a &quot; &lt;&lt; scoops[scoop] 
+        &lt;&lt; &quot; scoop of &quot; &lt;&lt; flavors[flavor] 
+        &lt;&lt; &quot; in a &quot; &lt;&lt; orders[order] &lt;&lt; ?;
    }
 };
 
@@ -229,8 +226,8 @@ int main() {
           <p>Who ordered a double scoop of Cookies 'n' Cream in a sugar cone?</p>
         </statement>
         <feedback><p>
-          2 corresponds to "double", 3 corresponds to "Cookies 'n' Cream", and 2 corresponds to
-            "sugar cone".
+          2 corresponds to &quot;double&quot;, 3 corresponds to &quot;Cookies 'n' Cream&quot;, and 2 corresponds to
+            &quot;sugar cone&quot;.
         </p></feedback>
       </choice>
       <choice>

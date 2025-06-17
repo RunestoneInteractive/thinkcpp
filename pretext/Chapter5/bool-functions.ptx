@@ -23,7 +23,7 @@
   <p>In main you can call this function in the usual ways:</p>
   <program>cout &lt;&lt; isSingleDigit(2) &lt;&lt; endl;
 bool bigFlag = !isSingleDigit(17);</program>
-  <program xml:id="bool_fun_AC_1" interactive="activecode" line-numbers="yes">
+  <program interactive="activecode" line-numbers="yes" label="bool_fun_AC_1">
     <code><![CDATA[
 #include <iostream>
 #include <cmath>

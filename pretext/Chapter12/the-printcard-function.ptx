@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter12_the-printcard-function">
+<?xml version="1.0" ?><section xml:id="chapter12_the-printcard-function">
   <title>The <c>printCard</c> function</title>
   <p>When you create a new type, the first step is usually to declare the
     instance variables and write constructors. The second step is often to
@@ -14,37 +13,37 @@ vector&lt;string&gt; suits(4);
     both.</p>
   <p>To initialize the elements of the vector, we can use a series of
     assignment statements.</p>
-  <program>suits[0] = "Clubs";
-suits[1] = "Diamonds";
-suits[2] = "Hearts";
-suits[3] = "Spades";</program>
+  <program>suits[0] = &quot;Clubs&quot;;
+suits[1] = &quot;Diamonds&quot;;
+suits[2] = &quot;Hearts&quot;;
+suits[3] = &quot;Spades&quot;;</program>
   <p>A state diagram for this vector looks like this:</p>
   <p>We can build a similar vector to decode the ranks. Then we can select the appropriate elements
     using the <c>suit</c> and <c>rank</c> as indices. Finally, we can write a function called <c>print</c> that
     outputs the card on which it is invoked:</p>
   <program>void Card::print() const {
   vector&lt;string&gt; suits(4);
-  suits[0] = "Clubs";
-  suits[1] = "Diamonds";
-  suits[2] = "Hearts";
-  suits[3] = "Spades";
+  suits[0] = &quot;Clubs&quot;;
+  suits[1] = &quot;Diamonds&quot;;
+  suits[2] = &quot;Hearts&quot;;
+  suits[3] = &quot;Spades&quot;;
 
   vector&lt;string&gt; ranks(14);
-  ranks[1] = "Ace";
-  ranks[2] = "2";
-  ranks[3] = "3";
-  ranks[4] = "4";
-  ranks[5] = "5";
-  ranks[6] = "6";
-  ranks[7] = "7";
-  ranks[8] = "8";
-  ranks[9] = "9";
-  ranks[10] = "10";
-  ranks[11] = "Jack";
-  ranks[12] = "Queen";
-  ranks[13] = "King";
+  ranks[1] = &quot;Ace&quot;;
+  ranks[2] = &quot;2&quot;;
+  ranks[3] = &quot;3&quot;;
+  ranks[4] = &quot;4&quot;;
+  ranks[5] = &quot;5&quot;;
+  ranks[6] = &quot;6&quot;;
+  ranks[7] = &quot;7&quot;;
+  ranks[8] = &quot;8&quot;;
+  ranks[9] = &quot;9&quot;;
+  ranks[10] = &quot;10&quot;;
+  ranks[11] = &quot;Jack&quot;;
+  ranks[12] = &quot;Queen&quot;;
+  ranks[13] = &quot;King&quot;;
 
-  cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+  cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }</program>
   <p>The expression <c>suits[suit]</c> means <q>use the instance variable <c>suit</c> from the current object as an
     index into the vector named <c>suits</c>, and select the appropriate string.</q></p>
@@ -59,9 +58,7 @@ card.print();</program>
       <p>This active code uses the <c>Card::print()</c> function. Feel free to modify the values that <c>card</c> is
         being initialized to in the constructor: this will change the output from the <c>Card::print()</c>
         function.</p>
-    <program xml:id="c12_3_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="c12_3_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -94,33 +91,33 @@ Card::Card(int s, int r) {
 
 void Card::print() const {
   vector&lt;string&gt; suits(4);
-  suits[0] = "Clubs";
-  suits[1] = "Diamonds";
-  suits[2] = "Hearts";
-  suits[3] = "Spades";
+  suits[0] = &quot;Clubs&quot;;
+  suits[1] = &quot;Diamonds&quot;;
+  suits[2] = &quot;Hearts&quot;;
+  suits[3] = &quot;Spades&quot;;
 
   vector&lt;string&gt; ranks(14);
-  ranks[1] = "Ace";
-  ranks[2] = "2";
-  ranks[3] = "3";
-  ranks[4] = "4";
-  ranks[5] = "5";
-  ranks[6] = "6";
-  ranks[7] = "7";
-  ranks[8] = "8";
-  ranks[9] = "9";
-  ranks[10] = "10";
-  ranks[11] = "Jack";
-  ranks[12] = "Queen";
-  ranks[13] = "King";
+  ranks[1] = &quot;Ace&quot;;
+  ranks[2] = &quot;2&quot;;
+  ranks[3] = &quot;3&quot;;
+  ranks[4] = &quot;4&quot;;
+  ranks[5] = &quot;5&quot;;
+  ranks[6] = &quot;6&quot;;
+  ranks[7] = &quot;7&quot;;
+  ranks[8] = &quot;8&quot;;
+  ranks[9] = &quot;9&quot;;
+  ranks[10] = &quot;10&quot;;
+  ranks[11] = &quot;Jack&quot;;
+  ranks[12] = &quot;Queen&quot;;
+  ranks[13] = &quot;King&quot;;
 
-   cout &lt;&lt; ranks[rank] &lt;&lt; " of " &lt;&lt; suits[suit] &lt;&lt; endl;
+   cout &lt;&lt; ranks[rank] &lt;&lt; &quot; of &quot; &lt;&lt; suits[suit] &lt;&lt; endl;
 }
 </tests>
     </program></statement>
   </exercise>
   <p>You might notice that we are not using the zeroeth element of the <c>ranks</c> vector. That's
-    because the only valid ranks are 1&#x2013;13. By leaving an unused element at the beginning of
+    because the only valid ranks are 1–13. By leaving an unused element at the beginning of
     the vector, we get an encoding where 2 maps to <q>2</q>, 3 maps to <q>3</q>, etc. From the point
     of view of the user, it doesn't matter what the encoding is, since all input and output uses
     human-readable formats. On the other hand, it is often helpful for the programmer if the
@@ -159,7 +156,7 @@ void Card::print() const {
           <p>rank[ranks]</p>
         </statement>
         <feedback><p>
-          Incorrect! This is using the vector "ranks" as an index to a single "rank".
+          Incorrect! This is using the vector &quot;ranks&quot; as an index to a single &quot;rank&quot;.
         </p></feedback>
       </choice>
     </choices>

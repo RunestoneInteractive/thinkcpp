@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter8_passing-other-types-by-reference">
+<?xml version="1.0" ?><section xml:id="chapter8_passing-other-types-by-reference">
   <title>Passing other types by reference</title>
   <p>It's not just structures that can be passed by reference. All the other
             types we've seen can, too. For example, to swap two integers, we could
@@ -24,7 +23,7 @@ cout &lt;&lt; i &lt;&lt; j &lt;&lt; endl;</program>
       This active code uses the <c>swap</c> function. Run the active code
             for the output!
     </title>
-    <program xml:id="pass_others_reference_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="pass_others_reference_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -49,7 +48,7 @@ int main() {
   <program>int i = 7;
 int j = 9;
 swap (i, j + 1);         // WRONG!!</program>
-  <p>This is not legal because the expression <c>j+1</c> is not a variable&#x2014;it
+  <p>This is not legal because the expression <c>j+1</c> is not a variable—it
             does not occupy a location that the reference can refer to. It is a
             little tricky to figure out exactly what kinds of expressions can be
             passed by reference. For now a good rule of thumb is that reference

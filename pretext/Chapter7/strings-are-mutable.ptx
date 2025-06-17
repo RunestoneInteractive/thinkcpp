@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_strings-are-mutable">
+<?xml version="1.0" ?><section xml:id="chapter7_strings-are-mutable">
   <title><c>string</c>s are mutable</title>
   <p>You can change the letters in an <c>string</c> one at a time using the <c>[]</c> operator on the left
     side of an assignment.</p>
@@ -7,9 +6,7 @@
     <title>
       This active code changes the first letter in <c>greeting</c> to be <c>'J'</c>.
     </title>
-    <program xml:id="strings_are_mutable_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="strings_are_mutable_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -47,7 +44,7 @@ cout << fav_food << endl;
           <p>icedcream</p>
         </statement>
         <feedback><p>
-          Index 3 was a space and now it is "d".
+          Index 3 was a space and now it is &quot;d&quot;.
         </p></feedback>
       </choice>
       <choice>
@@ -55,7 +52,7 @@ cout << fav_food << endl;
           <p>ice cream</p>
         </statement>
         <feedback><p>
-          The character at index 3 should be changed to "d".
+          The character at index 3 should be changed to &quot;d&quot;.
         </p></feedback>
       </choice>
       <choice>
@@ -63,7 +60,7 @@ cout << fav_food << endl;
           <p>iced</p>
         </statement>
         <feedback><p>
-          The character at index 3 should be changed to "d", and the rest stays the same.
+          The character at index 3 should be changed to &quot;d&quot;, and the rest stays the same.
         </p></feedback>
       </choice>
     </choices>
@@ -73,22 +70,22 @@ cout << fav_food << endl;
       <p>How can we fix the message to be <q>You're a wizard Harry</q>?</p>
       <program line-numbers="yes">
         <code>
-string message = "You're a lizard Harry";
+string message = &quot;You're a lizard Harry&quot;;
 </code>
       </program>
     </statement>
     <choices>
       <choice correct="yes">
         <statement>
-          <p>message[9] = "w";</p>
+          <p>message[9] = &quot;w&quot;;</p>
         </statement>
         <feedback><p>
-          Since "l" is at index 9, replacing it with "w" fixes the message.
+          Since &quot;l&quot; is at index 9, replacing it with &quot;w&quot; fixes the message.
         </p></feedback>
       </choice>
       <choice>
         <statement>
-          <p>message[10] = "w";</p>
+          <p>message[10] = &quot;w&quot;;</p>
         </statement>
         <feedback><p>
           Remember indexing starts at 0.
@@ -96,7 +93,7 @@ string message = "You're a lizard Harry";
       </choice>
       <choice>
         <statement>
-          <p>"w" = message[9];</p>
+          <p>&quot;w&quot; = message[9];</p>
         </statement>
         <feedback><p>
           In order to change a letter in a string, the ``[]`` operator must be on the left of the
@@ -105,7 +102,7 @@ string message = "You're a lizard Harry";
       </choice>
       <choice>
         <statement>
-          <p>message[8] = "w";</p>
+          <p>message[8] = &quot;w&quot;;</p>
         </statement>
         <feedback><p>
           Remember indexing starts at 0.
@@ -113,14 +110,11 @@ string message = "You're a lizard Harry";
       </choice>
     </choices>
   </exercise>
-  <exercise label="string_mutable_3"
-            number="yes"
-            adaptive="yes"
-            indentation="show">
+  <exercise label="string_mutable_3" number="yes" adaptive="yes" indentation="show">
     <statement>
       <p>Put together the code below to create a function <c>mixer</c> that takes in two strings and
         replaces every even index of the first string by the corresponding index of the second. It
-        returns the modified first string. Example: <c>string_a = "food"</c> and <c>string_b = "summer"</c> . <c>mixer(string_a ,string_b )</c> makes <c>string_a</c>
+        returns the modified first string. Example: <c>string_a = &quot;food&quot;</c> and <c>string_b = &quot;summer&quot;</c> . <c>mixer(string_a ,string_b )</c> makes <c>string_a</c>
         become <q>somd</q>.</p>
       <p>Assume second string is greater than first.</p>
     </statement>
@@ -145,8 +139,7 @@ string message = "You're a lizard Harry";
         <cline>   size_t i = 0;</cline>
         <cline>   while (i &amp;lt size) {</cline>
       </block>
-      <block order="1"
-             correct="no">
+      <block order="1" correct="no">
         <cline>   size_t i = size - 1; </cline>
         <cline>   while (i &amp;lt size) {</cline>
       </block>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter14_a-function-on-complex-numbers">
+<?xml version="1.0" ?><section xml:id="chapter14_a-function-on-complex-numbers">
   <title>A function on <c>Complex</c> numbers</title>
   <p>A natural operation we might want to perform on complex numbers is
     addition. If the numbers are in Cartesian coordinates, addition is easy:
@@ -30,9 +29,7 @@ sum.printCartesian();</program>
         function for <c>Complex</c> objects in the commented area of the active code. If you get stuck, you
         can reveal the hint below for help. Once you are finished, feel free to modify the code and
         experiment around!</p>
-    <program xml:id="fourteenseven_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="fourteenseven_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -121,11 +118,11 @@ double Complex::getTheta() {
 }
 
 void Complex::printCartesian() {
-  cout &lt;&lt; getReal() &lt;&lt; " + " &lt;&lt; getImag() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getReal() &lt;&lt; &quot; + &quot; &lt;&lt; getImag() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 void Complex::printPolar() {
-  cout &lt;&lt; getMag() &lt;&lt; " e^ " &lt;&lt; getTheta() &lt;&lt; "i" &lt;&lt; endl;
+  cout &lt;&lt; getMag() &lt;&lt; &quot; e^ &quot; &lt;&lt; getTheta() &lt;&lt; &quot;i&quot; &lt;&lt; endl;
 }
 
 Complex add (Complex&amp; a, Complex&amp; b) {
@@ -138,10 +135,7 @@ Complex add (Complex&amp; a, Complex&amp; b) {
     </program></statement>
     <hint>
       <title>subtract</title>
-      <activity label="question14_6_1"
-                number="yes"
-                adaptive="yes"
-                indentation="hide">
+      <activity label="question14_6_1" number="yes" adaptive="yes" indentation="hide">
         <statement>
           <p>Let's write the code for the <c>subtract</c> function, which should return the difference of
             two <c>Complex</c> objects.</p>

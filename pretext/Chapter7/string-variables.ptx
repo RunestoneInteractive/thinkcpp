@@ -1,16 +1,13 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_string-variables">
+<?xml version="1.0" ?><section xml:id="chapter7_string-variables">
   <title><c>string</c> variables</title>
   <p>You can create a variable with type <c>string</c> in the usual ways.</p>
   <listing label="string_variables_AC_1">
     <title>
       In this active code, the first line creates a <c>string</c> without giving it a value. The
-        second line assigns it the string value <c>"Hello,"</c>. The third line is a combined declaration
+        second line assigns it the string value <c>&quot;Hello,&quot;</c>. The third line is a combined declaration
         and assignment, also called an initialization.
     </title>
-    <program xml:id="string_variables_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="string_variables_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -24,7 +21,7 @@ int main() {
         ]]></code>
     </program>
   </listing>
-  <p>Normally when string values like <c>"Hello, "</c> or <c>"world."</c> appear, they are treated as C strings. In
+  <p>Normally when string values like <c>&quot;Hello, &quot;</c> or <c>&quot;world.&quot;</c> appear, they are treated as C strings. In
     this case, when we assign them to an <c>string</c> variable, they are converted automatically to <c>string</c>
     values.</p>
   <p>We can output strings in the usual way:</p>
@@ -39,9 +36,7 @@ cout &lt;&lt; first &lt;&lt; second &lt;&lt; endl;
     <title>
       Run this active code!
     </title>
-    <program xml:id="string_variables_AC_2_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="string_variables_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <string>
@@ -56,10 +51,7 @@ int main() {
         ]]></code>
     </program>
   </listing>
-  <exercise label="string_variables_1"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="string_variables_1" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a block of code that correctly prints out a string variable.</p>
     </statement>
@@ -69,7 +61,7 @@ int main() {
       </block>
       <block order="2">
         <choice correct="yes">
-          <cline>x = "It is cold outside!";</cline>
+          <cline>x = &quot;It is cold outside!&quot;;</cline>
         </choice>
         <choice>
           <cline>x = It is cold outside;</cline>
@@ -87,7 +79,7 @@ int main() {
     <choices>
       <choice correct="yes">
         <statement>
-          <p>string x = "Hello";</p>
+          <p>string x = &quot;Hello&quot;;</p>
         </statement>
         <feedback><p>
           This is the correct way to initialize a string.
@@ -95,7 +87,7 @@ int main() {
       </choice>
       <choice>
         <statement>
-          <p>x = "Hello";</p>
+          <p>x = &quot;Hello&quot;;</p>
         </statement>
         <feedback><p>
           This is an assignment.
@@ -118,10 +110,10 @@ int main() {
     <areas>
       <cline><area correct="no">def main() {</area></cline>
       <cline>    <area correct="no">string fruit;</area></cline>
-      <cline>    <area correct="yes">fruit = "apple";</area></cline>
-      <cline>    <area correct="yes">fruit = "pear";</area></cline>
+      <cline>    <area correct="yes">fruit = &quot;apple&quot;;</area></cline>
+      <cline>    <area correct="yes">fruit = &quot;pear&quot;;</area></cline>
       <cline>    <area correct="no">string flavor;</area></cline>
-      <cline>    <area correct="yes">flavor = "vanilla";</area></cline>
+      <cline>    <area correct="yes">flavor = &quot;vanilla&quot;;</area></cline>
       <cline>}</cline>
     </areas>
   </exercise>

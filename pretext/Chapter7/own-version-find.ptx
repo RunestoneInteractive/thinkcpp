@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
-<section xml:id="chapter7_our-own-version-of-find">
+<?xml version="1.0" ?><section xml:id="chapter7_our-own-version-of-find">
   <title>Our own version of <c>find</c></title>
   <p>If we are looking for a letter in a <c>string</c>, we may not want to start at the beginning of the
     string. One way to generalize the <c>find</c> function is to write a version that takes an
-    additional parameter&#x2014;the index where we should start looking. Here is an implementation
+    additional parameter—the index where we should start looking. Here is an implementation
     of this function.</p>
   <program>size_t find(string s, char c, size_t i) {
   while (i &lt; s.length()) {
@@ -22,9 +21,7 @@
         part of <q>German Shepard</q> using our function. Then we use the built-in <c>find</c> function
         to demonstrate how they work differentlsssy.
     </title>
-    <program xml:id="own_version_find_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="own_version_find_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -83,8 +80,8 @@ int main() {
           <p>13, <c>string::npos</c>, 0</p>
         </statement>
         <feedback><p>
-          Keep in mind that the find function is case sensitive, so &#x2018;A' is different from
-            &#x2018;a'.
+          Keep in mind that the find function is case sensitive, so ‘A' is different from
+            ‘a'.
         </p></feedback>
       </choice>
       <choice>

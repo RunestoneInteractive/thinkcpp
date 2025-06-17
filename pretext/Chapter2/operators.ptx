@@ -23,7 +23,7 @@
         passed since midnight. You'll notice that the result isn't quite what
         you expect. Read on to find out why!
     </title>
-    <program xml:id="operators_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="operators_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;

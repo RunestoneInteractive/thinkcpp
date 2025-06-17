@@ -19,7 +19,7 @@
       This program performs calculations using some of the built-in functions
         from the cmath library.
     </title>
-    <program xml:id="math_functions_AC_1_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="math_functions_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>
@@ -56,7 +56,7 @@ int main() {
         we have a line of code that converts the default radians value to
         degrees.
     </title>
-    <program xml:id="math_functions_AC_2_editor" interactive="activecode" line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="math_functions_AC_2_editor">
       <code><![CDATA[
 #include <iostream>
 #include <cmath>

@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter3_adding-new-functions">
+<?xml version="1.0" ?><section xml:id="chapter3_adding-new-functions">
   <title>Adding New Functions</title>
   <p>So far we have only been using the functions that are built into C++, but it is also possible
     to add new functions. Actually, we have already seen one function definition: <c>main</c>. The
@@ -9,8 +8,8 @@
   STATEMENTS
 }</program>
   <p>You can make up any name you want for your function, except that you can't call it <c>main</c> or
-    any other C++ keyword. The list of parameters specifies what information &#x2013; if any
-    &#x2013; you have to provide in order to use, or <term>call</term>, the new function.</p>
+    any other C++ keyword. The list of parameters specifies what information – if any
+    – you have to provide in order to use, or <term>call</term>, the new function.</p>
   <p><c>main</c> doesn't take any parameters, as indicated by the empty parentheses() in it's
     definition. The first couple of functions we are going to write also have no parameters, so the
     syntax looks like this:</p>
@@ -25,9 +24,9 @@
   <p>In <c>main</c> we can call this new function using syntax that is similar to the way we call the
     built-in C++ commands:</p>
   <program>int main() {
-  cout &lt;&lt; "First Line." &lt;&lt; endl;
+  cout &lt;&lt; &quot;First Line.&quot; &lt;&lt; endl;
   newLine();
-  cout &lt;&lt; "Second Line." &lt;&lt; endl;
+  cout &lt;&lt; &quot;Second Line.&quot; &lt;&lt; endl;
   return 0;
 }</program>
   <p>The output of this program is</p>
@@ -37,11 +36,11 @@ Second line.</program>
   <p>Notice the extra space between the two lines. What if we wanted more
     space between the lines? We could call the same function repeatedly:</p>
   <program>int main() {
-  cout &lt;&lt; "First Line." &lt;&lt; endl;
+  cout &lt;&lt; &quot;First Line.&quot; &lt;&lt; endl;
   newLine();
   newLine();
   newLine();
-  cout &lt;&lt; "Second Line." &lt;&lt; endl;
+  cout &lt;&lt; &quot;Second Line.&quot; &lt;&lt; endl;
   return 0;
 }</program>
   <p>Or we could write a new function, named <c>threeLine</c>, that prints three new lines:</p>
@@ -51,9 +50,7 @@ Second line.</program>
         result is a function that prints three lines after it is called (each of those empty lines
         begins with a <q>*</q>).
     </title>
-    <program xml:id="new_functions_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="new_functions_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -167,7 +164,7 @@ endl</c>?</p>
     </p></feedback>
     <areas>
       <cline><area correct="yes">void printX() {</area></cline>
-      <cline>    <area correct="no">cout &lt;&lt; "X";</area></cline>
+      <cline>    <area correct="no">cout &lt;&lt; &quot;X&quot;;</area></cline>
       <cline>}</cline>
       <cline/>
       <cline><area correct="yes">void printVar(int a) {</area></cline>
@@ -197,7 +194,7 @@ endl</c>?</p>
     </p></feedback>
     <areas>
       <cline><area correct="no">void printX() {</area></cline>
-      <cline>    <area correct="no">cout &lt;&lt; "X";</area></cline>
+      <cline>    <area correct="no">cout &lt;&lt; &quot;X&quot;;</area></cline>
       <cline>}</cline>
       <cline/>
       <cline><area correct="no">void printVar(int a) {</area></cline>
@@ -218,10 +215,7 @@ endl</c>?</p>
       <cline>}</cline>
     </areas>
   </exercise>
-  <exercise label="new_functions_pp_1"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="new_functions_pp_1" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Construct a function that correctly prints the perimeter of a rectangle.</p>
     </statement>
@@ -239,8 +233,7 @@ endl</c>?</p>
       <block order="5">
         <cline> <![CDATA[cout << perimeter_value << endl;]]></cline>
       </block>
-      <block order="2"
-             correct="no">
+      <block order="2" correct="no">
         <cline> return parameter_value; </cline>
       </block>
       <block order="1">

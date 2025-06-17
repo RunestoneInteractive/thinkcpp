@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<section xml:id="chapter11_another-example">
+<?xml version="1.0" ?><section xml:id="chapter11_another-example">
   <title>Another example</title>
   <p>Let's convert <c>increment</c> to a member function. Again, we are going to transform one of the
     parameters into the implicit parameter called <c>this</c>. Then we can go through the function and
@@ -38,9 +37,7 @@ currentTime.print();</program>
       Feel free to change the input and experiment around with the active
         code below!
     </title>
-    <program xml:id="another_example_AC_1_editor"
-             interactive="activecode"
-             line-numbers="yes">
+    <program interactive="activecode" line-numbers="yes" label="another_example_AC_1_editor">
       <code><![CDATA[
 #include <iostream>
 using namespace std;
@@ -61,7 +58,7 @@ int main() {
         ]]></code>
       <tests>
 void Time::print() {
-  cout &lt;&lt; hour &lt;&lt; ":" &lt;&lt; minute &lt;&lt; ":" &lt;&lt; second &lt;&lt; endl;
+  cout &lt;&lt; hour &lt;&lt; &quot;:&quot; &lt;&lt; minute &lt;&lt; &quot;:&quot; &lt;&lt; second &lt;&lt; endl;
 }
 
 void Time::increment(double secs) {
@@ -111,10 +108,7 @@ void Time::increment(double secs) {
       </evaluate>
     </evaluation>
   </exercise>
-  <exercise label="another_example_3"
-            number="yes"
-            adaptive="yes"
-            indentation="hide">
+  <exercise label="another_example_3" number="yes" adaptive="yes" indentation="hide">
     <statement>
       <p>Create the <c>Cat</c> object with member functions <c>make_noise</c> and <c>catch_mouse</c>. The <c>make_noise</c> function
         should print different noises depending on the cat's mood. The <c>catch_mouse</c> function returns true
@@ -140,13 +134,12 @@ void Time::increment(double secs) {
       <block order="3">
         <cline>void Cat::make_noise() {</cline>
       </block>
-      <block order="4"
-             correct="no">
+      <block order="4" correct="no">
         <cline> Cat cat = *this;                         </cline>
       </block>
       <block order="1">
         <choice correct="yes">
-          <cline> if (mood == "happy") {</cline>
+          <cline> if (mood == &quot;happy&quot;) {</cline>
           <cline><![CDATA[   cout << "purrr" << endl;]]></cline>
           <cline> }</cline>
           <cline> else {</cline>
@@ -154,7 +147,7 @@ void Time::increment(double secs) {
           <cline> }</cline>
         </choice>
         <choice>
-          <cline> if (cat.mood == "happy") {                         </cline>
+          <cline> if (cat.mood == &quot;happy&quot;) {                         </cline>
           <cline><![CDATA[  cout << "purrr" << endl;]]></cline>
           <cline> }</cline>
           <cline> else {</cline>
@@ -165,8 +158,7 @@ void Time::increment(double secs) {
       <block order="7">
         <cline>}</cline>
       </block>
-      <block order="14"
-             correct="no">
+      <block order="14" correct="no">
         <cline> Cat cat = *this;                         </cline>
       </block>
       <block order="2">
@@ -179,16 +171,14 @@ void Time::increment(double secs) {
         <cline> return false;</cline>
         <cline>}</cline>
       </block>
-      <block order="9"
-             correct="no">
+      <block order="9" correct="no">
         <cline> if (cat.speed * 2 &gt; age * weight) {                          </cline>
         <cline>   return true;</cline>
         <cline> }</cline>
         <cline> return false;</cline>
         <cline>}</cline>
       </block>
-      <block order="11"
-             correct="no">
+      <block order="11" correct="no">
         <cline><![CDATA[ if (speed * 2 < age * weight) {                         ]]></cline>
         <cline>   return true;</cline>
         <cline> }</cline>
