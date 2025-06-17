@@ -10,7 +10,7 @@
     detect errors.</p>
   <p>For example, I have a file called <c>distances</c> that contains information about the distances between
     major cities in the United States. I got this information from a randomly-chosen web page
-  <fn><url>http://www.jaring.my/usiskl/usa/distance.html</url></fn>
+  <fn><url href="http://www.jaring.my/usiskl/usa/distance.html">http://www.jaring.my/usiskl/usa/distance.html</url></fn>
     so it may be wildly inaccurate, but that doesn't matter. The format of
     the file looks like this:</p>
   <console><output>"Atlanta"       "Chicago"       700

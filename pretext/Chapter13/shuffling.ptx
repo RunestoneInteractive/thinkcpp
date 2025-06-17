@@ -8,9 +8,9 @@
     don't shuffle perfectly, after about 7 iterations the order of the deck is pretty well
     randomized. But a computer program would have the annoying property of doing a perfect shuffle
     every time, which is not really very random. In fact, after 8 perfect shuffles, you would find
-    the deck back in the same order you started in<fn>For a discussion of that claim, see <url>
-    http://www.wiskit.com/marilyn/craig.html</url> or do a web search with the keywords <q>perfect
-    shuffle.</q></fn>.</p>
+    the deck back in the same order you started in<fn>For a discussion of that claim, see
+    <url href="http://www.wiskit.com/marilyn/craig.html">http://www.wiskit.com/marilyn/craig.html</url>
+    or do a web search with the keywords <q>perfect shuffle.</q></fn>.</p>
   <p>A better shuffling algorithm is to traverse the deck one card at a time,
     and at each iteration choose two cards and swap them.</p>
   <p>Here is an outline of how this algorithm works. To sketch the program, I am using a combination
