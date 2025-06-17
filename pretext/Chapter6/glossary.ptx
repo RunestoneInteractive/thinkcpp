@@ -50,6 +50,7 @@
             things, and then encapsulating and generalizing.</p>
         </gi>
     </glossary>
+    <reading-questions>
   <exercise label="chapter_six_glossary_one">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
@@ -114,5 +115,5 @@
         <response>A process for developing a program.</response>
       </match>
     </cardsort>
-  </exercise>
+  </exercise></reading-questions>
 </section>

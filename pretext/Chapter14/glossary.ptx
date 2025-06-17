@@ -29,6 +29,7 @@
             <p>A condition that is true at the end of a function.</p>
         </gi>
     </glossary>
+    <reading-questions>
   <exercise label="glossary_14">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
@@ -64,4 +65,5 @@
       </match>
     </cardsort>
   </exercise>
+    </reading-questions>
 </section>

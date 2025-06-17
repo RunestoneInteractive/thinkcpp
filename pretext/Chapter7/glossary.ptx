@@ -38,6 +38,7 @@
             <p>To join two operands end-to-end.</p>
         </gi>
     </glossary>
+    <reading-questions>
   <exercise label="chapter_seven_glossary">
     <statement>
       <p>Match the definition to the term.</p>
@@ -76,4 +77,5 @@
       </match>
     </cardsort>
   </exercise>
+    </reading-questions>
 </section>

@@ -27,6 +27,7 @@
             argument variable.</p>
         </gi>
     </glossary>
+    <reading-questions>
   <exercise label="chapter_eight_glossary">
     <statement>
       <p>Match the definition to the term.</p>
@@ -60,4 +61,5 @@
       </match>
     </cardsort>
   </exercise>
+    </reading-questions>
 </section>

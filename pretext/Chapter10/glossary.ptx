@@ -44,6 +44,7 @@
             that fall into a certain range.</p>
         </gi>
     </glossary>
+    <reading-questions>
   <exercise label="glossary_1">
     <statement>
       <p>Match each phrase with the corresponding definition by dragging the phrase into the
@@ -115,4 +116,5 @@
       </match>
     </cardsort>
   </exercise>
+    </reading-questions>
 </section>
