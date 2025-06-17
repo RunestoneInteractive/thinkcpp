@@ -689,13 +689,13 @@ int factorial(int n) {
 }
         ]]></code>
           <tests>
-#define CATCH_CONFIG_MAIN
-#include &lt;catch.hpp&gt;
-
+#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include "doctest.h"
+ 
 TEST_CASE("factorial function") {
-    REQUIRE(factorial(4) == 24);
-    REQUIRE(factorial(6) == 720);
-    REQUIRE(factorial(9) == 362880);
+    CHECK(factorial(4) == 24);
+    CHECK(factorial(6) == 720);
+    CHECK(factorial(9) == 362880);
 }
 </tests>
         </program></statement>
