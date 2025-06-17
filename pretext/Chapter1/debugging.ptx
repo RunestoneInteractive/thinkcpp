@@ -98,7 +98,7 @@
           </test>
         </evaluate>
         <evaluate>
-          <test>
+          <test correct="yes">
             <strcmp use-answer="yes" case="insensitive"/>
           </test>
         </evaluate>

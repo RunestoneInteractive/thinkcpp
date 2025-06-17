@@ -163,7 +163,7 @@ cout &lt;&lt; num2 / num1;</program>
     </statement>
     <evaluation>
       <evaluate>
-          <test>
+          <test correct="yes">
             <numcmp use-answer="yes"/>
           </test>
       </evaluate>

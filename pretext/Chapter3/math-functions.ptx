@@ -124,13 +124,13 @@ using namespace std;
   </exercise>
   <exercise label="math_functions_2">
     <statement>
-      <p>What are the units used by sinusoidal functions (sin, asin, e.t.c.) in C++? <fillin mode="string" case="insensitive" answer="radians?"/>
+      <p>What are the units used by sinusoidal functions (sin, asin, e.t.c.) in C++? <fillin answer="radians?"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
           <feedback>
             If you need to convert to degrees, just multiply by 360 and divide by 2pi.
           </feedback>

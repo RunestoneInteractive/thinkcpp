@@ -91,13 +91,13 @@ int main() {
           }
         </program>
       <p>
-        <fillin mode="string" case="insensitive" answer="error"/>
+        <fillin answer="error"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -122,12 +122,12 @@ int main() {
         }
       </program>
       <p>
-        <fillin mode="string" case="insensitive" answer="bb"/>
+        <fillin answer="bb"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
           <feedback>
             The printTwice function will print the character argument provided two times.
