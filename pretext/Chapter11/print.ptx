@@ -92,12 +92,12 @@ void Time::print() {
   </listing>
   <exercise label="print_1">
     <statement>
-      <p>What keyword do we use to refer to the current object? <fillin mode="string" case="insensitive" answer="this"/>
+      <p>What keyword do we use to refer to the current object? <fillin answer="this"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-          <test>
+          <test correct="yes">
             <strcmp use-answer="yes"/>
             <feedback>
               Correct! But be careful: this is actually a pointer to the current object!

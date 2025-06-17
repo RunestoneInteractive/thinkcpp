@@ -9,12 +9,12 @@
     sequence of random numbers and check whether this property holds true.</p>
   <exercise label="statistics_1">
     <statement>
-      <p>Random numbers are (hopefully) distributed <fillin mode="string" case="insensitive" answer="UNIFORMLY"/>. </p>
+      <p>Random numbers are (hopefully) distributed <fillin answer="uniformly"/>. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

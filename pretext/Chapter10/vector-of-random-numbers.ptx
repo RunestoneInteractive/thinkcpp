@@ -83,12 +83,12 @@ void printVector(const vector&lt;int&gt;&amp; vec) {
   <exercise label="vector_of_rand_nums_1">
     <statement>
       <p>How should we declare the parameter, <term>vector</term>, if we don't intend to make any
-        changes to it? <fillin mode="string" case="insensitive" answer="CONST"/>
+        changes to it? <fillin answer="const"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
         <test>

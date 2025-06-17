@@ -251,13 +251,13 @@ int main() {
   </exercise>
   <exercise label="enum_type_3">
     <statement>
-      <p>Based on the <c>Rank</c> enumerated type, what integer value does <c>QUEEN</c> have? <fillin mode="string" case="insensitive" answer="12|twelve"/>
+      <p>Based on the <c>Rank</c> enumerated type, what integer value does <c>QUEEN</c> have? <fillin answer="12|twelve"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

@@ -97,19 +97,20 @@ int main()
   </exercise>
   <exercise label="question15_3_2">
     <statement>
-      <p>The <c>ifstream</c> member function called <fillin mode="string" case="insensitive" answer="good"/>
-        makes sure the file was opened successfully, and member function <fillin mode="string" case="insensitive" answer="eof"/>
-        detects the end of the file. </p>
+      <p>The <c>ifstream</c> member function called <fillin answer="good"/>
+      makes sure the file was opened successfully, and member
+      function <fillin answer="eof"/>
+      detects the end of the file.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -117,12 +118,12 @@ int main()
   <exercise label="question15_3_3">
     <statement>
       <p>The __________ statement allows us to exit the loop as soon as we detect the end of the
-        file. <fillin mode="string" case="insensitive" answer="break"/>
+        file. <fillin answer="break"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

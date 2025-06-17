@@ -101,12 +101,12 @@ int main() {
   </exercise>
   <exercise label="question15_4_3">
     <statement>
-      <p>Finish the statement: <fillin mode="string" case="insensitive" answer="ofstream"/> <c>outfile("output-file");</c>.
+      <p>Finish the statement: <fillin answer="ofstream"/> <c>outfile("output-file");</c>.
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

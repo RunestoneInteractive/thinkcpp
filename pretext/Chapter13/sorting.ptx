@@ -26,18 +26,18 @@
   <p>Once again, I am going to leave the implementation up to the reader.</p>
   <exercise label="sorting_deck_1">
     <statement>
-      <p>If I'm writing a long, complex function with many steps, a(n) <fillin mode="string" case="insensitive" answer="helper"/> <fillin mode="string" case="insensitive" answer="function"/>
+      <p>If I'm writing a long, complex function with many steps, a(n) <fillin answer="helper"/> <fillin answer="function"/>
         would help me condense the function's code and make it easier to understand. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

@@ -91,13 +91,13 @@ m3[1][2] = 10.0 * m2[0][0];</program>
   </exercise>
   <exercise label="question15_8_2">
     <statement>
-      <p>Suppose we have matrix <c>mat</c>. Then <c>mat[9][17]</c> would be accessing column <fillin mode="number" case="insensitive" answer="18"/> and row <fillin mode="number" case="insensitive" answer="10"/>
+      <p>Suppose we have matrix <c>mat</c>. Then <c>mat[9][17]</c> would be accessing column <fillin answer="18"/> and row <fillin answer="10"/>
         of our matrix.
       </p>
     </statement>
     <evaluation>
       <evaluate>
-          <test>
+          <test correct="yes">
             <numcmp use-answer="yes"/>
           </test>
           <test>
@@ -108,7 +108,7 @@ m3[1][2] = 10.0 * m2[0][0];</program>
           </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
         <test>

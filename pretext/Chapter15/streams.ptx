@@ -13,25 +13,25 @@
     outgoing stream.</p>
   <exercise label="question15_2_1">
     <statement>
-      <p>You create an <fillin mode="string" case="insensitive" answer="ostream"/> object to write
-        data to a file, and a <fillin mode="string" case="insensitive" answer="istream"/> object to
+      <p>You create an <fillin answer="ostream"/> object to write
+        data to a file, and a <fillin answer="istream"/> object to
         read data from a file. In order to define objects to input from a file or send output to a
-        file, you must include the <c>&lt;</c> <fillin mode="string" case="insensitive" answer="fstream"/> <c>&gt;</c>
+        file, you must include the <c>&lt;</c> <fillin answer="fstream"/> <c>&gt;</c>
         header file. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

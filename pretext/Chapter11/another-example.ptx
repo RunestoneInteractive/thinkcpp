@@ -80,11 +80,11 @@ void Time::increment(double secs) {
       <p>Suppose we have previously declared <c>Time currentTime = {9, 14, 30.0}</c>. What should be printed by <c>time.print()</c> after
         calling <c>time.increment(645.0)</c>? Type your response in the form <term>hh:mm:ss</term>. 
       </p>
-      <p><fillin mode="string" case="insensitive" answer="0?9:25:15"/></p>
+      <p><fillin answer="0?9:25:15"/></p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>
@@ -92,12 +92,12 @@ void Time::increment(double secs) {
   </exercise>
   <exercise label="another_example_2">
     <statement>
-      <p>When we call a member function, we <fillin mode="string" case="insensitive" answer="invoke"/> the function on the object. </p>
+      <p>When we call a member function, we <fillin answer="invoke"/> the function on the object. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
         <test>
           <strcmp>.*</strcmp>

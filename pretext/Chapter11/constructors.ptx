@@ -40,12 +40,12 @@ Time time(seconds);
   <exercise label="constructors_1">
     <statement>
       <p>The member function that initializes objects automatically when they are created is called
-        a(n) <fillin mode="string" case="insensitive" answer="CONSTRUCTOR"/>. </p>
+        a(n) <fillin answer="constructor"/>. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
@@ -100,13 +100,13 @@ Time time(seconds);
   <exercise label="constructors_3">
     <statement>
       <p>Write code to initialize the variable <c>lunch</c> that has type <c>Time</c> and a value of 1800
-        seconds. <fillin mode="string" case="insensitive" answer="Time\s+lunch\s*\(\s*1800\s*\)\s*;?"/>
+        seconds. <fillin answer="Time\s+lunch\s*\(\s*1800\s*\)\s*;?"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

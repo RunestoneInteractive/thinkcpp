@@ -120,16 +120,16 @@ int main() {
   </activity>
   <exercise label="random_numbers_1">
     <statement>
-      <p>Pseudorandom numbers are said to be <fillin mode="string" case="insensitive" answer="NONDETERMINISTIC"/>, because different numbers are generated every
+      <p>Pseudorandom numbers are said to be <fillin answer="nondeterministic"/>, because different numbers are generated every
         time the program is executed.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
         <test>
-          <strcmp>DETERMINISTIC</strcmp>
+          <strcmp case="insensitive">deterministric</strcmp>
           <feedback>
             Incorrect! Deterministic programs do the same thing every time they are executed.
           </feedback>

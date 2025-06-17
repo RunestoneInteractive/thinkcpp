@@ -125,13 +125,13 @@ int main() {
   </exercise>
   <exercise label="accessing_elements_2">
     <statement>
-      <p>What is the highest index reached by <c>while(i &lt; 7)</c>? <fillin mode="number" answer="6"/>
+      <p>What is the highest index reached by <c>while(i &lt; 7)</c>? <fillin answer="6"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <numcmp use-answer="yes" correct="yes"/>
+        <test correct="yes">
+          <numcmp use-answer="yes"/>
         </test>
         <test>
           <numcmp value="7"/>

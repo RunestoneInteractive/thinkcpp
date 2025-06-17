@@ -45,12 +45,12 @@ int main() {
   <exercise label="vector_size_1">
     <statement>
       <p>Let <term>nums</term> be the vector { 0, 1, 2, 3, 4 }. What is the variable type <em>of</em> <c>nums.size()</c>
-        ? <fillin mode="string" case="insensitive" answer="size_t"/>
+        ? <fillin answer="size_t"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
         <test>
@@ -65,12 +65,12 @@ int main() {
   <exercise label="vector_size_2">
     <statement>
       <p>Let <term>nums</term> be the vector { 0, 1, 2, 3, 4 }. What is the value <em>of</em> <c>nums.size()</c>
-        ? <fillin mode="number" answer="5"/>
+        ? <fillin answer="5"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>

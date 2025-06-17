@@ -81,12 +81,12 @@ default:        return &quot;Not a valid suit&quot;;
     errors or unexpected values.</p>
   <exercise label="switch_1">
     <statement>
-      <p>A(n) <fillin mode="string" case="insensitive" answer="break"/> statement is necessary for
+      <p>A(n) <fillin answer="break"/> statement is necessary for
         each branch in a <c>switch</c> statement. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
           <feedback>A return would also suffice.</feedback>
         </test>

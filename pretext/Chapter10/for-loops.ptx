@@ -95,12 +95,12 @@ int main() {
 
   <exercise label="for_loops_1">
     <statement>
-      <p>How many times would the following loop execute? <c><![CDATA[for (int i = 1; i < 4; i++)]]></c> <fillin mode="number" answer="3"/>
+      <p>How many times would the following loop execute? <c><![CDATA[for (int i = 1; i < 4; i++)]]></c> <fillin answer="3"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
         <test>

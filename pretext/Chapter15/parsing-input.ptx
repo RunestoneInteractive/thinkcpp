@@ -113,29 +113,29 @@ int index = line.find('\"');
   </exercise>
   <exercise label="question15_5_2">
     <statement>
-      <p>The <fillin mode="string" case="insensitive" answer="(\\)|(backslash)"/> character indicates that we want to match the next character literally. </p>
+      <p>The <fillin answer="(\\)|(backslash)"/> character indicates that we want to match the next character literally. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
   </exercise>
   <exercise label="question15_5_3">
     <statement>
-      <p>The <c>substr()</c> takes <fillin mode="string" case="insensitive" answer="index"/> and <fillin mode="string" case="insensitive" answer="len(gth)?"/> as its two arguments.</p>
+      <p>The <c>substr()</c> takes <fillin answer="index"/> and <fillin answer="len(gth)?"/> as its two arguments.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

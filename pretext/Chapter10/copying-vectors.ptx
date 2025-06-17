@@ -103,12 +103,12 @@ void print_vec(vector&lt;int&gt; vec) {
   <exercise label="copying_vectors_2">
     <statement>
       <p>What is the name of the function that takes a vector as an argument, and creates a new
-        vector of the same size and with the same elements? <fillin mode="string" case="insensitive" answer="constructor"/>
+        vector of the same size and with the same elements? <fillin answer="constructor"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

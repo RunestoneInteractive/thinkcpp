@@ -15,10 +15,10 @@
       <p>No element appears in the set more than once. If you try to add an
         element to a set, and it already exists, there is no effect.</p>
     </li>
-  </dl>
+  </dl></p>
   <p>In addition, our implementation of an ordered set will have the
     following property:</p>
-  <dl>
+  <p><dl>
     <li>
       <title>Arbitrary size:</title>
       <p>As we add elements to the set, it expands to make room for new
@@ -294,11 +294,11 @@ int Set::add(const string&amp; s) {
   </exercise>
   <exercise label="question15_7_3">
     <statement>
-      <p>If the number of elements is 76, then the index of the next element is <fillin mode="number" case="insensitive" answer="76"/>.</p>
+      <p>If the number of elements is 76, then the index of the next element is <fillin answer="76"/>.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>
@@ -320,12 +320,12 @@ cities.add(&quot;Mackinac&quot;);
 cities.add(&quot;Mackinaw&quot;);
 string element = cities.getElement(4);  cout &lt;&lt; element;</program>
       <p>Type the output exactly as it would appear in the terminal.</p>
-      <fillin mode="string" case="insensitive" answer="Mackinac"/>
+      <p><fillin answer="Mackinac"/></p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

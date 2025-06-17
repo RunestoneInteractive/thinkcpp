@@ -45,12 +45,12 @@ Deck deck(52);
   <exercise label="decks_1">
     <statement>
       <p>A euchre deck consists of 9's, 10's, Jacks, Queens, Kings, and Aces. If we wanted to create
-        a deck that is the size of the euchre deck, we would type: <c>Deck euchre_deck</c> <fillin mode="number" case="insensitive" answer="24"/> <c>;</c>
+        a deck that is the size of the euchre deck, we would type: <c>Deck euchre_deck</c> <fillin answer="24"/> <c>;</c>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>
