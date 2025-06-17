@@ -58,19 +58,19 @@
   </exercise>
   <exercise label="fitb_return_main_2">
     <statement>
-      <p>Usually, we return <fillin mode="string" case="insensitive" answer="0"/> to exit main. However, if there are any errors that we catch, we
-        might return <fillin mode="string" case="insensitive" answer="-1"/>.
+      <p>Usually, we return <fillin answer="0"/> to exit main. However, if there are any errors that we catch, we
+        might return <fillin answer="-1"/>.
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <numcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <numcmp use-answer="yes"/>
         </test>
       </evaluate>
     </evaluation>

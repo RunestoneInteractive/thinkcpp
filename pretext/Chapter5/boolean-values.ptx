@@ -22,22 +22,22 @@
     reaches a return or break statement).</p>
   <exercise label="bool_vals_1">
     <statement>
-      <p>The boolean type has two values <fillin mode="string" case="insensitive" answer="(true)|(false)"/> and <fillin mode="string" case="insensitive" answer="(true)|(false)"/>. The <fillin mode="string" case="insensitive" answer="=="/> operator is used to check if
+      <p>The boolean type has two values <fillin answer="(true)|(false)"/> and <fillin answer="(true)|(false)"/>. The <fillin answer="=="/> operator is used to check if
         two boolean values are equal. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
         </test>
       </evaluate>

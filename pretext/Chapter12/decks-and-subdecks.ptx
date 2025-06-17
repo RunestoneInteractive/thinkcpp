@@ -72,12 +72,12 @@
   <exercise label="decks_and_subdecks_2">
     <statement>
       <p>When a programmer hides all unnecessary details from the user to reduce complexity and
-        increase efficiency, this is called <fillin mode="string" case="insensitive" answer="abstraction"/>. </p>
+        increase efficiency, this is called <fillin answer="abstraction"/>. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

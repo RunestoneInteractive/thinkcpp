@@ -188,12 +188,12 @@ void Card::print() const {
       <program>
 deck[11].print();
 </program>
-      <p><fillin mode="string" case="insensitive" answer="7 of Diamonds"/></p>
+      <p><fillin answer="7 of Diamonds"/></p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

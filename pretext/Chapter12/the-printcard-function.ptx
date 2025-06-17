@@ -168,13 +168,13 @@ void Card::print() const {
         <program>Card card (3, 1);
 card.print();</program>
       <p>
-        <fillin mode="string" case="insensitive" answer="Ace of Spades"/>
+        <fillin answer="Ace of Spades"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

@@ -298,12 +298,12 @@ int main() {
   </exercise>
   <exercise label="return_vals_3">
     <statement>
-      <p>A variable that exists only inside a function, is called a <fillin mode="string" case="insensitive" answer="temporary"/> variable. </p>
+      <p>A variable that exists only inside a function, is called a <fillin answer="temporary"/> variable. </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
           <feedback>
             Temporary variables are useful for calculating and returning values inside functions
               since they are short-lived.

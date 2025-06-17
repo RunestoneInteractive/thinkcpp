@@ -57,15 +57,14 @@
   </exercise>
   <exercise label="composition_2">
     <statement>
-      <p>There are many different arrangements to combine language features. This is called <fillin mode="string"
-                case="insensitive"
-                answer="COMPOSITION"/>
+        <p>There are many different arrangements to combine language features. This is
+        called <fillin answer="composition"/>
         .</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>

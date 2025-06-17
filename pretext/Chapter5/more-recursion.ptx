@@ -161,23 +161,23 @@ int main() {
   <exercise label="more_recursion_2">
     <statement>
       <p><term>Complete the circular definition:</term> unreal - a word used to describe something
-        that is <fillin mode="string" case="insensitive" answer="unreal"/>.</p>
+        that is <fillin answer="unreal"/>.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
   </exercise>
   <exercise label="more_recursion_3">
     <statement>
-      <p>The factorial of 5 is <fillin mode="number" case="insensitive" answer="120"/>.</p>
+      <p>The factorial of 5 is <fillin answer="120"/>.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
         <test>

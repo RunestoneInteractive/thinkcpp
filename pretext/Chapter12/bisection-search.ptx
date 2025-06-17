@@ -393,12 +393,12 @@ bool Card::isGreater(const Card&amp; c2) const {
   <exercise label="bisection_search_4">
     <statement>
       <p>How many recursive calls are used to locate the King of Hearts? (Hearts = suit 2, King =
-        rank 13). <fillin mode="number" case="insensitive" answer="2"/>
+        rank 13). <fillin answer="2"/>
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
         <test>

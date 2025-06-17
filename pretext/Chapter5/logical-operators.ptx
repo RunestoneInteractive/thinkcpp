@@ -102,11 +102,11 @@
     <statement>
       <p>Add a single logical operator to make the expression check if x is greater than or
         equal to 50</p>
-      <p><fillin mode="string" case="insensitive" answer="[!]"/> <c>( x &lt; 50 )</c></p>
+      <p><fillin answer="[!]"/> <c>( x &lt; 50 )</c></p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <strcmp use-answer="yes"/>
           <feedback>
             If the expression checks for the opposite of what you want then just <c>!</c> the

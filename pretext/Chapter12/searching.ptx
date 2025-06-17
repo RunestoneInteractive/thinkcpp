@@ -130,18 +130,18 @@ int find(const Card&amp; card, const vector&lt;Card&gt;&amp; deck) {
   <exercise label="searching_1">
     <statement>
       <p>Say we have standard deck of cards. According to our <c>find()</c> function, the for loop will
-        execute a minimum of <fillin mode="number" case="insensitive" answer="1"/> times, and a maximum of <fillin mode="number" case="insensitive" answer="52"/> times while searching for a
+        execute a minimum of <fillin answer="1"/> times, and a maximum of <fillin answer="52"/> times while searching for a
         particular card.
       </p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
       </evaluate>
       <evaluate>
-        <test>
+        <test correct="yes">
           <numcmp use-answer="yes"/>
         </test>
         <test>
@@ -164,12 +164,12 @@ int find(const Card&amp; card, const vector&lt;Card&gt;&amp; deck) {
     Card card (3, 6);
     find(card, EuchreDeck);
 }</program>
-      <p><fillin mode="string" case="insensitive" answer="-1"/></p>
+      <p><fillin answer="-1"/></p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <numcmp use-answer="yes"/>
           <feedback>
             Correct! The find method should return -1 if the card is not part of the deck.
           </feedback>

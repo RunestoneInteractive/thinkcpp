@@ -214,14 +214,14 @@ else {
    cout &lt;&lt; &quot;is greater than&quot; &lt;&lt; endl;
    card1.print();
 }</program>
-      <p>If the above code is run, the terminal will print: <q>Queen of Hearts <fillin mode="string" case="insensitive" answer="is greater than"/> Queen of
+      <p>If the above code is run, the terminal will print: <q>Queen of Hearts <fillin answer="is greater than"/> Queen of
         Diamonds</q></p>
       <p>Type your answer exactly as it would appear in the terminal.</p>
     </statement>
     <evaluation>
       <evaluate>
-        <test>
-          <strcmp use-answer="yes"/>
+        <test correct="yes">
+          <strcmp use-answer="yes" case="insensitive"/>
         </test>
       </evaluate>
     </evaluation>
