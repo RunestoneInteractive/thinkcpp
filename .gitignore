@@ -8,6 +8,3 @@ logs
 generated-assests/
 .cache/
 
-# at least temporarily, ignore stuff the CLI makes for github codespaces
-.devcontainer.json
-.github
