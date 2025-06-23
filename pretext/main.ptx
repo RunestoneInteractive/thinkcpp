@@ -2,8 +2,14 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude"
          xml:lang="en-US">
 
-  <docinfo>
-    <document-id edition="ptx">thinkcpp2</document-id>
+    <docinfo>
+      <document-id edition="ptx">thinkcpp2</document-id>
+      <initialism>TCPP2</initialism>
+      <blurb shelf="Data Structures">
+          Based on the original open source book by Allen Downey, Think C++: How
+          to Think Like a Computer Scientist. This book is an introduction to
+          computer science using C++.
+      </blurb>
     <numbering>
       <figures level="2"/>
       <exercises level="2"/>
@@ -17,7 +23,7 @@
 
   <book xml:id="book">
     <title>How To Think Like a Computer Scientist C++ Edition</title>
-    <subtitle>The Runestone Interactive Version</subtitle>
+    <subtitle>The Pretext Interactive Version</subtitle>
     <xi:include href="./frontmatter.ptx"/>
     <xi:include href="./Chapter1/toctree.ptx"/>
     <xi:include href="./Chapter2/toctree.ptx"/>

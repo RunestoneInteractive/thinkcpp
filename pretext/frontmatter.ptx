@@ -10,6 +10,12 @@
       <personname>Allen B. Downey</personname>
     </author>
 
+    <editor corresponding="yes">
+        <personname>Jason L. Wright</personname>
+        <department>Computer Science</department>
+        <institution>Idaho State University</institution>
+    </editor>
+
     <copyright>
       <year>2012</year>
       <holder>Barbara Ericson and Allen B. Downey.</holder>
