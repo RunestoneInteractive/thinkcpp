@@ -5,7 +5,7 @@
     <docinfo>
       <document-id edition="ptx">thinkcpp2</document-id>
       <initialism>TCPP2</initialism>
-      <blurb shelf="Data Structures">
+      <blurb shelf="Intro to Computer Science">
           Based on the original open source book by Allen Downey, Think C++: How
           to Think Like a Computer Scientist. This book is an introduction to
           computer science using C++.
